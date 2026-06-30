@@ -691,7 +691,27 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "A lender can turn you down — what it can't do is turn you down for who you are. <b>ECOA makes it illegal to base a credit decision</b> on race, color, religion, national origin, sex, marital status, age, or the fact that your income comes from public assistance. The protection reaches further than the moment of denial: it's also a violation to act in a way that would discourage a reasonable person from even applying, on one of those grounds, which means a lender can break the law before any application is filed. ECOA lives in Regulation B."
+              "html": "A lender can turn you down — what it can't do is turn you down for who you are. <b>ECOA</b>, enacted in <span class=\"cloze\" data-accept='[\"1974\",\"nineteen seventy-four\"]' data-reveal=\"1974\">?</span> and implemented through <b>Regulation B</b>, makes it illegal to base any credit decision on a prohibited basis. Unlike the Fair Housing Act, ECOA isn't limited to real estate — it covers <b>all forms of lending</b>. The full list of prohibited bases under § 1002.4(a) runs to <b>11 items</b>: race, color, nationality, sex (including gender, sexual orientation, and sexual identity), religion, marital status, age (with an exception for capacity to contract), participation in a credit counseling program, income earned through public assistance, prior exercise of rights under consumer credit protection laws, and intent to bear offspring. The protection reaches further than the moment of denial: it's also a violation to <b>discourage</b> a reasonable person from even applying on one of those grounds, which means a lender can break the law before any application exists."
+            }
+          ]
+        },
+        {
+          "heading": "who's exempt",
+          "paras": [
+            {
+              "html": "Almost every creditor falls under ECOA, but a handful of credit types carry partial exemptions. <b>Public utilities credit</b> — service provided through pipes, wires, or transmission — is exempt only from marital-status inquiries and record-retention rules. <b>Securities credit</b> under the Securities Exchange Act gets a broader carve-out: sex, marital status, spouse information, name designation, account aggregation, furnishing credit information, and record retention. <b>Incidental credit</b> — consumer credit with no finance charge and no more than <span class=\"cloze\" data-accept='[\"4\",\"four\",\"four installments\",\"4 installments\"]' data-reveal=\"4 installments\">?</span> — carries a similar list plus an exemption from notifications. <b>Government credit</b> — extensions to governments or their subdivisions — stands alone as the only category exempt from the general discrimination rule itself. And <b>special purpose credit programs</b> are the reverse: they're the one place a creditor may deliberately consider prohibited characteristics, because the whole point is to serve an economically disadvantaged class. A program qualifies only if it doesn't discriminate against applicants on any other prohibited basis."
+            }
+          ],
+          "synth": {
+            "q": "What makes government credit and special purpose credit programs different from the other three ECOA exemptions?",
+            "a": "Government credit is the only type fully exempt from ECOA's discrimination rule. Special purpose credit programs are the only type where a creditor may intentionally consider prohibited characteristics (like race or national origin) as eligibility criteria, because the program exists to serve an economically disadvantaged class. The other three (public utilities, securities, incidental) are only exempt from specific procedural requirements — not from the discrimination prohibition itself."
+          }
+        },
+        {
+          "heading": "government monitoring",
+          "paras": [
+            {
+              "html": "When a creditor receives an application for credit that will be <b>secured by a dwelling</b> the applicant occupies or will occupy as a principal residence — a purchase or refinance — the creditor must collect the applicant's <b>ethnicity and race, sex, marital status, and age</b>. If the applicant refuses to self-identify in a face-to-face application, the MLO is required to note what he or she believes to be the applicant's race, national origin, and sex based on <b>visual observation</b>. In a non-face-to-face application — phone, mail, online — a refusal is simply recorded as a refusal, and the MLO may not guess."
             }
           ]
         },
@@ -704,19 +724,74 @@ const section3: SectionContent = {
           },
           "paras": [
             {
-              "html": "The teeth are in the timing. Once an application is complete, the creditor owes you a <b>Notice of Action Taken</b>, and the deadline is fixed: it must go out within 30 calendar days. That fixed window is what turns \"we'll get back to you\" into something a regulator can audit — so the creditor must send the Notice of Action Taken within <span class=\"cloze\" data-accept='[\"30 calendar days\",\"30 days\",\"30\",\"thirty\",\"thirty days\"]' data-reveal=\"30 calendar days\">?</span>. If the news is adverse, the clock runs the other way too: you have 30 days from that notice to demand the specific reasons behind it. ECOA application records have to be kept for <b>25 months</b>."
+              "html": "Once an application is complete, the creditor owes you a <b>Notice of Action Taken</b>, and the deadline is fixed: it must arrive within <span class=\"cloze\" data-accept='[\"30 calendar days\",\"30 days\",\"30\",\"thirty\",\"thirty days\"]' data-reveal=\"30 calendar days\">?</span>. If the lender approves, the notice explains outstanding conditions and next steps. If the lender can't approve as submitted but can offer different terms, the <b>counteroffer</b> goes on the notice and the applicant has <b>90 calendar days</b> to accept. If additional information is still needed, the creditor sends a <b>Notice of Incomplete Application</b> specifying what's missing and a reasonable deadline to provide it — silence from the applicant releases the creditor from any further obligation. ECOA application records must be retained for <b>25 months</b>."
             }
           ],
           "synth": {
-            "q": "After a completed application, what are the two ECOA deadlines — the creditor's to notify, and the applicant's to push back?",
-            "a": "The creditor must send the Notice of Action Taken within 30 calendar days; after an adverse action, the applicant then has 30 days from that notification to request the specific reasons for the denial."
+            "q": "After a completed application, what are the two ECOA deadlines — the creditor's to notify, and the applicant's to push back on an adverse decision?",
+            "a": "The creditor must send the Notice of Action Taken within 30 calendar days. If the action is adverse, the applicant has 60 days from the denial notification to submit a written request for the specific reasons; the creditor then has 30 days from receiving that request to provide them."
+          }
+        },
+        {
+          "heading": "the adverse action notice",
+          "paras": [
+            {
+              "html": "A denial can't hide behind vague language. The <b>Adverse Action Notice</b> must state the action taken, give the creditor's name and address, name the federal agency that administers compliance for that creditor, and explain how the applicant may challenge the decision. For the reasons themselves, the creditor has a choice: state the specific reasons on the notice, or tell the applicant that a written request for reasons will be honored — that request must reach the lender within <span class=\"cloze\" data-accept='[\"60 days\",\"60\",\"sixty\",\"sixty days\"]' data-reveal=\"60 days\">?</span> of the denial, and the creditor then has 30 days to respond. Saying the denial was \"based on internal standards\" or that the applicant \"failed to achieve a qualifying score\" is never sufficient. If the denial relied on a <b>credit report</b>, the notice must also name the repository, tell the applicant a free copy is available, and state that the credit bureau did not make the lending decision."
+            }
+          ],
+          "synth": {
+            "q": "What additional information must an Adverse Action Notice include when the denial was based, in whole or in part, on the applicant's credit profile?",
+            "a": "The name and address of the credit repository that supplied the report, notice that the applicant may obtain a free copy of that report, and a statement that the credit bureau did not influence the decision — the creditor made it independently."
           }
         },
         {
           "heading": "the appraisal copy",
           "paras": [
             {
-              "html": "You paid for the appraisal, so ECOA makes sure you see it. The creditor must hand over a free copy of any appraisal or written valuation <b>promptly on completion</b>, and the outside limit is three business days before consummation. No later than <span class=\"cloze\" data-accept='[\"3 business days\",\"3\",\"three\",\"three business days\"]' data-reveal=\"3 business days\">?</span> before consummation, that copy has to be in your hands. You're allowed to waive the three-day timing and take the copy later — but the copy itself is never optional."
+              "html": "You paid for the appraisal, so ECOA makes sure you see it. For any first-lien dwelling-secured loan not covered by TRID, the creditor must notify you within <b>3 business days</b> of receiving the application that you have the right to a copy. The copy itself must arrive <b>promptly upon completion</b>, and the hard backstop is <span class=\"cloze\" data-accept='[\"3 business days\",\"3\",\"three\",\"three business days\"]' data-reveal=\"3 business days\">?</span> before consummation for closed-end credit or account opening for open-end. You can waive the timing and agree to receive it at or before closing — but the waiver must be obtained at least 3 business days ahead, and waiving the timing never waives the copy itself. If the deal falls through, the creditor has <b>30 days</b> after deciding the transaction won't close to deliver whatever valuations were completed. The creditor may not charge for providing the copy, though it can charge a reasonable fee for the appraisal itself."
+            }
+          ]
+        },
+        {
+          "heading": "income and co-applicants",
+          "paras": [
+            {
+              "html": "A creditor cannot discount or exclude an applicant's income because of a prohibited basis, because the income is <b>part-time</b>, or because it comes from an <b>annuity, pension, or other retirement benefit</b>. Public-assistance income and unemployment benefits are valid income — the creditor may evaluate the amount and whether it's likely to continue, but cannot dismiss the source. When an applicant relies on legally entitled <b>alimony, child support, or separate maintenance payments</b>, the creditor may consider them as income to the extent they're likely to be consistently received. A creditor may offer the option to add a co-applicant, but it can never <b>require</b> one or condition the credit on having one."
+            }
+          ],
+          "synth": {
+            "q": "Under ECOA, what is the rule for how a creditor must treat alimony and child support income on an application?",
+            "a": "The creditor may count alimony, child support, or separate maintenance payments as income to the extent they are likely to be consistently made and are due to continue — but cannot refuse to consider them simply because of their source."
+          }
+        },
+        {
+          "heading": "testing and self-testing",
+          "paras": [
+            {
+              "html": "A state or federal examiner may approach an MLO posing as a customer or referral source to test compliance — fail, and legal consequences follow. A <b>self-test</b> is the company's own version: a program or study designed to measure the extent of its compliance with ECOA. If a self-test turns up a likely violation — the standard is <b>more likely than not</b>, even without formal adjudication — the company must report the failure to the relevant regulator and take <b>corrective action</b> that is reasonably likely to remedy both the cause and the effect. Corrective action means identifying the policies behind the violation, determining its scope, and assessing its extent. It may include both prospective and remedial relief. Taking corrective action is <span class=\"cloze\" data-accept='[\"not an admission\",\"not an admission that a violation occurred\",\"not an admission of violation\"]' data-reveal=\"not an admission that a violation occurred\">?</span>."
+            }
+          ]
+        },
+        {
+          "heading": "disparate treatment and disparate impact",
+          "paras": [
+            {
+              "html": "<b>Disparate treatment</b> is intentional discrimination: an applicant is treated differently because of a protected characteristic. A lender charging higher rates to borrowers of one ethnicity while offering lower rates to equally qualified borrowers of another ethnicity is disparate treatment — the intent to discriminate is the defining element."
+            },
+            {
+              "html": "<b>Disparate impact</b> is harder to spot because the policy itself looks neutral. Centier Bank, an Indiana-chartered bank, decided on purely cost grounds to open only <b>partial-service branches</b> throughout the Gary Primary Metropolitan Statistical Area — the most segregated metro area in the nation for African Americans. Centier's rationale had nothing to do with race: the MSA's socioeconomic profile meant few residents could qualify for full-service products, so full branches would lose money. But the result was that the predominantly African-American population was denied access to the full range of financial services. The court found disparate impact: a facially neutral business decision that disproportionately harmed a protected class. Centier was required to open full-service centers in the Gary MSA, absorbing the losses as a cost of doing business."
+            }
+          ],
+          "synth": {
+            "q": "Why was Centier Bank's decision found to be disparate impact rather than disparate treatment?",
+            "a": "Because Centier's decision to open only partial-service branches was based on cost and the MSA's socioeconomic profile, not on the race of its residents — so there was no intent to discriminate (which would be disparate treatment). But the neutral decision disproportionately deprived the predominantly African-American population of access to full financial services, which is disparate impact."
+          }
+        },
+        {
+          "heading": "foreign language and disclosures",
+          "paras": [
+            {
+              "html": "Any written disclosure or information a creditor provides must be <b>clear and conspicuous</b> and in a form the applicant can retain. Disclosures may be issued in languages other than English, as long as they're also <b>available in English upon request</b>."
             }
           ]
         }
@@ -736,16 +811,52 @@ const section3: SectionContent = {
             "a": "acting in a way that would discourage a reasonable person from applying, on a prohibited basis — a violation even with <span class='hl'>no formal application</span>"
           },
           {
-            "peg": "treatment",
-            "topic": "Disparate treatment",
-            "q": "Disparate treatment means…",
-            "a": "treating an applicant differently <span class='hl'>because of a protected class</span>"
+            "peg": "co-applicant",
+            "topic": "Income & co-applicants",
+            "q": "Can a creditor require a co-applicant?",
+            "a": "No — a creditor may <span class='hl'>offer</span> the option, but can never require one or condition credit on having one"
           },
           {
-            "peg": "impact",
-            "topic": "Disparate impact",
-            "q": "Disparate impact means…",
-            "a": "a <span class='hl'>neutral policy</span> that harms a protected class without business justification"
+            "peg": "foreign language",
+            "topic": "Disclosures",
+            "q": "When can ECOA disclosures be issued in a language other than English?",
+            "a": "Anytime, as long as they're <span class='hl'>available in English upon request</span>"
+          },
+          {
+            "peg": "visual observation",
+            "topic": "Government monitoring",
+            "q": "An applicant refuses to self-identify race in a face-to-face application. What must the MLO do?",
+            "a": "Note the applicant's race, national origin, and sex based on <span class='hl'>visual observation</span>"
+          },
+          {
+            "peg": "corrective action",
+            "topic": "Testing & self-testing",
+            "q": "Taking corrective action after a self-test is —",
+            "a": "<span class='hl'>not an admission</span> that a violation occurred"
+          },
+          {
+            "peg": "elderly",
+            "topic": "Definitions",
+            "q": "Under ECOA, 'elderly' means —",
+            "a": "age <span class='hl'>62</span> or older"
+          },
+          {
+            "peg": "government credit",
+            "topic": "Exemptions",
+            "q": "Which ECOA exemption is the broadest?",
+            "a": "<span class='hl'>Government credit</span> — the only type exempt from the discrimination rule itself"
+          },
+          {
+            "peg": "counteroffer",
+            "topic": "Adverse action",
+            "q": "After a counteroffer on an Adverse Action Notice, the applicant has —",
+            "a": "<span class='hl'>90 calendar days</span> to accept"
+          },
+          {
+            "peg": "offspring",
+            "topic": "Protected classes",
+            "q": "The 11th prohibited basis under § 1002.4(a) that's easy to miss?",
+            "a": "Whether the applicant intends to <span class='hl'>bear offspring</span>"
           }
         ],
         "mcq": [
@@ -776,6 +887,56 @@ const section3: SectionContent = {
               "Disparate impact",
               "Discouragement",
               "Redlining"
+            ],
+            "correct": 1
+          },
+          {
+            "q": "Which type of credit is fully exempt from ECOA's discrimination rule?",
+            "opts": [
+              "Public utilities credit",
+              "Securities credit",
+              "Incidental credit",
+              "Government credit"
+            ],
+            "correct": 3
+          },
+          {
+            "q": "A self-test finds a likely ECOA violation. The threshold for requiring corrective action is —",
+            "opts": [
+              "Beyond a reasonable doubt",
+              "Clear and convincing evidence",
+              "More likely than not",
+              "Preponderance of the evidence"
+            ],
+            "correct": 2
+          },
+          {
+            "q": "A creditor denies a loan and offers a counteroffer instead. How long does the applicant have to accept?",
+            "opts": [
+              "30 calendar days",
+              "60 calendar days",
+              "90 calendar days",
+              "120 calendar days"
+            ],
+            "correct": 2
+          },
+          {
+            "q": "An applicant refuses to self-identify their race on a mail-in application. The MLO must —",
+            "opts": [
+              "Note the race based on the applicant's name",
+              "Record the refusal and make no designation",
+              "Leave the field blank without notation",
+              "Assign a default category"
+            ],
+            "correct": 1
+          },
+          {
+            "q": "Which income source can a creditor NOT discount under ECOA?",
+            "opts": [
+              "Income from an illegal activity",
+              "Part-time employment income",
+              "Gambling winnings",
+              "Non-recurring gifts"
             ],
             "correct": 1
           }
