@@ -1,0 +1,287 @@
+{
+  "chapter_id": "uniform-state-content",
+  "section_id": "licensing-standards",
+  "section_title": "Licensing Standards",
+  "chapter_title": "Uniform State Content",
+  "page_range": {
+    "start": 586,
+    "end": 600
+  },
+  "summary": "This section uses real-world scenarios to illustrate ethical and procedural standards for MLOs, covering topics from down payment calculation and ARM adjustments to fraud prevention, disclosure requirements, and cybersecurity responsibilities. MLOs must act in the borrower's best interest, disclose conflicts, report red flags, and never falsify application information.",
+  "concepts": [
+    {
+      "id": "down-payment-vs-total-cash",
+      "term": "Down payment vs. total cash to close",
+      "definition": "A borrower's stated cash contribution may represent either just the down payment or the total funds available, including settlement costs, and the MLO must clarify which before structuring the loan.",
+      "why_it_exists": "Misunderstanding the distinction causes the loan to be structured incorrectly, potentially leaving the borrower short of funds at closing.",
+      "examples": [
+        {
+          "scenario": "Sarah says she has $65,000 total. Settlement costs are $8,750, so her down payment is $56,250 and her loan is $243,750 on a $300,000 purchase, yielding an 81.3% LTV.",
+          "outcome": "MLO Hailey advises Sarah that adding $3,750 more would bring LTV to 80% and eliminate PMI, saving Sarah money long-term."
+        }
+      ],
+      "cross_refs": [
+        "ltv-and-pmi-threshold",
+        "arm-cap-structure"
+      ],
+      "check_questions": [
+        {
+          "question": "A borrower says she has $65,000 to spend on a $300,000 home and estimated closing costs are $8,750. What is her down payment?",
+          "answer": "$56,250 ($65,000 minus $8,750 in settlement costs).",
+          "type": "application"
+        },
+        {
+          "question": "Why should an MLO always ask whether a borrower's stated amount is the down payment only or the total cash available?",
+          "answer": "Because settlement costs must also be paid at closing; if the borrower plans to use all funds for the down payment, they may not have enough to cover closing costs.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "ltv-and-pmi-threshold",
+      "term": "LTV threshold for PMI elimination",
+      "definition": "Private mortgage insurance (PMI) is required on conventional loans when the loan-to-value ratio exceeds 80%, and borrowers can avoid it by ensuring their down payment brings the LTV to 80% or below.",
+      "why_it_exists": "PMI protects the lender against default risk when the borrower has less than 20% equity, but it adds cost to the borrower that can be avoided with a larger down payment.",
+      "examples": [
+        {
+          "scenario": "Sarah's loan is $243,750 on a $300,000 home (81.3% LTV). Adding $3,750 to her down payment reduces the loan to $240,000 (80% LTV).",
+          "outcome": "Sarah avoids PMI entirely by contributing $3,750 more, saving money over the life of the loan."
+        }
+      ],
+      "cross_refs": [
+        "down-payment-vs-total-cash"
+      ],
+      "check_questions": [
+        {
+          "question": "At what LTV does PMI become required on a conventional loan?",
+          "answer": "Above 80% LTV (i.e., when the down payment is less than 20%).",
+          "type": "recall"
+        },
+        {
+          "question": "A home is valued at $300,000 and the loan amount is $243,750. Does the borrower owe PMI, and by how much must the loan be reduced to eliminate it?",
+          "answer": "Yes, PMI is required because LTV is 81.3%. The loan must be reduced by $3,750 to reach $240,000 (80% LTV) to eliminate PMI.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "arm-cap-structure",
+      "term": "ARM cap structure (5/2/5)",
+      "definition": "An adjustable-rate mortgage cap structure limits how much the interest rate can change at the initial adjustment, at each subsequent annual adjustment, and over the life of the loan.",
+      "why_it_exists": "Caps protect borrowers from unaffordable payment shock by limiting how drastically lenders can raise rates at any one adjustment period.",
+      "examples": [
+        {
+          "scenario": "Bobby's 5/1 ARM has a 1.5% start rate and a 5/2/5 cap. At year 6, the calculated rate would be 6.875% (2.875% SOFR + 4% margin), but the 5-point initial adjustment cap limits it to 6.5% (1.5% + 5).",
+          "outcome": "Bobby's rate is capped at 6.5% instead of 6.875%, and at year 7 a 2-point periodic cap limits a drop from 6.5% to no lower than 4.5%, not the calculated 4.125%."
+        }
+      ],
+      "cross_refs": [
+        "down-payment-vs-total-cash"
+      ],
+      "check_questions": [
+        {
+          "question": "In a 5/2/5 ARM cap structure, what does each number represent?",
+          "answer": "5 = maximum rate change at the first adjustment; 2 = maximum change at each subsequent annual adjustment; 5 = maximum total change over the life of the loan.",
+          "type": "recall"
+        },
+        {
+          "question": "Bobby's ARM start rate is 1.5% with a 5-point initial adjustment cap. The index plus margin equals 6.875%. What rate does his servicer actually apply at the first adjustment?",
+          "answer": "6.5%, because the initial adjustment cap limits the increase to 5 percentage points above the 1.5% start rate.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "power-of-attorney-mortgage",
+      "term": "Power of attorney (POA) for mortgage transactions",
+      "definition": "A POA allows a designated individual to sign documents and act on behalf of a borrower who cannot attend closing, but it must be transaction-specific and lender-approved before use.",
+      "why_it_exists": "Borrowers may be incapacitated, incarcerated, or traveling and unable to attend closing; POA ensures transactions are not delayed while maintaining legal validity.",
+      "examples": [
+        {
+          "scenario": "Rick must travel to London before closing. He designates his wife Terry as his POA; their attorney prepares the document and the lender approves it.",
+          "outcome": "Terry signs on her own behalf and Rick's, completing the purchase on time before the rate lock expires."
+        }
+      ],
+      "cross_refs": [
+        "dual-capacity-disclosure"
+      ],
+      "check_questions": [
+        {
+          "question": "What two requirements must be met before a POA can be used in a mortgage transaction?",
+          "answer": "The POA must be specific to the transaction and must be approved by the lender prior to the closing.",
+          "type": "recall"
+        },
+        {
+          "question": "A homeowner becomes comatose and never designated a POA. How can her family obtain POA authority to sell her home?",
+          "answer": "The family must petition a court of competent jurisdiction to appoint a family member as POA since it cannot be self-designated after incompetency occurs.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "dual-capacity-disclosure",
+      "term": "Dual capacity disclosure",
+      "definition": "When an MLO also acts as the real estate agent on the same transaction, he or she must issue a Dual Capacity Disclosure informing the borrower of the potential conflict of interest within three business days of application.",
+      "why_it_exists": "Wearing both hats creates a financial incentive for the professional to steer the borrower toward products or decisions that benefit the professional rather than the borrower.",
+      "examples": [
+        {
+          "scenario": "An MLO who is also a licensed Realtor knows the borrower qualifies for a USDA loan but avoids mentioning it because doing so would disqualify the MLO from also earning the Realtor commission.",
+          "outcome": "This omission is the exact conflict of interest the Dual Capacity Disclosure is designed to prevent; the borrower must be told they can hire someone else for either role."
+        }
+      ],
+      "cross_refs": [
+        "affiliated-business-arrangement-disclosure",
+        "power-of-attorney-mortgage"
+      ],
+      "check_questions": [
+        {
+          "question": "When must a Dual Capacity Disclosure be issued?",
+          "answer": "Within three business days from the date of application when the MLO is acting in dual capacity as both the MLO and real estate agent.",
+          "type": "recall"
+        },
+        {
+          "question": "Which loan type absolutely prohibits dual capacity regardless of state law?",
+          "answer": "USDA loans — no one may act in a dual capacity on any transaction financed by a USDA loan.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "affiliated-business-arrangement-disclosure",
+      "term": "Affiliated Business Arrangement Disclosure (ABAD)",
+      "definition": "An ABAD must be issued whenever an MLO refers a borrower to a company in which the MLO's company holds a 1% or greater ownership interest, or to a company where a relative of the MLO works.",
+      "why_it_exists": "Ownership ties or family relationships between the referring party and the referred company create financial conflicts of interest that borrowers have a right to know about.",
+      "examples": [
+        {
+          "scenario": "An MLO refers a borrower to a title company in which the MLO's employer owns a 3% stake.",
+          "outcome": "An ABAD must be issued informing the borrower of the ownership relationship and stating the borrower is free to use any other title company."
+        }
+      ],
+      "cross_refs": [
+        "dual-capacity-disclosure"
+      ],
+      "check_questions": [
+        {
+          "question": "What ownership threshold triggers the requirement to issue an ABAD?",
+          "answer": "A 1% or greater shared ownership interest between the referring MLO's company and the company to which the borrower is referred.",
+          "type": "recall"
+        },
+        {
+          "question": "An MLO's sister works at a home inspection company. If the MLO refers a borrower there, is an ABAD required?",
+          "answer": "Yes, an ABAD is required disclosing the associate (family) relationship because both the MLO and the relative could personally benefit from the referral.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "mlo-duty-to-report-red-flags",
+      "term": "MLO duty to report red flags and material changes",
+      "definition": "Once an MLO gains knowledge of information that could compromise the lender's position — such as fraud indicators, changed income, or litigation — the MLO must report it to the underwriter and cannot ignore it.",
+      "why_it_exists": "The MLO is the mortgage industry's first line of defense against fraud; failing to act on known red flags can make the MLO legally culpable alongside the borrower.",
+      "examples": [
+        {
+          "scenario": "Arthur tells MLO Jessie that he plans to rent out both units of the property he claimed would be his primary residence. Jessie documents the conversation in an email to the underwriter, cc'ing his manager.",
+          "outcome": "Jessie protects himself from mortgage fraud liability; the transaction may not close, but Jessie avoids criminal exposure."
+        }
+      ],
+      "cross_refs": [
+        "gift-repayment-fraud",
+        "information-falsification"
+      ],
+      "check_questions": [
+        {
+          "question": "An MLO overhears information suggesting a borrower intends to commit occupancy fraud. What must the MLO do?",
+          "answer": "The MLO must disclose the information to the underwriter and management; ignoring known fraud makes the MLO potentially culpable as an accomplice.",
+          "type": "application"
+        },
+        {
+          "question": "A borrower casually mentions she was demoted to a lower-paying job mid-application. Must the MLO act on this?",
+          "answer": "Yes, the MLO must inform the underwriter and request updated income documentation regardless of how casually the information was shared.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "gift-repayment-fraud",
+      "term": "Gift letter fraud (disguised loan as gift)",
+      "definition": "A gift used for a mortgage down payment must be a true gift with no expectation of repayment; if repayment is expected, the funds are actually a loan and using them as a gift constitutes mortgage fraud.",
+      "why_it_exists": "Undisclosed loans affecting a borrower's liabilities distort the DTI ratio and misrepresent the borrower's true financial position to the lender.",
+      "examples": [
+        {
+          "scenario": "Faye's grandfather signs a gift letter but privately tells Faye she must repay the $75,000 at 3% interest over three years. MLO Cassandra overhears this exchange.",
+          "outcome": "Cassandra refuses to use the funds, reports the conversation to the underwriter and management, and terminates her relationship with the borrower; the file is referred for criminal prosecution."
+        }
+      ],
+      "cross_refs": [
+        "mlo-duty-to-report-red-flags",
+        "information-falsification"
+      ],
+      "check_questions": [
+        {
+          "question": "What makes a purported gift ineligible for use as mortgage down payment funds?",
+          "answer": "Any expectation or agreement that the funds will be repaid transforms the gift into a loan, making the gift letter fraudulent.",
+          "type": "recall"
+        },
+        {
+          "question": "An MLO accidentally overhears a gift donor telling the borrower the money must be paid back. What is the MLO required to do?",
+          "answer": "The MLO must refuse to use the funds, report the matter to the underwriter and manager, and may need to terminate the relationship with the borrower.",
+          "type": "application"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "5%",
+      "what_it_means": "Minimum conventional loan down payment used in the Sally scenario ($250,000 × 5% = $12,500).",
+      "memorize_as": "Conventional minimum down = 5% of purchase price"
+    },
+    {
+      "value": "80%",
+      "what_it_means": "LTV threshold at or below which PMI is not required on a conventional loan.",
+      "memorize_as": "80% LTV = no PMI"
+    },
+    {
+      "value": "1%",
+      "what_it_means": "Minimum shared ownership interest between an MLO's company and a referred company that triggers the ABAD requirement.",
+      "memorize_as": "1% ownership = ABAD required"
+    },
+    {
+      "value": "3 business days",
+      "what_it_means": "Deadline to issue both the Dual Capacity Disclosure and the ABAD from the date of application (when referral or dual role occurs at application).",
+      "memorize_as": "3 business days from application for Dual Capacity Disclosure and ABAD"
+    },
+    {
+      "value": "Same business day (or next business day if after hours)",
+      "what_it_means": "Deadline to issue an ABAD when the qualifying referral occurs after the application has already been taken.",
+      "memorize_as": "Post-application ABAD = same day or next business day"
+    },
+    {
+      "value": "5/2/5",
+      "what_it_means": "Common ARM cap structure: 5-point initial adjustment cap, 2-point periodic cap, 5-point lifetime cap.",
+      "memorize_as": "5 = first change max; 2 = each annual change max; 5 = lifetime max"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "Down payment vs. total cash to close",
+      "the_distinction": "The down payment is only the portion of the purchase price the borrower pays out of pocket; total cash to close also includes settlement/closing costs. Always clarify which amount the borrower is referencing."
+    },
+    {
+      "often_confused_with": "Dual Capacity Disclosure vs. ABAD",
+      "the_distinction": "The Dual Capacity Disclosure applies when one person holds both the MLO and Realtor roles on the same deal. The ABAD applies when the MLO refers the borrower to a separate company in which the MLO's firm has a 1%+ ownership interest or where a relative works — two different situations requiring different disclosures."
+    },
+    {
+      "often_confused_with": "Initial adjustment cap vs. periodic rate cap in an ARM",
+      "the_distinction": "The initial adjustment cap limits how much the rate can change at the very first adjustment only. The periodic rate cap limits how much the rate can change at each subsequent annual adjustment. They can be different numbers (e.g., 5 vs. 2 in a 5/2/5 structure)."
+    },
+    {
+      "often_confused_with": "Gift funds vs. undisclosed loan",
+      "the_distinction": "Gift funds require no repayment and are documented with a gift letter. If any repayment agreement exists — even informal — the funds are a loan, not a gift, and using them as a gift is mortgage fraud."
+    },
+    {
+      "often_confused_with": "POA that is self-designated vs. court-appointed",
+      "the_distinction": "A POA can be designated by a competent person at any time before they lose capacity. Once a person is already incompetent, only a court of competent jurisdiction can appoint a POA — the family cannot do it themselves."
+    }
+  ]
+}

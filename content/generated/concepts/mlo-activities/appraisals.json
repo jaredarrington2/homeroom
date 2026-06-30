@@ -1,0 +1,326 @@
+{
+  "chapter_id": "mlo-activities",
+  "section_id": "appraisals",
+  "section_title": "Appraisals",
+  "chapter_title": "MLO Activities",
+  "page_range": {
+    "start": 471,
+    "end": 490
+  },
+  "summary": "This section covers how lenders evaluate borrower creditworthiness through the Four Cs, DTI ratios, LTV calculations, and ability-to-repay rules, then shifts to appraisal requirements including appraiser licensing, property condition standards, appraisal types and approaches, and disclosure obligations for appraisal copies.",
+  "concepts": [
+    {
+      "id": "four-cs-of-credit",
+      "term": "Four Cs of Credit",
+      "definition": "The four dimensions lenders use to evaluate a mortgage application: Capacity (ability to repay), Capital (funds available), Character (willingness to repay via credit history), and Collateral (the pledged property's value and marketability).",
+      "why_it_exists": "Lenders need a structured framework to assess overall loan risk beyond a single metric like credit score.",
+      "examples": [
+        {
+          "scenario": "An applicant has a high income but a poor credit history.",
+          "outcome": "Strong Capacity but weak Character may still result in denial or higher-risk pricing."
+        }
+      ],
+      "cross_refs": [
+        "debt-to-income-ratio",
+        "loan-to-value"
+      ],
+      "check_questions": [
+        {
+          "question": "Which of the Four Cs relates to a borrower's credit score and payment history?",
+          "answer": "Character, which reflects the applicant's willingness to repay based on past credit management.",
+          "type": "recall"
+        },
+        {
+          "question": "A borrower has a large down payment and low LTV. Which C does this most strengthen?",
+          "answer": "Both Capital (funds available) and Collateral (lower lender risk due to borrower equity stake).",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "debt-to-income-ratio",
+      "term": "Debt-to-Income (DTI) Ratio",
+      "definition": "A calculation that divides a borrower's monthly debt obligations by gross monthly income to measure repayment capacity, expressed as a front-end (housing only) and back-end (all debt) ratio.",
+      "why_it_exists": "DTI quantifies whether a borrower can afford new mortgage debt relative to existing obligations.",
+      "examples": [
+        {
+          "scenario": "A conventional loan applicant has a 31/41 DTI, exceeding the 28/36 guideline.",
+          "outcome": "An underwriter may still approve the loan if compensating factors exist, such as a very high credit score or low LTV."
+        }
+      ],
+      "cross_refs": [
+        "four-cs-of-credit",
+        "ability-to-repay"
+      ],
+      "check_questions": [
+        {
+          "question": "What are the DTI guidelines for FHA financing?",
+          "answer": "31% front-end and 43% back-end.",
+          "type": "recall"
+        },
+        {
+          "question": "VA financing only uses one DTI ratio. Which one, and what is the guideline?",
+          "answer": "VA uses only the back-end (total expense) ratio, with a guideline of 41%.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "loan-to-value",
+      "term": "Loan-to-Value (LTV), CLTV, and TLTV",
+      "definition": "LTV is the loan amount divided by the lesser of purchase price or appraised value; CLTV adds all outstanding lien balances; TLTV (also HCLTV/HLTV) uses the full credit line amount rather than the outstanding balance.",
+      "why_it_exists": "Lower LTV means more borrower equity, reducing the lender's loss exposure in foreclosure.",
+      "examples": [
+        {
+          "scenario": "A borrower has a $175,000 first mortgage and a $300,000 HELOC with a $62,500 balance on a $975,000 property.",
+          "outcome": "CLTV = 24.4% (using $237,500 outstanding), but TLTV = 48.7% (using the full $300,000 line capacity)."
+        }
+      ],
+      "cross_refs": [
+        "four-cs-of-credit",
+        "purchase-vs-refinance-ltv"
+      ],
+      "check_questions": [
+        {
+          "question": "A home is listed at $475,000 but appraises for $435,000. The loan amount is $310,000. What LTV must the lender use?",
+          "answer": "71.3% ($310,000 ÷ $435,000), using the lower appraised value.",
+          "type": "application"
+        },
+        {
+          "question": "Why does TLTV use the full HELOC line amount instead of the outstanding balance?",
+          "answer": "Because the borrower can draw the full line at any time, so the lender must account for the maximum possible encumbrance.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "ability-to-repay",
+      "term": "Ability to Repay (ATR)",
+      "definition": "A Dodd-Frank requirement that mortgage creditors must verify a borrower's capacity to repay a loan by documenting income, employment stability, and DTI ratios before origination.",
+      "why_it_exists": "Prevents lenders from placing borrowers into unaffordable loans, as occurred with predatory teaser-rate products before the 2008 financial crisis.",
+      "examples": [
+        {
+          "scenario": "Eddie qualifies Jillian at a 1.5% interest-only start rate without disclosing the future fully-amortizing rate of 7.875%.",
+          "outcome": "Jillian is forced to sell her home two years later because she cannot afford the recasted payment — a direct ATR violation."
+        }
+      ],
+      "cross_refs": [
+        "debt-to-income-ratio",
+        "qualified-mortgage-safe-harbor"
+      ],
+      "check_questions": [
+        {
+          "question": "Under what federal law is the ability-to-repay requirement established?",
+          "answer": "The Dodd-Frank Wall Street Reform and Consumer Protection Act (Public Law 111-203, Title XIV, Subtitle B, Sec. 1411).",
+          "type": "recall"
+        },
+        {
+          "question": "What is the consequence of a loan falling within a Qualified Mortgage category regarding ATR?",
+          "answer": "The lender receives a 'safe harbor' — an automatic presumption that the borrower has the ability to repay.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "tangible-net-benefit",
+      "term": "Tangible Net Benefit",
+      "definition": "A documentable financial advantage a borrower gains from a refinance, such as a lower rate, reduced payment, shorter term, or elimination of negative amortization, which the underwriter must record on a Tangible Net Benefit Worksheet.",
+      "why_it_exists": "Prevents unethical loan originators from churning refinances that benefit only themselves through commissions.",
+      "examples": [
+        {
+          "scenario": "A borrower refinances to convert an adjustable-rate mortgage to a fixed rate.",
+          "outcome": "Securing a fixed rate qualifies as an acceptable net tangible benefit and supports underwriter approval."
+        }
+      ],
+      "cross_refs": [
+        "ability-to-repay"
+      ],
+      "check_questions": [
+        {
+          "question": "Name four examples of acceptable net tangible benefits from a refinance.",
+          "answer": "Any four of: lowering rate, lowering payment, reducing term, securing a fixed rate, eliminating negative amortization, eliminating a balloon provision, avoiding foreclosure, removing PMI, or debt consolidation.",
+          "type": "recall"
+        },
+        {
+          "question": "Besides the internal Tangible Net Benefit Worksheet, what must the borrower receive?",
+          "answer": "A Net Tangible Benefit Customer Disclosure and Acknowledgement form issued shortly after application completion.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "appraisal-approaches",
+      "term": "Three Appraisal Approaches",
+      "definition": "The sales comparison approach uses three comparable sales; the cost approach uses construction or rehabilitation cost; and the income approach values investment property by dividing net operating income by the capitalization rate.",
+      "why_it_exists": "Different property types require different valuation methods because comparable sales may not exist or rental income may be the primary value driver.",
+      "examples": [
+        {
+          "scenario": "An appraiser is valuing a unique custom home with no nearby comparable sales.",
+          "outcome": "The cost approach is used, estimating value based on land plus the cost to construct the improvements."
+        }
+      ],
+      "cross_refs": [
+        "urar-appraisal-report"
+      ],
+      "check_questions": [
+        {
+          "question": "Which appraisal approach is most commonly used for standard residential properties?",
+          "answer": "The sales comparison (market) approach, using three comparable closed sales.",
+          "type": "recall"
+        },
+        {
+          "question": "When performing adjustments in the sales comparison approach, are changes made to the subject property or the comparables?",
+          "answer": "Adjustments are always made to the comparables, never to the subject property.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "appraisal-disclosure-rights",
+      "term": "Notice of Right to Receive Appraisal",
+      "definition": "Lenders must notify applicants of their right to a free copy of their appraisal no later than three business days from application, and must deliver the copy at least three business days before loan consummation.",
+      "why_it_exists": "Ensures borrowers can review the property valuation before committing to a loan, giving them an opportunity to contest errors.",
+      "examples": [
+        {
+          "scenario": "A loan does not close after the appraisal is completed.",
+          "outcome": "The lender must still provide the applicant a copy of the appraisal within 30 calendar days of determining the loan will not close."
+        }
+      ],
+      "cross_refs": [
+        "hpml-appraisal-requirements"
+      ],
+      "check_questions": [
+        {
+          "question": "Can a lender charge the borrower separately for providing a copy of the appraisal report?",
+          "answer": "No — the lender cannot charge for issuing the copy, though it may require payment for the appraisal itself.",
+          "type": "recall"
+        },
+        {
+          "question": "Can a borrower waive the three-day pre-closing appraisal delivery requirement?",
+          "answer": "Yes, orally or in writing, and instead receive the appraisal at closing.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "hpml-appraisal-requirements",
+      "term": "Higher-Priced Mortgage Loan (HPML) Appraisal Requirements",
+      "definition": "HPMLs require an interior inspection appraisal by a licensed or certified appraiser before consummation, and a second independent appraisal if the seller's price increase over acquisition cost exceeds thresholds tied to how recently the seller acquired the property.",
+      "why_it_exists": "Protects borrowers and lenders from artificially inflated property values in quick-flip schemes.",
+      "examples": [
+        {
+          "scenario": "A seller bought a property 60 days ago for $200,000 and is selling it to a borrower for $225,000 (12.5% increase).",
+          "outcome": "A second independent appraisal is required because the 10% threshold for a 0–90 day hold period is exceeded."
+        }
+      ],
+      "cross_refs": [
+        "appraisal-disclosure-rights"
+      ],
+      "check_questions": [
+        {
+          "question": "What price-increase threshold triggers a second HPML appraisal when the seller owned the property for 91 to 180 days?",
+          "answer": "More than 20% above the seller's acquisition price.",
+          "type": "recall"
+        },
+        {
+          "question": "What type of appraisal is always required for an HPML before consummation?",
+          "answer": "An interior inspection appraisal prepared by a licensed or certified appraiser who physically visits the property.",
+          "type": "recall"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "28/36",
+      "what_it_means": "Conventional loan DTI guidelines: 28% front-end, 36% back-end.",
+      "memorize_as": "Conventional = 28/36"
+    },
+    {
+      "value": "31/43",
+      "what_it_means": "FHA loan DTI guidelines: 31% front-end, 43% back-end.",
+      "memorize_as": "FHA = 31/43"
+    },
+    {
+      "value": "N/A / 41",
+      "what_it_means": "VA loan DTI: no front-end ratio, 41% back-end only.",
+      "memorize_as": "VA = back-end only at 41%"
+    },
+    {
+      "value": "29/41",
+      "what_it_means": "USDA loan DTI guidelines: 29% front-end, 41% back-end.",
+      "memorize_as": "USDA = 29/41"
+    },
+    {
+      "value": "3 business days from application",
+      "what_it_means": "Deadline to notify borrower of their right to receive a free appraisal copy.",
+      "memorize_as": "Appraisal notice = 3 business days from application"
+    },
+    {
+      "value": "3 business days before consummation",
+      "what_it_means": "Lender must deliver appraisal copy to borrower at least 3 business days before closing.",
+      "memorize_as": "Appraisal delivery = 3 business days before closing"
+    },
+    {
+      "value": "30 calendar days",
+      "what_it_means": "If a loan does not close, lender must provide the appraisal copy within 30 days of determining the loan will not close; also the FCRA deadline for a creditor to respond to a credit dispute.",
+      "memorize_as": "No-close appraisal copy = 30 days; FCRA dispute response = 30 days"
+    },
+    {
+      "value": "10% / 90 days",
+      "what_it_means": "HPML second appraisal trigger: seller held property 90 or fewer days and price increase exceeds 10%.",
+      "memorize_as": "0–90 days = 10% flip threshold"
+    },
+    {
+      "value": "20% / 91–180 days",
+      "what_it_means": "HPML second appraisal trigger: seller held property 91–180 days and price increase exceeds 20%.",
+      "memorize_as": "91–180 days = 20% flip threshold"
+    },
+    {
+      "value": "10 / 6",
+      "what_it_means": "Maximum financed properties for investment/second-home borrowers: 10 with automated underwriting, 6 with manual underwriting.",
+      "memorize_as": "AUS = 10 max financed properties; manual = 6"
+    },
+    {
+      "value": "75 / 150 / 200 / 300 hours",
+      "what_it_means": "Qualifying appraisal education hours: Trainee = 75; Licensed Residential = 75 additional; Certified Residential = 200; Certified General = 300.",
+      "memorize_as": "Appraiser hours ladder: 75, 75+, 200, 300"
+    },
+    {
+      "value": "1,000 / 1,500 / 3,000 hours experience",
+      "what_it_means": "Required field experience: Trainee = 1,000 hrs in 6 months; Certified Residential = 1,500 hrs in 12 months; Certified General = 3,000 hrs in 18 months (1,500 must be commercial).",
+      "memorize_as": "Experience ladder: 1k/6mo, 1.5k/12mo, 3k/18mo"
+    },
+    {
+      "value": "1989",
+      "what_it_means": "Year USPAP was adopted by Congress as the ethical and performance standard for appraisers in federally-related transactions.",
+      "memorize_as": "USPAP adopted by Congress in 1989"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "CLTV vs. TLTV",
+      "the_distinction": "CLTV uses the actual outstanding balance on all liens; TLTV (HCLTV) uses the full available credit line amount, reflecting maximum possible exposure."
+    },
+    {
+      "often_confused_with": "Front-end vs. back-end DTI",
+      "the_distinction": "Front-end (housing expense) ratio includes only PITI; back-end (total expense) ratio adds all consumer debt, leases, alimony, child support, and other monthly obligations."
+    },
+    {
+      "often_confused_with": "Tradeline verification vs. rapid re-score vs. investigative consumer report",
+      "the_distinction": "Tradeline verification checks a specific line through the credit repository and only fixes that transaction; rapid re-score reissues scores quickly for the current transaction; investigative consumer report ('full factual') involves interviewing the consumer and independently verifying everything on the report."
+    },
+    {
+      "often_confused_with": "Cosmetic repairs vs. health-and-safety repairs",
+      "the_distinction": "Cosmetic repairs (peeling non-lead paint, old carpet) affect appeal but are not required before funding; health-and-safety repairs (faulty wiring, mold, structural defects, contaminated well/septic) must be resolved before the lender will fund the loan."
+    },
+    {
+      "often_confused_with": "Home inspection vs. appraisal",
+      "the_distinction": "An appraisal determines value and notes observable condition issues; a home inspection examines the property's structural and mechanical condition in far greater depth and is typically arranged by the borrower independently."
+    },
+    {
+      "often_confused_with": "Sales comparison approach vs. income approach",
+      "the_distinction": "Sales comparison uses closed sales of similar nearby homes to derive value; the income approach values investment property by dividing net operating income by the capitalization rate."
+    }
+  ]
+}

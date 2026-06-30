@@ -1,0 +1,319 @@
+{
+  "chapter_id": "mlo-activities",
+  "section_id": "closing",
+  "section_title": "Closing",
+  "chapter_title": "MLO Activities",
+  "page_range": {
+    "start": 506,
+    "end": 520
+  },
+  "summary": "This section covers the closing process for mortgage loans, including title insurance types, leasehold estates, hazard and flood insurance requirements, private mortgage insurance (PMI) rules and removal, and wet versus dry settlement distinctions. It also addresses force-placed insurance, UCC financing statements, and all documents typically signed at settlement.",
+  "concepts": [
+    {
+      "id": "lenders-vs-owners-title-insurance",
+      "term": "Lender's vs. owner's title insurance",
+      "definition": "Lender's title insurance protects only the lender up to the outstanding mortgage balance, while owner's title insurance (optional, primary residences only) requires the insurer to fully resolve any title defect to protect the homeowner's ownership interest.",
+      "why_it_exists": "Without separate owner's coverage, a homeowner whose title defect exceeds the mortgage balance would be personally responsible for the shortfall after the lender is paid.",
+      "examples": [
+        {
+          "scenario": "A title defect worth $50,000 surfaces on a home with a $30,000 remaining mortgage balance and only a lender's policy.",
+          "outcome": "The lender's policy pays $30,000 (the outstanding balance), satisfying the mortgage, but the homeowner is personally liable for the remaining $20,000 defect."
+        }
+      ],
+      "cross_refs": [
+        "timing-of-title-documents",
+        "leasehold-estate"
+      ],
+      "check_questions": [
+        {
+          "question": "What is the maximum a lender's title insurance policy will pay if a title defect is discovered?",
+          "answer": "The lesser of the title defect's value or the mortgage's outstanding balance.",
+          "type": "recall"
+        },
+        {
+          "question": "How does the insurer's obligation differ under an owner's title policy compared to a lender's policy?",
+          "answer": "Under an owner's policy the insurer must resolve the defect regardless of its value; under a lender's policy it only pays up to the outstanding loan balance.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "leasehold-estate",
+      "term": "Leasehold estate and mortgage financing",
+      "definition": "A leasehold estate gives a tenant the right to use land under a long-term lease, and lenders typically require the lease to extend at least five years beyond the loan's maturity date to ensure the collateral remains intact.",
+      "why_it_exists": "If a lease expires while the property is still collateral, the landowner can force removal of the dwelling, leaving the lender with no recoverable asset.",
+      "examples": [
+        {
+          "scenario": "A borrower seeks a 30-year mortgage on a Hawaiian leasehold property whose ground lease expires in 32 years.",
+          "outcome": "Because the lease expires only two years past the loan's maturity (not the required five), the borrower must buy out or renew the lease, or post a security deposit in escrow, or the lender will refuse to fund."
+        }
+      ],
+      "cross_refs": [
+        "lenders-vs-owners-title-insurance",
+        "timing-of-title-documents"
+      ],
+      "check_questions": [
+        {
+          "question": "How many years beyond a proposed mortgage's maturity must a leasehold expire for a lender to feel adequately secured?",
+          "answer": "At least five years.",
+          "type": "recall"
+        },
+        {
+          "question": "What three options exist when a leasehold expires less than five years after the mortgage maturity date?",
+          "answer": "The borrower can buy out the lease, renew the lease, or the settlement company can require a security deposit equal to the lease's value held in escrow.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "force-placed-insurance",
+      "term": "Force-placed insurance",
+      "definition": "Force-placed insurance is a non-underwritten policy a lender purchases on a borrower's behalf to cover any lapse period when the borrower fails to maintain continuous hazard or flood insurance.",
+      "why_it_exists": "A gap in insurance coverage leaves the lender's collateral unprotected against damage that could render the property unsaleable in foreclosure.",
+      "examples": [
+        {
+          "scenario": "A borrower's homeowner's policy lapses for two weeks and the borrower does not respond to multiple lender warnings.",
+          "outcome": "The lender force-places a policy covering the lapse period, charges the premium through the borrower's escrow account, and raises the borrower's monthly payment to cover the current and anticipated future force-placed premium."
+        }
+      ],
+      "cross_refs": [
+        "flood-insurance",
+        "hazard-insurance-escrow"
+      ],
+      "check_questions": [
+        {
+          "question": "What does force-placed insurance protect, and what does it not cover?",
+          "answer": "It protects only the lender's interest in the dwelling; it does not cover the borrower's personal belongings or the borrower's liability.",
+          "type": "recall"
+        },
+        {
+          "question": "If a borrower can later prove continuous coverage existed during the lapse period, what must the lender do?",
+          "answer": "The lender must obtain a refund for the force-placed policy and adjust the borrower's escrow account and periodic payment accordingly.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "flood-insurance",
+      "term": "Flood insurance and NFIP requirements",
+      "definition": "Properties in FEMA flood zones A, V, or VE must carry flood insurance through the National Flood Insurance Program (NFIP) continuously for the life of the mortgage.",
+      "why_it_exists": "Standard hazard insurance excludes flood damage, so a mortgaged property in a high-risk flood zone would be unprotected collateral without a separate flood policy.",
+      "examples": [
+        {
+          "scenario": "A borrower disagrees that her property is in flood zone A and files a Letter of Map Amendment (LOMA) with FEMA.",
+          "outcome": "She must maintain flood insurance until FEMA approves the LOMA and amends the map; the filing alone does not suspend the requirement."
+        }
+      ],
+      "cross_refs": [
+        "force-placed-insurance",
+        "hazard-insurance-escrow"
+      ],
+      "check_questions": [
+        {
+          "question": "Which three FEMA flood zone designations trigger mandatory flood insurance?",
+          "answer": "Flood zones A, V, and VE.",
+          "type": "recall"
+        },
+        {
+          "question": "What is the maximum flood insurance available under the NFIP for a dwelling and its contents?",
+          "answer": "$250,000 for the dwelling and $100,000 for contents.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "hazard-insurance-escrow",
+      "term": "Hazard insurance and escrow requirements",
+      "definition": "Lenders require uninterrupted homeowner's (hazard) insurance on all mortgaged properties, and must collect it through escrow for government loans, conventional loans above 80% LTV, or conventional higher-priced mortgages less than five years old.",
+      "why_it_exists": "A damaged, uninsured property offers the lender little recovery value in foreclosure, and an escrow account ensures premiums are actually paid.",
+      "examples": [
+        {
+          "scenario": "A borrower has a conventional loan at 85% LTV.",
+          "outcome": "Because the LTV exceeds 80%, hazard insurance must be escrowed even if the borrower would prefer to pay it independently."
+        }
+      ],
+      "cross_refs": [
+        "force-placed-insurance",
+        "flood-insurance"
+      ],
+      "check_questions": [
+        {
+          "question": "A borrower has a conventional loan at 75% LTV. Is hazard insurance escrow required?",
+          "answer": "No; escrow is only mandatory for government loans, conventional loans above 80% LTV, or conventional higher-priced mortgages less than five years old.",
+          "type": "application"
+        },
+        {
+          "question": "What is the maximum amount of insurance a lender may require a borrower to carry?",
+          "answer": "Full replacement coverage — enough to restore the property to its pre-damage condition.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "pmi-removal",
+      "term": "PMI removal — borrower cancellation, automatic termination, and final termination",
+      "definition": "PMI on a standard conventional loan can be removed by borrower petition at 80% LTV, automatically by the servicer at 78% LTV (based on original value), or mandatorily at the loan's amortization midpoint regardless of LTV.",
+      "why_it_exists": "The Homeowners Protection Act requires servicers to cancel PMI once the risk justifying it (high LTV) no longer exists, protecting borrowers from paying premiums indefinitely.",
+      "examples": [
+        {
+          "scenario": "A borrower's standard conventional loan reaches 78% LTV based on the original appraised value and the loan is current.",
+          "outcome": "The servicer must automatically cancel PMI without requiring a new appraisal or title search."
+        }
+      ],
+      "cross_refs": [
+        "pmi-basics",
+        "pmi-calculation"
+      ],
+      "check_questions": [
+        {
+          "question": "At what LTV threshold does a servicer automatically terminate PMI on a standard conventional loan, and what document is the LTV measured against?",
+          "answer": "78% LTV, measured against the original appraised value (or original purchase price, whichever is lower).",
+          "type": "recall"
+        },
+        {
+          "question": "A high-risk (non-conforming) loan reaches the amortization midpoint but the LTV is still above 77%. Must the servicer remove PMI?",
+          "answer": "No; amortization midpoint has no influence on high-risk loans. PMI remains until the LTV naturally amortizes to 77% and the loan is current.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "pmi-basics",
+      "term": "Private mortgage insurance (PMI)",
+      "definition": "PMI is a conventional-loan insurance product that insures a portion of a lender's investment when the LTV exceeds 80%, enabling borrowers to purchase with less than a 20% down payment while reducing lender risk.",
+      "why_it_exists": "Research showed borrowers with less than 20% equity default at significantly higher rates, so Max Karl founded MGIC in 1957 to insure that excess exposure and keep homeownership accessible.",
+      "examples": [
+        {
+          "scenario": "A borrower defaults with an outstanding balance of $230,000 on a home originally valued at $250,000, and has 30% PMI coverage.",
+          "outcome": "PMI reimburses the lender $9,000 (the 30% coverage applied to the $30,000 balance above the 80% LTV threshold of $200,000)."
+        }
+      ],
+      "cross_refs": [
+        "pmi-removal",
+        "pmi-calculation"
+      ],
+      "check_questions": [
+        {
+          "question": "Does PMI protect the borrower in the event of job loss or disability?",
+          "answer": "No; PMI protects only the lender's investment, not the borrower.",
+          "type": "recall"
+        },
+        {
+          "question": "If a PMI company declines to insure an approved loan, what happens to the loan?",
+          "answer": "The loan is declined as presented, because the PMI company also underwrites and must accept the risk.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "closing-disclosure-and-rescission",
+      "term": "Closing Disclosure delivery, rescission, and wet vs. dry settlement",
+      "definition": "The lender must deliver the Closing Disclosure to the applicant no later than three business days before settlement, and a rescindable primary-residential refinance requires three precise business days to elapse after closing before the loan funds.",
+      "why_it_exists": "The timing rules give borrowers meaningful opportunity to review final loan terms before committing and to cancel if needed, preventing last-minute surprises at the closing table.",
+      "examples": [
+        {
+          "scenario": "A primary-residential refinance closes on Tuesday in a wet settlement state.",
+          "outcome": "The three-day rescission period means the loan cannot fund before 12:01 a.m. Saturday; in a dry settlement state the loan also cannot fund until the lender receives, reviews, approves, and records the documents."
+        }
+      ],
+      "cross_refs": [
+        "lenders-vs-owners-title-insurance"
+      ],
+      "check_questions": [
+        {
+          "question": "How many business days before the settlement date must the borrower receive the Closing Disclosure?",
+          "answer": "No later than three business days prior to the settlement date.",
+          "type": "recall"
+        },
+        {
+          "question": "How does funding timing differ between a wet settlement state and a dry settlement state for a rescindable refinance?",
+          "answer": "In a wet settlement state the loan funds at the later of settlement or the three-day rescission expiration; in a dry settlement state it also waits for the lender to receive, approve, and record the documents after the rescission period.",
+          "type": "distinction"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "5 years",
+      "what_it_means": "Minimum number of years a leasehold must extend beyond the mortgage maturity date for a lender to accept the property as collateral.",
+      "memorize_as": "Lease must outlive the loan by 5 years."
+    },
+    {
+      "value": "80% LTV",
+      "what_it_means": "LTV threshold at which PMI is generally required on conventional loans; also the threshold for borrower-petitioned PMI removal.",
+      "memorize_as": "Above 80% = PMI required; at 80% = borrower can petition removal."
+    },
+    {
+      "value": "78% LTV",
+      "what_it_means": "LTV at which the servicer must automatically cancel PMI on a standard conventional loan without a new appraisal, based on the original value.",
+      "memorize_as": "78% = automatic PMI termination (standard loans)."
+    },
+    {
+      "value": "77% LTV",
+      "what_it_means": "LTV at which PMI on a high-risk (non-conforming) loan automatically terminates if the loan is current.",
+      "memorize_as": "77% = automatic PMI termination for high-risk/non-conforming loans."
+    },
+    {
+      "value": "24 months",
+      "what_it_means": "Good payment history review period required for borrower-petitioned PMI removal; no 60-day lates and no 30-day lates in the prior 12 months.",
+      "memorize_as": "2-year good payment history needed to cancel PMI."
+    },
+    {
+      "value": "2 years",
+      "what_it_means": "Minimum time a PMI-bearing loan must be established before the servicer will consider a removal request (unless value increased due to improvements).",
+      "memorize_as": "PMI can't be removed before 2 years (absent improvements)."
+    },
+    {
+      "value": "$250,000 / $100,000",
+      "what_it_means": "Maximum NFIP flood insurance limits: $250,000 for the dwelling structure and $100,000 for contents.",
+      "memorize_as": "NFIP max = $250k dwelling / $100k contents."
+    },
+    {
+      "value": "3 business days",
+      "what_it_means": "Required delivery window before settlement for the Closing Disclosure; also the rescission period that must pass before a primary-residential refinance funds.",
+      "memorize_as": "3 business days = CD delivery AND rescission countdown."
+    },
+    {
+      "value": "45 days",
+      "what_it_means": "Maximum time after settlement within which the lender must perform the initial aggregate escrow analysis.",
+      "memorize_as": "Escrow analysis due within 45 days of closing."
+    },
+    {
+      "value": "7 years",
+      "what_it_means": "If a borrower satisfies a financed (one-time) MI mortgage within the first seven years, the PMI company will likely issue a pro-rated refund.",
+      "memorize_as": "Financed MI refund window = 7 years."
+    },
+    {
+      "value": "1957",
+      "what_it_means": "Year Max Karl founded MGIC, the first private mortgage insurance company.",
+      "memorize_as": "PMI born 1957 with MGIC."
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "Lender's title insurance vs. owner's title insurance",
+      "the_distinction": "Lender's policy pays only up to the outstanding loan balance and leaves the homeowner exposed beyond that amount; owner's policy requires full resolution of the defect at any dollar amount but is optional and available for primary residences only."
+    },
+    {
+      "often_confused_with": "PMI automatic termination (78% LTV) vs. borrower-petitioned cancellation (80% LTV)",
+      "the_distinction": "At 78% the servicer must act without a new appraisal; at 80% the borrower must initiate the request, pay for an appraisal and title search, and prove good payment history and no subordinate liens."
+    },
+    {
+      "often_confused_with": "Standard conventional loan PMI removal vs. high-risk loan PMI removal",
+      "the_distinction": "Standard loans reach automatic termination at 78% LTV or at amortization midpoint; high-risk loans have no midpoint provision and must reach 77% LTV with the loan current."
+    },
+    {
+      "often_confused_with": "Wet settlement vs. dry settlement funding timing",
+      "the_distinction": "In a wet settlement state the loan funds at or shortly after closing (after rescission if applicable); in a dry settlement state funding is delayed until the lender receives, approves, and records all documents."
+    },
+    {
+      "often_confused_with": "Force-placed hazard insurance vs. force-placed flood insurance",
+      "the_distinction": "Both are triggered by a lapse in required coverage and follow the same escalation process, but flood force-placement applies only to properties in FEMA zones A, V, or VE where NFIP coverage is mandatory."
+    },
+    {
+      "often_confused_with": "Borrower-paid PMI vs. lender-paid PMI (LPMI)",
+      "the_distinction": "With borrower-paid PMI the borrower pays a separate monthly or financed premium that can later be removed; with LPMI the lender pays the premium but recoups it via a permanently higher interest rate that cannot be separately removed."
+    }
+  ]
+}

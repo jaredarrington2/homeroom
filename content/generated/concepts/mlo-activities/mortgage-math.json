@@ -1,0 +1,302 @@
+{
+  "chapter_id": "mlo-activities",
+  "section_id": "mortgage-math",
+  "section_title": "Mortgage Math",
+  "chapter_title": "MLO Activities",
+  "page_range": {
+    "start": 521,
+    "end": 540
+  },
+  "summary": "This section covers the mathematical calculations mortgage loan originators must perform—including interest, PMI, LTV, DTI, and discount points—as well as ethical obligations, fraud definitions, prohibited conduct, and common mortgage fraud schemes that MLOs must recognize and avoid.",
+  "concepts": [
+    {
+      "id": "periodic-and-interim-interest",
+      "term": "Periodic and interim interest calculations",
+      "definition": "Periodic interest is calculated by multiplying the outstanding loan balance by the interest rate and dividing by 12 for monthly or 360 for daily; interim interest covers the days from loan funding through the last day of the closing month.",
+      "why_it_exists": "Lenders need to collect the exact interest owed before the first regular payment begins, since the first payment typically covers a full month starting the month after closing.",
+      "examples": [
+        {
+          "scenario": "A $400,000 loan at 5% closes and funds on the 5th of a 30-day month.",
+          "outcome": "Daily interest = $400,000 × 5% ÷ 360 = $55.56; interim interest = $55.56 × 25 days = $1,389 due at settlement."
+        }
+      ],
+      "cross_refs": [
+        "amortization",
+        "monthly-payment-piti"
+      ],
+      "check_questions": [
+        {
+          "question": "Why does the mortgage industry divide annual interest by 360 instead of 365 to find daily interest?",
+          "answer": "365 is not evenly divisible by 12, so the industry uses 360 (a banker's year) for consistent monthly calculations.",
+          "type": "recall"
+        },
+        {
+          "question": "A $300,000 loan at 4% funds on the 20th of a 30-day month. What is the interim interest due at closing?",
+          "answer": "Annual interest = $12,000; daily rate = $12,000 ÷ 360 = $33.33; days remaining = 10; interim interest = $33.33 × 10 = $333.33.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "amortization",
+      "term": "Amortization",
+      "definition": "The process by which a fixed P&I payment allocates a decreasing portion to interest and an increasing portion to principal each month as the outstanding balance falls.",
+      "why_it_exists": "Because interest is calculated on the remaining balance, each principal reduction lowers the next month's interest charge, automatically shifting more of the fixed payment toward principal.",
+      "examples": [
+        {
+          "scenario": "A 30-year $200,000 loan at 6% has a fixed P&I of $1,199.10.",
+          "outcome": "Early payments are mostly interest; over time more goes to principal, but the payment never changes on a fixed-rate fully amortizing loan."
+        }
+      ],
+      "cross_refs": [
+        "periodic-and-interim-interest",
+        "monthly-payment-piti"
+      ],
+      "check_questions": [
+        {
+          "question": "On a fully amortizing fixed-rate loan, what happens to the interest portion of each payment over time?",
+          "answer": "It decreases each month because the outstanding principal balance is lower, reducing the interest charge even though the total payment stays the same.",
+          "type": "recall"
+        },
+        {
+          "question": "How does an interest-only loan differ from a fully amortizing loan in terms of monthly interest charges?",
+          "answer": "An interest-only loan has no principal reduction, so the balance and interest charge remain constant; a fully amortizing loan reduces principal monthly, lowering the interest portion over time.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "monthly-payment-piti",
+      "term": "Monthly P&I and PITI payment calculation",
+      "definition": "P&I is calculated using the formula P = (i × A) ÷ (1 − (1 + i)^−N); PITI adds the monthly equivalents of taxes and insurance (escrow items) to P&I.",
+      "why_it_exists": "Lenders and borrowers need the total monthly obligation to assess affordability and set escrow requirements.",
+      "examples": [
+        {
+          "scenario": "$200,000 at 6% for 30 years; annual taxes $3,750 and homeowner's insurance $755.",
+          "outcome": "P&I = $1,199.10; T&I = ($3,750 + $755) ÷ 12 = $375.42; PITI = $1,574.52."
+        }
+      ],
+      "cross_refs": [
+        "amortization",
+        "debt-to-income-ratio",
+        "escrow-effect"
+      ],
+      "check_questions": [
+        {
+          "question": "In the P&I formula P = (i × A) ÷ (1 − (1 + i)^−N), what does 'i' represent?",
+          "answer": "The annual interest rate divided by 12 (the number of payments per year), giving the monthly interest rate.",
+          "type": "recall"
+        },
+        {
+          "question": "A borrower has a fixed P&I of $900 but their property taxes increase. Does their total monthly payment change?",
+          "answer": "Yes—even though the P&I is fixed, the escrow portion rises with higher taxes, increasing the total PITI payment.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "loan-to-value-ratio",
+      "term": "Loan-to-value (LTV) ratio",
+      "definition": "LTV is the loan amount divided by the lesser of the purchase price or appraised value on a purchase, or by the current appraised value on a refinance.",
+      "why_it_exists": "A lower LTV signals more borrower equity and less lender risk, making approval easier and potentially eliminating mortgage insurance requirements.",
+      "examples": [
+        {
+          "scenario": "A borrower buys a $450,000 home with 15% down ($67,500), so the loan is $382,500.",
+          "outcome": "LTV = $382,500 ÷ $450,000 = 85%; equity = 15%."
+        }
+      ],
+      "cross_refs": [
+        "down-payment",
+        "pmi-mip-calculation",
+        "debt-to-income-ratio"
+      ],
+      "check_questions": [
+        {
+          "question": "For a refinance within the first year of ownership, what value is used in the LTV denominator?",
+          "answer": "The lesser of the original purchase price, the original appraised value, or the current appraised value.",
+          "type": "recall"
+        },
+        {
+          "question": "LTV + equity must equal what on a single-lien property?",
+          "answer": "100%.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "debt-to-income-ratio",
+      "term": "Debt-to-income (DTI) ratios",
+      "definition": "The front-end (housing) DTI divides total monthly housing expense by gross monthly income; the back-end (total) DTI adds all monthly consumer and long-term debt obligations to housing expense before dividing by gross monthly income.",
+      "why_it_exists": "DTI ratios give underwriters a standardized measure of a borrower's capacity to repay, with lower ratios indicating less financial strain.",
+      "examples": [
+        {
+          "scenario": "A borrower earns $6,000/month gross; PITI = $1,500; car payment = $400; student loan = $200.",
+          "outcome": "Front-end DTI = $1,500 ÷ $6,000 = 25%; back-end DTI = ($1,500 + $400 + $200) ÷ $6,000 = 35%."
+        }
+      ],
+      "cross_refs": [
+        "monthly-payment-piti",
+        "loan-to-value-ratio"
+      ],
+      "check_questions": [
+        {
+          "question": "What income figure is used in both DTI ratio calculations?",
+          "answer": "The borrower's gross monthly income (before taxes and deductions).",
+          "type": "recall"
+        },
+        {
+          "question": "How does the back-end DTI differ from the front-end DTI?",
+          "answer": "The back-end DTI includes all monthly consumer and long-term debt obligations in addition to the housing expense, while the front-end DTI includes only housing expense.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "pmi-mip-calculation",
+      "term": "PMI and FHA MIP calculations",
+      "definition": "Monthly PMI equals the original loan amount multiplied by the PMI factor divided by 12; FHA adds an upfront MIP (UFMIP) of 1.75% of the base loan amount to the base loan, rounding down to the nearest $50.",
+      "why_it_exists": "Mortgage insurance protects lenders against default when borrower equity is low, and its cost must be accurately disclosed and collected.",
+      "examples": [
+        {
+          "scenario": "FHA purchase price $300,000, 3.5% down; base loan = $289,500.",
+          "outcome": "UFMIP = $289,500 × 1.75% = $5,066.25; total loan = $294,550 (rounded down from $294,566.25 to nearest $50)."
+        }
+      ],
+      "cross_refs": [
+        "loan-to-value-ratio",
+        "monthly-payment-piti"
+      ],
+      "check_questions": [
+        {
+          "question": "A conventional loan of $355,000 has a PMI factor of 0.85%. What is the monthly PMI?",
+          "answer": "$355,000 × 0.85% = $3,017.50 ÷ 12 = $251.46 per month.",
+          "type": "application"
+        },
+        {
+          "question": "What is the FHA UFMIP factor, and how is it added to the loan?",
+          "answer": "1.75% of the base loan amount; it is added to the base loan amount and the total is rounded down to the nearest $50.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "discount-points-breakeven",
+      "term": "Discount points and break-even analysis",
+      "definition": "Discount points are prepaid interest (1 point = 1% of loan amount) paid upfront to permanently reduce the interest rate below par; the break-even period equals the cost of points divided by the monthly payment savings.",
+      "why_it_exists": "Borrowers need to determine whether the upfront cost of buying down the rate is recouped before they sell or refinance, otherwise paying points destroys value.",
+      "examples": [
+        {
+          "scenario": "A borrower pays $1,150 in discount points and saves $47 per month.",
+          "outcome": "Break-even = $1,150 ÷ $47 = 25 months; buying points is worthwhile only if the borrower stays at least 25 months."
+        }
+      ],
+      "cross_refs": [
+        "monthly-payment-piti",
+        "arm-calculations"
+      ],
+      "check_questions": [
+        {
+          "question": "Does paying one discount point always reduce the interest rate by exactly one percent?",
+          "answer": "No—one point equals 1% of the loan amount, but the actual rate reduction depends on current market pricing and is shown on the lender's rate sheet.",
+          "type": "distinction"
+        },
+        {
+          "question": "A borrower pays $2,400 in points and saves $80 per month. How many months until break-even?",
+          "answer": "$2,400 ÷ $80 = 30 months.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "arm-calculations",
+      "term": "ARM fully indexed accrual rate (FIAR) calculation",
+      "definition": "An ARM's adjusted rate equals the current index plus the fixed margin, rounded to the nearest 1/8 of 1%, subject to established rate caps.",
+      "why_it_exists": "ARM borrowers and servicers must calculate the new rate accurately at each adjustment to ensure the payment change is correct and legally compliant with cap limits.",
+      "examples": [
+        {
+          "scenario": "Betty's 7/1 ARM: index at adjustment = 2.899%, margin = 2.125%.",
+          "outcome": "FIAR = 2.899 + 2.125 = 5.024%, rounded to nearest 1/8% = 5.000%."
+        }
+      ],
+      "cross_refs": [
+        "discount-points-breakeven",
+        "monthly-payment-piti"
+      ],
+      "check_questions": [
+        {
+          "question": "How far in advance must a mortgage servicer notify a borrower of an ARM rate change?",
+          "answer": "No later than six months prior to the date the new rate and payment take effect.",
+          "type": "recall"
+        },
+        {
+          "question": "An ARM has an index of 3.45% and a margin of 2.25%. What is the new rate rounded to the nearest 1/8%?",
+          "answer": "3.45 + 2.25 = 5.70%; the nearest 1/8% is 5.75%.",
+          "type": "application"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "360",
+      "what_it_means": "The number used to calculate daily mortgage interest (banker's year) instead of 365.",
+      "memorize_as": "360 ÷ 12 = 30 exactly; 365 is not evenly divisible by 12."
+    },
+    {
+      "value": "1.75%",
+      "what_it_means": "FHA upfront mortgage insurance premium (UFMIP) factor applied to the base loan amount.",
+      "memorize_as": "FHA UFMIP = 1.75% of base loan, added to loan, rounded down to nearest $50."
+    },
+    {
+      "value": "1%",
+      "what_it_means": "Standard lender origination fee as a percentage of the loan amount; also equals one discount point.",
+      "memorize_as": "1 point = 1% of loan amount."
+    },
+    {
+      "value": "1/8 of 1%",
+      "what_it_means": "The rounding increment used when calculating a new ARM interest rate from index + margin.",
+      "memorize_as": "ARM new rate rounds to nearest 0.125%."
+    },
+    {
+      "value": "6 months",
+      "what_it_means": "Minimum advance notice a servicer must give before an ARM's rate and payment adjustment takes effect.",
+      "memorize_as": "ARM notice: 6 months before change date."
+    },
+    {
+      "value": "Up to 30 years + $1 million fine",
+      "what_it_means": "Maximum federal sentence and fine for mortgage fraud crimes including wire fraud, bank fraud, mail fraud, conspiracy, and money laundering.",
+      "memorize_as": "Mortgage fraud = up to 30 years federal prison and $1M fine."
+    },
+    {
+      "value": "Nearest $50",
+      "what_it_means": "FHA total loan amount (base + UFMIP) is always rounded down to the nearest $50.",
+      "memorize_as": "FHA total loan → round DOWN to nearest $50."
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "Fraud for profit vs. fraud for housing",
+      "the_distinction": "Fraud for profit is orchestrated by mortgage industry professionals for financial gain (e.g., air loans) and is the most costly type; fraud for housing is committed by borrowers misrepresenting their qualifications to obtain a loan they cannot qualify for and is the most common type."
+    },
+    {
+      "often_confused_with": "Redlining vs. reverse redlining",
+      "the_distinction": "Redlining means avoiding a geographic area or demographic entirely; reverse redlining means deliberately targeting that same area or demographic for predatory or subprime lending."
+    },
+    {
+      "often_confused_with": "Equity-based lending vs. standard underwriting",
+      "the_distinction": "Standard underwriting qualifies borrowers primarily on ability to repay; equity-based lending approves loans based on the property's equity alone, ignoring whether the borrower can realistically make payments."
+    },
+    {
+      "often_confused_with": "Churning vs. equity stripping",
+      "the_distinction": "Churning is the act of repeatedly refinancing unnecessarily to generate fees for the originator; equity stripping is the result of churning—each refinance rolls costs into the loan balance, steadily consuming the borrower's home equity."
+    },
+    {
+      "often_confused_with": "Front-end DTI vs. back-end DTI",
+      "the_distinction": "Front-end DTI includes only housing expenses divided by gross income; back-end DTI adds all consumer and long-term debt to housing expenses before dividing by gross income."
+    },
+    {
+      "often_confused_with": "Par rate vs. below-par rate and points",
+      "the_distinction": "Choosing the par rate means the origination fee is covered by a lender credit through the rate; choosing a below-par rate means the borrower pays the origination fee plus discount points at closing."
+    }
+  ]
+}

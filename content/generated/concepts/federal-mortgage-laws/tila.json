@@ -1,0 +1,336 @@
+{
+  "chapter_id": "federal-mortgage-laws",
+  "section_id": "tila",
+  "section_title": "TILA – Truth in Lending Act",
+  "chapter_title": "Federal Mortgage-Related Laws",
+  "page_range": {
+    "start": 71,
+    "end": 100
+  },
+  "summary": "This section covers TILA (Truth-in-Lending Act) alongside related RESPA provisions including escrow account rules, error resolution procedures, ECOA anti-discrimination requirements, and discount points. Together these laws govern cost disclosure, fair lending, and servicing obligations for residential mortgage transactions.",
+  "concepts": [
+    {
+      "id": "tila-overview",
+      "term": "Truth-in-Lending Act (TILA)",
+      "definition": "A 1968 federal law implemented through Regulation Z that requires clear disclosure of credit terms and costs, establishes rescission rights on certain transactions, and regulates credit advertising.",
+      "why_it_exists": "Consumers could not meaningfully compare loan offers without standardized cost disclosures, so Congress mandated uniform presentation of rates and fees.",
+      "examples": [
+        {
+          "scenario": "A lender advertises a low monthly payment without disclosing the APR.",
+          "outcome": "TILA violation because advertising a credit term triggers disclosure of all material terms, including APR."
+        }
+      ],
+      "cross_refs": [
+        "tila-exemptions",
+        "ecoa-overview",
+        "discount-points"
+      ],
+      "check_questions": [
+        {
+          "question": "What regulation implements TILA, and what are its three main purposes?",
+          "answer": "Regulation Z; (1) disclose credit terms and costs for comparison shopping, (2) establish the right of rescission on certain transactions, and (3) regulate lending-related advertising.",
+          "type": "recall"
+        },
+        {
+          "question": "A business applies for a $60,000 commercial line of credit. Does TILA apply?",
+          "answer": "No. TILA applies only to credit extended to consumers primarily for personal, family, or household purposes; business credit is exempt.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "tila-exemptions",
+      "term": "TILA Exemptions",
+      "definition": "Categories of credit transactions to which TILA does not apply, including business/agricultural credit, unsecured credit above the CPI-W-adjusted threshold, public utility credit, SEC/CFTC broker credit, home fuel budget plans, student loans, and employer-sponsored retirement plans.",
+      "why_it_exists": "TILA targets consumer protection; commercial and regulated transactions have separate oversight frameworks that make duplicate consumer disclosures unnecessary.",
+      "examples": [
+        {
+          "scenario": "A lender extends a $75,000 unsecured personal loan.",
+          "outcome": "TILA does not apply because the loan exceeds the 2025 threshold of $71,900 and is not secured by real property."
+        }
+      ],
+      "cross_refs": [
+        "tila-overview"
+      ],
+      "check_questions": [
+        {
+          "question": "What is the 2025 dollar threshold above which unsecured credit is exempt from TILA?",
+          "answer": "$71,900, adjusted annually based on the CPI-W.",
+          "type": "recall"
+        },
+        {
+          "question": "A student takes out a federally backed student loan. Does TILA govern that transaction?",
+          "answer": "No; student loans are explicitly exempt from TILA.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "discount-points",
+      "term": "Discount Points (Permanent Buydown)",
+      "definition": "Upfront prepaid interest paid at closing by the borrower to reduce the mortgage interest rate below the market par rate, with each point equaling one percent of the loan amount.",
+      "why_it_exists": "Borrowers who plan to stay in the home long-term can reduce lifetime interest costs by paying more upfront, but the trade-off requires a break-even analysis.",
+      "examples": [
+        {
+          "scenario": "A borrower pays $2,000 in points to lower her P&I from $415 to $375 per month ($40 savings).",
+          "outcome": "Break-even is 50 months (2,000 ÷ 40); buying points only makes financial sense if she keeps the loan longer than 50 months."
+        }
+      ],
+      "cross_refs": [
+        "tila-overview"
+      ],
+      "check_questions": [
+        {
+          "question": "How do you calculate the break-even period for purchasing discount points?",
+          "answer": "Divide the total cost of the points by the monthly payment savings; the result is the number of months needed to recoup the upfront cost.",
+          "type": "recall"
+        },
+        {
+          "question": "Does buying 1.5 discount points on a 6% rate guarantee the new rate will be 4.5%?",
+          "answer": "No; the rate reduction per point varies with market conditions and is shown on the lender's pricing matrix, not a simple subtraction.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "escrow-accounts",
+      "term": "Escrow Accounts (Impound Accounts)",
+      "definition": "A servicer-managed sub-account within a mortgage that collects 1/12 of estimated annual property taxes and insurance premiums monthly and disburses those obligations on the borrower's behalf.",
+      "why_it_exists": "Servicers face collateral and tax-sale risk if taxes or insurance lapse, so escrow ensures timely payment of those obligations.",
+      "examples": [
+        {
+          "scenario": "Annual property taxes are $3,000; the servicer collects $250/month ($3,000 ÷ 12) and pays the tax authority directly in September.",
+          "outcome": "If the tax bill rises to $3,500, the servicer must still pay it, creating a $500 shortage resolved at the next annual escrow analysis."
+        }
+      ],
+      "cross_refs": [
+        "escrow-shortage-surplus-deficiency"
+      ],
+      "check_questions": [
+        {
+          "question": "When is escrow collection for homeowner's insurance and taxes mandatory on a conventional loan?",
+          "answer": "When PMI is required, when flood insurance is required (flood insurance plus taxes at minimum), when the loan is an HPML (mandatory for at least the first five years), or when the loan is a government loan (FHA, VA, USDA — always required).",
+          "type": "recall"
+        },
+        {
+          "question": "What is the maximum cushion a servicer may hold in an escrow account?",
+          "answer": "No more than one-sixth (1/6) of the estimated annual disbursements.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "escrow-shortage-surplus-deficiency",
+      "term": "Escrow Shortage, Surplus, and Deficiency",
+      "definition": "Three distinct escrow account conditions: a shortage means the balance is insufficient to cover upcoming disbursements; a surplus (overage) means excess funds exist; a deficiency means the account balance is negative.",
+      "why_it_exists": "Annual analysis corrects mismatches between monthly collections and actual disbursements, protecting both borrower and servicer from payment failures.",
+      "examples": [
+        {
+          "scenario": "After analysis the escrow account shows $1,200 more than needed.",
+          "outcome": "Because the surplus is ≥ $50, the servicer must refund it to the borrower within 30 days."
+        }
+      ],
+      "cross_refs": [
+        "escrow-accounts"
+      ],
+      "check_questions": [
+        {
+          "question": "If an escrow analysis reveals a shortage less than one monthly escrow payment, what three options does the servicer have?",
+          "answer": "(1) Do nothing and allow the shortage to remain; (2) require full repayment within 30 days; or (3) require repayment in equal monthly installments over at least 12 months, interest-free.",
+          "type": "recall"
+        },
+        {
+          "question": "A surplus of $45 is found at the annual escrow analysis. Must the servicer refund it?",
+          "answer": "No; because the surplus is less than $50, the servicer may either refund it or credit it toward next year's escrow payments.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "respa-error-resolution",
+      "term": "RESPA Error Resolution Procedures",
+      "definition": "A formal process under Regulation X requiring servicers to acknowledge a borrower's written notice of error within 5 business days and resolve the error within 7 or 30 business days depending on the error type, with a possible 15-business-day extension.",
+      "why_it_exists": "Without mandatory timelines, servicers could delay correcting servicing mistakes that harm borrowers financially or put their homes at risk of foreclosure.",
+      "examples": [
+        {
+          "scenario": "A borrower submits a written notice claiming the servicer failed to credit a payment on the date received.",
+          "outcome": "The servicer must acknowledge receipt within 5 business days and either correct the error or provide a written determination of no error within 30 business days."
+        }
+      ],
+      "cross_refs": [
+        "escrow-accounts"
+      ],
+      "check_questions": [
+        {
+          "question": "How many business days does a servicer have to acknowledge receipt of a notice of error?",
+          "answer": "5 business days (excluding legal public holidays, Saturdays, and Sundays).",
+          "type": "recall"
+        },
+        {
+          "question": "By how many additional days can a servicer extend the 30-day error resolution deadline, and what must it do to exercise that extension?",
+          "answer": "15 additional business days, provided the servicer notifies the borrower in writing of the extension and the reason before the original 30-day period expires.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "ecoa-overview",
+      "term": "Equal Credit Opportunity Act (ECOA)",
+      "definition": "A 1974 federal law implemented through Regulation B that prohibits creditors from discriminating against applicants on the basis of race, color, religion, national origin, sex, marital status, age, public-assistance income, or exercise of Consumer Credit Protection Act rights in any aspect of a credit transaction.",
+      "why_it_exists": "Creditworthy consumers were historically denied or offered worse credit terms based on personal characteristics unrelated to repayment ability.",
+      "examples": [
+        {
+          "scenario": "A lender offers a minority borrower a higher-rate loan than an equally qualified white borrower at the same time.",
+          "outcome": "ECOA violation — disparate treatment on the basis of race."
+        }
+      ],
+      "cross_refs": [
+        "ecoa-disclosures",
+        "ecoa-document-retention",
+        "disparate-treatment-impact"
+      ],
+      "check_questions": [
+        {
+          "question": "What regulation implements ECOA, and in what year was it enacted?",
+          "answer": "Regulation B; enacted in 1974.",
+          "type": "recall"
+        },
+        {
+          "question": "Can a lender require an applicant to add a co-borrower as a condition of loan approval?",
+          "answer": "No; ECOA prohibits lenders from requiring a co-applicant, though they may offer that option to a non-qualifying applicant.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "ecoa-disclosures",
+      "term": "ECOA Notice Requirements and Document Retention",
+      "definition": "ECOA requires a creditor to issue one of three notices — Notice of Action Taken, Adverse Action Notice, or Notice of Incomplete Application — within 30 calendar days of receiving a mortgage application, and to retain related records for at least 25 months.",
+      "why_it_exists": "Applicants need timely, specific explanations of credit decisions so they can correct errors, seek alternative credit, or challenge discriminatory denials.",
+      "examples": [
+        {
+          "scenario": "A lender declines an application based partly on the applicant's credit report.",
+          "outcome": "The Adverse Action Notice must include the credit bureau's name and address, state the applicant may get a free copy of the report, and clarify that the bureau did not make the lending decision."
+        }
+      ],
+      "cross_refs": [
+        "ecoa-overview"
+      ],
+      "check_questions": [
+        {
+          "question": "How long must a creditor retain mortgage application records under ECOA?",
+          "answer": "At least 25 months from the date the creditor renders a decision on the application.",
+          "type": "recall"
+        },
+        {
+          "question": "A lender cannot approve a loan as submitted but can offer different terms. How does ECOA handle this?",
+          "answer": "The lender issues an Adverse Action Notice showing the counteroffer terms; the applicant then has 90 calendar days to accept those terms.",
+          "type": "application"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "$71,900",
+      "what_it_means": "2025 CPI-W-adjusted threshold above which unsecured credit is exempt from TILA.",
+      "memorize_as": "TILA unsecured exemption threshold for 2025"
+    },
+    {
+      "value": "1/12",
+      "what_it_means": "Fraction of estimated annual escrow disbursements collected each month.",
+      "memorize_as": "Monthly escrow collection = annual amount ÷ 12"
+    },
+    {
+      "value": "1/6",
+      "what_it_means": "Maximum cushion a servicer may hold in an escrow account above the required balance.",
+      "memorize_as": "Escrow cushion cap = one-sixth of annual disbursements"
+    },
+    {
+      "value": "$50",
+      "what_it_means": "Escrow surplus threshold — surpluses ≥ $50 must be refunded to the borrower within 30 days; surpluses < $50 may be refunded or credited.",
+      "memorize_as": "Escrow surplus refund trigger = $50"
+    },
+    {
+      "value": "5 business days",
+      "what_it_means": "Time a servicer has to acknowledge receipt of a borrower's written notice of error (excluding holidays and weekends).",
+      "memorize_as": "Error acknowledgment = 5 business days"
+    },
+    {
+      "value": "7 business days",
+      "what_it_means": "Deadline to resolve payment-related errors after receiving a notice of error.",
+      "memorize_as": "Payment error resolution = 7 business days"
+    },
+    {
+      "value": "30 business days",
+      "what_it_means": "Standard deadline to resolve all other errors after receiving a notice of error; also the deadline to refund a qualifying escrow surplus.",
+      "memorize_as": "General error resolution = 30 business days; escrow refund = 30 days"
+    },
+    {
+      "value": "15 business days",
+      "what_it_means": "Maximum extension a servicer may add to the 30-day error resolution period if it notifies the borrower in writing before the deadline.",
+      "memorize_as": "Error resolution extension = +15 business days"
+    },
+    {
+      "value": "30 calendar days",
+      "what_it_means": "Maximum time after receiving a mortgage application within which a creditor must issue a Notice of Action Taken, Adverse Action Notice, or Notice of Incomplete Application under ECOA.",
+      "memorize_as": "ECOA notice deadline = 30 calendar days from application"
+    },
+    {
+      "value": "25 months",
+      "what_it_means": "Minimum ECOA record retention period for mortgage application files from the date of the credit decision.",
+      "memorize_as": "ECOA record retention = 25 months"
+    },
+    {
+      "value": "90 calendar days",
+      "what_it_means": "Time an applicant has to accept a counteroffer presented on an Adverse Action Notice.",
+      "memorize_as": "Counteroffer acceptance window = 90 days"
+    },
+    {
+      "value": "5 years",
+      "what_it_means": "Minimum period escrow must be maintained on a Higher Priced Mortgage Loan (HPML) before the borrower may petition for removal.",
+      "memorize_as": "HPML mandatory escrow period = 5 years"
+    },
+    {
+      "value": "1%",
+      "what_it_means": "Cost of one discount point expressed as a percentage of the loan amount.",
+      "memorize_as": "1 point = 1% of loan amount"
+    },
+    {
+      "value": "$10,000 / 1 year",
+      "what_it_means": "RESPA Section 8 penalty — up to $10,000 fine and/or up to one year imprisonment for illegal kickbacks or unearned fees.",
+      "memorize_as": "RESPA kickback penalty = $10K fine and/or 1 year prison"
+    },
+    {
+      "value": "Treble damages",
+      "what_it_means": "RESPA Section 9 remedy — a seller who requires a buyer to use a specific title company is liable to the buyer for three times the title insurance charges.",
+      "memorize_as": "Forced title company = 3× title charge liability"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "Escrow shortage vs. escrow deficiency",
+      "the_distinction": "A shortage means the balance is positive but insufficient to cover future disbursements; a deficiency means the account balance is actually negative. They are independent conditions and have different servicer remedies."
+    },
+    {
+      "often_confused_with": "Disparate treatment vs. disparate impact",
+      "the_distinction": "Disparate treatment is intentional discrimination — treating a person worse because of a protected characteristic. Disparate impact is unintentional — a neutral policy that disproportionately harms a protected group, as in the Centier Bank redlining case."
+    },
+    {
+      "often_confused_with": "General business day vs. precise business day under TILA",
+      "the_distinction": "A general business day is any day the creditor's offices are open for substantially all business; a precise business day is every calendar day except Sundays and federal legal holidays — the distinction matters for which TILA deadlines apply."
+    },
+    {
+      "often_confused_with": "ECOA Adverse Action Notice 30-day rule vs. 60-day written request rule",
+      "the_distinction": "The lender must issue the Adverse Action Notice within 30 days of the application decision; if the notice omits specific reasons, the applicant has 60 days from that notice to submit a written request for reasons, and the lender must respond within 30 days of that request."
+    },
+    {
+      "often_confused_with": "Judicial foreclosure vs. non-judicial foreclosure",
+      "the_distinction": "Judicial foreclosure is used when the security instrument is a mortgage and requires full court proceedings including a foreclosure sale by the sheriff; non-judicial foreclosure applies when the instrument is a deed of trust, where the lender technically already holds title and needs only court approval to sell the property."
+    },
+    {
+      "often_confused_with": "Discount points reducing rate dollar-for-dollar vs. market-based reduction",
+      "the_distinction": "Buying 1.5 points on a 6% rate does NOT guarantee a 4.5% rate; the actual rate reduction per point fluctuates with market conditions and is shown on the lender's current pricing matrix."
+    }
+  ]
+}

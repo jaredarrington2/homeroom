@@ -1,0 +1,266 @@
+{
+  "chapter_id": "ethics",
+  "section_id": "prohibited-practices",
+  "section_title": "Prohibited Practices",
+  "chapter_title": "Ethics",
+  "page_range": {
+    "start": 563,
+    "end": 570
+  },
+  "summary": "This section catalogs the red flags MLOs must watch for across sales contracts, applications, occupancy claims, employment/income documents, credit reports, and general transaction behavior to detect and prevent mortgage fraud. MLOs are obligated to question suspicious indicators, document their findings, and never tip off a subject if a Suspicious Activity Report is filed.",
+  "concepts": [
+    {
+      "id": "sales-contract-red-flags",
+      "term": "Sales contract red flags",
+      "definition": "Warning signs within a ratified purchase contract that may indicate fraud, such as a seller not on title, a purchaser different from the applicant, or an undisclosed second mortgage.",
+      "why_it_exists": "The purchase contract is a primary document in a transaction and manipulating it is a common fraud vector used to misrepresent parties, price, or financing terms.",
+      "examples": [
+        {
+          "scenario": "An MLO reviews a contract and notices the earnest money check is in the name of a third party and the check number sequence shows the later check was dated earlier than a lower-numbered check.",
+          "outcome": "These inconsistencies are red flags for a fabricated deposit and possibly a straw buyer arrangement, requiring further investigation before proceeding."
+        }
+      ],
+      "cross_refs": [
+        "occupancy-fraud",
+        "application-red-flags"
+      ],
+      "check_questions": [
+        {
+          "question": "Why is a 'boilerplate' contract with minimal fill-in terms considered a red flag?",
+          "answer": "It may indicate the contract was not the result of a genuine negotiation between independent parties, suggesting a non-arm's-length or collusive transaction.",
+          "type": "application"
+        },
+        {
+          "question": "What does it signal when the earnest money deposit equals the entire down payment?",
+          "answer": "It may indicate the down payment is being disguised or sourced improperly, since a legitimate transaction typically has separate earnest money and remaining down payment funds.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "application-red-flags",
+      "term": "Mortgage application red flags",
+      "definition": "Suspicious indicators on a loan application itself, such as an unsigned or undated form, employer and applicant sharing the same phone number, or the applicant listed as deceased on the credit report.",
+      "why_it_exists": "The application is the foundation of the loan file, and misrepresentations made here directly enable fraud for housing or fraud for profit.",
+      "examples": [
+        {
+          "scenario": "An MLO notices the applicant and employer share an identical phone number and the employer address is a P.O. box.",
+          "outcome": "These are strong indicators of fabricated employment, and the MLO should independently verify the employer through third-party sources."
+        }
+      ],
+      "cross_refs": [
+        "employment-income-fraud",
+        "verifying-loan-application-information"
+      ],
+      "check_questions": [
+        {
+          "question": "What does extreme payment shock on an application potentially signal?",
+          "answer": "It may indicate a straw buyer situation or an artificially inflated income used to qualify for a payment the borrower cannot genuinely afford.",
+          "type": "application"
+        },
+        {
+          "question": "Why is a cash-out refinance on a recently acquired property considered an application red flag?",
+          "answer": "It may suggest the property was purchased at an inflated price specifically to extract cash through a quick refinance, a common pattern in property flipping fraud.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "verifying-loan-application-information",
+      "term": "Loan application verification",
+      "definition": "The process of independently confirming all application data through pay stubs, asset statements, verifications of employment and deposit, and government-issued photo ID.",
+      "why_it_exists": "Self-reported application data is easily falsified, so independent third-party documentation is required to ensure the loan is based on accurate borrower information.",
+      "examples": [
+        {
+          "scenario": "A borrower provides a written explanation for an unusual large deposit but no supporting documents exist.",
+          "outcome": "The MLO asks the borrower to write, sign, and notarize the explanation, which may deter a fraudster from continuing."
+        }
+      ],
+      "cross_refs": [
+        "application-red-flags",
+        "employment-income-fraud"
+      ],
+      "check_questions": [
+        {
+          "question": "When a borrower's written explanation is the only available support for a disclosed item, what additional step should the MLO require?",
+          "answer": "The MLO should require the borrower to write, sign, and have the statement notarized, which adds accountability and may discourage fraud.",
+          "type": "recall"
+        },
+        {
+          "question": "What section of the URLA contains the FBI's Fraud Mortgage Warning Notice?",
+          "answer": "Section 6, Subsection 1 (Acknowledgements and Agreements).",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "occupancy-fraud",
+      "term": "Occupancy fraud",
+      "definition": "A borrower falsely claiming a property will be their primary residence to obtain more favorable loan pricing, lower down payment requirements, and less stringent underwriting than would apply to a second home or investment property.",
+      "why_it_exists": "Lenders price and underwrite loans based on occupancy risk; misrepresenting occupancy allows borrowers to obtain terms they do not legitimately qualify for, increasing lender risk.",
+      "examples": [
+        {
+          "scenario": "A borrower claims a property is their primary residence, but the homeowner's insurance declarations page shows a rental policy and the appraisal notes tenant occupancy.",
+          "outcome": "These are clear occupancy fraud red flags; the MLO must resolve the discrepancy before the loan can proceed."
+        }
+      ],
+      "cross_refs": [
+        "application-red-flags",
+        "sales-contract-red-flags"
+      ],
+      "check_questions": [
+        {
+          "question": "Name two purchase-transaction red flags that suggest occupancy fraud.",
+          "answer": "Any two of: real estate listed on the application yet the applicant is a renter; applicant intends to lease their current residence; unrealistic commute distance; applicant is downgrading to a smaller/cheaper home; sales contract subject to an existing lease; occupancy affidavit shows no intent to occupy; homeowner's insurance is a rental policy.",
+          "type": "recall"
+        },
+        {
+          "question": "Why do investment property loans carry higher pricing and stricter underwriting than primary residence loans?",
+          "answer": "Investment properties represent greater default risk because borrowers are more likely to walk away from a non-owner-occupied property during financial hardship, so lenders offset this risk with higher rates, larger down payments, lower LTV limits, lower DTI requirements, more reserves, and higher credit score minimums.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "employment-income-fraud",
+      "term": "Employment and income fraud",
+      "definition": "A borrower's false representation of employment status or earnings to qualify for financing they could not otherwise obtain, classified as fraud for housing.",
+      "why_it_exists": "Income is the primary qualifying factor for a mortgage, making it the most frequently falsified element in loan applications.",
+      "examples": [
+        {
+          "scenario": "Pay stubs show round-dollar year-to-date earnings, tax withholding does not match FICA tables, and the employer's address matches the subject property.",
+          "outcome": "Multiple simultaneous income fraud indicators require the MLO to independently verify employment through a third-party source and flag the file."
+        }
+      ],
+      "cross_refs": [
+        "application-red-flags",
+        "verifying-loan-application-information"
+      ],
+      "check_questions": [
+        {
+          "question": "Why are even-dollar-amount year-to-date earnings a red flag for income fraud?",
+          "answer": "Real payroll calculations produce irregular figures due to taxes, deductions, and varying pay periods; perfectly round totals suggest the numbers were fabricated.",
+          "type": "application"
+        },
+        {
+          "question": "What is the correct format for an employer identification number (EIN), and why does a different format matter?",
+          "answer": "The correct EIN format is 12-3456789 (two digits, hyphen, seven digits); a different format indicates the document may be fabricated.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "liability-credit-report-fraud",
+      "term": "Liability and credit report fraud",
+      "definition": "Misrepresentation or manipulation of the liabilities or identity information appearing on a credit report, such as using an invalid Social Security number, hiding debts, or piggybacking on authorized-user accounts.",
+      "why_it_exists": "Credit history and outstanding liabilities directly affect DTI ratios and creditworthiness assessments, giving borrowers a motive to falsify or conceal this data.",
+      "examples": [
+        {
+          "scenario": "All of an applicant's tradelines were opened at the same time, the credit history length is inconsistent with the applicant's age, and a duplicate Social Security number is flagged.",
+          "outcome": "These indicators suggest a synthetic identity fraud scheme, requiring the MLO to halt the application and investigate the borrower's true identity."
+        }
+      ],
+      "cross_refs": [
+        "application-red-flags",
+        "general-red-flags"
+      ],
+      "check_questions": [
+        {
+          "question": "Why are authorized-user accounts with superior payment histories a credit report red flag?",
+          "answer": "An applicant may have been added as an authorized user to a well-maintained account solely to boost their credit score, without being responsible for the debt or building genuine credit history.",
+          "type": "application"
+        },
+        {
+          "question": "What should an MLO do when liabilities appear on the credit report but are absent from the mortgage application?",
+          "answer": "The MLO must question the applicant about the omitted liabilities and ensure all debts are disclosed and included in the DTI calculation, as omission may indicate intentional concealment.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "general-red-flags",
+      "term": "General transaction red flags",
+      "definition": "Broad behavioral and financial patterns—such as structuring deposits below $10,000, refusing to provide identification, or wire transfers of loan proceeds to third parties—that suggest money laundering or fraud regardless of document type.",
+      "why_it_exists": "Fraud is not always document-specific; unusual transaction behavior or evasive customer conduct can indicate money laundering, structuring, or other financial crimes.",
+      "examples": [
+        {
+          "scenario": "A borrower makes numerous deposits of $9,500 over a short period and asks the MLO how to avoid triggering bank reporting requirements.",
+          "outcome": "This is classic structuring behavior and a direct attempt to influence a mandated reporter; the MLO must file a SAR and must not inform the borrower."
+        }
+      ],
+      "cross_refs": [
+        "suspicious-activity-report-sar"
+      ],
+      "check_questions": [
+        {
+          "question": "What must an MLO do—and not do—if a suspicious circumstance results in the filing of a Suspicious Activity Report?",
+          "answer": "The MLO must file the SAR and must not inform the subject of the report that a SAR has been filed.",
+          "type": "recall"
+        },
+        {
+          "question": "Why are employees who refuse to take vacations listed as a general fraud red flag?",
+          "answer": "Employees committing ongoing fraud often refuse vacations because a temporary absence would allow a replacement to discover the scheme; it is a recognized behavioral indicator of internal fraud.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "suspicious-activity-report-sar",
+      "term": "Suspicious Activity Report (SAR)",
+      "definition": "A mandatory report filed by a financial institution or mortgage professional when a transaction or customer behavior raises a reasonable suspicion of fraud, money laundering, or other financial crime.",
+      "why_it_exists": "Federal law requires financial institutions to report suspicious activity to assist law enforcement in detecting and prosecuting financial crimes without alerting the suspect.",
+      "examples": [
+        {
+          "scenario": "An MLO identifies multiple general red flags in a transaction and suspects money laundering.",
+          "outcome": "The MLO files a SAR with the appropriate authority and does not mention the SAR to the applicant or any related party."
+        }
+      ],
+      "cross_refs": [
+        "general-red-flags",
+        "employment-income-fraud"
+      ],
+      "check_questions": [
+        {
+          "question": "What is the consequence of an MLO tipping off a borrower that a SAR has been filed?",
+          "answer": "Tipping off a SAR subject is a federal violation; the MLO is legally prohibited from disclosing the existence of a SAR to the subject.",
+          "type": "recall"
+        },
+        {
+          "question": "A customer asks an MLO how to structure transactions to avoid bank reporting. What should the MLO do?",
+          "answer": "The MLO should treat this as a red flag for structuring (a financial crime), refuse to assist, and consider filing a SAR based on the customer's attempt to avoid required reporting.",
+          "type": "application"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "$10,000",
+      "what_it_means": "Multiple deposits structured to stay just under this threshold are a red flag for 'structuring,' a form of money laundering designed to avoid mandatory bank currency transaction reporting.",
+      "memorize_as": "Numerous deposits under $10,000 in a short period = structuring red flag"
+    },
+    {
+      "value": "12-3456789",
+      "what_it_means": "The correct format for an IRS Employer Identification Number (EIN); any other format on a pay stub or W-2 indicates a possibly fabricated document.",
+      "memorize_as": "EIN = 2 digits, hyphen, 7 digits"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "Fraud for housing vs. fraud for profit",
+      "the_distinction": "Fraud for housing is committed by a borrower misrepresenting their own information (income, occupancy) to qualify for a loan they want to keep; fraud for profit is typically orchestrated by industry insiders to extract money from the lending process with no intent to repay."
+    },
+    {
+      "often_confused_with": "Filing a SAR vs. notifying the borrower",
+      "the_distinction": "Filing a SAR is required when fraud is suspected; notifying the borrower that a SAR was filed is strictly prohibited and is itself a federal offense."
+    },
+    {
+      "often_confused_with": "Authorized-user tradeline vs. primary account holder tradeline",
+      "the_distinction": "A primary account holder built the credit history and bears responsibility for the debt; an authorized user merely benefits from the account's history without liability, making inflated scores based on authorized-user accounts a credit fraud indicator."
+    },
+    {
+      "often_confused_with": "Occupancy red flags for purchase vs. refinance",
+      "the_distinction": "Purchase red flags focus on forward-looking intent (lease agreements, commute distance, insurance type); refinance red flags focus on current evidence that the borrower does not actually live there (different mailing address on bank statements, appraisal showing tenant occupancy, address discrepancies on credit report)."
+    }
+  ]
+}

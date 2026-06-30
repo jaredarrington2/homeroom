@@ -1,0 +1,325 @@
+{
+  "chapter_id": "federal-mortgage-laws",
+  "section_id": "ftc-red-flags",
+  "section_title": "FTC Red Flags Rule",
+  "chapter_title": "Federal Mortgage-Related Laws",
+  "page_range": {
+    "start": 191,
+    "end": 205
+  },
+  "summary": "This section covers BSA/AML money laundering detection, SAR filing requirements, OFAC restrictions, the FTC Red Flags Rule, GLBA privacy protections, and the Telemarketing Sales Rule, all of which mortgage professionals must understand and comply with.",
+  "concepts": [
+    {
+      "id": "money-laundering-three-stages",
+      "term": "Money laundering (three stages)",
+      "definition": "The process of making illegally obtained funds appear legitimate through three sequential steps: placement, layering, and integration.",
+      "why_it_exists": "Criminals need to disguise the origin of illegal proceeds to spend them without triggering law enforcement scrutiny.",
+      "examples": [
+        {
+          "scenario": "Louie deposits drug and gambling proceeds in sub-$10,000 increments (placement), funnels them through a shell company (layering), then reports the income on his tax return as consulting fees (integration).",
+          "outcome": "The money appears legitimate, but each stage constitutes a criminal act subject to prosecution."
+        }
+      ],
+      "cross_refs": [
+        "suspicious-activity-reports",
+        "customer-identification-program",
+        "structuring"
+      ],
+      "check_questions": [
+        {
+          "question": "What are the three stages of money laundering in order?",
+          "answer": "Placement, layering, and integration.",
+          "type": "recall"
+        },
+        {
+          "question": "A drug dealer deposits $2,500 at three different banks on the same day, then wires those funds to a foreign shell company. Which stage does each action represent?",
+          "answer": "The small deposits are placement; wiring funds through the shell company is layering.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "structuring",
+      "term": "Structuring (smurfing)",
+      "definition": "Deliberately breaking up cash transactions into amounts below the $10,000 reporting threshold to avoid triggering a Currency Transaction Report.",
+      "why_it_exists": "Regulators require reporting of large cash transactions, so launderers attempt to fly under the radar with smaller deposits.",
+      "examples": [
+        {
+          "scenario": "Louie consistently deposits $2,000 and $3,000 rather than larger sums to avoid bank scrutiny.",
+          "outcome": "Structuring is itself a federal crime and a red flag that should trigger a SAR regardless of individual deposit amounts."
+        }
+      ],
+      "cross_refs": [
+        "money-laundering-three-stages",
+        "suspicious-activity-reports",
+        "red-flags"
+      ],
+      "check_questions": [
+        {
+          "question": "Is structuring illegal even if each individual deposit is a legitimate amount?",
+          "answer": "Yes. Structuring transactions specifically to avoid the $10,000 reporting threshold is a federal crime in itself.",
+          "type": "recall"
+        },
+        {
+          "question": "Multiple accounts at several banks each receiving deposits just under $10,000 is an example of which red flag?",
+          "answer": "Structuring, also called smurfing.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "suspicious-activity-reports",
+      "term": "Suspicious Activity Reports (SARs)",
+      "definition": "Mandatory electronic filings submitted to FinCEN when a financial institution suspects money laundering, fraud, or other criminal activity involving a transaction.",
+      "why_it_exists": "The BSA/AML law requires financial institutions to alert law enforcement of suspicious activity so criminal networks can be identified and prosecuted.",
+      "examples": [
+        {
+          "scenario": "An MLO notices a borrower's loan application shows liabilities on the credit report that do not appear on the application and the employer's address is a P.O. box.",
+          "outcome": "The MLO must file a SAR with FinCEN within 30 days; it is then illegal to tell the borrower a SAR was filed."
+        }
+      ],
+      "cross_refs": [
+        "structuring",
+        "red-flags",
+        "ofac",
+        "document-retention-sar"
+      ],
+      "check_questions": [
+        {
+          "question": "How many days does a financial institution have to file a SAR after identifying suspicious activity, and what is the absolute maximum deadline?",
+          "answer": "30 days from the date of occurrence; if no suspect is identified, an additional 30 days is allowed, but filing can never exceed 60 days from initial identification.",
+          "type": "recall"
+        },
+        {
+          "question": "After filing a SAR, may the MLO inform the borrower that a SAR was filed?",
+          "answer": "No. It is illegal to inform the subject of a SAR that one has been filed.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "sar-dollar-thresholds",
+      "term": "SAR dollar thresholds",
+      "definition": "Specific dollar amounts that trigger mandatory SAR filing based on whether a suspect is identified and the type of institution involved.",
+      "why_it_exists": "Thresholds focus reporting resources on materially significant criminal activity while ensuring all insider abuse is captured regardless of amount.",
+      "examples": [
+        {
+          "scenario": "A bank teller steals $50 from a customer account.",
+          "outcome": "Because it involves insider abuse, a SAR is required regardless of the $50 amount — insider abuse has no minimum threshold."
+        }
+      ],
+      "cross_refs": [
+        "suspicious-activity-reports",
+        "structuring"
+      ],
+      "check_questions": [
+        {
+          "question": "What is the SAR filing threshold for criminal violations when a suspect can be identified versus when no suspect is identified?",
+          "answer": "$5,000 or more when a suspect can be identified; $25,000 or more regardless of whether a suspect is identified.",
+          "type": "recall"
+        },
+        {
+          "question": "What is the SAR filing threshold for mortgage origination departments of federally insured banks?",
+          "answer": "Any suspicious activity regardless of dollar amount.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "ofac",
+      "term": "Office of Foreign Assets Control (OFAC)",
+      "definition": "A U.S. Treasury division that administers economic and trade sanctions against foreign countries, terrorists, narcotics traffickers, and other designated threats, collectively called Specially Designated Nationals (SDNs) and Blocked Persons.",
+      "why_it_exists": "Allowing financial transactions with hostile or criminal foreign entities would fund terrorism, drug trafficking, and weapons proliferation against U.S. interests.",
+      "examples": [
+        {
+          "scenario": "A lender runs an applicant's name against the OFAC SDN list before closing a mortgage and gets a match.",
+          "outcome": "The lender must contact OFAC at 800-540-6322 to verify; if confirmed, the transaction cannot proceed and must be reported to OFAC annually by September 30."
+        }
+      ],
+      "cross_refs": [
+        "suspicious-activity-reports",
+        "customer-identification-program"
+      ],
+      "check_questions": [
+        {
+          "question": "By what date must financial institutions submit an Annual Report of Blocked Property to OFAC?",
+          "answer": "September 30th of each year.",
+          "type": "recall"
+        },
+        {
+          "question": "When must a bank report a blocked transaction to OFAC after the blocking occurs?",
+          "answer": "Within ten days of the blocking.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "red-flags",
+      "term": "Red flags (mortgage context)",
+      "definition": "Actions or circumstances that warrant further scrutiny from an MLO but do not automatically indicate wrongdoing.",
+      "why_it_exists": "MLOs are the front-line defense against mortgage fraud and money laundering, so they must recognize warning signs before a suspicious transaction closes.",
+      "examples": [
+        {
+          "scenario": "An application shows a recently issued Social Security number, an employer address that is a P.O. box, and liabilities on the credit report not listed on the application.",
+          "outcome": "Each item is a red flag requiring follow-up; together they may warrant a SAR filing."
+        }
+      ],
+      "cross_refs": [
+        "suspicious-activity-reports",
+        "structuring",
+        "customer-identification-program"
+      ],
+      "check_questions": [
+        {
+          "question": "Does the presence of a red flag automatically mean fraud or money laundering has occurred?",
+          "answer": "No. A red flag warrants further scrutiny, but all individuals are presumed innocent; the flag must be justified and rationalized.",
+          "type": "recall"
+        },
+        {
+          "question": "An MLO notices verifications were completed on a Sunday and documents appear to have correction fluid on them. What should the MLO do?",
+          "answer": "Treat both as red flags, investigate further, and report to appropriate company personnel or file a SAR if warranted.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "glba-privacy",
+      "term": "Gramm-Leach-Bliley Act (GLBA)",
+      "definition": "A federal law requiring covered financial institutions to protect customers' nonpublic personal information, provide privacy notices, and offer opt-out rights before sharing data with nonaffiliated third parties.",
+      "why_it_exists": "Congress determined that financial institutions have an ongoing obligation to respect customer privacy and protect sensitive personal data from unauthorized disclosure.",
+      "examples": [
+        {
+          "scenario": "A mortgage lender wants to sell a customer's contact information to an unrelated marketing company.",
+          "outcome": "The lender must first provide a written privacy notice and give the customer a reasonable opportunity to opt out before any disclosure occurs."
+        }
+      ],
+      "cross_refs": [
+        "glba-safeguards-rule",
+        "glba-penalties"
+      ],
+      "check_questions": [
+        {
+          "question": "To whom does the GLBA apply, and what type of purpose must the financial product or service serve?",
+          "answer": "It applies to individuals who obtain financial products or services primarily for personal, family, or household purposes from covered financial institutions; it does not apply to business, commercial, or agricultural purposes.",
+          "type": "recall"
+        },
+        {
+          "question": "How often must a financial institution provide customers with a privacy notice under GLBA?",
+          "answer": "At the time the customer relationship is established and annually thereafter, unless the institution's policies have not changed.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "glba-safeguards-rule",
+      "term": "GLBA Safeguards Rule",
+      "definition": "The GLBA provision requiring covered financial institutions to develop, implement, and maintain a written information security program with administrative, technical, and physical safeguards proportionate to their size and complexity.",
+      "why_it_exists": "A written, tested security program reduces the risk of data breaches and unauthorized access that could cause substantial harm to customers.",
+      "examples": [
+        {
+          "scenario": "A small mortgage brokerage gains access to a large bank's customer data during a joint transaction.",
+          "outcome": "The brokerage is required under the Safeguards Rule to protect that third-party customer data with the same rigor as its own customers' information."
+        }
+      ],
+      "cross_refs": [
+        "glba-privacy",
+        "glba-penalties"
+      ],
+      "check_questions": [
+        {
+          "question": "What are the three protective goals every GLBA safeguards program must achieve?",
+          "answer": "Ensure security and confidentiality of customer information; protect against anticipated and unanticipated threats; protect against unauthorized access that could cause substantial harm.",
+          "type": "recall"
+        },
+        {
+          "question": "What are the maximum penalties an officer or director can face for violating GLBA?",
+          "answer": "A fine of up to $10,000 per violation, imprisonment for up to five years, and potential license revocation.",
+          "type": "recall"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "$10,000",
+      "what_it_means": "Cash transaction threshold that triggers a Currency Transaction Report; structuring deposits below this amount to avoid reporting is itself a crime.",
+      "memorize_as": "Ten-thousand = automatic report trigger"
+    },
+    {
+      "value": "30 days",
+      "what_it_means": "Standard deadline to file a SAR after the date suspicious activity is identified.",
+      "memorize_as": "SAR = 30 days from occurrence"
+    },
+    {
+      "value": "60 days",
+      "what_it_means": "Absolute maximum deadline to file a SAR; applies when no suspect is identified and the initial 30-day period is extended.",
+      "memorize_as": "SAR hard cap = 60 days, no exceptions"
+    },
+    {
+      "value": "$5,000",
+      "what_it_means": "SAR filing threshold for criminal violations when a suspect can be identified, or for suspicious transactions through a bank where money laundering is suspected.",
+      "memorize_as": "Identified suspect = $5K threshold"
+    },
+    {
+      "value": "$25,000",
+      "what_it_means": "SAR filing threshold for criminal violations regardless of whether a suspect has been identified.",
+      "memorize_as": "No suspect needed above $25K"
+    },
+    {
+      "value": "Any amount",
+      "what_it_means": "SAR filing threshold for insider abuse and for mortgage origination/servicing departments of federally insured banks and non-bank mortgage lenders.",
+      "memorize_as": "Insider abuse and mortgage departments = zero threshold"
+    },
+    {
+      "value": "5 years",
+      "what_it_means": "Minimum retention period for SAR copies and CIP/account documents from the date of filing.",
+      "memorize_as": "SAR + CIP records = keep 5 years"
+    },
+    {
+      "value": "10 days",
+      "what_it_means": "Deadline for banks to report a blocked transaction to OFAC after the blocking occurs.",
+      "memorize_as": "OFAC block report = 10 days"
+    },
+    {
+      "value": "September 30",
+      "what_it_means": "Annual deadline for financial institutions to submit a Report of Blocked Property to OFAC.",
+      "memorize_as": "OFAC annual report = September 30"
+    },
+    {
+      "value": "$100,000",
+      "what_it_means": "Maximum fine per violation for an institution that fails to comply with GLBA.",
+      "memorize_as": "GLBA institution penalty = up to $100K per violation"
+    },
+    {
+      "value": "$10,000 / 5 years imprisonment",
+      "what_it_means": "Maximum fine per violation for GLBA-violating officers/directors, plus possible imprisonment.",
+      "memorize_as": "GLBA officer penalty = $10K fine + up to 5 years prison"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "SAR 30-day vs. 60-day deadline",
+      "the_distinction": "30 days is the standard deadline from the date of occurrence; if no suspect is identified, the institution may take an additional 30 days to identify one, but the SAR must be filed no later than 60 days from when suspicious activity was first identified — never beyond 60 days under any circumstance."
+    },
+    {
+      "often_confused_with": "SAR thresholds: $5,000 vs. $25,000 vs. any amount",
+      "the_distinction": "$5,000 applies when a suspect can be identified; $25,000 applies regardless of whether a suspect exists; mortgage origination departments and insider abuse cases have no minimum dollar threshold."
+    },
+    {
+      "often_confused_with": "GLBA consumer vs. customer",
+      "the_distinction": "A consumer uses a financial institution's products for personal purposes without establishing a formal account relationship; a customer does the same but has opened an account or secured credit, creating an ongoing relationship that triggers annual privacy notice requirements."
+    },
+    {
+      "often_confused_with": "Red flag vs. confirmed fraud",
+      "the_distinction": "A red flag is a circumstance warranting further scrutiny; it does not confirm wrongdoing. All individuals are presumed innocent, and a red flag must be investigated and rationalized before concluding that fraud or money laundering has occurred."
+    },
+    {
+      "often_confused_with": "GLBA opt-out exception for service providers vs. general nonaffiliated third parties",
+      "the_distinction": "Institutions may share nonpublic personal information with nonaffiliated third parties who perform services on the institution's behalf (e.g., title companies) without customer opt-out; sharing with unrelated third parties for their own marketing requires prior written notice and a meaningful opt-out opportunity."
+    },
+    {
+      "often_confused_with": "Placement vs. integration in money laundering",
+      "the_distinction": "Placement is the initial introduction of illegal cash into the financial system; integration is the final stage where the now-layered funds re-enter the legitimate economy appearing clean — placement is the entry point, integration is the exit."
+    }
+  ]
+}

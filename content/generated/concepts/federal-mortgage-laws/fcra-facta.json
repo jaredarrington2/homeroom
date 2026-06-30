@@ -1,0 +1,344 @@
+{
+  "chapter_id": "federal-mortgage-laws",
+  "section_id": "fcra-facta",
+  "section_title": "FCRA & FACTA",
+  "chapter_title": "Federal Mortgage-Related Laws",
+  "page_range": {
+    "start": 166,
+    "end": 190
+  },
+  "summary": "FCRA (1970) and its 2003 amendment FACTA establish consumer rights over credit reporting accuracy, privacy, dispute resolution, and identity theft protection. Together they govern how consumer reporting agencies, furnishers, and users must handle credit data, with specific timelines, alert types, and disposal rules that are heavily tested on the MLO exam.",
+  "concepts": [
+    {
+      "id": "fcra-purpose-and-scope",
+      "term": "Fair Credit Reporting Act (FCRA)",
+      "definition": "A 1970 federal law (implemented via Regulation V) that ensures accuracy, fairness, and privacy of consumer information assembled and used by consumer reporting agencies.",
+      "why_it_exists": "Without oversight, CRAs could circulate inaccurate or misused consumer data that unfairly affects credit, insurance, and employment decisions.",
+      "examples": [
+        {
+          "scenario": "A lender pulls a consumer's credit report to evaluate a mortgage application.",
+          "outcome": "FCRA requires the lender to have both written permission and a permissible purpose; completing a URLA satisfies both requirements."
+        }
+      ],
+      "cross_refs": [
+        "permissible-purpose-and-access",
+        "furnisher-obligations",
+        "adverse-action-notice"
+      ],
+      "check_questions": [
+        {
+          "question": "What are the three primary purposes of FCRA?",
+          "answer": "Ensuring the accuracy, fairness, and privacy of consumer information held by consumer reporting agencies.",
+          "type": "recall"
+        },
+        {
+          "question": "Which regulation implements FCRA, and in what year was it enacted?",
+          "answer": "Regulation V; FCRA was enacted in 1970.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "permissible-purpose-and-access",
+      "term": "Permissible Purpose & Credit Access",
+      "definition": "FCRA requires any user requesting a consumer's credit data from a CRA to demonstrate both written permission from the consumer and a legally permissible purpose.",
+      "why_it_exists": "Unrestricted access to consumer credit files would enable misuse, discrimination, and privacy violations.",
+      "examples": [
+        {
+          "scenario": "A loan officer wants to check an applicant's credit before the URLA is signed.",
+          "outcome": "The applicant must sign a Credit Report Authorization and Release form to grant both permission and permissible purpose before the report can be pulled."
+        }
+      ],
+      "cross_refs": [
+        "fcra-purpose-and-scope",
+        "fcra-prohibitions"
+      ],
+      "check_questions": [
+        {
+          "question": "What document, when completed, automatically grants both permission and permissible purpose to pull a consumer's credit?",
+          "answer": "The Uniform Residential Loan Application (URLA).",
+          "type": "recall"
+        },
+        {
+          "question": "A lender wants to check credit before the URLA is complete. What must happen first?",
+          "answer": "The consumer must sign a Credit Report Authorization and Release form.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "furnisher-obligations",
+      "term": "Furnisher Obligations & Consumer Disputes",
+      "definition": "Furnishers must report only accurate data to CRAs, maintain written accuracy policies, and investigate consumer disputes within 30 days (extendable by 15 days) of receipt.",
+      "why_it_exists": "Inaccurate data furnished to CRAs can damage consumers' creditworthiness and cause tangible financial harm.",
+      "examples": [
+        {
+          "scenario": "A consumer disputes a late payment on their credit report directly with the creditor that reported it.",
+          "outcome": "The furnisher must conduct a reasonable investigation and report results within 30 days; if the data was wrong, it must notify all relevant CRAs of the correction."
+        }
+      ],
+      "cross_refs": [
+        "fcra-purpose-and-scope",
+        "fcra-prohibitions"
+      ],
+      "check_questions": [
+        {
+          "question": "How many days does a furnisher have to complete its investigation of a consumer dispute, and what extension is available?",
+          "answer": "30 days, with an additional 15-day extension available if necessary.",
+          "type": "recall"
+        },
+        {
+          "question": "Under what conditions may a furnisher decline to investigate a direct dispute?",
+          "answer": "If the dispute is frivolous or irrelevant — meaning the consumer provided insufficient information, submitted a substantially identical dispute already addressed, or the furnisher is not required to investigate it.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "adverse-action-notice",
+      "term": "Adverse Action Notice",
+      "definition": "When a user denies credit, insurance, or employment based in whole or in part on credit information, it must notify the consumer of the denial, identify the CRA that supplied the report, and clarify that the CRA did not make the denial decision.",
+      "why_it_exists": "Consumers have the right to know why they were denied and to correct any inaccurate information that contributed to the decision.",
+      "examples": [
+        {
+          "scenario": "A lender denies a mortgage application partly due to the applicant's credit score.",
+          "outcome": "The lender must send an adverse action notice naming the credit repository used, and the applicant is entitled to a free copy of the credit report used in the decision."
+        }
+      ],
+      "cross_refs": [
+        "fcra-purpose-and-scope",
+        "permissible-purpose-and-access"
+      ],
+      "check_questions": [
+        {
+          "question": "What must an adverse action notice include when a credit report contributed to the denial?",
+          "answer": "The name and address of the credit repository used, a statement that the CRA did not make the denial decision, and notice of the consumer's right to a free copy of the report.",
+          "type": "recall"
+        },
+        {
+          "question": "Who is entitled to a free credit report after an adverse action, and from whom?",
+          "answer": "Any consumer denied credit, insurance, or employment based on their credit information is entitled to a free copy of the report from the repository or CRA used.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "fcra-prohibitions",
+      "term": "FCRA Prohibitions",
+      "definition": "FCRA expressly prohibits CRAs and furnishers from releasing data without consumer consent, reporting outdated negative information, providing credit reports directly to consumers, or failing to flag disputed information.",
+      "why_it_exists": "Clear prohibitions are needed to prevent misuse of sensitive consumer data by all parties in the credit reporting ecosystem.",
+      "examples": [
+        {
+          "scenario": "A mortgage loan officer offers to print the applicant's full credit profile for the applicant to keep.",
+          "outcome": "This is prohibited under FCRA; copies of credit profiles may only be obtained through an official credit repository or CRA."
+        }
+      ],
+      "cross_refs": [
+        "permissible-purpose-and-access",
+        "derogatory-credit-longevity"
+      ],
+      "check_questions": [
+        {
+          "question": "Who is prohibited from giving a consumer a copy of their credit report under FCRA?",
+          "answer": "Creditors and users; only official credit repositories or CRAs may provide copies directly to consumers.",
+          "type": "recall"
+        },
+        {
+          "question": "A furnisher receives a valid dispute but ignores it. What FCRA prohibition has been violated?",
+          "answer": "The prohibition against a furnisher failing to timely respond to a consumer's or CRA's dispute.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "derogatory-credit-longevity",
+      "term": "Longevity of Derogatory Credit",
+      "definition": "FCRA limits how long negative items may remain on a consumer's credit report, with most derogatory items reporting for 7 years and Chapter 7 bankruptcy reporting for 10 years.",
+      "why_it_exists": "Permanently reporting past negative events would unfairly prevent consumers from rebuilding creditworthiness over time.",
+      "examples": [
+        {
+          "scenario": "A consumer filed Chapter 13 bankruptcy eight years ago.",
+          "outcome": "The bankruptcy should have been removed from their credit profile after 7 years and may no longer be reported."
+        }
+      ],
+      "cross_refs": [
+        "fcra-prohibitions"
+      ],
+      "check_questions": [
+        {
+          "question": "How long does a Chapter 7 bankruptcy remain on a credit report versus a Chapter 13 bankruptcy?",
+          "answer": "Chapter 7 stays for 10 years; Chapter 13 stays for 7 years.",
+          "type": "recall"
+        },
+        {
+          "question": "How long can an unpaid tax lien remain on a consumer's credit report?",
+          "answer": "Potentially forever, unlike a paid tax lien which reports for 7 years from the original filing date.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "facta-fraud-and-active-duty-alerts",
+      "term": "FACTA Fraud Alerts & Active Duty Alerts",
+      "definition": "FACTA requires CRAs to place a standard fraud alert (minimum 1 year), an extended fraud alert (7 years) upon receipt of an identity theft report, or an active duty alert (minimum 12 months) for deployed military consumers, and to refer each alert to the other CRAs.",
+      "why_it_exists": "Consumers who have been victimized by identity theft or are unable to monitor their credit while deployed need an automatic safeguard that compels users to verify identity before extending credit.",
+      "examples": [
+        {
+          "scenario": "An active-duty service member requests an active duty alert before deployment.",
+          "outcome": "The CRA places the alert for at least 12 months, excludes the consumer from prescreened offer lists for 2 years, and notifies the other two major CRAs."
+        }
+      ],
+      "cross_refs": [
+        "facta-consumer-rights",
+        "ftc-red-flags-rule"
+      ],
+      "check_questions": [
+        {
+          "question": "How long does a standard fraud alert last, and how long does an extended fraud alert last?",
+          "answer": "A standard fraud alert lasts a minimum of 1 year; an extended fraud alert lasts 7 years.",
+          "type": "recall"
+        },
+        {
+          "question": "What additional benefit is a consumer entitled to when a CRA places a fraud alert on their file?",
+          "answer": "A free copy of their consumer report, along with all fraud alert disclosures, within 3 business days.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "ftc-red-flags-rule",
+      "term": "FTC Red Flags Rule",
+      "definition": "Effective January 1, 2008, this FACTA amendment requires all covered financial institutions and creditors to maintain a written Identity Theft Prevention Program that identifies, detects, responds to, and periodically updates procedures for identity theft red flags.",
+      "why_it_exists": "Financial institutions are on the front line of detecting identity theft, and a standardized program ensures they proactively prevent fraud rather than reacting after harm occurs.",
+      "examples": [
+        {
+          "scenario": "A mortgage brokerage's service provider processes loan applications but has no red flag detection policy.",
+          "outcome": "The brokerage is responsible for ensuring its service provider has adequate red flag procedures and can be held liable for harm caused by the provider's inadequate protections."
+        }
+      ],
+      "cross_refs": [
+        "facta-fraud-and-active-duty-alerts",
+        "facta-consumer-rights"
+      ],
+      "check_questions": [
+        {
+          "question": "What are the five required elements of a written Identity Theft Prevention Program under the Red Flags Rule?",
+          "answer": "Identify relevant red flags, detect those red flags, respond appropriately, update the program periodically, and report compliance to the board or senior management at least annually.",
+          "type": "recall"
+        },
+        {
+          "question": "Can a financial institution be held liable for identity theft caused by a third-party service provider it hired?",
+          "answer": "Yes — institutions must ensure their service providers follow adequate red flag policies and can be found responsible for injuries caused by a provider's inadequate protective measures.",
+          "type": "application"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "1970",
+      "what_it_means": "Year FCRA was enacted.",
+      "memorize_as": "FCRA enacted in 1970, same year as BSA/AML."
+    },
+    {
+      "value": "30 days + 15-day extension",
+      "what_it_means": "Time a furnisher has to complete a consumer dispute investigation.",
+      "memorize_as": "30 days to investigate a dispute, 15 more if needed."
+    },
+    {
+      "value": "5 business days",
+      "what_it_means": "Time a furnisher has to notify a consumer after determining their dispute is frivolous or irrelevant.",
+      "memorize_as": "5 business days to send a frivolous dispute notice."
+    },
+    {
+      "value": "3 business days",
+      "what_it_means": "Time after a mortgage application that a lender must issue a Credit Score Disclosure.",
+      "memorize_as": "Credit Score Disclosure due within 3 business days of application."
+    },
+    {
+      "value": "25%",
+      "what_it_means": "Ownership or voting share threshold that defines common ownership or corporate control under FCRA.",
+      "memorize_as": "25% voting shares = common control = affiliate relationship."
+    },
+    {
+      "value": "10 years",
+      "what_it_means": "How long a Chapter 7 bankruptcy stays on a credit report.",
+      "memorize_as": "Chapter 7 = 10 years (the worst bankruptcy = longest reporting)."
+    },
+    {
+      "value": "7 years",
+      "what_it_means": "How long most derogatory items (Chapter 13, late payments, collections, charge-offs, foreclosures, paid tax liens) remain on a credit report.",
+      "memorize_as": "Seven years for most negatives except Chapter 7 (10) and unpaid tax liens (forever)."
+    },
+    {
+      "value": "1 year (fraud alert) / 7 years (extended fraud alert)",
+      "what_it_means": "Duration of standard vs. extended fraud alerts placed by CRAs.",
+      "memorize_as": "Fraud alert = 1 year; extended (identity theft report required) = 7 years."
+    },
+    {
+      "value": "12 months (active duty alert) / 2 years (prescreened list exclusion)",
+      "what_it_means": "Active duty alert lasts at least 12 months; exclusion from prescreened credit/insurance offers lasts 2 years.",
+      "memorize_as": "Active duty alert: 12 months on file, 2 years off solicitation lists."
+    },
+    {
+      "value": "5 years (extended alert prescreened exclusion)",
+      "what_it_means": "Consumers with an extended fraud alert are excluded from prescreened offer lists for 5 years.",
+      "memorize_as": "Extended fraud alert = 5-year exclusion from prescreened offers."
+    },
+    {
+      "value": "December 31, 2003",
+      "what_it_means": "Date FACTA was enacted, amending FCRA.",
+      "memorize_as": "FACTA signed end of 2003."
+    },
+    {
+      "value": "January 1, 2008",
+      "what_it_means": "Effective date of the FTC Red Flags Rule.",
+      "memorize_as": "Red Flags Rule effective 2008."
+    },
+    {
+      "value": "12-point type (short notice) / 8-point type (long notice)",
+      "what_it_means": "Minimum type sizes for prescreened offer opt-out notices.",
+      "memorize_as": "Short opt-out notice = 12-point min; long notice = 8-point min."
+    },
+    {
+      "value": "35% / 30% / 15% / 10% / 10%",
+      "what_it_means": "Credit score weighting: payment history 35%, amount owed 30%, length of credit history 15%, credit mix 10%, new credit/hard inquiries 10%.",
+      "memorize_as": "Payment history is #1 at 35%; amounts owed #2 at 30%."
+    },
+    {
+      "value": "3 acceptable disposal methods",
+      "what_it_means": "FTC Disposal Rule permits only shredding, burning, or pulverizing of private consumer information.",
+      "memorize_as": "Shred, burn, or pulverize — no other disposal is allowed."
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "Standard fraud alert vs. extended fraud alert",
+      "the_distinction": "A standard fraud alert (minimum 1 year) requires only a good-faith assertion of suspected fraud; an extended fraud alert (7 years) requires submission of an actual identity theft report to law enforcement."
+    },
+    {
+      "often_confused_with": "Tradeline verification vs. investigative consumer report (full factual)",
+      "the_distinction": "A tradeline verification addresses a small number of specific discrepancies through the repository; an investigative consumer report involves a full consumer interview and independent verification of everything on the report — both fix issues only for the current transaction."
+    },
+    {
+      "often_confused_with": "Who can give a consumer a copy of their credit report",
+      "the_distinction": "Lenders and users are prohibited from handing a credit report copy directly to a consumer; only a CRA or official credit repository can do so."
+    },
+    {
+      "often_confused_with": "FCRA vs. FACTA",
+      "the_distinction": "FCRA (1970) is the foundational credit reporting law; FACTA (2003) is an amendment to FCRA that specifically added identity theft protections, free annual credit reports, fraud alerts, the Red Flags Rule, and the FTC Disposal Rule."
+    },
+    {
+      "often_confused_with": "Furnisher vs. consumer reporting agency (CRA)",
+      "the_distinction": "A furnisher sends consumer account data to CRAs; a CRA collects and compiles that data into reports. An entity providing data solely to obtain a report is not considered a furnisher."
+    },
+    {
+      "often_confused_with": "Chapter 7 (10 years) vs. Chapter 13 (7 years) bankruptcy reporting periods",
+      "the_distinction": "Chapter 7 is a full liquidation and stays on the credit report for 10 years; Chapter 13 is a repayment plan and falls off after 7 years — same as most other derogatory items."
+    },
+    {
+      "often_confused_with": "Active duty alert prescreened exclusion (2 years) vs. extended fraud alert prescreened exclusion (5 years)",
+      "the_distinction": "Active duty military consumers are excluded from prescreened offer lists for 2 years; consumers with extended fraud alerts are excluded for 5 years."
+    }
+  ]
+}

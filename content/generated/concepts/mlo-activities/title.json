@@ -1,0 +1,268 @@
+{
+  "chapter_id": "mlo-activities",
+  "section_id": "title",
+  "section_title": "Title",
+  "chapter_title": "MLO Activities",
+  "page_range": {
+    "start": 491,
+    "end": 505
+  },
+  "summary": "This section covers property title concepts including lien priority, title insurance, easement types, ownership categories, and estate types. It explains how title clouds are identified and cleared before a lender will fund a new loan.",
+  "concepts": [
+    {
+      "id": "lien-priority-ladder",
+      "term": "Lien priority (the ladder concept)",
+      "definition": "Liens are ranked by chronological order of recordation, with earlier-recorded liens holding higher priority and greater foreclosure rights than later ones.",
+      "why_it_exists": "Lenders need a clear hierarchy to determine who gets paid first from foreclosure proceeds, which governs how much risk each lender is accepting.",
+      "examples": [
+        {
+          "scenario": "A borrower has a first and second mortgage and wants to refinance only the first.",
+          "outcome": "When the first mortgage is paid off it leaves the ladder, the second moves to first position, and the new lender needs a subordination agreement from the second lienholder to reclaim first position."
+        }
+      ],
+      "cross_refs": [
+        "subordination-agreement",
+        "deed-of-reconveyance",
+        "super-liens"
+      ],
+      "check_questions": [
+        {
+          "question": "What determines a lien's position on the priority ladder?",
+          "answer": "The chronological order in which it was recorded into public record — earlier recordation means higher priority.",
+          "type": "recall"
+        },
+        {
+          "question": "A borrower refinances only the first mortgage without paying off the second. What must happen for the new loan to hold first-lien position?",
+          "answer": "The second lienholder must sign a subordination agreement consenting to retake the subordinate position behind the new first mortgage.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "subordination-agreement",
+      "term": "Subordination agreement",
+      "definition": "A recorded document in which a junior lienholder voluntarily agrees to remain in a subordinate position behind a new first mortgage that would otherwise displace it.",
+      "why_it_exists": "When a first mortgage is paid off in a refinance, the second mortgage would automatically move to first position without this agreement, blocking the new lender from taking priority.",
+      "examples": [
+        {
+          "scenario": "A homeowner refinances the first mortgage but keeps a home equity line of credit.",
+          "outcome": "The title company must obtain a signed subordination agreement from the HELOC lender before the new first mortgage can be funded."
+        }
+      ],
+      "cross_refs": [
+        "lien-priority-ladder",
+        "deed-of-reconveyance"
+      ],
+      "check_questions": [
+        {
+          "question": "Are lienholders legally required to sign a subordination agreement?",
+          "answer": "No — with minor exceptions, lienholders are not compelled to consent, making it critical to secure their pledge early in the process.",
+          "type": "recall"
+        },
+        {
+          "question": "When is a subordination agreement unnecessary in a refinance?",
+          "answer": "When the borrower pays off all outstanding liens through the refinance proceeds, since those liens are removed from title entirely.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "super-liens",
+      "term": "Super liens",
+      "definition": "Liens arising from delinquent real estate taxes or homeowner's association dues that take priority over even a first-mortgage lender's position.",
+      "why_it_exists": "Governments and HOAs are granted super-priority to ensure essential community obligations are funded regardless of private lending arrangements.",
+      "examples": [
+        {
+          "scenario": "A homeowner falls delinquent on property taxes while carrying a first mortgage.",
+          "outcome": "The tax authority's lien takes priority over the first mortgage lender, meaning the lender's first-right-of-redemption in foreclosure is subject to the tax lien being satisfied first."
+        }
+      ],
+      "cross_refs": [
+        "lien-priority-ladder"
+      ],
+      "check_questions": [
+        {
+          "question": "Name two types of obligations that create super liens.",
+          "answer": "Delinquent real estate taxes and delinquent homeowner's association dues.",
+          "type": "recall"
+        },
+        {
+          "question": "How do super liens differ from ordinary first-lien priority?",
+          "answer": "Super liens jump ahead of even a recorded first mortgage, so a foreclosure by any party must still satisfy the super lien before the first-mortgage lender can claim proceeds.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "deed-of-reconveyance",
+      "term": "Deed of reconveyance",
+      "definition": "A legal document that a former lienholder must issue once a debt is fully paid, transferring the property's title back to the owner free of that lien.",
+      "why_it_exists": "Without a recorded release, the satisfied lien would remain visible in public records and continue to cloud the property's title.",
+      "examples": [
+        {
+          "scenario": "A borrower pays off a home equity loan.",
+          "outcome": "The lender issues a deed of reconveyance; once recorded, the lien is removed from the title ladder."
+        }
+      ],
+      "cross_refs": [
+        "lien-priority-ladder",
+        "title-insurance"
+      ],
+      "check_questions": [
+        {
+          "question": "What document must a lienholder produce after a debt is satisfied?",
+          "answer": "A deed of reconveyance, which must be recorded to formally release the lien from public record.",
+          "type": "recall"
+        },
+        {
+          "question": "What is the practical effect of recording a deed of reconveyance?",
+          "answer": "The lien is officially removed from the title, clearing that rung of the priority ladder.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "title-insurance",
+      "term": "Lender's title insurance policy",
+      "definition": "An insurance policy issued to a lender that protects against financial loss if an undiscovered or unexpected title defect surfaces after the loan is funded.",
+      "why_it_exists": "Title searches are conducted by humans using records that may be misfiled or incomplete, so insurance covers residual risk of a missed cloud.",
+      "examples": [
+        {
+          "scenario": "A mechanics lien from a contractor was improperly filed and missed during the title search.",
+          "outcome": "The lender's title insurance policy covers the lender's loss if that lien later surfaces and threatens the lender's collateral position."
+        }
+      ],
+      "cross_refs": [
+        "title-binder-schedule-ab",
+        "break-in-chain-of-title"
+      ],
+      "check_questions": [
+        {
+          "question": "What is the minimum lookback period for a title search?",
+          "answer": "At least 60 years, though searching further back is preferred.",
+          "type": "recall"
+        },
+        {
+          "question": "How can a new title insurance company limit its liability for pre-existing defects?",
+          "answer": "By obtaining an indemnification agreement from a previous title insurance company that covered the property, making the prior company responsible for defects originating during its coverage period.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "title-binder-schedule-ab",
+      "term": "Title binder (Schedule A and Schedule B)",
+      "definition": "The first document issued by a title company after completing its search, where Schedule A identifies the property and its ownership chain and Schedule B lists all encumbrances and title clouds.",
+      "why_it_exists": "Lenders need a structured disclosure of ownership history and any outstanding claims before deciding whether to fund a loan.",
+      "examples": [
+        {
+          "scenario": "A title search reveals an unresolved mechanics lien on Schedule B.",
+          "outcome": "The lien must be satisfied, indemnified against, or subordinated before the lender will fund the new loan — a process called curing the title."
+        }
+      ],
+      "cross_refs": [
+        "title-insurance",
+        "break-in-chain-of-title",
+        "easement-types"
+      ],
+      "check_questions": [
+        {
+          "question": "What does Schedule B of the title binder describe?",
+          "answer": "Any actual or potential encumbrances and title clouds that could interfere with clear and marketable title, including liens and easements.",
+          "type": "recall"
+        },
+        {
+          "question": "What is the difference between how voluntary and involuntary liens are treated to cure title?",
+          "answer": "Voluntary liens (mortgages, HELOCs) may be satisfied or subordinated; involuntary liens (judgments, garnishments) must be satisfied because they would supersede the lender's lien.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "easement-types",
+      "term": "Easements (five types)",
+      "definition": "An easement grants a person, company, or government the right to use another's real property for a specific purpose without conveying ownership.",
+      "why_it_exists": "Properties sometimes require shared access or utility corridors that must be legally documented to avoid future ownership disputes.",
+      "examples": [
+        {
+          "scenario": "A power company has poles crossing a homeowner's backyard.",
+          "outcome": "This is an easement in gross; it typically survives a change of ownership and cannot be easily removed even if the homeowner sells."
+        }
+      ],
+      "cross_refs": [
+        "title-binder-schedule-ab",
+        "prescriptive-easement"
+      ],
+      "check_questions": [
+        {
+          "question": "How does an easement appurtenant differ from an easement in gross?",
+          "answer": "An easement appurtenant involves two neighboring properties and conveys with the land through ownership changes; an easement in gross involves only one property and grants access to a specific entity, and does not inherently transfer with the property.",
+          "type": "distinction"
+        },
+        {
+          "question": "What is a prescriptive easement and how is it acquired?",
+          "answer": "A prescriptive easement is acquired when someone openly and continuously uses another's property without permission for a state-specified number of years.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "ownership-categories-and-estates",
+      "term": "Categories of ownership and estate types",
+      "definition": "Property title may be held solely (severalty), jointly with others (joint tenancy, tenancy in common, tenancy by the entirety), or as a fee simple estate (owning land and improvements) versus a leasehold estate (owning improvements but not the land).",
+      "why_it_exists": "Different ownership structures carry different rights of survivorship, transfer restrictions, and lender risk profiles that affect how a loan is underwritten.",
+      "examples": [
+        {
+          "scenario": "A married couple holds title as tenancy by the entirety and one spouse wants to place a lien on the property.",
+          "outcome": "Both spouses must consent because they equally share all property rights under tenancy by the entirety."
+        }
+      ],
+      "cross_refs": [
+        "title-binder-schedule-ab",
+        "break-in-chain-of-title"
+      ],
+      "check_questions": [
+        {
+          "question": "What distinguishes joint tenancy from tenancy in common?",
+          "answer": "Joint tenancy includes rights of survivorship (a deceased owner's interest passes to surviving co-owners); tenancy in common does not include survivorship rights.",
+          "type": "distinction"
+        },
+        {
+          "question": "In a fee simple estate, what does the owner possess that a leasehold estate owner does not?",
+          "answer": "Ownership of the land itself, not just the improvements built on it.",
+          "type": "distinction"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "60 years",
+      "what_it_means": "The minimum lookback period a title search must cover in public land records.",
+      "memorize_as": "60-year minimum title search"
+    },
+    {
+      "value": "99 years",
+      "what_it_means": "The typical duration of a leasehold estate land lease.",
+      "memorize_as": "99-year leasehold lease"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "Easement appurtenant vs. easement in gross",
+      "the_distinction": "An easement appurtenant involves two neighboring parcels and automatically runs with the land; an easement in gross involves only one parcel and is granted to a specific entity (like a utility), not inherently tied to land transfer."
+    },
+    {
+      "often_confused_with": "Joint tenancy vs. tenancy in common",
+      "the_distinction": "Joint tenancy includes rights of survivorship so co-owners inherit a deceased owner's share automatically; tenancy in common has no survivorship rights and a deceased owner's share passes through their estate."
+    },
+    {
+      "often_confused_with": "Voluntary liens vs. involuntary liens when curing title",
+      "the_distinction": "Voluntary liens (mortgages, HELOCs) can be satisfied or subordinated; involuntary liens (court judgments, garnishments) must be fully satisfied because they automatically outrank a new lender's lien."
+    },
+    {
+      "often_confused_with": "Fee simple estate vs. leasehold estate",
+      "the_distinction": "A fee simple owner owns both the improvements and the land; a leasehold owner only owns the improvements and leases the land under a long-term agreement."
+    }
+  ]
+}

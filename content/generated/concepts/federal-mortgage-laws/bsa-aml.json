@@ -1,0 +1,272 @@
+{
+  "chapter_id": "federal-mortgage-laws",
+  "section_id": "bsa-aml",
+  "section_title": "BSA/AML – Bank Secrecy Act and Anti-Money Laundering",
+  "chapter_title": "Federal Mortgage-Related Laws",
+  "page_range": {
+    "start": 206,
+    "end": 225
+  },
+  "summary": "The Bank Secrecy Act and Anti-Money Laundering framework requires financial institutions to detect, prevent, and report money laundering through formal AML programs, Customer Identification Programs, and transaction recordkeeping. The USA PATRIOT ACT expanded these obligations after 9/11, adding counterterrorism screening and international money laundering provisions.",
+  "concepts": [
+    {
+      "id": "bank-secrecy-act-overview",
+      "term": "Bank Secrecy Act (BSA)",
+      "definition": "Federal law requiring financial institutions to maintain records and file reports on transactions to help the government detect and prevent money laundering and financial crimes.",
+      "why_it_exists": "Criminal enterprises rely on moving illegal funds through legitimate financial systems, so transparency requirements make it harder to disguise the origin of those funds.",
+      "examples": [
+        {
+          "scenario": "A mortgage broker processes a large cash transaction and must record the identity of all participants and file the required report with Treasury.",
+          "outcome": "The broker complies with BSA by documenting the originator's identity, the legal capacity of each participant, the beneficial owner, and a description of the transaction."
+        }
+      ],
+      "cross_refs": [
+        "anti-money-laundering-program",
+        "customer-identification-program",
+        "usa-patriot-act"
+      ],
+      "check_questions": [
+        {
+          "question": "What four elements must BSA transaction records include?",
+          "answer": "Identity and address of participants (including the loan or funds-transfer originator), the legal capacity in which each participant acts, the identity of the beneficial owner of the funds, and a description of the transaction.",
+          "type": "recall"
+        },
+        {
+          "question": "Which type of financial institutions are covered by BSA transaction recordkeeping requirements?",
+          "answer": "All financial institutions operating throughout the United States and its possessions, including mortgage lenders and brokers.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "money-laundering-definition",
+      "term": "Money laundering",
+      "definition": "Filtering illegally obtained money through a series of transactions to prevent authorities from tracing the funds back to their original criminal source.",
+      "why_it_exists": "Criminals need to make illicit proceeds appear legitimate so they can spend or invest the money without attracting law enforcement attention.",
+      "examples": [
+        {
+          "scenario": "A drug trafficker deposits cash proceeds in small increments across multiple accounts, then uses a shell company to wire the blended funds into a real estate purchase.",
+          "outcome": "This layering process attempts to disguise the criminal origin; BSA/AML rules require institutions to detect and report such patterns."
+        }
+      ],
+      "cross_refs": [
+        "anti-money-laundering-program",
+        "bank-secrecy-act-overview",
+        "usa-patriot-act"
+      ],
+      "check_questions": [
+        {
+          "question": "How does the USA PATRIOT ACT define money laundering?",
+          "answer": "Filtering ill-gotten money through a series of transactions in order to prevent tracing of the funds to their original and illegal source.",
+          "type": "recall"
+        },
+        {
+          "question": "Why does offshore banking make money laundering enforcement harder?",
+          "answer": "Offshore jurisdictions often offer anonymity and weak supervisory regimes, making it difficult for law enforcement to follow the trail of criminal funds.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "usa-patriot-act",
+      "term": "USA PATRIOT ACT",
+      "definition": "Federal law enacted on October 26, 2001, to deter and punish terrorism and strengthen the government's investigatory and enforcement powers, including over financial institutions.",
+      "why_it_exists": "The September 11, 2001 attacks revealed that terrorist financing flowed through legitimate financial channels, requiring enhanced oversight of those channels.",
+      "examples": [
+        {
+          "scenario": "A credit union wants to know whether it must comply with PATRIOT ACT customer identification requirements.",
+          "outcome": "Yes — the ACT applies to federally regulated banks, branches and agencies of U.S.-based foreign banks, credit unions, non-federally regulated private banks, mortgage and real estate settlement persons, and financial institutions broadly."
+        }
+      ],
+      "cross_refs": [
+        "customer-identification-program",
+        "anti-money-laundering-program",
+        "bank-secrecy-act-overview"
+      ],
+      "check_questions": [
+        {
+          "question": "On what date was the USA PATRIOT ACT enacted?",
+          "answer": "October 26, 2001.",
+          "type": "recall"
+        },
+        {
+          "question": "Does the USA PATRIOT ACT apply to mortgage lenders and real estate settlement persons?",
+          "answer": "Yes, persons involved in mortgages and real estate settlements are explicitly listed among the covered entities.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "anti-money-laundering-program",
+      "term": "Anti-Money Laundering (AML) Program",
+      "definition": "A formal internal compliance program that every financial institution, including mortgage lenders and brokers, must establish and maintain to prevent and detect money laundering.",
+      "why_it_exists": "Regulators require institutions to take proactive steps so that illicit funds cannot flow through them undetected.",
+      "examples": [
+        {
+          "scenario": "A mortgage brokerage sets up its AML program by drafting written policies, appointing a compliance officer, scheduling annual staff training, and hiring an outside firm to audit the program.",
+          "outcome": "The brokerage satisfies the four minimum requirements of a compliant AML program."
+        }
+      ],
+      "cross_refs": [
+        "bank-secrecy-act-overview",
+        "customer-identification-program",
+        "suspicious-activity-reporting"
+      ],
+      "check_questions": [
+        {
+          "question": "What are the four minimum components of a compliant AML program?",
+          "answer": "Internal policies, procedures, and controls; a designated compliance officer; an ongoing employee training program; and an independent audit function to test the program.",
+          "type": "recall"
+        },
+        {
+          "question": "Beyond the four core components, what additional obligation do financial institutions have under their AML program?",
+          "answer": "They must establish procedures for sharing suspicious activity information with and notifying appropriate authorities of attempted or actual money laundering.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "customer-identification-program",
+      "term": "Customer Identification Program (CIP)",
+      "definition": "A formal program that every financial institution must create, implement, and maintain to positively verify the identity of individuals seeking to establish a customer relationship.",
+      "why_it_exists": "Terrorists and criminals exploit anonymous accounts, so knowing who customers are is the first line of defense against illicit financial activity.",
+      "examples": [
+        {
+          "scenario": "A new loan applicant walks into a mortgage company that has an existing account with them.",
+          "outcome": "If the applicant was already identified under the institution's PATRIOT ACT CIP when the existing account was opened, they do not need to re-present identification for the new application."
+        }
+      ],
+      "cross_refs": [
+        "anti-money-laundering-program",
+        "ofac-watch-list-screening",
+        "usa-patriot-act"
+      ],
+      "check_questions": [
+        {
+          "question": "What three provisions must a financial institution's CIP include?",
+          "answer": "Procedures to positively verify the identity of anyone seeking to open an account; records of information used to verify identity (name, address, other identifying data); and consultation of government-provided terrorist watch lists.",
+          "type": "recall"
+        },
+        {
+          "question": "When must mortgage lenders issue the Patriot Act Information Disclosure to prospective applicants?",
+          "answer": "At the time of application.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "ofac-watch-list-screening",
+      "term": "OFAC Watch List Screening",
+      "definition": "The required process of checking any person seeking to open an account or apply for a loan against government-maintained lists of known or suspected terrorists and terrorist organizations, including the OFAC list.",
+      "why_it_exists": "Providing financial services to designated terrorists or terrorist organizations is prohibited by law and would directly fund terrorist activity.",
+      "examples": [
+        {
+          "scenario": "During a new loan application, the loan officer runs the applicant's name through OFAC and a government watch list database.",
+          "outcome": "If the applicant appears on any such list, the institution is strictly prohibited from entering into a relationship with that individual."
+        }
+      ],
+      "cross_refs": [
+        "customer-identification-program",
+        "usa-patriot-act"
+      ],
+      "check_questions": [
+        {
+          "question": "What must a financial institution do if a loan applicant's name appears on a government terrorist watch list?",
+          "answer": "The institution is strictly prohibited from entering into any relationship with that individual.",
+          "type": "application"
+        },
+        {
+          "question": "Where must financial institutions post notice of their CIP identification requirements?",
+          "answer": "Conspicuously in their lobbies, so all persons and potential customers are informed.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "counterterrorism-fund",
+      "term": "Counterterrorism Fund",
+      "definition": "An anti-terrorism fund established within the U.S. Department of the Treasury by the USA PATRIOT ACT to support counterterrorism investigation, prosecution, and recovery efforts.",
+      "why_it_exists": "Government agencies needed a dedicated funding mechanism to respond to terrorism incidents, pay informant rewards, assess threats, and detain suspects abroad.",
+      "examples": [
+        {
+          "scenario": "A federal office building is damaged in a domestic terrorism incident and the Department of Justice needs funds to restore its operational capability.",
+          "outcome": "The Counterterrorism Fund reimburses the DOJ component for costs incurred in reestablishing operational capability."
+        }
+      ],
+      "cross_refs": [
+        "usa-patriot-act"
+      ],
+      "check_questions": [
+        {
+          "question": "Within which federal department was the Counterterrorism Fund established?",
+          "answer": "The United States Department of the Treasury.",
+          "type": "recall"
+        },
+        {
+          "question": "Name two functions of the Counterterrorism Fund.",
+          "answer": "Any two of: reimburses DOJ for costs of restoring offices damaged by terrorism; provides support to counter/investigate/prosecute terrorism including paying rewards; conducts terrorism threat assessments of federal agencies; reimburses agencies for costs of detaining terrorism suspects abroad.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "suspicious-activity-reporting",
+      "term": "Suspicious Activity Reporting",
+      "definition": "The obligation of financial institutions to maintain procedures for identifying, sharing information about, and notifying appropriate authorities of attempted or actual money laundering.",
+      "why_it_exists": "Law enforcement depends on financial institutions as the front line of detection because suspicious transaction patterns are often visible only to the institution processing them.",
+      "examples": [
+        {
+          "scenario": "A loan officer notices a borrower is structuring loan applications to avoid triggering reporting thresholds.",
+          "outcome": "Under the institution's AML program, the officer must document the suspicious activity and notify the appropriate authorities through established procedures."
+        }
+      ],
+      "cross_refs": [
+        "anti-money-laundering-program",
+        "bank-secrecy-act-overview"
+      ],
+      "check_questions": [
+        {
+          "question": "What does an institution's AML program require regarding suspicious activity?",
+          "answer": "It must include procedures for sharing suspicious activity with and notifying appropriate authorities of instances of attempted or actual money laundering.",
+          "type": "recall"
+        },
+        {
+          "question": "Who is responsible for overseeing that suspicious activity procedures are followed within a financial institution?",
+          "answer": "The designated compliance officer required by the AML program.",
+          "type": "application"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "October 26, 2001",
+      "what_it_means": "Date the USA PATRIOT ACT was enacted by Congress.",
+      "memorize_as": "Enacted 45 days after 9/11 attacks"
+    },
+    {
+      "value": "4 pillars",
+      "what_it_means": "Minimum components every AML program must have: internal policies/procedures/controls, compliance officer, employee training, independent audit.",
+      "memorize_as": "Policies, Officer, Training, Audit — POTA"
+    },
+    {
+      "value": "3 CIP provisions",
+      "what_it_means": "CIP must cover: identity verification, recordkeeping of identifying info, and terrorist watch list consultation.",
+      "memorize_as": "Verify, Record, Screen"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "AML Program vs. Customer Identification Program (CIP)",
+      "the_distinction": "The AML program is the broad internal compliance framework (policies, officer, training, audit, suspicious activity reporting); the CIP is a specific sub-component focused solely on verifying who the customer is before establishing a relationship."
+    },
+    {
+      "often_confused_with": "USA PATRIOT ACT vs. Bank Secrecy Act",
+      "the_distinction": "The BSA is the foundational law requiring transaction records and reports; the PATRIOT ACT expanded and strengthened BSA requirements after 9/11, adding CIP mandates, terrorist watch list screening, and the international money laundering subcomponent."
+    },
+    {
+      "often_confused_with": "Existing account holder vs. new applicant under CIP",
+      "the_distinction": "A person already holding an active account who was previously identified under the institution's PATRIOT ACT CIP does not need to re-present identification; a brand-new applicant or account opener must be fully identified."
+    }
+  ]
+}

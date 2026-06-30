@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Homeroom — Design Canon v0.1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Caveat:wght@400;500;600&family=Patrick+Hand&display=swap" rel="stylesheet">
+<style>
+  :root {
+    /* Color tokens */
+    --paper-white: #FFFFFF;
+    --ink: #0A0A0A;
+    --ink-muted: #6B6B6B;
+    --ink-faint: #A8A8A8;
+    --hairline: #E5E5E5;
+    --hairline-strong: #CFCFCF;
+    --royal-ink: #1E3A8A;       /* the accent */
+    --royal-ink-hover: #1B3479;
+    --royal-ink-faint: #E8EDF7;
+    --paper-cream: #FAF7EE;     /* loose-leaf */
+    --paper-rule: #B8D4E8;      /* faded ledger blue */
+    --paper-margin: #C8534F;    /* faded red margin line */
+    --pencil: #3F3F3F;
+    --warning: #B45309;
+
+    /* Type tokens */
+    --display: 'Fraunces', Georgia, 'Times New Roman', serif;
+    --body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --mono: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+    --hand: 'Caveat', 'Patrick Hand', cursive;
+
+    /* Spacing scale (4px base) */
+    --s-1: 4px;
+    --s-2: 8px;
+    --s-3: 12px;
+    --s-4: 16px;
+    --s-6: 24px;
+    --s-8: 32px;
+    --s-12: 48px;
+    --s-16: 64px;
+    --s-24: 96px;
+    --s-32: 128px;
+
+    /* Layout */
+    --max-w: 1200px;
+    --gutter: 32px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--paper-white);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    padding: 0 var(--gutter);
+  }
+
+  /* ─── Top bar ─── */
+  .topbar {
+    border-bottom: 1px solid var(--hairline);
+    padding: var(--s-4) 0;
+    position: sticky;
+    top: 0;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    z-index: 10;
+  }
+  .topbar .container { display: flex; justify-content: space-between; align-items: center; }
+  .brand {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+  }
+  .brand .mark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: var(--royal-ink);
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+    margin-bottom: 2px;
+  }
+  .topbar nav { display: flex; gap: var(--s-8); }
+  .topbar nav a {
+    font-size: 13px;
+    color: var(--ink-muted);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .topbar nav a:hover { color: var(--royal-ink); }
+  .version-pill {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-muted);
+    border: 1px solid var(--hairline);
+    padding: 3px 8px;
+    border-radius: 2px;
+  }
+
+  /* ─── Hero ─── */
+  .hero {
+    padding: var(--s-32) 0 var(--s-24);
+    border-bottom: 1px solid var(--hairline);
+  }
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--ink-muted);
+    margin-bottom: var(--s-6);
+  }
+  .hero h1 {
+    font-family: var(--display);
+    font-weight: 400;
+    font-size: clamp(48px, 7vw, 92px);
+    line-height: 1.02;
+    letter-spacing: -0.025em;
+    color: var(--ink);
+    margin-bottom: var(--s-6);
+    font-variation-settings: "opsz" 144;
+  }
+  .hero h1 em {
+    font-style: italic;
+    color: var(--royal-ink);
+  }
+  .hero .lead {
+    font-family: var(--display);
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 1.5;
+    color: var(--ink-muted);
+    max-width: 640px;
+    font-variation-settings: "opsz" 72;
+  }
+  .hero-meta {
+    display: flex;
+    gap: var(--s-12);
+    margin-top: var(--s-12);
+    padding-top: var(--s-6);
+    border-top: 1px solid var(--hairline);
+  }
+  .hero-meta div { font-size: 13px; }
+  .hero-meta dt {
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-faint);
+    margin-bottom: 4px;
+  }
+  .hero-meta dd { color: var(--ink); font-weight: 500; }
+
+  /* ─── Section ─── */
+  section.canon {
+    padding: var(--s-24) 0;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .section-head {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: var(--s-8);
+    margin-bottom: var(--s-12);
+    align-items: baseline;
+  }
+  .section-num {
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--ink-faint);
+  }
+  .section-head h2 {
+    font-family: var(--display);
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    font-variation-settings: "opsz" 144;
+  }
+  .section-head .lede {
+    grid-column: 2;
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--ink-muted);
+    max-width: 680px;
+    margin-top: var(--s-3);
+  }
+
+  h3 {
+    font-family: var(--display);
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: var(--s-4);
+    letter-spacing: -0.01em;
+  }
+  h4 {
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-faint);
+    margin-bottom: var(--s-3);
+  }
+  p { color: var(--ink); }
+  p + p { margin-top: var(--s-3); }
+
+  /* ─── Type specimens ─── */
+  .type-stack > div { padding: var(--s-8) 0; border-top: 1px solid var(--hairline); }
+  .type-stack > div:first-child { border-top: none; }
+  .type-stack .label {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: var(--s-3);
+    display: flex;
+    justify-content: space-between;
+  }
+  .type-display-xl {
+    font-family: var(--display);
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.025em;
+    font-variation-settings: "opsz" 144;
+  }
+  .type-display-l {
+    font-family: var(--display);
+    font-size: 44px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    font-variation-settings: "opsz" 144;
+  }
+  .type-display-m {
+    font-family: var(--display);
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    font-variation-settings: "opsz" 72;
+  }
+  .type-body-l { font-size: 19px; line-height: 1.6; max-width: 640px; }
+  .type-body { font-size: 16px; line-height: 1.65; max-width: 640px; }
+  .type-body-s { font-size: 14px; line-height: 1.6; color: var(--ink-muted); max-width: 640px; }
+  .type-mono {
+    font-family: var(--mono);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-muted);
+  }
+
+  /* ─── Color swatches ─── */
+  .swatch-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: var(--s-4);
+  }
+  .swatch {
+    border: 1px solid var(--hairline);
+  }
+  .swatch .chip {
+    height: 120px;
+    display: block;
+  }
+  .swatch .meta {
+    padding: var(--s-3) var(--s-4);
+    border-top: 1px solid var(--hairline);
+  }
+  .swatch .name {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .swatch .hex {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-muted);
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+
+  /* ─── Spacing scale ─── */
+  .spacing-row {
+    display: grid;
+    grid-template-columns: 80px 80px 1fr;
+    gap: var(--s-4);
+    align-items: center;
+    padding: var(--s-2) 0;
+    border-bottom: 1px solid var(--hairline);
+    font-size: 13px;
+  }
+  .spacing-row:last-child { border-bottom: none; }
+  .spacing-row .token { font-family: var(--mono); color: var(--ink); }
+  .spacing-row .val { font-family: var(--mono); color: var(--ink-muted); font-size: 11px; }
+  .spacing-row .bar { background: var(--royal-ink); height: 6px; }
+
+  /* ─── Two-col helper ─── */
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--s-12);
+  }
+  @media (max-width: 800px) { .two-col { grid-template-columns: 1fr; } }
+
+  /* ─── Loose-leaf paper diagram ─── */
+  .looseleaf {
+    position: relative;
+    background: var(--paper-cream);
+    /* horizontal rules + subtle paper texture */
+    background-image:
+      repeating-linear-gradient(
+        transparent 0px,
+        transparent 27px,
+        var(--paper-rule) 27px,
+        var(--paper-rule) 28px
+      );
+    border-radius: 2px;
+    box-shadow:
+      0 1px 0 rgba(0,0,0,0.04),
+      0 2px 8px rgba(0,0,0,0.06),
+      0 12px 24px rgba(0,0,0,0.04);
+    padding: 56px 40px 40px 80px;
+    min-height: 480px;
+    overflow: hidden;
+  }
+  /* Red margin line */
+  .looseleaf::before {
+    content: "";
+    position: absolute;
+    left: 56px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: var(--paper-margin);
+    opacity: 0.5;
+  }
+  /* Three-hole punches */
+  .looseleaf::after {
+    content: "";
+    position: absolute;
+    left: 16px;
+    top: 60px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.95);
+    box-shadow:
+      0 180px 0 rgba(255,255,255,0.95),
+      0 360px 0 rgba(255,255,255,0.95),
+      inset 0 1px 2px rgba(0,0,0,0.15);
+  }
+  .looseleaf-content {
+    position: relative;
+    z-index: 1;
+  }
+  .looseleaf h5 {
+    font-family: var(--hand);
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--royal-ink);
+    margin-bottom: var(--s-4);
+    line-height: 1;
+  }
+  .looseleaf .note {
+    font-family: var(--hand);
+    font-size: 19px;
+    color: var(--royal-ink);
+    line-height: 28px;  /* sit on the rules */
+  }
+  .looseleaf .pencil-note {
+    font-family: var(--hand);
+    font-size: 17px;
+    color: var(--pencil);
+    line-height: 28px;
+    margin-top: 12px;
+    transform: rotate(-1deg);
+  }
+  .looseleaf svg .ink {
+    stroke: var(--royal-ink);
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .looseleaf svg .ink-thick { stroke-width: 2.4; }
+  .looseleaf svg text.ink-label {
+    font-family: var(--hand);
+    font-size: 18px;
+    fill: var(--royal-ink);
+  }
+  .looseleaf svg text.pencil-label {
+    font-family: var(--hand);
+    font-size: 14px;
+    fill: var(--pencil);
+  }
+
+  /* ─── Imagery placeholder (transparent PNG demo) ─── */
+  .imagery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--s-4);
+  }
+  @media (max-width: 800px) { .imagery-grid { grid-template-columns: 1fr 1fr; } }
+  .img-card {
+    border: 1px solid var(--hairline);
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: var(--paper-white);
+  }
+  .img-card .placeholder {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--ink-faint);
+    text-align: center;
+    background-image:
+      linear-gradient(45deg, #F5F5F5 25%, transparent 25%),
+      linear-gradient(-45deg, #F5F5F5 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, #F5F5F5 75%),
+      linear-gradient(-45deg, transparent 75%, #F5F5F5 75%);
+    background-size: 16px 16px;
+    background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
+  }
+  .img-card .meta {
+    position: absolute;
+    bottom: var(--s-3);
+    left: var(--s-3);
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  /* ─── Buttons ─── */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--body);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.12s ease, transform 0.12s ease;
+  }
+  .btn-primary {
+    background: var(--royal-ink);
+    color: white;
+  }
+  .btn-primary:hover { background: var(--royal-ink-hover); }
+  .btn-secondary {
+    background: transparent;
+    color: var(--ink);
+    border: 1px solid var(--hairline-strong);
+  }
+  .btn-secondary:hover { border-color: var(--ink); }
+  .btn-ghost {
+    background: transparent;
+    color: var(--royal-ink);
+    padding: 12px 0;
+    font-weight: 500;
+  }
+  .btn-ghost::after { content: "→"; transition: transform 0.12s; }
+  .btn-ghost:hover::after { transform: translateX(4px); }
+
+  /* ─── Flashcard ─── */
+  .flashcard-wrap {
+    perspective: 1200px;
+  }
+  .flashcard {
+    width: 100%;
+    max-width: 480px;
+    aspect-ratio: 1.6;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform 0.5s cubic-bezier(0.4, 0.0, 0.2, 1);
+    position: relative;
+  }
+  .flashcard.flipped { transform: rotateY(180deg); }
+  .flashcard-face {
+    position: absolute;
+    inset: 0;
+    border: 1px solid var(--hairline-strong);
+    padding: var(--s-8);
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--paper-white);
+  }
+  .flashcard-face.back { transform: rotateY(180deg); }
+  .flashcard-tag {
+    font-family: var(--mono);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-faint);
+  }
+  .flashcard-front .q {
+    font-family: var(--display);
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    font-variation-settings: "opsz" 72;
+  }
+  .flashcard-back .a {
+    font-size: 15px;
+    line-height: 1.55;
+  }
+  .flashcard-back .a strong { color: var(--royal-ink); }
+  .flashcard-hint {
+    font-size: 12px;
+    color: var(--ink-faint);
+    font-style: italic;
+  }
+
+  /* ─── Quiz modes ─── */
+  .quiz-mode-tabs {
+    display: flex;
+    gap: 1px;
+    background: var(--hairline);
+    padding: 1px;
+    margin-bottom: var(--s-6);
+    width: fit-content;
+  }
+  .quiz-mode-tab {
+    padding: 8px 16px;
+    font-family: var(--body);
+    font-size: 13px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    color: var(--ink-muted);
+  }
+  .quiz-mode-tab.active {
+    color: var(--ink);
+    font-weight: 500;
+  }
+  .quiz-mode-panel { display: none; }
+  .quiz-mode-panel.active { display: block; }
+
+  .quiz {
+    border: 1px solid var(--hairline);
+    padding: var(--s-8);
+    background: white;
+  }
+  .quiz-inline { border-left: 3px solid var(--royal-ink); }
+  .quiz-gated { background: var(--royal-ink-faint); border-color: var(--royal-ink-faint); }
+  .quiz-practice {
+    background: white;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.04), 0 4px 16px rgba(0,0,0,0.04);
+    border: none;
+  }
+  .quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--s-6);
+  }
+  .quiz-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-muted);
+  }
+  .quiz-counter {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--ink-faint);
+  }
+  .quiz-question {
+    font-family: var(--display);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: var(--s-6);
+    letter-spacing: -0.01em;
+    font-variation-settings: "opsz" 72;
+  }
+  .quiz-options { display: flex; flex-direction: column; gap: var(--s-2); }
+  .quiz-option {
+    padding: var(--s-4);
+    border: 1px solid var(--hairline);
+    background: white;
+    text-align: left;
+    cursor: pointer;
+    font-family: var(--body);
+    font-size: 15px;
+    color: var(--ink);
+    transition: border-color 0.12s, background 0.12s;
+    display: flex;
+    align-items: center;
+    gap: var(--s-3);
+  }
+  .quiz-option:hover { border-color: var(--ink); }
+  .quiz-option .letter {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-faint);
+    width: 16px;
+  }
+  .quiz-option.correct { border-color: var(--royal-ink); background: var(--royal-ink-faint); }
+  .quiz-option.incorrect { border-color: var(--warning); opacity: 0.6; }
+  .quiz-feedback {
+    margin-top: var(--s-4);
+    padding-top: var(--s-4);
+    border-top: 1px solid var(--hairline);
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--ink-muted);
+    display: none;
+  }
+  .quiz-feedback.shown { display: block; }
+  .quiz-feedback strong { color: var(--royal-ink); font-weight: 600; }
+
+  /* ─── Page template sketches ─── */
+  .template-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--s-6);
+  }
+  @media (max-width: 800px) { .template-grid { grid-template-columns: 1fr; } }
+  .template {
+    border: 1px solid var(--hairline);
+    padding: var(--s-6);
+  }
+  .template h4 { margin-bottom: var(--s-3); color: var(--ink); }
+  .template .sketch {
+    aspect-ratio: 0.75;
+    background: #FAFAFA;
+    margin-bottom: var(--s-4);
+    padding: var(--s-3);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .sk-line { background: var(--hairline-strong); height: 6px; border-radius: 1px; }
+  .sk-line.short { width: 40%; }
+  .sk-line.med { width: 70%; }
+  .sk-line.tall { height: 18px; background: var(--ink); width: 60%; }
+  .sk-block { background: white; border: 1px solid var(--hairline); flex: 1; }
+  .sk-accent { background: var(--royal-ink); height: 6px; width: 24px; }
+  .sk-row { display: flex; gap: 4px; }
+  .sk-row > div { flex: 1; background: var(--hairline-strong); height: 32px; }
+  .template p { font-size: 13px; color: var(--ink-muted); line-height: 1.5; }
+
+  /* ─── Voice ─── */
+  .voice-pairs { display: flex; flex-direction: column; gap: var(--s-4); }
+  .voice-pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--s-4);
+    padding: var(--s-4);
+    border: 1px solid var(--hairline);
+  }
+  @media (max-width: 700px) { .voice-pair { grid-template-columns: 1fr; } }
+  .voice-bad, .voice-good { padding: var(--s-3); font-size: 14px; line-height: 1.5; }
+  .voice-bad { background: #FBF4F3; color: #7B3F3D; text-decoration: line-through; text-decoration-color: rgba(123,63,61,0.3); }
+  .voice-good { background: var(--royal-ink-faint); color: var(--ink); }
+  .voice-tag {
+    font-family: var(--mono);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 4px;
+    opacity: 0.7;
+  }
+
+  /* ─── Don'ts ─── */
+  .donts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--s-4);
+  }
+  @media (max-width: 700px) { .donts { grid-template-columns: 1fr; } }
+  .dont {
+    padding: var(--s-4);
+    border-left: 2px solid var(--warning);
+    background: #FDFBF7;
+  }
+  .dont strong { display: block; margin-bottom: 4px; font-size: 14px; }
+  .dont span { font-size: 13px; color: var(--ink-muted); }
+
+  /* ─── Footer ─── */
+  footer {
+    padding: var(--s-12) 0 var(--s-16);
+    color: var(--ink-faint);
+    font-size: 13px;
+    text-align: center;
+  }
+  footer .container { display: flex; justify-content: space-between; }
+
+  /* ─── Utility ─── */
+  .stack-12 > * + * { margin-top: var(--s-12); }
+  .stack-8 > * + * { margin-top: var(--s-8); }
+  .stack-6 > * + * { margin-top: var(--s-6); }
+  .stack-4 > * + * { margin-top: var(--s-4); }
+
+  /* selection */
+  ::selection { background: var(--royal-ink); color: white; }
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="container">
+    <div class="brand"><span class="mark"></span>Homeroom</div>
+    <nav>
+      <a href="#foundations">Foundations</a>
+      <a href="#imagery">Imagery</a>
+      <a href="#components">Components</a>
+      <a href="#templates">Templates</a>
+      <a href="#voice">Voice</a>
+    </nav>
+    <span class="version-pill">canon · v0.1</span>
+  </div>
+</div>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="container">
+    <p class="eyebrow">Design Canon · MLO Study App</p>
+    <h1>The study materials, <em>not the study app.</em></h1>
+    <p class="lead">Homeroom should read like a quiet portfolio site that happens to teach you the SAFE MLO exam. White paper, set type, room to think. The pencil-and-ink diagrams do the talking.</p>
+    <dl class="hero-meta">
+      <div><dt>Subject</dt><dd>SAFE MLO licensing</dd></div>
+      <div><dt>Audience</dt><dd>Self-directed adult</dd></div>
+      <div><dt>Tone</dt><dd>Quiet · confident · dry</dd></div>
+      <div><dt>Signature</dt><dd>Loose-leaf diagrams</dd></div>
+    </dl>
+  </div>
+</header>
+
+<!-- 01 FOUNDATIONS -->
+<section class="canon" id="foundations">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-num">01</span>
+      <h2>Foundations</h2>
+      <p class="lede">Three typefaces, one accent color, a 4px spacing scale. Everything else is restraint.</p>
+    </div>
+
+    <div class="stack-12">
+
+      <!-- TYPE -->
+      <div>
+        <h4>Type</h4>
+        <div class="type-stack">
+          <div>
+            <div class="label"><span>Display · Fraunces</span><span>72/1.0</span></div>
+            <div class="type-display-xl">Mortgage origination</div>
+          </div>
+          <div>
+            <div class="label"><span>Display · Fraunces 500</span><span>44/1.1</span></div>
+            <div class="type-display-l">The borrower files an application.</div>
+          </div>
+          <div>
+            <div class="label"><span>Subhead · Fraunces 500</span><span>28/1.3</span></div>
+            <div class="type-display-m">Three days to deliver the Loan Estimate.</div>
+          </div>
+          <div>
+            <div class="label"><span>Body Large · Inter 400</span><span>19/1.6</span></div>
+            <p class="type-body-l">The Loan Estimate must be delivered or placed in the mail within three business days of receiving the application. The clock starts the moment six pieces of information are on the table — name, income, social, property address, estimated value, and loan amount sought.</p>
+          </div>
+          <div>
+            <div class="label"><span>Body · Inter 400</span><span>16/1.65</span></div>
+            <p class="type-body">RESPA's purpose is consumer protection. It applies to most residential mortgage loans for one-to-four-unit properties and exempts business-purpose loans, vacant land, and loans of $50,000 or less when not made for purchase.</p>
+          </div>
+          <div>
+            <div class="label"><span>Caption · Inter 400</span><span>14/1.6</span></div>
+            <p class="type-body-s">Cross-reference: 12 CFR §1024.7. Most violations show up in timing failures, not content failures.</p>
+          </div>
+          <div>
+            <div class="label"><span>Utility · JetBrains Mono</span><span>12/1.4</span></div>
+            <p class="type-mono">Chapter 4 · § Federal Mortgage Laws · 12 min</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- COLOR -->
+      <div>
+        <h4>Color</h4>
+        <div class="swatch-grid">
+          <div class="swatch"><div class="chip" style="background:#FFFFFF; border-bottom:1px solid var(--hairline);"></div><div class="meta"><div class="name">Paper</div><div class="hex">#FFFFFF</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#0A0A0A"></div><div class="meta"><div class="name">Ink</div><div class="hex">#0A0A0A</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#6B6B6B"></div><div class="meta"><div class="name">Ink Muted</div><div class="hex">#6B6B6B</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#E5E5E5"></div><div class="meta"><div class="name">Hairline</div><div class="hex">#E5E5E5</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#1E3A8A"></div><div class="meta"><div class="name">Royal Ink — accent</div><div class="hex">#1E3A8A</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#E8EDF7"></div><div class="meta"><div class="name">Royal Ink Faint</div><div class="hex">#E8EDF7</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#FAF7EE"></div><div class="meta"><div class="name">Paper Cream — diagrams</div><div class="hex">#FAF7EE</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#B45309"></div><div class="meta"><div class="name">Warning</div><div class="hex">#B45309</div></div></div>
+        </div>
+        <p class="type-body-s" style="margin-top:var(--s-4);">One accent. Royal Ink does the work of every accent role — links, focus rings, primary buttons, key data, the ink in the diagrams. Don't add a second hue. If you need emphasis beyond the accent, use weight, scale, or whitespace.</p>
+      </div>
+
+      <!-- SPACING -->
+      <div>
+        <h4>Spacing · 4px base</h4>
+        <div>
+          <div class="spacing-row"><span class="token">--s-1</span><span class="val">4px</span><div class="bar" style="width:4px"></div></div>
+          <div class="spacing-row"><span class="token">--s-2</span><span class="val">8px</span><div class="bar" style="width:8px"></div></div>
+          <div class="spacing-row"><span class="token">--s-3</span><span class="val">12px</span><div class="bar" style="width:12px"></div></div>
+          <div class="spacing-row"><span class="token">--s-4</span><span class="val">16px</span><div class="bar" style="width:16px"></div></div>
+          <div class="spacing-row"><span class="token">--s-6</span><span class="val">24px</span><div class="bar" style="width:24px"></div></div>
+          <div class="spacing-row"><span class="token">--s-8</span><span class="val">32px</span><div class="bar" style="width:32px"></div></div>
+          <div class="spacing-row"><span class="token">--s-12</span><span class="val">48px</span><div class="bar" style="width:48px"></div></div>
+          <div class="spacing-row"><span class="token">--s-16</span><span class="val">64px</span><div class="bar" style="width:64px"></div></div>
+          <div class="spacing-row"><span class="token">--s-24</span><span class="val">96px</span><div class="bar" style="width:96px"></div></div>
+          <div class="spacing-row"><span class="token">--s-32</span><span class="val">128px</span><div class="bar" style="width:128px"></div></div>
+        </div>
+        <p class="type-body-s" style="margin-top:var(--s-4);">Vertical rhythm between sections is generous — 96 to 128px. The page should breathe. Tight spacing reads as utilitarian; this is study material, and the slow pace is the design.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 02 IMAGERY -->
+<section class="canon" id="imagery">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-num">02</span>
+      <h2>Imagery</h2>
+      <p class="lede">Two image systems do all the work. Stylized characters appear as visual punctuation between sections. Diagrams appear on loose-leaf paper, drawn in blue ballpoint and graphite.</p>
+    </div>
+
+    <div class="stack-12">
+
+      <div class="two-col">
+        <div>
+          <h3>Characters</h3>
+          <p class="type-body" style="color:var(--ink-muted);">Transparent PNGs on white paper. Never inside a card, never with a backdrop, never duplicated on the same screen. Placed by tag match from <code style="font-family:var(--mono);font-size:13px;background:var(--royal-ink-faint);padding:1px 6px;">manifest.json</code> — the character whose <code style="font-family:var(--mono);font-size:13px;background:var(--royal-ink-faint);padding:1px 6px;">use_cases</code> best fit the section. Their absurdity is the joke; the page around them stays straight-faced.</p>
+        </div>
+        <div class="imagery-grid">
+          <div class="img-card">
+            <img src="pioneer-dj.png" alt="" style="max-width:80%; max-height:80%; object-fit:contain;">
+            <div class="meta">char_016 · pioneer-dj</div>
+          </div>
+          <div class="img-card">
+            <img src="cheerleaders-coffin.png" alt="" style="max-width:90%; max-height:80%; object-fit:contain;">
+            <div class="meta">char_005 · cheerleaders-coffin</div>
+          </div>
+          <div class="img-card">
+            <img src="scuba-vacuuming.png" alt="" style="max-width:80%; max-height:80%; object-fit:contain;">
+            <div class="meta">char_018 · scuba-vacuuming</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- THE LOOSE-LEAF DIAGRAM -->
+      <div>
+        <h3 style="margin-bottom:var(--s-6);">Diagrams · the signature element</h3>
+        <p class="type-body" style="color:var(--ink-muted); margin-bottom:var(--s-6); max-width:720px;">Every conceptual diagram in Homeroom lives on a sheet of loose-leaf. Blue ballpoint for structure, pencil for asides. Annotations in a steady print hand. The paper itself does the work of differentiation — there is no other card style, no other background color, no other illustration treatment. When you see paper, you know you're looking at a model of something.</p>
+
+        <div class="looseleaf">
+          <div class="looseleaf-content">
+            <h5>How a mortgage moves</h5>
+
+            <svg viewBox="0 0 800 360" style="width:100%; height:auto; display:block; margin-top:8px;">
+              <!-- Five boxes with labels -->
+              <g class="ink">
+                <!-- Box 1: Application -->
+                <rect x="20" y="60" width="130" height="56" class="ink ink-thick" rx="2"/>
+                <!-- Box 2: Underwriting -->
+                <rect x="180" y="60" width="130" height="56" class="ink ink-thick" rx="2"/>
+                <!-- Box 3: Approval -->
+                <rect x="340" y="60" width="130" height="56" class="ink ink-thick" rx="2"/>
+                <!-- Box 4: Closing -->
+                <rect x="500" y="60" width="130" height="56" class="ink ink-thick" rx="2"/>
+                <!-- Box 5: Servicing/Secondary -->
+                <rect x="660" y="60" width="130" height="56" class="ink ink-thick" rx="2"/>
+
+                <!-- Arrows between boxes (wobbly hand-drawn feel) -->
+                <path d="M150 88 Q165 87, 180 89" class="ink"/>
+                <path d="M175 84 L182 89 L175 92" class="ink"/>
+
+                <path d="M310 88 Q325 89, 340 87" class="ink"/>
+                <path d="M335 83 L342 88 L335 92" class="ink"/>
+
+                <path d="M470 88 Q485 86, 500 88" class="ink"/>
+                <path d="M495 84 L502 89 L495 92" class="ink"/>
+
+                <path d="M630 88 Q645 89, 660 87" class="ink"/>
+                <path d="M655 83 L662 88 L655 92" class="ink"/>
+              </g>
+
+              <!-- Box labels (handwritten) -->
+              <text x="85" y="93" text-anchor="middle" class="ink-label">Application</text>
+              <text x="245" y="93" text-anchor="middle" class="ink-label">Underwriting</text>
+              <text x="405" y="93" text-anchor="middle" class="ink-label">Approval</text>
+              <text x="565" y="93" text-anchor="middle" class="ink-label">Closing</text>
+              <text x="725" y="93" text-anchor="middle" class="ink-label">Secondary mkt</text>
+
+              <!-- Pencil annotations below -->
+              <text x="85" y="140" text-anchor="middle" class="pencil-label">3-day LE clock starts</text>
+              <text x="245" y="140" text-anchor="middle" class="pencil-label">credit · income · collateral</text>
+              <text x="405" y="140" text-anchor="middle" class="pencil-label">commitment letter</text>
+              <text x="565" y="140" text-anchor="middle" class="pencil-label">CD ≥ 3 days before</text>
+              <text x="725" y="140" text-anchor="middle" class="pencil-label">Fannie · Freddie · Ginnie</text>
+
+              <!-- Bracket below all -->
+              <path d="M20 200 L20 220 L790 220 L790 200" class="ink"/>
+              <text x="405" y="248" text-anchor="middle" class="ink-label">the part Pylon automates →</text>
+
+              <!-- Marginal note: handwritten star -->
+              <g transform="translate(720,170)">
+                <path d="M0,-12 L3,-4 L11,-4 L5,1 L7,9 L0,4 L-7,9 L-5,1 L-11,-4 L-3,-4 Z" class="ink"/>
+              </g>
+              <text x="690" y="190" text-anchor="middle" class="pencil-label" transform="rotate(-4 690 190)">where the money lives</text>
+            </svg>
+
+            <div class="pencil-note" style="margin-top:24px;">
+              ↳ the loan doesn't stop at closing — it gets sold, pooled, sliced into MBS. that's the whole reason Pylon exists.
+            </div>
+          </div>
+        </div>
+
+        <p class="type-body-s" style="margin-top:var(--s-6); max-width:720px;">
+          Diagram rules: ballpoint blue (<code style="font-family:var(--mono);font-size:12px;">#1E3A8A</code>) for the diagram's spine — boxes, arrows, primary labels. Pencil graphite (<code style="font-family:var(--mono);font-size:12px;">#3F3F3F</code>) for marginal notes, qualifications, asides. The hand uses Caveat at 18px for labels and 14px for notes. Slight rotation on asides (–2° to –4°) makes them feel placed, not typed. Don't add color past these two.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 03 COMPONENTS -->
+<section class="canon" id="components">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-num">03</span>
+      <h2>Components</h2>
+      <p class="lede">A small library. Most pages are paragraphs and headings; the few interactive pieces are precise.</p>
+    </div>
+
+    <div class="stack-12">
+
+      <!-- BUTTONS -->
+      <div>
+        <h3>Buttons</h3>
+        <div style="display:flex; gap:var(--s-4); flex-wrap:wrap; margin-top:var(--s-4);">
+          <button class="btn btn-primary">Continue</button>
+          <button class="btn btn-secondary">Skip section</button>
+          <button class="btn btn-ghost">View answer key</button>
+        </div>
+        <p class="type-body-s" style="margin-top:var(--s-4);">Three roles: primary action, secondary action, navigation. No tertiary, no destructive. Labels say what happens, not what the system does. "Continue," not "Submit." "View answer key," not "Reveal."</p>
+      </div>
+
+      <!-- FLASHCARD -->
+      <div>
+        <h3>Flashcard</h3>
+        <p class="type-body" style="color:var(--ink-muted); margin-bottom:var(--s-4); max-width:640px;">Click to flip. One concept per card. The front is a question or term in display type; the back is the explanation in body type. Spaced-repetition queue is built on these.</p>
+        <div class="flashcard-wrap">
+          <div class="flashcard" onclick="this.classList.toggle('flipped')">
+            <div class="flashcard-face flashcard-front">
+              <div class="flashcard-tag">TRID · LE issuance</div>
+              <div class="q">How many business days does a lender have to deliver the Loan Estimate?</div>
+              <div class="flashcard-hint">tap to flip</div>
+            </div>
+            <div class="flashcard-face back flashcard-back">
+              <div class="flashcard-tag">TRID · 12 CFR §1026.19</div>
+              <div class="a">
+                <strong>Three business days</strong> after receiving a complete application — which means six pieces of info: name, income, SSN, property address, estimated value, and loan amount sought. The clock starts the moment all six are present.
+              </div>
+              <div class="flashcard-hint">tap to flip back</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- QUIZ — three modes -->
+      <div>
+        <h3>Pop quizzes · three modes</h3>
+        <p class="type-body" style="color:var(--ink-muted); margin-bottom:var(--s-6); max-width:640px;">The reader picks the mode in settings. Inline lives in the reading flow as a check-in. Gated blocks progress until passed. Practice lives in its own mode and never interrupts.</p>
+
+        <div class="quiz-mode-tabs">
+          <button class="quiz-mode-tab active" data-mode="inline">Inline</button>
+          <button class="quiz-mode-tab" data-mode="gated">Gated</button>
+          <button class="quiz-mode-tab" data-mode="practice">Practice</button>
+        </div>
+
+        <!-- INLINE -->
+        <div class="quiz-mode-panel active" data-mode="inline">
+          <div class="quiz quiz-inline">
+            <div class="quiz-header">
+              <span class="quiz-label">Inline check-in</span>
+              <span class="quiz-counter">no progress effect</span>
+            </div>
+            <div class="quiz-question">RESPA exempts loans under what dollar threshold when made for non-purchase purposes?</div>
+            <div class="quiz-options">
+              <button class="quiz-option" data-correct="false"><span class="letter">A</span>$25,000</button>
+              <button class="quiz-option" data-correct="false"><span class="letter">B</span>$35,000</button>
+              <button class="quiz-option" data-correct="true"><span class="letter">C</span>$50,000</button>
+              <button class="quiz-option" data-correct="false"><span class="letter">D</span>$100,000</button>
+            </div>
+            <div class="quiz-feedback">
+              <strong>Correct.</strong> RESPA exempts small-dollar non-purchase loans at the $50,000 line. The threshold is one of three common RESPA exemptions to memorize, alongside business-purpose loans and vacant land.
+            </div>
+          </div>
+          <p class="type-body-s" style="margin-top:var(--s-4);">Sits in the reading flow with a left rule in the accent color. Ungraded. Reveals the explanation on selection, then the reader continues.</p>
+        </div>
+
+        <!-- GATED -->
+        <div class="quiz-mode-panel" data-mode="gated">
+          <div class="quiz quiz-gated">
+            <div class="quiz-header">
+              <span class="quiz-label">Section checkpoint · question 3 of 5</span>
+              <span class="quiz-counter">4 to pass</span>
+            </div>
+            <div class="quiz-question">The Loan Estimate must be delivered within how many business days of application?</div>
+            <div class="quiz-options">
+              <button class="quiz-option" data-correct="false"><span class="letter">A</span>One</button>
+              <button class="quiz-option" data-correct="false"><span class="letter">B</span>Two</button>
+              <button class="quiz-option" data-correct="true"><span class="letter">C</span>Three</button>
+              <button class="quiz-option" data-correct="false"><span class="letter">D</span>Seven</button>
+            </div>
+            <div class="quiz-feedback">
+              <strong>Correct.</strong> Three business days from receipt of a complete application. The CD has its own timing — at least three business days <em>before</em> consummation. Don't confuse the two.
+            </div>
+          </div>
+          <p class="type-body-s" style="margin-top:var(--s-4);">Light blue background distinguishes it from inline. Multiple questions stack; the reader has to clear a threshold to proceed.</p>
+        </div>
+
+        <!-- PRACTICE -->
+        <div class="quiz-mode-panel" data-mode="practice">
+          <div class="quiz quiz-practice">
+            <div class="quiz-header">
+              <span class="quiz-label">Practice · randomized · timed</span>
+              <span class="quiz-counter">14 / 125 · 28:47 left</span>
+            </div>
+            <div class="quiz-question">A borrower's monthly income is $8,000 and their total monthly debt is $2,400. What is their back-end DTI?</div>
+            <div class="quiz-options">
+              <button class="quiz-option" data-correct="false"><span class="letter">A</span>24%</button>
+              <button class="quiz-option" data-correct="true"><span class="letter">B</span>30%</button>
+              <button class="quiz-option" data-correct="false"><span class="letter">C</span>33%</button>
+              <button class="quiz-option" data-correct="false"><span class="letter">D</span>42%</button>
+            </div>
+            <div class="quiz-feedback">
+              <strong>Correct.</strong> Back-end DTI is total monthly debt ÷ gross monthly income. $2,400 ÷ $8,000 = 30%. Front-end DTI uses only housing costs in the numerator.
+            </div>
+          </div>
+          <p class="type-body-s" style="margin-top:var(--s-4);">SAFE-format mock exam mode. 125 questions, 190-minute timer, 75% to pass. Shadow instead of border. Never interrupts reading.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 04 TEMPLATES -->
+<section class="canon" id="templates">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-num">04</span>
+      <h2>Page templates</h2>
+      <p class="lede">Three template shapes account for nearly every screen.</p>
+    </div>
+
+    <div class="template-grid">
+      <div class="template">
+        <h4>Lesson</h4>
+        <div class="sketch">
+          <div class="sk-line short"></div>
+          <div class="sk-line tall"></div>
+          <div class="sk-line"></div>
+          <div class="sk-line med"></div>
+          <div class="sk-line"></div>
+          <div class="sk-block" style="background:var(--paper-cream); border-color:var(--paper-cream);"></div>
+          <div class="sk-line"></div>
+          <div class="sk-line med"></div>
+          <div class="sk-accent"></div>
+        </div>
+        <p>Eyebrow, big serif heading, prose, a loose-leaf diagram, more prose, a continue button. Single column, max-width readable line length. Most of the app is this.</p>
+      </div>
+
+      <div class="template">
+        <h4>Flashcard deck</h4>
+        <div class="sketch">
+          <div class="sk-line short"></div>
+          <div class="sk-block" style="aspect-ratio:1.6; flex:none; height:80px; border:1px solid var(--ink);"></div>
+          <div class="sk-row">
+            <div></div><div></div><div></div>
+          </div>
+          <div style="flex:1"></div>
+          <div class="sk-line med"></div>
+        </div>
+        <p>One card in the center, deck progress at the bottom, the three controls underneath: again, hard, easy. The whole screen is one card.</p>
+      </div>
+
+      <div class="template">
+        <h4>Practice exam</h4>
+        <div class="sketch">
+          <div style="display:flex; justify-content:space-between;">
+            <div class="sk-line short" style="width:30%"></div>
+            <div class="sk-line short" style="width:30%"></div>
+          </div>
+          <div class="sk-line tall"></div>
+          <div class="sk-line"></div>
+          <div class="sk-row" style="flex-direction:column; gap:6px;">
+            <div></div><div></div><div></div><div></div>
+          </div>
+          <div style="flex:1"></div>
+          <div class="sk-accent" style="width:80px"></div>
+        </div>
+        <p>Question counter top-left, timer top-right, question, four options stacked, next button bottom. Distraction-free. No nav, no character images.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 05 VOICE -->
+<section class="canon" id="voice">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-num">05</span>
+      <h2>Voice</h2>
+      <p class="lede">Apply the <code style="font-family:var(--mono);font-size:14px;background:var(--royal-ink-faint);padding:2px 6px;">de-llm-voice</code> skill to every reader-facing string. The rules below are the ones that matter most for this domain.</p>
+    </div>
+
+    <div class="voice-pairs">
+      <div class="voice-pair">
+        <div class="voice-bad"><div class="voice-tag">don't</div>Let's dive into the fascinating world of mortgage origination!</div>
+        <div class="voice-good"><div class="voice-tag">do</div>An originator takes the borrower's application and walks the loan to closing.</div>
+      </div>
+      <div class="voice-pair">
+        <div class="voice-bad"><div class="voice-tag">don't</div>It's important to understand that TRID timing rules can be complex.</div>
+        <div class="voice-good"><div class="voice-tag">do</div>TRID has two timing rules. The LE goes out within three days of application. The CD lands at least three days before consummation.</div>
+      </div>
+      <div class="voice-pair">
+        <div class="voice-bad"><div class="voice-tag">don't</div>Great job! You got it right!</div>
+        <div class="voice-good"><div class="voice-tag">do</div>Correct.</div>
+      </div>
+      <div class="voice-pair">
+        <div class="voice-bad"><div class="voice-tag">don't</div>This section will explore the various aspects of RESPA compliance.</div>
+        <div class="voice-good"><div class="voice-tag">do</div>RESPA, in three rules.</div>
+      </div>
+      <div class="voice-pair">
+        <div class="voice-bad"><div class="voice-tag">don't</div>Don't worry if this is confusing — it's a tough topic!</div>
+        <div class="voice-good"><div class="voice-tag">do</div>The DTI calculation has a front-end version (housing only) and a back-end version (all debt). Most lenders look at the back end.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 DON'TS -->
+<section class="canon">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-num">06</span>
+      <h2>Don't</h2>
+      <p class="lede">Things that would break the system if they crept in. Easy to slip on; cheap to catch.</p>
+    </div>
+
+    <div class="donts">
+      <div class="dont"><strong>A second accent color.</strong><span>Royal Ink does every accent job. Adding a second hue dilutes the signature and reads as a brand kit instead of a personality.</span></div>
+      <div class="dont"><strong>Backgrounds on character images.</strong><span>Every character PNG must be transparent. The white paper is the backdrop. Drop shadows, frames, and color fills behind characters all kill the gallery feel.</span></div>
+      <div class="dont"><strong>Loose-leaf paper for anything but diagrams.</strong><span>Don't put body text on the cream paper. Don't wrap quotes in it. The paper is the diagram's home and nothing else's — that's what makes the diagrams land.</span></div>
+      <div class="dont"><strong>Border radius on cards.</strong><span>The only rounded thing on screen is the brand mark and the flashcard's tiny 2px corners. Hairline borders, sharp corners. Rounded cards read as SaaS dashboard.</span></div>
+      <div class="dont"><strong>Gradients, shadows, glassmorphism.</strong><span>One drop-shadow exists on screen: the one under the loose-leaf paper. Nothing else casts a shadow. No glow effects, no gradient text.</span></div>
+      <div class="dont"><strong>Filler microcopy.</strong><span>"Let's explore," "Did you know," "Pro tip," "Quick check." Cut all of it. Every line either says something true about the material or doesn't appear.</span></div>
+      <div class="dont"><strong>Stock icons or illustrations.</strong><span>The only illustrations are the tagged characters and the loose-leaf diagrams. No icon library, no spot illustrations, no decorative SVGs.</span></div>
+      <div class="dont"><strong>More than one character on a screen.</strong><span>The renderer picks one per section by tag match. Stacking two reads as a clip-art layout and makes both feel less considered.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div>Homeroom · Design Canon v0.1</div>
+    <div>For Claude Code reference · Treat as authoritative</div>
+  </div>
+</footer>
+
+<script>
+  // Flashcard handled by inline onclick
+
+  // Quiz mode tabs
+  document.querySelectorAll('.quiz-mode-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      const mode = tab.dataset.mode;
+      document.querySelectorAll('.quiz-mode-tab').forEach(t => t.classList.toggle('active', t === tab));
+      document.querySelectorAll('.quiz-mode-panel').forEach(p => p.classList.toggle('active', p.dataset.mode === mode));
+    });
+  });
+
+  // Quiz option selection
+  document.querySelectorAll('.quiz-option').forEach(opt => {
+    opt.addEventListener('click', (e) => {
+      const quiz = opt.closest('.quiz');
+      const allOptions = quiz.querySelectorAll('.quiz-option');
+      const feedback = quiz.querySelector('.quiz-feedback');
+      const correct = opt.dataset.correct === 'true';
+      allOptions.forEach(o => {
+        o.disabled = true;
+        if (o.dataset.correct === 'true') o.classList.add('correct');
+        else if (o === opt && !correct) o.classList.add('incorrect');
+      });
+      if (feedback) feedback.classList.add('shown');
+    });
+  });
+
+  // Reset quizzes when switching tabs
+  document.querySelectorAll('.quiz-mode-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.quiz').forEach(q => {
+        q.querySelectorAll('.quiz-option').forEach(o => {
+          o.disabled = false;
+          o.classList.remove('correct', 'incorrect');
+        });
+        q.querySelector('.quiz-feedback')?.classList.remove('shown');
+      });
+    });
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,348 @@
+{
+  "chapter_id": "general-mortgage-knowledge",
+  "section_id": "loan-products",
+  "section_title": "Loan Products",
+  "chapter_title": "General Mortgage Knowledge",
+  "page_range": {
+    "start": 271,
+    "end": 310
+  },
+  "summary": "This section covers loan product fundamentals including temporary MLO authority, compensation rules, property types, security instruments, mortgage purposes, ATR/QM requirements, and conventional conforming/non-conforming loan guidelines. It establishes the regulatory and structural framework within which mortgage loan originators must operate when selecting and originating residential loan products.",
+  "concepts": [
+    {
+      "id": "temporary-authority",
+      "term": "Temporary Authority to Act as an MLO",
+      "definition": "A provision allowing a registered or state-licensed loan originator to act as an MLO in a new state before receiving that state's license, subject to specific eligibility conditions.",
+      "why_it_exists": "It prevents qualified originators from being unable to work during the licensing transition period when moving to or adding a new state.",
+      "examples": [
+        {
+          "scenario": "A registered loan originator joins a state-licensed mortgage company in a new state, submits a license application, and has no prior denials, revocations, or cease-and-desist orders.",
+          "outcome": "The originator is deemed to have temporary authority and may originate loans while the application is pending, for up to 120 days if the application is listed as incomplete on NMLS."
+        }
+      ],
+      "cross_refs": [
+        "nmls-requirements",
+        "cfpb-loan-originator-rule"
+      ],
+      "check_questions": [
+        {
+          "question": "Under what condition does temporary authority automatically end before the 120-day limit?",
+          "answer": "It ends on the earliest of: the individual withdrawing the application, the state denying or issuing a notice of intent to deny, or the state granting the license.",
+          "type": "recall"
+        },
+        {
+          "question": "A state-licensed MLO licensed in State A applies for a license in State B and was licensed in State A during the 30-day period before submitting the application. Does she qualify for temporary authority in State B?",
+          "answer": "Yes, provided she meets all other eligibility requirements (no denials, revocations, cease-and-desist orders, or disqualifying convictions) and is employed by a state-licensed mortgage company in State B.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "cfpb-loan-originator-rule",
+      "term": "CFPB Loan Originator Rule",
+      "definition": "A federal rule governing how mortgage loan originators are compensated, qualified, and identified, designed to prevent compensation structures that conflict with consumers' best interests.",
+      "why_it_exists": "It addresses incentive-driven misconduct where originators steered borrowers into harmful loan products to maximize their own income.",
+      "examples": [
+        {
+          "scenario": "A lender wants to pay its MLO a bonus based on the interest rate charged on loans closed.",
+          "outcome": "This is prohibited because compensation based on a transaction term (interest rate) violates the Loan Originator Rule."
+        }
+      ],
+      "cross_refs": [
+        "temporary-authority",
+        "nmls-requirements"
+      ],
+      "check_questions": [
+        {
+          "question": "Can a loan originator receive compensation from both the consumer and the lender in the same transaction?",
+          "answer": "No, the Loan Originator Rule prohibits dual compensation from both the consumer and another person such as a creditor in the same transaction.",
+          "type": "recall"
+        },
+        {
+          "question": "What identification information must appear on certain loan documents under the Loan Originator Rule?",
+          "answer": "The primary originator's name and NMLSR unique identifier, and the name and NMLSR unique identifier of the originator's employer.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "atr-qm-rule",
+      "term": "Ability-to-Repay / Qualified Mortgage Rule (ATR/QM)",
+      "definition": "A CFPB rule requiring creditors to make a reasonable, good-faith determination that a borrower can repay a closed-end mortgage before consummating the loan.",
+      "why_it_exists": "Congress enacted it under Dodd-Frank in response to the lending crisis during which borrowers were approved for mortgages far beyond their capacity to repay.",
+      "examples": [
+        {
+          "scenario": "A creditor originates a loan that conforms to Fannie Mae guidelines and is purchased by Fannie Mae.",
+          "outcome": "A safe harbor is automatically established, presuming the creditor properly assessed the borrower's ability to repay, as long as it underwrote to FNMA standards."
+        }
+      ],
+      "cross_refs": [
+        "qualified-mortgages",
+        "non-qualified-mortgages",
+        "non-traditional-mortgage-guidance"
+      ],
+      "check_questions": [
+        {
+          "question": "What are the eight underwriting factors a creditor must consider under the ATR rule?",
+          "answer": "Current or expected income/assets; employment status; monthly mortgage payment; subordinate financing payment; mandatory ownership expenses; all obligatory debts; DTI ratio; and credit history.",
+          "type": "recall"
+        },
+        {
+          "question": "A creditor is refinancing a customer out of a non-standard interest-only loan into a standard fixed-rate loan. Must the creditor fully apply ATR considerations?",
+          "answer": "No, ATR considerations are suspended when refinancing a customer from a non-standard to a standard loan, provided specific conditions are met such as the loan being currently held by the same company and the new payment being materially lower.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "qualified-mortgages",
+      "term": "Qualified Mortgages (QMs)",
+      "definition": "Mortgage loans that meet one of three defined categories (General, Seasoned, or Small Creditor QM) and carry an automatic presumption that the borrower's ability to repay was properly assessed.",
+      "why_it_exists": "QM status provides lenders a legal safe harbor and gives investors like Fannie Mae and Freddie Mac the assurance needed to purchase or securitize loans.",
+      "examples": [
+        {
+          "scenario": "A lender originates a loan that does not initially qualify as a QM but holds it in portfolio for 36 months with no more than two 30-day late payments and no 60-day delinquencies.",
+          "outcome": "The loan qualifies as a Seasoned QM at the end of the 36-month seasoning period."
+        }
+      ],
+      "cross_refs": [
+        "atr-qm-rule",
+        "non-qualified-mortgages",
+        "conventional-conforming-loans"
+      ],
+      "check_questions": [
+        {
+          "question": "What risky loan features do all QM categories prohibit?",
+          "answer": "Negative amortization, interest-only periods, and loan terms exceeding 30 years.",
+          "type": "recall"
+        },
+        {
+          "question": "What is the maximum points-and-fees percentage allowed on a QM first-lien loan of $200,000?",
+          "answer": "3%, because the loan amount equals or exceeds $137,958.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "non-qualified-mortgages",
+      "term": "Non-Qualified Mortgages (Non-QMs)",
+      "definition": "Mortgage loans that do not meet any QM category and therefore carry no automatic presumption of compliance with ATR requirements.",
+      "why_it_exists": "They exist to serve borrowers who cannot qualify under standard QM guidelines, but since GSEs will not buy them, they carry higher risk for the originating lender.",
+      "examples": [
+        {
+          "scenario": "A self-employed borrower cannot document income through standard means, so a lender originates a stated-income Alt-A loan.",
+          "outcome": "The loan is a Non-QM; the lender must retain it in portfolio or sell it to a private investor since Fannie Mae and Freddie Mac will not purchase it."
+        }
+      ],
+      "cross_refs": [
+        "qualified-mortgages",
+        "atr-qm-rule",
+        "conventional-non-conforming-loans"
+      ],
+      "check_questions": [
+        {
+          "question": "Why can't Non-QM loans be sold to Fannie Mae or Freddie Mac?",
+          "answer": "Because Fannie Mae and Freddie Mac only purchase Qualified Mortgages; Non-QMs lack the ATR presumption of compliance required by these GSEs.",
+          "type": "recall"
+        },
+        {
+          "question": "What distinguishes a Non-QM from a Seasoned QM?",
+          "answer": "A Non-QM never achieves QM status; a Seasoned QM starts as a non-QM at origination but earns QM status after 36 months in portfolio with satisfactory payment performance.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "security-instruments",
+      "term": "Security Instruments: Mortgage vs. Deed of Trust",
+      "definition": "Legal documents that establish real property as collateral for a loan; a mortgage is used in lien-theory states with two parties while a deed of trust is used in title-theory states with three parties.",
+      "why_it_exists": "Lenders require a legally enforceable claim against the property to protect their investment in case the borrower defaults.",
+      "examples": [
+        {
+          "scenario": "A borrower in a title-theory state defaults on their loan.",
+          "outcome": "Because a deed of trust was used, the lender pursues a non-judicial foreclosure through the trustee rather than a court-ordered judicial foreclosure."
+        }
+      ],
+      "cross_refs": [
+        "assumable-loans",
+        "noteworthy-security-instrument-clauses"
+      ],
+      "check_questions": [
+        {
+          "question": "How many parties are involved in a deed of trust, and who are they?",
+          "answer": "Three parties: the beneficiary (lender), the trustor (borrower), and the trustee (neutral third party).",
+          "type": "recall"
+        },
+        {
+          "question": "What type of foreclosure results from a default on a mortgage in a lien-theory state?",
+          "answer": "A judicial foreclosure, where the lender must prove the validity of the lien and default before a court.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "assumable-loans",
+      "term": "Assumable Mortgage Loans",
+      "definition": "Loans that lack a due-on-sale (alienation) clause, allowing a buyer to take over the seller's existing loan at its original interest rate rather than obtaining new financing at current market rates.",
+      "why_it_exists": "When market interest rates rise significantly above rates on existing loans, assumptions let buyers benefit from the lower locked-in rate, making properties more marketable.",
+      "examples": [
+        {
+          "scenario": "A seller has an FHA loan at 3.5% interest and market rates have risen to 7%. A buyer assumes the seller's FHA loan.",
+          "outcome": "The buyer qualifies based on the 3.5% rate, gets a lower payment, and must compensate the seller for the difference between the loan balance and the property's value."
+        }
+      ],
+      "cross_refs": [
+        "security-instruments",
+        "noteworthy-security-instrument-clauses"
+      ],
+      "check_questions": [
+        {
+          "question": "Which loan types are generally assumable?",
+          "answer": "FHA, VA, USDA, and some conventional adjustable-rate mortgage products.",
+          "type": "recall"
+        },
+        {
+          "question": "Why are conventional fixed-rate loans typically not assumable?",
+          "answer": "They contain an alienation (due-on-sale) clause that allows the lender to accelerate the debt upon a title change, preventing assumption.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "conventional-conforming-loans",
+      "term": "Conventional Conforming Mortgage Loans",
+      "definition": "Loans owned by a non-purely-governmental entity that meet Fannie Mae or Freddie Mac underwriting standards and fall at or below the FHFA-established annual loan limits.",
+      "why_it_exists": "The conforming system channels private and quasi-governmental capital into the housing market through standardized underwriting, enabling lenders to replenish funds by selling loans into the secondary market.",
+      "examples": [
+        {
+          "scenario": "A lender originates a one-unit primary residence loan of $750,000 underwritten to Fannie Mae guidelines in 2026.",
+          "outcome": "The loan is conventional/conforming because it meets FNMA underwriting criteria and falls within the applicable 2026 conforming loan limit for a one-unit property."
+        }
+      ],
+      "cross_refs": [
+        "qualified-mortgages",
+        "conventional-non-conforming-loans",
+        "atr-qm-rule"
+      ],
+      "check_questions": [
+        {
+          "question": "What is the maximum seller concession allowed on a primary residence purchase with a 12% down payment?",
+          "answer": "6%, because the down payment is at least 10% but less than 25%.",
+          "type": "application"
+        },
+        {
+          "question": "What are Fannie Mae's and Freddie Mac's automated underwriting systems called?",
+          "answer": "Fannie Mae uses Desktop Underwriter (DU) / Desktop Originator (DO); Freddie Mac uses Loan Product Advisor (LPA).",
+          "type": "recall"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "120 days",
+      "what_it_means": "Maximum period of temporary authority for an MLO applicant whose NMLS application is listed as incomplete.",
+      "memorize_as": "Temporary authority expires at 120 days if application is incomplete on NMLS."
+    },
+    {
+      "value": "30 days",
+      "what_it_means": "A state-licensed MLO must have been licensed in another state during the 30-day period before submitting a new state application to qualify for temporary authority.",
+      "memorize_as": "30-day prior licensure window for state-licensed MLO temporary authority."
+    },
+    {
+      "value": "10 years",
+      "what_it_means": "Applicants must provide their most recent 10-year residential and employment history (with no gaps) when applying for a state MLO license through NMLS.",
+      "memorize_as": "10-year history (residence + employment) required for NMLS MU4 filing."
+    },
+    {
+      "value": "180 days",
+      "what_it_means": "Fingerprints submitted for NMLS must have been obtained within the most recent 180 days through an approved vendor if fingerprints on file are older than three years.",
+      "memorize_as": "Fingerprints must be within 180 days if not previously on file or older than 3 years."
+    },
+    {
+      "value": "$2,000 or 2%",
+      "what_it_means": "In a limited cash-out refinance, the borrower may receive the lesser of $2,000 or 2% of the new loan amount in cash proceeds.",
+      "memorize_as": "LCOR cash limit = lesser of $2,000 or 2% of new loan amount."
+    },
+    {
+      "value": "12 months",
+      "what_it_means": "For a conventional cash-out refinance, any existing first mortgage being paid off must be at least 12 months old from its note date to the new loan's note date.",
+      "memorize_as": "C/O refi: existing first mortgage must be 12 months seasoned."
+    },
+    {
+      "value": "6 months",
+      "what_it_means": "For a conventional cash-out refinance, at least one borrower must have been on the subject property's title for no less than six months from the new loan's disbursement date.",
+      "memorize_as": "C/O refi: borrower must be on title 6 months before disbursement."
+    },
+    {
+      "value": "28/36",
+      "what_it_means": "Standard conventional DTI ratio guideline: housing expenses should not exceed 28% of gross monthly income and total obligations should not exceed 36%.",
+      "memorize_as": "Conventional DTI guideline = 28% front-end / 36% back-end."
+    },
+    {
+      "value": "36 months",
+      "what_it_means": "A loan must be held in portfolio for a 36-month seasoning period and meet performance requirements to qualify as a Seasoned QM.",
+      "memorize_as": "Seasoned QM = 36-month portfolio hold with satisfactory performance."
+    },
+    {
+      "value": "3% (points and fees, loans ≥ $137,958)",
+      "what_it_means": "For a QM first-lien loan at or above $137,958, points and fees cannot exceed 3% of the total loan amount (effective January 1, 2026).",
+      "memorize_as": "QM points/fees cap: 3% for loans ≥ $137,958."
+    },
+    {
+      "value": "8% (points and fees, loans < $17,245)",
+      "what_it_means": "For a QM first-lien loan under $17,245, points and fees cannot exceed 8% of the total loan amount (effective January 1, 2026).",
+      "memorize_as": "QM points/fees cap: 8% for loans < $17,245."
+    },
+    {
+      "value": "75%",
+      "what_it_means": "Condominium complexes ideally should report a minimum owner-occupancy rate of 75% to be considered warrantable by most lenders.",
+      "memorize_as": "Condo warrantable threshold: 75% owner occupancy minimum."
+    },
+    {
+      "value": "4 units",
+      "what_it_means": "Residential mortgage financing covers properties up to four independent living units; five or more units require commercial financing.",
+      "memorize_as": "Residential financing max = 4 units; 5+ = commercial."
+    },
+    {
+      "value": "200 times annually",
+      "what_it_means": "To qualify for the nonprofit ATR exemption, the creditor must extend credit no more than 200 times per year to low-to-moderate income applicants.",
+      "memorize_as": "Nonprofit ATR exemption: ≤ 200 originations/year to LMI borrowers."
+    },
+    {
+      "value": "3 years",
+      "what_it_means": "A Small Creditor QM loan generally loses its QM status if sold or transferred within three years of consummation.",
+      "memorize_as": "Small Creditor QM status lost if sold within 3 years (with exceptions)."
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "Mortgage vs. Deed of Trust",
+      "the_distinction": "A mortgage is used in lien-theory states, involves only two parties (lender and borrower), and results in judicial foreclosure on default. A deed of trust is used in title-theory states, involves three parties (beneficiary, trustor, trustee), and results in non-judicial foreclosure on default."
+    },
+    {
+      "often_confused_with": "Rate/Term Refinance vs. Limited Cash-Out Refinance",
+      "the_distinction": "A rate/term refinance allows zero cash to the borrower; a limited cash-out refinance allows the borrower to receive the lesser of $2,000 or 2% of the new loan amount."
+    },
+    {
+      "often_confused_with": "Conventional Conforming vs. Conventional Non-Conforming",
+      "the_distinction": "A conventional conforming loan meets both Fannie Mae or Freddie Mac underwriting guidelines AND the FHFA loan limits. A non-conforming loan is still conventional (non-governmental) but either exceeds the loan limit (jumbo) or does not meet GSE underwriting criteria."
+    },
+    {
+      "often_confused_with": "Qualified Mortgage (QM) vs. Ability-to-Repay (ATR)",
+      "the_distinction": "ATR is the broad requirement that every creditor make a good-faith determination that the borrower can repay. QM is a specific category of loan that automatically satisfies ATR. A loan can comply with ATR without being a QM, but a QM always satisfies ATR."
+    },
+    {
+      "often_confused_with": "Warrantable vs. Unwarrantable Condominium",
+      "the_distinction": "A warrantable condo complex meets lender approval standards (such as 75% owner occupancy, solvency, and complete phases); an unwarrantable complex fails to meet these standards, making financing very difficult."
+    },
+    {
+      "often_confused_with": "Wet Closing vs. Dry Closing",
+      "the_distinction": "In a wet closing state the loan funds at or immediately after settlement; in a dry closing state the loan funds only after the lender receives, reviews, approves, and records the settlement documents."
+    },
+    {
+      "often_confused_with": "Non-Obligated Owner vs. Obligated Non-Owner",
+      "the_distinction": "A non-obligated owner signs the security instrument but not the promissory note (owns the property, not on the debt). An obligated non-owner signs the promissory note but not the security instrument (on the debt, not on title)."
+    }
+  ]
+}

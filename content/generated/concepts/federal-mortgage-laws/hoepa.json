@@ -1,0 +1,301 @@
+{
+  "chapter_id": "federal-mortgage-laws",
+  "section_id": "hoepa",
+  "section_title": "HOEPA – Home Ownership and Equity Protection Act",
+  "chapter_title": "Federal Mortgage-Related Laws",
+  "page_range": {
+    "start": 101,
+    "end": 115
+  },
+  "summary": "HOEPA's TILA provisions govern APR disclosure, finance charges, right of rescission, advertising rules, appraiser independence, and document retention for mortgage transactions. These rules protect consumers from misleading credit terms, inflated appraisals, and unfair advertising practices.",
+  "concepts": [
+    {
+      "id": "annual-percentage-rate",
+      "term": "Annual Percentage Rate (APR)",
+      "definition": "A yearly expression of the total cost of credit that lets consumers compare loan offers from different lenders on an apples-to-apples basis.",
+      "why_it_exists": "Without a standardized cost metric, lenders could advertise low interest rates while burying fees, making meaningful comparison shopping impossible.",
+      "examples": [
+        {
+          "scenario": "Alfred gets a 6% rate from two lenders but one quotes 6.5% APR and the other 6.625% APR for the same loan amount.",
+          "outcome": "Alfred correctly concludes the lender with the higher APR charges more in settlement fees, even though the note rate is identical."
+        }
+      ],
+      "cross_refs": [
+        "finance-charge",
+        "apr-tolerances",
+        "triggering-terms"
+      ],
+      "check_questions": [
+        {
+          "question": "What is the primary consumer benefit of the APR disclosure?",
+          "answer": "It allows consumers to compare the true cost of credit across different lenders offering the same loan amount and term.",
+          "type": "recall"
+        },
+        {
+          "question": "Two lenders quote the same 6% interest rate on a $300,000 30-year fixed loan, but Lender A shows an APR of 6.4% and Lender B shows 6.6%. What does this tell the borrower?",
+          "answer": "Lender B charges higher fees or costs than Lender A, making Lender A the less expensive option despite identical note rates.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "apr-tolerances",
+      "term": "APR Accuracy Tolerances",
+      "definition": "Regulatory allowances that permit a disclosed APR to deviate slightly from the exact calculated rate without being treated as a violation.",
+      "why_it_exists": "Calculation rounding and minor errors are inevitable; defined tolerances prevent technical violations from triggering penalties when disclosures are substantively accurate.",
+      "examples": [
+        {
+          "scenario": "A standard fixed-rate mortgage has a calculated APR of 6.500%; the lender discloses 6.620%.",
+          "outcome": "The disclosure is accurate because 6.620% is within 1/8 of 1% (0.125%) above 6.500%."
+        }
+      ],
+      "cross_refs": [
+        "annual-percentage-rate"
+      ],
+      "check_questions": [
+        {
+          "question": "What is the permissible APR tolerance for a regular mortgage transaction?",
+          "answer": "1/8 of 1 percentage point (0.125%) above or below the accurately calculated APR.",
+          "type": "recall"
+        },
+        {
+          "question": "What is the permissible APR tolerance for an irregular transaction, and what makes a transaction irregular?",
+          "answer": "1/4 of 1 percentage point (0.25%); a transaction is irregular if it includes multiple advances, irregular payment periods, or irregular payment amounts.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "finance-charge",
+      "term": "Finance Charge",
+      "definition": "The total dollar cost of credit, including all fees imposed directly or indirectly by the creditor as a condition of extending the loan.",
+      "why_it_exists": "Expressing credit cost as a dollar figure alongside the APR gives consumers a concrete sense of what borrowing actually costs them in cash terms.",
+      "examples": [
+        {
+          "scenario": "A lender requires the borrower to use a specific title company and marks up the title fee by $400.",
+          "outcome": "The $400 markup is a finance charge because the creditor required the third party and retained a portion of the fee."
+        }
+      ],
+      "cross_refs": [
+        "annual-percentage-rate"
+      ],
+      "check_questions": [
+        {
+          "question": "Are mortgage broker fees considered finance charges even if the lender does not require the broker and retains nothing from the fee?",
+          "answer": "Yes, broker fees paid by the consumer are always finance charges regardless of whether the lender requires the broker or retains any portion.",
+          "type": "recall"
+        },
+        {
+          "question": "Which of the following is excluded from the finance charge: (A) seller's points, (B) loan origination fee, or (C) credit life insurance premium?",
+          "answer": "Seller's points are excluded; origination fees and credit life insurance premiums are included in the finance charge.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "right-of-rescission",
+      "term": "Right of Rescission",
+      "definition": "A 3-precise-business-day window during which any owner of the subject primary residence may cancel a non-purchase mortgage transaction after settlement.",
+      "why_it_exists": "Consumers may feel pressured at closing; a cooling-off period lets them reconsider decisions that place a lien on their home without penalty.",
+      "examples": [
+        {
+          "scenario": "A refinance closes on Thursday; Monday is not a federal holiday.",
+          "outcome": "The rescission period expires at midnight Monday, giving the borrower Friday, Saturday, and Monday as the three precise business days (Sunday excluded)."
+        }
+      ],
+      "cross_refs": [
+        "tila-document-retention"
+      ],
+      "check_questions": [
+        {
+          "question": "Which transactions are NOT subject to the right of rescission?",
+          "answer": "Purchase or initial construction of a primary home, refinance of a second home or investment property, refinance through the original creditor of the original mortgage, and transactions where a state agency is the creditor.",
+          "type": "recall"
+        },
+        {
+          "question": "If required disclosures are never properly delivered at closing, how long is the rescission period extended?",
+          "answer": "Up to 3 years after consummation, or until the consumer transfers or sells the property, whichever comes first.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "tila-document-retention",
+      "term": "TILA Document Retention Requirements",
+      "definition": "TILA rules specifying how long creditors must keep loan disclosures: 3 years for general disclosures and 3 years for MLO compensation records, but 5 years for closing disclosures.",
+      "why_it_exists": "Retention timelines ensure regulators and courts can verify compliance and consumer protection long after a loan closes.",
+      "examples": [
+        {
+          "scenario": "A creditor sells a mortgage two years after closing and no longer services it.",
+          "outcome": "The creditor must transfer closing disclosure copies to the new owner/servicer, who must retain them for the remaining 3 years of the 5-year post-consummation period."
+        }
+      ],
+      "cross_refs": [
+        "right-of-rescission"
+      ],
+      "check_questions": [
+        {
+          "question": "How long must a creditor retain closing disclosures?",
+          "answer": "5 years after the transaction's consummation.",
+          "type": "recall"
+        },
+        {
+          "question": "How long must a creditor retain records of MLO compensation and compensation agreements?",
+          "answer": "3 years from the date of payment.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "triggering-terms",
+      "term": "Triggering Terms (Trigger Terms)",
+      "definition": "Specific words or figures in a credit advertisement that, when used, require the ad to also clearly disclose the down payment, full repayment terms, and the APR.",
+      "why_it_exists": "Partial loan details can mislead consumers about true costs; requiring full disclosure when partial terms appear prevents deceptive advertising.",
+      "examples": [
+        {
+          "scenario": "An ad states 'Only $1,200 per month!'",
+          "outcome": "Because a payment amount is mentioned, the ad must also disclose the down payment, full repayment terms including any balloon payment, and the APR."
+        }
+      ],
+      "cross_refs": [
+        "annual-percentage-rate",
+        "prohibited-advertising"
+      ],
+      "check_questions": [
+        {
+          "question": "Name the four triggering terms that require additional disclosures in a mortgage advertisement.",
+          "answer": "The amount or percentage of any down payment, the number of payments or repayment period, the amount of any payment, and the amount of any finance charge.",
+          "type": "recall"
+        },
+        {
+          "question": "An ad states 'No money down!' — what additional disclosures are now required?",
+          "answer": "The ad must also clearly disclose the full repayment terms (including any balloon payment) and the annual percentage rate using that exact term.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "prohibited-advertising",
+      "term": "Prohibited Advertising Practices",
+      "definition": "TILA bans specific deceptive advertising acts, including misusing the word 'fixed' on variable-rate products, false government endorsement claims, misleading debt elimination claims, and using 'counselor' for for-profit brokers.",
+      "why_it_exists": "Unscrupulous advertisers exploited ambiguous terms to lure borrowers into products that did not match expectations, causing financial harm.",
+      "examples": [
+        {
+          "scenario": "A broker's ad for a 5/1 ARM says 'Fixed low rate of 4%!' without further clarification.",
+          "outcome": "This is prohibited; the ad must label the product as an ARM and state how long the rate is fixed and that it may increase after that period."
+        }
+      ],
+      "cross_refs": [
+        "triggering-terms",
+        "annual-percentage-rate"
+      ],
+      "check_questions": [
+        {
+          "question": "Under what limited exception may the word 'fixed' appear in an ad for a variable-rate mortgage?",
+          "answer": "If 'Adjustable-Rate Mortgage,' 'Variable-Rate Mortgage,' or 'ARM' appears before and as conspicuously as the word 'fixed,' and each use of 'fixed' is accompanied by the fixed period and notice that the rate may vary afterward.",
+          "type": "recall"
+        },
+        {
+          "question": "Is it permissible to use the term 'counselor' in an ad to describe a for-profit mortgage broker's employee?",
+          "answer": "No, using 'counselor' to refer to for-profit mortgage broker or creditor employees involved in originating or selling mortgages is strictly prohibited.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "appraiser-independence",
+      "term": "Appraiser Independence Requirements",
+      "definition": "TILA provisions that prohibit mortgage professionals from improperly influencing appraisers and require the use of third-party valuation management companies to select appraisers.",
+      "why_it_exists": "Loan originators were pressuring appraisers to inflate values to ensure loans would close, causing borrowers to owe more than properties were worth.",
+      "examples": [
+        {
+          "scenario": "An MLO calls an appraiser directly and suggests a value needed for the deal to close.",
+          "outcome": "This is prohibited conduct; all appraiser communication must flow through a valuation management company, not the originator."
+        }
+      ],
+      "cross_refs": [
+        "annual-percentage-rate"
+      ],
+      "check_questions": [
+        {
+          "question": "What key structural change did TILA's appraiser independence rules create to prevent MLO influence on appraisers?",
+          "answer": "Responsibility for selecting appraisers was transferred to independent third-party valuation management companies, and direct communication between MLOs and appraisers about value was restricted.",
+          "type": "recall"
+        },
+        {
+          "question": "What is a 'valuation' under TILA's appraiser independence rules, and what does it exclude?",
+          "answer": "A valuation is a written or electronic estimate of a dwelling's value; it excludes estimates produced solely by an automated valuation model or system.",
+          "type": "distinction"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "3 precise business days",
+      "what_it_means": "Window during which a borrower may rescind a non-purchase primary residence mortgage after settlement; Sundays and federal holidays are excluded.",
+      "memorize_as": "Rescission = 3 precise business days (no Sundays, no federal holidays)"
+    },
+    {
+      "value": "20 calendar days",
+      "what_it_means": "After a rescission is exercised, the creditor must return all money and property to the borrower within this period.",
+      "memorize_as": "Post-rescission refund deadline = 20 calendar days"
+    },
+    {
+      "value": "3 years",
+      "what_it_means": "Extended rescission period when required notices or material disclosures were not properly delivered; also the retention period for general TILA disclosures and MLO compensation records.",
+      "memorize_as": "Extended rescission / general disclosure retention = 3 years"
+    },
+    {
+      "value": "5 years",
+      "what_it_means": "Required retention period for completed closing disclosures and related documents after loan consummation.",
+      "memorize_as": "Closing disclosure retention = 5 years"
+    },
+    {
+      "value": "1/8 of 1% (0.125%)",
+      "what_it_means": "Maximum permissible APR tolerance above or below the correctly calculated rate for a standard transaction.",
+      "memorize_as": "Regular APR tolerance = ±0.125%"
+    },
+    {
+      "value": "1/4 of 1% (0.25%)",
+      "what_it_means": "Maximum permissible APR tolerance for irregular transactions (multiple advances, irregular payment periods or amounts).",
+      "memorize_as": "Irregular APR tolerance = ±0.25%"
+    },
+    {
+      "value": "2 copies",
+      "what_it_means": "Number of right-of-rescission notices each owner of the property must receive at settlement (reduced to 1 copy per party if delivered electronically).",
+      "memorize_as": "Rescission notice = 2 copies per owner (1 if electronic)"
+    },
+    {
+      "value": "3 business days from application",
+      "what_it_means": "Deadline by which ARM disclosures (CHARM booklet and Early ARM Disclosure) must be delivered after a consumer applies for an adjustable-rate mortgage.",
+      "memorize_as": "ARM disclosures due at application or within 3 business days"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "APR vs. Finance Charge",
+      "the_distinction": "APR expresses the cost of credit as a percentage rate for comparison shopping; the finance charge expresses the same costs as a total dollar amount."
+    },
+    {
+      "often_confused_with": "Precise business day vs. calendar day",
+      "the_distinction": "A precise business day excludes Sundays and federal holidays; a calendar day counts every day including weekends and holidays. The rescission period uses precise business days; the post-rescission refund deadline uses calendar days."
+    },
+    {
+      "often_confused_with": "Right of rescission for purchases vs. refinances",
+      "the_distinction": "The right of rescission applies to non-purchase mortgage transactions on a primary residence (refinances, home equity loans/lines); it does NOT apply to purchase loans or to the refinance of second homes or investment properties."
+    },
+    {
+      "often_confused_with": "3-year general retention vs. 5-year closing disclosure retention",
+      "the_distinction": "General TILA disclosures (and MLO compensation records) require 3-year retention; closing disclosures specifically require 5-year retention from consummation."
+    },
+    {
+      "often_confused_with": "Regular APR tolerance (1/8%) vs. irregular APR tolerance (1/4%)",
+      "the_distinction": "Standard transactions get the tighter 1/8% tolerance; only transactions with multiple advances, irregular payment periods, or irregular payment amounts qualify for the wider 1/4% tolerance."
+    },
+    {
+      "often_confused_with": "Triggering terms requiring full disclosure vs. simple rate mention requiring only APR",
+      "the_distinction": "Mentioning a specific payment amount, down payment, number of payments, or finance charge triggers full disclosures (down payment details, repayment terms, APR); merely stating an interest rate only triggers the requirement to also state the APR."
+    }
+  ]
+}

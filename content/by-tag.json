@@ -1,0 +1,1218 @@
+{
+  "unexpected expertise": [
+    "char_001",
+    "char_016",
+    "char_022"
+  ],
+  "out-of-element performance": [
+    "char_001"
+  ],
+  "dual identity": [
+    "char_001",
+    "char_007"
+  ],
+  "specialized knowledge in unfamiliar territory": [
+    "char_001"
+  ],
+  "precision under pressure": [
+    "char_001"
+  ],
+  "isolation": [
+    "char_001"
+  ],
+  "communication across barriers": [
+    "char_001"
+  ],
+  "technical mastery": [
+    "char_001"
+  ],
+  "improvisation": [
+    "char_001"
+  ],
+  "protected identity": [
+    "char_001"
+  ],
+  "expertise": [
+    "char_001",
+    "char_007",
+    "char_014",
+    "char_015",
+    "char_016",
+    "char_018",
+    "char_021",
+    "char_022"
+  ],
+  "disclosure": [
+    "char_001",
+    "char_004",
+    "char_006",
+    "char_007",
+    "char_009",
+    "char_010",
+    "char_011",
+    "char_012",
+    "char_013",
+    "char_014",
+    "char_015",
+    "char_016",
+    "char_017",
+    "char_018",
+    "char_019",
+    "char_020",
+    "char_021",
+    "char_022"
+  ],
+  "process": [
+    "char_001",
+    "char_007",
+    "char_014",
+    "char_016",
+    "char_017",
+    "char_018",
+    "char_019",
+    "char_021"
+  ],
+  "compliance": [
+    "char_001",
+    "char_003",
+    "char_004",
+    "char_005",
+    "char_008",
+    "char_009",
+    "char_010",
+    "char_011",
+    "char_012",
+    "char_013",
+    "char_014",
+    "char_015",
+    "char_018",
+    "char_019",
+    "char_020",
+    "char_021",
+    "char_022"
+  ],
+  "risk": [
+    "char_001",
+    "char_002",
+    "char_003",
+    "char_004",
+    "char_005",
+    "char_009",
+    "char_010",
+    "char_011",
+    "char_012",
+    "char_015",
+    "char_017",
+    "char_018",
+    "char_019",
+    "char_020",
+    "char_021"
+  ],
+  "negotiation": [
+    "char_001",
+    "char_007",
+    "char_008",
+    "char_022"
+  ],
+  "technology": [
+    "char_001",
+    "char_016"
+  ],
+  "documentation": [
+    "char_001",
+    "char_004",
+    "char_009",
+    "char_013",
+    "char_018",
+    "char_020"
+  ],
+  "whimsical": [
+    "char_001",
+    "char_006",
+    "char_019"
+  ],
+  "confident": [
+    "char_001",
+    "char_014",
+    "char_016",
+    "char_022"
+  ],
+  "surreal": [
+    "char_001",
+    "char_005",
+    "char_006"
+  ],
+  "oddly reassuring": [
+    "char_001"
+  ],
+  "playful": [
+    "char_001",
+    "char_009",
+    "char_014",
+    "char_016"
+  ],
+  "underwriter": [
+    "char_001",
+    "char_014",
+    "char_016",
+    "char_018",
+    "char_019"
+  ],
+  "expert advisor": [
+    "char_001",
+    "char_007",
+    "char_014",
+    "char_015",
+    "char_016",
+    "char_019",
+    "char_022"
+  ],
+  "processor": [
+    "char_001",
+    "char_005",
+    "char_007",
+    "char_016",
+    "char_018",
+    "char_021"
+  ],
+  "confused consumer": [
+    "char_001",
+    "char_004",
+    "char_005",
+    "char_007",
+    "char_009",
+    "char_010",
+    "char_011",
+    "char_012",
+    "char_013",
+    "char_015",
+    "char_017",
+    "char_018",
+    "char_019",
+    "char_020",
+    "char_021",
+    "char_022"
+  ],
+  "unexpected competence": [
+    "char_002",
+    "char_014"
+  ],
+  "financial self-sufficiency": [
+    "char_002"
+  ],
+  "subverted expectations": [
+    "char_002"
+  ],
+  "asset diversification": [
+    "char_002"
+  ],
+  "risk tolerance": [
+    "char_002"
+  ],
+  "outsider savvy": [
+    "char_002"
+  ],
+  "wealth accumulation": [
+    "char_002"
+  ],
+  "countercultural participation in mainstream systems": [
+    "char_002"
+  ],
+  "discipline beneath rebellion": [
+    "char_002"
+  ],
+  "portfolio management": [
+    "char_002"
+  ],
+  "finance": [
+    "char_002",
+    "char_017"
+  ],
+  "assets": [
+    "char_002",
+    "char_003",
+    "char_005",
+    "char_011",
+    "char_017"
+  ],
+  "investment": [
+    "char_002"
+  ],
+  "credit": [
+    "char_002",
+    "char_017"
+  ],
+  "mortgage": [
+    "char_002",
+    "char_003",
+    "char_005",
+    "char_006",
+    "char_007",
+    "char_008",
+    "char_013",
+    "char_017",
+    "char_020"
+  ],
+  "identity": [
+    "char_002",
+    "char_004",
+    "char_006",
+    "char_007",
+    "char_009",
+    "char_010",
+    "char_011",
+    "char_012",
+    "char_013",
+    "char_014",
+    "char_015",
+    "char_019",
+    "char_020",
+    "char_022"
+  ],
+  "trust": [
+    "char_002",
+    "char_006",
+    "char_007",
+    "char_008",
+    "char_009",
+    "char_011",
+    "char_012",
+    "char_014",
+    "char_015",
+    "char_019",
+    "char_020",
+    "char_022"
+  ],
+  "defiant confidence": [
+    "char_002"
+  ],
+  "quiet intensity": [
+    "char_002"
+  ],
+  "surprising seriousness": [
+    "char_002"
+  ],
+  "gruff focus": [
+    "char_002"
+  ],
+  "understated ambition": [
+    "char_002"
+  ],
+  "sophisticated borrower": [
+    "char_002"
+  ],
+  "high-risk borrower": [
+    "char_002",
+    "char_003",
+    "char_004",
+    "char_009",
+    "char_010",
+    "char_010",
+    "char_011",
+    "char_012",
+    "char_017",
+    "char_020"
+  ],
+  "investor": [
+    "char_002"
+  ],
+  "concealment": [
+    "char_003",
+    "char_007",
+    "char_012",
+    "char_015",
+    "char_020"
+  ],
+  "deception": [
+    "char_003"
+  ],
+  "misappropriation": [
+    "char_003"
+  ],
+  "armored vulnerability": [
+    "char_003"
+  ],
+  "absurd protection": [
+    "char_003"
+  ],
+  "stealth": [
+    "char_003"
+  ],
+  "disguise": [
+    "char_003"
+  ],
+  "taking what isn't yours": [
+    "char_003"
+  ],
+  "anachronistic defense": [
+    "char_003"
+  ],
+  "bravado masking guilt": [
+    "char_003"
+  ],
+  "fraud": [
+    "char_003",
+    "char_004",
+    "char_009",
+    "char_010",
+    "char_011",
+    "char_012",
+    "char_014",
+    "char_015",
+    "char_020",
+    "char_021",
+    "char_022"
+  ],
+  "ethics": [
+    "char_003",
+    "char_004",
+    "char_009",
+    "char_010",
+    "char_012",
+    "char_019"
+  ],
+  "regulation": [
+    "char_003",
+    "char_004",
+    "char_008",
+    "char_019",
+    "char_021",
+    "char_022"
+  ],
+  "law": [
+    "char_003"
+  ],
+  "comedic menace": [
+    "char_003"
+  ],
+  "bumbling villainy": [
+    "char_003"
+  ],
+  "nervous tension": [
+    "char_003"
+  ],
+  "absurdist humor": [
+    "char_003"
+  ],
+  "cartoonish threat": [
+    "char_003"
+  ],
+  "fraudster": [
+    "char_003",
+    "char_004",
+    "char_009",
+    "char_010",
+    "char_011",
+    "char_012",
+    "char_015",
+    "char_020",
+    "char_022"
+  ],
+  "predator": [
+    "char_003",
+    "char_022"
+  ],
+  "warning": [
+    "char_004"
+  ],
+  "concealed identity": [
+    "char_004",
+    "char_009",
+    "char_011"
+  ],
+  "self-reflection": [
+    "char_004"
+  ],
+  "over-regulation": [
+    "char_004"
+  ],
+  "visibility vs. obscurity": [
+    "char_004"
+  ],
+  "restriction": [
+    "char_004"
+  ],
+  "hazard signaling": [
+    "char_004"
+  ],
+  "transparency paradox": [
+    "char_004"
+  ],
+  "red flags": [
+    "char_004"
+  ],
+  "entanglement": [
+    "char_004"
+  ],
+  "unnerving": [
+    "char_004"
+  ],
+  "absurdist": [
+    "char_004",
+    "char_005",
+    "char_011",
+    "char_014",
+    "char_015",
+    "char_016",
+    "char_019"
+  ],
+  "cautionary": [
+    "char_004"
+  ],
+  "opaque": [
+    "char_004"
+  ],
+  "deadpan": [
+    "char_004",
+    "char_011"
+  ],
+  "regulator": [
+    "char_004",
+    "char_019",
+    "char_021"
+  ],
+  "collective burden": [
+    "char_005"
+  ],
+  "performative optimism masking loss": [
+    "char_005"
+  ],
+  "team obligation": [
+    "char_005"
+  ],
+  "ceremony under duress": [
+    "char_005"
+  ],
+  "cheerful facade over grim reality": [
+    "char_005"
+  ],
+  "shared liability": [
+    "char_005"
+  ],
+  "ritual transport": [
+    "char_005"
+  ],
+  "death of a deal": [
+    "char_005"
+  ],
+  "debt": [
+    "char_005",
+    "char_017"
+  ],
+  "inheritance": [
+    "char_005",
+    "char_006"
+  ],
+  "transition": [
+    "char_005",
+    "char_008",
+    "char_016"
+  ],
+  "labor": [
+    "char_005",
+    "char_007",
+    "char_018"
+  ],
+  "darkly comic": [
+    "char_005"
+  ],
+  "tense despite surface energy": [
+    "char_005"
+  ],
+  "ominous": [
+    "char_005"
+  ],
+  "co-borrower": [
+    "char_005",
+    "char_006",
+    "char_013",
+    "char_013",
+    "char_017"
+  ],
+  "generational transfer": [
+    "char_006"
+  ],
+  "inherited identity": [
+    "char_006"
+  ],
+  "imitation": [
+    "char_006"
+  ],
+  "role modeling": [
+    "char_006"
+  ],
+  "legacy": [
+    "char_006"
+  ],
+  "absurdity normalized": [
+    "char_006"
+  ],
+  "miniaturization of authority": [
+    "char_006"
+  ],
+  "costume as destiny": [
+    "char_006"
+  ],
+  "unconditional mentorship": [
+    "char_006"
+  ],
+  "performance passed down": [
+    "char_006"
+  ],
+  "family": [
+    "char_006",
+    "char_013"
+  ],
+  "generations": [
+    "char_006",
+    "char_010",
+    "char_013",
+    "char_016"
+  ],
+  "real estate": [
+    "char_006",
+    "char_008",
+    "char_011"
+  ],
+  "tender": [
+    "char_006"
+  ],
+  "self-serious absurdity": [
+    "char_006"
+  ],
+  "nostalgic": [
+    "char_006"
+  ],
+  "first-time homebuyer": [
+    "char_006",
+    "char_013",
+    "char_017"
+  ],
+  "borrower": [
+    "char_006",
+    "char_007",
+    "char_008",
+    "char_009",
+    "char_011",
+    "char_012",
+    "char_013"
+  ],
+  "unexpected skill": [
+    "char_007"
+  ],
+  "hidden talent": [
+    "char_007"
+  ],
+  "performative expertise": [
+    "char_007"
+  ],
+  "noise and disruption": [
+    "char_007"
+  ],
+  "labor and artistry": [
+    "char_007"
+  ],
+  "mismatched roles": [
+    "char_007"
+  ],
+  "announcement": [
+    "char_007"
+  ],
+  "blue-collar complexity": [
+    "char_007"
+  ],
+  "playful absurdity": [
+    "char_007"
+  ],
+  "surprising confidence": [
+    "char_007"
+  ],
+  "mild dissonance": [
+    "char_007"
+  ],
+  "lighthearted earnestness": [
+    "char_007"
+  ],
+  "unlikely alliance": [
+    "char_008"
+  ],
+  "collision of worlds": [
+    "char_008"
+  ],
+  "cooperation under tension": [
+    "char_008"
+  ],
+  "formal meets informal": [
+    "char_008"
+  ],
+  "mutual dependency": [
+    "char_008"
+  ],
+  "negotiated partnership": [
+    "char_008"
+  ],
+  "cultural contrast": [
+    "char_008"
+  ],
+  "synchronized movement": [
+    "char_008"
+  ],
+  "power sharing": [
+    "char_008"
+  ],
+  "bridging divides": [
+    "char_008"
+  ],
+  "lending": [
+    "char_008",
+    "char_012"
+  ],
+  "playfully absurd": [
+    "char_008"
+  ],
+  "unexpectedly harmonious": [
+    "char_008"
+  ],
+  "tense cooperation": [
+    "char_008"
+  ],
+  "lighthearted": [
+    "char_008"
+  ],
+  "dissonant": [
+    "char_008"
+  ],
+  "loan officer": [
+    "char_008",
+    "char_014",
+    "char_015"
+  ],
+  "realtor": [
+    "char_008"
+  ],
+  "negotiator": [
+    "char_008"
+  ],
+  "performance": [
+    "char_009"
+  ],
+  "hidden information": [
+    "char_009"
+  ],
+  "surface appearance vs reality": [
+    "char_009"
+  ],
+  "disclosure failure": [
+    "char_009"
+  ],
+  "ornamental distraction": [
+    "char_009"
+  ],
+  "voluntary obscurement": [
+    "char_009"
+  ],
+  "festive misdirection": [
+    "char_009"
+  ],
+  "transparency gap": [
+    "char_009"
+  ],
+  "what you cannot see": [
+    "char_009"
+  ],
+  "unsettling": [
+    "char_009"
+  ],
+  "deceptively cheerful": [
+    "char_009"
+  ],
+  "disorienting": [
+    "char_009",
+    "char_014",
+    "char_015"
+  ],
+  "celebratory yet evasive": [
+    "char_009"
+  ],
+  "nonconformity": [
+    "char_010"
+  ],
+  "counterculture": [
+    "char_010"
+  ],
+  "disorganization": [
+    "char_010"
+  ],
+  "misplaced preparation": [
+    "char_010"
+  ],
+  "casual indifference": [
+    "char_010"
+  ],
+  "hidden identity": [
+    "char_010",
+    "char_012",
+    "char_014",
+    "char_015",
+    "char_019",
+    "char_022"
+  ],
+  "unreadiness": [
+    "char_010"
+  ],
+  "mixed signals": [
+    "char_010",
+    "char_015"
+  ],
+  "obscured judgment": [
+    "char_010"
+  ],
+  "recreational risk": [
+    "char_010"
+  ],
+  "carefree": [
+    "char_010"
+  ],
+  "hazy": [
+    "char_010"
+  ],
+  "unpredictable": [
+    "char_010"
+  ],
+  "nonchalant": [
+    "char_010"
+  ],
+  "disarming": [
+    "char_010",
+    "char_019"
+  ],
+  "nurturing discipline": [
+    "char_011"
+  ],
+  "hidden strength": [
+    "char_011"
+  ],
+  "growth under pressure": [
+    "char_011"
+  ],
+  "protection": [
+    "char_011"
+  ],
+  "rootedness": [
+    "char_011"
+  ],
+  "self-cultivation": [
+    "char_011"
+  ],
+  "masked expertise": [
+    "char_011"
+  ],
+  "patience": [
+    "char_011"
+  ],
+  "containment": [
+    "char_011"
+  ],
+  "quietly menacing": [
+    "char_011"
+  ],
+  "grounded": [
+    "char_011"
+  ],
+  "enigmatic": [
+    "char_011",
+    "char_022"
+  ],
+  "nonchalance": [
+    "char_012"
+  ],
+  "deliberate withdrawal": [
+    "char_012"
+  ],
+  "slow burn": [
+    "char_012"
+  ],
+  "habitual risk": [
+    "char_012"
+  ],
+  "detachment": [
+    "char_012"
+  ],
+  "opacity": [
+    "char_012"
+  ],
+  "coolness under pressure": [
+    "char_012"
+  ],
+  "aloof": [
+    "char_012"
+  ],
+  "brooding": [
+    "char_012"
+  ],
+  "guarded": [
+    "char_012"
+  ],
+  "contemplative": [
+    "char_012"
+  ],
+  "indifferent": [
+    "char_012"
+  ],
+  "uniformity": [
+    "char_013"
+  ],
+  "shared identity": [
+    "char_013"
+  ],
+  "generational alignment": [
+    "char_013"
+  ],
+  "coordinated compliance": [
+    "char_013"
+  ],
+  "collective decision-making": [
+    "char_013"
+  ],
+  "inherited tradition": [
+    "char_013"
+  ],
+  "modern intrusion on classic form": [
+    "char_013"
+  ],
+  "synchronized behavior": [
+    "char_013"
+  ],
+  "family unit as single entity": [
+    "char_013"
+  ],
+  "curated presentation": [
+    "char_013"
+  ],
+  "wholesome absurdity": [
+    "char_013"
+  ],
+  "nostalgic warmth": [
+    "char_013"
+  ],
+  "regimented togetherness": [
+    "char_013"
+  ],
+  "quietly surreal": [
+    "char_013"
+  ],
+  "dutiful": [
+    "char_013",
+    "char_018"
+  ],
+  "dual expertise": [
+    "char_014"
+  ],
+  "role confusion": [
+    "char_014"
+  ],
+  "masked authority": [
+    "char_014"
+  ],
+  "professional incongruity": [
+    "char_014"
+  ],
+  "multitasking": [
+    "char_014"
+  ],
+  "obstructed judgment": [
+    "char_014"
+  ],
+  "misapplied credentials": [
+    "char_014"
+  ],
+  "authority": [
+    "char_014",
+    "char_015",
+    "char_021"
+  ],
+  "quirky": [
+    "char_014"
+  ],
+  "celebration obscuring judgment": [
+    "char_015"
+  ],
+  "authority undermined by frivolity": [
+    "char_015"
+  ],
+  "distraction from expertise": [
+    "char_015"
+  ],
+  "loss of control": [
+    "char_015",
+    "char_021"
+  ],
+  "buoyancy": [
+    "char_015"
+  ],
+  "festivity vs. discipline": [
+    "char_015"
+  ],
+  "playful tension": [
+    "char_015"
+  ],
+  "cheerfully ominous": [
+    "char_015"
+  ],
+  "comedic": [
+    "char_015"
+  ],
+  "tradition disrupted": [
+    "char_016"
+  ],
+  "hidden competence": [
+    "char_016"
+  ],
+  "mastery in disguise": [
+    "char_016"
+  ],
+  "collision of eras": [
+    "char_016"
+  ],
+  "surface vs. depth": [
+    "char_016"
+  ],
+  "control of the mix": [
+    "char_016"
+  ],
+  "commanding the room": [
+    "char_016"
+  ],
+  "anachronistic authority": [
+    "char_016"
+  ],
+  "adaptation": [
+    "char_016"
+  ],
+  "modernization": [
+    "char_016"
+  ],
+  "history": [
+    "char_016"
+  ],
+  "surprising": [
+    "char_016"
+  ],
+  "empowering": [
+    "char_016"
+  ],
+  "overcommitment": [
+    "char_017"
+  ],
+  "loss of visibility": [
+    "char_017"
+  ],
+  "accumulation": [
+    "char_017"
+  ],
+  "instability": [
+    "char_017"
+  ],
+  "inability to stop": [
+    "char_017"
+  ],
+  "excess": [
+    "char_017"
+  ],
+  "blind momentum": [
+    "char_017"
+  ],
+  "burden of acquisition": [
+    "char_017"
+  ],
+  "poor judgment under load": [
+    "char_017"
+  ],
+  "compounding obligations": [
+    "char_017"
+  ],
+  "overwhelmed": [
+    "char_017"
+  ],
+  "reckless optimism": [
+    "char_017"
+  ],
+  "chaotic energy": [
+    "char_017"
+  ],
+  "comic precariousness": [
+    "char_017"
+  ],
+  "oblivious urgency": [
+    "char_017"
+  ],
+  "wrong tool for the job": [
+    "char_018"
+  ],
+  "misplaced expertise": [
+    "char_018"
+  ],
+  "thoroughness in hostile environments": [
+    "char_018"
+  ],
+  "preparation meets absurdity": [
+    "char_018"
+  ],
+  "underwater logic applied on dry land": [
+    "char_018"
+  ],
+  "specialized knowledge out of context": [
+    "char_018"
+  ],
+  "diligence": [
+    "char_018"
+  ],
+  "incompatibility": [
+    "char_018"
+  ],
+  "deadpan humor": [
+    "char_018"
+  ],
+  "oblivious": [
+    "char_018"
+  ],
+  "surreal calm": [
+    "char_018"
+  ],
+  "unexpected gentleness": [
+    "char_019"
+  ],
+  "incongruity": [
+    "char_019"
+  ],
+  "duality": [
+    "char_019",
+    "char_020"
+  ],
+  "creative expression beneath rigid structure": [
+    "char_019"
+  ],
+  "visibility vs concealment": [
+    "char_019"
+  ],
+  "softness inside hardness": [
+    "char_019"
+  ],
+  "peaceful intent in aggressive framing": [
+    "char_019"
+  ],
+  "optimistic": [
+    "char_019"
+  ],
+  "quietly subversive": [
+    "char_019"
+  ],
+  "identity obscurity": [
+    "char_020"
+  ],
+  "false presentation": [
+    "char_020"
+  ],
+  "surface versus substance": [
+    "char_020"
+  ],
+  "cultural cosplay": [
+    "char_020"
+  ],
+  "deliberate opacity": [
+    "char_020"
+  ],
+  "hidden risk": [
+    "char_020"
+  ],
+  "aesthetic misdirection": [
+    "char_020"
+  ],
+  "exposure": [
+    "char_020"
+  ],
+  "playful evasion": [
+    "char_020"
+  ],
+  "confident absurdity": [
+    "char_020"
+  ],
+  "disarming charm": [
+    "char_020"
+  ],
+  "calculated mystery": [
+    "char_020"
+  ],
+  "redundancy": [
+    "char_021"
+  ],
+  "over-preparation": [
+    "char_021"
+  ],
+  "conflicting interventions": [
+    "char_021"
+  ],
+  "escalation": [
+    "char_021"
+  ],
+  "well-intentioned incompetence": [
+    "char_021"
+  ],
+  "badge-earned authority vs real-world chaos": [
+    "char_021"
+  ],
+  "parallel problem-solving": [
+    "char_021"
+  ],
+  "credential signaling": [
+    "char_021"
+  ],
+  "reactive vs proactive response": [
+    "char_021"
+  ],
+  "frantic urgency": [
+    "char_021"
+  ],
+  "absurd earnestness": [
+    "char_021"
+  ],
+  "chaotic helpfulness": [
+    "char_021"
+  ],
+  "anxious competence": [
+    "char_021"
+  ],
+  "comedic panic": [
+    "char_021"
+  ],
+  "arcane knowledge made public": [
+    "char_022"
+  ],
+  "performance as persuasion": [
+    "char_022"
+  ],
+  "mystique undermined by modernity": [
+    "char_022"
+  ],
+  "unconventional authority": [
+    "char_022"
+  ],
+  "spellcasting as disclosure": [
+    "char_022"
+  ],
+  "secrecy turned outward": [
+    "char_022"
+  ],
+  "power dressed in costume": [
+    "char_022"
+  ],
+  "theatrical": [
+    "char_022"
+  ],
+  "subversive": [
+    "char_022"
+  ],
+  "uncanny": [
+    "char_022"
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "chapter_id": "uniform-state-content",
+  "section_id": "safe-act",
+  "section_title": "SAFE Act",
+  "chapter_title": "Uniform State Content",
+  "page_range": {
+    "start": 571,
+    "end": 585
+  },
+  "summary": "This section covers MLO compliance obligations including suspicious activity reporting, closing cost rules, RESPA prohibitions, error resolution timelines, appraisal integrity, and customer information safeguarding. It uses scenarios to illustrate proper conduct when encountering fraud indicators, fee disputes, referral arrangements, and unlicensed origination.",
+  "concepts": [
+    {
+      "id": "suspicious-activity-reporting",
+      "term": "Suspicious Activity Report (SAR)",
+      "definition": "A formal report filed with FinCEN when a financial professional identifies transaction patterns or borrower behavior suggesting potential fraud or money laundering.",
+      "why_it_exists": "Regulators need a mechanism to investigate financial crimes without tipping off the subject of the investigation.",
+      "examples": [
+        {
+          "scenario": "An applicant claims $750,000 annual income but bank balances never exceed $15,000 and reacts defensively when questioned.",
+          "outcome": "MLO documents the conversation, notifies management, and the company's Chief Compliance Officer files a SAR; the MLO must not inform the applicant that a SAR was filed."
+        }
+      ],
+      "cross_refs": [
+        "mlo-compliance-obligations",
+        "respondeat-superior"
+      ],
+      "check_questions": [
+        {
+          "question": "After a SAR is filed, what must the MLO refrain from doing?",
+          "answer": "The MLO must not inform or tip off the applicant that a SAR has been issued; the transaction continues without mentioning the SAR.",
+          "type": "recall"
+        },
+        {
+          "question": "An applicant earns $500,000 per year but bank statements show balances under $10,000 and he becomes hostile when asked. What is the MLO's correct first action?",
+          "answer": "Follow company policy, thoroughly document the conversation, and notify a manager in writing rather than directly accusing or immediately canceling the application.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "closing-cost-tolerance-rules",
+      "term": "Closing Cost Tolerance (Loan Estimate)",
+      "definition": "TRID rules that cap how much certain fees disclosed on the Loan Estimate can increase by the time of the Closing Disclosure, with the lender paying any excess beyond the allowed tolerance.",
+      "why_it_exists": "Protects borrowers from bait-and-switch fee increases after they commit to a transaction.",
+      "examples": [
+        {
+          "scenario": "A transfer tax is quoted at $1,400 on the Loan Estimate but appears as $4,750 on the Closing Disclosure because the MLO used the wrong county's rates.",
+          "outcome": "Because no valid change of circumstance occurred and the transfer tax has zero tolerance for increases, the lender must pay the $3,350 difference; the MLO receives a final written warning."
+        }
+      ],
+      "cross_refs": [
+        "hpml-high-cost-loan-thresholds",
+        "respa-fee-splitting"
+      ],
+      "check_questions": [
+        {
+          "question": "Which category of fees has zero tolerance for increase on the Closing Disclosure absent a valid change of circumstance?",
+          "answer": "Fees paid directly to the lender, mortgage broker, or their affiliates, and the real estate transfer tax may not increase at all.",
+          "type": "recall"
+        },
+        {
+          "question": "A recording fee increases from $200 to $215 with no change of circumstance. Is this permissible?",
+          "answer": "Yes — recording fees fall in the 10% tolerance bucket, so a $15 increase on a $200 fee (7.5%) is within the allowable limit.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "hpml-high-cost-loan-thresholds",
+      "term": "HPML and High-Cost Mortgage Loan APR Thresholds",
+      "definition": "Federal rate and fee benchmarks that, when exceeded relative to APOR, classify a loan as a Higher-Priced Mortgage Loan (HPML) or a High-Cost Mortgage Loan, each triggering additional consumer protections.",
+      "why_it_exists": "Excessive rates and fees on mortgage loans expose vulnerable borrowers to predatory lending; these thresholds create a tiered regulatory response.",
+      "examples": [
+        {
+          "scenario": "A first-lien loan's APR exceeds APOR by 7 percentage points and total points and fees equal 6% of the loan amount of $30,000.",
+          "outcome": "The loan exceeds both the 6.5 pp APR threshold and the 5% points-and-fees threshold for loans over $27,592, classifying it as a High-Cost Mortgage Loan with strict restrictions."
+        }
+      ],
+      "cross_refs": [
+        "closing-cost-tolerance-rules"
+      ],
+      "check_questions": [
+        {
+          "question": "By how many percentage points must a first-lien loan's APR exceed APOR to trigger HPML status?",
+          "answer": "1.5 percentage points or more above APOR for a standard first-lien loan.",
+          "type": "recall"
+        },
+        {
+          "question": "What APR spread over APOR triggers High-Cost Mortgage Loan status on a subordinate lien?",
+          "answer": "8.5 percentage points or more above APOR on a subordinate lien triggers High-Cost status.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "respa-fee-splitting",
+      "term": "RESPA Prohibition on Unearned Fees and Kickbacks",
+      "definition": "RESPA bans exchanging anything of value between referral sources and requires that all compensation be proportional to the work actually performed.",
+      "why_it_exists": "Kickbacks artificially inflate settlement costs for consumers and corrupt the referral marketplace.",
+      "examples": [
+        {
+          "scenario": "Hope originates an application in Michigan without a Michigan license and splits the commission 50/50 with the Michigan-licensed MLO who closes the loan.",
+          "outcome": "Hope violated the SAFE Act and Michigan state law; because the origination was illegitimate, neither MLO nor the lender may keep any compensation for that transaction."
+        }
+      ],
+      "cross_refs": [
+        "safe-act-licensing",
+        "respa-referral-prohibitions"
+      ],
+      "check_questions": [
+        {
+          "question": "Two MLOs split a commission 50/50 even though one did most of the work. What RESPA principle does this violate?",
+          "answer": "RESPA requires that fee income be commensurate with the amount of work performed, so an equal split is impermissible when work contributions are unequal.",
+          "type": "recall"
+        },
+        {
+          "question": "An MLO earns compensation on a loan she originated without being licensed in the property's state. What happens to that compensation?",
+          "answer": "Because the origination was illegal, none of the parties — the unlicensed MLO, the co-MLO, or the lender — may legally keep the compensation.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "respa-referral-prohibitions",
+      "term": "RESPA Referral and Thing-of-Value Rules",
+      "definition": "RESPA forbids giving or receiving anything of value in exchange for mortgage referrals, with limited exceptions for bona fide services, reasonable promotional items, and educational events where referrals are not solicited.",
+      "why_it_exists": "Referral payments drive up costs for borrowers and undermine competition based on service quality.",
+      "examples": [
+        {
+          "scenario": "An MLO hosts a first-time homebuyer seminar, provides lunch, and then hands each agent a card explicitly asking for referrals.",
+          "outcome": "The educational-event exception is voided because the MLO directly solicited referrals at the event, making the arrangement a RESPA violation."
+        }
+      ],
+      "cross_refs": [
+        "respa-fee-splitting"
+      ],
+      "check_questions": [
+        {
+          "question": "An MLO brings pizzas to a 'lunch and learn' she hosts at a real estate office. Does this violate RESPA?",
+          "answer": "No — providing a reasonable item of value (food) in the context of legitimate industry education is a recognized exception to RESPA's prohibition.",
+          "type": "application"
+        },
+        {
+          "question": "A title company gives computers to a mortgage company to use for ordering title policies. Is this compliant with RESPA?",
+          "answer": "No — the computers are things of value regardless of their stated purpose, and both the title company and the mortgage company violated RESPA.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "error-resolution-procedures",
+      "term": "Servicer Error Resolution Procedures (RESPA/Reg X)",
+      "definition": "Mandatory timelines under Regulation X requiring mortgage servicers to acknowledge and resolve written borrower error notices within defined windows.",
+      "why_it_exists": "Consumers need a reliable process to correct servicer mistakes without prolonged disputes that could harm their credit or lead to wrongful foreclosure.",
+      "examples": [
+        {
+          "scenario": "A borrower submits a written notice claiming the servicer misapplied a payment.",
+          "outcome": "The servicer must send a written acknowledgment within 5 business days and either correct the error or provide a written explanation of its determination within 30 business days (extendable by 15 days with notice)."
+        }
+      ],
+      "cross_refs": [
+        "closing-cost-tolerance-rules"
+      ],
+      "check_questions": [
+        {
+          "question": "How many business days does a servicer have to acknowledge receipt of a notice of error?",
+          "answer": "Five business days (excluding legal public holidays, Saturdays, and Sundays).",
+          "type": "recall"
+        },
+        {
+          "question": "For how long after receiving a notice of error may a servicer not report adverse information to credit bureaus about the disputed payment?",
+          "answer": "60 days after receipt of the notice of error.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "safe-act-licensing",
+      "term": "SAFE Act MLO Licensing Requirement",
+      "definition": "The SAFE Act requires any MLO not employed by an exempt depository institution to hold a valid state license in every state where properties they finance are located, with annual renewal required.",
+      "why_it_exists": "Licensing ensures minimum competency and background standards for professionals who handle large consumer financial transactions.",
+      "examples": [
+        {
+          "scenario": "A call-center MLO licensed in Tennessee, Utah, and New Hampshire takes an application on a Michigan property because the Michigan-licensed colleague is unavailable.",
+          "outcome": "The MLO violated the SAFE Act and Michigan state law; the loan and its compensation are tainted regardless of good intentions."
+        }
+      ],
+      "cross_refs": [
+        "respa-fee-splitting",
+        "mlo-compliance-obligations"
+      ],
+      "check_questions": [
+        {
+          "question": "An MLO fails to renew her license by December 31. When must she stop originating loans?",
+          "answer": "Effective January 1st she must immediately cease all origination activities until her license is properly renewed.",
+          "type": "recall"
+        },
+        {
+          "question": "What determines which state license an MLO needs — the borrower's residence or the property's location?",
+          "answer": "The property's location — the MLO must be licensed in every state where the financed properties are located.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "mlo-compliance-obligations",
+      "term": "MLO Compliance and Lender Responsibility",
+      "definition": "MLOs must disclose all material information — both favorable and unfavorable — to the lender, follow company fraud protocols, protect borrower non-public personal information, and act as a fiduciary to both the borrower and the lender.",
+      "why_it_exists": "The doctrine of respondeat superior makes lenders liable for MLO misconduct, so both parties need clear standards to prevent fraud and protect consumers.",
+      "examples": [
+        {
+          "scenario": "A borrower mentions during the application that he plans to repay gift funds, which would convert them from a gift to a loan.",
+          "outcome": "The MLO must immediately disclose this to the underwriter because it changes the borrower's debt picture and could constitute misrepresentation on the application."
+        }
+      ],
+      "cross_refs": [
+        "safe-act-licensing",
+        "suspicious-activity-reporting",
+        "respa-fee-splitting"
+      ],
+      "check_questions": [
+        {
+          "question": "Under what legal doctrine is a lender held responsible for wrongdoing committed by its MLO employee?",
+          "answer": "Respondeat superior — 'let the master answer' — holds the employer liable alongside the employee for the employee's misconduct.",
+          "type": "recall"
+        },
+        {
+          "question": "An MLO learns during processing that the borrower is a defendant in a lawsuit but did not disclose it on the 1003. What must the MLO do?",
+          "answer": "The MLO must convey this information to the underwriter/lender because it is material information the lender needs to properly decision the loan.",
+          "type": "application"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "1.5 percentage points above APOR",
+      "what_it_means": "APR threshold that triggers Higher-Priced Mortgage Loan (HPML) status for a standard first-lien loan.",
+      "memorize_as": "First-lien HPML = APOR + 1.5 pp"
+    },
+    {
+      "value": "2.5 percentage points above APOR",
+      "what_it_means": "APR threshold that triggers HPML status for a first-lien jumbo loan.",
+      "memorize_as": "Jumbo first-lien HPML = APOR + 2.5 pp"
+    },
+    {
+      "value": "3.5 percentage points above APOR",
+      "what_it_means": "APR threshold that triggers HPML status for a subordinate-lien loan.",
+      "memorize_as": "Sub-lien HPML = APOR + 3.5 pp"
+    },
+    {
+      "value": "6.5 percentage points above APOR",
+      "what_it_means": "APR threshold that triggers High-Cost Mortgage Loan status for a first-lien transaction.",
+      "memorize_as": "First-lien High-Cost = APOR + 6.5 pp"
+    },
+    {
+      "value": "8.5 percentage points above APOR",
+      "what_it_means": "APR threshold that triggers High-Cost Mortgage Loan status for a subordinate lien.",
+      "memorize_as": "Sub-lien High-Cost = APOR + 8.5 pp"
+    },
+    {
+      "value": "5% of total loan amount",
+      "what_it_means": "Points-and-fees cap triggering High-Cost status for loans of $27,592 or more (2026 threshold).",
+      "memorize_as": "High-Cost fees cap: 5% on loans ≥ $27,592"
+    },
+    {
+      "value": "$27,592 (2026)",
+      "what_it_means": "Dollar threshold separating the two High-Cost Mortgage points-and-fees tests.",
+      "memorize_as": "High-Cost loan size cutoff = $27,592 (2026)"
+    },
+    {
+      "value": "8% or $1,380 (lesser of)",
+      "what_it_means": "Points-and-fees cap for High-Cost status on loans under $27,592 (2026).",
+      "memorize_as": "High-Cost fees on small loans: lesser of 8% or $1,380"
+    },
+    {
+      "value": "10%",
+      "what_it_means": "Maximum permissible increase for recording fees and certain third-party fees between the Loan Estimate and Closing Disclosure without a valid change of circumstance.",
+      "memorize_as": "10% tolerance bucket for select third-party/recording fees"
+    },
+    {
+      "value": "0% (zero tolerance)",
+      "what_it_means": "Transfer taxes and fees paid to the lender, broker, or their affiliates cannot increase at all from the Loan Estimate.",
+      "memorize_as": "Zero tolerance = lender fees + transfer tax"
+    },
+    {
+      "value": "5 business days",
+      "what_it_means": "Time a servicer has to acknowledge a written notice of error from a borrower.",
+      "memorize_as": "5 biz days to acknowledge error notice"
+    },
+    {
+      "value": "30 business days",
+      "what_it_means": "Standard deadline for a servicer to fully resolve or respond to a notice of error.",
+      "memorize_as": "30 biz days to resolve error (extendable +15)"
+    },
+    {
+      "value": "15 business days",
+      "what_it_means": "Maximum extension a servicer may take beyond the 30-day resolution window if it notifies the borrower in writing before the 30 days expire.",
+      "memorize_as": "+15 day extension (with written notice to borrower)"
+    },
+    {
+      "value": "60 days",
+      "what_it_means": "Period after receiving a notice of error during which a servicer may not report adverse credit information related to the disputed payment.",
+      "memorize_as": "60-day credit reporting freeze after error notice"
+    },
+    {
+      "value": "1 year",
+      "what_it_means": "A notice of error delivered more than one year after loan servicing transferred away from the servicer may be deemed overbroad and need not be investigated.",
+      "memorize_as": "Error notice >1 year after transfer = servicer may reject"
+    },
+    {
+      "value": "20%",
+      "what_it_means": "Minimum conventional loan down payment that eliminates the requirement for private mortgage insurance (PMI).",
+      "memorize_as": "20% down = no PMI on conventional loans"
+    },
+    {
+      "value": "3.5%",
+      "what_it_means": "Minimum down payment for an FHA loan.",
+      "memorize_as": "FHA minimum down = 3.5%"
+    },
+    {
+      "value": "5%",
+      "what_it_means": "Typical minimum down payment for a conventional mortgage (outside community/first-time buyer programs).",
+      "memorize_as": "Conventional minimum down = 5%"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "Telling the applicant a SAR was filed vs. staying silent",
+      "the_distinction": "After a SAR is issued, the MLO and company must never disclose the SAR's existence to the applicant; the transaction continues normally without mentioning it."
+    },
+    {
+      "often_confused_with": "HPML thresholds vs. High-Cost Mortgage thresholds",
+      "the_distinction": "HPML is triggered at lower spreads (1.5/2.5/3.5 pp above APOR) and imposes escrow/appraisal requirements; High-Cost is triggered at much higher spreads (6.5/8.5 pp) or excessive fees and carries stricter restrictions including fee caps and balloon-payment limits."
+    },
+    {
+      "often_confused_with": "Zero-tolerance fees vs. 10%-tolerance fees",
+      "the_distinction": "Lender and affiliate fees plus transfer taxes have zero tolerance (cannot increase at all); recording fees and certain third-party fees where the borrower can shop have a 10% aggregate tolerance."
+    },
+    {
+      "often_confused_with": "A red flag meaning fraud has occurred vs. requiring investigation",
+      "the_distinction": "A red flag signals something that must be addressed and rationalized, not that fraud has definitely occurred; the MLO must ask questions and document responses rather than immediately accuse or cancel."
+    },
+    {
+      "often_confused_with": "Providing lunch at an educational seminar vs. soliciting referrals at the same event",
+      "the_distinction": "Providing food at a legitimate educational event is a RESPA exception; directly asking attendees for referrals at the same event destroys the exception and makes the arrangement a violation."
+    },
+    {
+      "often_confused_with": "MLO licensed in borrower's state vs. licensed in property's state",
+      "the_distinction": "Licensing is required based on the state where the financed property is located, not the borrower's state of residence."
+    },
+    {
+      "often_confused_with": "50/50 commission split being fair vs. being RESPA-compliant",
+      "the_distinction": "Even a willing 50/50 split between two licensed MLOs violates RESPA if the actual work split was not equal — compensation must be proportional to work performed."
+    }
+  ]
+}

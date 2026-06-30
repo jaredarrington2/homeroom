@@ -1,0 +1,329 @@
+{
+  "chapter_id": "federal-mortgage-laws",
+  "section_id": "glba",
+  "section_title": "GLBA – Gramm-Leach-Bliley Act",
+  "chapter_title": "Federal Mortgage-Related Laws",
+  "page_range": {
+    "start": 226,
+    "end": 240
+  },
+  "summary": "The Homeowners Protection Act (HPA) governs the cancellation and automatic termination of private mortgage insurance (PMI) on conventional loans, setting specific LTV thresholds and borrower rights. The Dodd-Frank Act created the CFPB as the central consumer financial regulator and reformed mortgage lending practices following the 2007-2008 financial crisis.",
+  "concepts": [
+    {
+      "id": "private-mortgage-insurance-pmi",
+      "term": "Private Mortgage Insurance (PMI)",
+      "definition": "Insurance that protects mortgage lenders and investors against borrower default on conventional loans with LTVs above 80%, covering the lender's exposure above the 80% LTV threshold.",
+      "why_it_exists": "Research showed borrowers with less than 20% equity default at significantly higher rates, so PMI was created to let lenders accept higher-LTV loans without taking on unacceptable default risk.",
+      "examples": [
+        {
+          "scenario": "A borrower buys a $100,000 home with a $90,000 loan (90% LTV). PMI is required.",
+          "outcome": "PMI insures only the $10,000 difference between the 80% LTV threshold ($80,000) and the loan balance ($90,000), not the full $90,000 balance."
+        }
+      ],
+      "cross_refs": [
+        "hpa-borrower-cancellation",
+        "hpa-automatic-termination",
+        "loan-to-value"
+      ],
+      "check_questions": [
+        {
+          "question": "What portion of a loan balance does PMI actually insure?",
+          "answer": "PMI insures the lender's exposure above 80% LTV — the difference between 80% of the property value and the outstanding loan balance — not the entire loan balance.",
+          "type": "recall"
+        },
+        {
+          "question": "Does PMI protect the borrower or the lender?",
+          "answer": "PMI protects only the lender. It does nothing for the borrower except allow them to obtain a conventional mortgage with an LTV above 80%.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "loan-to-value",
+      "term": "Loan-to-Value (LTV)",
+      "definition": "The lender's ownership interest in a property expressed as a percentage, calculated by dividing the loan amount by the lesser of the property's purchase price or appraised value.",
+      "why_it_exists": "LTV quantifies default risk — higher LTV means less borrower equity cushion, increasing the lender's loss exposure if the borrower defaults.",
+      "examples": [
+        {
+          "scenario": "A borrower purchases a $100,000 home with 10% down ($10,000), resulting in a $90,000 loan.",
+          "outcome": "$90,000 ÷ $100,000 = 90% LTV. The lender holds a 90% interest; the borrower holds 10% equity. LTV + equity = 100%."
+        }
+      ],
+      "cross_refs": [
+        "private-mortgage-insurance-pmi",
+        "hpa-automatic-termination"
+      ],
+      "check_questions": [
+        {
+          "question": "When calculating LTV for a purchase, what value is used if the appraisal comes in below the purchase price?",
+          "answer": "The lesser of the purchase price or appraised value is always used — so the lower appraised value would be the denominator.",
+          "type": "application"
+        },
+        {
+          "question": "What is the mathematical relationship between LTV and equity when only one lien exists?",
+          "answer": "LTV + equity always equals 100%.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "homeowners-protection-act-overview",
+      "term": "Homeowners Protection Act (HPA)",
+      "definition": "A 1998 federal law that establishes borrowers' rights to cancel PMI and requires servicers to automatically terminate PMI at defined LTV thresholds on qualifying conventional loans.",
+      "why_it_exists": "Before HPA, borrowers had to petition servicers to remove PMI and many kept paying it long after becoming eligible for removal, resulting in years of unnecessary premiums.",
+      "examples": [
+        {
+          "scenario": "A borrower with a conventional conforming loan originated after July 29, 1999 forgets to request PMI removal.",
+          "outcome": "The HPA requires the servicer to automatically terminate PMI once the loan reaches 78% LTV based on the original amortization schedule, as long as the loan is current."
+        }
+      ],
+      "cross_refs": [
+        "hpa-borrower-cancellation",
+        "hpa-automatic-termination",
+        "hpa-exemptions",
+        "hpa-high-risk"
+      ],
+      "check_questions": [
+        {
+          "question": "What is the effective date of the HPA's application to conventional loans?",
+          "answer": "The HPA applies to all conventional mortgage loans originated on and after July 29, 1999.",
+          "type": "recall"
+        },
+        {
+          "question": "Does the HPA apply to FHA or VA loans?",
+          "answer": "No — the HPA applies only to conventional mortgage loans with PMI. Government-insured FHA, VA, and USDA loans are exempt, as are lender-paid PMI loans.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "hpa-borrower-cancellation",
+      "term": "HPA Borrower-Initiated PMI Cancellation",
+      "definition": "The HPA gives borrowers the right to petition their servicer to cancel PMI once the loan LTV reaches 80%, subject to meeting good payment history, no subordinate liens, and a current appraisal.",
+      "why_it_exists": "Congress enacted this right because lenders had no obligation to remove PMI upon request before HPA, causing borrowers to overpay for insurance they no longer needed.",
+      "examples": [
+        {
+          "scenario": "A borrower's loan LTV drops to 80% due to appreciation. They request PMI cancellation.",
+          "outcome": "The servicer requires proof of: no 60-day late payment in the past 24 months, no 30-day late payment in the past 12 months, no subordinate liens, and a current appraisal confirming 80% LTV or less."
+        }
+      ],
+      "cross_refs": [
+        "hpa-good-payment-history",
+        "hpa-automatic-termination"
+      ],
+      "check_questions": [
+        {
+          "question": "What three conditions must a borrower satisfy to successfully request PMI cancellation?",
+          "answer": "Good payment history (no 60-day lates in last 24 months, no 30-day lates in last 12 months), no subordinate liens on the property, and an appraisal showing the loan is at 80% LTV or below.",
+          "type": "recall"
+        },
+        {
+          "question": "A borrower requests PMI cancellation. The servicer orders an appraisal that shows LTV is 82%. What happens?",
+          "answer": "The servicer denies the cancellation and must provide written notice explaining the grounds for denial, including the appraisal results.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "hpa-automatic-termination",
+      "term": "HPA Automatic PMI Termination",
+      "definition": "The HPA mandates that servicers automatically cancel PMI on conforming conventional loans when the loan's LTV reaches 78% based on the original amortization schedule, provided the loan is current.",
+      "why_it_exists": "Automatic termination protects borrowers who never request removal — servicers must proactively track the 78% threshold and cancel PMI without waiting for borrower action.",
+      "examples": [
+        {
+          "scenario": "A conforming loan's scheduled amortization shows it will reach 78% LTV in month 96, but at that time the borrower has a 45-day delinquency.",
+          "outcome": "PMI is not automatically removed. It remains until the loan becomes current (within 30 days of the due date) or reaches its amortization midpoint, at which point final termination applies regardless of payment status."
+        }
+      ],
+      "cross_refs": [
+        "hpa-borrower-cancellation",
+        "hpa-high-risk",
+        "hpa-final-termination"
+      ],
+      "check_questions": [
+        {
+          "question": "At what LTV does automatic PMI termination occur on a conforming conventional loan?",
+          "answer": "78% LTV, based on the original loan amount, purchase price, and amortization schedule — not the current property value.",
+          "type": "recall"
+        },
+        {
+          "question": "What does 'current' mean under the HPA's automatic termination provision?",
+          "answer": "Current means the most recent payment due has been made within the last 30 days.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "hpa-final-termination",
+      "term": "HPA Final Termination (Amortization Midpoint)",
+      "definition": "The HPA requires servicers to terminate PMI on conforming conventional loans no later than the first day of the month after the loan reaches its amortization midpoint, regardless of the loan's payment status.",
+      "why_it_exists": "Final termination acts as an absolute backstop ensuring that even delinquent borrowers on conforming loans cannot be required to pay PMI indefinitely.",
+      "examples": [
+        {
+          "scenario": "A 30-year conforming loan is chronically delinquent and never reaches 78% LTV through scheduled payments.",
+          "outcome": "On the first day of the month after the loan's 15-year midpoint (month 180 of a 360-month loan), the servicer must terminate PMI regardless of the delinquency."
+        }
+      ],
+      "cross_refs": [
+        "hpa-automatic-termination",
+        "hpa-high-risk"
+      ],
+      "check_questions": [
+        {
+          "question": "Does final termination at the amortization midpoint apply to high-risk (non-conforming) loans?",
+          "answer": "No — final termination does not apply to high-risk mortgage loans. It applies only to conforming conventional loans.",
+          "type": "distinction"
+        },
+        {
+          "question": "When exactly must the servicer terminate PMI at the amortization midpoint?",
+          "answer": "No later than the first day of the month immediately following the loan reaching its amortization midpoint, regardless of payment status.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "hpa-high-risk",
+      "term": "High-Risk Mortgage PMI Rules",
+      "definition": "Non-conforming conventional loans with PMI have automatic termination triggered at 77% LTV (instead of 78%), and final termination at the amortization midpoint does not apply.",
+      "why_it_exists": "Non-conforming loans carry greater default risk than conforming loans, so HPA provides reduced protections — the lower 77% LTV threshold and no midpoint final termination reflect that elevated risk.",
+      "examples": [
+        {
+          "scenario": "A high-risk non-conforming loan's scheduled balance reaches 77% LTV but the borrower is 45 days delinquent.",
+          "outcome": "PMI stays on the loan. For high-risk loans, PMI remains until the loan becomes current at 77% LTV or the loan pays in full — there is no midpoint final termination."
+        }
+      ],
+      "cross_refs": [
+        "hpa-automatic-termination",
+        "hpa-final-termination"
+      ],
+      "check_questions": [
+        {
+          "question": "What LTV triggers automatic PMI termination on a high-risk non-conforming loan?",
+          "answer": "77% LTV, compared to 78% for conforming loans — and the loan must also be current.",
+          "type": "distinction"
+        },
+        {
+          "question": "What happens to PMI on a high-risk loan that reaches 77% LTV while delinquent?",
+          "answer": "PMI remains on the loan until the borrower brings the loan current or the loan pays off in full — final termination at the amortization midpoint does not apply to high-risk loans.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "cfpb-dodd-frank",
+      "term": "Consumer Financial Protection Bureau (CFPB)",
+      "definition": "An independent bureau of the Federal Reserve System created by the Dodd-Frank Act (signed July 21, 2010) to regulate consumer financial products and services and enforce federal consumer financial laws.",
+      "why_it_exists": "The 2007-2008 financial crisis exposed regulatory failures — the CFPB was created to consolidate fragmented oversight and protect consumers from unfair, deceptive, or abusive financial practices.",
+      "examples": [
+        {
+          "scenario": "A mortgage servicer engages in systematic deceptive billing practices.",
+          "outcome": "The CFPB can investigate, impose civil money penalties, require restitution, and take enforcement action — it has imposed over $4.8 billion in civil money penalties since inception."
+        }
+      ],
+      "cross_refs": [
+        "homeowners-protection-act-overview"
+      ],
+      "check_questions": [
+        {
+          "question": "Who appoints the CFPB Director and for what term?",
+          "answer": "The President appoints the CFPB Director with Senate consent for a 5-year term; the President may remove the Director only for cause (inefficiency, neglect of duty, or malfeasance).",
+          "type": "recall"
+        },
+        {
+          "question": "What are the CFPB's six core functions?",
+          "answer": "Rooting out unfair/deceptive/abusive acts; enforcing anti-discrimination laws; taking consumer complaints; enhancing financial education; researching consumer experience with financial products; and monitoring financial markets for new consumer risks.",
+          "type": "recall"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "80%",
+      "what_it_means": "LTV threshold below which PMI is not required; also the LTV at which a borrower may request cancellation under HPA.",
+      "memorize_as": "80% = no PMI required; also the borrower's cancellation request trigger"
+    },
+    {
+      "value": "78%",
+      "what_it_means": "LTV at which servicers must automatically terminate PMI on conforming conventional loans based on the original amortization schedule.",
+      "memorize_as": "78% = automatic termination for conforming loans"
+    },
+    {
+      "value": "77%",
+      "what_it_means": "LTV at which automatic PMI termination is triggered for high-risk (non-conforming) conventional loans.",
+      "memorize_as": "77% = automatic termination for high-risk loans (one below conforming)"
+    },
+    {
+      "value": "July 29, 1999",
+      "what_it_means": "The earliest origination date for loans covered by the HPA (one year after the HPA's 1998 enactment).",
+      "memorize_as": "HPA coverage starts July 29, 1999"
+    },
+    {
+      "value": "30 days",
+      "what_it_means": "Maximum time after PMI cancellation or termination that a servicer may collect PMI premiums; also the definition of 'current' for automatic termination purposes.",
+      "memorize_as": "30 days = no more PMI premiums after termination; also = definition of current"
+    },
+    {
+      "value": "45 days",
+      "what_it_means": "Maximum time within which the servicer must refund any unearned PMI premiums after cancellation.",
+      "memorize_as": "45 days = servicer must refund unearned PMI premiums"
+    },
+    {
+      "value": "$2,000",
+      "what_it_means": "Maximum statutory damages per individual in an HPA violation lawsuit.",
+      "memorize_as": "$2,000 cap on individual statutory damages for HPA violations"
+    },
+    {
+      "value": "$500,000 or 1%",
+      "what_it_means": "The lesser of $500,000 or 1% of the liable party's net worth caps total class action recovery for HPA violations.",
+      "memorize_as": "$500,000 or 1% net worth = class action HPA damages cap"
+    },
+    {
+      "value": "60 days / 24 months",
+      "what_it_means": "Under good payment history, the borrower must have no payment 60+ days late within the 24 months before the cancellation date.",
+      "memorize_as": "No 60-day late in last 24 months = good payment history (long window)"
+    },
+    {
+      "value": "30 days / 12 months",
+      "what_it_means": "Under good payment history, the borrower must have no payment 30+ days late within the 12 months before the cancellation date.",
+      "memorize_as": "No 30-day late in last 12 months = good payment history (short window)"
+    },
+    {
+      "value": "5 years",
+      "what_it_means": "The CFPB Director's term of appointment.",
+      "memorize_as": "CFPB Director serves 5-year term"
+    },
+    {
+      "value": "July 21, 2010",
+      "what_it_means": "Date President Obama signed the Dodd-Frank Act into law.",
+      "memorize_as": "Dodd-Frank signed July 21, 2010"
+    },
+    {
+      "value": "$4.8 billion",
+      "what_it_means": "Total civil money penalties imposed by the CFPB since its inception (as of May 2024).",
+      "memorize_as": "$4.8B in CFPB penalties since inception"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "PMI vs. MIP (Mortgage Insurance Premium)",
+      "the_distinction": "PMI applies to conventional loans; MIP applies to FHA loans. The HPA governs PMI cancellation on conventional loans only — it does not apply to FHA MIP."
+    },
+    {
+      "often_confused_with": "Borrower cancellation at 80% LTV vs. automatic termination at 78% LTV",
+      "the_distinction": "Borrower cancellation is the borrower's right to request removal at 80% LTV (requires application, appraisal, and good payment history). Automatic termination at 78% LTV is the servicer's obligation to remove PMI without any borrower request, based solely on the original amortization schedule."
+    },
+    {
+      "often_confused_with": "Automatic termination for conforming (78%) vs. high-risk loans (77%)",
+      "the_distinction": "Conforming loans trigger automatic PMI termination at 78% LTV; high-risk (non-conforming) loans trigger at the lower 77% LTV. Final termination at the amortization midpoint applies to conforming loans only — not high-risk loans."
+    },
+    {
+      "often_confused_with": "Original value vs. current appraised value for LTV calculations",
+      "the_distinction": "Automatic termination uses the original purchase price/original appraised value to track the 78% (or 77%) threshold. Borrower-initiated cancellation based on appreciation uses the current appraised value — but the borrower must pay for the appraisal through the servicer."
+    },
+    {
+      "often_confused_with": "30-day PMI premium cutoff vs. 45-day refund deadline",
+      "the_distinction": "The servicer may not collect PMI premiums more than 30 days after termination; it must refund any unearned premiums within 45 days of cancellation."
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "chapter_id": "front-matter",
+  "section_id": "rules-of-conduct",
+  "section_title": "Rules of Conduct",
+  "chapter_title": "Front Matter",
+  "page_range": {
+    "start": 1,
+    "end": 15
+  },
+  "summary": "Before you can sit for the SAFE exam, you have to complete NMLS-approved education. The Rules of Conduct are the behavioral standards that govern how you complete it — what counts as a violation, what happens if you get caught, and why none of this can be waived.",
+  "concepts": [
+    {
+      "id": "roc-purpose",
+      "term": "Rules of Conduct",
+      "definition": "NMLS-established standards that every MLO student must follow when completing SAFE Act-required pre-licensing (PE) and continuing education (CE). You are personally responsible for your own conduct. No exceptions, no waivers — not even from the course provider.",
+      "why_it_exists": "Pre-licensing education is a legal condition of licensure. Without enforceable rules, nothing stops a candidate from having someone else do the coursework, or from clicking through without actually engaging.",
+      "examples": [
+        {
+          "scenario": "A student asks a colleague to log in and complete quizzes on their behalf.",
+          "outcome": "ROC violation. The student risks credit retraction, license denial, and referral to state regulators."
+        },
+        {
+          "scenario": "A student uses an AI chatbot to answer course case study questions.",
+          "outcome": "Explicitly banned under the ROC. Using AI or any large language model to complete NMLS-approved coursework is prohibited."
+        }
+      ],
+      "cross_refs": [
+        "safe-act-education-requirement",
+        "roc-violations-penalties"
+      ],
+      "check_questions": [
+        {
+          "question": "Who enforces the Rules of Conduct?",
+          "answer": "NMLS, through the NMLS Mortgage Testing & Education Board (MTEB) and the NMLS Policy Committee — both composed of state regulators.",
+          "type": "recall"
+        },
+        {
+          "question": "Can a course provider grant an exception to the ROC for a student with a documented emergency?",
+          "answer": "No. Course providers are explicitly not authorized to grant exceptions to the ROC.",
+          "type": "application"
+        },
+        {
+          "question": "Who is responsible for a student's conduct under the ROC?",
+          "answer": "The student alone. Responsibility cannot be transferred to the course provider or anyone else.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "safe-act-education-requirement",
+      "term": "Pre-licensing and continuing education requirements",
+      "definition": "State-licensed MLOs must complete 20 hours of NMLS-approved pre-licensing education (PE) before their first license, and 8 hours of continuing education (CE) every year to renew by December 31. The course must be NMLS-approved — other mortgage education does not count.",
+      "why_it_exists": "Congress passed the SAFE Act in 2008 specifically because unqualified originators caused widespread borrower harm. Minimum education is the floor, not the ceiling.",
+      "examples": [
+        {
+          "scenario": "A new MLO candidate wants to apply for a state license.",
+          "outcome": "They must personally complete NMLS-approved PE before applying. The hours must be completed by the student — no proxy, no shortcuts."
+        }
+      ],
+      "cross_refs": [
+        "roc-purpose",
+        "roc-violations-penalties"
+      ],
+      "check_questions": [
+        {
+          "question": "What federal law requires NMLS-approved education as a condition of state MLO licensure?",
+          "answer": "The SAFE Act (Secure and Fair Enforcement for Mortgage Licensing Act) of 2008.",
+          "type": "recall"
+        },
+        {
+          "question": "Does completing any mortgage education course satisfy the SAFE Act requirement?",
+          "answer": "No. The course must be NMLS-approved. Non-approved courses do not satisfy the requirement.",
+          "type": "distinction"
+        },
+        {
+          "question": "When did NMLS begin establishing course design and delivery standards?",
+          "answer": "2009.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "identity-verification-requirements",
+      "term": "Identity verification",
+      "definition": "Every course format requires you to verify your identity before or at entry — using a government-issued ID whose name matches your course registration exactly. Online formats add biometrics (BioSig for self-study) or knowledge-based authentication (webinars). Proxy completion is a violation regardless of how the course is delivered.",
+      "why_it_exists": "Having someone else take the course on your behalf defeats the entire purpose of the education requirement. Identity checks are the primary control.",
+      "examples": [
+        {
+          "scenario": "A student enrolls in an online self-study course.",
+          "outcome": "They must authenticate via BioSig (biometric system) at course entry and at multiple points throughout."
+        },
+        {
+          "scenario": "A student attends a live classroom session.",
+          "outcome": "They must sign in with their signature and present a government-issued ID before the course starts. The name on the ID must match the course registration."
+        }
+      ],
+      "cross_refs": [
+        "roc-course-format-requirements",
+        "roc-purpose"
+      ],
+      "check_questions": [
+        {
+          "question": "What two forms of verification are required when entering a webinar?",
+          "answer": "Government-issued ID and knowledge-based authentication.",
+          "type": "recall"
+        },
+        {
+          "question": "What biometric system is used for online self-study identity authentication?",
+          "answer": "BioSig.",
+          "type": "recall"
+        },
+        {
+          "question": "A student's driver's license shows a nickname; the course registration uses their legal name. Is this acceptable?",
+          "answer": "No. The name on the government-issued ID must match the name on the course registration exactly.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "roc-course-format-requirements",
+      "term": "Format-specific requirements",
+      "definition": "The ROC tailors its requirements to each delivery format because each one creates different opportunities to cheat seat-time. Classroom and webinar sessions require continuous presence; online formats prohibit login sharing; all formats require full engagement with quizzes and case studies.",
+      "why_it_exists": "A blanket rule can't cover every format. A webinar proctor can't watch the room — camera presence fills that role. Self-study has no proctor at all, so BioSig checks in repeatedly.",
+      "examples": [
+        {
+          "scenario": "A webinar student steps away from their camera for 12 minutes.",
+          "outcome": "Removed from the class and denied credit. The threshold is more than 10 minutes of camera absence."
+        },
+        {
+          "scenario": "An online instructor-led student shares their login with a friend to complete quizzes.",
+          "outcome": "ROC violation. Sharing login credentials is explicitly prohibited for all online formats."
+        }
+      ],
+      "cross_refs": [
+        "identity-verification-requirements",
+        "camera-absence-rule",
+        "roc-purpose"
+      ],
+      "check_questions": [
+        {
+          "question": "Which course formats prohibit sharing login credentials?",
+          "answer": "Both online instructor-led and online self-study formats.",
+          "type": "recall"
+        },
+        {
+          "question": "What are webinar students required to maintain throughout the course?",
+          "answer": "Camera presence showing shoulders up, so the proctor can verify attendance at all times.",
+          "type": "recall"
+        },
+        {
+          "question": "A student completes all quizzes in an online self-study course but skips the case studies. Have they met ROC requirements?",
+          "answer": "No. ROC requires engagement with all course content, including both quizzes and case studies.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "camera-absence-rule",
+      "term": "10-minute camera absence rule",
+      "definition": "In a webinar course, a student who is off camera for more than 10 consecutive minutes will be removed and denied credit — regardless of the reason. Internet outages, emergencies, and unscheduled breaks are not exceptions.",
+      "why_it_exists": "Webinars have no physical room for a proctor to monitor. Camera presence is the substitute control. The rule has to be absolute to work — any exception creates a loophole.",
+      "examples": [
+        {
+          "scenario": "A student's internet connection drops for 11 minutes during a webinar.",
+          "outcome": "They exceed the threshold and can be removed and denied credit, regardless of the cause."
+        }
+      ],
+      "cross_refs": [
+        "roc-course-format-requirements",
+        "roc-violations-penalties"
+      ],
+      "check_questions": [
+        {
+          "question": "How long may a webinar student be off camera before being removed?",
+          "answer": "No more than 10 minutes. More than 10 minutes of camera absence triggers removal.",
+          "type": "recall"
+        },
+        {
+          "question": "Does the 10-minute camera absence rule apply to online self-study courses?",
+          "answer": "No. It applies only to webinar (classroom equivalent) courses. Self-study uses BioSig biometric authentication instead.",
+          "type": "distinction"
+        },
+        {
+          "question": "A webinar student leaves for a 9-minute break without notifying the instructor. Is this a ROC violation?",
+          "answer": "It is below the removal threshold, but students are required to return from breaks on time — unscheduled absences can still be flagged.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "ai-prohibition",
+      "term": "Prohibition on AI and outside assistance",
+      "definition": "You may not use AI tools, large language model chatbots, or any other outside assistance to complete any part of an NMLS-approved course — including quizzes, case studies, and assessments. The prohibition applies regardless of whether you also complete the required seat time.",
+      "why_it_exists": "AI tools can answer questions and complete course work on a student's behalf, making it impossible to verify that the student actually engaged with the material they're being licensed to know.",
+      "examples": [
+        {
+          "scenario": "A student uses an AI chatbot to answer module quiz questions during an online self-study course.",
+          "outcome": "Direct ROC violation. Subject to investigation, credit retraction, and possible license denial."
+        }
+      ],
+      "cross_refs": [
+        "roc-purpose",
+        "roc-violations-penalties"
+      ],
+      "check_questions": [
+        {
+          "question": "Are AI tools permitted if the student still completes the required seat time?",
+          "answer": "No. AI tools are prohibited regardless of seat time completion.",
+          "type": "application"
+        },
+        {
+          "question": "Does the AI prohibition cover only chatbots?",
+          "answer": "No. It covers AI, large language model chatbots, and any other assistance used to complete NMLS-approved coursework.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "roc-violations-penalties",
+      "term": "Violations and penalties",
+      "definition": "Alleged violations are reported to NMLS, which investigates and may report findings to the states where you seek or hold a license. Possible outcomes: license denial, suspension, or revocation; credit disqualification or retraction; fines; mandatory additional education. If you witness another student cheating, you are required to report it to NMLS's Mortgage Testing & Education Board (MTEB).",
+      "why_it_exists": "The ROC is only as good as its enforcement. Consequences must be real enough to deter misconduct — and serious enough that students who do report violations are protected rather than penalized for coming forward.",
+      "examples": [
+        {
+          "scenario": "A course provider discovers a student shared their login credentials with another person.",
+          "outcome": "The provider may report to NMLS. NMLS investigates and can report to the student's state(s), which may deny or revoke the license, retract credit, and impose fines."
+        }
+      ],
+      "cross_refs": [
+        "roc-purpose",
+        "roc-course-format-requirements"
+      ],
+      "check_questions": [
+        {
+          "question": "List four possible disciplinary outcomes for ROC violations.",
+          "answer": "Any four of: license revocation/suspension/denial; disqualification from receiving class credit; retraction of credit already awarded; fines; additional education requirement.",
+          "type": "recall"
+        },
+        {
+          "question": "Who investigates alleged ROC violations?",
+          "answer": "NMLS investigates and may report findings to the state(s) where the student seeks or maintains a license. The State Regulatory Registry (SRR) may also act.",
+          "type": "recall"
+        },
+        {
+          "question": "A student witnesses another student cheating during an NMLS-approved course. What should they do?",
+          "answer": "Report the violation to NMLS's Mortgage Testing & Education Board (MTEB).",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "good-character-conduct",
+      "term": "Good character standard",
+      "definition": "You must not engage in conduct — inside or outside the course — that is dishonest, fraudulent, or otherwise disreputable, or that would cause the public to doubt you would operate lawfully, honestly, or fairly as an MLO. This includes your course registration information: you attest it is accurate when you enroll.",
+      "why_it_exists": "A mortgage license is a privilege tied to consumer trust. The character standard lets regulators screen out bad actors before they reach borrowers — not after.",
+      "examples": [
+        {
+          "scenario": "A student falsifies their course registration information.",
+          "outcome": "Violates the attestation requirement and the good character standard. Subject to all ROC penalties plus potential license denial.",
+          "type": "application"
+        }
+      ],
+      "cross_refs": [
+        "roc-purpose",
+        "roc-violations-penalties"
+      ],
+      "check_questions": [
+        {
+          "question": "Under the ROC, what conduct standard must students meet beyond completing coursework?",
+          "answer": "Students must not engage in conduct that is dishonest, fraudulent, or contrary to good character, or that would cause the public to believe they would not operate lawfully, honestly, or fairly.",
+          "type": "recall"
+        },
+        {
+          "question": "Does the good character standard apply only inside the classroom?",
+          "answer": "No. It extends to all conduct that would adversely impact the integrity of the course or the conditions for licensure.",
+          "type": "distinction"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "10 min",
+      "what_it_means": "Maximum time a webinar student may be off camera. More than 10 minutes = removed, no credit.",
+      "memorize_as": ">10 min off camera = removed from webinar"
+    },
+    {
+      "value": "20 hours",
+      "what_it_means": "SAFE Act-required pre-licensing education for state-licensed MLOs.",
+      "memorize_as": "20-hour PE requirement"
+    },
+    {
+      "value": "8 hours",
+      "what_it_means": "Annual continuing education required to renew an MLO license by December 31.",
+      "memorize_as": "8-hour CE annual renewal"
+    },
+    {
+      "value": "2008",
+      "what_it_means": "Year the SAFE Act was enacted, establishing the education and licensing framework.",
+      "memorize_as": "SAFE Act = 2008"
+    },
+    {
+      "value": "2009",
+      "what_it_means": "Year NMLS began establishing course design, approval, and delivery standards.",
+      "memorize_as": "NMLS course standards started 2009"
+    },
+    {
+      "value": "Mar 20, 2024",
+      "what_it_means": "Most recent update date for the NMLS Rules of Conduct (V4).",
+      "memorize_as": "ROC V4 updated 03/20/2024"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "Course provider rules vs. NMLS ROC",
+      "the_distinction": "The ROC is set by NMLS and cannot be waived by course providers. Providers may add their own rules on top of the ROC — but they cannot override or substitute for it."
+    },
+    {
+      "often_confused_with": "Online self-study authentication vs. webinar authentication",
+      "the_distinction": "Self-study uses BioSig biometric authentication at multiple points. Webinars use government ID plus knowledge-based authentication at entry, plus continuous camera monitoring — no biometrics."
+    },
+    {
+      "often_confused_with": "Credit disqualification vs. credit retraction",
+      "the_distinction": "Disqualification means you never receive credit for the course. Retraction means credit already awarded is taken back after a subsequent investigation finds a violation."
+    },
+    {
+      "often_confused_with": "Who reports to whom",
+      "the_distinction": "The course provider (or others) reports alleged violations to NMLS. NMLS investigates and then may report to the states — it is the states (and SRR) that impose disciplinary action."
+    }
+  ]
+}

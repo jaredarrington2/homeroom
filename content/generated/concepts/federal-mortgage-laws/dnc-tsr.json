@@ -1,0 +1,286 @@
+{
+  "chapter_id": "federal-mortgage-laws",
+  "section_id": "dnc-tsr",
+  "section_title": "DNC/TSR – Do Not Call and Telemarketing Sales Rule",
+  "chapter_title": "Federal Mortgage-Related Laws",
+  "page_range": {
+    "start": 241,
+    "end": 252
+  },
+  "summary": "The Dodd-Frank Act's Mortgage Reform and Anti-Predatory Lending Act prohibits steering, mandates ability-to-repay analysis, and protects appraisal independence. The SAFE Act, enacted July 30, 2008 as Title V of HERA, created a uniform system for licensing and tracking MLOs after the 2008 mortgage crisis exposed rampant irresponsible lending.",
+  "concepts": [
+    {
+      "id": "prohibition-on-steering",
+      "term": "Prohibition on steering",
+      "definition": "Steering is when an influential party such as an MLO guides a consumer toward a mortgage product or service provider, and is prohibited when done for the originator's benefit rather than the consumer's.",
+      "why_it_exists": "Without this rule, MLOs had financial incentive to push higher-commission products regardless of whether those products fit the borrower.",
+      "examples": [
+        {
+          "scenario": "An MLO recommends a higher-rate loan because it pays a larger commission, even though the borrower qualifies for a lower-rate Qualified Mortgage.",
+          "outcome": "This constitutes prohibited steering under the Dodd-Frank Act."
+        }
+      ],
+      "cross_refs": [
+        "mlo-compensation-restrictions",
+        "ability-to-repay",
+        "qualified-mortgage-presumption"
+      ],
+      "check_questions": [
+        {
+          "question": "Under Dodd-Frank, when does steering become prohibited?",
+          "answer": "When it directs a consumer toward a product that benefits the originator rather than the consumer, or toward a loan the consumer cannot repay.",
+          "type": "recall"
+        },
+        {
+          "question": "An MLO steers a borrower away from a Qualified Mortgage the borrower qualifies for toward a non-QM product that pays the MLO more. Is this permissible?",
+          "answer": "No. Steering a qualified consumer away from a Qualified Mortgage to a non-QM is explicitly prohibited.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "mlo-compensation-restrictions",
+      "term": "MLO compensation restrictions",
+      "definition": "Dodd-Frank bars any MLO from receiving compensation that varies based on loan terms other than the principal amount, and prohibits dual compensation from both the lender and the consumer on the same transaction.",
+      "why_it_exists": "Variable compensation based on loan terms created incentives for MLOs to push more expensive or riskier products onto borrowers.",
+      "examples": [
+        {
+          "scenario": "A lender wants to pay an MLO a higher fee when the MLO closes loans at higher interest rates.",
+          "outcome": "This is prohibited because it ties compensation to a loan term other than principal amount."
+        }
+      ],
+      "cross_refs": [
+        "prohibition-on-steering",
+        "ability-to-repay"
+      ],
+      "check_questions": [
+        {
+          "question": "On what single loan characteristic may MLO compensation lawfully vary?",
+          "answer": "Only the amount of the loan's principal.",
+          "type": "recall"
+        },
+        {
+          "question": "Can an MLO receive compensation from both the consumer and the lender on the same transaction?",
+          "answer": "No. If the consumer directly compensates the MLO, no other party may also pay the MLO an origination fee on that transaction.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "ability-to-repay",
+      "term": "Ability-to-repay requirement",
+      "definition": "Before making a purchase-money or refinance residential mortgage loan (with limited exceptions such as FHA streamlines), a creditor must make a reasonable, good-faith determination—based on verified documentation—that the consumer can repay the loan.",
+      "why_it_exists": "Pre-crisis no-doc and low-doc loans allowed borrowers to take on debt they could never afford, fueling mass foreclosures.",
+      "examples": [
+        {
+          "scenario": "A creditor evaluates a borrower's credit history, current income supported by W-2s, DTI ratio, employment status, and financial resources before closing a 30-year fixed loan.",
+          "outcome": "This satisfies the ability-to-repay requirement."
+        }
+      ],
+      "cross_refs": [
+        "qualified-mortgage-presumption",
+        "variable-rate-atr",
+        "prohibition-on-steering"
+      ],
+      "check_questions": [
+        {
+          "question": "List three of the factors a creditor must consider when determining ability to repay.",
+          "answer": "Any three of: credit history, current income, expected income (with documentation), current obligations, DTI or residual income, employment status, financial resources other than home equity.",
+          "type": "recall"
+        },
+        {
+          "question": "Does the ability-to-repay rule apply to FHA streamline refinances?",
+          "answer": "No. FHA streamline refinances are a recognized exception to the standard ability-to-repay determination requirement.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "variable-rate-atr",
+      "term": "Ability-to-repay for ARMs, interest-only, and negative-amortization loans",
+      "definition": "For variable-rate loans, creditors must use a fully amortizing schedule; for interest-only loans, they must use the payment needed to fully amortize by final maturity; and for negative-amortization loans, they must account for any potential balance increase.",
+      "why_it_exists": "Using artificially low teaser payments to qualify borrowers masked the true long-term payment burden and led to widespread defaults when rates reset.",
+      "examples": [
+        {
+          "scenario": "A creditor qualifies a borrower for a 5/1 ARM using only the low introductory rate payment.",
+          "outcome": "This violates the ability-to-repay rule; the creditor must use a fully amortizing repayment schedule."
+        }
+      ],
+      "cross_refs": [
+        "ability-to-repay",
+        "arm-reset-notice"
+      ],
+      "check_questions": [
+        {
+          "question": "For an interest-only loan, which payment amount must the creditor use when assessing ability to repay?",
+          "answer": "The fully amortizing payment amount required to pay off the loan by its final maturity date.",
+          "type": "recall"
+        },
+        {
+          "question": "Why must a creditor factor in potential balance increases for a negative-amortization loan during the ATR analysis?",
+          "answer": "Because the balance can grow over time, which increases the repayment burden; ignoring that growth would understate the consumer's actual future obligation.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "qualified-mortgage-presumption",
+      "term": "Qualified Mortgage (QM) ATR presumption",
+      "definition": "A loan classified as a Qualified Mortgage is automatically presumed to have satisfied the ability-to-repay requirement.",
+      "why_it_exists": "Providing a safe harbor encourages lenders to make loans meeting defined quality standards, reducing legal risk for responsible lending.",
+      "examples": [
+        {
+          "scenario": "A lender originates a loan that meets all Qualified Mortgage criteria.",
+          "outcome": "The lender is presumed to have complied with the ability-to-repay rule without further documentation of that determination."
+        }
+      ],
+      "cross_refs": [
+        "ability-to-repay",
+        "prohibition-on-steering"
+      ],
+      "check_questions": [
+        {
+          "question": "What legal benefit does a lender gain by originating a Qualified Mortgage?",
+          "answer": "A presumption that the ability-to-repay requirement has been satisfied.",
+          "type": "recall"
+        },
+        {
+          "question": "Is steering a borrower who qualifies for a QM toward a non-QM permissible if the non-QM also meets ATR standards?",
+          "answer": "No. Steering a consumer away from a QM for which they qualify to a non-QM product is specifically prohibited under Dodd-Frank.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "arm-reset-notice",
+      "term": "Hybrid ARM reset notice requirement",
+      "definition": "For a hybrid ARM, the creditor or servicer must provide the consumer a written notice during the one-month window ending six months before the introductory rate expires.",
+      "why_it_exists": "Many ARM borrowers were blindsided by payment increases at reset because they were not given adequate advance notice or explanation of their options.",
+      "examples": [
+        {
+          "scenario": "A borrower has a 5/1 hybrid ARM whose rate adjusts in November. The lender must send the required written notice no later than the end of May (six months prior), starting no earlier than the end of April (one month before that deadline).",
+          "outcome": "The consumer receives timely notice of the new rate, estimated payment, and available alternatives such as refinancing or forbearance."
+        }
+      ],
+      "cross_refs": [
+        "variable-rate-atr",
+        "ability-to-repay"
+      ],
+      "check_questions": [
+        {
+          "question": "How far in advance of a hybrid ARM rate adjustment must the reset notice be delivered to the consumer?",
+          "answer": "The notice must be delivered during the one-month period that ends six months before the adjustment date.",
+          "type": "recall"
+        },
+        {
+          "question": "Name two pieces of information the ARM reset notice must include.",
+          "answer": "Any two of: the index or formula used to set the new rate, how the new rate and payment are calculated, a good-faith estimate of the new monthly payment, a list of alternatives (e.g., refinance, forbearance, renegotiation, pre-foreclosure sale), HUD-certified counseling agency contact information, or the state housing finance authority contact information.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "appraisal-independence",
+      "term": "Appraisal independence requirements",
+      "definition": "Dodd-Frank prohibits anyone involved in a mortgage transaction from coercing, bribing, or otherwise influencing an appraiser to reach a predetermined value, and bars appraisers from having a financial interest in the property they are appraising.",
+      "why_it_exists": "Before HVCC and Dodd-Frank, MLOs routinely pressured appraisers to hit target values, creating inflated appraisals that masked true market risk.",
+      "examples": [
+        {
+          "scenario": "An MLO tells an appraiser the loan needs a value of $400,000 or it won't close, implying future work depends on hitting that number.",
+          "outcome": "This constitutes prohibited coercion of an appraiser and violates appraisal independence requirements."
+        }
+      ],
+      "cross_refs": [
+        "mandatory-reporting-appraisal"
+      ],
+      "check_questions": [
+        {
+          "question": "Is it permissible to ask an appraiser to consider additional comparable properties after receiving a low appraisal?",
+          "answer": "Yes. Asking an appraiser to consider additional appropriate comparables, provide more detail, or correct errors is explicitly permitted.",
+          "type": "distinction"
+        },
+        {
+          "question": "What conflict-of-interest rule applies to appraisers under Dodd-Frank?",
+          "answer": "A licensed or certified appraiser, and any appraisal management company, may not have a direct or indirect financial or other interest in the property or transaction being appraised.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "safe-act-origin",
+      "term": "SAFE Act",
+      "definition": "The Secure and Fair Enforcement for Mortgage Licensing Act, enacted July 30, 2008 as Title V of HERA, established a uniform national system for licensing, registering, and tracking mortgage loan originators.",
+      "why_it_exists": "Before the SAFE Act, MLOs faced minimal oversight, could escape accountability by simply moving to another state, and had no uniform licensing or tracking mechanism.",
+      "examples": [
+        {
+          "scenario": "An MLO in one state loses their license for fraud but relocates and attempts to originate loans in another state.",
+          "outcome": "Under the SAFE Act and the NMLS, the MLO's history is visible nationwide, preventing them from quietly resuming their career elsewhere."
+        }
+      ],
+      "cross_refs": [
+        "nmls-registry"
+      ],
+      "check_questions": [
+        {
+          "question": "On what date was the SAFE Act enacted, and under which larger law does it appear?",
+          "answer": "July 30, 2008, as Title V (Section 5) of the Housing and Economic Recovery Act (HERA).",
+          "type": "recall"
+        },
+        {
+          "question": "Under the legal doctrine referenced in the SAFE Act context, who bears responsibility if an MLO violates the law?",
+          "answer": "Under respondeat superior, both the MLO and the employer can be held accountable.",
+          "type": "recall"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "6 months",
+      "what_it_means": "The hybrid ARM reset notice must reach the consumer no later than 6 months before the interest rate adjustment date.",
+      "memorize_as": "6 months before reset = notice deadline"
+    },
+    {
+      "value": "1 month window",
+      "what_it_means": "The ARM reset notice must be sent during the single month that ends 6 months before the adjustment date (i.e., between 7 and 6 months before reset).",
+      "memorize_as": "1-month delivery window ending at the 6-month mark"
+    },
+    {
+      "value": "July 30, 2008",
+      "what_it_means": "Date the SAFE Act was enacted as part of HERA.",
+      "memorize_as": "SAFE Act enacted July 30, 2008"
+    },
+    {
+      "value": "October 4, 2006",
+      "what_it_means": "Date the OCC, Fed, FDIC, OTS, and NCUA jointly published the non-binding Guidance on Non-Traditional Mortgage Product Risks.",
+      "memorize_as": "Non-Traditional Mortgage Guidance published Oct 4, 2006"
+    },
+    {
+      "value": "December 23, 2008",
+      "what_it_means": "The date the Home Valuation Code of Conduct (HVCC) sunset; its policies were subsequently adopted by FNMA and FHLMC.",
+      "memorize_as": "HVCC sunset Dec 23, 2008 — policies live on through FNMA/FHLMC"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "Steering vs. recommending",
+      "the_distinction": "Steering is only prohibited when done to benefit the originator at the consumer's expense or when the product is unsuitable; recommending a product that genuinely serves the consumer's best interest is permissible and appropriate."
+    },
+    {
+      "often_confused_with": "Lender-paid vs. consumer-paid MLO compensation",
+      "the_distinction": "An MLO may receive compensation from either the lender or the consumer, but not both on the same transaction; if the consumer pays directly, no origination fee may also come from the lender."
+    },
+    {
+      "often_confused_with": "Prohibited appraisal influence vs. permitted appraiser communication",
+      "the_distinction": "Coercing or pressuring an appraiser to hit a target value is prohibited; asking an appraiser to review additional comparables, explain their conclusion, or correct factual errors is explicitly allowed."
+    },
+    {
+      "often_confused_with": "FHA streamline refinance and the ATR rule",
+      "the_distinction": "Standard refinances require a full ability-to-repay analysis just like purchase loans; FHA streamline refinances are a specific exception to that requirement."
+    },
+    {
+      "often_confused_with": "HVCC and current appraisal independence rules",
+      "the_distinction": "HVCC formally sunset December 23, 2008, but its appraisal independence principles remain in force today because FNMA and FHLMC adopted them as ongoing policy."
+    }
+  ]
+}

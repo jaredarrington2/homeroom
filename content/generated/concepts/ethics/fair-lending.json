@@ -1,0 +1,282 @@
+{
+  "chapter_id": "ethics",
+  "section_id": "fair-lending",
+  "section_title": "Fair Lending",
+  "chapter_title": "Ethics",
+  "page_range": {
+    "start": 553,
+    "end": 562
+  },
+  "summary": "This section covers ethical obligations and legal requirements in mortgage lending, including fair lending, advertising rules under TILA, fraud detection, and appropriate borrower education. MLOs must avoid coercion, appraiser conflicts, discriminatory practices, and deceptive advertising while actively identifying red flags for asset fraud.",
+  "concepts": [
+    {
+      "id": "coercion-in-lending",
+      "term": "Coercion in mortgage lending",
+      "definition": "Coercion occurs when an MLO uses undue pressure to steer a borrower toward a particular loan product or service provider, especially when doing so benefits the MLO rather than the borrower.",
+      "why_it_exists": "Borrowers rely on MLOs as experts, creating a power imbalance that can be exploited if the MLO prioritizes personal gain over the borrower's best interests.",
+      "examples": [
+        {
+          "scenario": "An MLO desperate to close loans pushes a highly profitable mortgage product on a borrower even though it is not in the borrower's best interest, and rushes the closing to prevent reconsideration.",
+          "outcome": "This constitutes coercion, an ethical violation that can result in serious consequences for the MLO."
+        }
+      ],
+      "cross_refs": [
+        "discrimination",
+        "appraiser-conflict"
+      ],
+      "check_questions": [
+        {
+          "question": "A Realtor only refers clients to loan originators who agree to pay for his marketing. Does this constitute coercion?",
+          "answer": "Yes, conditioning referrals on payment arrangements is a form of coercion and an ethical violation.",
+          "type": "application"
+        },
+        {
+          "question": "What is the MLO's proper role when advising a borrower on loan products?",
+          "answer": "The MLO should guide and counsel the borrower, but the ultimate decision belongs to the customer.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "appraiser-conflict",
+      "term": "Appraiser independence and conflict of interest",
+      "definition": "Appraisers must produce objective valuations free from pressure by lenders, real estate agents, or borrowers who have a financial interest in the appraised value.",
+      "why_it_exists": "Inflated or deflated appraisals distort loan-to-value ratios, enable fraud, and expose lenders and investors to losses on improperly collateralized loans.",
+      "examples": [
+        {
+          "scenario": "A Realtor convinces an appraiser friend to appraise a distressed property at $375,000 (below the $435,000 true value) to facilitate a short sale, then buys and quickly resells the home for a $60,000 profit split between them.",
+          "outcome": "This is appraisal fraud; mortgage servicers now require independently procured appraisals for short sales to prevent this scheme."
+        }
+      ],
+      "cross_refs": [
+        "coercion-in-lending",
+        "asset-fraud-detection"
+      ],
+      "check_questions": [
+        {
+          "question": "Why do mortgage servicers require their own independent appraisals for PMI removal requests?",
+          "answer": "To prevent borrowers from using affiliated appraisers to produce artificially inflated values that fraudulently reduce the apparent LTV.",
+          "type": "application"
+        },
+        {
+          "question": "A lender threatens to blacklist an appraiser if the appraisal comes in below $575,000. Is this permissible?",
+          "answer": "No, this is prohibited pressure on the appraiser's independence and constitutes an appraiser conflict violation.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "discrimination",
+      "term": "Lending discrimination and the Equal Credit Opportunity Act (ECOA)",
+      "definition": "The ECOA requires that credit decisions be based solely on creditworthiness, income, assets, and collateral quality — never on protected personal characteristics.",
+      "why_it_exists": "Without legal protection, lenders could deny credit or offer worse terms to minority groups, undermining equal access to homeownership.",
+      "examples": [
+        {
+          "scenario": "A lender charges minority borrowers higher interest rates and fees than non-minority borrowers with identical financial profiles.",
+          "outcome": "This is illegal discrimination under ECOA; severe penalties apply to both the company and individuals involved."
+        }
+      ],
+      "cross_refs": [
+        "coercion-in-lending",
+        "fair-lending-advertising"
+      ],
+      "check_questions": [
+        {
+          "question": "Under ECOA, what factors should solely determine whether a borrower qualifies for a mortgage?",
+          "answer": "Creditworthiness, income-to-debt ratio, assets, and the quality and value of the collateral property.",
+          "type": "recall"
+        },
+        {
+          "question": "Two borrowers have identical financial profiles but one is charged a higher rate due to ethnicity. What law is violated?",
+          "answer": "The Equal Credit Opportunity Act (ECOA), which prohibits any credit decision based on protected personal characteristics.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "fair-lending-advertising",
+      "term": "Truth-in-Lending Act (TILA) advertising requirements",
+      "definition": "TILA and the Mortgage Acts and Practices Rule require mortgage advertisements to be accurate, complete, and non-deceptive, with full disclosure of all material terms when trigger terms are used.",
+      "why_it_exists": "Consumers cannot evaluate credit offers they do not fully understand, so misleading ads cause financial harm and undermine informed decision-making.",
+      "examples": [
+        {
+          "scenario": "An ad promotes a 1.5% rate with no down payment and $750/month payments. When consumers call, they are told that product is unavailable and are steered to a different product.",
+          "outcome": "This is bait-and-switch advertising, a direct violation of TILA."
+        }
+      ],
+      "cross_refs": [
+        "trigger-terms",
+        "unfair-deceptive-abusive-advertising"
+      ],
+      "check_questions": [
+        {
+          "question": "An ad quotes a specific monthly payment amount. What else must the ad disclose?",
+          "answer": "Whether the payment is P&I only or PITI, and any other terms triggered by stating a payment amount.",
+          "type": "recall"
+        },
+        {
+          "question": "An ad calls an adjustable rate 'fixed.' What type of violation is this?",
+          "answer": "A deceptive advertising violation under TILA.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "trigger-terms",
+      "term": "Advertising trigger terms",
+      "definition": "Trigger terms are specific credit terms in an advertisement that, when stated, require the ad to also clearly and conspicuously disclose all other material credit terms with equal prominence.",
+      "why_it_exists": "Selective disclosure of attractive terms without full context misleads consumers into believing credit is simpler or cheaper than it is.",
+      "examples": [
+        {
+          "scenario": "An ad states a specific down payment percentage of 3%.",
+          "outcome": "The ad must also disclose the repayment period, payment amount, and any finance charge to comply with Regulation Z."
+        }
+      ],
+      "cross_refs": [
+        "fair-lending-advertising",
+        "unfair-deceptive-abusive-advertising"
+      ],
+      "check_questions": [
+        {
+          "question": "Name two examples of trigger terms in mortgage advertising.",
+          "answer": "Any two of: amount or percentage of any down payment, number of payments or repayment period, amount of any payment, amount of any finance charge.",
+          "type": "recall"
+        },
+        {
+          "question": "An ad quotes an interest rate. What additional disclosure is always required?",
+          "answer": "The APR must also be disclosed, and the ad must state whether the rate is fixed or adjustable.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "unfair-deceptive-abusive-advertising",
+      "term": "Unfair, deceptive, and abusive advertising",
+      "definition": "Advertising that instills fear, uses intimidation, or misrepresents product terms to pressure consumers into acting is prohibited as unfair, deceptive, or abusive conduct.",
+      "why_it_exists": "Vulnerable consumers can be manipulated into unsuitable financial products by emotional or misleading advertising, causing long-term financial harm.",
+      "examples": [
+        {
+          "scenario": "An ad warns that consumers will lose their home to foreclosure unless they call today, or promotes a 'no-payment first year' loan without disclosing that loan proceeds secretly fund those payments.",
+          "outcome": "Both ads are unfair, deceptive, and potentially abusive violations of advertising regulations."
+        }
+      ],
+      "cross_refs": [
+        "fair-lending-advertising",
+        "trigger-terms"
+      ],
+      "check_questions": [
+        {
+          "question": "Is it permissible to advertise a mortgage as having no payments in the first year if the loan proceeds are used to make those payments?",
+          "answer": "No, this is deceptive and abusive advertising because it conceals a material fact about how the loan actually works.",
+          "type": "application"
+        },
+        {
+          "question": "What federal law governs unfair and deceptive mortgage advertising?",
+          "answer": "The Truth-in-Lending Act (TILA), along with the Mortgage Acts and Practices Rule.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "marketing-services-agreements",
+      "term": "Marketing services agreements (MSAs)",
+      "definition": "An MSA is a lawful agreement where one party pays another to perform actual, necessary, and distinct marketing services, provided the compensation is reasonably related to the value of those services.",
+      "why_it_exists": "Without clear rules, MSAs can mask illegal referral fee arrangements that violate RESPA Section 8.",
+      "examples": [
+        {
+          "scenario": "An MLO agrees to promote a real estate agent's services and receives compensation in return.",
+          "outcome": "This is a lawful MSA only if the compensation reflects the fair market value of real marketing services actually performed; if it functions as a referral fee, it violates RESPA."
+        }
+      ],
+      "cross_refs": [
+        "coercion-in-lending",
+        "discrimination"
+      ],
+      "check_questions": [
+        {
+          "question": "What makes an MSA unlawful under RESPA?",
+          "answer": "An MSA is unlawful if it functions as a disguised referral arrangement rather than compensation for actual, necessary, and distinct marketing services.",
+          "type": "distinction"
+        },
+        {
+          "question": "Under RESPA, are referrals compensable services?",
+          "answer": "No, referrals are not compensable under RESPA; only actual marketing services are compensable.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "asset-fraud-detection",
+      "term": "Asset fraud detection",
+      "definition": "MLOs must scrutinize borrower bank statements for red flags suggesting fabricated or manipulated assets, such as unusual deposits, structured transactions, or balances inconsistent with stated income.",
+      "why_it_exists": "Borrowers who misrepresent assets to qualify for loans increase lender risk and constitute mortgage fraud, for which the MLO is the first line of defense.",
+      "examples": [
+        {
+          "scenario": "A school bus driver earning $3,417/month has six deposits totaling $23,575 over two months with no obvious explanation tied to her pay schedule.",
+          "outcome": "The MLO should ask the borrower for a written explanation and supporting documentation before proceeding — not ignore it, not file a SAR immediately, and not contact the bank directly."
+        }
+      ],
+      "cross_refs": [
+        "appraiser-conflict",
+        "borrower-education"
+      ],
+      "check_questions": [
+        {
+          "question": "Multiple deposits just under $10,000 appear on a borrower's bank statement. What does this suggest and what should the MLO do?",
+          "answer": "This pattern may indicate structuring, a form of fraud; the MLO should ask the borrower for a written explanation and documentation.",
+          "type": "application"
+        },
+        {
+          "question": "What is asset rental fraud?",
+          "answer": "A scheme where a borrower temporarily borrows funds from a third party to inflate apparent asset balances, then returns the money after settlement.",
+          "type": "recall"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "3 days",
+      "what_it_means": "An Affiliated Business Arrangement Disclosure (ABAD) must be issued within three days of application if the referral occurs at application.",
+      "memorize_as": "ABAD at application = 3 days"
+    },
+    {
+      "value": "Same business day (or next if non-business day)",
+      "what_it_means": "If an affiliate referral occurs after application, the ABAD must be issued by close of business that day, or the next business day if the referral is made on a non-business day.",
+      "memorize_as": "Post-application ABAD = close of same business day"
+    },
+    {
+      "value": "$10,000",
+      "what_it_means": "Multiple deposits just under $10,000 are a red flag for structuring, a method used to avoid currency transaction reporting requirements.",
+      "memorize_as": "Deposits just under $10,000 = structuring red flag"
+    },
+    {
+      "value": "79% LTV",
+      "what_it_means": "In the PMI fraud example, the borrower's cousin appraised the home at an inflated value to fraudulently show an LTV at or below 80%, triggering PMI removal eligibility.",
+      "memorize_as": "PMI removal threshold = 80% LTV; fraud example falsely showed 79%"
+    },
+    {
+      "value": "12 payments (first year)",
+      "what_it_means": "An ad claiming no mortgage payments are required in year one can be deceptive if loan proceeds fund those 12 payments secretly.",
+      "memorize_as": "No-payment-year-one = deceptive if funded by cash-out proceeds"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "Filing a SAR immediately when an unusual deposit is found",
+      "the_distinction": "An unusual deposit is a red flag requiring a written explanation and documentation from the borrower — not an automatic SAR. A SAR is filed only when fraud is confirmed or strongly suspected after investigation."
+    },
+    {
+      "often_confused_with": "All MSAs violate RESPA",
+      "the_distinction": "Lawful MSAs are permitted under RESPA when compensation is reasonably related to actual, necessary, and distinct marketing services performed. MSAs become illegal when they function as disguised referral fee arrangements."
+    },
+    {
+      "often_confused_with": "Any ad quoting a rate must only disclose the rate",
+      "the_distinction": "Any ad quoting an interest rate must also disclose the APR and whether the rate is fixed or adjustable; quoting a rate alone is insufficient under Regulation Z."
+    },
+    {
+      "often_confused_with": "Trigger terms require only a brief mention of other terms",
+      "the_distinction": "When a trigger term appears in an ad, all required additional disclosures must appear with equal prominence to the trigger term, not buried in fine print."
+    }
+  ]
+}

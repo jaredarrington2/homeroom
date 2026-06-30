@@ -1,0 +1,318 @@
+{
+  "chapter_id": "federal-mortgage-laws",
+  "section_id": "ecoa",
+  "section_title": "ECOA – Equal Credit Opportunity Act",
+  "chapter_title": "Federal Mortgage-Related Laws",
+  "page_range": {
+    "start": 51,
+    "end": 70
+  },
+  "summary": "RESPA (1974, Regulation X) governs real estate settlement transactions by requiring fee transparency, prohibiting kickbacks and unearned fees, and mandating escrow account management. It applies to federally related mortgage loans and imposes specific disclosure timing requirements on lenders, brokers, and servicers.",
+  "concepts": [
+    {
+      "id": "respa-purpose-and-scope",
+      "term": "RESPA – Purpose and Scope",
+      "definition": "RESPA is a 1974 federal law implemented via Regulation X that protects consumers in real estate transactions by requiring cost itemization, prohibiting unearned fees, and regulating escrow accounts.",
+      "why_it_exists": "Before RESPA, consumers had little visibility into settlement costs and were vulnerable to kickbacks and inflated fees that distorted referrals away from their best interests.",
+      "examples": [
+        {
+          "scenario": "A lender lumps all closing costs into one undisclosed fee.",
+          "outcome": "RESPA violation — all fees must be individually itemized so borrowers can comparison shop."
+        }
+      ],
+      "cross_refs": [
+        "respa-exemptions",
+        "respa-kickback-prohibition"
+      ],
+      "check_questions": [
+        {
+          "question": "What are the three core purposes of RESPA?",
+          "answer": "Cost itemization, prohibition of unearned fees, and escrow account management.",
+          "type": "recall"
+        },
+        {
+          "question": "Which regulation implements RESPA?",
+          "answer": "Regulation X (12 CFR Part 1024).",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "respa-applications-and-exemptions",
+      "term": "RESPA Applications and Exemptions",
+      "definition": "RESPA applies to federally related mortgage loans but is exempt for business/commercial/agricultural loans, bridge loans of 12 months or less, vacant land loans (unless residential construction is planned within 2 years), assumable loans not requiring lender approval, secondary market sales post-funding, and conversions without a new promissory note.",
+      "why_it_exists": "RESPA targets consumer residential transactions; business and other non-consumer transactions carry different risk profiles and do not require the same consumer protections.",
+      "examples": [
+        {
+          "scenario": "A lender originates a loan intended for sale to Fannie Mae.",
+          "outcome": "RESPA applies from origination through funding; it does not apply to the subsequent secondary market packaging and sale."
+        }
+      ],
+      "cross_refs": [
+        "respa-purpose-and-scope"
+      ],
+      "check_questions": [
+        {
+          "question": "Does RESPA apply to a 10-month bridge loan?",
+          "answer": "No — temporary financing with terms of 12 months or less is exempt from RESPA.",
+          "type": "application"
+        },
+        {
+          "question": "A borrower buys vacant land and states they will build a home on it within 18 months. Does RESPA apply?",
+          "answer": "Yes — RESPA applies when the borrower intends to build a residential dwelling within 2 years of acquiring the land.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "transfer-of-servicing-disclosure",
+      "term": "Transfer of Servicing Disclosure",
+      "definition": "When a loan's servicing is transferred, the releasing servicer must send a goodbye letter no later than 15 calendar days before the transfer, and the receiving servicer must send a welcome letter no later than 15 calendar days after the transfer.",
+      "why_it_exists": "Borrowers need advance notice of who to pay and how to contact their servicer so payments are not misdirected and loan terms are not misunderstood.",
+      "examples": [
+        {
+          "scenario": "A borrower sends their payment to their old servicer during the 60-day period after a servicing transfer.",
+          "outcome": "The servicer cannot charge a late fee or report the borrower negatively to credit agencies during that 60-day window."
+        }
+      ],
+      "cross_refs": [
+        "respa-purpose-and-scope"
+      ],
+      "check_questions": [
+        {
+          "question": "How many calendar days before a servicing transfer must the goodbye letter be issued?",
+          "answer": "No later than 15 calendar days before the effective transfer date.",
+          "type": "recall"
+        },
+        {
+          "question": "For how long after a servicing transfer are servicers prohibited from charging late fees for payments sent to the old servicer?",
+          "answer": "60 calendar days from the date of the servicing transfer.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "special-information-booklet",
+      "term": "Special Information Booklet (HUD Home Loan Toolkit)",
+      "definition": "A required disclosure booklet issued to mortgage applicants within 3 general business days of application that explains the nature and costs of settlement services.",
+      "why_it_exists": "Borrowers need a plain-language resource to understand settlement costs before committing to a loan, enabling informed comparison shopping.",
+      "examples": [
+        {
+          "scenario": "Two co-borrowers apply together for a purchase mortgage.",
+          "outcome": "The lender is only required to issue one booklet to one of the applicants."
+        }
+      ],
+      "cross_refs": [
+        "respa-applications-and-exemptions",
+        "three-types-of-days"
+      ],
+      "check_questions": [
+        {
+          "question": "Is the Special Information Booklet required for a refinance transaction?",
+          "answer": "No — refinances, closed-end subordinate liens, reverse mortgages, and non-purchase federally related loans are all exempt.",
+          "type": "application"
+        },
+        {
+          "question": "If a mortgage broker is involved, who is responsible for issuing the Special Information Booklet?",
+          "answer": "The mortgage broker, which relieves the lender of that responsibility.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "affiliated-business-arrangement-disclosure",
+      "term": "Affiliated Business Arrangement Disclosure (ABAD)",
+      "definition": "A disclosure required when a referring party has an ownership interest over 1% or an associate relationship with the settlement service provider to whom a borrower is being referred, issued at the time of referral or within 3 business days if a mortgage application is involved.",
+      "why_it_exists": "Financial relationships between referral sources and service providers create conflicts of interest that must be disclosed so borrowers can make informed choices.",
+      "examples": [
+        {
+          "scenario": "A loan officer refers a borrower to a title company in which she owns a 5% stake.",
+          "outcome": "An ABAD must be issued disclosing the ownership relationship, the expected cost range, and the borrower's right to choose a different provider."
+        }
+      ],
+      "cross_refs": [
+        "respa-kickback-prohibition",
+        "sham-affiliated-business-arrangements"
+      ],
+      "check_questions": [
+        {
+          "question": "What three things must the ABAD disclose to the borrower?",
+          "answer": "The nature of the ownership/financial relationship, the estimated cost range for the referred service, and the borrower's right to choose a different provider.",
+          "type": "recall"
+        },
+        {
+          "question": "How long must lenders retain copies of ABARDs?",
+          "answer": "No less than five years from the date of the document's execution.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "respa-kickback-prohibition",
+      "term": "Prohibition Against Kickbacks and Unearned Fees (RESPA Section 8)",
+      "definition": "RESPA Section 8 prohibits any person from giving or receiving any fee, kickback, or thing of value in exchange for referring settlement service business, and prohibits splitting fees for services not actually performed.",
+      "why_it_exists": "Kickback arrangements cause consumers to be steered to overpriced or incompetent service providers for the referral source's financial gain rather than the consumer's benefit.",
+      "examples": [
+        {
+          "scenario": "A real estate agent regularly receives gift cards and restaurant trips from a loan originator in exchange for sending all clients to that originator.",
+          "outcome": "Both parties violate RESPA Section 8 — the gift cards constitute a 'thing of value' exchanged for referrals regardless of whether a written agreement exists."
+        }
+      ],
+      "cross_refs": [
+        "affiliated-business-arrangement-disclosure",
+        "sham-affiliated-business-arrangements"
+      ],
+      "check_questions": [
+        {
+          "question": "Does a kickback arrangement need to be in writing to violate RESPA?",
+          "answer": "No — a pattern or course of conduct is sufficient to establish an agreement or understanding, and the prohibition applies to oral, written, or implicit arrangements.",
+          "type": "recall"
+        },
+        {
+          "question": "A lender charges a borrower a fee for a service that was never actually performed. Does this violate RESPA?",
+          "answer": "Yes — charging for services not performed or charging duplicate fees constitutes an unearned fee and is a RESPA violation.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "escrow-account-disclosures",
+      "term": "Initial and Annual Escrow Account Disclosures",
+      "definition": "At settlement, lenders must issue an Initial Escrow Account Disclosure Statement showing projected disbursements; annually thereafter, the servicer must complete an Aggregate Escrow Analysis and provide an annual escrow account statement within 45 calendar days of the computation year's end.",
+      "why_it_exists": "Escrow accounts hold borrower funds for taxes and insurance, so both accurate initial projections and annual reconciliations protect borrowers from underfunding or overpaying.",
+      "examples": [
+        {
+          "scenario": "A property tax payment is due 30 days after loan settlement.",
+          "outcome": "The lender typically does not collect that payment through escrow at closing because the servicer may need up to 60 days to activate the loan; a third party or the borrower takes direct responsibility instead."
+        }
+      ],
+      "cross_refs": [
+        "respa-purpose-and-scope"
+      ],
+      "check_questions": [
+        {
+          "question": "Within how many calendar days after loan settlement must the servicer complete the first Aggregate Escrow Analysis?",
+          "answer": "No later than 45 calendar days after settlement.",
+          "type": "recall"
+        },
+        {
+          "question": "What fraction of annual anticipated disbursements should the monthly escrow collection represent?",
+          "answer": "One-twelfth (1/12) of the anticipated annual disbursements.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "sham-affiliated-business-arrangements",
+      "term": "Sham Affiliated Business Arrangements",
+      "definition": "Fraudulent business partnerships that disguise illegal referral compensation as legitimate affiliate relationships, identifiable by factors such as lack of independent capital, employees, office space, or actual service delivery.",
+      "why_it_exists": "Bad actors create shell affiliate entities solely to funnel referral fees in a way that appears RESPA-compliant, undermining the law's consumer protection goals.",
+      "examples": [
+        {
+          "scenario": "A lender creates a 'title company' that has no employees and contracts all work back to the same third party, paying the lender's principals a distribution.",
+          "outcome": "The arrangement likely constitutes a sham ABA because the entity lacks independent capital, employees, and genuine business operations."
+        }
+      ],
+      "cross_refs": [
+        "affiliated-business-arrangement-disclosure",
+        "respa-kickback-prohibition"
+      ],
+      "check_questions": [
+        {
+          "question": "Name three red-flag factors that suggest an affiliated business arrangement is a sham.",
+          "answer": "Any three of: insufficient capital, no own employees, no control of business affairs, no separate office, does not perform stated services, does not compete in the open market, does not do business outside the affiliate relationship.",
+          "type": "recall"
+        },
+        {
+          "question": "A court rejected HUD's 1996 sham ABA policy statement. Does this mean mortgage professionals can ignore those factors?",
+          "answer": "No — while the Sixth Circuit rejected judicial deference to the guideline, the factors remain useful red flags for identifying potential wrongdoing.",
+          "type": "distinction"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "1974",
+      "what_it_means": "Year RESPA was enacted.",
+      "memorize_as": "RESPA enacted 1974, implemented via Regulation X."
+    },
+    {
+      "value": "15 calendar days",
+      "what_it_means": "Goodbye letter must be sent at least 15 days before servicing transfer; welcome letter within 15 days after transfer.",
+      "memorize_as": "15 before, 15 after — servicing transfer notices."
+    },
+    {
+      "value": "60 calendar days",
+      "what_it_means": "Grace period after a servicing transfer during which late fees and adverse credit reporting are prohibited if borrower pays the old servicer.",
+      "memorize_as": "60-day grace period post-transfer."
+    },
+    {
+      "value": "3 general business days",
+      "what_it_means": "Deadline for issuing the Special Information Booklet after application.",
+      "memorize_as": "Toolkit = 3 general business days from application."
+    },
+    {
+      "value": "3 precise business days",
+      "what_it_means": "Deadline for issuing the Homeownership Counseling Disclosure and the HELOC booklet after application.",
+      "memorize_as": "Counseling disclosure and HELOC booklet = 3 precise business days."
+    },
+    {
+      "value": "3 business days (ABAD)",
+      "what_it_means": "If a mortgage application exists, the ABAD must be issued within 3 business days of the referral.",
+      "memorize_as": "ABAD at time of referral, or within 3 business days if application present."
+    },
+    {
+      "value": "45 calendar days",
+      "what_it_means": "Servicer must complete the first Aggregate Escrow Analysis within 45 calendar days of loan settlement, then annually.",
+      "memorize_as": "First escrow analysis = 45 days post-settlement."
+    },
+    {
+      "value": "5 years",
+      "what_it_means": "Minimum retention period for all ABAD copies and documentation.",
+      "memorize_as": "Keep ABARDs for 5 years."
+    },
+    {
+      "value": "1%",
+      "what_it_means": "Ownership threshold above which an affiliated business arrangement disclosure is triggered.",
+      "memorize_as": "More than 1% ownership = ABA relationship requiring ABAD."
+    },
+    {
+      "value": "10",
+      "what_it_means": "Minimum number of HUD-approved counseling agencies that must appear on the Homeownership Counseling Disclosure.",
+      "memorize_as": "At least 10 agencies on the counseling list."
+    },
+    {
+      "value": "12 months or less",
+      "what_it_means": "Loan term length that qualifies a bridge or temporary loan for a RESPA exemption.",
+      "memorize_as": "Bridge loans ≤12 months = RESPA exempt."
+    },
+    {
+      "value": "2 years",
+      "what_it_means": "If a borrower intends to build a home on vacant land within 2 years of acquisition, the loan is not exempt from RESPA.",
+      "memorize_as": "Vacant land + 2-year build intent = RESPA applies."
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "RESPA exemption for secondary market sales vs. application for loans intended for Fannie/Freddie",
+      "the_distinction": "RESPA applies from origination through funding for Fannie/Freddie-destined loans; the secondary market exemption only covers the post-funding packaging and sale phase, not the origination itself."
+    },
+    {
+      "often_confused_with": "General business day vs. precise business day",
+      "the_distinction": "Both exclude Sundays and federal holidays, but a general business day also requires the specific entity to be fully operational; a precise business day does not depend on the entity's hours."
+    },
+    {
+      "often_confused_with": "Special Information Booklet required for all applications vs. exemptions",
+      "the_distinction": "The booklet is only required for purchase transactions on 1-4 unit residences; refinances, subordinate liens, reverse mortgages, and other non-purchase federally related loans are all exempt."
+    },
+    {
+      "often_confused_with": "ABA disclosure requirement vs. kickback prohibition",
+      "the_distinction": "An affiliated business arrangement can be legal if properly disclosed via ABAD, the referral is not mandatory, and the fee is earned; a kickback is always illegal because it is compensation solely for a referral with no corresponding service performed."
+    },
+    {
+      "often_confused_with": "Mortgage Servicing Disclosure Statement vs. Transfer of Servicing Disclosure",
+      "the_distinction": "The Mortgage Servicing Disclosure is issued at application and tells borrowers whether the loan's servicing may be sold in the future; the Transfer of Servicing Disclosure is issued when a servicing transfer actually occurs (goodbye and welcome letters)."
+    }
+  ]
+}

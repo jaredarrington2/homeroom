@@ -1,0 +1,2365 @@
+[
+  {
+    "literal_description": "A 3D-rendered astronaut in a white spacesuit with red accent bands plays a gold alto saxophone against a plain white background.",
+    "primary_subject": "astronaut",
+    "primary_action": "playing saxophone",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "unexpected expertise",
+        "out-of-element performance",
+        "dual identity",
+        "specialized knowledge in unfamiliar territory",
+        "precision under pressure",
+        "isolation",
+        "communication across barriers",
+        "technical mastery",
+        "improvisation",
+        "protected identity"
+      ],
+      "mood": [
+        "whimsical",
+        "confident",
+        "surreal",
+        "oddly reassuring",
+        "playful"
+      ],
+      "domain": [
+        "expertise",
+        "disclosure",
+        "process",
+        "compliance",
+        "risk",
+        "negotiation",
+        "technology",
+        "documentation"
+      ],
+      "metaphor": [
+        "fish out of water",
+        "technical expert in a human role",
+        "hidden identity behind the helmet",
+        "precision meets creativity",
+        "suit as barrier to authenticity"
+      ],
+      "demographic": [
+        "genderless archetype",
+        "modern-era professional",
+        "technical specialist",
+        "faceless authority figure"
+      ],
+      "visual": [
+        "spacesuit",
+        "saxophone",
+        "white helmet",
+        "gold instrument",
+        "backpack life-support unit",
+        "gloved hands"
+      ]
+    },
+    "mortgage_roles": [
+      "underwriter",
+      "expert advisor",
+      "processor",
+      "confused consumer"
+    ],
+    "use_cases": [
+      "Illustrating an underwriter who applies rigid technical criteria to an inherently human decision like homeownership",
+      "Opening screen for a module on 'knowing the rules but not the context' — when expertise alone isn't enough",
+      "Visual metaphor for a loan officer operating in an unfamiliar market or product type for the first time",
+      "Representing the experience of explaining complex mortgage disclosures through a medium the borrower wasn't expecting",
+      "Header image for a section on how regulators and compliance officers can feel disconnected from borrower reality",
+      "Pairing with content about performing a scripted process — like a closing — that still requires human finesse",
+      "Anchoring a quiz question about which professional role requires both technical precision and clear communication"
+    ],
+    "avoid_for": [
+      "Content requiring visible warmth or emotional empathy, such as first-time homebuyer milestone moments",
+      "Fraud or predatory lending modules where menace or deception must read clearly",
+      "Sections celebrating community or family legacy in homeownership",
+      "Any context where the character's face or identity needs to be legible to build trust"
+    ],
+    "id": "char_001",
+    "filename": "astronaut-saxophone.PNG"
+  },
+  {
+    "literal_description": "A tattooed biker in a leather vest and bandana sits at a desk chair reviewing a stock portfolio dashboard on a desktop monitor showing $42,583 in holdings with diversification across tech, finance, health, and energy sectors.",
+    "primary_subject": "biker / motorcycle club member",
+    "primary_action": "analyzing a multi-stock investment portfolio on a desktop computer",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "unexpected competence",
+        "financial self-sufficiency",
+        "subverted expectations",
+        "asset diversification",
+        "risk tolerance",
+        "outsider savvy",
+        "wealth accumulation",
+        "countercultural participation in mainstream systems",
+        "discipline beneath rebellion",
+        "portfolio management"
+      ],
+      "mood": [
+        "defiant confidence",
+        "quiet intensity",
+        "surprising seriousness",
+        "gruff focus",
+        "understated ambition"
+      ],
+      "domain": [
+        "finance",
+        "assets",
+        "risk",
+        "investment",
+        "credit",
+        "mortgage",
+        "identity",
+        "trust"
+      ],
+      "metaphor": [
+        "don't judge a book by its cover",
+        "rough exterior, sophisticated interior",
+        "outsider navigating insider systems",
+        "rebel playing by the rules",
+        "unconventional path to financial stability"
+      ],
+      "demographic": [
+        "middle-aged male archetype",
+        "motorcycle club subculture",
+        "working-class aesthetic",
+        "non-traditional wealth holder"
+      ],
+      "visual": [
+        "leather vest with skull patch",
+        "tattoo sleeve",
+        "stock portfolio monitor",
+        "skull coffee mug",
+        "bandana headband",
+        "office desk chair"
+      ]
+    },
+    "mortgage_roles": [
+      "sophisticated borrower",
+      "high-risk borrower",
+      "investor"
+    ],
+    "use_cases": [
+      "Illustrating why lenders cannot assess creditworthiness by appearance alone during fair lending compliance modules",
+      "Opening a lesson on non-traditional borrowers who hold substantial liquid assets despite unconventional backgrounds",
+      "Depicting a borrower whose asset diversification complicates DTI calculations in underwriting scenarios",
+      "Anchoring a discussion on why self-employed or gig-economy applicants require deeper financial document review",
+      "Representing the concept that portfolio wealth does not automatically translate to mortgage eligibility",
+      "Visualizing risk perception bias in a module on predatory lending targeting non-mainstream demographics",
+      "Setting the scene for a case study where an applicant's financial profile surprises a loan officer during pre-qualification"
+    ],
+    "avoid_for": [
+      "First-time homebuyer empathy modules where approachability and vulnerability are the intended emotional register",
+      "Compliance or regulatory authority contexts requiring institutional credibility signals",
+      "Conservative lending institution branding where counterculture aesthetics would undermine trust",
+      "Senior borrower or reverse mortgage content where demographic alignment is critical"
+    ],
+    "id": "char_002",
+    "filename": "biker-stocks.PNG"
+  },
+  {
+    "literal_description": "A person wearing a black-and-white horizontal striped shirt, black pants, black gloves, and a medieval knight's helmet carries a large black sack over one shoulder while crouching in a sneaking pose.",
+    "primary_subject": "burglar dressed in classic cartoon-thief attire wearing a medieval knight helmet",
+    "primary_action": "sneaking while carrying a swag bag",
+    "anachronism": true,
+    "tags": {
+      "concept": [
+        "concealment",
+        "deception",
+        "misappropriation",
+        "armored vulnerability",
+        "absurd protection",
+        "stealth",
+        "disguise",
+        "taking what isn't yours",
+        "anachronistic defense",
+        "bravado masking guilt"
+      ],
+      "mood": [
+        "comedic menace",
+        "bumbling villainy",
+        "nervous tension",
+        "absurdist humor",
+        "cartoonish threat"
+      ],
+      "domain": [
+        "fraud",
+        "compliance",
+        "risk",
+        "ethics",
+        "regulation",
+        "law",
+        "mortgage",
+        "assets"
+      ],
+      "metaphor": [
+        "wolf in sheep's clothing",
+        "old armor new crime",
+        "overprotected wrongdoer",
+        "amateur disguised as authority",
+        "protection racket"
+      ],
+      "demographic": [
+        "cartoon villain archetype",
+        "medieval warrior era",
+        "stock criminal stereotype",
+        "anachronistic mashup figure"
+      ],
+      "visual": [
+        "striped shirt",
+        "knight helmet",
+        "swag bag",
+        "black gloves",
+        "crouching pose"
+      ]
+    },
+    "mortgage_roles": [
+      "fraudster",
+      "predator",
+      "high-risk borrower"
+    ],
+    "use_cases": [
+      "Illustrating mortgage fraud schemes where bad actors hide behind official-looking credentials",
+      "Opening a module on predatory lending tactics that appear protective but conceal harmful intent",
+      "Visualizing the concept of equity stripping dressed up as legitimate refinancing",
+      "Header image for a quiz on red flags in loan applications that signal concealed identity",
+      "Representing the absurdity of using outdated legal armor to defend modern financial misconduct",
+      "Accompanying a case study on straw buyer schemes where the real actor hides behind a front",
+      "Intro slide for a compliance section on why robust disclosure requirements exist"
+    ],
+    "avoid_for": [
+      "Any module celebrating borrower empowerment or first-time homebuyer success",
+      "Content aimed at building trust between lenders and underserved communities",
+      "Sections on legitimate asset protection or estate planning strategies",
+      "Diversity and inclusion focused onboarding materials"
+    ],
+    "id": "char_003",
+    "filename": "burglar-knight.PNG"
+  },
+  {
+    "literal_description": "A standing figure wrapped head-to-toe in yellow caution tape, holding a black oval hand mirror in front of their face, photographed against a white background.",
+    "primary_subject": "caution-tape mummy holding a mirror",
+    "primary_action": "holding a mirror up to conceal or reflect their face",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "warning",
+        "concealed identity",
+        "self-reflection",
+        "over-regulation",
+        "visibility vs. obscurity",
+        "restriction",
+        "hazard signaling",
+        "transparency paradox",
+        "red flags",
+        "entanglement"
+      ],
+      "mood": [
+        "unnerving",
+        "absurdist",
+        "cautionary",
+        "opaque",
+        "deadpan"
+      ],
+      "domain": [
+        "compliance",
+        "regulation",
+        "disclosure",
+        "fraud",
+        "risk",
+        "identity",
+        "documentation",
+        "ethics"
+      ],
+      "metaphor": [
+        "hidden in plain sight",
+        "warning ignored",
+        "over-compliance as camouflage",
+        "mirror as deflection",
+        "bureaucratic entrapment"
+      ],
+      "demographic": [
+        "genderless archetype",
+        "hazard zone persona",
+        "faceless authority figure",
+        "contemporary absurdist"
+      ],
+      "visual": [
+        "caution tape",
+        "yellow warning wrap",
+        "black hand mirror",
+        "full-body covering",
+        "standing figure"
+      ]
+    },
+    "mortgage_roles": [
+      "fraudster",
+      "high-risk borrower",
+      "regulator",
+      "confused consumer"
+    ],
+    "use_cases": [
+      "Illustrating a module on red flags lenders must identify during underwriting",
+      "Opening screen for a lesson on mandatory disclosure requirements that obscure rather than clarify",
+      "Visual metaphor for a borrower with multiple compliance violations wrapped into one application",
+      "Representing the concept of predatory lending hiding behind layers of legal language",
+      "Anchoring a quiz question about when a loan file has too many warning signs to proceed",
+      "Header image for a section on identity verification and why face-value trust is dangerous in mortgage fraud",
+      "Illustrating the paradox of over-documented files that still conceal material misrepresentation"
+    ],
+    "avoid_for": [
+      "Welcoming or onboarding screens meant to build borrower trust",
+      "Positive milestone moments such as loan approval or closing day",
+      "First-time homebuyer encouragement content where tone should be warm and accessible",
+      "Any context representing a competent, ethical expert advisor"
+    ],
+    "id": "char_004",
+    "filename": "caution-mirror.PNG"
+  },
+  {
+    "literal_description": "Three headless cheerleaders in purple, red, and blue uniforms carry a dark wood coffin with gold handles overhead while walking in unison.",
+    "primary_subject": "cheerleaders",
+    "primary_action": "carrying a coffin",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "collective burden",
+        "performative optimism masking loss",
+        "team obligation",
+        "ceremony under duress",
+        "cheerful facade over grim reality",
+        "shared liability",
+        "ritual transport",
+        "death of a deal"
+      ],
+      "mood": [
+        "darkly comic",
+        "absurdist",
+        "tense despite surface energy",
+        "surreal",
+        "ominous"
+      ],
+      "domain": [
+        "debt",
+        "mortgage",
+        "risk",
+        "inheritance",
+        "assets",
+        "transition",
+        "compliance",
+        "labor"
+      ],
+      "metaphor": [
+        "cheerful exterior hiding serious consequences",
+        "group carrying another's burden",
+        "celebration turned to loss",
+        "death of a transaction"
+      ],
+      "demographic": [
+        "young adult women",
+        "athletic archetype",
+        "performance-culture participants",
+        "uniform-wearing team members"
+      ],
+      "visual": [
+        "coffin",
+        "cheerleader uniforms",
+        "gold handles",
+        "pleated skirts",
+        "athletic sneakers"
+      ]
+    },
+    "mortgage_roles": [
+      "co-borrower",
+      "processor",
+      "confused consumer"
+    ],
+    "use_cases": [
+      "illustrating the concept of multiple co-borrowers jointly carrying an unmanageable debt load",
+      "header image for a module on loan denial and what happens when an application 'dies' in underwriting",
+      "visual metaphor for a closing that collapses despite all parties showing up ready to celebrate",
+      "accompanying a section on shared liability among co-signers who didn't fully understand the obligation",
+      "representing servicer teams inheriting a distressed loan portfolio with forced cheerfulness",
+      "opening slide for a lesson on the gap between marketing optimism and foreclosure reality"
+    ],
+    "avoid_for": [
+      "first-time homebuyer success and celebration modules",
+      "trust-building or rapport sections featuring lender-borrower relationships",
+      "any compliance or regulatory context requiring professional gravitas",
+      "diversity and inclusion framing where the uniform-and-coffin combo would read as exploitative"
+    ],
+    "id": "char_005",
+    "filename": "cheerleader-coffin.PNG"
+  },
+  {
+    "literal_description": "An adult in a full rainbow polka-dot clown costume with oversized red shoes and multicolored afro wig holds a baby dressed in a matching miniature clown outfit with a party hat, both photographed from behind against a white background.",
+    "primary_subject": "adult clown carrying a baby clown",
+    "primary_action": "holding and carrying a smaller clown in matching costume",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "generational transfer",
+        "inherited identity",
+        "imitation",
+        "role modeling",
+        "legacy",
+        "absurdity normalized",
+        "miniaturization of authority",
+        "costume as destiny",
+        "unconditional mentorship",
+        "performance passed down"
+      ],
+      "mood": [
+        "whimsical",
+        "tender",
+        "surreal",
+        "self-serious absurdity",
+        "nostalgic"
+      ],
+      "domain": [
+        "family",
+        "inheritance",
+        "generations",
+        "identity",
+        "mortgage",
+        "real estate",
+        "disclosure",
+        "trust"
+      ],
+      "metaphor": [
+        "like parent like child",
+        "passing the torch",
+        "burden of legacy",
+        "costume as obligation",
+        "miniature mirror"
+      ],
+      "demographic": [
+        "adult caregiver archetype",
+        "infant or toddler",
+        "performative profession",
+        "intergenerational pair"
+      ],
+      "visual": [
+        "rainbow afro wig",
+        "polka-dot jumpsuit",
+        "oversized clown shoes",
+        "baby in costume",
+        "checkered clown pants",
+        "party hat"
+      ]
+    },
+    "mortgage_roles": [
+      "co-borrower",
+      "first-time homebuyer",
+      "borrower"
+    ],
+    "use_cases": [
+      "Illustrating how parents co-sign or co-borrow on behalf of adult children entering homeownership",
+      "Opening slide for a module on inherited debt obligations and how family financial patterns repeat across generations",
+      "Visual metaphor for a first-time homebuyer being guided through the process by a family member who has 'worn the costume before'",
+      "Representing the concept of co-borrower relationships where one party carries more of the load",
+      "Header image for a lesson on how parental financial identity can shape a child's credit profile from an early age",
+      "Illustrating the idea that mortgage obligations can feel like a costume you inherit rather than choose",
+      "Anchor image for a discussion on family gift funds, parental contributions, and down payment assistance programs"
+    ],
+    "avoid_for": [
+      "Serious fraud or predatory lending modules where levity would undermine gravity",
+      "Regulatory compliance screens requiring authoritative, professional tone",
+      "Content targeting grieving borrowers navigating estate or foreclosure situations",
+      "Any context requiring clear demographic representation of a specific borrower profile"
+    ],
+    "id": "char_006",
+    "filename": "clown-clown-baby.PNG"
+  },
+  {
+    "literal_description": "A 3D-rendered construction worker in an orange safety vest, hard hat, jeans, work boots, and tool belt plays a large brass euphonium or tuba, obscuring his face.",
+    "primary_subject": "construction worker",
+    "primary_action": "playing a large brass instrument (euphonium/tuba)",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "unexpected skill",
+        "hidden talent",
+        "dual identity",
+        "performative expertise",
+        "noise and disruption",
+        "concealment",
+        "labor and artistry",
+        "mismatched roles",
+        "announcement",
+        "blue-collar complexity"
+      ],
+      "mood": [
+        "playful absurdity",
+        "surprising confidence",
+        "mild dissonance",
+        "lighthearted earnestness"
+      ],
+      "domain": [
+        "labor",
+        "disclosure",
+        "expertise",
+        "identity",
+        "process",
+        "negotiation",
+        "mortgage",
+        "trust"
+      ],
+      "metaphor": [
+        "more than meets the eye",
+        "amateur vs expert",
+        "hidden complexity beneath a working exterior",
+        "making noise in an unexpected place",
+        "tools of one trade wielded in another"
+      ],
+      "demographic": [
+        "working-age adult male",
+        "blue-collar archetype",
+        "skilled trades worker",
+        "contemporary"
+      ],
+      "visual": [
+        "safety vest",
+        "hard hat",
+        "brass tuba",
+        "tool belt",
+        "work boots",
+        "3D cartoon character"
+      ]
+    },
+    "mortgage_roles": [
+      "borrower",
+      "confused consumer",
+      "expert advisor",
+      "processor"
+    ],
+    "use_cases": [
+      "Illustrating a lesson on how borrowers may have hidden financial strengths underwriters overlook",
+      "Opening a module on disclosure requirements — 'announcing' information the lender needs to hear",
+      "Representing a blue-collar borrower navigating the mortgage process with unexpected sophistication",
+      "Anchoring a section on the importance of asking loud, clear questions during the loan application process",
+      "Depicting the concept that a skilled worker's income documentation can be surprisingly complex to verify",
+      "Introducing a topic on non-traditional income sources for self-employed or trade workers"
+    ],
+    "avoid_for": [
+      "Serious fraud or predatory lending modules where levity undercuts gravity",
+      "High-net-worth or luxury real estate segments where the blue-collar archetype feels tonally mismatched",
+      "Regulatory compliance deep-dives requiring authoritative, professional visual tone"
+    ],
+    "id": "char_007",
+    "filename": "construction-worker-tuba.PNG"
+  },
+  {
+    "literal_description": "Two men photographed from behind dancing together, one dressed as a cowboy in jeans, leather vest, bandana, and boots, the other in a dark pinstripe business suit, their hands clasped and arms around each other's waists.",
+    "primary_subject": "cowboy and businessman duo",
+    "primary_action": "dancing together in a partnered ballroom-style embrace",
+    "anachronism": true,
+    "tags": {
+      "concept": [
+        "unlikely alliance",
+        "collision of worlds",
+        "cooperation under tension",
+        "formal meets informal",
+        "mutual dependency",
+        "negotiated partnership",
+        "cultural contrast",
+        "synchronized movement",
+        "power sharing",
+        "bridging divides"
+      ],
+      "mood": [
+        "playfully absurd",
+        "unexpectedly harmonious",
+        "tense cooperation",
+        "lighthearted",
+        "dissonant"
+      ],
+      "domain": [
+        "negotiation",
+        "lending",
+        "mortgage",
+        "real estate",
+        "regulation",
+        "trust",
+        "transition",
+        "compliance"
+      ],
+      "metaphor": [
+        "old west vs. modern finance",
+        "tradition vs. institution",
+        "reluctant partners",
+        "forced choreography",
+        "two worlds moving as one"
+      ],
+      "demographic": [
+        "frontier archetype",
+        "corporate professional",
+        "working-age male pair",
+        "contrasting class signals"
+      ],
+      "visual": [
+        "cowboy hat",
+        "pinstripe suit",
+        "cowboy boots",
+        "leather vest",
+        "red bandana",
+        "clasped hands"
+      ]
+    },
+    "mortgage_roles": [
+      "borrower",
+      "loan officer",
+      "realtor",
+      "negotiator"
+    ],
+    "use_cases": [
+      "illustrating the borrower-lender relationship as an uneasy but necessary dance",
+      "opening a module on negotiating loan terms between unconventional and institutional parties",
+      "visualizing the moment a non-traditional buyer meets a by-the-book underwriter",
+      "anchoring a lesson on rural or agricultural property lending where frontier economics meets federal guidelines",
+      "representing co-borrower dynamics where two very different financial profiles must move in sync",
+      "headlining a section on how informal handshake deals give way to formal mortgage contracts",
+      "introducing the concept of disclosure as a choreographed, step-by-step process neither party can skip"
+    ],
+    "avoid_for": [
+      "fraud or predatory lending modules where trust must be absent rather than present",
+      "solo borrower journey narratives that emphasize individual agency",
+      "serious compliance violation scenarios requiring a somber or cautionary tone",
+      "content targeting female demographics or diverse household archetypes"
+    ],
+    "id": "char_008",
+    "filename": "cowboy-business-man-tango.PNG"
+  },
+  {
+    "literal_description": "A 3D-rendered hula dancer wearing a grass skirt, floral lei, bikini top, and flower anklets and wristlets, with her face completely obscured by an oversized wide-brimmed hat, arms raised in a dancing pose.",
+    "primary_subject": "hula dancer",
+    "primary_action": "dancing with arms raised and face hidden under an enormous hat",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "concealed identity",
+        "performance",
+        "hidden information",
+        "surface appearance vs reality",
+        "disclosure failure",
+        "ornamental distraction",
+        "voluntary obscurement",
+        "festive misdirection",
+        "transparency gap",
+        "what you cannot see"
+      ],
+      "mood": [
+        "playful",
+        "unsettling",
+        "deceptively cheerful",
+        "disorienting",
+        "celebratory yet evasive"
+      ],
+      "domain": [
+        "disclosure",
+        "fraud",
+        "identity",
+        "compliance",
+        "risk",
+        "trust",
+        "documentation",
+        "ethics"
+      ],
+      "metaphor": [
+        "hiding in plain sight",
+        "distraction as concealment",
+        "festive exterior masking unknown interior",
+        "decoration over substance",
+        "anonymous participation"
+      ],
+      "demographic": [
+        "tropical archetype",
+        "performance culture figure",
+        "ambiguous identity",
+        "anonymous agent"
+      ],
+      "visual": [
+        "grass skirt",
+        "oversized hat",
+        "flower lei",
+        "faceless dancer",
+        "bare feet",
+        "raised hands"
+      ]
+    },
+    "mortgage_roles": [
+      "fraudster",
+      "confused consumer",
+      "high-risk borrower",
+      "borrower"
+    ],
+    "use_cases": [
+      "illustrating a lesson on identity verification failures in mortgage applications",
+      "header image for a module on what borrowers hide from underwriters",
+      "visual metaphor for a straw buyer scheme where the real party is obscured",
+      "accompanying a quiz question about incomplete or missing borrower disclosures",
+      "representing the concept of a loan application that looks festive on the surface but conceals critical gaps",
+      "opening slide for a section on Know Your Customer obligations and red flags",
+      "metaphor card for 'the file looks complete but the identity doesn't add up'"
+    ],
+    "avoid_for": [
+      "modules celebrating borrower success or homeownership milestones",
+      "content requiring clear professional authority or trusted advisor framing",
+      "sections on transparent lender-borrower communication",
+      "any context where a legible, trustworthy face is needed for rapport-building"
+    ],
+    "id": "char_009",
+    "filename": "hawaiian-pizza-dough.PNG"
+  },
+  {
+    "literal_description": "A stylized illustration of a woman in 1970s hippie attire — paisley bell-bottoms, fringed suede vest, headband, sandals, and layered boho jewelry — holding a baseball glove in one hand and a smoking cigarette or joint in the other, with her face obscured by a large cloud of smoke.",
+    "primary_subject": "1970s hippie woman",
+    "primary_action": "smoking while holding a baseball glove",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "nonconformity",
+        "counterculture",
+        "disorganization",
+        "misplaced preparation",
+        "casual indifference",
+        "hidden identity",
+        "unreadiness",
+        "mixed signals",
+        "obscured judgment",
+        "recreational risk"
+      ],
+      "mood": [
+        "carefree",
+        "hazy",
+        "unpredictable",
+        "nonchalant",
+        "disarming"
+      ],
+      "domain": [
+        "risk",
+        "identity",
+        "disclosure",
+        "fraud",
+        "compliance",
+        "high-risk borrower",
+        "generations",
+        "ethics"
+      ],
+      "metaphor": [
+        "looks the part but isn't",
+        "obscured intentions",
+        "unprepared amateur playing a professional game",
+        "free spirit meets structured system",
+        "smoke screen"
+      ],
+      "demographic": [
+        "1970s era archetype",
+        "young adult female",
+        "counterculture figure",
+        "bohemian"
+      ],
+      "visual": [
+        "bell-bottoms",
+        "baseball glove",
+        "smoke cloud",
+        "fringed vest",
+        "headband",
+        "sandals"
+      ]
+    },
+    "mortgage_roles": [
+      "high-risk borrower",
+      "confused consumer",
+      "fraudster"
+    ],
+    "use_cases": [
+      "illustrating a borrower who shows up to closing unprepared but confident",
+      "opening slide for a module on undisclosed liabilities and income red flags",
+      "representing an applicant whose identity or financial picture is obscured by incomplete documentation",
+      "a visual hook for discussing recreational drug use income exclusions and underwriting flags",
+      "metaphor for an applicant who has the right accessories but lacks the fundamentals",
+      "introducing the concept of smoke-and-mirrors fraud schemes in mortgage applications",
+      "discussing how non-traditional borrowers are evaluated under standard guidelines"
+    ],
+    "avoid_for": [
+      "professional trust-building modules featuring loan officers or advisors",
+      "any context requiring clear, authoritative expertise signaling",
+      "senior borrower or reverse mortgage content",
+      "compliance celebration or regulatory success scenarios"
+    ],
+    "id": "char_010",
+    "filename": "hippy-baseball.PNG"
+  },
+  {
+    "literal_description": "A barefoot figure in a black martial arts gi with a black belt holds a large terracotta pot containing a lush, round green plant in front of their face, completely obscuring their identity.",
+    "primary_subject": "martial artist in black gi",
+    "primary_action": "holding a potted plant over their face",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "concealed identity",
+        "nurturing discipline",
+        "hidden strength",
+        "growth under pressure",
+        "protection",
+        "rootedness",
+        "self-cultivation",
+        "masked expertise",
+        "patience",
+        "containment"
+      ],
+      "mood": [
+        "absurdist",
+        "quietly menacing",
+        "grounded",
+        "deadpan",
+        "enigmatic"
+      ],
+      "domain": [
+        "identity",
+        "fraud",
+        "disclosure",
+        "trust",
+        "assets",
+        "risk",
+        "compliance",
+        "real estate"
+      ],
+      "metaphor": [
+        "hidden identity behind a facade",
+        "discipline meets vulnerability",
+        "strength concealing intent",
+        "growth as armor",
+        "what you present vs. what you are"
+      ],
+      "demographic": [
+        "adult martial arts practitioner",
+        "disciplined archetype",
+        "barefoot everyman",
+        "anonymous figure"
+      ],
+      "visual": [
+        "black gi",
+        "terracotta pot",
+        "leafy green plant",
+        "black belt",
+        "bare feet"
+      ]
+    },
+    "mortgage_roles": [
+      "fraudster",
+      "confused consumer",
+      "borrower",
+      "high-risk borrower"
+    ],
+    "use_cases": [
+      "Illustrating identity concealment in mortgage fraud modules — the face is literally hidden behind something that looks harmless",
+      "Introducing the concept of asset misrepresentation — a disciplined exterior holding something that seems organic and legitimate",
+      "Anchoring a lesson on straw buyer schemes where one person stands in for another",
+      "Visualizing the tension between financial strength signals and obscured borrower identity during underwriting",
+      "Opening a section on undisclosed liabilities — the plant is healthy on top but the roots are hidden in the pot",
+      "Setting the tone for a chapter on disclosure requirements — what is being held up, and what is being hidden behind it"
+    ],
+    "avoid_for": [
+      "Warm, relationship-driven first-time homebuyer onboarding sequences",
+      "Celebratory closing or approval milestone screens",
+      "Straightforward explainers on loan officer ethics or professional trust"
+    ],
+    "id": "char_011",
+    "filename": "karate-plant.PNG"
+  },
+  {
+    "literal_description": "A stylized 3D-rendered male figure seen from behind, wearing a black bomber jacket and khaki trousers, holding a lit cigarette with smoke rising from it.",
+    "primary_subject": "stylized male figure in casual urban attire",
+    "primary_action": "smoking a cigarette while standing with one hand in pocket",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "nonchalance",
+        "hidden identity",
+        "deliberate withdrawal",
+        "slow burn",
+        "concealment",
+        "habitual risk",
+        "detachment",
+        "opacity",
+        "coolness under pressure"
+      ],
+      "mood": [
+        "aloof",
+        "brooding",
+        "guarded",
+        "contemplative",
+        "indifferent"
+      ],
+      "domain": [
+        "risk",
+        "disclosure",
+        "identity",
+        "fraud",
+        "ethics",
+        "compliance",
+        "trust",
+        "lending"
+      ],
+      "metaphor": [
+        "showing only your back",
+        "slow burn consequences",
+        "what you don't reveal",
+        "casual attitude toward danger",
+        "concealed motivation"
+      ],
+      "demographic": [
+        "young adult male",
+        "urban contemporary",
+        "ambiguous insider",
+        "unverified actor"
+      ],
+      "visual": [
+        "bomber jacket",
+        "cigarette smoke",
+        "khaki trousers",
+        "figure from behind",
+        "dark sneakers",
+        "curly dark hair"
+      ]
+    },
+    "mortgage_roles": [
+      "high-risk borrower",
+      "fraudster",
+      "confused consumer",
+      "borrower"
+    ],
+    "use_cases": [
+      "Illustrating a module on undisclosed liabilities or omissions in a loan application",
+      "Header image for a section on red flags underwriters look for in borrower behavior",
+      "Visual anchor for a lesson on the risks of non-disclosure during the mortgage process",
+      "Representing the 'unknown borrower' in a case study on identity verification failures",
+      "Paired with a prompt about habitual financial risks that quietly compound over time",
+      "Opening slide for a compliance module on what borrowers intentionally withhold"
+    ],
+    "avoid_for": [
+      "First-time homebuyer success stories or celebratory closing moments",
+      "Trust-building or expert advisor credibility modules",
+      "Diversity and inclusion framing where positive representation is required",
+      "Any context requiring a clearly identified or transparent protagonist"
+    ],
+    "id": "char_012",
+    "filename": "man-smoking.PNG"
+  },
+  {
+    "literal_description": "A family of four — two adults and two children — all wearing matching navy-and-cream sailor uniforms with white captain's hats and over-ear headphones, viewed from behind as they walk together.",
+    "primary_subject": "matching sailor-uniformed family unit",
+    "primary_action": "walking together in coordinated formation while wearing modern wireless headphones",
+    "anachronism": true,
+    "tags": {
+      "concept": [
+        "uniformity",
+        "shared identity",
+        "generational alignment",
+        "coordinated compliance",
+        "collective decision-making",
+        "inherited tradition",
+        "modern intrusion on classic form",
+        "synchronized behavior",
+        "family unit as single entity",
+        "curated presentation"
+      ],
+      "mood": [
+        "wholesome absurdity",
+        "nostalgic warmth",
+        "regimented togetherness",
+        "quietly surreal",
+        "dutiful"
+      ],
+      "domain": [
+        "family",
+        "generations",
+        "mortgage",
+        "disclosure",
+        "co-borrower",
+        "compliance",
+        "identity",
+        "documentation"
+      ],
+      "metaphor": [
+        "old tradition meets new technology",
+        "everyone in the same boat",
+        "marching to the same beat",
+        "uniform compliance masking individual experience",
+        "anchored to the past while tuned into the present"
+      ],
+      "demographic": [
+        "nuclear family archetype",
+        "mid-century maritime aesthetic",
+        "mixed generational household",
+        "children modeled after adult authority figures"
+      ],
+      "visual": [
+        "sailor uniforms",
+        "wireless headphones",
+        "captain hats",
+        "family walking away",
+        "navy and cream palette",
+        "matching outfits"
+      ]
+    },
+    "mortgage_roles": [
+      "borrower",
+      "co-borrower",
+      "first-time homebuyer",
+      "confused consumer"
+    ],
+    "use_cases": [
+      "illustrating a multi-borrower application where all parties must be in alignment",
+      "opening slide for a module on household income documentation and co-borrower obligations",
+      "visualizing the concept of all family members being 'on the same channel' during a home purchase",
+      "header image for a section on how lenders assess family units versus individual applicants",
+      "metaphor for when outdated financial traditions (inheritance, family lending) collide with modern digital mortgage processes",
+      "representing the moment a family commits to a shared financial direction without yet seeing the destination",
+      "illustrating the compliance requirement that all co-borrowers receive identical disclosures"
+    ],
+    "avoid_for": [
+      "fraud or predatory lending scenarios where trust is being violated",
+      "modules focused on solo borrower profiles or single-income applications",
+      "content requiring a tone of urgency, conflict, or financial distress",
+      "sections addressing divorce, estate disputes, or fractured co-borrower relationships"
+    ],
+    "id": "char_013",
+    "filename": "navy-family-headphones.PNG"
+  },
+  {
+    "literal_description": "A 3D-rendered female doctor in white coat, teal scrubs, and stethoscope holds a black frying pan in one hand while a large omelet or savory pancake obscures her face, with her hair in a bun.",
+    "primary_subject": "female physician or medical professional",
+    "primary_action": "flipping or presenting a pan-cooked food item that covers her face",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "hidden identity",
+        "dual expertise",
+        "unexpected competence",
+        "role confusion",
+        "masked authority",
+        "professional incongruity",
+        "multitasking",
+        "obstructed judgment",
+        "misapplied credentials"
+      ],
+      "mood": [
+        "absurdist",
+        "playful",
+        "disorienting",
+        "confident",
+        "quirky"
+      ],
+      "domain": [
+        "expertise",
+        "identity",
+        "authority",
+        "compliance",
+        "disclosure",
+        "trust",
+        "fraud",
+        "process"
+      ],
+      "metaphor": [
+        "credentials don't guarantee clarity",
+        "expert in the wrong room",
+        "wolf in sheep's clothing",
+        "face value vs. true identity",
+        "mixing domains"
+      ],
+      "demographic": [
+        "working-age professional woman",
+        "credentialed expert archetype",
+        "contemporary era",
+        "medical authority figure"
+      ],
+      "visual": [
+        "white lab coat",
+        "stethoscope",
+        "frying pan",
+        "omelet",
+        "teal scrubs",
+        "obscured face"
+      ]
+    },
+    "mortgage_roles": [
+      "expert advisor",
+      "loan officer",
+      "underwriter"
+    ],
+    "use_cases": [
+      "Illustrating a lesson on why professional credentials alone don't prevent bad mortgage advice",
+      "Opening screen for a module on undisclosed conflicts of interest in lending",
+      "Visual hook for a section on identity verification failures in the loan application process",
+      "Representing the concept of a trusted advisor whose judgment is obstructed by competing interests",
+      "Introducing a quiz question about whether borrowers can spot unqualified advisors dressed in authority",
+      "Header image for a case study on dual-role conflicts — when one party serves two incompatible masters"
+    ],
+    "avoid_for": [
+      "Serious fraud prosecution or enforcement scenarios requiring unambiguous gravitas",
+      "First-time homebuyer emotional journey content where warmth and clarity are essential",
+      "Any medical or health-related financial planning context where the doctor imagery would confuse the domain",
+      "Regulatory compliance checklists that require a tone of procedural seriousness"
+    ],
+    "id": "char_014",
+    "filename": "omlette-doctor.PNG"
+  },
+  {
+    "literal_description": "A muscular man in a gray t-shirt, black shorts, and sneakers holds a large bunch of colorful helium balloons that completely obscure his face, while wearing a coach's whistle on a lanyard.",
+    "primary_subject": "athletic coach or trainer",
+    "primary_action": "holding a festive bunch of multicolored balloons that hide his identity",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "hidden identity",
+        "celebration obscuring judgment",
+        "authority undermined by frivolity",
+        "distraction from expertise",
+        "concealment",
+        "mixed signals",
+        "loss of control",
+        "buoyancy",
+        "festivity vs. discipline"
+      ],
+      "mood": [
+        "absurdist",
+        "playful tension",
+        "disorienting",
+        "cheerfully ominous",
+        "comedic"
+      ],
+      "domain": [
+        "identity",
+        "disclosure",
+        "trust",
+        "authority",
+        "risk",
+        "compliance",
+        "fraud",
+        "expertise"
+      ],
+      "metaphor": [
+        "hidden behind good news",
+        "authority masked by celebration",
+        "discipline vs. distraction",
+        "wolf in party clothes",
+        "losing grip on too many obligations"
+      ],
+      "demographic": [
+        "adult male athletic archetype",
+        "authority figure",
+        "fitness or coaching professional",
+        "contemporary era"
+      ],
+      "visual": [
+        "multicolored balloons",
+        "coach whistle",
+        "athletic shorts",
+        "sneakers",
+        "lanyard",
+        "muscular build"
+      ]
+    },
+    "mortgage_roles": [
+      "loan officer",
+      "confused consumer",
+      "expert advisor",
+      "fraudster"
+    ],
+    "use_cases": [
+      "illustrating a loan officer who buries bad loan terms inside celebratory closing fanfare",
+      "opening slide for a module on how excitement around homebuying can obscure critical disclosures",
+      "representing a servicer whose authoritative image hides ballooning hidden fees",
+      "metaphor for a borrower juggling too many financial obligations at once and losing visibility",
+      "framing a discussion on identity verification — who is actually behind the transaction",
+      "capturing the tension between celebratory marketing and regulatory compliance requirements",
+      "visual hook for a predatory lending awareness section where cheerful packaging conceals risk"
+    ],
+    "avoid_for": [
+      "serious grief or financial hardship narratives where levity would feel dismissive",
+      "straightforward role-identification exercises where a clear face and archetype are needed",
+      "accessibility-focused content where face obscuring creates ambiguity problems",
+      "modules requiring demographic representation of a specific borrower community"
+    ],
+    "id": "char_015",
+    "filename": "personal-trainer-balloons.PNG"
+  },
+  {
+    "literal_description": "A 3D-rendered figure dressed in 19th-century pioneer woman attire with a bonnet, floral brown dress, lace collar, and apron bow, operating a modern Pioneer DJ turntable setup with headphones around her neck and one finger raised.",
+    "primary_subject": "pioneer woman",
+    "primary_action": "DJing on professional turntables",
+    "anachronism": true,
+    "tags": {
+      "concept": [
+        "unexpected expertise",
+        "tradition disrupted",
+        "hidden competence",
+        "mastery in disguise",
+        "collision of eras",
+        "surface vs. depth",
+        "control of the mix",
+        "commanding the room",
+        "anachronistic authority",
+        "adaptation"
+      ],
+      "mood": [
+        "playful",
+        "confident",
+        "surprising",
+        "empowering",
+        "absurdist"
+      ],
+      "domain": [
+        "modernization",
+        "technology",
+        "transition",
+        "expertise",
+        "generations",
+        "process",
+        "history",
+        "disclosure"
+      ],
+      "metaphor": [
+        "old vs. new",
+        "don't judge by appearance",
+        "unexpected mastery",
+        "tradition meets innovation",
+        "who's really in control"
+      ],
+      "demographic": [
+        "19th-century archetype",
+        "frontier-era woman",
+        "period costume figure",
+        "anachronistic expert"
+      ],
+      "visual": [
+        "bonnet",
+        "pioneer dress",
+        "DJ turntables",
+        "apron bow",
+        "headphones",
+        "raised finger"
+      ]
+    },
+    "mortgage_roles": [
+      "expert advisor",
+      "processor",
+      "underwriter"
+    ],
+    "use_cases": [
+      "Illustrating how a seasoned underwriter's old-school instincts still drive modern loan decisions",
+      "Opening a module on technology adoption in mortgage processing — looks dated, runs the show",
+      "Visualizing the moment a borrower realizes their 'old-fashioned' lender actually knows every digital tool",
+      "Header image for a lesson on disclosure timing — one hand on the controls, one finger signaling 'not yet'",
+      "Representing a processor who coordinates all moving parts and sets the pace of the transaction",
+      "Framing a quiz about who actually controls the closing timeline when parties seem mismatched"
+    ],
+    "avoid_for": [
+      "Serious fraud or predatory lending warnings — too playful and empowering in tone",
+      "Modules requiring cultural sensitivity around historical depictions of women or frontier settlers",
+      "High-stakes regulatory compliance sections where gravitas is required",
+      "First-time homebuyer onboarding where relatability and approachability are paramount"
+    ],
+    "id": "char_016",
+    "filename": "pioneer-dj-2.PNG"
+  },
+  {
+    "literal_description": "A person wearing inline roller skates and jeans with a brown belt carries an enormous, precarious stack of colorful boxes and shopping bags that completely obscures their upper body and face.",
+    "primary_subject": "roller-skating shopper",
+    "primary_action": "carrying an overwhelming, vision-blocking pile of purchases while on inline skates",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "overcommitment",
+        "loss of visibility",
+        "accumulation",
+        "instability",
+        "inability to stop",
+        "excess",
+        "blind momentum",
+        "burden of acquisition",
+        "poor judgment under load",
+        "compounding obligations"
+      ],
+      "mood": [
+        "overwhelmed",
+        "reckless optimism",
+        "chaotic energy",
+        "comic precariousness",
+        "oblivious urgency"
+      ],
+      "domain": [
+        "debt",
+        "assets",
+        "credit",
+        "mortgage",
+        "risk",
+        "finance",
+        "disclosure",
+        "process"
+      ],
+      "metaphor": [
+        "can't see where you're going",
+        "more than you can carry",
+        "speed without control",
+        "acquisition outpacing capacity",
+        "momentum that can't be stopped"
+      ],
+      "demographic": [
+        "adult consumer",
+        "contemporary casual",
+        "impulse archetype",
+        "retail culture participant"
+      ],
+      "visual": [
+        "inline skates",
+        "stacked boxes",
+        "shopping bags",
+        "jeans and belt",
+        "colorful parcels",
+        "obscured face"
+      ]
+    },
+    "mortgage_roles": [
+      "high-risk borrower",
+      "confused consumer",
+      "first-time homebuyer",
+      "co-borrower"
+    ],
+    "use_cases": [
+      "Illustrating a lesson on debt-to-income ratio when a borrower has taken on too many financial obligations before applying",
+      "Opening screen for a module on how accumulated consumer debt blinds applicants to their true financial picture",
+      "Visual metaphor for a borrower who cannot see the fine print because they are overwhelmed by the volume of loan documents",
+      "Header image for a section on why lenders pull a final credit check before closing — to catch last-minute shopping sprees",
+      "Anchor image for a case study on impulse purchasing tanking a mortgage approval at the eleventh hour",
+      "Intro card for a quiz on which types of new debt are forbidden during the loan origination window",
+      "Illustration of the concept of 'rolling into closing' with undisclosed liabilities still in hand"
+    ],
+    "avoid_for": [
+      "Serious fraud or predatory lending modules where levity would undercut the gravity of the harm",
+      "Sections addressing housing insecurity or foreclosure where the comic excess tone would feel dismissive",
+      "Regulatory compliance deep-dives requiring authoritative, sober visual framing",
+      "Content aimed at sophisticated or institutional investors who would find the consumer-chaos aesthetic misaligned"
+    ],
+    "id": "char_017",
+    "filename": "rollerskates-packages.PNG"
+  },
+  {
+    "literal_description": "A wetsuit-clad scuba diver seen from behind, dripping water, wearing fins, snorkel mask, and a yellow air tank, holds a canister vacuum cleaner that color-matches the tank.",
+    "primary_subject": "scuba diver",
+    "primary_action": "vacuuming",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "wrong tool for the job",
+        "misplaced expertise",
+        "thoroughness in hostile environments",
+        "preparation meets absurdity",
+        "underwater logic applied on dry land",
+        "specialized knowledge out of context",
+        "diligence",
+        "incompatibility"
+      ],
+      "mood": [
+        "deadpan humor",
+        "dutiful",
+        "oblivious",
+        "surreal calm"
+      ],
+      "domain": [
+        "process",
+        "compliance",
+        "risk",
+        "documentation",
+        "expertise",
+        "labor",
+        "disclosure"
+      ],
+      "metaphor": [
+        "specialized gear in the wrong environment",
+        "over-prepared for the wrong task",
+        "depth expertise applied to surface problems",
+        "cleaning up a mess you helped create"
+      ],
+      "demographic": [
+        "young adult",
+        "trained specialist",
+        "action-sport archetype"
+      ],
+      "visual": [
+        "wetsuit",
+        "scuba tank",
+        "swim fins",
+        "canister vacuum",
+        "water droplets",
+        "snorkel"
+      ]
+    },
+    "mortgage_roles": [
+      "processor",
+      "underwriter",
+      "confused consumer"
+    ],
+    "use_cases": [
+      "illustrating a processor who over-documents every file with equipment suited for a completely different job",
+      "header image for a module on using the wrong checklist or form for a given loan type",
+      "visual metaphor for an underwriter diving deep into conditions only to surface with findings that don't apply",
+      "representing the awkward post-closing cleanup when disclosures were missed earlier in the process",
+      "opener for a lesson on knowing which regulatory tool actually applies to a given scenario",
+      "depicting a borrower who arrives at closing with every document except the ones actually required"
+    ],
+    "avoid_for": [
+      "trust-building or relationship-focused advisor content where competence must read as unambiguous",
+      "serious fraud or predatory lending modules where absurdist tone would undercut gravity",
+      "content targeting senior borrowers where the youthful action-sport archetype creates demographic mismatch"
+    ],
+    "id": "char_018",
+    "filename": "scuba-vacuum.PNG"
+  },
+  {
+    "literal_description": "A soldier in rainbow camouflage uniform and olive tactical vest stands in a daisy field, holding a paint palette and painting a sunny meadow landscape on a wooden easel.",
+    "primary_subject": "soldier in rainbow camouflage gear",
+    "primary_action": "painting a peaceful landscape on an easel",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "hidden identity",
+        "unexpected gentleness",
+        "incongruity",
+        "duality",
+        "creative expression beneath rigid structure",
+        "visibility vs concealment",
+        "softness inside hardness",
+        "peaceful intent in aggressive framing"
+      ],
+      "mood": [
+        "whimsical",
+        "disarming",
+        "optimistic",
+        "absurdist",
+        "quietly subversive"
+      ],
+      "domain": [
+        "disclosure",
+        "identity",
+        "compliance",
+        "trust",
+        "risk",
+        "regulation",
+        "ethics",
+        "process"
+      ],
+      "metaphor": [
+        "warrior turned creator",
+        "camouflage as transparency paradox",
+        "hard exterior soft interior",
+        "unlikely expertise",
+        "armor meets vulnerability"
+      ],
+      "demographic": [
+        "military archetype",
+        "adult male-presenting figure",
+        "contemporary tactical gear",
+        "pride-coded color palette"
+      ],
+      "visual": [
+        "rainbow camouflage uniform",
+        "tactical vest",
+        "wooden easel",
+        "paint palette",
+        "daisy field",
+        "combat boots"
+      ]
+    },
+    "mortgage_roles": [
+      "underwriter",
+      "regulator",
+      "expert advisor",
+      "confused consumer"
+    ],
+    "use_cases": [
+      "illustrating a module on how underwriters appear intimidating but are evaluating your application with careful precision",
+      "opening slide for a lesson on disclosure requirements — the soldier's rainbow camo as a metaphor for 'nothing to hide'",
+      "sidebar image for a section explaining that regulators are not adversaries but guardians of fair lending",
+      "representing the surprising creativity involved in structuring a complex loan deal within rigid compliance rules",
+      "visualizing the concept that what looks aggressive on the surface (hard inquiries, strict DTI limits) may protect the borrower",
+      "quiz card prompt: 'Which mortgage professional must follow strict rules but exercises significant individual judgment?'"
+    ],
+    "avoid_for": [
+      "any module dealing with military veteran loan benefits, where the soldier imagery would be read literally and the absurdity would feel disrespectful",
+      "serious fraud or predatory lending scenarios where tonal levity undermines gravity",
+      "content targeting grieving or financially distressed borrowers where whimsy reads as dismissive"
+    ],
+    "id": "char_019",
+    "filename": "soldier-painting.PNG"
+  },
+  {
+    "literal_description": "A muscular shirtless male figure in navy blue wave-print swim trunks holds an oversized Japanese folding fan decorated with a Great Wave off Kanagawa motif in front of his face, concealing his identity.",
+    "primary_subject": "athletic shirtless male in swim trunks",
+    "primary_action": "hiding face behind an oversized decorative folding fan",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "concealment",
+        "identity obscurity",
+        "false presentation",
+        "surface versus substance",
+        "cultural cosplay",
+        "deliberate opacity",
+        "hidden risk",
+        "aesthetic misdirection",
+        "duality",
+        "exposure"
+      ],
+      "mood": [
+        "playful evasion",
+        "confident absurdity",
+        "disarming charm",
+        "calculated mystery"
+      ],
+      "domain": [
+        "identity",
+        "fraud",
+        "disclosure",
+        "risk",
+        "trust",
+        "compliance",
+        "mortgage",
+        "documentation"
+      ],
+      "metaphor": [
+        "hiding in plain sight",
+        "beauty masking danger",
+        "incomplete picture",
+        "style over substance",
+        "decorative obstruction"
+      ],
+      "demographic": [
+        "young adult male",
+        "beach archetype",
+        "fitness-forward aesthetic",
+        "contemporary casual"
+      ],
+      "visual": [
+        "folding fan",
+        "wave print",
+        "swim trunks",
+        "bare torso",
+        "Japanese textile motif",
+        "concealed face"
+      ]
+    },
+    "mortgage_roles": [
+      "fraudster",
+      "high-risk borrower",
+      "confused consumer"
+    ],
+    "use_cases": [
+      "illustrating a lesson on identity verification requirements during loan application",
+      "header image for a module on undisclosed liabilities and borrower concealment",
+      "visual hook for a quiz question about what lenders cannot see in a borrower's financial profile",
+      "thumbnail for a section on red flags in self-reported income documentation",
+      "accompanying a case study where appealing surface credentials hide disqualifying debt",
+      "opener for a fraud detection training segment on misrepresentation of borrower identity",
+      "metaphor slide for the concept that a strong credit score alone does not reveal the full borrower picture"
+    ],
+    "avoid_for": [
+      "trust-building or welcome screens meant to reassure first-time homebuyers",
+      "content celebrating successful closings or positive borrower outcomes",
+      "modules on transparent lender communication or ethical disclosure practices",
+      "any context requiring a clearly identifiable, relatable protagonist"
+    ],
+    "id": "char_020",
+    "filename": "swimmer-fan.PNG"
+  },
+  {
+    "literal_description": "Three women in Girl Scout-style uniforms with merit badge vests attempt to extinguish a flaming charcoal grill using three different methods: a metal bucket, a garden hose, and a fire extinguisher.",
+    "primary_subject": "merit-badge-wearing scout figures",
+    "primary_action": "simultaneously attempting to extinguish an out-of-control grill fire using redundant and conflicting methods",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "redundancy",
+        "over-preparation",
+        "conflicting interventions",
+        "escalation",
+        "well-intentioned incompetence",
+        "badge-earned authority vs real-world chaos",
+        "parallel problem-solving",
+        "loss of control",
+        "credential signaling",
+        "reactive vs proactive response"
+      ],
+      "mood": [
+        "frantic urgency",
+        "absurd earnestness",
+        "chaotic helpfulness",
+        "anxious competence",
+        "comedic panic"
+      ],
+      "domain": [
+        "risk",
+        "compliance",
+        "regulation",
+        "process",
+        "expertise",
+        "disclosure",
+        "authority",
+        "fraud"
+      ],
+      "metaphor": [
+        "too many cooks spoiling the broth",
+        "credentialed amateur vs real crisis",
+        "fighting fire with the wrong tools",
+        "bureaucratic overkill",
+        "parallel processes creating more chaos"
+      ],
+      "demographic": [
+        "young adult women",
+        "uniformed youth-organization archetype",
+        "merit-badge earner",
+        "rule-following achiever"
+      ],
+      "visual": [
+        "green merit badge vest",
+        "charcoal grill",
+        "fire extinguisher",
+        "metal bucket",
+        "garden hose",
+        "smoke and flame"
+      ]
+    },
+    "mortgage_roles": [
+      "confused consumer",
+      "processor",
+      "regulator"
+    ],
+    "use_cases": [
+      "Illustrating what happens when multiple parties all try to fix a loan file error simultaneously without coordinating",
+      "Opening slide for a module on why redundant disclosures can overwhelm rather than inform a borrower",
+      "Depicting the chaos of last-minute underwriting conditions piling up before closing",
+      "Representing a first-time homebuyer who has over-researched and brings conflicting advice from three different sources to the table",
+      "Showing how well-credentialed but inexperienced processors can escalate rather than resolve a compliance issue",
+      "Anchor image for a section on why having a single point of contact matters in loan servicing escalations",
+      "Metaphor for a borrower frantically responding to a Notice of Default with overlapping and incompatible remediation attempts"
+    ],
+    "avoid_for": [
+      "Calm, trust-building contexts like introducing a loan officer or explaining a straightforward pre-approval process",
+      "Modules celebrating professional expertise or credential value in mortgage advising",
+      "Serious fraud or predatory lending scenarios where the absurd tone would undercut the gravity",
+      "Content aimed at senior borrowers where the youth-organization aesthetic may feel condescending"
+    ],
+    "id": "char_021",
+    "filename": "troop-leaders-barbecue-grill-fire.PNG"
+  },
+  {
+    "literal_description": "A stylized female witch character seen from behind, wearing a black asymmetric dress with gold-trimmed jagged hem, purple underlayer, lace-up corset, black pointed hat with purple band, long wavy black-to-purple ombre hair, black heeled boots, and purple crystal pendant, holding a microphone stand with one hand.",
+    "primary_subject": "witch in full fantasy regalia",
+    "primary_action": "performing at a microphone stand",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "hidden identity",
+        "unexpected expertise",
+        "arcane knowledge made public",
+        "performance as persuasion",
+        "mystique undermined by modernity",
+        "unconventional authority",
+        "spellcasting as disclosure",
+        "secrecy turned outward",
+        "power dressed in costume"
+      ],
+      "mood": [
+        "enigmatic",
+        "theatrical",
+        "subversive",
+        "confident",
+        "uncanny"
+      ],
+      "domain": [
+        "disclosure",
+        "expertise",
+        "fraud",
+        "compliance",
+        "negotiation",
+        "trust",
+        "identity",
+        "regulation"
+      ],
+      "metaphor": [
+        "hidden knowledge brought to light",
+        "wolf in sheep's clothing",
+        "old world meets new medium",
+        "authority performing for an audience",
+        "mystery versus transparency"
+      ],
+      "demographic": [
+        "fantasy archetype",
+        "ageless feminine figure",
+        "occult practitioner",
+        "performer or public speaker"
+      ],
+      "visual": [
+        "witch hat",
+        "microphone stand",
+        "asymmetric black dress",
+        "purple crystal pendant",
+        "lace-up boots",
+        "ombre hair"
+      ]
+    },
+    "mortgage_roles": [
+      "expert advisor",
+      "predator",
+      "confused consumer",
+      "fraudster"
+    ],
+    "use_cases": [
+      "Illustrating a module on predatory lending where charm and mystique obscure harmful terms",
+      "Opening a section on required verbal disclosures — the witch who must finally speak plainly into the mic",
+      "Header image for a lesson on 'know your loan officer' — expertise that looks intimidating from the outside",
+      "Accompanying a quiz on spotting red flags in mortgage solicitations dressed up in appealing language",
+      "Visualizing the moment a borrower must step up and speak their terms aloud at negotiation or closing",
+      "Framing a segment on RESPA disclosure rules as breaking a spell of opacity",
+      "Tone-setter for a unit on identity verification — who is really standing at the closing table?"
+    ],
+    "avoid_for": [
+      "Straightforward first-time homebuyer journey content where approachability and warmth are required",
+      "Government or regulatory agency branding where fantasy imagery would undermine institutional credibility",
+      "Sections celebrating homeownership milestones, where the witch's ambiguity reads as ominous rather than empowering"
+    ],
+    "id": "char_022",
+    "filename": "witch-microphone.PNG"
+  },
+  {
+    "id": "prop_001",
+    "filename": "01-cozy-cottage.png",
+    "kind": "property",
+    "literal_description": "A 3D-rendered illustration of a cozy cottage against a plain background.",
+    "primary_subject": "cozy cottage",
+    "primary_action": "standing",
+    "tags": {
+      "concept": [],
+      "mood": [],
+      "domain": [
+        "property",
+        "real estate"
+      ],
+      "metaphor": [],
+      "demographic": [],
+      "visual": [
+        "cozy cottage"
+      ]
+    },
+    "mortgage_roles": [],
+    "use_cases": [],
+    "avoid_for": [],
+    "mortgage_relevance": [
+      "residential",
+      "home",
+      "property",
+      "purchase",
+      "real estate",
+      "mortgage"
+    ]
+  },
+  {
+    "id": "prop_002",
+    "filename": "02-city-townhouse.png",
+    "kind": "property",
+    "literal_description": "A 3D-rendered illustration of a city townhouse against a plain background.",
+    "primary_subject": "city townhouse",
+    "primary_action": "standing",
+    "tags": {
+      "concept": [],
+      "mood": [],
+      "domain": [
+        "property",
+        "real estate"
+      ],
+      "metaphor": [],
+      "demographic": [],
+      "visual": [
+        "city townhouse"
+      ]
+    },
+    "mortgage_roles": [],
+    "use_cases": [],
+    "avoid_for": [],
+    "mortgage_relevance": [
+      "residential",
+      "home",
+      "property",
+      "purchase",
+      "real estate",
+      "mortgage"
+    ]
+  },
+  {
+    "id": "prop_003",
+    "filename": "03-modern-minimalist-home.png",
+    "kind": "property",
+    "literal_description": "A 3D-rendered illustration of a modern minimalist home against a plain background.",
+    "primary_subject": "modern minimalist home",
+    "primary_action": "standing",
+    "tags": {
+      "concept": [],
+      "mood": [],
+      "domain": [
+        "property",
+        "real estate"
+      ],
+      "metaphor": [],
+      "demographic": [],
+      "visual": [
+        "modern minimalist home"
+      ]
+    },
+    "mortgage_roles": [],
+    "use_cases": [],
+    "avoid_for": [],
+    "mortgage_relevance": [
+      "residential",
+      "home",
+      "property",
+      "purchase",
+      "real estate",
+      "mortgage"
+    ]
+  },
+  {
+    "id": "prop_004",
+    "filename": "04-a-frame-retreat.png",
+    "kind": "property",
+    "literal_description": "A 3D-rendered illustration of a A-frame retreat against a plain background.",
+    "primary_subject": "A-frame retreat",
+    "primary_action": "standing",
+    "tags": {
+      "concept": [],
+      "mood": [],
+      "domain": [
+        "property",
+        "real estate"
+      ],
+      "metaphor": [],
+      "demographic": [],
+      "visual": [
+        "A-frame retreat"
+      ]
+    },
+    "mortgage_roles": [],
+    "use_cases": [],
+    "avoid_for": [],
+    "mortgage_relevance": [
+      "residential",
+      "home",
+      "property",
+      "purchase",
+      "real estate",
+      "mortgage"
+    ]
+  },
+  {
+    "id": "prop_005",
+    "filename": "05-mediterranean-villa.png",
+    "kind": "property",
+    "literal_description": "A 3D-rendered illustration of a Mediterranean villa against a plain background.",
+    "primary_subject": "Mediterranean villa",
+    "primary_action": "standing",
+    "tags": {
+      "concept": [],
+      "mood": [],
+      "domain": [
+        "property",
+        "real estate"
+      ],
+      "metaphor": [],
+      "demographic": [],
+      "visual": [
+        "Mediterranean villa"
+      ]
+    },
+    "mortgage_roles": [],
+    "use_cases": [],
+    "avoid_for": [],
+    "mortgage_relevance": [
+      "residential",
+      "home",
+      "property",
+      "purchase",
+      "real estate",
+      "mortgage"
+    ]
+  },
+  {
+    "id": "prop_006",
+    "filename": "06-corner-coffee-shop.png",
+    "kind": "property",
+    "literal_description": "A 3D-rendered illustration of a corner coffee shop against a plain background.",
+    "primary_subject": "corner coffee shop",
+    "primary_action": "standing",
+    "tags": {
+      "concept": [],
+      "mood": [],
+      "domain": [
+        "property",
+        "real estate"
+      ],
+      "metaphor": [],
+      "demographic": [],
+      "visual": [
+        "corner coffee shop"
+      ]
+    },
+    "mortgage_roles": [],
+    "use_cases": [],
+    "avoid_for": [],
+    "mortgage_relevance": [
+      "commercial",
+      "business",
+      "property",
+      "real estate",
+      "mortgage"
+    ]
+  },
+  {
+    "id": "prop_007",
+    "filename": "07-neighborhood-bookstore.png",
+    "kind": "property",
+    "literal_description": "A 3D-rendered illustration of a neighborhood bookstore against a plain background.",
+    "primary_subject": "neighborhood bookstore",
+    "primary_action": "standing",
+    "tags": {
+      "concept": [],
+      "mood": [],
+      "domain": [
+        "property",
+        "real estate"
+      ],
+      "metaphor": [],
+      "demographic": [],
+      "visual": [
+        "neighborhood bookstore"
+      ]
+    },
+    "mortgage_roles": [],
+    "use_cases": [],
+    "avoid_for": [],
+    "mortgage_relevance": [
+      "commercial",
+      "business",
+      "property",
+      "real estate",
+      "mortgage"
+    ]
+  },
+  {
+    "id": "prop_008",
+    "filename": "08-retro-diner.png",
+    "kind": "property",
+    "literal_description": "A 3D-rendered illustration of a retro diner against a plain background.",
+    "primary_subject": "retro diner",
+    "primary_action": "standing",
+    "tags": {
+      "concept": [],
+      "mood": [],
+      "domain": [
+        "property",
+        "real estate"
+      ],
+      "metaphor": [],
+      "demographic": [],
+      "visual": [
+        "retro diner"
+      ]
+    },
+    "mortgage_roles": [],
+    "use_cases": [],
+    "avoid_for": [],
+    "mortgage_relevance": [
+      "commercial",
+      "business",
+      "property",
+      "real estate",
+      "mortgage"
+    ]
+  },
+  {
+    "id": "prop_009",
+    "filename": "09-plant-shop.png",
+    "kind": "property",
+    "literal_description": "A 3D-rendered illustration of a plant shop against a plain background.",
+    "primary_subject": "plant shop",
+    "primary_action": "standing",
+    "tags": {
+      "concept": [],
+      "mood": [],
+      "domain": [
+        "property",
+        "real estate"
+      ],
+      "metaphor": [],
+      "demographic": [],
+      "visual": [
+        "plant shop"
+      ]
+    },
+    "mortgage_roles": [],
+    "use_cases": [],
+    "avoid_for": [],
+    "mortgage_relevance": [
+      "commercial",
+      "business",
+      "property",
+      "real estate",
+      "mortgage"
+    ]
+  },
+  {
+    "id": "prop_010",
+    "filename": "10-bakery.png",
+    "kind": "property",
+    "literal_description": "A 3D-rendered illustration of a bakery against a plain background.",
+    "primary_subject": "bakery",
+    "primary_action": "standing",
+    "tags": {
+      "concept": [],
+      "mood": [],
+      "domain": [
+        "property",
+        "real estate"
+      ],
+      "metaphor": [],
+      "demographic": [],
+      "visual": [
+        "bakery"
+      ]
+    },
+    "mortgage_roles": [],
+    "use_cases": [],
+    "avoid_for": [],
+    "mortgage_relevance": [
+      "commercial",
+      "business",
+      "property",
+      "real estate",
+      "mortgage"
+    ]
+  },
+  {
+    "id": "prop_011",
+    "filename": "11-small-apartment.png",
+    "kind": "property",
+    "literal_description": "A 3D-rendered illustration of a small apartment against a plain background.",
+    "primary_subject": "small apartment",
+    "primary_action": "standing",
+    "tags": {
+      "concept": [],
+      "mood": [],
+      "domain": [
+        "property",
+        "real estate"
+      ],
+      "metaphor": [],
+      "demographic": [],
+      "visual": [
+        "small apartment"
+      ]
+    },
+    "mortgage_roles": [],
+    "use_cases": [],
+    "avoid_for": [],
+    "mortgage_relevance": [
+      "residential",
+      "home",
+      "property",
+      "purchase",
+      "real estate",
+      "mortgage"
+    ]
+  },
+  {
+    "id": "prop_012",
+    "filename": "12-beach-house.png",
+    "kind": "property",
+    "literal_description": "A 3D-rendered illustration of a beach house against a plain background.",
+    "primary_subject": "beach house",
+    "primary_action": "standing",
+    "tags": {
+      "concept": [],
+      "mood": [],
+      "domain": [
+        "property",
+        "real estate"
+      ],
+      "metaphor": [],
+      "demographic": [],
+      "visual": [
+        "beach house"
+      ]
+    },
+    "mortgage_roles": [],
+    "use_cases": [],
+    "avoid_for": [],
+    "mortgage_relevance": [
+      "residential",
+      "home",
+      "property",
+      "purchase",
+      "real estate",
+      "mortgage"
+    ]
+  },
+  {
+    "id": "prop_013",
+    "filename": "13-tiny-house.png",
+    "kind": "property",
+    "literal_description": "A 3D-rendered illustration of a tiny house against a plain background.",
+    "primary_subject": "tiny house",
+    "primary_action": "standing",
+    "tags": {
+      "concept": [],
+      "mood": [],
+      "domain": [
+        "property",
+        "real estate"
+      ],
+      "metaphor": [],
+      "demographic": [],
+      "visual": [
+        "tiny house"
+      ]
+    },
+    "mortgage_roles": [],
+    "use_cases": [],
+    "avoid_for": [],
+    "mortgage_relevance": [
+      "residential",
+      "home",
+      "property",
+      "purchase",
+      "real estate",
+      "mortgage"
+    ]
+  },
+  {
+    "id": "prop_014",
+    "filename": "14-industrial-loft.png",
+    "kind": "property",
+    "literal_description": "A 3D-rendered illustration of a industrial loft against a plain background.",
+    "primary_subject": "industrial loft",
+    "primary_action": "standing",
+    "tags": {
+      "concept": [],
+      "mood": [],
+      "domain": [
+        "property",
+        "real estate"
+      ],
+      "metaphor": [],
+      "demographic": [],
+      "visual": [
+        "industrial loft"
+      ]
+    },
+    "mortgage_roles": [],
+    "use_cases": [],
+    "avoid_for": [],
+    "mortgage_relevance": [
+      "residential",
+      "home",
+      "property",
+      "purchase",
+      "real estate",
+      "mortgage"
+    ]
+  },
+  {
+    "id": "prop_015",
+    "filename": "15-carnival-funhouse.png",
+    "kind": "property",
+    "literal_description": "A 3D-rendered illustration of a carnival funhouse against a plain background.",
+    "primary_subject": "carnival funhouse",
+    "primary_action": "standing",
+    "tags": {
+      "concept": [],
+      "mood": [],
+      "domain": [
+        "property",
+        "real estate"
+      ],
+      "metaphor": [],
+      "demographic": [],
+      "visual": [
+        "carnival funhouse"
+      ]
+    },
+    "mortgage_roles": [],
+    "use_cases": [],
+    "avoid_for": [],
+    "mortgage_relevance": [
+      "property",
+      "unconventional",
+      "real estate"
+    ]
+  },
+  {
+    "id": "prop_016",
+    "filename": "16-gym.png",
+    "kind": "property",
+    "literal_description": "A 3D-rendered illustration of a gym against a plain background.",
+    "primary_subject": "gym",
+    "primary_action": "standing",
+    "tags": {
+      "concept": [],
+      "mood": [],
+      "domain": [
+        "property",
+        "real estate"
+      ],
+      "metaphor": [],
+      "demographic": [],
+      "visual": [
+        "gym"
+      ]
+    },
+    "mortgage_roles": [],
+    "use_cases": [],
+    "avoid_for": [],
+    "mortgage_relevance": [
+      "commercial",
+      "business",
+      "property",
+      "real estate",
+      "mortgage"
+    ]
+  },
+  {
+    "id": "prop_017",
+    "filename": "17-laundromat.png",
+    "kind": "property",
+    "literal_description": "A 3D-rendered illustration of a laundromat against a plain background.",
+    "primary_subject": "laundromat",
+    "primary_action": "standing",
+    "tags": {
+      "concept": [],
+      "mood": [],
+      "domain": [
+        "property",
+        "real estate"
+      ],
+      "metaphor": [],
+      "demographic": [],
+      "visual": [
+        "laundromat"
+      ]
+    },
+    "mortgage_roles": [],
+    "use_cases": [],
+    "avoid_for": [],
+    "mortgage_relevance": [
+      "commercial",
+      "business",
+      "property",
+      "real estate",
+      "mortgage"
+    ]
+  },
+  {
+    "id": "prop_018",
+    "filename": "18-library.png",
+    "kind": "property",
+    "literal_description": "A 3D-rendered illustration of a library against a plain background.",
+    "primary_subject": "library",
+    "primary_action": "standing",
+    "tags": {
+      "concept": [],
+      "mood": [],
+      "domain": [
+        "property",
+        "real estate"
+      ],
+      "metaphor": [],
+      "demographic": [],
+      "visual": [
+        "library"
+      ]
+    },
+    "mortgage_roles": [],
+    "use_cases": [],
+    "avoid_for": [],
+    "mortgage_relevance": [
+      "commercial",
+      "business",
+      "property",
+      "real estate",
+      "mortgage"
+    ]
+  },
+  {
+    "id": "prop_019",
+    "filename": "19-music-venue.png",
+    "kind": "property",
+    "literal_description": "A 3D-rendered illustration of a music venue against a plain background.",
+    "primary_subject": "music venue",
+    "primary_action": "standing",
+    "tags": {
+      "concept": [],
+      "mood": [],
+      "domain": [
+        "property",
+        "real estate"
+      ],
+      "metaphor": [],
+      "demographic": [],
+      "visual": [
+        "music venue"
+      ]
+    },
+    "mortgage_roles": [],
+    "use_cases": [],
+    "avoid_for": [],
+    "mortgage_relevance": [
+      "commercial",
+      "business",
+      "property",
+      "real estate",
+      "mortgage"
+    ]
+  },
+  {
+    "id": "prop_020",
+    "filename": "20-lighthouse.png",
+    "kind": "property",
+    "literal_description": "A 3D-rendered illustration of a lighthouse against a plain background.",
+    "primary_subject": "lighthouse",
+    "primary_action": "standing",
+    "tags": {
+      "concept": [],
+      "mood": [],
+      "domain": [
+        "property",
+        "real estate"
+      ],
+      "metaphor": [],
+      "demographic": [],
+      "visual": [
+        "lighthouse"
+      ]
+    },
+    "mortgage_roles": [],
+    "use_cases": [],
+    "avoid_for": [],
+    "mortgage_relevance": [
+      "property",
+      "unique",
+      "real estate"
+    ]
+  }
+]

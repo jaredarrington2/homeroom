@@ -1,0 +1,299 @@
+{
+  "chapter_id": "federal-mortgage-laws",
+  "section_id": "respa",
+  "section_title": "RESPA – Real Estate Settlement Procedures Act",
+  "chapter_title": "Federal Mortgage-Related Laws",
+  "page_range": {
+    "start": 31,
+    "end": 50
+  },
+  "summary": "This section covers the regulatory framework governing mortgage lending, focusing on the CFPB (created by Dodd-Frank in 2010) and HUD (created in 1965), including their functions, oversight authority, complaint processes, FHA loan programs, Fair Housing Act protections, and the various roles within the mortgage industry.",
+  "concepts": [
+    {
+      "id": "cfpb-creation-purpose",
+      "term": "Consumer Financial Protection Bureau (CFPB)",
+      "definition": "An independent bureau within the Federal Reserve System established by Title X of the Dodd-Frank Act in 2010 to regulate consumer financial products and protect consumers from unfair, deceptive, or abusive practices.",
+      "why_it_exists": "The 2008 subprime mortgage crisis exposed a near-total lack of regulatory oversight, enabling predatory lending that caused mass foreclosures, unemployment, and economic collapse.",
+      "examples": [
+        {
+          "scenario": "A borrower believes a lender charged illegal fees on their mortgage.",
+          "outcome": "The borrower submits a complaint at consumerfinance.gov; the CFPB forwards it to the lender, which must respond within 15 days, and the response is published in the Consumer Complaint Database."
+        }
+      ],
+      "cross_refs": [
+        "cfpb-six-core-functions",
+        "cfpb-complaint-process",
+        "dodd-frank-act"
+      ],
+      "check_questions": [
+        {
+          "question": "What legislation created the CFPB, and when was it signed into law?",
+          "answer": "The Dodd-Frank Wall Street Reform and Consumer Protection Act, signed on July 21, 2010.",
+          "type": "recall"
+        },
+        {
+          "question": "Although the CFPB sits within the Federal Reserve System, can the Board of Governors remove its Director or intervene in its enforcement actions?",
+          "answer": "No — the CFPB maintains autonomy; the Board of Governors cannot intervene in proceedings, appoint or remove CFPB officers, or merge the Bureau with any Federal Reserve division.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "cfpb-six-core-functions",
+      "term": "CFPB's six core functions",
+      "definition": "The six primary activities the CFPB is charged with: eliminating unfair/deceptive/abusive acts, enforcing anti-discrimination laws, accepting consumer complaints, providing financial education, researching consumer experiences, and monitoring markets for new risks.",
+      "why_it_exists": "A single centralized mandate ensures consistent consumer protection across all financial products and prevents regulatory gaps that enabled the 2008 crisis.",
+      "examples": [
+        {
+          "scenario": "The CFPB notices a new type of short-term digital lending product with hidden fees spreading rapidly.",
+          "outcome": "Using its market-monitoring function, the CFPB investigates, writes new rules, and takes enforcement action against violating companies."
+        }
+      ],
+      "cross_refs": [
+        "cfpb-creation-purpose",
+        "cfpb-complaint-process"
+      ],
+      "check_questions": [
+        {
+          "question": "Name three of the CFPB's six core functions.",
+          "answer": "Any three of: rooting out unfair/deceptive/abusive practices; enforcing anti-discrimination laws; taking consumer complaints; enhancing financial education; researching consumer experience; monitoring markets for new risks.",
+          "type": "recall"
+        },
+        {
+          "question": "A consumer is charged a hidden fee on a payday loan. Which CFPB core function most directly addresses this complaint?",
+          "answer": "Rooting out unfair, deceptive, or abusive acts or practices by writing rules, supervising companies, and enforcing the law.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "cfpb-complaint-process",
+      "term": "CFPB complaint filing process",
+      "definition": "A process by which any consumer who believes they were treated inappropriately by a financial institution submits a complaint via consumerfinance.gov, which the CFPB routes to the company for a response, then publishes in its Consumer Complaint Database.",
+      "why_it_exists": "Centralizing complaints gives regulators data to identify systemic abuse and hold companies accountable without requiring consumers to navigate multiple agencies.",
+      "examples": [
+        {
+          "scenario": "A borrower complains about a mortgage servicer misapplying payments.",
+          "outcome": "CFPB forwards the complaint to the servicer; if the servicer's issue is better handled by another agency, CFPB redirects the complaint there."
+        }
+      ],
+      "cross_refs": [
+        "cfpb-creation-purpose",
+        "cfpb-six-core-functions"
+      ],
+      "check_questions": [
+        {
+          "question": "How long do most companies have to respond to a CFPB complaint?",
+          "answer": "15 days.",
+          "type": "recall"
+        },
+        {
+          "question": "What happens if the CFPB determines a different agency is better suited to handle a complaint?",
+          "answer": "The CFPB forwards the complaint to that more appropriate agency.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "hud-purpose-structure",
+      "term": "Department of Housing and Urban Development (HUD)",
+      "definition": "A federal cabinet department created by the Department of Housing and Urban Development Act of 1965, responsible for national housing policy, community development programs, and enforcement of fair housing laws.",
+      "why_it_exists": "Congress recognized that uncoordinated local housing efforts were insufficient to address national needs for safe, affordable housing and equal access.",
+      "examples": [
+        {
+          "scenario": "A low-income family cannot afford market-rate rent.",
+          "outcome": "HUD's Section 8 program provides housing choice vouchers to subsidize the family's rent in privately owned housing."
+        }
+      ],
+      "cross_refs": [
+        "fha-loan-programs",
+        "fair-housing-act-protections",
+        "homeownership-counseling"
+      ],
+      "check_questions": [
+        {
+          "question": "What year was HUD established, and what act created it?",
+          "answer": "1965, through the Department of Housing and Urban Development Act of 1965.",
+          "type": "recall"
+        },
+        {
+          "question": "Which HUD division is specifically responsible for enforcing the Fair Housing Act and other civil rights laws?",
+          "answer": "The Office of Fair Housing and Equal Opportunity (FHEO).",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "fha-loan-programs",
+      "term": "FHA mortgage loan programs",
+      "definition": "A suite of government-backed mortgage products administered through HUD's Federal Housing Administration, offering borrowers easier qualification terms than conventional loans for a variety of property types and borrower situations.",
+      "why_it_exists": "The FHA was created after the Great Depression to stabilize the housing market by insuring lenders against default risk, enabling lending to borrowers with limited down payments or credit challenges.",
+      "examples": [
+        {
+          "scenario": "A first-time buyer wants to purchase a fixer-upper but cannot afford both a purchase price and renovation costs.",
+          "outcome": "The buyer uses an FHA 203(k) rehabilitation loan, which wraps the purchase and renovation costs into a single FHA-insured mortgage."
+        }
+      ],
+      "cross_refs": [
+        "hud-purpose-structure",
+        "homeownership-counseling"
+      ],
+      "check_questions": [
+        {
+          "question": "Which FHA loan program is the standard fixed-rate FHA mortgage, and which is the FHA reverse mortgage?",
+          "answer": "FHA 203(b) is the standard fixed-rate loan; FHA 255 is the reverse mortgage (Home Equity Conversion Mortgage).",
+          "type": "recall"
+        },
+        {
+          "question": "A senior homeowner wants to convert home equity into income without selling. Which FHA program applies?",
+          "answer": "FHA 255 — the Home Equity Conversion Mortgage (reverse mortgage).",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "homeownership-counseling",
+      "term": "Homeownership counseling disclosure requirement",
+      "definition": "A mandatory lender disclosure, required within three business days of most mortgage applications, that informs applicants about independent HUD-approved homeownership counseling and lists at least ten nearby HUD-approved counseling agencies.",
+      "why_it_exists": "Because MLOs are compensated only when loans close, independent counselors provide an unbiased perspective on whether a mortgage is truly in the borrower's best interest.",
+      "examples": [
+        {
+          "scenario": "A borrower submits a mortgage application on Monday.",
+          "outcome": "By Thursday (three business days later), the lender must deliver the Homeownership Counseling Disclosure listing at least ten nearby HUD-approved counseling agencies."
+        }
+      ],
+      "cross_refs": [
+        "hud-purpose-structure",
+        "fha-loan-programs"
+      ],
+      "check_questions": [
+        {
+          "question": "For which loan type does HUD actually require homeownership counseling as a condition of consummation?",
+          "answer": "The Home Equity Conversion Mortgage (FHA 255 reverse mortgage).",
+          "type": "recall"
+        },
+        {
+          "question": "What are the two types of loan applications exempt from the homeownership counseling disclosure requirement?",
+          "answer": "Reverse mortgages and timeshare plans.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "fair-housing-act-protections",
+      "term": "Fair Housing Act protected classes and prohibitions",
+      "definition": "The Fair Housing Act, enforced by HUD's FHEO, prohibits discrimination in any housing-related activity — including renting, selling, lending, and advertising — based on race, color, national origin, religion, sex (including gender identity and sexual orientation), familial status, or disability.",
+      "why_it_exists": "Systemic housing discrimination historically prevented minority and other vulnerable groups from building wealth through homeownership, creating long-lasting economic inequality.",
+      "examples": [
+        {
+          "scenario": "A real estate broker steers an Asian buyer away from his preferred neighborhood toward a predominantly Asian neighborhood.",
+          "outcome": "This constitutes illegal steering — a form of race discrimination — and the buyer may file a complaint with HUD.",
+          "type": "application"
+        }
+      ],
+      "cross_refs": [
+        "hud-purpose-structure",
+        "mortgage-lending-discrimination"
+      ],
+      "check_questions": [
+        {
+          "question": "List the seven protected classes under the Fair Housing Act.",
+          "answer": "Race, color, national origin, religion, sex (including gender identity and sexual orientation), familial status, and disability.",
+          "type": "recall"
+        },
+        {
+          "question": "A landlord's policy bars children from the building's common patio. Does this violate the Fair Housing Act, and if so, on what basis?",
+          "answer": "Yes — it constitutes familial status discrimination, which is prohibited by the Fair Housing Act.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "mortgage-industry-roles",
+      "term": "Mortgage industry participant roles",
+      "definition": "The distinct entities and functions within the mortgage ecosystem — including mortgage brokers (who arrange but don't fund loans), mortgage lenders/retail lenders (who fund directly), wholesale lenders (who fund through intermediaries), warehouse lenders (who provide short-term credit lines to fund loans), correspondent lenders (who originate and immediately sell to GSEs), portfolio lenders (who use their own funds and guidelines), and mortgage servicers (who collect payments and manage escrow).",
+      "why_it_exists": "Specialization allows capital, risk, and customer relationships to be distributed efficiently across the market, enabling broader access to mortgage credit.",
+      "examples": [
+        {
+          "scenario": "A small credit union originates a mortgage but lacks the capital to hold it.",
+          "outcome": "It draws on a wholesale lender's funding, closes the loan, sells it to a correspondent investor to repay the line, and the investor's servicer takes over payment collection."
+        }
+      ],
+      "cross_refs": [
+        "cfpb-creation-purpose",
+        "fha-loan-programs"
+      ],
+      "check_questions": [
+        {
+          "question": "What is the key difference between a mortgage broker and a mortgage lender?",
+          "answer": "A mortgage broker arranges loans and acts as the borrower's agent but does not fund loans; a mortgage lender supplies its own money to fund the loans its originators originate.",
+          "type": "distinction"
+        },
+        {
+          "question": "A borrower has highly unusual income documentation that no standard investor will accept. Which type of lender is most likely to accommodate them, and why?",
+          "answer": "A portfolio lender — because it funds loans with its own money and can set its own underwriting parameters rather than conforming to GSE or investor guidelines.",
+          "type": "application"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "July 21, 2010",
+      "what_it_means": "Date President Obama signed the Dodd-Frank Wall Street Reform and Consumer Protection Act into law, creating the CFPB.",
+      "memorize_as": "Dodd-Frank signed 7/21/2010"
+    },
+    {
+      "value": "5 years",
+      "what_it_means": "The term of office for the CFPB Director, who is appointed by the President.",
+      "memorize_as": "CFPB Director = 5-year term"
+    },
+    {
+      "value": "15 days",
+      "what_it_means": "The typical timeframe within which companies respond to CFPB consumer complaints.",
+      "memorize_as": "CFPB complaint response = 15 days"
+    },
+    {
+      "value": "3 business days",
+      "what_it_means": "The deadline by which lenders must issue the Homeownership Counseling Disclosure after receiving a mortgage application.",
+      "memorize_as": "Counseling disclosure due within 3 business days of application"
+    },
+    {
+      "value": "10",
+      "what_it_means": "The minimum number of HUD-approved counseling agencies that must be listed on the Homeownership Counseling Disclosure.",
+      "memorize_as": "Counseling disclosure must list at least 10 HUD-approved agencies"
+    },
+    {
+      "value": "1965",
+      "what_it_means": "Year HUD was established by the Department of Housing and Urban Development Act.",
+      "memorize_as": "HUD created 1965"
+    },
+    {
+      "value": "4 units or fewer",
+      "what_it_means": "Owner-occupied buildings with no more than four units are exempt from Fair Housing Act coverage.",
+      "memorize_as": "Fair Housing exemption: owner-occupied ≤4 units"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "Mortgage broker vs. mortgage lender",
+      "the_distinction": "A mortgage broker arranges loans on behalf of the borrower and is paid through origination/broker fees but never funds the loan itself; a mortgage lender uses its own or warehouse funds to actually close and fund the loan."
+    },
+    {
+      "often_confused_with": "Wholesale lender vs. warehouse lender",
+      "the_distinction": "A wholesale lender funds loans originated by brokers and smaller institutions and works with those intermediaries (not borrowers directly); a warehouse lender provides a line of credit to banks and mortgage bankers so they can fund their own loans, and is repaid when the funded loan is sold to an investor."
+    },
+    {
+      "often_confused_with": "CFPB autonomy vs. Federal Reserve oversight",
+      "the_distinction": "Although the CFPB is housed within the Federal Reserve System, the Board of Governors has no authority to intervene in CFPB proceedings, appoint or remove its staff, or merge it with any Federal Reserve division — the CFPB is operationally independent."
+    },
+    {
+      "often_confused_with": "Homeownership counseling required vs. recommended",
+      "the_distinction": "HUD only mandates independent homeownership counseling as a loan condition for reverse mortgages (HECM/FHA 255); for all other mortgage applications (except reverse mortgages and timeshare plans), lenders must issue the disclosure within 3 business days but counseling itself is voluntary — and the borrower pays any associated costs."
+    },
+    {
+      "often_confused_with": "Portfolio lender vs. correspondent lender",
+      "the_distinction": "A portfolio lender retains the loans it originates using its own funds and its own underwriting guidelines; a correspondent lender originates loans but immediately sells them to sponsors like Fannie Mae or Freddie Mac upon funding and must follow those investors' underwriting guidelines."
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "chapter_id": "mlo-activities",
+  "section_id": "application",
+  "section_title": "Application",
+  "chapter_title": "MLO Activities",
+  "page_range": {
+    "start": 391,
+    "end": 415
+  },
+  "summary": "This section covers the URLA mortgage application's asset, liability, real estate, declaration, demographic, and lender-information sections, detailing what must be documented in each and the rules governing how assets like mutual funds and retirement accounts are valued. It also addresses HMDA demographic collection, the Unmarried Addendum, and the Lender Loan Information Form.",
+  "concepts": [
+    {
+      "id": "mutual-fund-120-percent-rule",
+      "term": "Mutual fund 120% rule",
+      "definition": "If at least one mutual fund account equals or exceeds 120% of the total cash needed to close, all mutual funds may be counted at face value without requiring evidence of liquidation.",
+      "why_it_exists": "Mutual funds fluctuate in value, so lenders need assurance that enough liquid value exists to cover closing costs without forcing a premature sale.",
+      "examples": [
+        {
+          "scenario": "Borrower needs $158,700 to close and holds all assets in mutual funds.",
+          "outcome": "If at least one mutual fund is worth $190,440 or more ($158,700 × 120%), all funds count at face value; otherwise the borrower must liquidate and document the full paper trail."
+        }
+      ],
+      "cross_refs": [
+        "retirement-account-120-percent-rule",
+        "asset-documentation-requirements"
+      ],
+      "check_questions": [
+        {
+          "question": "A borrower needs $200,000 to close. What is the minimum value one mutual fund must reach for all mutual funds to be accepted at face value?",
+          "answer": "$240,000 ($200,000 × 120%).",
+          "type": "application"
+        },
+        {
+          "question": "If mutual funds are used solely to satisfy reserve requirements, must the 120% threshold still be met?",
+          "answer": "No — mutual funds used only for reserves may be considered at face value regardless of whether any single fund reaches 120% of closing costs.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "retirement-account-120-percent-rule",
+      "term": "Retirement account 120% rule",
+      "definition": "Retirement accounts may be counted at face value only if at least one account equals or exceeds 120% of total funds needed to close; otherwise, the vested interest must be discounted to net liquidated value.",
+      "why_it_exists": "Early withdrawal penalties and taxes reduce the actual cash available from retirement accounts, so lenders discount the value unless a large cushion exists.",
+      "examples": [
+        {
+          "scenario": "Borrower has a 401(k) worth $300,000 and needs $250,000 to close.",
+          "outcome": "Because $300,000 ≥ $250,000 × 120% ($300,000), the account may be counted at full face value."
+        }
+      ],
+      "cross_refs": [
+        "mutual-fund-120-percent-rule",
+        "asset-documentation-requirements"
+      ],
+      "check_questions": [
+        {
+          "question": "When may retirement accounts be considered at 100% of face value for reserve purposes without meeting the 120% threshold?",
+          "answer": "When the retirement funds are used solely to satisfy reserve requirements, 100% of their face values may be used.",
+          "type": "recall"
+        },
+        {
+          "question": "What value is used for retirement accounts when no single account reaches 120% of funds needed to close?",
+          "answer": "The net liquidated value of the borrower's vested interest.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "asset-documentation-requirements",
+      "term": "Asset documentation requirements",
+      "definition": "MLOs must review all pages of all asset statements, enter the ending balance from the most recent statement, record complete account numbers, and be prepared to explain any unusual credits under the USA PATRIOT Act.",
+      "why_it_exists": "Complete documentation prevents fraud, ensures accurate underwriting decisions, and satisfies federal anti-money-laundering obligations.",
+      "examples": [
+        {
+          "scenario": "A borrower arrives at application without statements.",
+          "outcome": "The MLO asks for the ending balance of the most recent statement and enters that figure; the actual statements must still be reviewed before closing."
+        }
+      ],
+      "cross_refs": [
+        "mutual-fund-120-percent-rule",
+        "section-2b-other-assets"
+      ],
+      "check_questions": [
+        {
+          "question": "What balance figure should the MLO enter for a checking account on the application?",
+          "answer": "The ending balance from the most recent statement.",
+          "type": "recall"
+        },
+        {
+          "question": "Under what law must a borrower be prepared to justify credits on their bank statements that do not match their income pattern?",
+          "answer": "The USA PATRIOT Act.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "section-2b-other-assets",
+      "term": "Section 2b – Other assets and credits",
+      "definition": "Section 2b documents non-traditional assets (such as proceeds from property sales, secured/unsecured borrowed funds) and credits like earnest money, sweat equity, and trade equity.",
+      "why_it_exists": "These items affect the borrower's available funds and the lender's risk assessment but do not appear on standard bank statements.",
+      "examples": [
+        {
+          "scenario": "Borrower wants to count their car as an asset.",
+          "outcome": "The vehicle must be appraised, any outstanding lien must be subtracted from the appraised value, and a clean title or lien release must be provided."
+        }
+      ],
+      "cross_refs": [
+        "asset-documentation-requirements"
+      ],
+      "check_questions": [
+        {
+          "question": "A borrower lists a vehicle as an asset. What two documents are needed to establish its net value?",
+          "answer": "An appraisal (to determine the vehicle's value) and a current title showing no liens or a lien release for any existing lien.",
+          "type": "application"
+        },
+        {
+          "question": "Which section documents earnest money and sweat equity?",
+          "answer": "Section 2b.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "liability-population-tips",
+      "term": "Liability population rules",
+      "definition": "When importing liabilities from a credit report into a loan origination system, the MLO must manually correct for duplicate accounts, add open revolving accounts with zero balances, and supply missing payment amounts.",
+      "why_it_exists": "Inaccurate liabilities distort the debt-to-income ratio, which can cause approval of loans the borrower cannot afford or rejection of creditworthy applicants.",
+      "examples": [
+        {
+          "scenario": "The same credit card appears twice because Experian shows six digits and TransUnion shows four digits of the account number.",
+          "outcome": "The MLO deletes the duplicate entry and documents the reason for the deletion to preserve an accurate DTI."
+        }
+      ],
+      "cross_refs": [
+        "section-2d-other-liabilities"
+      ],
+      "check_questions": [
+        {
+          "question": "A home equity line of credit with a zero balance does not populate from the credit report. What should the MLO do?",
+          "answer": "Manually add the account to the liability section, because the balance could become positive at any time.",
+          "type": "application"
+        },
+        {
+          "question": "What is the exception that allows an MLO to omit a missing payment amount for an installment debt?",
+          "answer": "If the installment debt has 10 or fewer months remaining (though common sense should prevail).",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "section-2d-other-liabilities",
+      "term": "Section 2d – Other liabilities and expenses",
+      "definition": "Section 2d captures legally obligated recurring expenses — such as alimony, child support, separate maintenance, and job-related expenses — that do not appear on a credit report.",
+      "why_it_exists": "These obligations reduce the borrower's available income and must be counted in the DTI to avoid over-extending the borrower.",
+      "examples": [
+        {
+          "scenario": "A borrower is court-ordered to pay $1,200/month in alimony.",
+          "outcome": "The lender may either add $1,200 as a monthly liability or reduce the borrower's gross monthly income by $1,200 — not both."
+        }
+      ],
+      "cross_refs": [
+        "liability-population-tips"
+      ],
+      "check_questions": [
+        {
+          "question": "What document must the MLO obtain to verify a borrower's obligation to pay child support?",
+          "answer": "A copy of the court order establishing the obligation and the amount owed.",
+          "type": "recall"
+        },
+        {
+          "question": "How may a lender treat a monthly alimony payment differently from other liabilities?",
+          "answer": "The lender may reduce the borrower's gross monthly income by the alimony amount instead of treating it as a liability.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "hmda-section-8-demographic-collection",
+      "term": "HMDA demographic collection (Section 8)",
+      "definition": "Federal law requires lenders to collect race, ethnicity, and sex information from mortgage applicants to monitor compliance with fair lending laws; applicants may decline, but MLOs must follow specific rules when they do.",
+      "why_it_exists": "The Home Mortgage Disclosure Act uses demographic data to detect discriminatory lending patterns and ensure equitable access to credit.",
+      "examples": [
+        {
+          "scenario": "A borrower refuses to provide race information during an in-person application.",
+          "outcome": "The MLO must inform the borrower that federal law requires the MLO to record the information based on visual observation or surname, and then enter only the primary category headings — no subcategories."
+        }
+      ],
+      "cross_refs": [
+        "non-face-to-face-demographic-rule"
+      ],
+      "check_questions": [
+        {
+          "question": "If an applicant refuses to self-identify during a non-face-to-face application, what should the MLO do?",
+          "answer": "Check all three 'I do not wish to provide this information' boxes and enter nothing further; the MLO must never substitute their own observation.",
+          "type": "distinction"
+        },
+        {
+          "question": "What federal act requires collection of demographic information on residential mortgage applications?",
+          "answer": "The Home Mortgage Disclosure Act (HMDA).",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "leasehold-estate-mortgage-rule",
+      "term": "Leasehold estate mortgage rule",
+      "definition": "When the subject property is on a leasehold (borrower owns the structure but not the land), the land lease must outlast the mortgage term by at least five years, or the transaction cannot proceed without a lease extension, buyout, or escrowed funds.",
+      "why_it_exists": "If the land lease expires before the loan is paid off, the lender's collateral could lose its legal foundation, impairing the security interest.",
+      "examples": [
+        {
+          "scenario": "A 30-year mortgage is sought on a leasehold property whose land lease expires in 32 years.",
+          "outcome": "The lease expires only 2 years after the loan matures, falling short of the required 5-year buffer; the lease must be extended, bought out, or funds escrowed, or the application will likely be declined."
+        }
+      ],
+      "cross_refs": [
+        "section-l2-title-information"
+      ],
+      "check_questions": [
+        {
+          "question": "By how many years must a land lease outlive the mortgage term for a leasehold property to qualify for financing?",
+          "answer": "At least five years.",
+          "type": "recall"
+        },
+        {
+          "question": "What are three remedies available when a leasehold's remaining term does not meet the required buffer?",
+          "answer": "Renew or extend the lease, buy out the lease, or deposit sufficient funds into an escrow account to cover the lease buyout for the loan's duration.",
+          "type": "application"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "120%",
+      "what_it_means": "Minimum ratio of a single mutual fund or retirement account balance to total funds needed to close that allows all accounts of that type to be counted at face value.",
+      "memorize_as": "One account ≥ 120% of closing funds → no liquidation evidence required."
+    },
+    {
+      "value": "75%",
+      "what_it_means": "When tax returns are unavailable, use 75% of gross rental income (minus PITI) to estimate net rental income, accounting for vacancy potential.",
+      "memorize_as": "No tax return → 75% of gross rent minus PITI."
+    },
+    {
+      "value": "10 months",
+      "what_it_means": "An installment debt with 10 or fewer months remaining may be excluded from the liability section even if the payment amount is missing.",
+      "memorize_as": "≤10 months left on installment = possible omission."
+    },
+    {
+      "value": "5 years",
+      "what_it_means": "A land lease on a leasehold property must extend at least 5 years beyond the mortgage's maturity date.",
+      "memorize_as": "Lease must outlive mortgage by 5+ years."
+    },
+    {
+      "value": "7 years",
+      "what_it_means": "Look-back period for foreclosures, pre-foreclosure sales, short sales, deeds-in-lieu, and bankruptcy disclosures in Section 5b.",
+      "memorize_as": "7-year look-back for foreclosure/bankruptcy declarations."
+    },
+    {
+      "value": "3 years",
+      "what_it_means": "Look-back period for prior property ownership disclosure when the borrower intends to occupy the subject property as a primary residence (Section 5a).",
+      "memorize_as": "3-year look-back for prior homeownership declaration."
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "Using 100% of retirement account face value for closing vs. for reserves",
+      "the_distinction": "For closing costs, a retirement account counts at full face value only if one account ≥ 120% of funds needed to close; for reserve purposes only, 100% of face value is always allowed."
+    },
+    {
+      "often_confused_with": "Face-to-face vs. non-face-to-face demographic refusal procedures",
+      "the_distinction": "In-person refusal → MLO records information based on visual observation or surname (primary headings only). Non-face-to-face refusal → MLO checks 'do not wish to provide' boxes and records nothing; MLO cannot substitute their own judgment even if they later confirm the applicant's characteristics."
+    },
+    {
+      "often_confused_with": "Alimony as a liability vs. an income reduction",
+      "the_distinction": "A lender may treat monthly alimony as either a liability added to the debt side of DTI or a deduction from gross income — but not both simultaneously."
+    },
+    {
+      "often_confused_with": "Fee simple estate vs. leasehold estate",
+      "the_distinction": "Fee simple means the borrower owns both the land and the improvements; leasehold means the borrower owns the improvements but leases the land, requiring the lease to outlast the mortgage by at least five years."
+    }
+  ]
+}

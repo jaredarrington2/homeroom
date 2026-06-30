@@ -1,0 +1,278 @@
+{
+  "parts": [
+    {
+      "id": "all",
+      "title": "SAFE MLO Course",
+      "chapters": [
+        {
+          "id": "front-matter",
+          "title": "Introduction to Mortgage Lending",
+          "sections": [
+            {
+              "id": "rules-of-conduct",
+              "title": "Rules of Conduct",
+              "pageRange": [
+                1,
+                15
+              ]
+            },
+            {
+              "id": "course-logistics",
+              "title": "Course Logistics",
+              "pageRange": [
+                16,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "id": "federal-mortgage-laws",
+          "title": "Federal Mortgage-Related Laws",
+          "sections": [
+            {
+              "id": "respa",
+              "title": "RESPA – Real Estate Settlement Procedures Act",
+              "pageRange": [
+                31,
+                50
+              ]
+            },
+            {
+              "id": "ecoa",
+              "title": "ECOA – Equal Credit Opportunity Act",
+              "pageRange": [
+                51,
+                70
+              ]
+            },
+            {
+              "id": "tila",
+              "title": "TILA – Truth in Lending Act",
+              "pageRange": [
+                71,
+                100
+              ]
+            },
+            {
+              "id": "hoepa",
+              "title": "HOEPA – Home Ownership and Equity Protection Act",
+              "pageRange": [
+                101,
+                115
+              ]
+            },
+            {
+              "id": "trid",
+              "title": "TRID – TILA-RESPA Integrated Disclosure",
+              "pageRange": [
+                116,
+                145
+              ]
+            },
+            {
+              "id": "hmda",
+              "title": "HMDA – Home Mortgage Disclosure Act",
+              "pageRange": [
+                146,
+                165
+              ]
+            },
+            {
+              "id": "fcra-facta",
+              "title": "FCRA & FACTA",
+              "pageRange": [
+                166,
+                190
+              ]
+            },
+            {
+              "id": "ftc-red-flags",
+              "title": "FTC Red Flags Rule",
+              "pageRange": [
+                191,
+                205
+              ]
+            },
+            {
+              "id": "bsa-aml",
+              "title": "BSA/AML – Bank Secrecy Act and Anti-Money Laundering",
+              "pageRange": [
+                206,
+                225
+              ]
+            },
+            {
+              "id": "glba",
+              "title": "GLBA – Gramm-Leach-Bliley Act",
+              "pageRange": [
+                226,
+                240
+              ]
+            },
+            {
+              "id": "dnc-tsr",
+              "title": "DNC/TSR – Do Not Call and Telemarketing Sales Rule",
+              "pageRange": [
+                241,
+                252
+              ]
+            },
+            {
+              "id": "maps",
+              "title": "MAPs – Mortgage Assistance Relief Services",
+              "pageRange": [
+                253,
+                270
+              ]
+            }
+          ]
+        },
+        {
+          "id": "general-mortgage-knowledge",
+          "title": "General Mortgage Knowledge",
+          "sections": [
+            {
+              "id": "loan-products",
+              "title": "Loan Products",
+              "pageRange": [
+                271,
+                310
+              ]
+            },
+            {
+              "id": "loan-programs",
+              "title": "Loan Programs",
+              "pageRange": [
+                311,
+                350
+              ]
+            },
+            {
+              "id": "mortgage-terminology",
+              "title": "Mortgage Terminology",
+              "pageRange": [
+                351,
+                390
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mlo-activities",
+          "title": "MLO Activities",
+          "sections": [
+            {
+              "id": "application",
+              "title": "Application",
+              "pageRange": [
+                391,
+                415
+              ]
+            },
+            {
+              "id": "qualification",
+              "title": "Qualification",
+              "pageRange": [
+                416,
+                440
+              ]
+            },
+            {
+              "id": "processing-underwriting",
+              "title": "Processing and Underwriting",
+              "pageRange": [
+                441,
+                470
+              ]
+            },
+            {
+              "id": "appraisals",
+              "title": "Appraisals",
+              "pageRange": [
+                471,
+                490
+              ]
+            },
+            {
+              "id": "title",
+              "title": "Title",
+              "pageRange": [
+                491,
+                505
+              ]
+            },
+            {
+              "id": "closing",
+              "title": "Closing",
+              "pageRange": [
+                506,
+                520
+              ]
+            },
+            {
+              "id": "mortgage-math",
+              "title": "Mortgage Math",
+              "pageRange": [
+                521,
+                540
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ethics",
+          "title": "Ethics",
+          "sections": [
+            {
+              "id": "fraud",
+              "title": "Mortgage Fraud",
+              "pageRange": [
+                541,
+                552
+              ]
+            },
+            {
+              "id": "fair-lending",
+              "title": "Fair Lending",
+              "pageRange": [
+                553,
+                562
+              ]
+            },
+            {
+              "id": "prohibited-practices",
+              "title": "Prohibited Practices",
+              "pageRange": [
+                563,
+                570
+              ]
+            }
+          ]
+        },
+        {
+          "id": "uniform-state-content",
+          "title": "Uniform State Content",
+          "sections": [
+            {
+              "id": "safe-act",
+              "title": "SAFE Act",
+              "pageRange": [
+                571,
+                585
+              ]
+            },
+            {
+              "id": "licensing-standards",
+              "title": "Licensing Standards",
+              "pageRange": [
+                586,
+                600
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -34,3 +34,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# source material (copyrighted ebook — never commit)
+source/
+emlo.pdf
+
+# local env
+.env.local
+.env*
+*.local

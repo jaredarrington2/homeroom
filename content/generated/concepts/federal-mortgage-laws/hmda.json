@@ -1,0 +1,308 @@
+{
+  "chapter_id": "federal-mortgage-laws",
+  "section_id": "hmda",
+  "section_title": "HMDA – Home Mortgage Disclosure Act",
+  "chapter_title": "Federal Mortgage-Related Laws",
+  "page_range": {
+    "start": 146,
+    "end": 165
+  },
+  "summary": "The Home Mortgage Disclosure Act (HMDA), enacted in 1975 and implemented via Regulation C, requires most depository and non-depository financial institutions to collect and report mortgage application data to help identify discriminatory lending patterns, assess community lending needs, and guide public investment. The section also covers which institutions and transactions are covered or exempt, reporting deadlines, data retention rules, and MLO responsibilities for collecting applicant demographic information.",
+  "concepts": [
+    {
+      "id": "hmda-purpose-and-origin",
+      "term": "HMDA – purpose and origin",
+      "definition": "HMDA (1975), implemented via Regulation C, requires covered lenders to report mortgage data to reveal whether they are serving communities fairly, guide public investment, and expose discriminatory lending.",
+      "why_it_exists": "Congress needed a tool to detect redlining and other inequitable lending practices that left underserved communities without access to mortgage credit.",
+      "examples": [
+        {
+          "scenario": "A bank consistently denies applications from a majority-minority census tract despite applicants meeting credit standards.",
+          "outcome": "HMDA data flags the pattern as potential redlining, triggering regulatory scrutiny and possible anti-discrimination enforcement."
+        }
+      ],
+      "cross_refs": [
+        "redlining",
+        "hmda-covered-institutions",
+        "hmda-reporting-requirements"
+      ],
+      "check_questions": [
+        {
+          "question": "What are HMDA's three stated purposes?",
+          "answer": "To determine whether lenders serve community housing needs, help public officials direct investment to underserved areas, and identify discriminatory lending patterns.",
+          "type": "recall"
+        },
+        {
+          "question": "Which federal regulation implements HMDA?",
+          "answer": "Regulation C (12 CFR § 1003).",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "hmda-covered-institutions",
+      "term": "HMDA covered institutions – depository vs. non-depository",
+      "definition": "A depository institution (bank, savings association, credit union) must report under HMDA if it exceeds the CFPB asset threshold, has an MSA office, originated at least one qualifying first-lien home purchase or refinance loan, is federally insured or regulated, and meets the 25 closed-end or 200 open-end origination minimums in each of the two prior years; a non-depository for-profit lender must report if it has an MSA office and meets the same origination minimums.",
+      "why_it_exists": "Covering both bank and non-bank lenders prevents large portions of the mortgage market from escaping transparency requirements.",
+      "examples": [
+        {
+          "scenario": "A non-bank mortgage company originates 30 closed-end loans in each of the past two years and has a branch in an MSA.",
+          "outcome": "It qualifies as a covered non-depository institution and must comply with HMDA reporting."
+        }
+      ],
+      "cross_refs": [
+        "hmda-purpose-and-origin",
+        "hmda-exempt-transactions"
+      ],
+      "check_questions": [
+        {
+          "question": "How many closed-end mortgage loans must a financial institution originate in each of the two preceding calendar years to be covered under HMDA?",
+          "answer": "At least 25 non-excluded closed-end mortgage loans.",
+          "type": "recall"
+        },
+        {
+          "question": "A credit union has a branch in an MSA and originated 20 closed-end loans each year for the past two years. Must it report under HMDA?",
+          "answer": "No — it falls below the 25 closed-end loan threshold in both preceding years, so it is not a covered depository institution.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "hmda-exempt-transactions",
+      "term": "HMDA exempt transactions",
+      "definition": "Certain loan types are excluded from HMDA data collection, including loans on unimproved land, temporary financing, agricultural loans, purely business/commercial loans (unless also a home purchase, home improvement, or refinance), loans under $500, and institutions below the closed-end or open-end origination thresholds.",
+      "why_it_exists": "Exemptions limit the reporting burden to transactions most relevant to residential housing access and fair lending oversight.",
+      "examples": [
+        {
+          "scenario": "A lender issues a $400 closed-end mortgage loan.",
+          "outcome": "The loan is exempt from HMDA because its total dollar amount is below $500."
+        }
+      ],
+      "cross_refs": [
+        "hmda-covered-institutions"
+      ],
+      "check_questions": [
+        {
+          "question": "Is a business-purpose mortgage loan always exempt from HMDA?",
+          "answer": "No — a business-purpose loan that is also a home purchase loan, home improvement loan, or refinancing is still reportable.",
+          "type": "distinction"
+        },
+        {
+          "question": "What origination threshold exempts a lender from reporting open-end lines of credit under HMDA?",
+          "answer": "Fewer than 200 open-end lines of credit in either of the two preceding calendar years.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "redlining",
+      "term": "Redlining",
+      "definition": "Redlining is the practice of a financial institution deliberately avoiding doing business in specific geographic areas, typically socioeconomically depressed or majority-minority communities.",
+      "why_it_exists": "Lenders historically denied service to certain neighborhoods based on race or income, and HMDA data was designed to detect and deter this practice.",
+      "examples": [
+        {
+          "scenario": "A lender's HMDA data shows zero applications processed from three adjacent majority-minority zip codes over five years.",
+          "outcome": "Regulators use this data pattern as evidence of potential redlining and open a fair lending examination."
+        }
+      ],
+      "cross_refs": [
+        "hmda-purpose-and-origin",
+        "hmda-reporting-requirements"
+      ],
+      "check_questions": [
+        {
+          "question": "What does redlining mean in a lending context?",
+          "answer": "A financial institution refuses to conduct business within particular MSAs or neighborhoods, often those that are economically distressed or predominantly minority.",
+          "type": "recall"
+        },
+        {
+          "question": "Does HMDA give all consumers the right to receive any loan product?",
+          "answer": "No — HMDA ensures equal access to pursue financial products, but consumers must still demonstrate qualification and ability to pay.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "hmda-reporting-requirements",
+      "term": "HMDA reporting requirements – annual and quarterly",
+      "definition": "Covered institutions must submit their Loan/Application Register (L/AR) annually by March 1 following the data-collection year, or quarterly within 60 days after each of the first three calendar quarters if they reported 60,000 or more covered loans and applications (excluding purchased loans) in the prior year.",
+      "why_it_exists": "Regular, standardized reporting lets regulators monitor lending patterns in near-real time and identify disparities before they compound.",
+      "examples": [
+        {
+          "scenario": "A large bank reported 75,000 covered loans in 2023.",
+          "outcome": "It must file quarterly L/AR reports within 60 days after Q1, Q2, and Q3, plus the annual report by March 1, 2025."
+        }
+      ],
+      "cross_refs": [
+        "hmda-covered-institutions",
+        "hmda-document-retention",
+        "loan-application-register"
+      ],
+      "check_questions": [
+        {
+          "question": "By what date must a covered institution submit its annual HMDA L/AR?",
+          "answer": "By March 1 following the calendar year for which data was collected.",
+          "type": "recall"
+        },
+        {
+          "question": "What loan volume threshold triggers quarterly HMDA reporting?",
+          "answer": "At least 60,000 covered loans and applications (excluding purchased loans) reported in the preceding calendar year.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "hmda-document-retention",
+      "term": "HMDA document retention",
+      "definition": "Covered institutions must keep underlying data and records used to compile HMDA reports for at least five years, and must keep the submitted L/AR itself for at least three years from the date of submission.",
+      "why_it_exists": "Multi-year retention allows regulators to audit past submissions and investigate potential violations that surface after the fact.",
+      "examples": [
+        {
+          "scenario": "A lender submits its 2023 annual L/AR on February 28, 2024.",
+          "outcome": "The institution must retain the submitted L/AR until at least February 28, 2027, and keep the supporting records for five years from collection."
+        }
+      ],
+      "cross_refs": [
+        "hmda-reporting-requirements",
+        "loan-application-register"
+      ],
+      "check_questions": [
+        {
+          "question": "How long must a covered institution retain the underlying data used to compile its HMDA report?",
+          "answer": "At least five years.",
+          "type": "recall"
+        },
+        {
+          "question": "How long must the submitted L/AR itself be retained?",
+          "answer": "At least three years from the date of submission.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "loan-application-register",
+      "term": "Loan/Application Register (L/AR)",
+      "definition": "The L/AR is both the internal record of required HMDA data points collected during the year and the standardized report submitted to the appropriate federal agency annually or quarterly.",
+      "why_it_exists": "A uniform register ensures consistent, comparable data across all covered institutions, enabling meaningful national and regional fair lending analysis.",
+      "examples": [
+        {
+          "scenario": "A mortgage company completes 300 applications in a calendar year.",
+          "outcome": "It records required data points for each application in the L/AR throughout the year and submits the completed register electronically by March 1."
+        }
+      ],
+      "cross_refs": [
+        "hmda-reporting-requirements",
+        "hmda-document-retention",
+        "mlo-demographic-collection"
+      ],
+      "check_questions": [
+        {
+          "question": "What is the Loan/Application Register?",
+          "answer": "The record of required HMDA data that covered institutions collect and then submit to federal regulators annually or quarterly.",
+          "type": "recall"
+        },
+        {
+          "question": "Who must certify the accuracy and completeness of the submitted L/AR?",
+          "answer": "An authorized representative of the financial institution with knowledge of the submitted data.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "mlo-demographic-collection",
+      "term": "MLO responsibility for demographic data collection",
+      "definition": "On a face-to-face application, the MLO must ask the applicant to self-identify race, national origin, and sex; if the applicant refuses, the MLO must record those fields based on visual observation; if the applicant self-identifies in a way the MLO disagrees with, the MLO must still record the applicant's stated self-identification.",
+      "why_it_exists": "Accurate demographic data on the L/AR is essential for detecting disparate treatment, so the law mandates collection and prohibits MLOs from substituting their own judgment for the applicant's self-identification.",
+      "examples": [
+        {
+          "scenario": "An applicant declines to state his race during a face-to-face application.",
+          "outcome": "The MLO must record race based on visual observation of the applicant and note the refusal."
+        }
+      ],
+      "cross_refs": [
+        "loan-application-register",
+        "redlining"
+      ],
+      "check_questions": [
+        {
+          "question": "What must an MLO do if a face-to-face applicant refuses to self-identify race, national origin, or sex?",
+          "answer": "The MLO must record those fields based on visual observation of the applicant.",
+          "type": "application"
+        },
+        {
+          "question": "If an applicant self-identifies in a way that contradicts the MLO's own perception, whose identification governs the HMDA data fields?",
+          "answer": "The applicant's self-identification governs; the MLO must record what the applicant stated.",
+          "type": "application"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "1975",
+      "what_it_means": "Year HMDA was enacted.",
+      "memorize_as": "HMDA 1975, Regulation C"
+    },
+    {
+      "value": "March 1",
+      "what_it_means": "Annual L/AR submission deadline for covered institutions.",
+      "memorize_as": "Annual HMDA filing due March 1"
+    },
+    {
+      "value": "60 calendar days",
+      "what_it_means": "Deadline to submit a quarterly L/AR after the end of Q1, Q2, or Q3.",
+      "memorize_as": "Quarterly HMDA = 60 days after quarter-end (not Q4)"
+    },
+    {
+      "value": "60,000",
+      "what_it_means": "Combined covered loans and applications (excluding purchased loans) in the prior year that triggers quarterly reporting.",
+      "memorize_as": "60,000 loans = quarterly filer"
+    },
+    {
+      "value": "25",
+      "what_it_means": "Minimum closed-end mortgage loan originations in each of the two preceding years needed to qualify as a covered institution.",
+      "memorize_as": "25 closed-end = covered"
+    },
+    {
+      "value": "200",
+      "what_it_means": "Minimum open-end line of credit originations in each of the two preceding years needed to qualify as a covered institution (also the threshold below which open-end lines are exempt).",
+      "memorize_as": "200 open-end = covered"
+    },
+    {
+      "value": "$500",
+      "what_it_means": "Loans with a total dollar amount below $500 are exempt from HMDA reporting.",
+      "memorize_as": "Under $500 = HMDA exempt"
+    },
+    {
+      "value": "3 years",
+      "what_it_means": "Minimum retention period for the submitted L/AR from the date of submission.",
+      "memorize_as": "L/AR submitted → keep 3 years"
+    },
+    {
+      "value": "5 years",
+      "what_it_means": "Minimum retention period for underlying data and records used to compile HMDA reports.",
+      "memorize_as": "Supporting records → keep 5 years"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "3-year vs. 5-year retention under HMDA",
+      "the_distinction": "The submitted L/AR must be kept for 3 years from submission; the underlying data and records used to compile reports must be kept for 5 years."
+    },
+    {
+      "often_confused_with": "Annual vs. quarterly HMDA reporting",
+      "the_distinction": "All covered institutions file annually by March 1; only those that reported 60,000+ covered loans/applications in the prior year must also file quarterly (within 60 days of Q1–Q3 end)."
+    },
+    {
+      "often_confused_with": "HMDA guaranteeing loan access vs. equal access to apply",
+      "the_distinction": "HMDA ensures every person has equal access to pursue mortgage products, but a consumer must still qualify; the law does not entitle anyone to a loan."
+    },
+    {
+      "often_confused_with": "25-loan threshold for closed-end loans vs. 200 for open-end lines",
+      "the_distinction": "Closed-end coverage triggers at 25 originations; open-end line coverage triggers at 200 originations — both measured in each of the two preceding calendar years."
+    },
+    {
+      "often_confused_with": "Business-purpose loans always being HMDA-exempt",
+      "the_distinction": "A business-purpose loan is exempt unless it is also a home purchase loan, home improvement loan, or a refinancing — those remain reportable regardless of primary purpose."
+    }
+  ]
+}

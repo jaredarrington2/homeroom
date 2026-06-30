@@ -1,0 +1,326 @@
+{
+  "chapter_id": "federal-mortgage-laws",
+  "section_id": "maps",
+  "section_title": "MAPs – Mortgage Assistance Relief Services",
+  "chapter_title": "Federal Mortgage-Related Laws",
+  "page_range": {
+    "start": 253,
+    "end": 270
+  },
+  "summary": "The SAFE Act established the NMLS to register and license all mortgage loan originators, setting uniform standards for pre-licensing education, testing, annual renewal, and enforcement. This section covers who must be licensed, exemptions, application requirements, continuing education, prohibited conduct, and enforcement authority.",
+  "concepts": [
+    {
+      "id": "safe-act-purpose-nmls",
+      "term": "SAFE Act and NMLS purpose",
+      "definition": "The SAFE Act created the Nationwide Mortgage Licensing System and Registry to standardize MLO licensing, improve regulatory oversight, reduce fraud, and give consumers free access to originator history.",
+      "why_it_exists": "Pre-SAFE Act mortgage origination lacked uniform oversight, enabling fraud and consumer harm during the subprime lending era.",
+      "examples": [
+        {
+          "scenario": "A consumer wants to verify whether a loan originator has disciplinary actions.",
+          "outcome": "The consumer can search the NMLS at no charge to view the originator's employment history and any publicly adjudicated enforcement actions."
+        }
+      ],
+      "cross_refs": [
+        "registered-vs-state-licensed-mlo",
+        "exempt-entity-definition"
+      ],
+      "check_questions": [
+        {
+          "question": "What federal law created the NMLS?",
+          "answer": "The SAFE Act (Secure and Fair Enforcement for Mortgage Licensing Act), codified at 12 U.S.C. Chapter 51.",
+          "type": "recall"
+        },
+        {
+          "question": "What is the cost to consumers for accessing an MLO's employment and disciplinary history through the NMLS?",
+          "answer": "No charge — it is provided free to consumers through electronic media.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "exempt-entity-definition",
+      "term": "Exempt entity",
+      "definition": "A depository institution, a subsidiary owned and controlled by a depository institution and regulated by a federal banking agency, or an institution regulated by the Farm Credit Administration (FCA) that is registered with the NMLS.",
+      "why_it_exists": "These entities are already subject to federal banking supervision, so their MLO employees (registered loan originators) do not need an additional state MLO license.",
+      "examples": [
+        {
+          "scenario": "A loan originator works for a federally chartered bank.",
+          "outcome": "The originator is a registered loan originator who must have an NMLS unique identifier but does not need a state-issued MLO license."
+        }
+      ],
+      "cross_refs": [
+        "registered-vs-state-licensed-mlo",
+        "exemptions-from-nmls-licensure"
+      ],
+      "check_questions": [
+        {
+          "question": "Does an MLO employed by a credit union need a state-issued MLO license?",
+          "answer": "No — a credit union is a depository institution and an exempt entity, so its MLO employees register rather than obtain a state license.",
+          "type": "application"
+        },
+        {
+          "question": "Which federal bodies regulate exempt entities under the SAFE Act?",
+          "answer": "The Federal Reserve, OCC, NCUA, FDIC (collectively 'federal banking agencies'), and the Farm Credit Administration.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "registered-vs-state-licensed-mlo",
+      "term": "Registered vs. state-licensed loan originator",
+      "definition": "A registered loan originator works for an exempt entity and only needs an NMLS unique identifier, while a state-licensed loan originator does not work for an exempt entity and must hold a state-issued MLO license plus an NMLS unique identifier.",
+      "why_it_exists": "The distinction ensures all originators are tracked through the NMLS while recognizing that bank employees are already supervised by federal banking regulators.",
+      "examples": [
+        {
+          "scenario": "An originator leaves a bank (exempt entity) to work for a mortgage brokerage.",
+          "outcome": "The originator must now obtain a state-issued MLO license and meet all SAFE Act licensing requirements."
+        }
+      ],
+      "cross_refs": [
+        "exempt-entity-definition",
+        "exemptions-from-nmls-licensure"
+      ],
+      "check_questions": [
+        {
+          "question": "What is the key difference between a registered MLO and a state-licensed MLO?",
+          "answer": "A registered MLO works for an exempt entity and only needs an NMLS unique identifier; a state-licensed MLO works for a non-exempt entity and must hold a state-issued license.",
+          "type": "distinction"
+        },
+        {
+          "question": "Can a contract (1099) loan processor work without an MLO license?",
+          "answer": "No — independent contract processors and underwriters must hold a state-licensed MLO license in every state where the properties they work on are located.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "exemptions-from-nmls-licensure",
+      "term": "Exemptions from NMLS licensure",
+      "definition": "Certain individuals are not required to obtain a state MLO license: registered MLOs at exempt entities, individuals originating a loan for an immediate family member, individuals refinancing their own residence, and attorneys handling a mortgage as ancillary to client representation (unless compensated by a lender or broker).",
+      "why_it_exists": "These situations involve limited or personal transactions that do not present the same consumer-protection risks as commercial origination activity.",
+      "examples": [
+        {
+          "scenario": "A parent helps a child obtain a mortgage and negotiates the loan terms.",
+          "outcome": "The parent is exempt from NMLS licensing because the transaction involves an immediate family member."
+        }
+      ],
+      "cross_refs": [
+        "registered-vs-state-licensed-mlo",
+        "loan-originator-definition"
+      ],
+      "check_questions": [
+        {
+          "question": "Is an attorney who negotiates mortgage terms for a client always exempt from MLO licensing?",
+          "answer": "Only if it is ancillary to representation and the attorney is not compensated by a lender, mortgage broker, or their agent — if compensated by those parties, the exemption does not apply.",
+          "type": "application"
+        },
+        {
+          "question": "Name two individuals exempt from NMLS state licensure.",
+          "answer": "A registered MLO employed by an exempt entity, and an individual negotiating a mortgage solely on behalf of an immediate family member.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "pre-licensing-education",
+      "term": "Pre-licensing education (PLE)",
+      "definition": "MLO licensing candidates must complete at least 20 hours of NMLS-approved education covering federal law (3 hrs), ethics/fraud/fair lending (3 hrs), and non-traditional mortgage products (2 hrs), with remaining hours at the provider's discretion.",
+      "why_it_exists": "Ensures every new MLO has baseline knowledge of federal law, ethical obligations, and non-traditional lending before originating loans.",
+      "examples": [
+        {
+          "scenario": "A candidate completes a 20-hour NMLS-approved PLE course that satisfies all component requirements.",
+          "outcome": "That single course satisfies the PLE requirement for all states; however, individual states may require additional state-specific PLE hours."
+        }
+      ],
+      "cross_refs": [
+        "pre-licensing-testing",
+        "continuing-education"
+      ],
+      "check_questions": [
+        {
+          "question": "How many total hours of pre-licensing education does the SAFE Act require?",
+          "answer": "At least 20 hours of NMLS-approved education.",
+          "type": "recall"
+        },
+        {
+          "question": "How many hours of the 20-hour PLE must cover ethics, fraud, consumer protection, and fair lending?",
+          "answer": "Three (3) hours.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "pre-licensing-testing",
+      "term": "Pre-licensing examination",
+      "definition": "Candidates must pass a 120-question NMLS-developed written exam with a score of at least 75%, covering ethics, federal and state mortgage law, fraud, consumer protection, and the non-traditional mortgage marketplace.",
+      "why_it_exists": "A standardized passing threshold ensures every licensed MLO has demonstrated minimum competency before originating loans.",
+      "examples": [
+        {
+          "scenario": "A candidate fails the exam three times in a row.",
+          "outcome": "The candidate must wait six months before attempting the exam again; each subsequent failure restarts the 30-day-between-attempts rule."
+        }
+      ],
+      "cross_refs": [
+        "pre-licensing-education",
+        "mlo-license-renewal"
+      ],
+      "check_questions": [
+        {
+          "question": "What is the minimum passing score on the NMLS national licensing exam?",
+          "answer": "75% correct answers.",
+          "type": "recall"
+        },
+        {
+          "question": "An MLO let her license lapse in 2018 and never acted as a registered MLO. She wants to reapply in 2024. Must she retake the exam?",
+          "answer": "Yes — her license lapsed for more than five years without acting as a registered MLO, so she must retake and pass the national exam.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "continuing-education",
+      "term": "Annual continuing education (CE)",
+      "definition": "State-licensed MLOs must complete at least 8 hours of NMLS-approved CE annually, including 3 hours of federal law, 2 hours of ethics/fraud/fair lending, and 2 hours of non-traditional mortgage products.",
+      "why_it_exists": "Keeps licensed MLOs current on legal and market changes and prevents knowledge gaps that could lead to consumer harm.",
+      "examples": [
+        {
+          "scenario": "An MLO teaches an approved CE course for one hour.",
+          "outcome": "The MLO receives two hours of CE credit toward her own annual requirement (2-for-1 instructor credit)."
+        }
+      ],
+      "cross_refs": [
+        "pre-licensing-education",
+        "mlo-license-renewal"
+      ],
+      "check_questions": [
+        {
+          "question": "How many total CE hours must a state-licensed MLO complete each year?",
+          "answer": "At least 8 hours of NMLS-approved continuing education.",
+          "type": "recall"
+        },
+        {
+          "question": "Can an MLO take the same approved CE course two years in a row to satisfy the annual requirement?",
+          "answer": "No — an MLO may not take the same approved course in the same or successive years.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "safe-act-prohibitions-enforcement",
+      "term": "SAFE Act prohibitions and enforcement",
+      "definition": "The SAFE Act prohibits fraudulent schemes, deceptive practices, unlicensed activity, false statements, appraisal influence, and advertising unavailable loan terms, and empowers State Commissioners and the CFPB to investigate, subpoena, impose fines up to $25,000 per violation, and revoke licenses.",
+      "why_it_exists": "Broad prohibitions and enforcement tools are necessary to deter misconduct and protect consumers from predatory or fraudulent originators.",
+      "examples": [
+        {
+          "scenario": "An MLO advertises a 3% interest rate that is not actually available to applicants.",
+          "outcome": "This violates the SAFE Act's prohibition on advertising specific loan terms that are not genuinely available; the Commissioner can fine the MLO up to $25,000 per violation."
+        }
+      ],
+      "cross_refs": [
+        "safe-act-purpose-nmls",
+        "registered-vs-state-licensed-mlo"
+      ],
+      "check_questions": [
+        {
+          "question": "What is the maximum civil money penalty a State Commissioner may impose per SAFE Act violation?",
+          "answer": "$25,000 per act or omission, with each separate violation counted independently.",
+          "type": "recall"
+        },
+        {
+          "question": "An originator collects a 'best efforts' fee even though no loan was obtained. Is this permissible?",
+          "answer": "No — soliciting or entering a contract that allows earning a fee through best efforts when no loan is obtained is explicitly prohibited by the SAFE Act.",
+          "type": "application"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "20 hours",
+      "what_it_means": "Minimum pre-licensing education required for MLO licensure",
+      "memorize_as": "20 hours PLE total: 3 federal law + 3 ethics + 2 non-traditional + 12 elective"
+    },
+    {
+      "value": "8 hours",
+      "what_it_means": "Minimum annual continuing education for state-licensed MLOs",
+      "memorize_as": "8 hours CE total: 3 federal law + 2 ethics + 2 non-traditional + 1 elective"
+    },
+    {
+      "value": "120 questions",
+      "what_it_means": "Length of the NMLS national MLO licensing exam",
+      "memorize_as": "120-question exam, need 75% to pass"
+    },
+    {
+      "value": "75%",
+      "what_it_means": "Minimum passing score on the NMLS national licensing exam",
+      "memorize_as": "75% = pass; anything lower = fail"
+    },
+    {
+      "value": "30 days",
+      "what_it_means": "Minimum wait between consecutive exam retake attempts (first three attempts)",
+      "memorize_as": "30 days between attempt 1→2 and 2→3"
+    },
+    {
+      "value": "6 months",
+      "what_it_means": "Mandatory wait after failing the exam three consecutive times before retesting",
+      "memorize_as": "3 strikes → 6-month timeout"
+    },
+    {
+      "value": "5 years",
+      "what_it_means": "Lapse period without acting as a registered MLO after which a former licensee must retake the national exam",
+      "memorize_as": "5-year gap (non-registered) = must retest"
+    },
+    {
+      "value": "December 31 / 11:59 p.m.",
+      "what_it_means": "Annual MLO license expiration deadline; license expires at 12:00 a.m. January 1 if not renewed",
+      "memorize_as": "Renew by Dec 31; target submission date is November 1"
+    },
+    {
+      "value": "$25,000",
+      "what_it_means": "Maximum civil penalty a State Commissioner may impose per SAFE Act violation",
+      "memorize_as": "$25,000 per violation, each violation counted separately"
+    },
+    {
+      "value": "2-for-1",
+      "what_it_means": "CE instructor credit ratio: 2 hours of CE credit earned for every 1 hour taught",
+      "memorize_as": "Teach 1 hour → get 2 CE credit hours"
+    },
+    {
+      "value": "Quarterly",
+      "what_it_means": "Frequency at which mortgage licensee entities must submit Call Reports to the NMLS",
+      "memorize_as": "Call Reports = quarterly origination activity reports"
+    },
+    {
+      "value": "7 years",
+      "what_it_means": "Look-back period for most felony convictions that bar MLO licensure (fraud/dishonesty felonies are a permanent bar)",
+      "memorize_as": "Felony bar = 7 years general; lifetime bar if fraud/dishonesty/money laundering"
+    },
+    {
+      "value": "3 years",
+      "what_it_means": "Look-back period for foreclosures and patterns of seriously delinquent accounts as indicators of financial irresponsibility",
+      "memorize_as": "Foreclosure or delinquency pattern within 3 years = financial responsibility concern"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "Registered MLO vs. state-licensed MLO — students think both need a state license",
+      "the_distinction": "Registered MLOs work for exempt entities (depository institutions or FCA-regulated) and only need an NMLS unique identifier; state-licensed MLOs work for non-exempt entities and must hold a state-issued license plus an NMLS unique identifier."
+    },
+    {
+      "often_confused_with": "Pre-licensing education hours vs. continuing education hours",
+      "the_distinction": "PLE requires 20 total hours (one-time, before first license); CE requires 8 total hours annually for renewal. Both share the same component breakdown for federal law (3 hrs) and non-traditional products (2 hrs), but ethics differs: PLE requires 3 hrs vs. CE's 2 hrs."
+    },
+    {
+      "often_confused_with": "5-year exam re-take rule — students think any 5-year lapse triggers a retest",
+      "the_distinction": "Only a 5-year lapse during which the individual did NOT act as a registered MLO triggers a mandatory retest; time spent as a registered MLO at an exempt entity does not count toward the 5-year gap."
+    },
+    {
+      "often_confused_with": "Loan processor/underwriter exemption — students think all processors are exempt from licensing",
+      "the_distinction": "Supervised (W-2) processors working under a licensed or registered MLO are exempt; independent contract (1099) processors must be state-licensed in every state where the properties they work on are located."
+    },
+    {
+      "often_confused_with": "Non-traditional mortgage product definition — students think it means exotic or risky products",
+      "the_distinction": "Under the SAFE Act, a non-traditional mortgage product is simply any mortgage other than a 30-year fixed-rate mortgage — it includes adjustable-rate mortgages, interest-only loans, and other standard alternatives."
+    }
+  ]
+}

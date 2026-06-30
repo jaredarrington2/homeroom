@@ -1,0 +1,358 @@
+{
+  "chapter_id": "ethics",
+  "section_id": "fraud",
+  "section_title": "Mortgage Fraud",
+  "chapter_title": "Ethics",
+  "page_range": {
+    "start": 541,
+    "end": 552
+  },
+  "summary": "This section covers discriminatory lending practices, fiduciary duties, RESPA rules, GLBA violations, and fraud-related conduct that MLOs must avoid. It defines redlining, disparate treatment, predatory lending, steering, and blockbusting while detailing regulatory enforcement, testing, and self-reporting obligations.",
+  "concepts": [
+    {
+      "id": "redlining",
+      "term": "Redlining",
+      "definition": "Redlining is the practice of refusing to offer financial products or services in specific geographic areas, often affecting minority communities, regardless of whether the intent is discriminatory or purely economic.",
+      "why_it_exists": "Lenders historically avoided low-income or minority-populated areas to reduce perceived financial risk, but this denied entire communities equal access to credit guaranteed by federal law.",
+      "examples": [
+        {
+          "scenario": "Centier Bank opened only partial-service branches in majority Black and Hispanic cities in Indiana, limiting residents' access to the full range of loan products.",
+          "outcome": "DOJ sued under the Fair Housing Act and ECOA; Centier settled by opening full-service branches, investing $3.5 million in special financing, and spending $875,000 on financial education and outreach."
+        }
+      ],
+      "cross_refs": [
+        "reverse-redlining",
+        "disparate-impact",
+        "disparate-treatment"
+      ],
+      "check_questions": [
+        {
+          "question": "A lender avoids opening branches in a low-income area because residents typically cannot afford its products. Is this redlining?",
+          "answer": "Yes. Regardless of whether the motivation is economic rather than racial, withholding equal access to financial services from a geographic area constitutes redlining.",
+          "type": "application"
+        },
+        {
+          "question": "Which two federal laws did the DOJ cite in the Centier Bank redlining case?",
+          "answer": "The Fair Housing Act and the Equal Credit Opportunity Act.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "reverse-redlining",
+      "term": "Reverse Redlining",
+      "definition": "Reverse redlining is deliberately targeting economically depressed or minority areas to impose predatory loan terms on financially unsophisticated borrowers.",
+      "why_it_exists": "Predatory lenders exploit the limited financial literacy and limited credit options of residents in underserved communities to extract excessive fees or unfavorable terms.",
+      "examples": [
+        {
+          "scenario": "A lender aggressively markets high-cost, balloon-payment loans exclusively in low-income minority neighborhoods.",
+          "outcome": "Borrowers are saddled with unaffordable terms they did not fully understand, constituting predatory lending and a fair-lending violation."
+        }
+      ],
+      "cross_refs": [
+        "redlining",
+        "predatory-lending-steering-blockbusting"
+      ],
+      "check_questions": [
+        {
+          "question": "How does reverse redlining differ from traditional redlining?",
+          "answer": "Traditional redlining denies services to an area; reverse redlining actively targets that same area to impose predatory or exploitative loan terms.",
+          "type": "distinction"
+        },
+        {
+          "question": "What characteristic do victims of reverse redlining often share?",
+          "answer": "They are typically minorities living in socioeconomically depressed areas and may lack financial sophistication.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "disparate-treatment",
+      "term": "Disparate Treatment / Overt Discrimination",
+      "definition": "Disparate treatment is intentional differential treatment of a person based on a protected characteristic, such as offering lower interest rates to one racial group over another.",
+      "why_it_exists": "Without prohibition, lenders could systematically deny or degrade credit access for minorities, women, or other protected groups, violating ECOA and the Fair Housing Act.",
+      "examples": [
+        {
+          "scenario": "An MLO offers a lower rate to a white applicant than to an equally qualified Black applicant with no documented basis for the difference.",
+          "outcome": "This is disparate treatment; to avoid liability the lender must document a legitimate, non-protected-characteristic reason for any difference in treatment."
+        }
+      ],
+      "cross_refs": [
+        "disparate-impact",
+        "redlining"
+      ],
+      "check_questions": [
+        {
+          "question": "What must a creditor document to legally justify treating two applicants differently?",
+          "answer": "The creditor must document that the basis for different treatment was something other than a protected characteristic, such as a material difference in credit scores.",
+          "type": "application"
+        },
+        {
+          "question": "What term is synonymous with disparate treatment?",
+          "answer": "Overt discrimination.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "disparate-impact",
+      "term": "Disparate Impact",
+      "definition": "Disparate impact occurs when a facially neutral policy unintentionally disadvantages a protected class, even without discriminatory intent.",
+      "why_it_exists": "Policies driven by business logic can still produce discriminatory outcomes and must be scrutinized to ensure equal access to credit.",
+      "examples": [
+        {
+          "scenario": "Centier Bank opened only partial-service branches in certain cities to control costs, not to exclude minorities.",
+          "outcome": "Because those cities were majority Black and Hispanic, the cost-driven policy disproportionately harmed a protected class, constituting disparate impact rather than disparate treatment."
+        }
+      ],
+      "cross_refs": [
+        "disparate-treatment",
+        "redlining"
+      ],
+      "check_questions": [
+        {
+          "question": "What separates disparate impact from disparate treatment?",
+          "answer": "Disparate impact results from a non-discriminatory policy that happens to harm a protected group; disparate treatment involves intentional discrimination based on a protected characteristic.",
+          "type": "distinction"
+        },
+        {
+          "question": "Can a lender be found liable for disparate impact even if it had no intent to discriminate?",
+          "answer": "Yes. If the policy's outcome adversely affects a protected class, liability can arise regardless of intent.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "covert-discrimination",
+      "term": "Covert Discrimination",
+      "definition": "Covert discrimination is subtle, often unintentional differential treatment based on a protected characteristic that the affected person may not even recognize as discrimination.",
+      "why_it_exists": "Discrimination does not need to be explicit to harm protected classes; even unconscious bias in service delivery violates fair-lending laws.",
+      "examples": [
+        {
+          "scenario": "An MLO gives male clients unlimited appointment time but limits female clients to 15 minutes for no documented reason.",
+          "outcome": "This constitutes discrimination even though the female client may be unaware she is being treated differently; best practice is to treat all clients identically."
+        }
+      ],
+      "cross_refs": [
+        "disparate-treatment"
+      ],
+      "check_questions": [
+        {
+          "question": "Is covert discrimination still prohibited even when there is no ill intent?",
+          "answer": "Yes. Covert discrimination is still a prohibited form of discrimination regardless of whether intent exists.",
+          "type": "recall"
+        },
+        {
+          "question": "What is the best practice to avoid any appearance of covert discrimination?",
+          "answer": "Treat every client exactly the same in all interactions and service delivery.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "fiduciary-duty",
+      "term": "Fiduciary Duty",
+      "definition": "An MLO's legal obligation to always prioritize the borrower's best interests over the MLO's own financial gain when recommending mortgage products.",
+      "why_it_exists": "Borrowers often rely entirely on the MLO's expertise; without a fiduciary duty, MLOs could steer customers into unsuitable products solely to earn higher commissions.",
+      "examples": [
+        {
+          "scenario": "A veteran with limited funds asks an MLO for a home loan; the MLO recommends an FHA loan because his company doesn't offer VA loans, even though the VA loan would be far more beneficial.",
+          "outcome": "The MLO violated his fiduciary duty; he should have informed the borrower about VA financing and referred him to an appropriate lender, even at the cost of losing the commission."
+        }
+      ],
+      "cross_refs": [
+        "predatory-lending-steering-blockbusting"
+      ],
+      "check_questions": [
+        {
+          "question": "What should an MLO do when the best product for a borrower is one the MLO's company does not offer?",
+          "answer": "The MLO should educate the borrower about the more suitable product and refer them to a lender that offers it, even if that means losing the transaction.",
+          "type": "application"
+        },
+        {
+          "question": "What consequences can an MLO face for violating fiduciary duty?",
+          "answer": "Consequences include reputational damage and license revocation.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "testing-and-self-testing",
+      "term": "Regulatory Testing and Self-Testing",
+      "definition": "Testing is when regulators pose as consumers to detect violations; self-testing is when a company uses secret shoppers on its own staff to proactively find and report violations to the CFPB.",
+      "why_it_exists": "CFPB Bulletin 2013-06 created incentives for companies to self-police because self-reported violations result in lighter penalties than those discovered through external audits or complaints.",
+      "examples": [
+        {
+          "scenario": "A company sends a secret shopper to one of its MLOs who then violates a federal rule during the interaction.",
+          "outcome": "The company is obligated to issue a corrective action and report it to both the CFPB and the NMLS, making it part of the licensee's permanent public record."
+        }
+      ],
+      "cross_refs": [
+        "glba-violations"
+      ],
+      "check_questions": [
+        {
+          "question": "What CFPB bulletin established the self-reporting expectation for mortgage lenders?",
+          "answer": "CFPB Bulletin 2013-06, issued in June 2013.",
+          "type": "recall"
+        },
+        {
+          "question": "Why should an MLO treat every person they interact with as if they were a federal regulator?",
+          "answer": "Because regulators can approach as undercover testers at any time; behaving consistently and lawfully with every person is the best way to avoid a failed test.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "predatory-lending-steering-blockbusting",
+      "term": "Predatory Lending, Steering, and Blockbusting",
+      "definition": "Predatory lending is placing a borrower in a loan not in their best interest; inappropriate steering guides a borrower toward a higher-paying product or biased referral partner; blockbusting limits where a buyer is shown properties based on demographic match.",
+      "why_it_exists": "Each practice exploits or manipulates borrowers, generating unfair profit for the professional while exposing consumers to financial harm or limiting their housing choices.",
+      "examples": [
+        {
+          "scenario": "An MLO with a 20%-down borrower recommends an FHA loan (with mortgage insurance) because the MLO only originates government loans.",
+          "outcome": "This is predatory lending and a fiduciary violation; a conventional loan with no mortgage insurance would have served the borrower better."
+        }
+      ],
+      "cross_refs": [
+        "fiduciary-duty",
+        "reverse-redlining"
+      ],
+      "check_questions": [
+        {
+          "question": "What safe-harbor measure should an MLO use to demonstrate the avoidance of inappropriate product steering?",
+          "answer": "Provide each customer a Loan Estimate showing at least three different loan scenarios.",
+          "type": "recall"
+        },
+        {
+          "question": "How does blockbusting differ from steering?",
+          "answer": "Steering guides a consumer toward a product or referral partner; blockbusting specifically restricts where a buyer is shown properties based on the buyer's demographic group.",
+          "type": "distinction"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "$3,500,000",
+      "what_it_means": "Amount Centier Bank invested in a special financing program as part of its redlining settlement.",
+      "memorize_as": "Centier $3.5M special financing"
+    },
+    {
+      "value": "$875,000",
+      "what_it_means": "Amount Centier Bank spent on consumer financial education and outreach under the settlement.",
+      "memorize_as": "Centier $875K outreach"
+    },
+    {
+      "value": "$100,000",
+      "what_it_means": "Maximum GLBA fine per violation imposed on a financial institution.",
+      "memorize_as": "GLBA institution fine: $100K per violation"
+    },
+    {
+      "value": "$10,000",
+      "what_it_means": "Maximum GLBA fine per violation imposed on individual officers and directors.",
+      "memorize_as": "GLBA officer fine: $10K per violation"
+    },
+    {
+      "value": "5 years",
+      "what_it_means": "Maximum prison sentence for GLBA violations.",
+      "memorize_as": "GLBA imprisonment up to 5 years"
+    },
+    {
+      "value": "3 business days (general)",
+      "what_it_means": "Timeframe after application within which a Loan Estimate must be issued.",
+      "memorize_as": "Loan Estimate: 3 general business days from application"
+    },
+    {
+      "value": "3 business days (precise)",
+      "what_it_means": "Minimum time before settlement by which the borrower must receive the Closing Disclosure.",
+      "memorize_as": "Closing Disclosure: 3 precise business days before settlement"
+    },
+    {
+      "value": "45 days",
+      "what_it_means": "Maximum time after loan settlement within which a servicer must perform the initial escrow analysis.",
+      "memorize_as": "Initial escrow analysis: 45 days from settlement"
+    },
+    {
+      "value": "20 days",
+      "what_it_means": "Timeframe within which a servicer must return escrow funds after loan payoff.",
+      "memorize_as": "Escrow refund at payoff: 20 days"
+    },
+    {
+      "value": "$50 / 30 days",
+      "what_it_means": "Escrow overage of $50 or more must be refunded within 30 days of the escrow analysis.",
+      "memorize_as": "$50+ overage refund: 30 days"
+    },
+    {
+      "value": "60 days",
+      "what_it_means": "Grace period after a servicing transfer during which a servicer cannot report a borrower as delinquent or charge a late fee.",
+      "memorize_as": "Servicing transfer protection: 60 days"
+    },
+    {
+      "value": "5 business days",
+      "what_it_means": "Time within which a servicer must acknowledge receipt of written customer service correspondence.",
+      "memorize_as": "Written complaint acknowledgment: 5 business days"
+    },
+    {
+      "value": "7 days",
+      "what_it_means": "Maximum time to resolve incorrect payoff statement errors.",
+      "memorize_as": "Payoff error fix: 7 days"
+    },
+    {
+      "value": "30 / 45 days",
+      "what_it_means": "Servicer has 30 days to resolve other errors; may extend to 45 days with proper consumer notice.",
+      "memorize_as": "Other error resolution: 30 days (extendable to 45)"
+    },
+    {
+      "value": "1 year / 5 years",
+      "what_it_means": "Mortgage documents must be retained at least 1 year after discharge or servicing transfer; ABADs must be kept 5 years.",
+      "memorize_as": "Document retention: 1 year general, 5 years for ABADs"
+    },
+    {
+      "value": "1/12th",
+      "what_it_means": "Maximum monthly escrow collection allowed is 1/12 of anticipated annual escrow disbursements.",
+      "memorize_as": "Monthly escrow cap: 1/12 of annual amount"
+    },
+    {
+      "value": "2-month cushion",
+      "what_it_means": "RESPA permits servicers to maintain a two-month escrow cushion equal to two monthly escrow payments.",
+      "memorize_as": "Escrow cushion: 2 months"
+    },
+    {
+      "value": "1%",
+      "what_it_means": "Ownership interest threshold at or above which an Affiliated Business Arrangement Disclosure (ABAD) is required.",
+      "memorize_as": "ABAD trigger: 1% or greater ownership"
+    },
+    {
+      "value": "3 loan scenarios",
+      "what_it_means": "Anti-steering safe harbor requires showing borrowers at least three different loan scenarios on a Loan Estimate.",
+      "memorize_as": "Anti-steering: minimum 3 loan scenarios"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "Disparate treatment vs. disparate impact",
+      "the_distinction": "Disparate treatment requires intentional discrimination based on a protected characteristic; disparate impact arises from a neutral policy that unintentionally harms a protected group, as in the Centier Bank cost-savings argument."
+    },
+    {
+      "often_confused_with": "Redlining vs. reverse redlining",
+      "the_distinction": "Redlining withholds financial services from an area; reverse redlining targets that same underserved area to impose predatory or exploitative loan terms."
+    },
+    {
+      "often_confused_with": "Overt discrimination vs. covert discrimination",
+      "the_distinction": "Overt (disparate treatment) discrimination is blatant and intentional; covert discrimination is subtle and may occur without ill intent, often without the victim's knowledge."
+    },
+    {
+      "often_confused_with": "Steering vs. blockbusting",
+      "the_distinction": "Steering guides consumers toward products or service providers and is only illegal when done for the MLO's benefit rather than the borrower's; blockbusting specifically limits property showings to neighborhoods matching a buyer's demographic."
+    },
+    {
+      "often_confused_with": "Testing vs. self-testing",
+      "the_distinction": "Testing is conducted by external state or federal regulators posing as consumers; self-testing is conducted by the company itself using internal secret shoppers to proactively identify and self-report violations."
+    },
+    {
+      "often_confused_with": "Entitlement to access credit vs. entitlement to receive credit",
+      "the_distinction": "Every person is entitled to equal access to apply for financial products under ECOA, but qualification and affordability still determine approval; access and approval are separate concepts."
+    }
+  ]
+}

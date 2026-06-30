@@ -1,0 +1,375 @@
+{
+  "chapter_id": "mlo-activities",
+  "section_id": "processing-underwriting",
+  "section_title": "Processing and Underwriting",
+  "chapter_title": "MLO Activities",
+  "page_range": {
+    "start": 441,
+    "end": 470
+  },
+  "summary": "This section covers the full underwriting workflow from valid changes of circumstance on the Loan Estimate through borrower asset, liability, income, and credit analysis. It establishes the documentation standards, timing rules, and qualification thresholds underwriters use to assess borrower risk.",
+  "concepts": [
+    {
+      "id": "valid-change-of-circumstance",
+      "term": "Valid Change of Circumstance",
+      "definition": "One of five recognized conditions that legally justifies revising fees disclosed on a Loan Estimate, shifting responsibility for the actual fee amount to the borrower.",
+      "why_it_exists": "Without a defined trigger for fee changes, lenders could arbitrarily alter costs after the borrower is committed, so TRID restricts revisions to specific, documentable events.",
+      "examples": [
+        {
+          "scenario": "The title insurance company the lender planned to use shuts down mid-transaction.",
+          "outcome": "This qualifies as a valid change of circumstance, allowing the lender to issue a revised Loan Estimate and charge the new title fee."
+        }
+      ],
+      "cross_refs": [
+        "closing-disclosure-timing",
+        "document-delivery-methods"
+      ],
+      "check_questions": [
+        {
+          "question": "Name three of the five valid changes of circumstance that allow a lender to revise a Loan Estimate.",
+          "answer": "Any three of: extraordinary event beyond anyone's control; information initially relied upon proves inaccurate or changes; new relevant information surfaces post-disclosure; natural disaster or act of God; intended title insurance company ceases operations.",
+          "type": "recall"
+        },
+        {
+          "question": "A borrower's appraisal comes in lower than expected after the Loan Estimate was issued. Does this automatically constitute a valid change of circumstance allowing fee revisions?",
+          "answer": "Only if the new information was not available and not reasonably expected at the time of initial disclosure; if it qualifies as new, relevant, post-disclosure information, it may constitute a valid change of circumstance.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "closing-disclosure-timing",
+      "term": "Closing Disclosure Timing Rules",
+      "definition": "The Closing Disclosure must reach the borrower no later than three precise business days before settlement, extended to six days when delivered by mail or email.",
+      "why_it_exists": "Borrowers need adequate time to review final loan terms before they are legally bound at closing, reducing the risk of predatory last-minute changes.",
+      "examples": [
+        {
+          "scenario": "A lender emails the Closing Disclosure on Monday.",
+          "outcome": "The borrower cannot close until the following Monday, counting six precise business days (excluding Sundays and federal holidays) to allow delivery time."
+        }
+      ],
+      "cross_refs": [
+        "valid-change-of-circumstance",
+        "document-delivery-methods",
+        "revised-closing-disclosure"
+      ],
+      "check_questions": [
+        {
+          "question": "How many precise business days before settlement must a borrower receive the Closing Disclosure when it is mailed?",
+          "answer": "Six precise business days.",
+          "type": "recall"
+        },
+        {
+          "question": "A borrower confirms receipt of a mailed Closing Disclosure on day two after mailing. When does the three-day waiting period begin?",
+          "answer": "The three-day waiting period begins upon the borrower's confirmed receipt and ability to access the disclosure, not upon mailing.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "revised-closing-disclosure",
+      "term": "Revised Closing Disclosure Triggers",
+      "definition": "A new Closing Disclosure must be issued when the final APR deviates beyond tolerance, the loan product changes, or a prepayment penalty is added, restarting a three-day waiting period.",
+      "why_it_exists": "Material changes to loan terms after the initial Closing Disclosure could harm borrowers who made decisions based on the original terms.",
+      "examples": [
+        {
+          "scenario": "A fixed-rate loan's APR increases by 0.15% after the Closing Disclosure was issued.",
+          "outcome": "Because the deviation exceeds the 0.125% tolerance for a regular transaction, a revised Closing Disclosure is required and three additional precise business days must pass before consummation."
+        }
+      ],
+      "cross_refs": [
+        "closing-disclosure-timing",
+        "valid-change-of-circumstance"
+      ],
+      "check_questions": [
+        {
+          "question": "By how much can a fixed-rate loan's APR change after the Closing Disclosure before a revised disclosure is required?",
+          "answer": "More than 0.125% triggers a revised Closing Disclosure for a fixed-rate (regular) transaction.",
+          "type": "recall"
+        },
+        {
+          "question": "What is the APR deviation tolerance for an adjustable-rate loan that triggers a revised Closing Disclosure?",
+          "answer": "More than 0.25% for an irregular (adjustable-rate) transaction.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "borrower-assets-categories",
+      "term": "Borrower Asset Requirements",
+      "definition": "Borrowers must demonstrate sufficient assets to cover the down payment, pre-paids, settlement fees, and post-closing reserves.",
+      "why_it_exists": "Verifying assets protects lenders from borrowers who lack the financial cushion to sustain homeownership after closing.",
+      "examples": [
+        {
+          "scenario": "A borrower has $100,000 in savings, spends $50,000 at closing, and has a $1,000 monthly payment.",
+          "outcome": "She has 50 months of reserves ($50,000 ÷ $1,000), giving the underwriter strong confidence in her ability to weather an income disruption."
+        }
+      ],
+      "cross_refs": [
+        "gift-funds",
+        "reserves-acceptable-sources",
+        "down-payment"
+      ],
+      "check_questions": [
+        {
+          "question": "What four categories of costs must a borrower's assets be sufficient to cover?",
+          "answer": "Down payment, pre-paids, settlement fees, and reserves.",
+          "type": "recall"
+        },
+        {
+          "question": "How are reserves expressed when reported to an underwriter?",
+          "answer": "As months' worth of mortgage payments remaining after closing.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "gift-funds",
+      "term": "Gift Funds and Gift of Equity",
+      "definition": "Monetary gifts or seller-relinquished equity given to a borrower for use toward a down payment and closing costs, subject to donor eligibility rules and a no-repayment gift letter.",
+      "why_it_exists": "Without clear sourcing rules, undisclosed loans disguised as gifts could inflate a borrower's apparent assets and create hidden liabilities.",
+      "examples": [
+        {
+          "scenario": "A seller agrees to accept $75,000 on a $100,000 home, gifting the $25,000 difference to cover the buyer's $20,000 down payment and $5,000 in closing costs.",
+          "outcome": "The buyer receives an $80,000 mortgage without contributing any personal funds, and the seller's gift of equity satisfies all closing requirements."
+        }
+      ],
+      "cross_refs": [
+        "borrower-assets-categories",
+        "down-payment"
+      ],
+      "check_questions": [
+        {
+          "question": "For a conventional loan with LTV greater than 80% on a two-to-four-unit primary residence, what is the minimum borrower personal contribution when gift funds are used?",
+          "answer": "The borrower must contribute at least 5% of the purchase price from his or her own funds.",
+          "type": "recall"
+        },
+        {
+          "question": "Can the real estate agent acting in the transaction donate gift funds to the borrower?",
+          "answer": "No; the donor may not be or have any affiliation with the builder, developer, real estate agent, or any other interested party to the transaction.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "income-documentation-types",
+      "term": "Income Types and Documentation Standards",
+      "definition": "All income must be converted to a monthly equivalent, sourced through specific documents, and demonstrated to be stable and likely to continue for at least three years when non-traditional.",
+      "why_it_exists": "Lenders must verify that income is real, sustainable, and sufficient to support the proposed debt obligation throughout the loan term.",
+      "examples": [
+        {
+          "scenario": "An applicant earns $30 per hour with a 5% shift differential, working 40 hours per week.",
+          "outcome": "Hourly rate is $30 × 105% = $31.50/hr × 40 hrs = $1,260/week × 52 = $65,520/year ÷ 12 = $5,460/month qualifying income."
+        }
+      ],
+      "cross_refs": [
+        "self-employment-income",
+        "credit-analysis"
+      ],
+      "check_questions": [
+        {
+          "question": "How is bi-weekly income converted to a monthly equivalent?",
+          "answer": "Bi-weekly pay × 26 = annual rate; annual rate ÷ 12 = monthly rate.",
+          "type": "recall"
+        },
+        {
+          "question": "An applicant receives untaxed disability income of $2,000 per month. What amount may the lender use for qualification?",
+          "answer": "$2,500 per month — untaxed retirement, pension, disability, or social security income may be grossed up by 25%.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "self-employment-income",
+      "term": "Self-Employment Income Rules",
+      "definition": "A borrower with 25% or greater ownership in their business is treated as self-employed and must generally provide two years of personal and business tax returns averaged to determine qualifying income.",
+      "why_it_exists": "Self-employment income is volatile and can be manipulated through deductions, so additional documentation and history are required to confirm stability.",
+      "examples": [
+        {
+          "scenario": "An applicant has been self-employed for 18 months with no prior business ownership.",
+          "answer": "The lender will require the most recent full year's signed personal and business tax returns showing at least 12 months of self-employment income, plus evidence of working in the same industry with equal or greater responsibility for the prior year."
+        }
+      ],
+      "cross_refs": [
+        "income-documentation-types"
+      ],
+      "check_questions": [
+        {
+          "question": "Under what condition can a self-employed borrower qualify with only one year of tax returns effective January 1, 2024?",
+          "answer": "The business must have been in existence for five or more years and the borrower must demonstrate 25% or greater ownership interest in that business during each of the most recent five consecutive years.",
+          "type": "recall"
+        },
+        {
+          "question": "A W-2 employee owns 30% of her employer's company. How must the MLO treat her for income documentation?",
+          "answer": "She must be treated as self-employed, requiring personal and business tax returns despite receiving W-2 wages.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "credit-analysis",
+      "term": "Representative Credit Score and Credit Factors",
+      "definition": "The underwriter uses the middle of three credit scores as the representative score; for multiple borrowers, the lowest of all applicants' middle scores is used for underwriting decisions.",
+      "why_it_exists": "Using a standardized scoring methodology prevents lenders from cherry-picking favorable scores and ensures consistent risk assessment across applications.",
+      "examples": [
+        {
+          "scenario": "Two applicants apply together: applicant one has scores of 590, 612, 655; applicant two has scores of 650, 710, 744.",
+          "outcome": "Middle scores are 612 and 710; average median is 661, which is used for manual conventional underwriting. For standard underwriting, the lowest middle score (612) would be the representative score."
+        }
+      ],
+      "cross_refs": [
+        "income-documentation-types",
+        "self-employment-income"
+      ],
+      "check_questions": [
+        {
+          "question": "An applicant has credit scores of 633, 740, and 695. What is the representative credit score?",
+          "answer": "695 — the middle of the three scores.",
+          "type": "recall"
+        },
+        {
+          "question": "What distinguishes the representative credit score from the average median credit score?",
+          "answer": "The representative score is the lowest middle score among all applicants and is used for standard underwriting; the average median score averages all applicants' middle scores and is used only when manually underwriting conventional loans with multiple applicants.",
+          "type": "distinction"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "3 precise business days",
+      "what_it_means": "Minimum waiting period borrower must have the Closing Disclosure before settlement when delivered in person or electronically with confirmed receipt.",
+      "memorize_as": "CD in-person/confirmed = 3 days"
+    },
+    {
+      "value": "6 precise business days",
+      "what_it_means": "Waiting period before settlement when Closing Disclosure is sent via standard mail or email (adds 3 days for delivery).",
+      "memorize_as": "CD by mail/email = 6 days"
+    },
+    {
+      "value": "4 precise business days",
+      "what_it_means": "Standard waiting period after a revised Loan Estimate is delivered in person before it becomes effective.",
+      "memorize_as": "Revised LE in-person = 4 days"
+    },
+    {
+      "value": "7 precise business days",
+      "what_it_means": "Waiting period after a revised Loan Estimate is mailed or emailed.",
+      "memorize_as": "Revised LE by mail/email = 7 days"
+    },
+    {
+      "value": "0.125%",
+      "what_it_means": "Maximum APR deviation on a fixed-rate loan before a revised Closing Disclosure is required.",
+      "memorize_as": "Fixed APR tolerance = 1/8%"
+    },
+    {
+      "value": "0.25%",
+      "what_it_means": "Maximum APR deviation on an adjustable-rate loan before a revised Closing Disclosure is required.",
+      "memorize_as": "ARM APR tolerance = 1/4%"
+    },
+    {
+      "value": "5%",
+      "what_it_means": "Standard minimum conventional down payment (outside of specialty programs).",
+      "memorize_as": "Conventional min down = 5%"
+    },
+    {
+      "value": "3.5%",
+      "what_it_means": "FHA minimum down payment.",
+      "memorize_as": "FHA min down = 3.5%"
+    },
+    {
+      "value": "25%",
+      "what_it_means": "Ownership interest threshold that classifies a W-2 employee as self-employed for underwriting purposes; also the gross-up percentage for untaxed income.",
+      "memorize_as": "25% = self-employed trigger AND untaxed income gross-up"
+    },
+    {
+      "value": "30%",
+      "what_it_means": "Maximum recommended revolving credit utilization to maintain good credit scores.",
+      "memorize_as": "Credit utilization max = 30%"
+    },
+    {
+      "value": "10 payments",
+      "what_it_means": "Installment debts with fewer than 10 payments remaining generally need not be counted in DTI calculations unless they significantly impact the borrower.",
+      "memorize_as": "< 10 payments left = can exclude from DTI"
+    },
+    {
+      "value": "120% (20% more)",
+      "what_it_means": "A single mutual fund or retirement account must be worth at least 20% more than total cash-to-close needed to avoid requiring proof of actual liquidation proceeds.",
+      "memorize_as": "Mutual/retirement fund 120% rule = skip liquidation proof"
+    },
+    {
+      "value": "45 days",
+      "what_it_means": "If the most recent bank statement is more than 45 days old at application, the lender must request a more current supplemental document.",
+      "memorize_as": "Bank statement stale after 45 days"
+    },
+    {
+      "value": "60 days / 2 months",
+      "what_it_means": "Bank or investment statements required for purchase transactions must cover the most recent full two-month period.",
+      "memorize_as": "Purchase = 2 months of statements"
+    },
+    {
+      "value": "30 days / 1 month",
+      "what_it_means": "Bank statements required for refinance transactions must cover the most recent full one-month period.",
+      "memorize_as": "Refi = 1 month of statements"
+    },
+    {
+      "value": "45-day window",
+      "what_it_means": "Multiple mortgage credit inquiries within 45 days count as only one credit score hit.",
+      "memorize_as": "Mortgage rate shopping window = 45 days"
+    },
+    {
+      "value": "2 weeks (14 days)",
+      "what_it_means": "Non-mortgage inquiries from the same industry within two weeks count as only one credit score hit.",
+      "memorize_as": "Non-mortgage shopping window = 2 weeks"
+    },
+    {
+      "value": "6 months",
+      "what_it_means": "Minimum documented receipt history required for alimony, child support, or separate maintenance income to be counted.",
+      "memorize_as": "Alimony/child support receipt history = 6 months"
+    },
+    {
+      "value": "3 years",
+      "what_it_means": "Minimum continuance an applicant must demonstrate for non-traditional income sources such as alimony, dividends, social security, and annuities.",
+      "memorize_as": "Non-traditional income continuance = 3 years"
+    },
+    {
+      "value": "7 years",
+      "what_it_means": "Maximum period a foreclosure can prevent someone from securing mortgage financing.",
+      "memorize_as": "Foreclosure credit impact = up to 7 years"
+    },
+    {
+      "value": "15 years",
+      "what_it_means": "Maximum period a tax lien may remain on a credit profile.",
+      "memorize_as": "Tax lien on report = up to 15 years"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "Representative credit score vs. average median credit score",
+      "the_distinction": "The representative score is the lowest middle score among all applicants and is the standard underwriting benchmark; the average median score averages all applicants' middle scores and applies only when manually underwriting a conventional loan with multiple applicants."
+    },
+    {
+      "often_confused_with": "Pre-paids vs. settlement fees",
+      "the_distinction": "Pre-paids cover interim interest and fund the escrow account at closing; settlement fees are all origination, processing, and closing costs unrelated to escrow setup."
+    },
+    {
+      "often_confused_with": "Open-end vs. closed-end consumer debt DTI treatment",
+      "the_distinction": "Open-end debt with no balance still requires a minimum monthly payment of 5% of the credit limit in DTI calculations; closed-end installment debt with fewer than 10 payments remaining can generally be excluded from DTI unless it significantly impacts repayment ability."
+    },
+    {
+      "often_confused_with": "Charge-off vs. foreclosure",
+      "the_distinction": "A charge-off means the creditor stopped collection activity and wrote off the debt — the debt is technically still owed; a foreclosure means the lender legally took ownership of the property after default, which is far more damaging and can block mortgage eligibility for up to seven years."
+    },
+    {
+      "often_confused_with": "Hard-pull inquiry vs. soft-pull inquiry",
+      "the_distinction": "A hard-pull (creditor accessing credit for a new application) appears on the report and lowers the credit score; a soft-pull (consumer checking own credit or current creditor review) appears on the report but does not affect the score."
+    },
+    {
+      "often_confused_with": "Gift funds vs. gift of equity",
+      "the_distinction": "Gift funds are cash given by an eligible donor to the borrower; a gift of equity is when the seller accepts less than full sale proceeds, with the difference credited to the buyer — the gift of equity donor is not considered an interested party to the transaction."
+    },
+    {
+      "often_confused_with": "Mutual fund 120% rule for down payment vs. reserves",
+      "the_distinction": "When mutual funds are used for down payment or closing costs, at least one account must equal 120% of total cash-to-close or actual liquidation proceeds must be shown; when mutual funds are used solely for reserves, 100% of face value may be counted without the 120% threshold."
+    }
+  ]
+}

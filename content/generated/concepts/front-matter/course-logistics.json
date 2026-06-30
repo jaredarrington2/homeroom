@@ -1,0 +1,334 @@
+{
+  "chapter_id": "front-matter",
+  "section_id": "course-logistics",
+  "section_title": "Course Logistics",
+  "chapter_title": "Front Matter",
+  "page_range": {
+    "start": 16,
+    "end": 30
+  },
+  "summary": "This section covers course logistics embedded within a historical overview of the U.S. mortgage industry, tracing events from early 1900s portfolio lending through the 2008 financial crisis and the resulting SAFE Act that created today's MLO licensing framework. It establishes why regulation, accountability, and ethical conduct are central to the MLO role.",
+  "concepts": [
+    {
+      "id": "primary-market",
+      "term": "Primary market (portfolio lending)",
+      "definition": "A lender uses its own deposited funds to make loans, keeps them on its balance sheet, earns all interest, and bears all risk until repayment.",
+      "why_it_exists": "Before the secondary market existed, banks had no mechanism to replenish funds after lending them out, which forced tight restrictions like 50% down payments and short call periods.",
+      "examples": [
+        {
+          "scenario": "A community bank in 1920 lends depositor funds as a mortgage with a 3-year call clause.",
+          "outcome": "The bank protects depositors by requiring repayment within 3 years, but the borrower must repeatedly refinance and rarely builds lasting equity."
+        }
+      ],
+      "cross_refs": [
+        "secondary-market",
+        "safe-act"
+      ],
+      "check_questions": [
+        {
+          "question": "What is the defining feature of primary market lending?",
+          "answer": "The lender uses its own funds, retains the loan on its balance sheet, earns all interest, and assumes all risk.",
+          "type": "recall"
+        },
+        {
+          "question": "Why did early 20th-century primary-market lenders require roughly 50% down payments and short call clauses?",
+          "answer": "Because the loan funds came from depositors who might need to withdraw at any time, so lenders limited exposure and ensured rapid repayment.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "secondary-market",
+      "term": "Secondary market",
+      "definition": "A system in which lenders sell originated loans to entities like Fannie Mae, which packages them into investor securities, recycling capital back to lenders to fund new loans.",
+      "why_it_exists": "Lenders ran out of their own capital to lend; the secondary market solved the liquidity problem by connecting mortgage cash flows to capital-market investors.",
+      "examples": [
+        {
+          "scenario": "A lender closes a conforming mortgage and sells it to Fannie Mae shortly after settlement.",
+          "outcome": "The lender recovers its capital immediately, can fund another loan, and investors earn principal and interest payments packaged into a mortgage-backed security."
+        }
+      ],
+      "cross_refs": [
+        "primary-market",
+        "fnma-fannie-mae",
+        "fhlmc-freddie-mac",
+        "gnma-ginnie-mae"
+      ],
+      "check_questions": [
+        {
+          "question": "What problem did the creation of Fannie Mae in 1938 solve for mortgage lenders?",
+          "answer": "It gave lenders a buyer for their loans so they could replenish capital and continue lending without being limited to their own deposit base.",
+          "type": "application"
+        },
+        {
+          "question": "Who ultimately provides the money that flows through the secondary market back to lenders?",
+          "answer": "Investors who buy mortgage-backed securities and other instruments packaged by entities like Fannie Mae.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "fnma-fannie-mae",
+      "term": "Federal National Mortgage Association (Fannie Mae / FNMA)",
+      "definition": "A government-sponsored enterprise created in 1938 to purchase conventional conforming loans from lenders and securitize them for sale to investors, providing ongoing liquidity to the mortgage market.",
+      "why_it_exists": "The Roosevelt administration needed a mechanism to pull the housing market out of the Great Depression by giving lenders a reliable source of replacement capital.",
+      "examples": [
+        {
+          "scenario": "A lender originates a loan meeting FNMA underwriting standards.",
+          "outcome": "FNMA purchases the loan, packages it with others into a security, sells it to investors, and returns capital to the lender for the next loan."
+        }
+      ],
+      "cross_refs": [
+        "secondary-market",
+        "fhlmc-freddie-mac",
+        "fhfa"
+      ],
+      "check_questions": [
+        {
+          "question": "In what year was Fannie Mae created, and by whom?",
+          "answer": "1938, by the Roosevelt administration as part of New Deal efforts to revive the housing market.",
+          "type": "recall"
+        },
+        {
+          "question": "Why must loans meet FNMA underwriting standards before being sold to it?",
+          "answer": "Because investors who ultimately buy the securities agree to assume risk only when loans are underwritten to FNMA's standards, ensuring consistent quality.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "fhlmc-freddie-mac",
+      "term": "Federal Home Loan Mortgage Corporation (Freddie Mac / FHLMC)",
+      "definition": "A government-sponsored enterprise established in 1970 that securitizes conventional residential mortgage loans and operates alongside Fannie Mae under FHFA oversight.",
+      "why_it_exists": "Initially created to provide a secondary market specifically for savings-and-loan institutions, it later expanded to support the broader conventional mortgage market.",
+      "examples": [
+        {
+          "scenario": "A savings institution originates conforming loans but lacks capital for new originations.",
+          "outcome": "It sells loans to Freddie Mac, which securitizes them, giving the institution fresh capital to continue lending."
+        }
+      ],
+      "cross_refs": [
+        "fnma-fannie-mae",
+        "fhfa",
+        "secondary-market"
+      ],
+      "check_questions": [
+        {
+          "question": "What agency oversees both Fannie Mae and Freddie Mac?",
+          "answer": "The Federal Housing Finance Agency (FHFA).",
+          "type": "recall"
+        },
+        {
+          "question": "How does Freddie Mac differ in origin from Fannie Mae?",
+          "answer": "Freddie Mac was established in 1970 initially to serve savings-and-loan institutions, while Fannie Mae was created in 1938 to broadly revive Depression-era housing lending.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "gnma-ginnie-mae",
+      "term": "Government National Mortgage Association (Ginnie Mae / GNMA)",
+      "definition": "A HUD division chartered in 1968 that facilitates the securitization of government-backed residential mortgage loans (FHA, VA, USDA) across the United States and its possessions.",
+      "why_it_exists": "Government loan programs needed their own securitization channel to attract investors and maintain liquidity separate from conventional loan markets.",
+      "examples": [
+        {
+          "scenario": "A lender originates FHA loans and needs to convert them to capital.",
+          "outcome": "Ginnie Mae pools the FHA loans into mortgage-backed securities, enabling investors to fund future government-backed originations."
+        }
+      ],
+      "cross_refs": [
+        "secondary-market",
+        "fnma-fannie-mae"
+      ],
+      "check_questions": [
+        {
+          "question": "Under which federal department does Ginnie Mae operate?",
+          "answer": "The Department of Housing and Urban Development (HUD).",
+          "type": "recall"
+        },
+        {
+          "question": "What type of mortgage loans does Ginnie Mae primarily securitize?",
+          "answer": "Government-backed loans such as FHA, VA, and USDA loans.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "safe-act",
+      "term": "SAFE Act (Secure and Fair Enforcement for Mortgage Licensing Act)",
+      "definition": "Title V of the Housing and Economic Recovery Act of 2008 that established nationwide MLO registration through NMLS, required state licensing, background checks, pre-licensing education, and annual continuing education.",
+      "why_it_exists": "The 2008 mortgage crisis exposed a near-total absence of MLO accountability; the SAFE Act imposed consequences for misconduct and created minimum competency standards.",
+      "examples": [
+        {
+          "scenario": "An MLO employed by a non-depository lender originates loans in a new state without obtaining that state's license.",
+          "outcome": "The MLO is operating illegally; both the originator and the employer can be held accountable under respondeat superior."
+        }
+      ],
+      "cross_refs": [
+        "nmls",
+        "respondeat-superior"
+      ],
+      "check_questions": [
+        {
+          "question": "What federal law contained the SAFE Act, and in what year was it enacted?",
+          "answer": "The Housing and Economic Recovery Act of 2008 (HERA), enacted in 2008.",
+          "type": "recall"
+        },
+        {
+          "question": "Under what legal doctrine can an employer be held liable for an MLO employee's violations, even if caused by inadequate training?",
+          "answer": "Respondeat superior — 'let the master answer.'",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "nmls",
+      "term": "Nationwide Mortgage Licensing System & Registry (NMLS)",
+      "definition": "The centralized federal registry through which all mortgage loan originators must register and maintain a unique identification number as required by the SAFE Act.",
+      "why_it_exists": "A single tracking system was needed to ensure accountability, enable background checks, and allow consumers and regulators to verify an MLO's credentials and history.",
+      "examples": [
+        {
+          "scenario": "A consumer wants to verify that their MLO is properly licensed.",
+          "outcome": "The consumer can look up the MLO's unique NMLS ID number to confirm licensure status, disciplinary history, and employer affiliations."
+        }
+      ],
+      "cross_refs": [
+        "safe-act"
+      ],
+      "check_questions": [
+        {
+          "question": "What must every MLO maintain through the NMLS?",
+          "answer": "A unique NMLS identification number.",
+          "type": "recall"
+        },
+        {
+          "question": "Does an MLO employed by a federally regulated depository institution need a state-issued MLO license?",
+          "answer": "No — MLOs at federally regulated depository institutions register with NMLS but are not required to carry a state-issued MLO license.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "mlo-role-and-fiduciary-duty",
+      "term": "MLO role and fiduciary duty",
+      "definition": "A mortgage loan originator acts as the knowledgeable liaison between a borrower and appropriate financing, and is legally bound to always act in the borrower's best interest.",
+      "why_it_exists": "Pre-crisis originators prioritized personal income over borrower suitability, causing widespread harm; fiduciary duty legally obligates the MLO to put the client first.",
+      "examples": [
+        {
+          "scenario": "An MLO could earn a higher commission by placing a borrower in a riskier adjustable-rate loan the borrower cannot comfortably afford.",
+          "outcome": "The MLO is legally required to recommend the product that best fits the borrower's needs and financial situation, not the one that maximizes the MLO's compensation."
+        }
+      ],
+      "cross_refs": [
+        "safe-act",
+        "nmls"
+      ],
+      "check_questions": [
+        {
+          "question": "What fiduciary obligation does an MLO have toward a borrower?",
+          "answer": "The MLO must always act in the borrower's best interest; every action taken must be guided by what is best for the customer.",
+          "type": "recall"
+        },
+        {
+          "question": "List three common titles used for a residential mortgage loan originator.",
+          "answer": "Any three of: Mortgage Loan Originator (MLO), Loan Officer (LO), Mortgage Consultant, Mortgage Originator, Originator.",
+          "type": "recall"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "1929",
+      "what_it_means": "Year of the stock market crash that began the Great Depression, triggering the housing finance reforms of the 1930s.",
+      "memorize_as": "Great Depression start → housing reform chain reaction"
+    },
+    {
+      "value": "1933",
+      "what_it_means": "Banking Act of 1933 (Glass-Steagall) enacted; created the FDIC to insure deposits for the first time.",
+      "memorize_as": "1933 = Glass-Steagall + FDIC born"
+    },
+    {
+      "value": "1934",
+      "what_it_means": "National Housing Act enacted; established the FHA and extended insurance to savings and loans.",
+      "memorize_as": "1934 = FHA created"
+    },
+    {
+      "value": "1938",
+      "what_it_means": "Fannie Mae (FNMA) created; secondary market launched.",
+      "memorize_as": "1938 = Fannie Mae / secondary market born"
+    },
+    {
+      "value": "1968",
+      "what_it_means": "Ginnie Mae (GNMA) chartered as a HUD division to securitize government mortgage loans.",
+      "memorize_as": "1968 = Ginnie Mae under HUD"
+    },
+    {
+      "value": "1970",
+      "what_it_means": "Freddie Mac (FHLMC) established to provide secondary market liquidity for savings-and-loan institutions.",
+      "memorize_as": "1970 = Freddie Mac founded"
+    },
+    {
+      "value": "2008",
+      "what_it_means": "HERA enacted; SAFE Act (Title V) created mandatory MLO licensing and NMLS registration.",
+      "memorize_as": "2008 = HERA / SAFE Act / NMLS"
+    },
+    {
+      "value": "September 15, 2008",
+      "what_it_means": "U.S. stock market crash ('Black Monday') triggered by foreclosure crisis and lending freeze; Lehman Brothers filed for bankruptcy.",
+      "memorize_as": "Black Monday = 9/15/2008"
+    },
+    {
+      "value": "8 hours",
+      "what_it_means": "Annual continuing education required to renew an MLO license.",
+      "memorize_as": "8 hours CE per year"
+    },
+    {
+      "value": "December 31",
+      "what_it_means": "Annual deadline by which an MLO license must be renewed.",
+      "memorize_as": "MLO renewal deadline = Dec 31"
+    },
+    {
+      "value": "120 questions",
+      "what_it_means": "Length of the Uniform State Content (USC) stand-alone examination that satisfies all participating states' licensing exam requirement (effective April 1, 2013).",
+      "memorize_as": "SAFE exam = 120 questions USC"
+    },
+    {
+      "value": "~10%",
+      "what_it_means": "Approximate U.S. homeownership rate at the turn of the 20th century, reflecting how rare ownership was before mortgage reform.",
+      "memorize_as": "Early 1900s homeownership ≈ 10%"
+    },
+    {
+      "value": "50%",
+      "what_it_means": "Typical down payment required by early 20th-century lenders to protect depositors under portfolio lending.",
+      "memorize_as": "Early 1900s down payment = 50%"
+    },
+    {
+      "value": "1–5 years",
+      "what_it_means": "Typical call period on early 20th-century mortgage loans, forcing borrowers to refinance repeatedly despite 30-year amortization schedules.",
+      "memorize_as": "Early mortgage call clause = 1–5 years"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "Fannie Mae vs. Ginnie Mae",
+      "the_distinction": "Fannie Mae securitizes conventional (non-government) loans; Ginnie Mae securitizes government-backed loans (FHA, VA, USDA) and operates as a HUD division rather than a standalone GSE."
+    },
+    {
+      "often_confused_with": "Fannie Mae vs. Freddie Mac",
+      "the_distinction": "Both securitize conventional loans under FHFA oversight, but Freddie Mac was created in 1970 originally to serve savings-and-loan institutions, while Fannie Mae was created in 1938 to broadly address Depression-era liquidity."
+    },
+    {
+      "often_confused_with": "Primary market vs. secondary market",
+      "the_distinction": "The primary market is where lenders originate loans using their own capital and bear the risk; the secondary market is where those loans are sold to GSEs and packaged into investor securities to replenish lender capital."
+    },
+    {
+      "often_confused_with": "NMLS registration (depository MLOs) vs. state MLO license (non-depository MLOs)",
+      "the_distinction": "All MLOs must register in NMLS and hold a unique ID, but only MLOs working for non-depository institutions must also obtain a state-issued MLO license to originate in that state."
+    },
+    {
+      "often_confused_with": "Glass-Steagall Act (1933) vs. National Housing Act (1934)",
+      "the_distinction": "Glass-Steagall created the FDIC to insure deposits; the National Housing Act created the FHA to insure mortgages and incentivize lenders to lend again — two separate responses one year apart."
+    }
+  ]
+}

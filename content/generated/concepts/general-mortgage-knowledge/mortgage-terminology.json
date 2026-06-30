@@ -1,0 +1,342 @@
+{
+  "chapter_id": "general-mortgage-knowledge",
+  "section_id": "mortgage-terminology",
+  "section_title": "Mortgage Terminology",
+  "chapter_title": "General Mortgage Knowledge",
+  "page_range": {
+    "start": 351,
+    "end": 390
+  },
+  "summary": "This section covers advanced ARM mechanics (CAPs, start rates, qualification rules), specialty mortgage types (reverse mortgages, piggyback, balloon, construction, interest-only, and less-common products), and foundational mortgage industry terminology used throughout the loan origination process.",
+  "concepts": [
+    {
+      "id": "arm-caps",
+      "term": "ARM Interest Rate CAPs",
+      "definition": "CAPs are units of measurement that limit how much an ARM's interest rate can change at the first adjustment (IAC), each subsequent adjustment (RAC), and over the life of the loan (LOLC).",
+      "why_it_exists": "Without CAPs, borrowers would have no ceiling on how high their rate could climb, making payment planning impossible and exposing them to unaffordable payment shock.",
+      "examples": [
+        {
+          "scenario": "A 3/1/8 CAP structure on a loan with a 2% start rate: at first adjustment the rate caps at 5% (2+3), each subsequent year can move ±1%, and the rate can never exceed 10% (2+8).",
+          "outcome": "Borrower is protected even if the fully indexed accrual rate would have pushed the rate to 7.375% at first adjustment."
+        }
+      ],
+      "cross_refs": [
+        "arm-qualification",
+        "payment-cap-negative-amortization",
+        "fha-va-cap-structure"
+      ],
+      "check_questions": [
+        {
+          "question": "In a 3/1/8 CAP structure, what does each number represent?",
+          "answer": "3 = Initial Adjustment CAP (max change at first adjustment), 1 = Rate Adjustment CAP (max change at each subsequent adjustment), 8 = Life-of-Loan CAP (max total increase above start rate).",
+          "type": "recall"
+        },
+        {
+          "question": "A borrower has a 3/1 ARM with a 1.5% start rate and a 3/1/6 CAP structure. In a worst-case scenario, what is the highest rate and in which year is it reached?",
+          "answer": "7.5% in Year 7: years 1–3 = 1.5%, year 4 = 4.5%, year 5 = 5.5%, year 6 = 6.5%, year 7 = 7.5% (1.5 + 6 LOLC).",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "payment-cap-negative-amortization",
+      "term": "Payment CAP and Negative Amortization",
+      "definition": "A payment CAP limits how much the servicer can increase the borrower's billed payment amount, but any unpaid interest is added to the principal balance as deferred interest, creating negative amortization.",
+      "why_it_exists": "Payment CAPs were designed to prevent sudden payment increases, but the deferred interest trade-off means the loan balance can grow rather than shrink over time.",
+      "examples": [
+        {
+          "scenario": "Jennie's true payment rises to $1,600, but her $300 payment CAP limits the servicer to billing $1,400.",
+          "outcome": "She is contractually compliant, but the $200 difference is added to her principal balance as deferred interest."
+        }
+      ],
+      "cross_refs": [
+        "arm-caps",
+        "variable-balance-mortgage"
+      ],
+      "check_questions": [
+        {
+          "question": "Why do all ARMs with payment CAPs have the potential for negative amortization?",
+          "answer": "Because when the capped payment is less than the interest actually owed, the unpaid interest is added to the loan's principal balance rather than being forgiven.",
+          "type": "recall"
+        },
+        {
+          "question": "What is the key distinction between an interest rate CAP and a payment CAP?",
+          "answer": "An interest rate CAP limits how much the rate itself can change; a payment CAP limits how much the billed payment can increase regardless of what the true rate-based payment would be.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "fha-va-cap-structure",
+      "term": "FHA/VA ARM CAP Structure",
+      "definition": "FHA and VA ARMs use a two-number CAP structure (e.g., 2/6) where the first number is the Periodic Rate CAP applied at every adjustment and the second is the Life-of-Loan CAP measured from the start rate.",
+      "why_it_exists": "Government-backed loans omit the Initial Adjustment CAP, so the periodic CAP governs the very first adjustment as well as all subsequent ones, simplifying the structure while still protecting borrowers.",
+      "examples": [
+        {
+          "scenario": "An FHA 7/1 ARM with a 2.5% start rate and a 3/8 CAP structure in worst-case scenario.",
+          "outcome": "Years 1–7 = 2.5%; year 8 = 5.5%; year 9 = 8.5%; year 10 onward = 10.5% (2.5 + 8 LOLC), reached in year 10."
+        }
+      ],
+      "cross_refs": [
+        "arm-caps"
+      ],
+      "check_questions": [
+        {
+          "question": "How many numbers appear in a conventional ARM CAP structure versus an FHA/VA ARM CAP structure?",
+          "answer": "Conventional ARMs have three numbers (IAC/RAC/LOLC); FHA and VA ARMs have two numbers (RAC/LOLC).",
+          "type": "recall"
+        },
+        {
+          "question": "In an FHA 2/6 CAP structure, by how much can the rate change at the very first adjustment?",
+          "answer": "Up to 2%, because the Periodic Rate CAP governs every adjustment including the first one on FHA/VA loans.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "arm-qualification",
+      "term": "ARM Underwriting Qualification Rules (ATR)",
+      "definition": "Under the Ability to Repay rule, ARMs with an initial fixed period of five years or less must be underwritten at the greater of the start rate plus 2% or the current FIAR; ARMs with an initial fixed period over five years may be underwritten at the start rate.",
+      "why_it_exists": "Short-term ARMs carry greater near-term rate-change risk, so regulators require lenders to ensure borrowers can afford anticipated payment increases before the loan closes.",
+      "examples": [
+        {
+          "scenario": "A borrower applies for a 5/1 ARM with a 4% start rate and a FIAR of 5.5%.",
+          "outcome": "The lender must qualify the borrower at 6% (start rate 4% + 2%) because 6% is greater than the 5.5% FIAR."
+        }
+      ],
+      "cross_refs": [
+        "arm-caps",
+        "teaser-discount-rate"
+      ],
+      "check_questions": [
+        {
+          "question": "At what rate must a lender underwrite a 3/1 ARM with a 3% start rate and a FIAR of 4.5%?",
+          "answer": "5% (start rate 3% + 2%), because 5% is greater than the 4.5% FIAR and the loan has an initial fixed period of five years or less.",
+          "type": "application"
+        },
+        {
+          "question": "Can a 10/1 ARM be underwritten at the start rate?",
+          "answer": "Yes, because its initial interest rate stability period (10 years) exceeds five years.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "teaser-discount-rate",
+      "term": "Teaser Rate vs. Discount Rate",
+      "definition": "A discount rate is an ARM start rate that is 3% or less below the current FIAR at rate lock; a teaser rate is a start rate that is more than 3% below the current FIAR.",
+      "why_it_exists": "Lenders offer below-market start rates as an incentive for borrowers to accept variable-rate risk; regulators distinguish between modest discounts and aggressively low teaser rates because teasers create greater payment shock potential.",
+      "examples": [
+        {
+          "scenario": "On origination day the 30-year fixed rate (used as FIAR proxy) is 6%.",
+          "outcome": "A start rate between 3% and 5.875% is a discount rate; a start rate below 3% is a teaser rate."
+        }
+      ],
+      "cross_refs": [
+        "arm-qualification",
+        "arm-caps"
+      ],
+      "check_questions": [
+        {
+          "question": "What threshold separates a discount rate from a teaser rate?",
+          "answer": "If the start rate is more than 3% below the FIAR at rate lock it is a teaser rate; 3% or less below FIAR is a discount rate.",
+          "type": "recall"
+        },
+        {
+          "question": "If the FIAR is 7% and a lender offers an ARM start rate of 3.5%, is this a discount rate or a teaser rate?",
+          "answer": "Teaser rate, because 3.5% is 3.5 percentage points below the 7% FIAR, which exceeds the 3% threshold.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "reverse-mortgage-hecm",
+      "term": "Home Equity Conversion Mortgage (HECM)",
+      "definition": "The HECM is the most common reverse mortgage, an FHA loan insured by HUD that allows homeowners aged 62 or older to access home equity with no required monthly payments until a triggering repayment event occurs.",
+      "why_it_exists": "Older homeowners with significant equity but limited income need a product that converts equity to cash flow without requiring periodic repayment, and HUD insurance protects lenders against non-recourse shortfalls.",
+      "examples": [
+        {
+          "scenario": "A 74-year-old homeowner takes a HECM line of credit. She never makes a payment. She enters a nursing facility for 14 consecutive months.",
+          "outcome": "The loan becomes due and payable because she vacated the property for more than 12 consecutive months without documentation of imminent return."
+        }
+      ],
+      "cross_refs": [
+        "reverse-mortgage-repayment-triggers",
+        "reverse-mortgage-fees"
+      ],
+      "check_questions": [
+        {
+          "question": "What is the minimum age to be an obligated borrower on a HECM?",
+          "answer": "62 years of age on or by the loan's closing date.",
+          "type": "recall"
+        },
+        {
+          "question": "Why does the youngest borrower's age determine the maximum LTV on a HECM?",
+          "answer": "A younger borrower has a longer life expectancy, meaning interest could accrue for more years and push the balance past the property's value, so a lower LTV limits that risk.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "reverse-mortgage-repayment-triggers",
+      "term": "HECM Repayment Triggering Events",
+      "definition": "A HECM balance becomes immediately due and payable upon events such as the borrower's death, property sale, vacancy exceeding 12 consecutive months, failure to pay taxes or insurance, title alteration, bankruptcy, or securing secondary financing.",
+      "why_it_exists": "Because no payments are required during the loan's life, specific events that change the borrower's occupancy, ownership, or financial standing must trigger repayment to protect the lender's and insurer's collateral position.",
+      "examples": [
+        {
+          "scenario": "A HECM borrower falls behind on homeowner's insurance premiums.",
+          "outcome": "This is a triggering event; the servicer may declare the balance due and payable, and typically allows up to one year for the borrower or estate to satisfy the obligation."
+        }
+      ],
+      "cross_refs": [
+        "reverse-mortgage-hecm",
+        "reverse-mortgage-fees"
+      ],
+      "check_questions": [
+        {
+          "question": "For how many consecutive months may a HECM borrower vacate the property before the loan becomes due?",
+          "answer": "More than 12 consecutive months triggers repayment, unless the borrower can document an imminent return confirmed by a healthcare professional.",
+          "type": "recall"
+        },
+        {
+          "question": "A HECM borrower takes out a home equity line of credit on the same property. What happens?",
+          "answer": "Securing secondary financing is a repayment triggering event, so the HECM balance becomes due and payable.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "balloon-mortgage-crtm",
+      "term": "Balloon Mortgage and Conditional Right to Modify (CRTM)",
+      "definition": "A balloon mortgage requires full repayment of the remaining balance at a preset call date before full amortization; a CRTM allows the borrower to convert the loan to a fixed-rate mortgage for the remaining term if five specific conditions are met.",
+      "why_it_exists": "Balloon loans offer lower rates in exchange for the repayment risk at the call date; the CRTM was added to give borrowers a conversion safety valve, but its conditionality means it is not guaranteed.",
+      "examples": [
+        {
+          "scenario": "A borrower's 7/23 balloon loan reaches its call date. She is current, the property is owner-occupied, there are no secondary liens, she notifies the servicer in writing 45 days before the call date, and the new rate is within 5% of the old rate.",
+          "outcome": "She pays a fee, signs modification documents, and the loan converts to a fixed-rate for the remaining 23-year term."
+        }
+      ],
+      "cross_refs": [
+        "arm-qualification"
+      ],
+      "check_questions": [
+        {
+          "question": "What are the five conditions required to exercise a balloon loan's conditional right to modify?",
+          "answer": "1) Loan must be current; 2) property must be owner-occupied; 3) no secondary liens; 4) new rate cannot exceed previous rate by more than 5%; 5) borrower must notify the servicer in writing no later than 45 days before the call date.",
+          "type": "recall"
+        },
+        {
+          "question": "A 30/15 balloon loan notation indicates what, and does it contain a CRTM?",
+          "answer": "It has a 30-year amortization schedule with a 15-year call date; the amortization term follows the call term, so yes, it contains a CRTM.",
+          "type": "distinction"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "3%",
+      "what_it_means": "The threshold separating a discount rate from a teaser rate; a start rate more than 3% below FIAR is a teaser rate.",
+      "memorize_as": "More than 3% below FIAR = teaser; 3% or less = discount"
+    },
+    {
+      "value": "5 years",
+      "what_it_means": "ARMs with an initial fixed period of 5 years or less must be underwritten at the greater of start rate + 2% or FIAR; ARMs over 5 years may use the start rate.",
+      "memorize_as": "≤5 years initial fixed = qualify at start rate + 2% or FIAR (greater); >5 years = start rate ok"
+    },
+    {
+      "value": "2%",
+      "what_it_means": "The add-on to the start rate used to qualify short-term ARM borrowers under the ATR rule.",
+      "memorize_as": "ATR short ARM buffer = start rate + 2%"
+    },
+    {
+      "value": "62 years",
+      "what_it_means": "Minimum age for all obligated HECM borrowers on or by the closing date.",
+      "memorize_as": "HECM minimum age = 62"
+    },
+    {
+      "value": "$1,249,125",
+      "what_it_means": "Maximum HECM loan amount effective January 1, 2026.",
+      "memorize_as": "HECM 2026 loan limit = $1,249,125"
+    },
+    {
+      "value": "2% upfront / 0.5% annual",
+      "what_it_means": "HECM upfront MIP = 2% of maximum claim amount (appraised value); annual MIP = 0.5% of outstanding principal balance.",
+      "memorize_as": "HECM MIP: 2% up front, 0.5% per year"
+    },
+    {
+      "value": "$6,000",
+      "what_it_means": "Maximum origination fee a lender may charge on a HECM.",
+      "memorize_as": "HECM origination fee cap = $6,000"
+    },
+    {
+      "value": "60%",
+      "what_it_means": "HUD's utilization rule limits HECM borrowers to accessing no more than 60% of their principal limit during the loan's first year.",
+      "memorize_as": "HECM year-one draw limit = 60% of principal limit"
+    },
+    {
+      "value": "12 consecutive months",
+      "what_it_means": "The maximum period a HECM borrower may vacate the property before repayment is triggered.",
+      "memorize_as": "HECM vacancy trigger = more than 12 consecutive months"
+    },
+    {
+      "value": "45 days",
+      "what_it_means": "Deadline by which a balloon borrower must notify the servicer in writing of intent to exercise the CRTM before the call date.",
+      "memorize_as": "CRTM written notice deadline = 45 days before call date"
+    },
+    {
+      "value": "5%",
+      "what_it_means": "Maximum amount by which the new rate may exceed the previous rate to qualify for a balloon loan's CRTM.",
+      "memorize_as": "CRTM rate cap = new rate cannot exceed old rate by more than 5%"
+    },
+    {
+      "value": "25%",
+      "what_it_means": "Ownership interest threshold at which a borrower is treated as self-employed on the URLA regardless of how they are paid.",
+      "memorize_as": "Self-employed threshold = 25% or more ownership in employer"
+    },
+    {
+      "value": "15 days (goodbye) / 15 days (welcome) / 60 days",
+      "what_it_means": "RESPA servicing transfer rules: releasing servicer must send goodbye letter ≤15 days before transfer; receiving servicer must send welcome letter ≤15 days after transfer; no late fees or adverse credit reporting within 60 days of transfer.",
+      "memorize_as": "Servicing transfer: 15 days before (goodbye), 15 days after (welcome), 60-day protection window"
+    },
+    {
+      "value": "13–59 months",
+      "what_it_means": "The window during which a borrower may exercise the one-time rate reduction option on a Reduction Option Mortgage (ROM).",
+      "memorize_as": "ROM exercise window = months 13 through 59"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "CAPs as interest rates",
+      "the_distinction": "CAPs are units of measurement that define maximum allowable change, not actual interest rates. Adding the CAP number to the start rate or prior rate gives the ceiling rate, but the CAP itself is not a rate."
+    },
+    {
+      "often_confused_with": "FHA/VA 2-number CAP vs. conventional 3-number CAP",
+      "the_distinction": "Conventional ARMs have an IAC, RAC, and LOLC (three numbers); FHA/VA ARMs drop the IAC and use only a RAC and LOLC (two numbers), meaning the periodic CAP governs even the first adjustment."
+    },
+    {
+      "often_confused_with": "Balloon loan amortization period vs. call date",
+      "the_distinction": "The amortization period determines the payment calculation; the call date is when the entire remaining balance is due. A 5/25 balloon calculates payments over 20 years but the balance is called after 5 years."
+    },
+    {
+      "often_confused_with": "Conditional Right to Modify vs. unconditional right",
+      "the_distinction": "The CRTM is conditional—all five conditions must be satisfied. Borrowers who assume it is automatic may face foreclosure when they discover they do not qualify at the call date."
+    },
+    {
+      "often_confused_with": "HECM non-borrowing spouse vs. borrowing spouse age requirement",
+      "the_distinction": "Only the borrowing spouse must be 62 or older. Under the Reverse Mortgage Stabilization Act of 2013, a non-borrowing spouse under 62 may remain on title and stay in the home after the borrowing spouse dies, as long as the non-borrowing spouse pays all property-related costs."
+    },
+    {
+      "often_confused_with": "Interest-only payment keeping the balance the same vs. paying it down",
+      "the_distinction": "Remitting only the interest-only payment leaves the principal balance completely unchanged. Any balance reduction requires a payment exceeding the interest-only amount. A recast after the interest-only period ends will produce a higher payment because the same original balance must now be amortized over a shorter remaining term."
+    },
+    {
+      "often_confused_with": "HEQ (closed-end) vs. HELOC (open-end)",
+      "the_distinction": "A home equity loan (HEQ) provides a fixed lump sum repaid over a set term at a fixed rate; a HELOC is a revolving open-end line of credit at a variable rate (typically Prime-based) where the borrower draws and repays repeatedly during a draw period, then the remaining balance amortizes."
+    },
+    {
+      "often_confused_with": "GPM (Graduated Payment Mortgage) vs. GEM (Growth Equity Mortgage)",
+      "the_distinction": "A GPM starts with a low payment that does not cover full interest, causing negative amortization, then graduates to a higher payment; a GEM starts with a higher-than-required payment, with increases applied to principal, building equity faster with no negative amortization."
+    }
+  ]
+}

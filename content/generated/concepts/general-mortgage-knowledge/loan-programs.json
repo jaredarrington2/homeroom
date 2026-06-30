@@ -1,0 +1,397 @@
+{
+  "chapter_id": "general-mortgage-knowledge",
+  "section_id": "loan-programs",
+  "section_title": "Loan Programs",
+  "chapter_title": "General Mortgage Knowledge",
+  "page_range": {
+    "start": 311,
+    "end": 350
+  },
+  "summary": "This section covers alternative, subprime, and government loan programs (FHA, VA, USDA), their qualification standards, insurance/fee structures, and adjustable-rate mortgage mechanics. It also addresses the regulatory response to pre-2008 irresponsible lending, including the Statement on Subprime Lending and predatory lending definitions.",
+  "concepts": [
+    {
+      "id": "subprime-loan-definition",
+      "term": "Subprime loan",
+      "definition": "A mortgage issued to a borrower with weakened credit, higher DTI, or limited assets who presents a greater default risk than a prime borrower.",
+      "why_it_exists": "Subprime lending serves borrowers who cannot qualify for standard loans, but its unchecked growth contributed directly to the 2008 mortgage crisis by ignoring ability to repay.",
+      "examples": [
+        {
+          "scenario": "A borrower with a 640 credit score, a 52% DTI, and a charge-off in the past 18 months applies for a mortgage.",
+          "outcome": "The borrower meets multiple subprime characteristics and would be classified as a subprime borrower, requiring subprime loan terms."
+        }
+      ],
+      "cross_refs": [
+        "statement-on-subprime-lending",
+        "predatory-lending",
+        "alt-a-financing"
+      ],
+      "check_questions": [
+        {
+          "question": "What credit score threshold is used to define a subprime borrower based on default probability?",
+          "answer": "A credit score of 660 or lower indicates relatively high default probability and classifies the borrower as subprime.",
+          "type": "recall"
+        },
+        {
+          "question": "A borrower had one 60-day delinquency 20 months ago. Does this meet a subprime characteristic?",
+          "answer": "Yes. One or more 60-day delinquencies within the last 24 months is a subprime characteristic.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "statement-on-subprime-lending",
+      "term": "Statement on Subprime Lending",
+      "definition": "A July 10, 2007 joint regulatory guidance published by six federal agencies to address risks posed by irresponsible subprime ARM lending and inadequate borrower disclosures.",
+      "why_it_exists": "Mid-2000s lenders routinely qualified subprime ARM borrowers at teaser rates without regard for fully-indexed payments, causing widespread foreclosures when rates reset.",
+      "examples": [
+        {
+          "scenario": "A lender qualifies a borrower for a 2/28 ARM using only the low introductory payment with no prepayment penalty disclosure.",
+          "outcome": "This violates Statement on Subprime Lending guidance, which requires qualification at the fully-indexed, fully-amortizing rate and clear disclosure of prepayment penalties."
+        }
+      ],
+      "cross_refs": [
+        "subprime-loan-definition",
+        "predatory-lending",
+        "payment-shock"
+      ],
+      "check_questions": [
+        {
+          "question": "According to the Statement on Subprime Lending, at what rate should ARM borrowers be qualified?",
+          "answer": "Borrowers should be qualified at the fully-indexed interest rate with a fully-amortizing payment, plus estimated taxes and insurance.",
+          "type": "recall"
+        },
+        {
+          "question": "The Statement on Subprime Lending recommends that prepayment penalties, when present, be limited to what period?",
+          "answer": "Prepayment penalties should be limited to the initial period of interest rate stability or end before that period concludes.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "predatory-lending",
+      "term": "Predatory lending",
+      "definition": "Lending practices that exploit borrowers through collateral-based approvals, loan churning, or fraud concealing the true nature of the loan.",
+      "why_it_exists": "Predatory lenders prioritize fees and profits over the borrower's ability to repay, leading to consumer harm and systemic financial risk.",
+      "examples": [
+        {
+          "scenario": "An originator repeatedly encourages a borrower to refinance every year, generating high points and fees each time without meaningful benefit to the borrower.",
+          "outcome": "This is loan churning, a classic predatory lending practice explicitly identified in the Statement on Subprime Lending."
+        }
+      ],
+      "cross_refs": [
+        "statement-on-subprime-lending",
+        "subprime-loan-definition"
+      ],
+      "check_questions": [
+        {
+          "question": "What are the three core elements that typically define predatory lending?",
+          "answer": "Approving loans based on collateral value rather than ability to repay; loan churning to generate fees; and fraud or deception concealing the loan's true terms.",
+          "type": "recall"
+        },
+        {
+          "question": "Is a subprime loan always predatory?",
+          "answer": "No. A subprime loan is appropriate when the borrower cannot qualify for a prime product, fully qualifies under the worst-case scenario, and thoroughly understands all terms.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "fha-loan",
+      "term": "FHA loan",
+      "definition": "A government-backed mortgage insured by HUD that allows lower down payments and more flexible underwriting than conventional loans.",
+      "why_it_exists": "The FHA program was created under HUD (established by the Fair Housing Act of 1968) to promote fair and affordable homeownership, particularly for borrowers who cannot meet conventional standards.",
+      "examples": [
+        {
+          "scenario": "A borrower with a 610 credit score wants to buy a $250,000 home with minimal savings.",
+          "outcome": "Because the credit score is below 580, the minimum FHA down payment increases from 3.5% to 10%, requiring $25,000 down instead of $8,750."
+        }
+      ],
+      "cross_refs": [
+        "fha-mortgage-insurance",
+        "fha-streamline",
+        "fha-loan-limits"
+      ],
+      "check_questions": [
+        {
+          "question": "What is the standard minimum FHA down payment, and when does it increase?",
+          "answer": "The minimum is 3.5%; it increases to 10% when the borrower's credit score is below 580.",
+          "type": "recall"
+        },
+        {
+          "question": "Can an FHA loan be used to finance an investment property or second home?",
+          "answer": "Only through the FHA Streamline refinance program; standard FHA purchase loans require the borrower to occupy the property within 60 days and reside there for at least one year.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "fha-mortgage-insurance",
+      "term": "FHA Mortgage Insurance Premiums (UFMIP and AMIP)",
+      "definition": "Two charges HUD uses to insure FHA loans against default: an upfront premium (UFMIP) of 1.75% of the base loan amount financed into the loan, and an annual premium (AMIP) paid monthly.",
+      "why_it_exists": "HUD does not fund loans; MIP creates the insurance pool that reimburses lenders when FHA borrowers default.",
+      "examples": [
+        {
+          "scenario": "A borrower takes a 30-year FHA loan with a base amount of $250,000 and an LTV above 95%.",
+          "outcome": "UFMIP = $4,375 (1.75% × $250,000) financed into the loan; AMIP = 0.55% annually, or $114.58/month, required for the life of the loan because initial LTV exceeds 90%."
+        }
+      ],
+      "cross_refs": [
+        "fha-loan",
+        "fha-streamline"
+      ],
+      "check_questions": [
+        {
+          "question": "When is AMIP required for the life of the FHA loan versus only 11 years?",
+          "answer": "AMIP is required for the life of the loan when the initial LTV is greater than 90%; it is required for only 11 years when the initial LTV is 90% or less.",
+          "type": "recall"
+        },
+        {
+          "question": "What is the UFMIP factor for a standard FHA loan versus an FHA Streamline refinance?",
+          "answer": "Standard FHA loans carry a 1.75% UFMIP; FHA Streamline refinances carry a 0.01% UFMIP.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "va-loan",
+      "term": "VA loan",
+      "definition": "A government-guaranteed residential mortgage available to eligible veterans and service members that requires no mortgage insurance and no minimum down payment.",
+      "why_it_exists": "Created by the Servicemen's Readjustment Act of 1944 to help returning WWII veterans access homeownership; the VA guaranty replaces mortgage insurance by reimbursing lenders from a funding-fee pool.",
+      "examples": [
+        {
+          "scenario": "A veteran with full entitlement and no prior VA loans purchases a $500,000 home with no down payment on her first VA loan.",
+          "outcome": "The VA funding fee is 2.15% ($10,750), financed into the loan; no mortgage insurance applies and no down payment is required."
+        }
+      ],
+      "cross_refs": [
+        "va-irrrl",
+        "va-residual-income"
+      ],
+      "check_questions": [
+        {
+          "question": "Who is exempt from paying the VA funding fee?",
+          "answer": "Veterans with a service-related disability of 10% or more, active-duty members awarded a Purple Heart, and eligible surviving spouses.",
+          "type": "recall"
+        },
+        {
+          "question": "What DTI ratio does the VA use, and how does residual income affect it?",
+          "answer": "The VA uses only a back-end DTI of up to 41%; with noteworthy residual income, underwriters may approve borrowers above that threshold.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "usda-loan",
+      "term": "USDA loan",
+      "definition": "A government-guaranteed mortgage under Section 502 designed to promote homeownership in approved rural areas, requiring no down payment but capping borrower household income at 115% of the area median income.",
+      "why_it_exists": "Congress funds USDA loans to extend homeownership to rural Americans of modest means; the income cap prevents higher-income borrowers from consuming the finite annual budget.",
+      "examples": [
+        {
+          "scenario": "A family earning 110% of the local AMI wants to buy a rural home using USDA financing.",
+          "outcome": "They qualify under the income cap (≤115% AMI); they pay no down payment, a 1% upfront guarantee fee financed into the loan, and a 0.35% annual monthly guarantee fee."
+        }
+      ],
+      "cross_refs": [
+        "fha-loan",
+        "va-loan"
+      ],
+      "check_questions": [
+        {
+          "question": "What are the two USDA loan types and how do they differ?",
+          "answer": "The Guaranteed Rural Housing (GRH) loan is available to moderate-income borrowers and carries a 1% upfront and 0.35% annual fee; the Homeownership Direct (HD) loan targets very low-income borrowers (50–80% AMI), may offer payment subsidies, extends to 33–38 year terms, and has no guarantee fee.",
+          "type": "distinction"
+        },
+        {
+          "question": "What DTI ratio does the USDA program use?",
+          "answer": "29% front-end and 41% back-end (29/41).",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "adjustable-rate-mortgage",
+      "term": "Adjustable-Rate Mortgage (ARM)",
+      "definition": "A mortgage with an initial fixed interest rate (start rate) that periodically adjusts based on an index plus a fixed margin, subject to periodic and lifetime CAP limits.",
+      "why_it_exists": "ARMs offer lower initial rates than fixed-rate loans, helping borrowers afford larger loans or benefit from falling rates, but expose them to payment increases if rates rise.",
+      "examples": [
+        {
+          "scenario": "A 5/1 ARM has a 2% start rate, SOFR index at 4.35%, a 3% margin, and a 3/1/8 CAP structure.",
+          "outcome": "At first adjustment the FIAR = 4.35% + 3% = 7.35%, rounded to 7.375%; the 3% initial CAP allows a jump from 2% to up to 5%, so the CAP limits the first adjustment to 5%, not 7.375%."
+        }
+      ],
+      "cross_refs": [
+        "statement-on-subprime-lending",
+        "payment-shock",
+        "fha-loan"
+      ],
+      "check_questions": [
+        {
+          "question": "How is the Fully Indexed Accrual Rate (FIAR) calculated?",
+          "answer": "FIAR = index + margin, rounded to the nearest 1/8 of 1%.",
+          "type": "recall"
+        },
+        {
+          "question": "When must a mortgage servicer notify a borrower of an upcoming ARM rate adjustment?",
+          "answer": "No later than six months before the scheduled adjustment date.",
+          "type": "recall"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "660",
+      "what_it_means": "Credit score at or below which a borrower is classified as subprime due to relatively high default probability.",
+      "memorize_as": "660 or lower = subprime credit score trigger"
+    },
+    {
+      "value": "50%",
+      "what_it_means": "Debt-to-income ratio at or above which a borrower meets a subprime DTI characteristic.",
+      "memorize_as": "DTI ≥ 50% = subprime DTI trigger"
+    },
+    {
+      "value": "3.5%",
+      "what_it_means": "Standard FHA minimum down payment for borrowers with a credit score of 580 or higher.",
+      "memorize_as": "FHA standard minimum down = 3.5%"
+    },
+    {
+      "value": "10%",
+      "what_it_means": "FHA minimum down payment when the borrower's credit score is below 580.",
+      "memorize_as": "FHA credit score below 580 → 10% down"
+    },
+    {
+      "value": "1.75%",
+      "what_it_means": "Standard FHA Up-Front Mortgage Insurance Premium (UFMIP) as a percentage of the base loan amount.",
+      "memorize_as": "FHA UFMIP = 1.75%"
+    },
+    {
+      "value": "0.01%",
+      "what_it_means": "Reduced UFMIP for FHA Streamline refinances.",
+      "memorize_as": "FHA Streamline UFMIP = 0.01%"
+    },
+    {
+      "value": "0.55%",
+      "what_it_means": "FHA AMIP factor for 30-year loans with LTV above 95% (and all FHA Streamline loans, regardless of term).",
+      "memorize_as": "FHA AMIP most common rate = 0.55%"
+    },
+    {
+      "value": "31/43",
+      "what_it_means": "FHA debt-to-income ratio guideline (31% housing expense, 43% total debt).",
+      "memorize_as": "FHA DTI = 31/43"
+    },
+    {
+      "value": "6%",
+      "what_it_means": "Maximum FHA seller concession as a percentage of the purchase price.",
+      "memorize_as": "FHA max seller concession = 6%"
+    },
+    {
+      "value": "80%",
+      "what_it_means": "Maximum LTV for FHA cash-out refinances when the property has been owned 12 months or more.",
+      "memorize_as": "FHA cash-out refi max LTV = 80%"
+    },
+    {
+      "value": "$36,000",
+      "what_it_means": "VA Certificate of Eligibility entitlement amount; VA guarantees up to 4× this amount.",
+      "memorize_as": "VA COE entitlement = $36,000 → guarantees up to $144,000"
+    },
+    {
+      "value": "2.15%",
+      "what_it_means": "VA funding fee for first-use purchases with less than 5% down.",
+      "memorize_as": "VA first-use, <5% down = 2.15% funding fee"
+    },
+    {
+      "value": "3.3%",
+      "what_it_means": "VA funding fee for subsequent-use purchases with less than 5% down.",
+      "memorize_as": "VA subsequent-use, <5% down = 3.3% funding fee"
+    },
+    {
+      "value": "41%",
+      "what_it_means": "VA maximum back-end DTI ratio (no front-end ratio applies); may be exceeded with strong residual income.",
+      "memorize_as": "VA DTI = back-end 41% only"
+    },
+    {
+      "value": "4%",
+      "what_it_means": "Maximum VA seller concession as a percentage of the purchase price.",
+      "memorize_as": "VA max seller concession = 4%"
+    },
+    {
+      "value": "115%",
+      "what_it_means": "Maximum household income limit for USDA loan eligibility, expressed as a percentage of the adjusted area median income.",
+      "memorize_as": "USDA income cap = 115% of AMI"
+    },
+    {
+      "value": "1% / 0.35%",
+      "what_it_means": "USDA GRH upfront guarantee fee (1% of loan amount) and annual monthly guarantee fee (0.35% of balance ÷ 12).",
+      "memorize_as": "USDA GRH fees: 1% upfront + 0.35% annual"
+    },
+    {
+      "value": "29/41",
+      "what_it_means": "USDA debt-to-income ratio guideline (29% housing, 41% total).",
+      "memorize_as": "USDA DTI = 29/41"
+    },
+    {
+      "value": "36 months",
+      "what_it_means": "HOEPA restricts prepayment penalties on covered loans to a maximum of 36 months and 2% of the prepaid amount.",
+      "memorize_as": "HOEPA prepayment penalty limit = 36 months / 2%"
+    },
+    {
+      "value": "5 years",
+      "what_it_means": "Mandatory escrow period for Higher-Priced Mortgage Loans (HPMLs) regardless of LTV.",
+      "memorize_as": "HPML mandatory escrow = 5 years"
+    },
+    {
+      "value": "3% / 5% / 8%",
+      "what_it_means": "Qualified Mortgage points-and-fees caps: 3% for loans ≥$137,958; 5% for loans $27,592–$82,755; 8% for loans <$17,245 (2026 thresholds).",
+      "memorize_as": "QM fee caps: big loans 3%, mid loans 5%, tiny loans 8%"
+    },
+    {
+      "value": "210 days / 6th payment",
+      "what_it_means": "Minimum seasoning for a VA loan before it can be refinanced via IRRRL: the later of 210 days after the first payment date or the date the 6th payment is made.",
+      "memorize_as": "VA IRRRL seasoning = 210 days OR 6 payments, whichever is later"
+    },
+    {
+      "value": "50 basis points",
+      "what_it_means": "Minimum rate reduction required for a VA IRRRL from fixed-rate to fixed-rate.",
+      "memorize_as": "VA IRRRL fixed-to-fixed net benefit = 0.50% lower rate"
+    },
+    {
+      "value": "200 basis points",
+      "what_it_means": "Minimum rate reduction required for a VA IRRRL from fixed-rate to adjustable-rate.",
+      "memorize_as": "VA IRRRL fixed-to-ARM net benefit = 2.0% lower rate"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "FHA loan vs. conventional conforming loan",
+      "the_distinction": "FHA loans are government-insured through HUD, allow 3.5% down, use MIP, and can never be conforming because they cannot meet Fannie/Freddie underwriting parameters even if they fall within FHFA loan limits."
+    },
+    {
+      "often_confused_with": "VA guaranty vs. FHA insurance",
+      "the_distinction": "FHA insures the loan against default through MIP collected from the borrower; VA guarantees the loan's performance through a one-time funding fee and prohibits mortgage insurance entirely."
+    },
+    {
+      "often_confused_with": "UFMIP vs. AMIP",
+      "the_distinction": "UFMIP is a one-time upfront charge (1.75%) typically financed into the loan at closing; AMIP is an ongoing annual premium (e.g., 0.55%) divided into monthly payments and added to each mortgage payment."
+    },
+    {
+      "often_confused_with": "AMIP removal at 90% LTV vs. life-of-loan",
+      "the_distinction": "If the initial FHA LTV is above 90%, AMIP is required for the entire loan life; if the initial LTV is 90% or below, AMIP is automatically removed after 11 years."
+    },
+    {
+      "often_confused_with": "USDA GRH vs. USDA Homeownership Direct",
+      "the_distinction": "GRH is for moderate-income rural borrowers and carries guarantee fees; HD targets very low-income borrowers (50–80% AMI), may include payment subsidies, allows terms up to 33–38 years, and has no guarantee fee."
+    },
+    {
+      "often_confused_with": "VA IRRRL vs. FHA Streamline",
+      "the_distinction": "Both are simplified rate-reduction refinances for existing government loans, but the IRRRL requires a net tangible benefit of at least 50 bps rate reduction (fixed-to-fixed) and loan seasoning of 210 days/6 payments; FHA Streamline focuses on lowering monthly payment or changing ARM to fixed with no more than one 30-day late in the prior 12 months."
+    },
+    {
+      "often_confused_with": "Subprime lending vs. predatory lending",
+      "the_distinction": "Subprime lending serves higher-risk borrowers at higher rates and is legitimate when the borrower understands and qualifies under worst-case terms; predatory lending involves exploitation, fraud, or loan churning regardless of loan type."
+    },
+    {
+      "often_confused_with": "ARM start rate vs. Fully Indexed Accrual Rate (FIAR)",
+      "the_distinction": "The start rate is the initial below-market rate fixed for the ARM's initial stability period; the FIAR is index + margin (rounded to nearest 1/8%) and represents the true market-based rate the ARM will adjust to once the initial period ends."
+    }
+  ]
+}

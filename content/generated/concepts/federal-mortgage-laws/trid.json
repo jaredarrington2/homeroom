@@ -1,0 +1,358 @@
+{
+  "chapter_id": "federal-mortgage-laws",
+  "section_id": "trid",
+  "section_title": "TRID – TILA-RESPA Integrated Disclosure",
+  "chapter_title": "Federal Mortgage-Related Laws",
+  "page_range": {
+    "start": 116,
+    "end": 145
+  },
+  "summary": "TRID replaced the pre-2015 GFE, initial TIL, HUD-1, and final TIL with two standardized forms—the Loan Estimate and Closing Disclosure—to promote transparency and fair lending. The section also covers appraisal independence, mortgage servicing rules, loan originator compensation, HPML requirements, and HOEPA high-cost mortgage protections.",
+  "concepts": [
+    {
+      "id": "trid-overview",
+      "term": "TRID – TILA-RESPA Integrated Disclosure Rule",
+      "definition": "A CFPB rule effective October 3, 2015 that replaced four pre-existing mortgage disclosure forms with the Loan Estimate and Closing Disclosure to improve consumer understanding and comparability.",
+      "why_it_exists": "Pre-TRID forms were confusing, overlapping, and allowed originators to bait consumers with artificially low estimates that ballooned at closing.",
+      "examples": [
+        {
+          "scenario": "A borrower applies for a purchase loan on October 5, 2015.",
+          "outcome": "The lender must issue a Loan Estimate within three general business days and replace all old GFE/TIL/HUD-1 forms with the LE and CD."
+        }
+      ],
+      "cross_refs": [
+        "loan-estimate",
+        "closing-disclosure",
+        "fee-thresholds"
+      ],
+      "check_questions": [
+        {
+          "question": "What four documents did TRID replace?",
+          "answer": "The Good Faith Estimate, initial Truth-in-Lending Statement, HUD Settlement Statement, and final Truth-in-Lending Statement.",
+          "type": "recall"
+        },
+        {
+          "question": "TRID applies to which types of transactions?",
+          "answer": "Most closed-end consumer credit transactions secured by real property or cooperative units, including credit extended to certain trusts for tax or estate planning.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "loan-estimate",
+      "term": "Loan Estimate (LE)",
+      "definition": "A standardized three-page disclosure issued within three general business days of a complete application that summarizes loan terms, projected payments, and estimated closing costs.",
+      "why_it_exists": "Consumers need a clear, comparable snapshot of loan costs early enough to shop between creditors before committing.",
+      "examples": [
+        {
+          "scenario": "A creditor receives all six application pieces on Monday.",
+          "outcome": "The LE must be issued no later than Thursday (third general business day), and the loan cannot close for at least seven precise business days after the LE is delivered."
+        }
+      ],
+      "cross_refs": [
+        "trid-six-pieces",
+        "fee-thresholds",
+        "valid-change-of-circumstance"
+      ],
+      "check_questions": [
+        {
+          "question": "How soon must a Loan Estimate be issued after a complete application is received?",
+          "answer": "No later than the third general business day.",
+          "type": "recall"
+        },
+        {
+          "question": "After a Loan Estimate is delivered, how many business days must pass before the loan can close?",
+          "answer": "Seven precise business days.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "trid-six-pieces",
+      "term": "Six-Piece Application Trigger",
+      "definition": "A mortgage application is legally triggered—and requires LE issuance—the moment a creditor receives the consumer's name, income, SSN, property address, estimated property value, and loan amount sought.",
+      "why_it_exists": "A clear, objective trigger prevents creditors from delaying disclosures by claiming no formal application was submitted.",
+      "examples": [
+        {
+          "scenario": "A consumer verbally provides all six pieces of information but says she is 'just browsing.'",
+          "outcome": "An application has still been triggered; the creditor must issue a Loan Estimate and decision the loan within 30 calendar days."
+        }
+      ],
+      "cross_refs": [
+        "loan-estimate"
+      ],
+      "check_questions": [
+        {
+          "question": "List the six pieces of information that constitute a live mortgage application.",
+          "answer": "Consumer's name, income, SSN (for credit report), property address, estimated property value or purchase price, and loan amount sought.",
+          "type": "recall"
+        },
+        {
+          "question": "A creditor already has all six pieces of application information in its existing records. Does that alone trigger the LE requirement?",
+          "answer": "No—possessing the information in records without receiving it as part of a new application request does not, by itself, trigger the LE requirement.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "fee-thresholds",
+      "term": "Three TRID Fee Tolerance Thresholds",
+      "definition": "TRID categorizes every closing cost into one of three buckets—zero tolerance, 10% tolerance, or no tolerance limitation—determining how much a fee can increase between the LE and the Closing Disclosure.",
+      "why_it_exists": "Without caps, lenders could quote low fees on the LE and charge much higher amounts at closing, recreating the pre-TRID bait-and-switch problem.",
+      "examples": [
+        {
+          "scenario": "A transfer tax on the LE is $750 but increases to $1,000 at closing with no valid change of circumstance.",
+          "outcome": "Because transfer taxes are zero-tolerance fees, the lender must pay the $250 difference; the borrower pays only $750."
+        }
+      ],
+      "cross_refs": [
+        "valid-change-of-circumstance",
+        "loan-estimate"
+      ],
+      "check_questions": [
+        {
+          "question": "A recording fee is disclosed on the LE as $200. At closing it is $240. No valid change of circumstance occurred. What does the borrower pay?",
+          "answer": "Recording fees fall in the 10% tolerance bucket. The individual fee increase must be evaluated in aggregate with all other 10%-bucket fees; if the total aggregate increase stays within 10% of the LE total for that category, the borrower pays $240. If the aggregate exceeds 10%, the lender pays the overage.",
+          "type": "application"
+        },
+        {
+          "question": "Which category of fees cannot increase at all above the LE-disclosed amount unless a valid change of circumstance occurs?",
+          "answer": "Zero Tolerance Threshold fees, which include fees paid directly to the creditor, mortgage broker, or their affiliates, required third-party fees, and real estate transfer taxes.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "valid-change-of-circumstance",
+      "term": "Valid Change of Circumstance (VCOC)",
+      "definition": "One of five qualifying events that suspends normal fee threshold rules, requires issuance of a revised LE within three general business days, and allows the consumer to be charged the fee's actual true cost.",
+      "why_it_exists": "Some cost changes are genuinely unforeseeable; blanket tolerance rules would unfairly penalize lenders for events outside their control.",
+      "examples": [
+        {
+          "scenario": "A natural disaster damages the subject property after the LE is issued, requiring a new appraisal.",
+          "outcome": "The lender may issue a revised LE within three general business days; the loan may not close for four precise business days after the consumer receives the revised LE."
+        }
+      ],
+      "cross_refs": [
+        "fee-thresholds",
+        "loan-estimate"
+      ],
+      "check_questions": [
+        {
+          "question": "Name the five valid changes of circumstance.",
+          "answer": "1) Extraordinary event beyond anyone's control; 2) initially relied-upon information proves inaccurate or changes; 3) new relevant information surfaces post-disclosure; 4) natural disaster or act of God; 5) selected title company terminates operations during the transaction.",
+          "type": "recall"
+        },
+        {
+          "question": "How long after identifying a valid change of circumstance must a revised LE be issued, and how long must pass before closing after the consumer receives it?",
+          "answer": "The revised LE must be issued within three general business days of identifying the VCOC; closing cannot occur for at least four precise business days after the consumer receives the revised LE (seven days if mailed, unless receipt is confirmed).",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "hpml",
+      "term": "Higher-Priced Mortgage Loan (HPML)",
+      "definition": "A closed-end consumer mortgage secured by the borrower's principal dwelling whose APR exceeds the Average Prime Offer Rate (APOR) by specified thresholds, triggering escrow, appraisal, and disclosure requirements.",
+      "why_it_exists": "Higher-rate loans carry greater risk of consumer harm, so added protections—mandatory escrow, independent appraisal—help ensure the collateral and borrower are adequately protected.",
+      "examples": [
+        {
+          "scenario": "A conforming first-lien loan's APR exceeds APOR by 1.8 percentage points.",
+          "outcome": "The loan is an HPML; the lender must establish a mandatory escrow account for at least five years and obtain an interior inspection appraisal before consummation."
+        }
+      ],
+      "cross_refs": [
+        "hoepa"
+      ],
+      "check_questions": [
+        {
+          "question": "By how many percentage points must a first-lien conforming loan's APR exceed APOR to be classified as an HPML?",
+          "answer": "1.5 percentage points or more.",
+          "type": "recall"
+        },
+        {
+          "question": "For how many years is an HPML escrow account mandatory, and under what conditions can it be cancelled?",
+          "answer": "At least five years; after five years the escrow may be cancelled upon the borrower's written request if the LTV is 80% or below and the loan is current.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "hoepa",
+      "term": "HOEPA – High-Cost Mortgage Loan",
+      "definition": "A mortgage covered under the Home Ownership and Equity Protection Act (Section 32 of TILA) that crosses one of three thresholds—interest rate, points-and-fees, or prepayment penalty—triggering strict restrictions on loan terms and origination practices.",
+      "why_it_exists": "HOEPA was enacted in 1994 to protect consumers from predatory lenders charging excessive rates and fees on home-secured loans.",
+      "examples": [
+        {
+          "scenario": "A first-lien loan's APR exceeds APOR by 7 percentage points.",
+          "outcome": "The loan exceeds the 6.5-point HOEPA interest-rate threshold, making it a high-cost mortgage; a mandatory pre-loan counseling certificate must be obtained and a three-business-day disclosure issued before consummation."
+        }
+      ],
+      "cross_refs": [
+        "hpml"
+      ],
+      "check_questions": [
+        {
+          "question": "What are the three HOEPA threshold tests?",
+          "answer": "1) Interest rate threshold (APR vs. APOR); 2) Points-and-fees threshold; 3) Prepayment penalty threshold.",
+          "type": "recall"
+        },
+        {
+          "question": "A high-cost mortgage is used to pay a home improvement contractor. How must the funds be disbursed?",
+          "answer": "Proceeds may not go directly to the contractor alone; they must be paid to the borrower, jointly to the borrower and contractor, or to a mutually agreed-upon third party agreed to in writing in advance.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "lo-compensation",
+      "term": "Loan Originator Compensation Rules",
+      "definition": "TILA prohibits loan originators from receiving compensation based on a transaction's terms (other than loan amount), receiving dual compensation from both the consumer and another party, or steering consumers to loans that pay the originator more unless those loans are in the consumer's best interest.",
+      "why_it_exists": "Term-based and dual compensation create conflicts of interest that incentivize originators to place borrowers in costlier loans for personal gain.",
+      "examples": [
+        {
+          "scenario": "A borrower pays the originator a 1% origination fee directly. The lender also wants to pay the originator a yield-spread premium.",
+          "outcome": "Dual compensation is prohibited; the originator cannot receive the lender-paid premium when the consumer has already paid compensation directly."
+        }
+      ],
+      "cross_refs": [
+        "trid-overview"
+      ],
+      "check_questions": [
+        {
+          "question": "Can a loan originator's compensation be based on the interest rate of the loan?",
+          "answer": "No—compensation may not be based on any term of the transaction; only a fixed percentage of the loan amount is permissible.",
+          "type": "recall"
+        },
+        {
+          "question": "What three loan options must be presented to a consumer to avoid a steering violation?",
+          "answer": "The loan with the lowest interest rate; the loan with the lowest rate free of negative amortization, prepayment penalties, interest-only or balloon payments in the first seven years, demand features, or shared equity; and the loan with the lowest total discount/origination points and fees.",
+          "type": "recall"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "3 general business days",
+      "what_it_means": "Maximum time after application to issue the Loan Estimate; also the deadline to re-issue an LE after identifying a valid change of circumstance; also the deadline to deliver the written list of settlement service providers.",
+      "memorize_as": "3 GBD = LE must be out"
+    },
+    {
+      "value": "7 precise business days",
+      "what_it_means": "Mandatory waiting period after the LE is delivered before the loan can consummate.",
+      "memorize_as": "7 PBD = earliest closing after LE"
+    },
+    {
+      "value": "4 precise business days",
+      "what_it_means": "Mandatory waiting period after the consumer receives a revised LE before the loan can consummate.",
+      "memorize_as": "4 PBD = earliest closing after revised LE"
+    },
+    {
+      "value": "10 days",
+      "what_it_means": "Minimum period a creditor must honor non-interest fees on a pre-application Loan Estimate.",
+      "memorize_as": "10-day fee-lock on pre-app LE"
+    },
+    {
+      "value": "30 calendar days",
+      "what_it_means": "Maximum time to formally decision a loan after a live application is triggered.",
+      "memorize_as": "30 days to decide"
+    },
+    {
+      "value": "60 days",
+      "what_it_means": "Deadline for a creditor to cure a tolerance violation by refunding excess charges to the consumer after consummation.",
+      "memorize_as": "60-day cure window"
+    },
+    {
+      "value": "3 years (LE) / 5 years (CD) / 2 years (post-consummation notices)",
+      "what_it_means": "TRID record retention periods: Loan Estimate 3 years, Closing Disclosure 5 years, Escrow Closing Notice and Partial Payment Policy Disclosure 2 years.",
+      "memorize_as": "LE=3, CD=5, post-close notices=2"
+    },
+    {
+      "value": "1.5 / 2.5 / 3.5 percentage points above APOR",
+      "what_it_means": "HPML thresholds: 1.5pp for conforming first lien, 2.5pp for jumbo first lien, 3.5pp for subordinate lien.",
+      "memorize_as": "HPML: 1.5 conforming, 2.5 jumbo, 3.5 subordinate"
+    },
+    {
+      "value": "5 years",
+      "what_it_means": "Minimum mandatory escrow period for an HPML.",
+      "memorize_as": "HPML escrow = min 5 years"
+    },
+    {
+      "value": "90 days / 10% and 180 days / 20%",
+      "what_it_means": "HPML second appraisal triggers: seller owned ≤90 days and resale price >10% above acquisition price; or 91–180 days and resale price >20% above acquisition price.",
+      "memorize_as": "90/10% and 180/20% = second appraisal"
+    },
+    {
+      "value": "3 business days (HPML disclosure)",
+      "what_it_means": "The HPML Appraisal Disclosure must be delivered no later than the third business day after receiving the application.",
+      "memorize_as": "HPML appraisal disclosure = 3 BD"
+    },
+    {
+      "value": "6.5 / 8.5 percentage points above APOR",
+      "what_it_means": "HOEPA interest rate thresholds: 6.5pp for first lien; 8.5pp for subordinate lien or personal-property loan under $50,000.",
+      "memorize_as": "HOEPA rate: 6.5 first, 8.5 sub/personal property"
+    },
+    {
+      "value": "5% or 8% / $1,380 (2026)",
+      "what_it_means": "HOEPA points-and-fees threshold: 5% of loan amount for loans ≥$27,592; lesser of 8% or $1,380 for loans below $27,592.",
+      "memorize_as": "HOEPA fees: 5% big loans, 8%/$1,380 small loans"
+    },
+    {
+      "value": "36 months / 2%",
+      "what_it_means": "HOEPA prepayment penalty threshold: penalty extends beyond 36 months after consummation OR equals 2% or more of the amount prepaid at any time.",
+      "memorize_as": "HOEPA prepay: >36 months or ≥2%"
+    },
+    {
+      "value": "4%",
+      "what_it_means": "Maximum late fee on a HOEPA high-cost mortgage, not imposed until after a 15-day grace period.",
+      "memorize_as": "HOEPA late fee cap = 4% after 15-day grace"
+    },
+    {
+      "value": "1 year",
+      "what_it_means": "Prohibition period during which a high-cost mortgage may not be refinanced into another high-cost mortgage for the same consumer unless clearly in the consumer's best interest.",
+      "memorize_as": "HOEPA refi ban = 1 year"
+    },
+    {
+      "value": "7 business days",
+      "what_it_means": "Maximum time to provide a payoff statement after receiving a written request from a consumer.",
+      "memorize_as": "Payoff statement = 7 BD"
+    },
+    {
+      "value": "5 business days",
+      "what_it_means": "Maximum time a servicer has to credit a non-conforming payment that it nonetheless accepted, when it has issued written payment requirements.",
+      "memorize_as": "Servicer non-conforming payment credit = 5 BD"
+    },
+    {
+      "value": "10% (fee tolerance bucket)",
+      "what_it_means": "The aggregate cost of 10%-tolerance-bucket fees on the CD may not exceed 110% of the same fees' total on the LE; the lender pays any excess.",
+      "memorize_as": "10% bucket: total on CD ≤ 110% of LE total"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "HPML vs. HOEPA (high-cost mortgage)",
+      "the_distinction": "HPML thresholds are lower and trigger escrow/appraisal requirements; HOEPA thresholds are higher and trigger stricter loan-term restrictions plus mandatory counseling. Every loan is tested for HPML first, then separately for HOEPA; a loan can be both."
+    },
+    {
+      "often_confused_with": "Zero Tolerance vs. 10% Tolerance fees",
+      "the_distinction": "Zero Tolerance fees (lender/broker fees, required third-party fees, transfer taxes) cannot increase at all without a VCOC; 10% Tolerance fees (recording fees, borrower-chosen provider from lender's list) are compared in aggregate and can increase up to 10% above the LE total before the lender pays the overage."
+    },
+    {
+      "often_confused_with": "Three general business days vs. seven precise business days",
+      "the_distinction": "Three general business days is the deadline to issue the LE after application (and to re-issue after a VCOC); seven precise business days is the mandatory waiting period after LE delivery before the loan can close."
+    },
+    {
+      "often_confused_with": "HPML second appraisal 90-day/10% rule vs. 180-day/20% rule",
+      "the_distinction": "If the seller held the property 90 or fewer days and the consumer's price exceeds the seller's acquisition price by more than 10%, a second appraisal is required. If the seller held it 91–180 days and the markup exceeds 20%, a second appraisal is required."
+    },
+    {
+      "often_confused_with": "Dual compensation prohibition vs. organization paying its own LO",
+      "the_distinction": "A loan originator (individual) cannot receive compensation from both the consumer and a third party in the same transaction. However, a loan originator organization that receives consumer-paid compensation may still pay its individual LO employee from those funds—that is not dual compensation."
+    },
+    {
+      "often_confused_with": "TRID record retention: LE (3 years) vs. CD (5 years)",
+      "the_distinction": "The Loan Estimate must be kept for at least three years after consummation; the Closing Disclosure must be kept for at least five years after consummation."
+    }
+  ]
+}

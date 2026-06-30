@@ -1,0 +1,337 @@
+{
+  "chapter_id": "mlo-activities",
+  "section_id": "qualification",
+  "section_title": "Qualification",
+  "chapter_title": "MLO Activities",
+  "page_range": {
+    "start": 416,
+    "end": 440
+  },
+  "summary": "This section covers the qualification process for mortgage loan applicants, including how loan features are documented, how assets and credit are evaluated, permissible application questions under ECOA, required disclosures and their timing, and tolerance rules for fees disclosed on a Loan Estimate.",
+  "concepts": [
+    {
+      "id": "section-l3-loan-features",
+      "term": "Section L3 – Loan Information Documentation",
+      "definition": "The portion of the URLA where the MLO records the mortgage type, interest rate, loan term, lien position, amortization type, special loan features, and a fully itemized proposed monthly payment.",
+      "why_it_exists": "Accurate upfront documentation of loan features prevents confusion during underwriting and ensures borrowers understand the full cost of their loan.",
+      "examples": [
+        {
+          "scenario": "A borrower applies for a 5/1 ARM with an interest-only period and a prepayment penalty.",
+          "outcome": "The MLO must check all applicable feature boxes, enter the 60-month initial adjustment period, the 12-month subsequent adjustment interval, the interest-only term, and the prepayment penalty term in Section L3."
+        }
+      ],
+      "cross_refs": [
+        "section-l4-minimum-required-funds",
+        "loan-estimate-disclosure"
+      ],
+      "check_questions": [
+        {
+          "question": "What amortization-related data must be disclosed in Section L3 when the loan has an adjustable rate?",
+          "answer": "The initial period before the first rate adjustment and the subsequent period between future adjustments, both expressed in months.",
+          "type": "recall"
+        },
+        {
+          "question": "Why should an MLO fully itemize the proposed monthly payment in Section L3 rather than listing only the PITI total?",
+          "answer": "Itemizing each component (P&I, subordinate debt, insurance, taxes, mortgage insurance, HOA dues, etc.) is a best practice that gives the borrower a complete picture of their monthly obligations and reduces errors.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "section-l4-minimum-required-funds",
+      "term": "Section L4 – Minimum Required Funds or Cash Back",
+      "definition": "The URLA section that calculates total transaction costs versus total credits to determine how much the borrower must bring to closing or will receive from loan proceeds.",
+      "why_it_exists": "It verifies that loan structuring math is accurate and that the borrower has sufficient funds or will not receive unauthorized cash back.",
+      "examples": [
+        {
+          "scenario": "Total costs are $285,000 and total credits (loans plus seller concessions) are $290,000.",
+          "outcome": "The borrower will receive $5,000 back from the loan proceeds at settlement."
+        }
+      ],
+      "cross_refs": [
+        "section-l3-loan-features",
+        "asset-types-and-valuation"
+      ],
+      "check_questions": [
+        {
+          "question": "What does it mean when Section L4 shows total credits exceeding total costs?",
+          "answer": "The borrower will receive money back from the loan proceeds at settlement.",
+          "type": "recall"
+        },
+        {
+          "question": "What categories of costs are included in Section L4's cost calculation?",
+          "answer": "Sales contract price, improvements/renovations/repairs, land cost or value, loan balances to be paid off, required debt payoffs, settlement fees, and discount points.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "scif-form-1103",
+      "term": "Supplemental Consumer Information Form (SCIF) – FNMA/FHLMC Form 1103",
+      "definition": "A required form MLOs must complete for all residential mortgage applications that collects homeownership education/counseling history and the borrower's preferred language for communications and documents.",
+      "why_it_exists": "Regulators and lenders use this data to better understand and serve borrowers' needs, particularly those from non-English-speaking communities.",
+      "examples": [
+        {
+          "scenario": "A borrower completed a HUD-approved online homeownership counseling course nine months ago and prefers Spanish-language documents.",
+          "outcome": "The MLO records the counseling details in Section 1 and marks Spanish in Section 2; the lender is not required to provide Spanish documents but should accommodate when possible."
+        }
+      ],
+      "cross_refs": [
+        "permissible-application-questions"
+      ],
+      "check_questions": [
+        {
+          "question": "What two broad topics does the SCIF collect information about?",
+          "answer": "Homeownership education and housing counseling completion within the past 12 months, and the borrower's preferred language for communication and loan documents.",
+          "type": "recall"
+        },
+        {
+          "question": "Is a lender required to provide loan documents in a borrower's preferred language if the borrower indicates one on the SCIF?",
+          "answer": "No. The lender must collect the preference but is not obligated to accommodate it.",
+          "type": "distinction"
+        }
+      ]
+    },
+    {
+      "id": "asset-types-and-valuation",
+      "term": "Asset Types and Valuation Rules",
+      "definition": "Different asset categories—deposit accounts, mutual funds, retirement accounts, stocks, bonds, personal property/chattel, and whole life insurance—are each evaluated using specific documentation and valuation methods based on their liquidity and volatility.",
+      "why_it_exists": "Lenders need to confirm that assets used for down payment, closing costs, and reserves are real, accessible, and accurately valued.",
+      "examples": [
+        {
+          "scenario": "A borrower wants to use a mutual fund worth $80,000 to cover $60,000 in closing costs.",
+          "outcome": "Because $80,000 is less than 120% of $60,000 ($72,000), the fund does not meet the face-value threshold; the borrower must show evidence of liquidation."
+        }
+      ],
+      "cross_refs": [
+        "section-l4-minimum-required-funds",
+        "gift-funds-rules"
+      ],
+      "check_questions": [
+        {
+          "question": "Under what condition can a mutual fund be counted at its face value without requiring evidence of liquidation when used for cash-to-close?",
+          "answer": "When at least one mutual fund account has a face value equal to or exceeding 120% of the total funds needed to close.",
+          "type": "recall"
+        },
+        {
+          "question": "What additional step is required for an applicant who discloses personal property such as jewelry as an asset?",
+          "answer": "The applicant must secure appraisals of the disclosed items, and if used for down payment or settlement fees, the lender may also require liquidation and a corresponding paper trail.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "credit-report-handling-and-disputes",
+      "term": "Credit Report Handling and Dispute Methods",
+      "definition": "MLOs may review a credit profile with an applicant but may never give the applicant a copy; errors can be corrected through a direct CRA dispute, a tradeline verification or investigative consumer report, or a rapid re-score.",
+      "why_it_exists": "Only official credit repositories may furnish credit reports to consumers, and dispute mechanisms exist to protect both the accuracy of credit data and the privacy of consumer information.",
+      "examples": [
+        {
+          "scenario": "An applicant's credit score is too low to qualify due to an erroneous collection account, and closing is in two weeks.",
+          "outcome": "The MLO orders a rapid re-score; the repository corrects the error and re-scores the applicant, potentially raising the score in time—though this is a last resort due to cost."
+        }
+      ],
+      "cross_refs": [
+        "permissible-application-questions"
+      ],
+      "check_questions": [
+        {
+          "question": "What is the difference between a tradeline verification and a direct CRA dispute in terms of their effect on the borrower's credit profile?",
+          "answer": "A direct CRA dispute permanently corrects the credit profile; a tradeline verification only resolves the issue for the current transaction and does not change the borrower's actual credit profile or score.",
+          "type": "distinction"
+        },
+        {
+          "question": "How long does a CRA have to respond once a consumer files a dispute?",
+          "answer": "30 days to either substantiate the reporting or correct the error.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "gift-funds-rules",
+      "term": "Acceptable Gift Funds and Donors",
+      "definition": "A mortgage applicant may receive gift funds from eligible relatives or qualifying non-relatives for settlement fees, prepaids, and reserves, but generally not for a down payment, provided the donor supplies a gift letter confirming no repayment is expected.",
+      "why_it_exists": "Lenders must ensure that funds used in a transaction are genuine gifts and not disguised loans, which would affect debt ratios and qualification.",
+      "examples": [
+        {
+          "scenario": "A borrower's domestic partner's parent offers to give $10,000 toward closing costs.",
+          "outcome": "This is an acceptable gift because the donor is a relative of the domestic partner; a gift letter must be provided, and the donor cannot be affiliated with any interested party to the transaction."
+        }
+      ],
+      "cross_refs": [
+        "asset-types-and-valuation"
+      ],
+      "check_questions": [
+        {
+          "question": "Can a real estate agent who is also the borrower's cousin provide a gift for the transaction?",
+          "answer": "No. A donor may not be, or have any affiliation with, an interested party to the transaction such as a real estate agent, regardless of their family relationship.",
+          "type": "application"
+        },
+        {
+          "question": "What must a gift donor provide to the lender?",
+          "answer": "A gift letter affirming that the money is a non-reimbursable gift with no expectation of repayment.",
+          "type": "recall"
+        }
+      ]
+    },
+    {
+      "id": "permissible-application-questions",
+      "term": "Permissible Application Questions Under ECOA",
+      "definition": "ECOA limits what an MLO may ask about marital status (married, separated, or unmarried only), family planning, citizenship, and alimony/child support income to prevent discriminatory lending.",
+      "why_it_exists": "ECOA protects applicants from credit discrimination based on protected characteristics by restricting the types of personal information lenders may solicit.",
+      "examples": [
+        {
+          "scenario": "An applicant mentions she is recently divorced and the MLO asks whether she plans to remarry to assess income stability.",
+          "outcome": "This question violates ECOA; the MLO may only ask about current marital status using the three permissible categories."
+        }
+      ],
+      "cross_refs": [
+        "scif-form-1103",
+        "loan-estimate-disclosure"
+      ],
+      "check_questions": [
+        {
+          "question": "What are the only three marital status categories an MLO may use when asking about an applicant's marital status?",
+          "answer": "Married, separated, or unmarried.",
+          "type": "recall"
+        },
+        {
+          "question": "Must a borrower disclose alimony or child support income on a mortgage application?",
+          "answer": "No. Unless the loan product has a household income ceiling, the MLO must inform the applicant before asking that alimony, child support, and separate maintenance income need not be disclosed if the applicant does not wish to reveal it.",
+          "type": "application"
+        }
+      ]
+    },
+    {
+      "id": "loan-estimate-disclosure",
+      "term": "Loan Estimate – Issuance, Timing, and Tolerances",
+      "definition": "The Loan Estimate is a standardized, legally binding cost disclosure that must be issued within three general business days of application, must honor all non-interest fees for at least ten days, and is subject to strict tolerance rules limiting how much certain fees can increase at closing.",
+      "why_it_exists": "TRID created the Loan Estimate to ensure consumers receive accurate, consistent cost information and have adequate time to review it before committing to a loan.",
+      "examples": [
+        {
+          "scenario": "A third-party appraisal fee is disclosed on the Loan Estimate at $500 but the actual bill comes in at $600 without a valid change of circumstance.",
+          "outcome": "The borrower pays no more than $550 (110% of $500); the lender must absorb the remaining $50 because the fee qualifies for the 10% tolerance bucket."
+        }
+      ],
+      "cross_refs": [
+        "section-l3-loan-features",
+        "permissible-application-questions"
+      ],
+      "check_questions": [
+        {
+          "question": "What is the only fee an MLO may collect from a consumer before issuing the Loan Estimate?",
+          "answer": "The cost of the credit report.",
+          "type": "recall"
+        },
+        {
+          "question": "How do tolerance rules differ between a fee paid directly to the lender and a recording fee when there is no valid change of circumstance?",
+          "answer": "A fee paid directly to the lender has zero tolerance—the borrower pays no more than the originally disclosed amount; a recording fee has a 10% tolerance—the borrower may pay up to 110% of the disclosed amount.",
+          "type": "distinction"
+        }
+      ]
+    }
+  ],
+  "key_numbers": [
+    {
+      "value": "120%",
+      "what_it_means": "If at least one mutual fund or retirement account has a face value equal to or exceeding 120% of the total funds needed to close, all accounts of that type may be counted at face value without requiring liquidation evidence.",
+      "memorize_as": "120% face-value rule for mutual/retirement funds used for cash-to-close"
+    },
+    {
+      "value": "30 days",
+      "what_it_means": "A CRA has 30 days to substantiate or correct a disputed item after receiving a consumer's dispute.",
+      "memorize_as": "30-day CRA dispute resolution window"
+    },
+    {
+      "value": "3 general business days",
+      "what_it_means": "The Loan Estimate must be issued within three general business days of application; ARM disclosures (CHARM + Initial ARM Program Disclosure) must also be issued within three business days of application.",
+      "memorize_as": "3 general business days = issue Loan Estimate and ARM disclosures"
+    },
+    {
+      "value": "10 days",
+      "what_it_means": "All non-interest-related fees on the Loan Estimate must be honored by the lender for at least ten days from the date of issuance.",
+      "memorize_as": "10-day fee lock on Loan Estimate"
+    },
+    {
+      "value": "7 precise business days",
+      "what_it_means": "A loan may not close for seven precise business days after the initial Loan Estimate is issued, giving the consumer time to review.",
+      "memorize_as": "7 precise business days waiting period after Loan Estimate before closing"
+    },
+    {
+      "value": "4 precise business days",
+      "what_it_means": "After a revised Loan Estimate is issued due to a valid change of circumstance, the loan may not close for at least four precise business days after the consumer receives it.",
+      "memorize_as": "4 precise business days after revised Loan Estimate (7 if mailed/electronic without confirmed receipt)"
+    },
+    {
+      "value": "110%",
+      "what_it_means": "Recording fees and qualifying third-party fees may increase up to 110% of the originally disclosed amount without a valid change of circumstance; any excess is the lender's responsibility.",
+      "memorize_as": "110% tolerance cap for recording fees and select third-party fees"
+    },
+    {
+      "value": "60 calendar days",
+      "what_it_means": "After loan consummation, a creditor must provide a corrected Closing Disclosure for clerical errors or to cure tolerance violations within 60 calendar days.",
+      "memorize_as": "60-day post-consummation window for corrected Closing Disclosure"
+    },
+    {
+      "value": "15 calendar days",
+      "what_it_means": "The Goodbye Letter (from releasing servicer) must be issued no later than 15 calendar days before a scheduled servicing transfer; the Welcome Letter (from receiving servicer) must be issued no later than 15 calendar days after the transfer date.",
+      "memorize_as": "15 days before/after transfer for servicing transfer letters"
+    },
+    {
+      "value": "30 calendar days",
+      "what_it_means": "Under ECOA, Notice of Action Taken, Adverse Action Notice, and Notice of Incomplete Application must all be issued no later than 30 calendar days post-application.",
+      "memorize_as": "30 calendar days post-application for ECOA action notices"
+    },
+    {
+      "value": "45 days",
+      "what_it_means": "The first escrow analysis must be performed no later than 45 days after settlement, then annually thereafter.",
+      "memorize_as": "45 days post-settlement for first escrow analysis"
+    },
+    {
+      "value": "12 months",
+      "what_it_means": "The SCIF asks whether the borrower completed homeownership education or housing counseling within the 12 months immediately preceding the mortgage application.",
+      "memorize_as": "12-month lookback for counseling on the SCIF"
+    },
+    {
+      "value": "10 HUD-approved agencies",
+      "what_it_means": "The Homeownership Counseling Disclosure must list no fewer than 10 HUD-approved homeownership counseling agencies near the applicant.",
+      "memorize_as": "Minimum 10 agencies on Homeownership Counseling Disclosure"
+    },
+    {
+      "value": "3 financing options",
+      "what_it_means": "As a safe harbor against product steering, MLOs should present each consumer with at least three mortgage options: par rate, higher rate/lower costs, and lower rate/higher costs.",
+      "memorize_as": "3 options = anti-steering safe harbor"
+    },
+    {
+      "value": "12-point font",
+      "what_it_means": "The required disclaimer on a Cost Estimate must appear in 12-point font or larger at the top of the form.",
+      "memorize_as": "12-point font minimum for Cost Estimate disclaimer"
+    }
+  ],
+  "common_confusions": [
+    {
+      "often_confused_with": "Cost Estimate vs. Loan Estimate",
+      "the_distinction": "A Cost Estimate is informal, non-binding, not a standard form, and may be issued anytime; a Loan Estimate is a standardized mandatory form that must be issued within three general business days of application and binds the lender to honor disclosed non-interest fees for at least ten days."
+    },
+    {
+      "often_confused_with": "Tradeline verification / investigative consumer report vs. rapid re-score",
+      "the_distinction": "A tradeline verification or investigative consumer report corrects the credit profile only for the current transaction and does not change the borrower's actual credit score; a rapid re-score causes the repository to re-score the applicant's actual profile after corrections, potentially improving their real credit score."
+    },
+    {
+      "often_confused_with": "Zero-tolerance fees vs. 10% tolerance fees",
+      "the_distinction": "Fees paid directly to the lender, its affiliate, or a lender-required service provider have zero tolerance—the borrower pays no more than disclosed; recording fees and third-party fees where the borrower may choose their provider (with lender recommendation) have 10% tolerance—the borrower may pay up to 110% of the disclosed amount."
+    },
+    {
+      "often_confused_with": "Face value vs. cash value of whole life insurance",
+      "the_distinction": "The face value is the amount payable at maturity; the cash value is the current accessible value if the policy has not yet matured, which may be less than face value—borrowers must document both."
+    },
+    {
+      "often_confused_with": "120% rule for cash-to-close vs. reserve purposes",
+      "the_distinction": "When mutual or retirement funds are used for cash-to-close, 120% face-value coverage is required to avoid needing liquidation evidence; when the funds are used solely for reserve purposes, they may always be counted at 100% of face value regardless of the 120% threshold."
+    },
+    {
+      "often_confused_with": "MLO declining to work with an applicant vs. discouraging an applicant",
+      "the_distinction": "An MLO may never discourage anyone from applying; the only permissible reasons to refuse to work with an applicant are that the person is under 18, is committing or has committed fraud, or is mentally incompetent."
+    }
+  ]
+}
