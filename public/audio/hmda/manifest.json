@@ -1,0 +1,50 @@
+{
+  "unitId": "hmda",
+  "name": "HMDA",
+  "reg": "Home Mortgage Disclosure Act · Reg C",
+  "groupCount": 3,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-hmda-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "Redlining never shows up in a single file. One denial looks like a credit call; it's only across a whole market — who got approved, who didn't, which neighborhoods went dry — that the pattern surfaces. HMDA forces that pattern into the open. Covered lenders report standardized data on the applications they take, and regulators and the public comb it for discrimination and for areas being starved of credit. The data lands in a Loan/Application Register, and a lender holds onto the underlying register data for at least 3 years and the public disclosure reports built from it for at least 5 years."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hmda-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "A lender gets pulled in by volume, not by choice. The closed-end trigger is 25 closed-end mortgage loans in each of the two preceding calendar years — make fewer than that and you stay out, so the line that turns an ordinary lender into a HMDA reporter sits at 25 closed-end loans. For revolving credit, the parallel trigger is at least 200 open-end lines of credit, again in each of the two preceding years."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-hmda-g1-gate-synth",
+      "gi": 1
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hmda-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "Most reporters file once a year. A high-volume lender — one with 60,000 or more covered loans and applications combined (purchased loans don't count) — has to file quarterly instead. Each quarterly report covers every quarter but the fourth, and the deadline is the same each time: 60 calendar days after the quarter closes. So a high-volume lender's first-quarter numbers are due within 60 calendar days of the quarter ending."
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-hmda-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-hmda-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-hmda-gate-mcq"
+    }
+  ]
+}

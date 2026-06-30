@@ -1,0 +1,593 @@
+{
+  "unitId": "respa",
+  "name": "RESPA",
+  "reg": "Real Estate Settlement Procedures Act · Reg X",
+  "groupCount": 24,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-respa-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "You're buying a house. Between the offer and the keys, a dozen companies you never picked get paid out of your closing — a title company, an escrow agent, an appraiser, a credit bureau. RESPA governs that stretch. It does two jobs: it forces those settlement costs into the open through required disclosures, and it bans the back-channel payments that used to quietly inflate them. The CFPB enforces it under Regulation X, and the records behind a covered loan have to be kept for at least 5 years."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "RESPA only reaches consumer mortgages. Borrow to buy a laundromat, an office, or a stretch of raw land and you're outside it — those are business deals, and the law assumes that borrower can look after themselves. Two edges trip people up: a temporary bridge loan keeps its exemption only while its term stays short — a year or less — and vacant land is exempt unless construction starts within two years. So a bridge loan crosses back under RESPA the moment its term runs longer than 12 months."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "Section 8 of RESPA is the anti-kickback rule. It prohibits the exchange of anything of value between actual or potential referral sources in connection with a federally related mortgage loan. The logic is straightforward: if real estate professionals can earn rewards for steering borrowers to specific service providers, the borrower's interests stop driving the referral — the reward does."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g2-p1",
+      "gi": 2,
+      "pi": 1,
+      "text": "The prohibition runs in both directions: no person may give and no person may accept any fee, kickback, or other thing of value tied to the referral of settlement service business. A referral itself is not a compensable service — a company cannot pay another company, or another company's employees, simply for sending business its way."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g2-p2",
+      "gi": 2,
+      "pi": 2,
+      "text": "The same principle blocks fee-splitting for work not performed. No one may give or accept any portion, split, or percentage of a charge for rendering a settlement service unless it's for services actually performed. A charge for which no real work — or only nominal work — is done is an unearned fee and a violation. Duplicative charges for the same service are also unearned fees."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g2-p3",
+      "gi": 2,
+      "pi": 3,
+      "text": "RESPA defines \"thing of value\" broadly: money, discounts, commissions, stock, dividends, partnership distributions, franchise royalties, future credits, the opportunity to participate in a money-making program, trips, payment of another person's expenses, services at special or free rates, sales or rentals at special prices, and lease payments tied to referral volume. The term \"payment\" is synonymous with giving or receiving any thing of value — it does not require the transfer of money."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g2-p4",
+      "gi": 2,
+      "pi": 4,
+      "text": "An agreement to refer business doesn't have to be written or even spoken. A practice, pattern, or course of conduct can establish it. When something of value is received repeatedly and is connected in any way to the volume or value of the business referred, that pattern is evidence of an agreement."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "Under RESPA, a \"referral\" is any oral or written action that has the effect of affirmatively influencing someone's selection of a settlement service provider — when that person will pay for the service. It also covers situations where a borrower is required to use a particular provider."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g3-p1",
+      "gi": 3,
+      "pi": 1,
+      "text": "Seven categories of payments are allowed despite the referral prohibition. The common thread: each involves compensation for work actually done, not for steering business."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g3-p2",
+      "gi": 3,
+      "pi": 2,
+      "text": "Payments to an attorney for services actually rendered. Payments by a title company to its appointed agent for work actually performed in issuing a title policy. Payments by a lender to its agent or contractor for work actually performed in originating, processing, or funding a loan. Bona fide salary or compensation for goods or facilities actually furnished or services actually performed. Cooperative brokerage and referral arrangements solely between real estate agents and brokers. Normal promotional and educational activities that are not conditioned on referrals and don't defray expenses for people in a position to refer. An employer's payment to its own employees for referral activities."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-respa-g3-gate-synth",
+      "gi": 3
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "Any person who violates the kickback or unearned fee prohibitions faces a fine of up to $10,000, imprisonment for up to 1 year, or both."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g5-p0",
+      "gi": 5,
+      "pi": 0,
+      "text": "With limited exceptions, borrowers have the right to choose their own settlement service providers. Section 9 of RESPA targets one specific abuse: a seller forcing the buyer to use a particular title insurance company as a condition of the sale."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g5-p1",
+      "gi": 5,
+      "pi": 1,
+      "text": "No seller of property purchased with a federally related mortgage loan may require — directly or indirectly — that the buyer purchase title insurance from a specific title company. If a seller violates this rule, the penalty is treble damages — the seller is liable to the buyer for three times all charges made for the title insurance."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g6-p0",
+      "gi": 6,
+      "pi": 0,
+      "text": "RESPA's disclosure deadlines use three different definitions of \"day,\" and the exam tests whether you can tell them apart."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g6-p1",
+      "gi": 6,
+      "pi": 1,
+      "text": "A calendar day is every day — weekends, holidays, all of them. When a rule says \"60 calendar days,\" count every square on the calendar."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g6-p2",
+      "gi": 6,
+      "pi": 2,
+      "text": "A precise business day is every day except Sundays and federal holidays. Saturdays count."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g6-p3",
+      "gi": 6,
+      "pi": 3,
+      "text": "A general business day adds one more filter: the entity in question must be fully operational that day. A lender closed on Saturdays has fewer general business days than precise business days — which means a \"three general business days\" deadline can land later than \"three precise business days\" for the same event."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-respa-g6-gate-synth",
+      "gi": 6
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g7-p0",
+      "gi": 7,
+      "pi": 0,
+      "text": "When someone applies for a mortgage, the lender must issue a Special Information Booklet — also called the HUD Home Loan Toolkit — no later than 3 general business days from the application date. Its purpose is to help the applicant understand the nature and costs of settlement services. If two or more people apply together, the lender only needs to issue one copy to one of them. If a mortgage broker is involved, the broker issues it, relieving the lender of the obligation."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g7-p1",
+      "gi": 7,
+      "pi": 1,
+      "text": "The booklet is not required for every loan type. No Special Information Booklet is needed when the application is for a refinance, a closed-end subordinate lien, a reverse mortgage, or any other federally related mortgage loan whose purpose is not the purchase of a one-to-four-family residential dwelling."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g7-p2",
+      "gi": 7,
+      "pi": 2,
+      "text": "The booklet can be reproduced in any format — any color, paper, print — as long as no changes are made to the content and it remains clearly legible. It cannot be embedded inside a larger document."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g8-p0",
+      "gi": 8,
+      "pi": 0,
+      "text": "When a lender takes an application for a home equity line of credit (HELOC), it must issue a separate disclosure booklet — When Your Home is on the Line: What You Need to Know About Home Equity Lines of Credit — within 3 precise business days from the application date. Note the day type: precise business days, not the general business days used for the Special Information Booklet."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g8-p1",
+      "gi": 8,
+      "pi": 1,
+      "text": "The booklet explains how HELOCs function so the applicant can make an informed decision about whether and how to use the credit line."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g9-p0",
+      "gi": 9,
+      "pi": 0,
+      "text": "An affiliated business arrangement exists when someone in a position to refer settlement-related business has a direct ownership interest of more than 1% in a settlement service provider and either refers business to that provider or influences its selection."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g9-p1",
+      "gi": 9,
+      "pi": 1,
+      "text": "The term associate covers a spouse, parent, or child of the referring person; a corporation or business that controls, is controlled by, or shares common control with them; an employer, officer, director, partner, franchisor, or franchisee; or anyone with an agreement whose purpose or practical effect is to let the referring person benefit financially from the referrals."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g9-p2",
+      "gi": 9,
+      "pi": 2,
+      "text": "When a borrower is referred to a third-party settlement service provider and an affiliate or associate relationship exists, the referrer must issue an Affiliated Business Arrangement Disclosure (ABAD) — either at the moment of referral or, if a mortgage application is involved, within three business days. The ABAD must disclose the nature of the relationship and ownership interest, the estimated range of costs the borrower can expect, and the borrower's right to use a different provider unless the service falls into an exempt category (appraiser, credit repository, lender attorney, mortgage insurance company, flood search, or tax search)."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g9-p3",
+      "gi": 9,
+      "pi": 3,
+      "text": "Lenders must retain copies of all ABADs and supporting documentation for at least five years from execution."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-respa-g9-gate-synth",
+      "gi": 9
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g10-p0",
+      "gi": 10,
+      "pi": 0,
+      "text": "An affiliated business arrangement is legal — RESPA allows it as long as the disclosure happens. The risk is when someone sets up a shell company that looks like an affiliated business but exists only to funnel referral fees. That's a sham arrangement, and it violates RESPA's anti-kickback provisions."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g10-p1",
+      "gi": 10,
+      "pi": 1,
+      "text": "The scheme works like this: a loan officer or real estate agent creates a title company, appraisal firm, or other settlement service provider. On paper, it's a separate business. In practice, it has no real employees, no real office, and no real operations — it exists to receive referrals from its owner and pass the actual work to a third party while skimming a fee."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g10-p2",
+      "gi": 10,
+      "pi": 2,
+      "text": "In 1996, HUD published a ten-factor test for identifying sham arrangements. A federal court later ruled the test doesn't carry the force of law, but the factors remain useful as red flags. They all ask variations of one question: is this entity a real, functioning business?"
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g10-p3",
+      "gi": 10,
+      "pi": 3,
+      "text": "The ten factors fall into three clusters. Does it operate independently? A real business has its own capital, its own employees, its own office, and controls its own affairs. Does it do real work? A real business performs the services it advertises rather than contracting them out and charging a markup for routing the paperwork. Does it compete for business? A real business serves multiple clients and competes in the open market — not just one referral source."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-respa-g10-gate-synth",
+      "gi": 10
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g11-p0",
+      "gi": 11,
+      "pi": 0,
+      "text": "Within three precise business days of a mortgage application, the lender or mortgage broker must issue a Homeownership Counseling Disclosure describing the benefits of independent, third-party homeownership counseling. Two loan types are exempt: reverse mortgages (which have their own separate counseling notice) and timeshare plans."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g11-p1",
+      "gi": 11,
+      "pi": 1,
+      "text": "The disclosure must be issued regardless of whether the loan requires the borrower to complete counseling — the point is to make sure every applicant knows the option exists. It must list at least 10 HUD-approved counseling agencies located as close as possible to the borrower's current zip code."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g12-p0",
+      "gi": 12,
+      "pi": 0,
+      "text": "Within three precise business days of a mortgage application — for transactions not already subject to the TILA-RESPA Integrated Disclosure Rule (TRID) — the lender, table-funding broker, or first-lien dealer must issue a Mortgage Servicing Disclosure Statement. It tells the applicant whether the loan's servicing can be assigned, sold, or transferred, and reports the likelihood based on how many loans the company transferred during the prior calendar year."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g12-p1",
+      "gi": 12,
+      "pi": 1,
+      "text": "Mortgage brokers who directly issue the Loan Estimate must also indicate their intent to transfer servicing on page three of the Loan Estimate under \"Other Considerations.\" Servicers must retain all servicing-related documents until at least 1 year after the loan is discharged or its servicing is transferred."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g13-p0",
+      "gi": 13,
+      "pi": 0,
+      "text": "When a mortgage closes with an escrow account for homeowner's insurance or property taxes, the lender must hand the borrower an Initial Escrow Account Disclosure Statement at settlement — also called the Escrow Accrual Sheet. It tells the borrower, as of closing day, exactly what their escrow account holds and what it's scheduled to pay."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g13-p1",
+      "gi": 13,
+      "pi": 1,
+      "text": "The statement identifies the total monthly mortgage payment and breaks out the escrow portion. It itemizes every charge the servicer expects to pay from the account during the computation year — taxes, insurance premiums, other recurring items — along with each charge's expected disbursement date, dollar amount, and recipient."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g13-p2",
+      "gi": 13,
+      "pi": 2,
+      "text": "When a charge is scheduled to come due within 60 calendar days of settlement, the lender typically does not collect it at closing. Servicers can take that long to activate a new loan on their system, and a payment falling due before activation becomes a servicer-owned delinquency. To avoid that, a third party — usually the title or escrow company — collects the funds at closing and takes responsibility for disbursing them, or the borrower signs the disclosure acknowledging the payment as their own responsibility."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-respa-g13-gate-synth",
+      "gi": 13
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g14-p0",
+      "gi": 14,
+      "pi": 0,
+      "text": "No later than 45 calendar days after settlement, the servicer must run an escrow account analysis — and then repeat it annually."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g14-p1",
+      "gi": 14,
+      "pi": 1,
+      "text": "The analysis checks two things: that the account holds enough to cover each anticipated disbursement on the date it falls due, and that the monthly escrow contribution collects exactly 1/12 of the projected annual total."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g14-p2",
+      "gi": 14,
+      "pi": 2,
+      "text": "The resulting annual statement looks in both directions. Looking back: the prior year's monthly payment and escrow portion, the total paid into the account, the total paid out by category (taxes itemized separately from insurance), and the ending balance. Looking forward: the servicer's projected disbursements for the coming year."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g14-p3",
+      "gi": 14,
+      "pi": 3,
+      "text": "The statement must also account for gaps between plan and reality. A surplus — money left over — gets explained: how the servicer is handling it, typically a refund or credit toward future payments. A shortage or deficiency gets explained: how the borrower is expected to make it up. If the account's actual low balance differed from the prior year's projection, the statement must say why."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-respa-g14-gate-synth",
+      "gi": 14
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g15-p0",
+      "gi": 15,
+      "pi": 0,
+      "text": "When a loan's servicing is transferred, two notices are required — one from each side."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g15-p1",
+      "gi": 15,
+      "pi": 1,
+      "text": "The releasing servicer must send a \"goodbye letter\" no later than 15 calendar days before the transfer date. It must state when the transfer takes effect, provide the new servicer's name, address, and contact information, and confirm that the transfer does not change any term or condition of the loan."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g15-p2",
+      "gi": 15,
+      "pi": 2,
+      "text": "The receiving servicer must send a \"welcome letter\" no later than 15 calendar days after the transfer date, repeating the same information: effective date, contact details, and the assurance that no loan terms have changed."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g15-p3",
+      "gi": 15,
+      "pi": 3,
+      "text": "During the 60-calendar-day period beginning on the transfer date, the new servicer cannot charge late fees or report late payments to credit bureaus if the borrower accidentally sends payment to the old servicer. Once the 60 days pass, any remaining delinquency is treated normally."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-respa-g15-gate-synth",
+      "gi": 15
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g16-p0",
+      "gi": 16,
+      "pi": 0,
+      "text": "An escrow account — also called an impound account — is a holding account built into the mortgage through which the servicer pays certain obligations on the borrower's behalf. Servicers prefer escrow accounts because they guarantee that homeowner's insurance and property taxes stay current. If either lapses, the servicer is exposed: an uninsured loss destroys its collateral, and a delinquent tax bill can trigger a tax sale that wipes out the mortgage lien entirely."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g16-p1",
+      "gi": 16,
+      "pi": 1,
+      "text": "Escrow is mandatory in several situations. If a conventional loan requires private mortgage insurance (PMI), escrow for homeowner's insurance and property taxes is required. If the property sits in a flood zone requiring flood insurance, escrow for at least flood insurance and taxes is required. If the loan is a Higher-Priced Mortgage Loan (HPML), escrow for taxes and insurance is mandatory for no less than the loan's first 5 years. All government loans — FHA, VA, and USDA — mandate escrow for homeowner's insurance and taxes with no exception."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g16-p2",
+      "gi": 16,
+      "pi": 2,
+      "text": "A borrower on a conventional loan can petition to eliminate escrow once PMI is no longer required. On an HPML, the borrower can petition at the later of five years or when PMI drops off."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g17-p0",
+      "gi": 17,
+      "pi": 0,
+      "text": "Each month, the servicer collects 1/12 of the anticipated annual disbursements along with the loan's principal and interest payment. The insurance company and tax authority bill the servicer directly, and the servicer disburses on the borrower's behalf. In states that require it, servicers must also pay interest to borrowers on the escrow balance."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g17-p1",
+      "gi": 17,
+      "pi": 1,
+      "text": "At the end of each computation year, the servicer runs an escrow analysis to recalculate the monthly escrow payment for the next year. The servicer estimates upcoming disbursements based on the most recent previous payment of each type. The analysis also determines whether the account has a surplus, shortage, or deficiency, and the servicer adjusts accordingly."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g17-p2",
+      "gi": 17,
+      "pi": 2,
+      "text": "After the analysis sets the correct balance, the servicer is permitted to add a cushion — a buffer against unexpected increases — amounting to no more than 1/6 of the anticipated annual disbursements."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g18-p0",
+      "gi": 18,
+      "pi": 0,
+      "text": "These three terms describe different problems, and the exam tests each one separately. A shortage means the account has less money than it needs to cover upcoming disbursements. A surplus (overage) means the account has more than it needs. A deficiency means the account balance is negative — the servicer has already paid out more than the account held. A deficiency is independent of a shortage or surplus."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g18-p1",
+      "gi": 18,
+      "pi": 1,
+      "text": "Shortage. If the shortage is less than one monthly escrow payment, the servicer has three options: allow it to exist and do nothing, require the borrower to repay it within 30 days, or spread repayment over at least 12 months interest-free. If the shortage is equal to or greater than one monthly escrow payment, only two options remain: do nothing, or spread repayment over at least 12 months interest-free. The 30-day lump-sum demand is not available for larger shortages."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g18-p2",
+      "gi": 18,
+      "pi": 2,
+      "text": "Surplus. If the surplus is $50 or more, the servicer must refund it to the borrower within 30 days of the analysis. If the surplus is less than that threshold, the servicer may either refund it or credit it against next year's escrow payments."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g18-p3",
+      "gi": 18,
+      "pi": 3,
+      "text": "Deficiency. If the deficiency is less than one monthly escrow payment, the servicer has three options: do nothing, require repayment within 30 days, or spread repayment over two or more monthly installments. If the deficiency equals or exceeds one monthly escrow payment, the servicer can do nothing or require repayment in two or more equal monthly payments."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-respa-g18-gate-synth",
+      "gi": 18
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g19-p0",
+      "gi": 19,
+      "pi": 0,
+      "text": "When a borrower believes the servicer has made an error, RESPA provides a structured resolution process. A valid notice of error must be in writing and include three things: the borrower's name, information sufficient to identify the mortgage account, and a description of the alleged error. A note scribbled on a payment coupon does not count — but a qualified written request that asserts a servicing error does, and the servicer must treat it as a notice of error."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g19-p1",
+      "gi": 19,
+      "pi": 1,
+      "text": "RESPA defines eleven categories of covered errors. They include failing to accept a conforming payment, failing to apply a payment correctly to principal, interest, or escrow, failing to credit a payment as of the date received, failing to pay taxes or insurance from escrow on time, imposing a fee without reasonable basis, providing an inaccurate payoff balance, providing inaccurate loss mitigation or foreclosure information, failing to transfer servicing information accurately, and inappropriately initiating or advancing a foreclosure. The eleventh is a catch-all: any other error relating to the servicing of a mortgage loan."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g20-p0",
+      "gi": 20,
+      "pi": 0,
+      "text": "Once the servicer receives a notice of error, the clock starts. Within 5 days (excluding Saturdays, Sundays, and federal holidays), the servicer must send a written acknowledgment of receipt."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g20-p1",
+      "gi": 20,
+      "pi": 1,
+      "text": "The servicer then has two paths: correct the error and notify the borrower of the correction, its effective date, and contact information for further help — or investigate and send a written explanation that no error occurred, with the reasoning, the borrower's right to request the documents the servicer relied on, and contact information."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g20-p2",
+      "gi": 20,
+      "pi": 2,
+      "text": "Time limits for the response depend on the error type. Payment-related errors (failure to accept or credit a conforming payment) must be resolved within 7 days (excluding weekends and holidays). Foreclosure-related errors must be resolved before the foreclosure sale date or within 30 days, whichever is earlier. All other errors must be resolved within 30 days."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g20-p3",
+      "gi": 20,
+      "pi": 3,
+      "text": "The servicer can extend the response period by an additional 15 days (excluding weekends and holidays) as long as it notifies the borrower of the extension and the reasons for it in writing before the original 30-day period expires."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-respa-g20-gate-synth",
+      "gi": 20
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g21-p0",
+      "gi": 21,
+      "pi": 0,
+      "text": "Discount points are upfront interest that a borrower pays at settlement to buy a lower interest rate than the market's current \"par\" rate. One discount point costs 1% of the loan amount. Points can be purchased in increments as small as 1/8 of a percent."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g21-p1",
+      "gi": 21,
+      "pi": 1,
+      "text": "On a $375,000 loan, one full point costs $3,750. Five-eighths of a point costs $2,343.75. One and three-quarter points costs $6,562.50. The math is always the loan amount multiplied by the point percentage."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g21-p2",
+      "gi": 21,
+      "pi": 2,
+      "text": "The number of points purchased does not correspond directly to the rate reduction — buying 1.5 points on a 6% par rate does not guarantee a 4.5% rate. Point pricing fluctuates just like interest rates. The loan originator accesses a pricing matrix that shows the specific rate reduction each point amount buys across available products."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g21-p3",
+      "gi": 21,
+      "pi": 3,
+      "text": "To help a borrower decide whether points make sense, calculate the break-even period: divide the cost of the points by the monthly payment reduction. If a borrower spends $2,000 on points and saves $40 per month, the break-even is 50 months — about four years and two months. If the borrower plans to stay in the home longer than that, the points may be worthwhile. If not, they may not be."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g21-p4",
+      "gi": 21,
+      "pi": 4,
+      "text": "Discount point costs may be tax-deductible, but a mortgage loan originator who is not a credentialed tax advisor should never give definitive tax advice. The compliant MLO refers tax questions to a qualified tax professional or the IRS."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-respa-g21-gate-synth",
+      "gi": 21
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g22-p0",
+      "gi": 22,
+      "pi": 0,
+      "text": "When a borrower finances a home, two documents create the obligation. The Promissory Note is the debt instrument — the borrower's promise to repay the loan under its stated terms. The Security Instrument creates a lien against the property, giving the lender the right to take ownership of the collateral if the borrower defaults. The type of security instrument determines the type of foreclosure."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g22-p1",
+      "gi": 22,
+      "pi": 1,
+      "text": "A Mortgage is one type of security instrument. A Deed of Trust (also called a Trust Deed) is the other. Which one is used depends on state law. The distinction matters because a Mortgage leads to judicial foreclosure and a Deed of Trust leads to non-judicial foreclosure."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g23-p0",
+      "gi": 23,
+      "pi": 0,
+      "text": "Foreclosure is a last resort. A foreclosed property is a liability for the lender — it must pay taxes, insurance, and maintenance on the property until it can sell it. Lenders exhaust all state and federal loss-mitigation options before proceeding."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g23-p1",
+      "gi": 23,
+      "pi": 1,
+      "text": "Judicial foreclosure applies when the security instrument is a Mortgage. The lender files an action in court and must demonstrate three things: the lien is valid, the default is valid, and all legally required attempts to avoid foreclosure were made and failed. If the court agrees, it issues an order of foreclosure. The borrower then has a state-defined period of redemption during which they can recover the property by satisfying the debt in full. If the borrower doesn't redeem, the local sheriff conducts a foreclosure sale auction. The first-lien holder has first right of redemption — it gets the first bid."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g23-p2",
+      "gi": 23,
+      "pi": 2,
+      "text": "Non-judicial foreclosure applies when the security instrument is a Deed of Trust. The process is simpler because, technically, the lender already holds title to the property — it would have transferred to the borrower only after full repayment. On default, the lender appears in court to demonstrate the validity of the lien, the default, and the exhaustion of alternatives, then obtains permission to sell the property to recover its investment."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-respa-g23-p3",
+      "gi": 23,
+      "pi": 3,
+      "text": "In either case, if the property sells for less than what the borrower owes, the lender may pursue a deficiency judgment against the former borrower for the difference — if the state's laws allow it."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-respa-g23-gate-synth",
+      "gi": 23
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-respa-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-respa-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-respa-gate-mcq"
+    }
+  ]
+}

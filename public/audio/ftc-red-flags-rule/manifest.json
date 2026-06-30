@@ -1,0 +1,38 @@
+{
+  "unitId": "ftc-red-flags-rule",
+  "name": "FTC Red Flags Rule",
+  "reg": "Identity Theft Prevention",
+  "groupCount": 2,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-ftc-red-flags-rule-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "FACTA told institutions to watch for identity theft. The Red Flags Rule is what \"watching\" actually becomes on the ground: a covered institution must put its watching in writing and maintain a written Identity Theft Prevention Program — the program that catches a stolen identity before it turns into a funded loan. Because nothing here can be informal or unwritten, what each covered institution has to keep on file is a written Identity Theft Prevention Program."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-ftc-red-flags-rule-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "The program has a three-part job in covered accounts: detect, prevent, and mitigate identity theft. The \"red flags\" it watches for are the concrete warning signs — an alert from a credit bureau, a suspicious or altered document, personal information that doesn't line up, an address mismatch, or unusual activity on the account."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-ftc-red-flags-rule-g1-gate-synth",
+      "gi": 1
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-ftc-red-flags-rule-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-ftc-red-flags-rule-gate-mcq"
+    }
+  ]
+}

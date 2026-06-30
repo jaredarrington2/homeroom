@@ -1,0 +1,43 @@
+{
+  "unitId": "usa-patriot-act",
+  "name": "USA PATRIOT Act",
+  "reg": "Counterterrorism · CIP",
+  "groupCount": 2,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-usa-patriot-act-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "A borrower fills out an application with a name and a number, and at face value you can't tell whether any of it is real. After 2001, anti-money-laundering law grew a counterterrorism arm to close that gap, and it reinforced every institution's duty to maintain an Anti-Money-Laundering (AML) program. For an MLO it lands as the Customer Identification Program (CIP) — the duty to verify a customer is who they claim to be before the relationship goes forward, so identity-checking sits inside the larger machinery for catching laundering."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-usa-patriot-act-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "At minimum a CIP gathers four pieces of identifying information before opening the account: name, date of birth, address, and an identification number such as an SSN or TIN. Each one narrows who the applicant can be, and together those four data points give the institution enough to check the person against its records and government lists."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-usa-patriot-act-g1-gate-synth",
+      "gi": 1
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-usa-patriot-act-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-usa-patriot-act-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-usa-patriot-act-gate-mcq"
+    }
+  ]
+}

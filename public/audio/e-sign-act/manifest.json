@@ -1,0 +1,43 @@
+{
+  "unitId": "e-sign-act",
+  "name": "E-Sign Act",
+  "reg": "Electronic Signatures in Global & National Commerce",
+  "groupCount": 2,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-e-sign-act-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "You close a mortgage from your couch, clicking through a stack of documents you never print. For that to hold up, the click has to carry the same weight as a pen on paper. E-Sign supplies that weight: it gives electronic records and electronic signatures the same legal validity and enforceability as ink and paper, so a contract can't be thrown out later just because it was signed on a screen. An electronic signature, under the act, is any electronic sound, symbol, or process attached to or logically associated with a record and adopted by a person with the intent to sign — broad enough to cover a typed name, a clicked box, or a stylus scrawl, as long as the signer meant it to count."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-e-sign-act-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "That validity isn't automatic for required disclosures. Before a lender may deliver them electronically, the borrower has to affirmatively consent to electronic delivery and demonstrate they can actually access the records in the format used. Both steps matter: the consumer must affirmatively consent rather than be opted in by default, and they must show the documents will reach a screen they can open, not vanish into a file they can't read."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-e-sign-act-g1-gate-synth",
+      "gi": 1
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-e-sign-act-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-e-sign-act-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-e-sign-act-gate-mcq"
+    }
+  ]
+}

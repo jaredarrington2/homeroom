@@ -11,19 +11,25 @@
 import { useEffect, useRef, memo } from "react";
 import type { SectionParagraph } from "@/lib/section";
 import { useProgressContext } from "@/lib/ProgressContext";
+import ListenMark from "./ListenMark";
 
 const norm = (s: string) =>
   s.toLowerCase().trim().replace(/[$,%]/g, "").replace(/\s+/g, " ").replace(/\.$/, "");
 
 const ProseHTML = memo(function ProseHTML({
-  paras, groupIndex,
-}: { paras: SectionParagraph[]; groupIndex: number }) {
+  paras, unitId, groupIndex,
+}: { paras: SectionParagraph[]; unitId: string; groupIndex: number }) {
   return (
     <>
-      {paras.map((p, i) => (
-        <p key={i} data-vo="p" data-vo-g={groupIndex} data-vo-p={i}
-          dangerouslySetInnerHTML={{ __html: p.html }} />
-      ))}
+      {paras.map((p, i) => {
+        const segId = `audio-${unitId}-g${groupIndex}-p${i}`;
+        return (
+          <div className="lp-seg" id={segId} key={i}>
+            <ListenMark id={segId} unitId={unitId} />
+            <p dangerouslySetInnerHTML={{ __html: p.html }} />
+          </div>
+        );
+      })}
     </>
   );
 });
@@ -85,7 +91,7 @@ export default function ClozeProse({
 
   return (
     <div ref={ref}>
-      <ProseHTML paras={paras} groupIndex={groupIndex} />
+      <ProseHTML paras={paras} unitId={unitId} groupIndex={groupIndex} />
     </div>
   );
 }

@@ -15,12 +15,18 @@ export interface Figure {
   /** ≤2-word mono caption naming the memory link, e.g. "outside RESPA", "Section 8" */
   caption: string;
   kind: FigKind;
+  /** Listen feature: what the narrator says for this figure. Name it and walk its parts;
+   *  don't narrate it as an image. Omit to skip the figure in audio. */
+  spokenCaption?: string;
 }
 
 export interface SectionParagraph {
   /** Narrative HTML (may use <b>). May contain ONE inline cloze span:
    *  <span class="cloze" data-accept='["..."]' data-reveal="...">?</span> */
   html: string;
+  /** Listen feature: override the spoken text for this paragraph. Falls back to the
+   *  cloze-substituted, tag-stripped html. */
+  spoken?: string;
 }
 
 /** A full-width document mockup rendered inline in a concept group (DisclosureVisual.tsx).
@@ -36,6 +42,9 @@ export interface ConceptGroup {
   heading?: string;
   /** 0–1 small anchor image, matched to the group's core idea by manifest tags. */
   anchor?: Figure;
+  /** Listen feature: override the spoken text for this group's FIRST paragraph (e.g. to
+   *  skip a scene-setting opener). Falls back to that paragraph's own spoken/html. */
+  spoken?: string;
   paras: SectionParagraph[];
   /** 0–1 synthesis short-answer after the group (graded for meaning via /api/grade). */
   synth?: { q: string; a: string };

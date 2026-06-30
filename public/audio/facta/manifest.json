@@ -1,0 +1,50 @@
+{
+  "unitId": "facta",
+  "name": "FACTA",
+  "reg": "Fair & Accurate Credit Transactions Act",
+  "groupCount": 3,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-facta-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "FCRA assumed the identity on your file was yours to begin with. FACTA is the amendment that added the identity-theft toolkit — the alerts you can drop onto your own credit file, the free report you're owed every year, and the rule about destroying the data once you're done with it."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-facta-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "The alerts come in three lengths, and the length tells you the situation behind it. An initial fraud alert — \"something feels off\" — stays on the file for one year, and the bureau has to deliver a free report within 3 business days of it; so the lightest, no-proof-needed alert lasts 1 year. An extended alert, dropped after real, documented theft, runs a full 7 years. An active-duty (military) alert, shielding a deployed service member's credit, lasts 1 year."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-facta-g1-gate-synth",
+      "gi": 1
+    },
+    {
+      "kind": "prose",
+      "id": "audio-facta-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "Beyond the alerts, FACTA entitles every consumer to one free credit report per year from each of the three major reporting agencies. And once a business is finished with consumer-report data, the FTC Disposal Rule requires it be destroyed securely — shredded or burned — so it can't be reconstructed."
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-facta-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-facta-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-facta-gate-mcq"
+    }
+  ]
+}

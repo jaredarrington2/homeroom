@@ -1,0 +1,44 @@
+{
+  "unitId": "dnc-tsr",
+  "name": "DNC / TSR",
+  "reg": "Do-Not-Call · Telemarketing Sales Rule",
+  "groupCount": 3,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-dnc-tsr-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "An MLO who cold-calls for business is, in this rule's eyes, a telemarketer — so the registry applies to them too. DNC/TSR draws the boundaries on those calls: whose number you have to scrub against the Do-Not-Call list, how fresh that scrub has to be, and what tips a call into abusive."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-dnc-tsr-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "Before dialing, the number has to be checked against the Do-Not-Call registry within the last 31 days — anything older than 31 days doesn't count. Calls are also boxed in by time: you can only dial between 8:00 a.m. and 9:00 p.m. in the call recipient's local time."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-dnc-tsr-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "Hang up on too many people because an autodialer outran your agents and you trip the abandonment limit: no more than 3% of answered calls may be abandoned, so the ceiling is 3%. Break these rules and the cost is steep — the FTC can assess up to $51,744 per violation under the Telemarketing Sales Rule."
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-dnc-tsr-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-dnc-tsr-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-dnc-tsr-gate-mcq"
+    }
+  ]
+}

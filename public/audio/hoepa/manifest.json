@@ -1,0 +1,45 @@
+{
+  "unitId": "hoepa",
+  "name": "HOEPA",
+  "reg": "Home Ownership & Equity Protection Act · TILA §32",
+  "groupCount": 3,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-hoepa-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "Some loans cost enough that the law sets them apart and bolts on extra protection. HOEPA is that tripwire. Cross any one of three thresholds — on rate, on points and fees, or on the prepayment penalty — and the loan becomes a \"high-cost\" mortgage carrying a list of restrictions. The aim isn't to ban these loans but to make sure a borrower was warned and advised before signing. HOEPA sits inside TILA as Section 32, which is why you'll hear \"Section 32 loan.\""
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hoepa-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "The first threshold watches the APR against the average prime offer rate. A first-lien loan goes high-cost when its APR beats APOR by 6.5 percentage points or more. That first-lien tripwire — APR over APOR by 6.5 percentage points or more — is the one to fix. A subordinate lien, or a personal-property loan under $50,000, crosses at the steeper 8.5 percentage points over APOR."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-hoepa-g1-gate-synth",
+      "gi": 1
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hoepa-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "The other two triggers catch cost loaded elsewhere. On a loan of $27,592 or more (the 2026 figure), total points and fees that come to more than 5% of the loan amount make it high-cost — so once points and fees cross 5% of the loan amount of the loan amount, the loan is high-cost. A prepayment penalty does the same if it runs more than 2% of the amount prepaid, or can apply more than 36 months after consummation. Once a loan is high-cost, HOEPA demands pre-loan homeownership counseling, the high-cost disclosure must reach the borrower at least 3 business days before consummation, and any late fee is capped at 4% of the past-due payment."
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-hoepa-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-hoepa-gate-mcq"
+    }
+  ]
+}

@@ -95,7 +95,7 @@ export default function ReviewDeck({
       )}
       {hasCards && (
         <>
-          <div className="deckhead">Flashcards</div>
+          <div className="deckhead" id={`audio-${unitId}-gate-flashcards`}>Flashcards</div>
           <div className="cards">
             {review.flashcards.map((c, i) => <Card key={i} card={c} />)}
           </div>
@@ -103,7 +103,7 @@ export default function ReviewDeck({
       )}
       {hasMcq && (
         <>
-          <div className="deckhead">Quick questions</div>
+          <div className="deckhead" id={`audio-${unitId}-gate-mcq`}>Quick questions</div>
           <div>{review.mcq.map((m, i) => <Question key={i} m={m} unitId={unitId} mcqId={`${unitId}-mcq-${i}`} />)}</div>
         </>
       )}

@@ -164,7 +164,7 @@ export default function DefinitionsDeck({ defs, name, unitId }: { defs: Definiti
   }, [knowPile.length]);
 
   return (
-    <div className="defs">
+    <div className="defs" id={`audio-${unitId}-gate-definitions`}>
       <div className="defs-head">
         <div className="eyebrow">{name} · the words first</div>
         <div className="defs-title">Definitions</div>

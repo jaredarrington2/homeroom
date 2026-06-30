@@ -1,0 +1,130 @@
+{
+  "unitId": "ecoa",
+  "name": "ECOA",
+  "reg": "Equal Credit Opportunity Act · Reg B",
+  "groupCount": 10,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-ecoa-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "A lender can turn you down — what it can't do is turn you down for who you are. ECOA, enacted in 1974 and implemented through Regulation B, makes it illegal to base any credit decision on a prohibited basis. Unlike the Fair Housing Act, ECOA isn't limited to real estate — it covers all forms of lending. The full list of prohibited bases under Section 1002.4(a) runs to 11 items: race, color, nationality, sex (including gender, sexual orientation, and sexual identity), religion, marital status, age (with an exception for capacity to contract), participation in a credit counseling program, income earned through public assistance, prior exercise of rights under consumer credit protection laws, and intent to bear offspring. The protection reaches further than the moment of denial: it's also a violation to discourage a reasonable person from even applying on one of those grounds, which means a lender can break the law before any application exists."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-ecoa-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "Almost every creditor falls under ECOA, but a handful of credit types carry partial exemptions. Public utilities credit — service provided through pipes, wires, or transmission — is exempt only from marital-status inquiries and record-retention rules. Securities credit under the Securities Exchange Act gets a broader carve-out: sex, marital status, spouse information, name designation, account aggregation, furnishing credit information, and record retention. Incidental credit — consumer credit with no finance charge and no more than 4 installments — carries a similar list plus an exemption from notifications. Government credit — extensions to governments or their subdivisions — stands alone as the only category exempt from the general discrimination rule itself. And special purpose credit programs are the reverse: they're the one place a creditor may deliberately consider prohibited characteristics, because the whole point is to serve an economically disadvantaged class. A program qualifies only if it doesn't discriminate against applicants on any other prohibited basis."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-ecoa-g1-gate-synth",
+      "gi": 1
+    },
+    {
+      "kind": "prose",
+      "id": "audio-ecoa-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "When a creditor receives an application for credit that will be secured by a dwelling the applicant occupies or will occupy as a principal residence — a purchase or refinance — the creditor must collect the applicant's ethnicity and race, sex, marital status, and age. If the applicant refuses to self-identify in a face-to-face application, the MLO is required to note what he or she believes to be the applicant's race, national origin, and sex based on visual observation. In a non-face-to-face application — phone, mail, online — a refusal is simply recorded as a refusal, and the MLO may not guess."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-ecoa-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "Once an application is complete, the creditor owes you a Notice of Action Taken, and the deadline is fixed: it must arrive within 30 calendar days. If the lender approves, the notice explains outstanding conditions and next steps. If the lender can't approve as submitted but can offer different terms, the counteroffer goes on the notice and the applicant has 90 calendar days to accept. If additional information is still needed, the creditor sends a Notice of Incomplete Application specifying what's missing and a reasonable deadline to provide it — silence from the applicant releases the creditor from any further obligation. ECOA application records must be retained for 25 months."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-ecoa-g3-gate-synth",
+      "gi": 3
+    },
+    {
+      "kind": "prose",
+      "id": "audio-ecoa-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "A denial can't hide behind vague language. The Adverse Action Notice must state the action taken, give the creditor's name and address, name the federal agency that administers compliance for that creditor, and explain how the applicant may challenge the decision. For the reasons themselves, the creditor has a choice: state the specific reasons on the notice, or tell the applicant that a written request for reasons will be honored — that request must reach the lender within 60 days of the denial, and the creditor then has 30 days to respond. Saying the denial was \"based on internal standards\" or that the applicant \"failed to achieve a qualifying score\" is never sufficient. If the denial relied on a credit report, the notice must also name the repository, tell the applicant a free copy is available, and state that the credit bureau did not make the lending decision."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-ecoa-g4-gate-synth",
+      "gi": 4
+    },
+    {
+      "kind": "prose",
+      "id": "audio-ecoa-g5-p0",
+      "gi": 5,
+      "pi": 0,
+      "text": "You paid for the appraisal, so ECOA makes sure you see it. For any first-lien dwelling-secured loan not covered by TRID, the creditor must notify you within 3 business days of receiving the application that you have the right to a copy. The copy itself must arrive promptly upon completion, and the hard backstop is 3 business days before consummation for closed-end credit or account opening for open-end. You can waive the timing and agree to receive it at or before closing — but the waiver must be obtained at least 3 business days ahead, and waiving the timing never waives the copy itself. If the deal falls through, the creditor has 30 days after deciding the transaction won't close to deliver whatever valuations were completed. The creditor may not charge for providing the copy, though it can charge a reasonable fee for the appraisal itself."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-ecoa-g6-p0",
+      "gi": 6,
+      "pi": 0,
+      "text": "A creditor cannot discount or exclude an applicant's income because of a prohibited basis, because the income is part-time, or because it comes from an annuity, pension, or other retirement benefit. Public-assistance income and unemployment benefits are valid income — the creditor may evaluate the amount and whether it's likely to continue, but cannot dismiss the source. When an applicant relies on legally entitled alimony, child support, or separate maintenance payments, the creditor may consider them as income to the extent they're likely to be consistently received. A creditor may offer the option to add a co-applicant, but it can never require one or condition the credit on having one."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-ecoa-g6-gate-synth",
+      "gi": 6
+    },
+    {
+      "kind": "prose",
+      "id": "audio-ecoa-g7-p0",
+      "gi": 7,
+      "pi": 0,
+      "text": "A state or federal examiner may approach an MLO posing as a customer or referral source to test compliance — fail, and legal consequences follow. A self-test is the company's own version: a program or study designed to measure the extent of its compliance with ECOA. If a self-test turns up a likely violation — the standard is more likely than not, even without formal adjudication — the company must report the failure to the relevant regulator and take corrective action that is reasonably likely to remedy both the cause and the effect. Corrective action means identifying the policies behind the violation, determining its scope, and assessing its extent. It may include both prospective and remedial relief. Taking corrective action is not an admission that a violation occurred."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-ecoa-g8-p0",
+      "gi": 8,
+      "pi": 0,
+      "text": "Disparate treatment is intentional discrimination: an applicant is treated differently because of a protected characteristic. A lender charging higher rates to borrowers of one ethnicity while offering lower rates to equally qualified borrowers of another ethnicity is disparate treatment — the intent to discriminate is the defining element."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-ecoa-g8-p1",
+      "gi": 8,
+      "pi": 1,
+      "text": "Disparate impact is harder to spot because the policy itself looks neutral. Centier Bank, an Indiana-chartered bank, decided on purely cost grounds to open only partial-service branches throughout the Gary Primary Metropolitan Statistical Area — the most segregated metro area in the nation for African Americans. Centier's rationale had nothing to do with race: the MSA's socioeconomic profile meant few residents could qualify for full-service products, so full branches would lose money. But the result was that the predominantly African-American population was denied access to the full range of financial services. The court found disparate impact: a facially neutral business decision that disproportionately harmed a protected class. Centier was required to open full-service centers in the Gary MSA, absorbing the losses as a cost of doing business."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-ecoa-g8-gate-synth",
+      "gi": 8
+    },
+    {
+      "kind": "prose",
+      "id": "audio-ecoa-g9-p0",
+      "gi": 9,
+      "pi": 0,
+      "text": "Any written disclosure or information a creditor provides must be clear and conspicuous and in a form the applicant can retain. Disclosures may be issued in languages other than English, as long as they're also available in English upon request."
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-ecoa-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-ecoa-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-ecoa-gate-mcq"
+    }
+  ]
+}

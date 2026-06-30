@@ -1,0 +1,44 @@
+{
+  "unitId": "maps-reg-n",
+  "name": "MAPs (Reg N)",
+  "reg": "Mortgage Acts and Practices — Advertising",
+  "groupCount": 2,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-maps-reg-n-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "A teaser rate with the strings buried, a \"government\" badge that means nothing — mortgage ads are where a lot of deception gets its start. MAPs polices that advertising: it bans material misrepresentations in any commercial communication about a mortgage credit product, and it pins down which terms force you to disclose the rest."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-maps-reg-n-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "Some figures can't stand alone in an ad. A triggering term — a stated rate, a payment amount, a down-payment figure — pulls additional disclosures in behind it the moment you use it, so the borrower sees the full terms instead of the flattering fragment."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-maps-reg-n-g1-p1",
+      "gi": 1,
+      "pi": 1,
+      "text": "Whatever the ad claims, the proof has to survive afterward. MAPs advertising records must be retained for 24 months, so the file stays on hand for 24 months."
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-maps-reg-n-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-maps-reg-n-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-maps-reg-n-gate-mcq"
+    }
+  ]
+}

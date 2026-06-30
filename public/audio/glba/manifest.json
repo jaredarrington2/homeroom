@@ -1,0 +1,57 @@
+{
+  "unitId": "glba",
+  "name": "GLBA",
+  "reg": "Gramm-Leach-Bliley Act",
+  "groupCount": 3,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-glba-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "A mortgage application is a dossier — income, Social Security number, account balances, the whole financial life of the person across the desk. GLBA governs what the institution may do with that dossier once it holds it: tell you what gets shared, let you stop some of the sharing, and actually guard the data."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-glba-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "The relationship opens with a privacy notice spelling out what the institution shares, and that notice repeats annually for as long as you're a customer — owed at the start of the relationship and once annually thereafter. Built into it is your right to opt out of having nonpublic personal information shared with nonaffiliated third parties."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-glba-g1-gate-synth",
+      "gi": 1
+    },
+    {
+      "kind": "prose",
+      "id": "audio-glba-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "The Safeguards Rule turns privacy into engineering: the institution must run a written information-security program protecting customer data, with regular testing, monitoring, and adjustment as threats change."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-glba-g2-p1",
+      "gi": 2,
+      "pi": 1,
+      "text": "The penalties bite at two levels. The institution can be fined up to $100,000 per violation, so its exposure runs to $100,000 each time. Officers and directors face up to $10,000 each, with imprisonment of up to 5 years behind it."
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-glba-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-glba-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-glba-gate-mcq"
+    }
+  ]
+}

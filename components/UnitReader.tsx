@@ -10,6 +10,8 @@ import DefinitionsDeck from "./DefinitionsDeck";
 import DisclosureVisual from "./DisclosureVisual";
 import MarkComplete from "./MarkComplete";
 import RecapCard from "./RecapCard";
+import ListenEntry from "./ListenEntry";
+import ListenMark from "./ListenMark";
 import { figureSrc, type SectionUnit } from "@/lib/section";
 
 export default function UnitReader({
@@ -29,14 +31,16 @@ export default function UnitReader({
         </div>
         <h2>{unit.name}</h2>
         <div className="reg">{unit.reg}</div>
+        <ListenEntry unitId={unit.id} />
       </div>
 
       <ExplainableBody sectionId={sectionId} sectionTitle={sectionTitle} chapterId={sectionId}>
         {unit.groups.map((g, gi) => (
           <div className="group-block" key={gi}>
-            {g.heading && <div className="group" data-vo="h" data-vo-g={gi}>{g.heading}</div>}
+            {g.heading && <div className="group">{g.heading}</div>}
             {g.anchor && (
-              <figure className="anchor">
+              <figure className="anchor" id={g.anchor.spokenCaption ? `audio-${unit.id}-g${gi}-img` : undefined}>
+                {g.anchor.spokenCaption && <ListenMark id={`audio-${unit.id}-g${gi}-img`} unitId={unit.id} />}
                 <Image
                   src={figureSrc(g.anchor)}
                   alt=""
@@ -51,7 +55,7 @@ export default function UnitReader({
             )}
             <ClozeProse paras={g.paras} unitId={unit.id} groupIndex={gi} />
             {g.visual && <DisclosureVisual kind={g.visual} />}
-            {g.synth && <Synth q={g.synth.q} a={g.synth.a} unitId={unit.id} synthId={`${unit.id}-synth-${gi}`} />}
+            {g.synth && <Synth q={g.synth.q} a={g.synth.a} unitId={unit.id} groupIndex={gi} synthId={`${unit.id}-synth-${gi}`} />}
           </div>
         ))}
       </ExplainableBody>

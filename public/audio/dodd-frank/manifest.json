@@ -1,0 +1,50 @@
+{
+  "unitId": "dodd-frank",
+  "name": "Dodd-Frank",
+  "reg": "Wall Street Reform & Consumer Protection Act",
+  "groupCount": 3,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-dodd-frank-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "The 2008 crash ran on loans nobody could really repay, written by originators who earned more for pushing borrowers into worse terms. Dodd-Frank rewrote both halves. Title X stood up the Consumer Financial Protection Bureau (CFPB) to police consumer lending, and Title XIV — the Mortgage Reform and Anti-Predatory Lending Act — bolted on the rules that reach the loan itself."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-dodd-frank-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "The Ability-to-Repay (ATR) rule forces a creditor to make a reasonable, good-faith, documented determination that the borrower can actually repay before the loan is made — weighing credit history, current and expected income, current obligations, debt-to-income or residual income, employment status, and other resources. A Qualified Mortgage (QM) is presumed to satisfy that requirement, which is why lenders steer toward it: writing a Qualified Mortgage (QM) is the cleanest way to show ATR was met."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-dodd-frank-g1-gate-synth",
+      "gi": 1
+    },
+    {
+      "kind": "prose",
+      "id": "audio-dodd-frank-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "To kill the incentive behind the crash, Dodd-Frank bars loan-originator compensation from varying based on the loan's terms — anything other than the loan amount — and prohibits steering a borrower into worse terms for higher pay. Separately, a hybrid ARM reset notice has to reach the borrower during the one-month period ending six months before the rate first adjusts, so the warning lands while there's still time to react — that window closes 6 months ahead of the first adjustment."
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-dodd-frank-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-dodd-frank-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-dodd-frank-gate-mcq"
+    }
+  ]
+}

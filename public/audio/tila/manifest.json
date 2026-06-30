@@ -1,0 +1,57 @@
+{
+  "unitId": "tila",
+  "name": "TILA",
+  "reg": "Truth in Lending Act · Reg Z",
+  "groupCount": 4,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-tila-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "The rate in the ad isn't what the loan costs you. The Truth in Lending Act forces out the all-in price by standardizing two figures so you can hold two lenders side by side: the annual percentage rate (APR), the cost of credit as a yearly rate, and the finance charge, the dollar total credit will cost over the life of the loan. Like RESPA, this is consumer law — a business-purpose loan falls outside it. TILA is Regulation Z."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-tila-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "A disclosed APR is allowed a little slack, and the amount depends on the loan's regularity. A regular transaction gets the tighter tolerance: the stated APR has to land within one-eighth of 1 percentage point of the true figure, above or below. So for a regular transaction the disclosed APR must be accurate within 1/8 of 1 percentage point of 1 percentage point. An irregular transaction — uneven payments or timing — gets a wider band of 1/4 of 1 percentage point."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-tila-g1-gate-synth",
+      "gi": 1
+    },
+    {
+      "kind": "prose",
+      "id": "audio-tila-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "TILA hands you an escape on certain loans secured by your home. You can't rescind buying your own house — a purchase-money loan is final — but you can unwind a refinance on your principal dwelling. The window is short and it's three business days: counting every day except Sundays and federal holidays, you have 3 business days after consummation to back out. Once you rescind, the lender has 20 calendar days to return what you paid in connection with the deal. If the lender never properly delivered the rescission disclosure, that window doesn't close in three days — it stretches to 3 years."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-tila-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "When a loan's APR runs far enough above the average prime offer rate (APOR), TILA tags it a Higher-Priced Mortgage Loan (HPML) and attaches an escrow requirement. The trigger scales with risk: a first-lien conforming loan crosses at 1.5 points or more over APOR, a first-lien jumbo at 2.5, and a subordinate lien at 3.5. An HPML's escrow account stays mandatory for at least 5 years, and can come off only after that if the loan's LTV is 80% or less of the current balance."
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-tila-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-tila-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-tila-gate-mcq"
+    }
+  ]
+}

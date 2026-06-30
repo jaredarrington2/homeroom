@@ -1,0 +1,56 @@
+{
+  "unitId": "fcra",
+  "name": "FCRA",
+  "reg": "Fair Credit Reporting Act",
+  "groupCount": 3,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-fcra-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "Your credit report decides whether you get the loan and at what rate, so the law over it really answers two questions: who's allowed to pull your file, and what power you have to fix it when it's wrong. A lender can't open your report on a whim — it needs a permissible purpose, such as your own application for credit. And the score that lender sees isn't a black box: a FICO score is built from five weighted pieces — payment history at 35%, amounts owed at 30%, length of credit history at 15%, credit mix at 10%, and new credit and inquiries at 10% — so the single biggest lever, payment history, carries 35% of the score."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-fcra-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "When you dispute an item, the furnisher and the bureau owe you an investigation on a clock — 30 days from receipt, with a 15-day extension if they genuinely need it, which pushes the outside limit to 45 days. Separately, after a mortgage application the lender has to hand you the credit-score disclosure quickly — within 3 business days. So if you apply on a Monday, that score disclosure is due within 3 business days."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-fcra-g1-gate-synth",
+      "gi": 1
+    },
+    {
+      "kind": "prose",
+      "id": "audio-fcra-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "Derogatory items don't sit on your file forever; each kind ages off on its own schedule. Most negatives — late payments, collections, charge-offs, foreclosures — drop after about 7 years (late payments can linger to roughly 7½). Bankruptcy splits by chapter: a Chapter 13 stays 7 years, while the heavier Chapter 7 stays a full 10 years on your file. So the chapter that haunts a borrower the longest, Chapter 7, sticks for 10 years."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-fcra-g2-gate-synth",
+      "gi": 2
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-fcra-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-fcra-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-fcra-gate-mcq"
+    }
+  ]
+}

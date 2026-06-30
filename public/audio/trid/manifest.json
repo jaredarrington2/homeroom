@@ -1,0 +1,52 @@
+{
+  "unitId": "trid",
+  "name": "TRID",
+  "reg": "TILA-RESPA Integrated Disclosure Rule",
+  "groupCount": 4,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-trid-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "RESPA and TILA each used to demand their own forms, so a borrower drowned in four overlapping disclosures that never quite reconciled. TRID merged them into two. The Loan Estimate (LE) comes at the front — the lender's early promise of terms and costs. The Closing Disclosure (CD) is the final accounting at the end, and it has to land far enough ahead of signing that you can actually read it. The rest of TRID governs when those numbers may move, and who pays when they move too far."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-trid-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "Each disclosure runs on its own timer. The Loan Estimate has to go out fast — no later than three general business days after application — and once delivered the lender must honor its terms for at least 10 business days. Put a number on that first deadline: the LE is due within 3 general business days after application. The Closing Disclosure has to be received at least 3 precise business days before consummation. Send it by mail or electronically and the wait grows to 6 precise business days — three to account for delivery, three to read."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-trid-g1-gate-synth",
+      "gi": 1
+    },
+    {
+      "kind": "prose",
+      "id": "audio-trid-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "Quoted fees can drift, but only so far. TRID sorts them into three buckets: zero tolerance (the fee can't rise at all), 10% tolerance, and no-tolerance (unlimited). Under the 10% bucket the borrower can be charged up to 10% over the disclosed total — anything beyond that the creditor eats. When fees breach tolerance with no valid change of circumstance, the lender has to refund the excess — the cure — and the deadline is 60 days after consummation. The refund is due no later than 60 days after consummation."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-trid-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "Most last-minute changes just get a corrected CD. Three don't — they reset the full 3-day waiting period: the APR moving more than 0.125% on a fixed loan (or 0.25% on an ARM), the loan product itself changing, or a prepayment penalty being added. Records outlive the deal: the Loan Estimate is kept at least 3 years, the Closing Disclosure at least 5."
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-trid-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-trid-gate-mcq"
+    }
+  ]
+}

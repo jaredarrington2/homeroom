@@ -599,74 +599,95 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Listen player (voiceover) ─────────────────────────────────────────────
-   Web-Speech narration of the reader. Flat canon: royal accent, hairline
-   borders, white paper, no rounding. The active-paragraph highlight lives
-   inside .section-reader; the bar/pill are fixed and global. */
+/* ── Listen player (NYT-style, pre-generated ElevenLabs narration) ──────────
+   In-reader bits (entry button, margin dots, active/resume highlight) are scoped
+   under .section-reader and use canon royal. The bottom bar is a global dark
+   player chrome (matches the provided design preview). */
 
-/* spoken paragraph/heading highlight — a faint royal wash, padded via solid
-   (blur-free) box-shadow so it reads as a block without changing layout. */
-.section-reader .vo-active {
-  background: var(--royal-faint);
-  box-shadow: 0 0 0 6px var(--royal-faint);
-  transition: background 140ms ease;
+/* per-unit entry button under the title */
+.section-reader .lp-entry {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-family: var(--fs); font-size: 13px; color: var(--royal);
+  background: none; border: 1px solid var(--hair-strong);
+  padding: 6px 12px; margin: 0 0 26px; cursor: pointer;
 }
+.section-reader .lp-entry:hover { border-color: var(--royal); background: var(--royal-faint); }
 
-/* collapsed launcher */
-.vo-pill {
-  position: fixed; z-index: 60; right: 20px; bottom: 20px;
-  display: inline-flex; align-items: center; gap: 8px;
-  background: #1E3A8A; color: #fff; border: 0;
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
-  font-size: 12.5px; letter-spacing: 0.02em;
-  padding: 10px 15px; cursor: pointer;
+/* spoken segment + its left-margin play dot. The negative margin + matching padding
+   open a 26px gutter for the dot WITHOUT shifting the reading text. */
+.section-reader .lp-seg { position: relative; margin-left: -26px; padding-left: 26px; }
+.section-reader .lp-dot {
+  position: absolute; left: 0; top: 3px;
+  width: 22px; height: 22px; border-radius: 50%;
+  border: 1px solid var(--hair-strong); background: var(--loose-paper); color: var(--royal);
+  display: flex; align-items: center; justify-content: center;
+  opacity: 0; transition: opacity .15s, background .15s, color .15s; cursor: pointer; padding: 0;
 }
-.vo-pill:hover { background: #1B3479; }
+.section-reader .lp-seg:hover .lp-dot,
+.section-reader .anchor:hover .lp-dot,
+.section-reader .synth .q:hover .lp-dot { opacity: 1; }
+.section-reader .lp-dot:hover { border-color: var(--royal); }
 
-/* full player bar */
-.vo-bar {
-  position: fixed; z-index: 60; left: 50%; transform: translateX(-50%);
-  bottom: 16px; width: min(680px, calc(100vw - 24px));
-  display: flex; align-items: center; gap: 14px;
-  background: #FFFFFF; border: 1px solid #CFCFCF;
-  padding: 9px 12px;
+/* active line — soft royal wash + inset royal rule; dot fills royal */
+.section-reader .lp-seg[data-audio-active="true"] { background: var(--royal-faint); box-shadow: inset 3px 0 0 var(--royal); }
+.section-reader [data-audio-active="true"] > .lp-dot,
+.section-reader .lp-seg[data-audio-active="true"] .lp-dot {
+  opacity: 1; background: var(--royal); color: #fff; border-color: var(--royal);
 }
-.vo-bar .vo-meta { min-width: 0; flex: 1; }
-.vo-bar .vo-unit {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
-  font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase;
-  color: #1E3A8A; margin-bottom: 2px;
-}
-.vo-bar .vo-cap {
-  font-family: Inter, system-ui, sans-serif; font-size: 13px; line-height: 1.35;
-  color: #0A0A0A; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-}
-.vo-bar .vo-controls { display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
+/* gate blocks (decks): quiet inset rule while stopped on them */
+.section-reader .defs[data-audio-active="true"],
+.section-reader .deckhead[data-audio-active="true"] { box-shadow: inset 3px 0 0 var(--royal); }
 
-.vo-btn {
-  display: inline-flex; align-items: center; justify-content: center;
-  width: 30px; height: 30px; border: 1px solid #E5E5E5; background: #fff;
-  color: #6B6B6B; cursor: pointer; padding: 0;
-}
-.vo-btn:hover { color: #1E3A8A; border-color: #CFCFCF; }
-.vo-btn-primary {
-  width: 38px; height: 38px; background: #1E3A8A; color: #fff; border-color: #1E3A8A;
-}
-.vo-btn-primary:hover { background: #1B3479; color: #fff; }
-.vo-close { margin-left: 2px; }
+/* resume marker — where you last stopped (quiet gold, subtler than active) */
+.section-reader [data-audio-resume="true"] { box-shadow: inset 3px 0 0 #C7B96A; }
 
-.vo-select {
-  font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px;
-  color: #0A0A0A; background: #fff; border: 1px solid #E5E5E5;
-  padding: 6px 6px; cursor: pointer; height: 30px;
-}
-.vo-voice { max-width: 130px; }
+/* anchor figure as a play target: give the dot room at top-left of the figure */
+.section-reader .anchor { position: relative; }
+.section-reader .anchor .lp-dot { left: -4px; top: -4px; }
+
+/* synth question dot: no gutter trick (sits inside the synth block) */
+.section-reader .synth .q.lp-seg { margin-left: 0; padding-left: 0; }
+.section-reader .synth .q .lp-dot { left: -24px; top: 1px; }
 
 @media (max-width: 560px) {
-  .vo-bar {
-    left: 0; right: 0; bottom: 0; transform: none; width: 100%;
-    border-left: 0; border-right: 0; border-bottom: 0; gap: 10px;
-    padding: 9px 12px env(safe-area-inset-bottom, 9px);
-  }
-  .vo-voice { display: none; }
+  /* touch: dots faintly visible by default (no hover) */
+  .section-reader .lp-dot { opacity: .4; }
+}
+
+/* the bottom bar — dark player chrome, fixed, centered to the reading column */
+.lp-bar {
+  position: fixed; z-index: 60; left: 50%; transform: translateX(-50%);
+  bottom: 16px; width: min(640px, calc(100vw - 24px));
+  display: flex; align-items: center; gap: 13px;
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #0A0A0A; color: #F3EEDE; padding: 11px 15px;
+}
+.lp-bar-btn {
+  width: 38px; height: 38px; border-radius: 50%; flex-shrink: 0;
+  background: #1E3A8A; color: #fff; border: none;
+  display: flex; align-items: center; justify-content: center; cursor: pointer;
+}
+.lp-bar-btn:hover { background: #1B3479; }
+.lp-bar-mid { flex: 1; min-width: 0; }
+.lp-bar-lbl { font-size: 13px; margin: 0 0 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lp-prog { height: 3px; background: #3A382F; overflow: hidden; }
+.lp-prog-fill { height: 100%; background: #6B87C4; transition: width .25s; }
+.lp-bar-sub { font-size: 11px; color: #B0A888; margin: 5px 0 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lp-bar-speed {
+  font-size: 12px; color: #D8D0B8; background: #1F1D18; border: 1px solid #3A382F;
+  padding: 6px 10px; flex-shrink: 0; cursor: pointer;
+}
+.lp-bar-speed:hover { color: #fff; }
+.lp-bar-x { color: #8A8268; background: none; border: none; cursor: pointer; flex-shrink: 0; display: flex; }
+.lp-bar-x:hover { color: #D8D0B8; }
+.lp-bar-skip {
+  width: 32px; height: 32px; flex-shrink: 0; padding: 0;
+  background: none; border: none; color: #C9C2AC; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+}
+.lp-bar-skip:hover { color: #fff; }
+.lp-bar-skip:disabled { opacity: .35; cursor: default; }
+
+@media (max-width: 560px) {
+  .lp-bar { left: 0; right: 0; bottom: 0; transform: none; width: 100%; padding: 10px 14px env(safe-area-inset-bottom, 10px); }
 }

@@ -29,8 +29,9 @@ function local(canonical: string, answer: string): { verdict: Verdict; feedback:
 }
 
 export default function Synth({
-  q, a, unitId, synthId,
-}: { q: string; a: string; unitId: string; synthId: string }) {
+  q, a, unitId, groupIndex, synthId,
+}: { q: string; a: string; unitId: string; groupIndex: number; synthId: string }) {
+  const audio = `audio-${unitId}-g${groupIndex}`;
   const { getSynth, saveSynth, clearSynth, loaded } = useProgressContext();
   const [state, setState] = useState<"idle" | Verdict>("idle");
   const [feedback, setFeedback] = useState("");
@@ -88,7 +89,7 @@ export default function Synth({
     <div className="synth">
       <div className="lab">recall</div>
       <div className="q">{q}</div>
-      <div className="body">
+      <div className="body" id={`${audio}-gate-synth`}>
         <textarea
           ref={taRef}
           placeholder="A sentence is plenty."

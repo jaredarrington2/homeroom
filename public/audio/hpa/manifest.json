@@ -1,0 +1,50 @@
+{
+  "unitId": "hpa",
+  "name": "HPA",
+  "reg": "Homeowners Protection Act · PMI",
+  "groupCount": 3,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-hpa-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "Put down less than 20% and the lender makes you buy private mortgage insurance that protects the lender, not you. Left alone it would ride your bill long after the equity made it pointless. HPA is the rule that gets it off — and it works through two LTV numbers that do different jobs: 80%, where you can ask, and 78%, where the servicer has to act on its own."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hpa-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "Once the loan reaches 80% LTV — measured against the original value or purchase price — the borrower can request that PMI come off. Lower, at 78% LTV, the servicer must terminate it automatically, but only if the borrower is current. So the request right opens at 80% LTV LTV, while automatic termination waits for 78%. Miss the current-payment condition at 78% and final termination is deferred to the midpoint of the loan's amortization period, taking effect once the borrower is back in good standing."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-hpa-g1-gate-synth",
+      "gi": 1
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hpa-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "A high-risk (non-conforming) loan moves the automatic-termination line down to 77% LTV, and the loan must still be current; the midpoint backstop doesn't apply to these loans. For that riskier tier the cutoff is 77% LTV rather than 78%. Once PMI is canceled or terminated, the clock starts on the servicer: notice to the borrower within 30 days, and any unearned premiums returned within 45 days."
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-hpa-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-hpa-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-hpa-gate-mcq"
+    }
+  ]
+}
