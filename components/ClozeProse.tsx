@@ -15,11 +15,14 @@ import { useProgressContext } from "@/lib/ProgressContext";
 const norm = (s: string) =>
   s.toLowerCase().trim().replace(/[$,%]/g, "").replace(/\s+/g, " ").replace(/\.$/, "");
 
-const ProseHTML = memo(function ProseHTML({ paras }: { paras: SectionParagraph[] }) {
+const ProseHTML = memo(function ProseHTML({
+  paras, groupIndex,
+}: { paras: SectionParagraph[]; groupIndex: number }) {
   return (
     <>
       {paras.map((p, i) => (
-        <p key={i} dangerouslySetInnerHTML={{ __html: p.html }} />
+        <p key={i} data-vo="p" data-vo-g={groupIndex} data-vo-p={i}
+          dangerouslySetInnerHTML={{ __html: p.html }} />
       ))}
     </>
   );
@@ -82,7 +85,7 @@ export default function ClozeProse({
 
   return (
     <div ref={ref}>
-      <ProseHTML paras={paras} />
+      <ProseHTML paras={paras} groupIndex={groupIndex} />
     </div>
   );
 }

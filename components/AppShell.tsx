@@ -3,6 +3,7 @@
 // page share one progress instance) plus the once-per-session login pop quiz.
 import { ProgressProvider, useProgressContext } from '@/lib/ProgressContext';
 import { LoginQuiz } from './LoginQuiz';
+import ListenPlayer from './ListenPlayer';
 import { ReactNode } from 'react';
 
 function AppShellInner({ children }: { children: ReactNode }) {
@@ -11,6 +12,7 @@ function AppShellInner({ children }: { children: ReactNode }) {
     <>
       {children}
       {loaded && <LoginQuiz completedUnits={progress.completedUnits} />}
+      <ListenPlayer />
     </>
   );
 }

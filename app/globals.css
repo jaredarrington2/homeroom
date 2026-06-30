@@ -598,3 +598,75 @@
   from { opacity: 0; transform: translateY(24px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+/* ── Listen player (voiceover) ─────────────────────────────────────────────
+   Web-Speech narration of the reader. Flat canon: royal accent, hairline
+   borders, white paper, no rounding. The active-paragraph highlight lives
+   inside .section-reader; the bar/pill are fixed and global. */
+
+/* spoken paragraph/heading highlight — a faint royal wash, padded via solid
+   (blur-free) box-shadow so it reads as a block without changing layout. */
+.section-reader .vo-active {
+  background: var(--royal-faint);
+  box-shadow: 0 0 0 6px var(--royal-faint);
+  transition: background 140ms ease;
+}
+
+/* collapsed launcher */
+.vo-pill {
+  position: fixed; z-index: 60; right: 20px; bottom: 20px;
+  display: inline-flex; align-items: center; gap: 8px;
+  background: #1E3A8A; color: #fff; border: 0;
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 12.5px; letter-spacing: 0.02em;
+  padding: 10px 15px; cursor: pointer;
+}
+.vo-pill:hover { background: #1B3479; }
+
+/* full player bar */
+.vo-bar {
+  position: fixed; z-index: 60; left: 50%; transform: translateX(-50%);
+  bottom: 16px; width: min(680px, calc(100vw - 24px));
+  display: flex; align-items: center; gap: 14px;
+  background: #FFFFFF; border: 1px solid #CFCFCF;
+  padding: 9px 12px;
+}
+.vo-bar .vo-meta { min-width: 0; flex: 1; }
+.vo-bar .vo-unit {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase;
+  color: #1E3A8A; margin-bottom: 2px;
+}
+.vo-bar .vo-cap {
+  font-family: Inter, system-ui, sans-serif; font-size: 13px; line-height: 1.35;
+  color: #0A0A0A; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.vo-bar .vo-controls { display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
+
+.vo-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 30px; height: 30px; border: 1px solid #E5E5E5; background: #fff;
+  color: #6B6B6B; cursor: pointer; padding: 0;
+}
+.vo-btn:hover { color: #1E3A8A; border-color: #CFCFCF; }
+.vo-btn-primary {
+  width: 38px; height: 38px; background: #1E3A8A; color: #fff; border-color: #1E3A8A;
+}
+.vo-btn-primary:hover { background: #1B3479; color: #fff; }
+.vo-close { margin-left: 2px; }
+
+.vo-select {
+  font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px;
+  color: #0A0A0A; background: #fff; border: 1px solid #E5E5E5;
+  padding: 6px 6px; cursor: pointer; height: 30px;
+}
+.vo-voice { max-width: 130px; }
+
+@media (max-width: 560px) {
+  .vo-bar {
+    left: 0; right: 0; bottom: 0; transform: none; width: 100%;
+    border-left: 0; border-right: 0; border-bottom: 0; gap: 10px;
+    padding: 9px 12px env(safe-area-inset-bottom, 9px);
+  }
+  .vo-voice { display: none; }
+}

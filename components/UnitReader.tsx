@@ -34,7 +34,7 @@ export default function UnitReader({
       <ExplainableBody sectionId={sectionId} sectionTitle={sectionTitle} chapterId={sectionId}>
         {unit.groups.map((g, gi) => (
           <div className="group-block" key={gi}>
-            {g.heading && <div className="group">{g.heading}</div>}
+            {g.heading && <div className="group" data-vo="h" data-vo-g={gi}>{g.heading}</div>}
             {g.anchor && (
               <figure className="anchor">
                 <Image
