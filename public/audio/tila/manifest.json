@@ -2,41 +2,209 @@
   "unitId": "tila",
   "name": "TILA",
   "reg": "Truth in Lending Act · Reg Z",
-  "groupCount": 4,
+  "groupCount": 22,
   "items": [
     {
       "kind": "prose",
       "id": "audio-tila-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "The rate in the ad isn't what the loan costs you. The Truth in Lending Act forces out the all-in price by standardizing two figures so you can hold two lenders side by side: the annual percentage rate (APR), the cost of credit as a yearly rate, and the finance charge, the dollar total credit will cost over the life of the loan. Like RESPA, this is consumer law — a business-purpose loan falls outside it. TILA is Regulation Z."
+      "text": "A lender's ad shows one number: a rate, big and bold. That number is real, but it isn't what the loan costs you — the fees you pay up front, the insurance the lender requires, and the interest itself all pile on top of it. The Truth in Lending Act (TILA) makes the lender put the full price in writing, in a few standardized figures, so you can hold two offers side by side and see which is actually cheaper. It's a disclosure law, passed in 1968 and run today through the Consumer Financial Protection Bureau's Regulation Z."
     },
     {
       "kind": "prose",
       "id": "audio-tila-g1-p0",
       "gi": 1,
       "pi": 0,
-      "text": "A disclosed APR is allowed a little slack, and the amount depends on the loan's regularity. A regular transaction gets the tighter tolerance: the stated APR has to land within one-eighth of 1 percentage point of the true figure, above or below. So for a regular transaction the disclosed APR must be accurate within 1/8 of 1 percentage point of 1 percentage point. An irregular transaction — uneven payments or timing — gets a wider band of 1/4 of 1 percentage point."
-    },
-    {
-      "kind": "gate",
-      "gateType": "synth",
-      "id": "audio-tila-g1-gate-synth",
-      "gi": 1
+      "text": "Borrowing money has a price, and that price is the interest rate — also called the note rate, because it's written into the promissory note you sign. It's a yearly percentage charged on the money you still owe. Borrow $250,000 at a 6% note rate and the first year's interest runs about $15,000, folded into twelve monthly payments. The rate is what sets that payment: a higher rate means a bigger payment for the same loan amount. Every other figure TILA discloses is built on top of this one number."
     },
     {
       "kind": "prose",
       "id": "audio-tila-g2-p0",
       "gi": 2,
       "pi": 0,
-      "text": "TILA hands you an escape on certain loans secured by your home. You can't rescind buying your own house — a purchase-money loan is final — but you can unwind a refinance on your principal dwelling. The window is short and it's three business days: counting every day except Sundays and federal holidays, you have 3 business days after consummation to back out. Once you rescind, the lender has 20 calendar days to return what you paid in connection with the deal. If the lender never properly delivered the rescission disclosure, that window doesn't close in three days — it stretches to 3 years."
+      "text": "Some loan costs aren't in the rate — you pay them once, at closing, in cash. The unit of measure is the point: one point is 1% of the loan amount, so on a $250,000 loan one point is $2,500. Points come in two kinds. Discount points are optional — you pay them to buy your interest rate down, trading cash now for a lower payment later. Origination points (or origination fees) are what the lender charges to make the loan in the first place. Either way the money leaves your pocket up front, which is why the rate alone never tells you the whole cost."
     },
     {
       "kind": "prose",
       "id": "audio-tila-g3-p0",
       "gi": 3,
       "pi": 0,
-      "text": "When a loan's APR runs far enough above the average prime offer rate (APOR), TILA tags it a Higher-Priced Mortgage Loan (HPML) and attaches an escrow requirement. The trigger scales with risk: a first-lien conforming loan crosses at 1.5 points or more over APOR, a first-lien jumbo at 2.5, and a subordinate lien at 3.5. An HPML's escrow account stays mandatory for at least 5 years, and can come off only after that if the loan's LTV is 80% or less of the current balance."
+      "text": "Add up everything the credit costs you in dollars — the interest over the whole loan, plus the fees the lender charges as a condition of lending — and you have the finance charge: the cost of credit stated as one dollar figure. The test for what counts is a plain one. If you'd pay the charge even when buying the house with cash, it isn't a finance charge; if it exists only because you're borrowing, it is. So interest, points, and the lender's own fees are in; the home's price and the property taxes are out. The whole point of the figure is to gather every borrowing cost into one place, in dollars."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-tila-g3-gate-synth",
+      "gi": 3
+    },
+    {
+      "kind": "prose",
+      "id": "audio-tila-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "The note rate lets you compare two loans only if their fees are identical — and they never are. So TILA requires a second figure that folds the fees back in: the annual percentage rate (APR), the cost of credit expressed as a yearly rate. It takes the finance charge — interest plus the up-front points and lender fees — and spreads it back across the loan as one percentage you can line up against another lender's. Two loans can quote the same 6% note rate, yet one comes in at 6.50% APR and the other at 6.625%. Same price of money; the higher APR is carrying higher fees. That gap is the reason APR exists — it's built for comparison shopping, and a lender can't advertise a rate without stating it."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-tila-g4-gate-synth",
+      "gi": 4
+    },
+    {
+      "kind": "prose",
+      "id": "audio-tila-g5-p0",
+      "gi": 5,
+      "pi": 0,
+      "text": "When a loan is secured by your home, you've given the lender a lien — a legal claim on the property. Miss enough payments and the lien lets the lender force a sale to get its money back. Order matters: the first lien is repaid first out of any sale, and a subordinate lien (a second mortgage or a home-equity line) stands behind it, which makes it riskier for that lender and usually pricier for you. TILA saves its strongest protections for loans tied to your principal dwelling — the home you actually live in, not a rental or a vacation place."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-tila-g6-p0",
+      "gi": 6,
+      "pi": 0,
+      "text": "TILA does three jobs: it forces lenders to disclose a loan's terms and total cost so borrowers can comparison-shop, it gives borrowers a right to cancel certain home loans, and it polices how credit is advertised. It reaches a lender only when four things are all true — the credit goes to a consumer, the lender extends credit regularly, the credit carries a finance charge or is repaid in more than four installments, and it's for personal, family, or household use. Borrow for a business, a farm, or an organization and you're outside TILA — the same logic as RESPA, that a business borrower can look after itself. A handful of other deals are exempt too: credit above an inflation-adjusted dollar threshold (about $72,000 in 2025) that isn't secured by real estate, public-utility credit, student loans, and employer retirement-plan loans."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-tila-g7-p0",
+      "gi": 7,
+      "pi": 0,
+      "text": "A disclosed APR gets a little slack, because a hand calculation and the lender's software rarely agree to the last decimal. How much slack depends on how regular the loan is. A regular transaction — level payments on a steady schedule — gets the tighter band: the stated APR must land within 1/8 of 1 percentage point of 1 percentage point of the true figure, above or below. An irregular transaction — one with multiple advances, uneven payment periods, or uneven payment amounts — is harder to compute exactly, so it's allowed the wider band of 1/4 of 1 percentage point."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-tila-g7-gate-synth",
+      "gi": 7
+    },
+    {
+      "kind": "prose",
+      "id": "audio-tila-g8-p0",
+      "gi": 8,
+      "pi": 0,
+      "text": "Because the APR is just the finance charge expressed as a rate, the same test decides what lands in it. In: interest, points, and the lender's own charges; any premium for insurance that protects the lender against your default; and a required third-party fee — a title or closing service the lender insists on, or any part of such a fee the lender keeps. A mortgage broker's fee is always in, even if you picked the broker and the lender keeps none of it. Out: an application fee charged to every applicant whether they close or not, late fees and over-limit charges, the seller's points, and fees paid before closing for services like the appraisal and the credit report."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-tila-g9-p0",
+      "gi": 9,
+      "pi": 0,
+      "text": "On some home loans TILA gives you a cooling-off period — a short window to walk away after you've signed, no reason required. It exists because these loans put your home on the line, and a signature made under pressure shouldn't be irreversible. You can't rescind buying a house — a purchase-money loan is final the moment it closes — but you can unwind a refinance or a home-equity loan on your principal dwelling, where you're borrowing against a home you already own. The window is 3 business days — counted as precise business days, meaning every day except Sundays and federal holidays — starting the day the loan settles. A few refinances are carved out: one on a second home or an investment property, and a refinance through your original lender that adds no new money."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-tila-g10-p0",
+      "gi": 10,
+      "pi": 0,
+      "text": "Until those three days run out, the deal is frozen: the lender can't disburse any money (except into escrow), no services tied to the loan may be performed, and no materials may be delivered, until the lender is reasonably satisfied you haven't cancelled. If you do rescind, the loan never funds and the lender has 20 calendar days to return everything you paid in connection with the deal. At settlement, every owner of the dwelling gets two copies of the notice of right to cancel — one copy each if it's delivered electronically — but only one of them has to exercise the right to undo the loan for everyone."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-tila-g11-p0",
+      "gi": 11,
+      "pi": 0,
+      "text": "That three-day clock only starts if the lender does its part. If the lender never properly delivered the notice of right to cancel or the material cost disclosures, the window doesn't close in three days — it stays open for up to 3 years after consummation, or until you sell or transfer the home, whichever comes first. There is one way to give the window up early: with a genuine financial emergency that needs the money now, you can waive it — but only with a dated statement that describes the emergency and is signed by everyone entitled to rescind. Pre-printed waiver forms aren't allowed, and the lender has the final say on whether the emergency qualifies."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-tila-g11-gate-synth",
+      "gi": 11
+    },
+    {
+      "kind": "prose",
+      "id": "audio-tila-g12-p0",
+      "gi": 12,
+      "pi": 0,
+      "text": "A fixed-rate loan keeps the same rate for its whole life. An adjustable-rate mortgage (ARM) doesn't — after an initial stretch, its rate resets periodically to an outside benchmark called the index, plus a fixed markup the lender adds called the margin. Because the payment can climb, TILA makes the lender explain the risk up front. On any closed-end loan secured by your principal dwelling whose rate can rise after closing, two disclosures go out at application or within 3 business days of application: the CHARM booklet (the Consumer Handbook on Adjustable-Rate Mortgages), which explains how ARMs work in general, and the Early ARM Disclosure, which spells out the specific program — that the rate, payment, or term can change, what index and margin drive it, and whether the starting rate is a temporary discount."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-tila-g13-p0",
+      "gi": 13,
+      "pi": 0,
+      "text": "TILA's third job is advertising, and its signature rule is about triggering terms. Vague copy — 'low monthly payments,' 'great rates' — triggers nothing. But the moment an ad states one specific number — the amount or percent of the down payment, the number of payments or the repayment period, the amount of a payment, or the dollar amount of the finance charge — it 'triggers' a set of disclosures the ad must then spell out clearly and conspicuously: the down payment, the full repayment terms including any balloon payment, and the annual percentage rate, named as such, plus whether it can rise after closing. A tempting number can't stand alone — it has to arrive with the context that makes it honest."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-tila-g13-gate-synth",
+      "gi": 13
+    },
+    {
+      "kind": "prose",
+      "id": "audio-tila-g14-p0",
+      "gi": 14,
+      "pi": 0,
+      "text": "TILA names specific advertising moves that are off-limits, all of them ways to make a loan look better than it is. Calling a rate or payment 'fixed' when it can actually rise is prohibited, unless the word 'ARM' or 'adjustable-rate' sits just as prominently and the ad states how long the fixed period lasts. Claiming a loan is a government program or government-endorsed is banned unless it truly is one, like an FHA or VA loan. Using the borrower's current lender's name in an ad the lender didn't send is banned unless the ad plainly says who's really behind it and that they aren't affiliated. Also out: promising the product will eliminate or forgive existing debt, calling a for-profit broker or lender a 'counselor,' making misleading rate comparisons, and running foreign-language ads that put the attractive terms in one language and the catches only in English."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-tila-g15-p0",
+      "gi": 15,
+      "pi": 0,
+      "text": "A loan can't safely close for more than the home is worth, so the appraisal sits between the borrower and the loan — and that made appraisers a target. Originators used to lean on them to hit the number a deal needed, and appraisers who refused got quietly dropped from future work; the inflated values that resulted left buyers owing more than their homes were worth. TILA now walls the originator off from the appraiser. No one with a stake in the loan may coerce, bribe, threaten, or induce an appraiser to reach a particular value, withhold or condition the appraiser's pay on hitting a number, or dangle future assignments in exchange for a friendly figure. Appraisers, in turn, may not materially misrepresent a value, and no one may falsify or alter a completed valuation. What stays allowed is ordinary quality control — asking the appraiser to weigh additional comparable sales, to correct a genuine error, or to explain a conclusion, and ordering a second valuation when the first looks unreliable."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-tila-g15-gate-synth",
+      "gi": 15
+    },
+    {
+      "kind": "prose",
+      "id": "audio-tila-g16-p0",
+      "gi": 16,
+      "pi": 0,
+      "text": "Once a loan is made, servicing is the day-to-day handling of it — taking payments, running escrow, issuing payoff figures. TILA polices three parts of that. First, payment crediting: a servicer must credit your payment as of the day it arrives, so a payment isn't quietly held to rack up interest or a late fee. A payment that doesn't follow the servicer's written instructions still has to be credited within 5 days. Second, no pyramiding of late fees: if you pay this month on time but an old late fee is still sitting unpaid, the servicer can't charge a fresh late fee just because of that old one — late fees can't stack on late fees. Third, the payoff statement — the exact amount to close out the loan — must go out within 7 business days of your written request."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-tila-g17-p0",
+      "gi": 17,
+      "pi": 0,
+      "text": "How a loan originator gets paid shapes which loan they'll steer you toward, so TILA controls it. An originator's pay can't be based on a loan's terms — not the interest rate, not any feature that varies deal to deal — because paying more for a higher rate would reward the originator for making your loan worse. Pay can be a fixed percentage of the loan amount, since the amount isn't a term you'd quietly inflate against the borrower. There's also a dual-compensation bar: if the originator takes payment directly from you, the consumer, they can't also collect from the lender or anyone else on that same loan — one source per deal."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-tila-g17-gate-synth",
+      "gi": 17
+    },
+    {
+      "kind": "prose",
+      "id": "audio-tila-g18-p0",
+      "gi": 18,
+      "pi": 0,
+      "text": "Closely related to pay is steering — directing a borrower into a particular loan because it earns the originator more, when a better loan was available. TILA gives originators a safe harbor: present the borrower a real set of options and you're clear. The set has to include three loans — the one with the lowest interest rate; the one with the lowest rate that carries none of the risky features (no negative amortization, no prepayment penalty, no interest-only period, no balloon in the first 7 years, no demand feature, no shared equity or appreciation); and the one with the lowest total points and origination fees. Show those three, and the choice is genuinely the borrower's."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-tila-g19-p0",
+      "gi": 19,
+      "pi": 0,
+      "text": "When a loan's rate runs well above the going rate for safe borrowers, TILA flags it a Higher-Priced Mortgage Loan (HPML) and attaches extra protections against excessive points and fees. The benchmark is the Average Prime Offer Rate (APOR) — a low-risk baseline the CFPB publishes and updates about weekly, built from the rates and pricing offered to the strongest borrowers. Compare a loan's APR to APOR, and how far above the line it sits decides the label. A first-lien loan within the conforming limit becomes an HPML at 1.5 percentage points percentage points over APOR; a first-lien jumbo loan (above that limit) at 2.5; and a subordinate lien at 3.5. A few loans are never HPMLs — co-op shares, a loan for a home's initial construction, a home-equity line, a bridge loan of 12 months or less, and a reverse mortgage."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-tila-g20-p0",
+      "gi": 20,
+      "pi": 0,
+      "text": "Being tagged an HPML pulls in three requirements. First, an escrow account for property taxes and homeowner's insurance, so a stretched borrower can't skip them and lose the home — mandatory for at least 5 years. After that it can be removed, but only if the borrower asks in writing, the loan is current, and the balance has fallen to 80% or less of the home's original value. Second, an interior-inspection appraisal by a licensed or certified appraiser who actually visits the property, before closing — and a second appraisal on a quick flip: if the seller bought the place 90 or fewer days earlier and is reselling for more than 10% above what they paid, or bought it 91 to 180 days earlier and is reselling for more than 20% above. Third, the lender must give the borrower a copy of any appraisal, even if the loan never closes."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-tila-g20-gate-synth",
+      "gi": 20
+    },
+    {
+      "kind": "prose",
+      "id": "audio-tila-g21-p0",
+      "gi": 21,
+      "pi": 0,
+      "text": "TILA sets how long a lender keeps the paperwork, and the periods differ by document. Most TILA records — the initial cost disclosures and the like — are held for 3 years. The Closing Disclosure and its related documents are held longer, for 5 years after closing; if the lender sells the loan and stops servicing it, it has to hand those disclosures to the new owner to keep for whatever's left of the five years. Records of what the lender paid its loan originators are kept for 3 years from the date of payment."
     },
     {
       "kind": "gate",

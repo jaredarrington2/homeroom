@@ -12,7 +12,54 @@ export default function DisclosureVisual({ kind }: { kind: DisclosureVisualKind 
       {kind === "escrow-accrual" && <EscrowAccrual />}
       {kind === "escrow-analysis" && <EscrowAnalysis />}
       {kind === "servicing-transfer" && <ServicingTransfer />}
+      {kind === "apr-stack" && <AprStack />}
     </figure>
+  );
+}
+
+/* ── 5. APR stack — same note rate, different fees → different APR ──────────── */
+function AprStack() {
+  return (
+    <div className="dv-paper" style={{ padding: "26px 24px 22px" }}>
+      <div className="dv-h">Annual Percentage Rate</div>
+      <div className="dv-hsub">Same loan — $250,000 · 30-year fixed · 6% note rate</div>
+      <hr className="dv-rule dv-double" />
+
+      <div className="dv-apr-cols">
+        <div className="dv-apr-col">
+          <div className="dv-apr-fig">6.50%<span className="dv-apr-unit"> APR</span></div>
+          <div className="dv-apr-bar">
+            <div className="dv-apr-seg dv-apr-fees" style={{ height: 24 }}>+0.50%<br />fees</div>
+            <div className="dv-apr-seg dv-apr-note" style={{ height: 96 }}>6.00%<br />note rate</div>
+          </div>
+          <div className="dv-apr-lender">Friend&apos;s lender</div>
+          <div className="dv-apr-sub">lower up-front fees</div>
+        </div>
+
+        <div className="dv-apr-col">
+          <div className="dv-apr-fig">6.625%<span className="dv-apr-unit"> APR</span></div>
+          <div className="dv-apr-bar">
+            <div className="dv-apr-seg dv-apr-fees" style={{ height: 34 }}>+0.625%<br />fees</div>
+            <div className="dv-apr-seg dv-apr-note" style={{ height: 96 }}>6.00%<br />note rate</div>
+          </div>
+          <div className="dv-apr-lender">Realtor&apos;s lender</div>
+          <div className="dv-apr-sub">higher up-front fees</div>
+        </div>
+      </div>
+
+      <div className="dv-arrow" style={{ marginTop: 14, justifyContent: "center" }}>
+        <span className="dv-arrow-mark">↑</span>
+        <span className="dv-arrow-text">Same 6% note rate on both — the price of the money is identical</span>
+      </div>
+
+      <hr className="dv-rule" />
+
+      <div className="dv-mnote" style={{ fontSize: 15 }}>
+        The note rate sets the monthly payment. APR folds the up-front points &amp; fees back into one
+        yearly number, so a higher APR on the same rate means higher fees — which is what makes two
+        loans comparable.
+      </div>
+    </div>
   );
 }
 

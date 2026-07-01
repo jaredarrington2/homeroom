@@ -35,7 +35,8 @@ export type DisclosureVisualKind =
   | "lifecycle-timeline"
   | "escrow-accrual"
   | "escrow-analysis"
-  | "servicing-transfer";
+  | "servicing-transfer"
+  | "apr-stack";
 
 export interface ConceptGroup {
   /** Plain lowercase mono heading, e.g. "what it covers". Omit for the opening paragraph. */

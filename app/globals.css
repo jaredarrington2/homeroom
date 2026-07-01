@@ -441,9 +441,25 @@
 .section-reader .dv-tl-detail { font-family: var(--dv-type); font-size: 10.5px; color: var(--dv-muted); line-height: 1.5; }
 .section-reader .dv-tl-deadline { font-family: var(--dv-hand); font-size: 13px; color: var(--dv-red); font-weight: 600; }
 
+/* apr-stack — same note rate, different fees → different APR (TILA) */
+.section-reader .dv-apr-cols { display: flex; gap: 32px; justify-content: center; align-items: flex-end; margin: 10px 0 4px; }
+.section-reader .dv-apr-col { display: flex; flex-direction: column; align-items: center; }
+.section-reader .dv-apr-fig { font-family: var(--dv-hand); font-size: 27px; font-weight: 700; color: var(--dv-royal); line-height: 1; margin-bottom: 10px; }
+.section-reader .dv-apr-unit { font-family: var(--dv-type); font-size: 11px; font-weight: 400; color: var(--dv-muted); }
+.section-reader .dv-apr-bar { width: 96px; display: flex; flex-direction: column; justify-content: flex-end;
+  border: 1px solid var(--dv-edge); border-bottom: 2px solid #B8B0A0; }
+.section-reader .dv-apr-seg { display: flex; flex-direction: column; align-items: center; justify-content: center;
+  font-family: var(--dv-type); font-size: 10px; text-align: center; color: var(--dv-ink); line-height: 1.25; }
+.section-reader .dv-apr-fees { background: var(--dv-hl-y); border-bottom: 1px dashed #C8B84A; color: var(--dv-sharpie); font-weight: 700; }
+.section-reader .dv-apr-note { background: var(--dv-hl-b); }
+.section-reader .dv-apr-lender { font-family: var(--dv-type); font-size: 10px; text-transform: uppercase;
+  letter-spacing: .6px; color: var(--dv-muted); margin-top: 12px; text-align: center; }
+.section-reader .dv-apr-sub { font-family: var(--dv-hand); font-size: 14px; color: var(--dv-sharpie-blue); margin-top: 2px; text-align: center; }
+
 @media (max-width: 560px) {
   .section-reader .dv-pair { flex-direction: column; }
   .section-reader .dv-paper { padding: 22px 18px 20px; }
+  .section-reader .dv-apr-cols { gap: 20px; }
 }
 
 /* ===== RecapCard — exam recap, big-format recall card =====
