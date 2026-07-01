@@ -3043,7 +3043,35 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "An MLO who cold-calls for business is, in this rule's eyes, a telemarketer — so the registry applies to them too. <b>DNC/TSR draws the boundaries on those calls</b>: whose number you have to scrub against the Do-Not-Call list, how fresh that scrub has to be, and what tips a call into abusive."
+              "html": "By the early 2000s the dinner hour belonged to telemarketers. Congress answered in 2003 with the <b>Telemarketing Sales Rule (TSR)</b>, which created the <b>Do-Not-Call Registry</b> — the list you add your number to so sellers have to leave you alone. Two agencies enforce it: the <b>FTC</b> handles interstate calls (caller and recipient in different states), and the <b>FCC</b> handles intrastate calls (both in the same state)."
+            }
+          ]
+        },
+        {
+          "heading": "deceptive versus abusive",
+          "paras": [
+            {
+              "html": "The TSR splits bad telemarketing into two kinds. <b>Deceptive</b> practices are about <em>lying</em> — hiding the real cost, faking prize odds, burying a policy of no refunds. <b>Abusive</b> practices are about <em>harassing</em> — calling at all hours, threatening, demanding money up front, dialing a number that asked to be left alone. Deception attacks your wallet; abuse attacks your peace. Nearly every TSR rule falls into one bucket or the other."
+            }
+          ],
+          "synth": {
+            "q": "What's the difference between a 'deceptive' and an 'abusive' telemarketing practice?",
+            "a": "Deceptive practices involve lying or misleading the consumer — hiding total costs, misstating prize odds, concealing a no-refund policy. Abusive practices involve harassment or coercion — calling outside permitted hours, threats or profanity, demanding advance fees, or calling numbers on the Do-Not-Call list."
+          }
+        },
+        {
+          "heading": "the deceptive line",
+          "paras": [
+            {
+              "html": "Before taking a consumer's payment, a telemarketer must truthfully and clearly disclose the <b>total cost</b> and quantity, any material restrictions, and — if it applies — a <b>no-refund</b> policy. In a prize promotion, they must state the odds, that <b>no purchase is necessary</b> to win, and how to enter for free. Lying about any of it — the cost, the product, a refund policy, an investment's risk, or an affiliation — is a deceptive act and prohibited outright."
+            }
+          ]
+        },
+        {
+          "heading": "the abusive line",
+          "paras": [
+            {
+              "html": "On the abuse side, the TSR bans threats and profanity, calling repeatedly to annoy, and blocking your caller ID. It bars demanding a fee <b>in advance</b> of delivering a loan or credit, and charging for debt-relief work before a debt is actually settled. It also forbids charging your account without your <b>express informed consent</b>. And residential sales calls are boxed into set hours — no earlier than 8 a.m. and no later than <span class=\"cloze\" data-accept='[\"9 p.m.\",\"9pm\",\"9 pm\",\"9:00 p.m.\",\"9\",\"nine\"]' data-reveal=\"9 p.m.\">?</span> in the called person's local time."
             }
           ]
         },
@@ -3051,15 +3079,23 @@ const section3: SectionContent = {
           "heading": "scrubbing the list",
           "paras": [
             {
-              "html": "Before dialing, the number has to be checked against the Do-Not-Call registry within the last 31 days — anything older than <span class=\"cloze\" data-accept='[\"31 days\",\"31\",\"thirty-one\",\"thirty one\"]' data-reveal=\"31 days\">?</span> doesn't count. Calls are also boxed in by time: you can only dial between <b>8:00 a.m. and 9:00 p.m.</b> in the call recipient's local time."
+              "html": "A telemarketer can't just dial — it has to <b>scrub</b> its call list against the Do-Not-Call Registry, removing listed numbers, and re-scrub every <span class=\"cloze\" data-accept='[\"31 days\",\"31\",\"thirty-one\",\"thirty-one days\"]' data-reveal=\"31 days\">?</span> since numbers come and go. A few calls escape the registry: to a current customer, to someone who was a customer within the last 18 months, to someone who asked about the product within the last 3 months, and calls that are purely charitable or political."
             }
           ]
         },
         {
-          "heading": "abusive calling",
+          "heading": "the safe harbor",
           "paras": [
             {
-              "html": "Hang up on too many people because an autodialer outran your agents and you trip the abandonment limit: no more than 3% of answered calls may be abandoned, so the ceiling is <span class=\"cloze\" data-accept='[\"3%\",\"3\",\"three percent\",\"three\"]' data-reveal=\"3%\">?</span>. Break these rules and the cost is steep — the FTC can assess up to $51,744 per violation under the Telemarketing Sales Rule."
+              "html": "A seller that slips up isn't automatically liable if it can show a genuine compliance routine: written procedures, trained staff, its own internal do-not-call list, scrubbing the registry on time, and technology that keeps <b>abandoned</b> (dead-air) calls to no more than <span class=\"cloze\" data-accept='[\"3%\",\"3\",\"three percent\",\"three\"]' data-reveal=\"3%\">?</span> of calls answered. It must also let an unanswered call ring at least 15 seconds or four rings, and play a message naming the seller when no rep is available. The safe harbor rewards the company that tried."
+            }
+          ]
+        },
+        {
+          "heading": "records and the price of breaking it",
+          "paras": [
+            {
+              "html": "Telemarketers must keep their scripts, ads, and sales records for at least 24 months. And the rule has teeth: as of 2024, a TSR violation carries a fine of up to <span class=\"cloze\" data-accept='[\"$51,744\",\"51744\",\"51,744\"]' data-reveal=\"$51,744\">?</span> per violation — a number that ratchets up with inflation, so it's the per-call scale, not the exact figure, worth remembering."
             }
           ]
         }
@@ -3067,48 +3103,82 @@ const section3: SectionContent = {
       "review": {
         "flashcards": [
           {
-            "peg": "hours",
-            "topic": "Calling hours",
-            "q": "What are the permissible telemarketing calling hours?",
-            "a": "<span class='hl'>8:00 a.m. to 9:00 p.m.</span> in the call recipient's local time"
+            "peg": "two enforcers",
+            "topic": "Enforcement",
+            "q": "Which agency enforces interstate telemarketing calls, and which intrastate?",
+            "a": "the <span class='hl'>FTC</span> (interstate) and the <span class='hl'>FCC</span> (intrastate)"
           },
           {
-            "peg": "penalty",
-            "topic": "Penalties",
-            "q": "Penalty per Telemarketing Sales Rule violation?",
-            "a": "up to <span class='hl'>$51,744</span> per violation"
+            "peg": "EBR window",
+            "topic": "The registry",
+            "q": "How long after a purchase can a seller still call a former customer?",
+            "a": "within <span class='hl'>18 months</span> (or 3 months after the consumer's inquiry)"
+          },
+          {
+            "peg": "advance fee",
+            "topic": "Abusive practices",
+            "q": "Can a telemarketer demand a fee before delivering a loan?",
+            "a": "<span class='hl'>No</span> — advance fees for credit are an abusive practice"
+          },
+          {
+            "peg": "let it ring",
+            "topic": "Safe harbor",
+            "q": "How long must an unanswered telemarketing call ring before disconnect?",
+            "a": "at least <span class='hl'>15 seconds</span> or four rings"
+          },
+          {
+            "peg": "charity/politics",
+            "topic": "The registry",
+            "q": "Which call types aren't blocked by the Do-Not-Call Registry?",
+            "a": "<span class='hl'>charitable</span> and <span class='hl'>political</span> calls (plus current-customer calls)"
+          },
+          {
+            "peg": "keep the tape",
+            "topic": "Recordkeeping",
+            "q": "Telemarketing scripts and records must be kept for at least…",
+            "a": "<span class='hl'>24 months</span>"
           }
         ],
         "mcq": [
           {
-            "q": "Numbers must be scrubbed against the Do-Not-Call registry within —",
+            "q": "The two categories of prohibited telemarketing conduct are —",
             "opts": [
-              "7 days before the call",
-              "31 days before the call",
-              "60 days before the call",
-              "90 days before the call"
+              "civil and criminal",
+              "deceptive and abusive",
+              "inbound and outbound",
+              "local and national"
             ],
             "correct": 1
           },
           {
-            "q": "The maximum penalty per Telemarketing Sales Rule violation is —",
+            "q": "Residential telemarketing sales calls are permitted only between —",
             "opts": [
-              "$11,000",
-              "$25,000",
-              "$51,744",
-              "$100,000"
-            ],
-            "correct": 2
-          },
-          {
-            "q": "Telemarketing calls are permitted only between —",
-            "opts": [
-              "9:00 a.m. and 5:00 p.m.",
-              "8:00 a.m. and 9:00 p.m.",
-              "7:00 a.m. and 10:00 p.m.",
-              "8:00 a.m. and 8:00 p.m."
+              "6 a.m. and 11 p.m.",
+              "8 a.m. and 9 p.m. local time",
+              "9 a.m. and 5 p.m.",
+              "any time"
             ],
             "correct": 1
+          },
+          {
+            "q": "A telemarketer must re-scrub its list against the Do-Not-Call Registry every —",
+            "opts": [
+              "24 hours",
+              "31 days",
+              "6 months",
+              "year"
+            ],
+            "correct": 1
+          },
+          {
+            "q": "To stay within the safe harbor, abandoned (dead-air) calls must not exceed —",
+            "opts": [
+              "3% of answered calls",
+              "10% of answered calls",
+              "25% of answered calls",
+              "half of answered calls"
+            ],
+            "correct": 0
           }
         ]
       }
@@ -3130,23 +3200,35 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "A teaser rate with the strings buried, a \"government\" badge that means nothing — mortgage ads are where a lot of deception gets its start. <b>MAPs polices that advertising</b>: it bans material misrepresentations in any commercial communication about a mortgage credit product, and it pins down which terms force you to disclose the rest."
+              "html": "People pick a mortgage off an ad — a rate in a window, a payment in a mailer — and a loan is too big a decision to make on a lie. <b>Mortgage Acts and Practices–Advertising (MAPs)</b>, issued under <b>Regulation N</b> in 2009, is the rule that keeps mortgage advertising honest. It's a close cousin of TILA's advertising rules, and its core is blunt: don't materially misrepresent anything about a mortgage."
             }
           ]
         },
         {
-          "heading": "triggering terms",
-          "anchor": {
-            "file": "witch-microphone.PNG",
-            "caption": "Mortgage ads",
-            "kind": "char"
-          },
+          "heading": "the one rule underneath",
           "paras": [
             {
-              "html": "Some figures can't stand alone in an ad. A <b>triggering term</b> — a stated rate, a payment amount, a down-payment figure — pulls additional disclosures in behind it the moment you use it, so the borrower sees the full terms instead of the flattering fragment."
-            },
+              "html": "MAPs reads like a long list of don'ts, but they all reduce to a single idea: any <b>material misrepresentation</b> — express or implied — about a mortgage credit product violates the rule. That covers the interest and the <b>APR</b>, the existence or amount of any fees (including claiming there are none), a prepayment penalty, whether the rate is really <b>'fixed,'</b> the loan type, taxes and insurance, any government affiliation or endorsement, whether the ad comes from your current lender, and promises to <b>eliminate or reduce debt</b>. If it would mislead a borrower about the loan, MAPs reaches it."
+            }
+          ],
+          "synth": {
+            "q": "What single principle underlies all of MAPs' specific prohibitions?",
+            "a": "That no commercial communication may materially misrepresent — expressly or by implication — any term or aspect of a mortgage credit product: its rate or APR, its fees, a prepayment penalty, whether it's fixed, government affiliation, the source of the ad, debt-elimination claims, and so on."
+          }
+        },
+        {
+          "heading": "triggering terms, again",
+          "paras": [
             {
-              "html": "Whatever the ad claims, the proof has to survive afterward. MAPs advertising records must be retained for 24 months, so the file stays on hand for <span class=\"cloze\" data-accept='[\"24 months\",\"24\",\"twenty-four\",\"twenty four\",\"2 years\",\"two years\"]' data-reveal=\"24 months\">?</span>."
+              "html": "MAPs also carries the same <b>triggering-term</b> logic you met in TILA. State a specific number in a mortgage ad — a down-payment amount or percent, the number or period of payments, a payment amount, or a finance-charge amount — and the ad must then clearly and conspicuously disclose the full picture: the down payment, the actual repayment terms over the whole loan (including any balloon), and the annual percentage rate, using that term. A tempting figure can't travel alone."
+            }
+          ]
+        },
+        {
+          "heading": "keeping the ads on file",
+          "paras": [
+            {
+              "html": "So violations can be traced, MAPs requires whoever runs a mortgage ad to keep it. Copies of all materially different commercial communications — plus the sales scripts, training, and marketing materials behind them, and records of the products actually available while the ad ran — must be retained for at least <span class=\"cloze\" data-accept='[\"24 months\",\"24\",\"twenty-four\",\"two years\",\"2 years\"]' data-reveal=\"24 months\">?</span>."
             }
           ]
         }
@@ -3154,36 +3236,64 @@ const section3: SectionContent = {
       "review": {
         "flashcards": [
           {
-            "peg": "prohibition",
-            "topic": "Deceptive practices",
-            "q": "What does MAPs (Regulation N) prohibit?",
-            "a": "<span class='hl'>material misrepresentations</span> in any commercial communication about a mortgage credit product"
+            "peg": "Reg N",
+            "topic": "What MAPs is",
+            "q": "MAPs is implemented under which regulation, and when?",
+            "a": "<span class='hl'>Regulation N</span> (2009)"
           },
           {
-            "peg": "trigger",
-            "topic": "Advertising terms",
-            "q": "What is a 'triggering term' in mortgage advertising?",
-            "a": "a specific term (a stated rate, payment, or down-payment figure) that, once used, <span class='hl'>requires additional disclosures</span>"
+            "peg": "\"no fees\"",
+            "topic": "Prohibited claims",
+            "q": "Can a mortgage ad claim 'no fees' when fees exist?",
+            "a": "<span class='hl'>No</span> — misrepresenting the existence or amount of fees violates MAPs"
+          },
+          {
+            "peg": "debt gone",
+            "topic": "Prohibited claims",
+            "q": "May a mortgage ad promise to eliminate or forgive the borrower's debt?",
+            "a": "<span class='hl'>No</span> — debt-elimination misrepresentations are prohibited"
+          },
+          {
+            "peg": "who enforces",
+            "topic": "What MAPs is",
+            "q": "MAPs resembles the advertising rules of which other law?",
+            "a": "the <span class='hl'>Truth in Lending Act</span> (TILA)"
+          },
+          {
+            "peg": "gov't tie",
+            "topic": "Prohibited claims",
+            "q": "Can an ad imply a government endorsement the loan doesn't have?",
+            "a": "<span class='hl'>No</span> — misrepresenting government affiliation is barred"
           }
         ],
         "mcq": [
           {
-            "q": "Regulation N (MAPs) prohibits —",
+            "q": "The single principle behind MAPs is that a mortgage ad may not —",
             "opts": [
-              "any mortgage advertising at all",
-              "material misrepresentations in mortgage-product communications",
-              "advertising rates below the APOR",
-              "referral fees between settlement providers"
+              "quote any interest rate",
+              "materially misrepresent any aspect of the mortgage product",
+              "mention the lender's name",
+              "use color images"
             ],
             "correct": 1
           },
           {
-            "q": "MAPs advertising records must be retained for —",
+            "q": "Records of a mortgage ad must be retained for at least —",
             "opts": [
+              "6 months",
               "12 months",
               "24 months",
-              "36 months",
               "5 years"
+            ],
+            "correct": 2
+          },
+          {
+            "q": "Stating a specific payment amount in a mortgage ad triggers disclosure of —",
+            "opts": [
+              "only the lender's phone number",
+              "the down payment, full repayment terms, and the APR",
+              "the loan officer's name",
+              "nothing further"
             ],
             "correct": 1
           }
@@ -3213,63 +3323,134 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "You close a mortgage from your couch, clicking through a stack of documents you never print. For that to hold up, the click has to carry the same weight as a pen on paper. <b>E-Sign supplies that weight</b>: it gives electronic records and electronic signatures the same legal validity and enforceability as ink and paper, so a contract can't be thrown out later just because it was signed on a screen. An electronic signature, under the act, is any electronic sound, symbol, or process attached to or logically associated with a record and adopted by a person with the intent to sign — broad enough to cover a typed name, a clicked box, or a stylus scrawl, as long as the signer meant it to count."
+              "html": "For centuries the enforceable thing was ink on paper — a signature you could hold. When lending moved online, that raised a real question: is a click, or a typed name, actually binding? The <b>Electronic Signatures in Global and National Commerce Act (E-Sign Act)</b>, passed in 2000, answered yes. It gives electronic records and electronic signatures the same legal force as paper ones, so a mortgage can be signed and delivered entirely on a screen."
             }
           ]
         },
         {
-          "heading": "going electronic",
-          "anchor": {
-            "file": "pioneer-dj-2.PNG",
-            "caption": "old to new",
-            "kind": "char"
-          },
+          "heading": "what counts as a signature now",
           "paras": [
             {
-              "html": "That validity isn't automatic for required disclosures. Before a lender may deliver them electronically, the borrower has to affirmatively consent to electronic delivery and demonstrate they can actually access the records in the format used. Both steps matter: the consumer must <span class=\"cloze\" data-accept='[\"affirmatively consent\",\"consent\",\"affirmative consent\",\"opt in\"]' data-reveal=\"affirmatively consent\">?</span> rather than be opted in by default, and they must show the documents will reach a screen they can open, not vanish into a file they can't read."
+              "html": "E-Sign defines an <b>electronic signature</b> broadly: any electronic sound, symbol, or process attached to a record and adopted <b>with the intent to sign</b>. A typed name, a clicked \"I agree,\" a drawn signature on a pad — any of them can bind, as long as the person meant it as their signature. The Act's key promise is that a contract or signature <b>can't be denied legal effect</b> just because it's electronic. Intent is what makes it a signature, not paper."
+            }
+          ]
+        },
+        {
+          "heading": "the consumer has to agree first",
+          "paras": [
+            {
+              "html": "Electronic delivery isn't something a lender can simply impose. If a law requires that information reach the consumer <em>in writing</em>, the lender may deliver it electronically only if the consumer has <b>affirmatively consented</b> to receive it that way and hasn't withdrawn that consent. Nobody can be forced to accept electronic records; the choice stays with the consumer."
+            }
+          ]
+        },
+        {
+          "heading": "prove they can actually open it",
+          "paras": [
+            {
+              "html": "The heart of E-Sign is a step that's easy to miss: the consumer's consent has to <b>reasonably demonstrate that they can actually access</b> the electronic records in the format you'll use. In practice, the consumer consents (or confirms consent) electronically, in that same format — proving they can open the PDF you're about to bind them with before you rely on it. Consent given in a form the borrower can't actually read wouldn't count."
             }
           ],
           "synth": {
-            "q": "What two things must a consumer do before a lender can send required disclosures electronically?",
-            "a": "Affirmatively consent to electronic delivery, and demonstrate (reasonably prove) that they can access the electronic records in the format used."
+            "q": "Why must a consumer give (or confirm) E-Sign consent electronically, in the format that will be used?",
+            "a": "Because consent must reasonably demonstrate that the consumer can actually access the electronic records in the format the lender will use. Consenting in that format proves the borrower can open and read the documents before the lender relies on electronic delivery to bind them."
           }
+        },
+        {
+          "heading": "what they're told before consenting",
+          "paras": [
+            {
+              "html": "Before that consent, the lender must give a clear statement covering the consumer's options: their right to get the record on <b>paper</b> instead, their right to <b>withdraw</b> consent and any conditions or fees for doing so, whether the consent covers just this transaction or a whole category of records, how to withdraw consent or update contact information, and how to request a paper copy and any fee for it. The consumer must also receive a statement of the <b>hardware and software</b> needed to access and keep the records."
+            }
+          ]
+        },
+        {
+          "heading": "when the tech changes, and keeping the records",
+          "paras": [
+            {
+              "html": "If the hardware or software requirements later change enough to risk the consumer no longer being able to open their records, the lender must send a revised statement and give the consumer the right to <b>withdraw consent free</b> of any fee or penalty. And the records themselves have to be kept in a form that stays accurate, accessible to anyone legally entitled to them, and reproducible for later reference. One carve-out: agreements made before the Act took effect, on <span class=\"cloze\" data-accept='[\"October 1, 2000\",\"october 1 2000\",\"oct 1 2000\",\"10/1/2000\",\"2000\"]' data-reveal=\"October 1, 2000\">?</span>, are exempt."
+            }
+          ]
         }
       ],
       "review": {
         "flashcards": [
           {
-            "peg": "the term",
-            "topic": "Electronic signatures",
-            "q": "Define an 'electronic signature' under E-Sign.",
-            "a": "an electronic <span class='hl'>sound, symbol, or process</span> attached to or logically associated with a record and adopted with intent to sign"
+            "peg": "intent",
+            "topic": "E-signatures",
+            "q": "What turns an electronic sound, symbol, or process into a signature?",
+            "a": "adopting it <span class='hl'>with the intent to sign</span> the record"
           },
           {
-            "peg": "same weight",
-            "topic": "Legal equivalence",
-            "q": "What core principle does the E-Sign Act establish?",
-            "a": "electronic records and signatures have the <span class='hl'>same legal validity</span> and enforceability as paper and ink"
+            "peg": "not denied",
+            "topic": "E-signatures",
+            "q": "Can a contract be voided just because it's electronic?",
+            "a": "<span class='hl'>No</span> — it can't be denied legal effect solely for being electronic"
+          },
+          {
+            "peg": "right to paper",
+            "topic": "Consumer consent",
+            "q": "One thing a lender must disclose before e-delivery consent?",
+            "a": "the consumer's right to receive the record on <span class='hl'>paper</span> (and to withdraw consent)"
+          },
+          {
+            "peg": "tech changes",
+            "topic": "Consumer consent",
+            "q": "If access requirements change and risk locking the consumer out, they may…",
+            "a": "<span class='hl'>withdraw consent free</span> of any fee or penalty"
+          },
+          {
+            "peg": "no forcing",
+            "topic": "Consumer consent",
+            "q": "Can a consumer be required to accept electronic records?",
+            "a": "<span class='hl'>No</span> — consent is the consumer's choice"
+          },
+          {
+            "peg": "keep it open",
+            "topic": "Records",
+            "q": "Electronic records must be kept in a form that is…",
+            "a": "accurate, <span class='hl'>accessible</span>, and reproducible for later reference"
           }
         ],
         "mcq": [
           {
-            "q": "Under E-Sign, an electronic signature is best described as —",
+            "q": "The E-Sign Act's core effect is to —",
             "opts": [
-              "a scanned image of a handwritten name",
-              "a sound, symbol, or process adopted with intent to sign",
-              "a notarized digital certificate",
-              "a typed name on any web form"
+              "ban electronic contracts",
+              "give electronic records and signatures the same legal force as paper",
+              "require notarization of all loans",
+              "set interest-rate caps"
             ],
             "correct": 1
           },
           {
-            "q": "Before disclosures may be delivered electronically, the consumer must —",
+            "q": "Before delivering required disclosures electronically, a lender must —",
             "opts": [
-              "pay an electronic-delivery fee",
-              "waive the right to paper copies permanently",
-              "affirmatively consent and show they can access the records",
-              "sign a separate paper authorization in ink"
+              "get the consumer's affirmative consent",
+              "obtain a court order",
+              "mail a paper copy first",
+              "wait 30 days"
             ],
-            "correct": 2
+            "correct": 0
+          },
+          {
+            "q": "E-Sign consent must reasonably demonstrate that the consumer —",
+            "opts": [
+              "has good credit",
+              "can actually access the records in the format used",
+              "owns a printer",
+              "has a co-signer"
+            ],
+            "correct": 1
+          },
+          {
+            "q": "An 'electronic signature' under E-Sign requires, above all —",
+            "opts": [
+              "a handwritten image",
+              "the intent to sign",
+              "a notary's seal",
+              "a witness"
+            ],
+            "correct": 1
           }
         ]
       }
@@ -3443,27 +3624,75 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "Put down less than 20% and the lender makes you buy private mortgage insurance that protects the lender, not you. Left alone it would ride your bill long after the equity made it pointless. <b>HPA is the rule that gets it off</b> — and it works through two LTV numbers that do different jobs: 80%, where you can ask, and 78%, where the servicer has to act on its own."
+              "html": "Put less than 20% down on a house and the lender is carrying more risk — borrowers with little equity default more often. To cover that gap, the lender makes you buy <b>private mortgage insurance (PMI)</b>: insurance that pays the <em>lender</em>, not you, if you default. PMI does nothing for the borrower except make a low-down-payment loan possible — and it's an extra monthly cost you'd want gone as soon as you're allowed. The <b>Homeowners Protection Act (HPA)</b>, passed in 1998, is the law that makes sure PMI actually comes off."
             }
           ]
         },
         {
-          "heading": "two ltv triggers",
+          "heading": "what loan-to-value means",
           "paras": [
             {
-              "html": "Once the loan reaches 80% LTV — measured against the original value or purchase price — the borrower can request that PMI come off. Lower, at 78% LTV, the servicer must terminate it automatically, but only if the borrower is current. So the request right opens at <span class=\"cloze\" data-accept='[\"80%\",\"80\",\"eighty percent\"]' data-reveal=\"80% LTV\">?</span> LTV, while automatic termination waits for 78%. Miss the current-payment condition at 78% and final termination is deferred to the midpoint of the loan's amortization period, taking effect once the borrower is back in good standing."
+              "html": "Everything in this law runs on one ratio: <b>loan-to-value (LTV)</b> — the loan balance divided by the home's value, the lender's share of the property expressed as a percent. Buy a $100,000 home with $10,000 down and you borrow $90,000; that's a 90% LTV, and the other 10% is your <b>equity</b>. With a single loan, LTV and equity always add to 100%, and every payment you make shifts the balance — LTV down, equity up. (For a purchase, LTV uses the <em>lesser</em> of the price or the appraised value.)"
             }
           ],
           "synth": {
-            "q": "Contrast the 80% and 78% PMI thresholds — what happens at each, and who acts?",
-            "a": "At 80% LTV (of original value/purchase price) the borrower may REQUEST cancellation. At 78% LTV the servicer must AUTOMATICALLY terminate PMI, provided the borrower is current. If not current at 78%, automatic termination is deferred to the midpoint of the loan's amortization period (once current)."
+            "q": "What is loan-to-value (LTV), and how does it relate to a borrower's equity?",
+            "a": "LTV is the loan balance divided by the home's value (for a purchase, the lesser of price or appraised value), expressed as a percentage — the lender's share of the property. On a single-lien loan, LTV and the borrower's equity always add to 100%, so as the borrower pays down the loan, LTV falls and equity rises."
           }
         },
         {
-          "heading": "high-risk and the clock",
+          "heading": "why you pay PMI, and who it protects",
           "paras": [
             {
-              "html": "A high-risk (non-conforming) loan moves the automatic-termination line down to 77% LTV, and the loan must still be current; the midpoint backstop doesn't apply to these loans. For that riskier tier the cutoff is <span class=\"cloze\" data-accept='[\"77%\",\"77\",\"seventy-seven percent\"]' data-reveal=\"77% LTV\">?</span> rather than 78%. Once PMI is canceled or terminated, the clock starts on the servicer: notice to the borrower within 30 days, and any unearned premiums returned within 45 days."
+              "html": "Conventional lenders draw the risk line at <span class=\"cloze\" data-accept='[\"80%\",\"80\",\"eighty percent\",\"eighty\"]' data-reveal=\"80%\">?</span> LTV. Borrow more than that — less than 20% down — and PMI is required, insuring the lender against the slice of the loan above the 80% line, not the whole balance. Read that twice: the borrower pays the premium, but the coverage protects the lender and the investor. HPA applies only to conventional loans with PMI; FHA, VA, and USDA government loans use their own insurance and fall outside it."
+            }
+          ]
+        },
+        {
+          "heading": "the problem HPA fixed",
+          "paras": [
+            {
+              "html": "Before HPA, the only way to shed PMI was to ask your servicer to remove it once you hit 80% LTV — and hitting 80% could take years. The removal right was explained once, at closing, then forgotten, so thousands of borrowers kept paying PMI for years after they qualified to drop it. HPA fixed that by making removal happen on a schedule the servicer has to track, not one the borrower has to remember."
+            }
+          ]
+        },
+        {
+          "heading": "cancellation by request",
+          "paras": [
+            {
+              "html": "The first exit is the borrower's to take. Once the loan reaches 80% LTV, you can <b>request</b> that the servicer cancel PMI — but you have to earn it. You need a <b>good payment history</b>, no subordinate liens on the property (a second mortgage disqualifies you), and usually an appraisal you pay for to prove the value supports the 80%. Meet all three and the servicer removes the PMI."
+            }
+          ]
+        },
+        {
+          "heading": "what counts as good payment history",
+          "paras": [
+            {
+              "html": "\"Good payment history\" has a precise meaning here: no payment <span class=\"cloze\" data-accept='[\"60 days\",\"60\",\"sixty\",\"sixty days\"]' data-reveal=\"60 days\">?</span> or more past due in the last 24 months, and none 30 days or more past due in the last 12 months. Because it looks back two years, a loan essentially has to be at least two years old to clear the bar. Miss those marks and the request waits."
+            }
+          ]
+        },
+        {
+          "heading": "automatic termination",
+          "paras": [
+            {
+              "html": "The second exit doesn't need the borrower at all. Whether or not you ask, the servicer <b>must automatically</b> drop PMI once the loan is scheduled to reach <span class=\"cloze\" data-accept='[\"78%\",\"78\",\"seventy-eight percent\",\"seventy-eight\"]' data-reveal=\"78%\">?</span> LTV of the home's original value — provided the loan is current. (For a <b>high-risk</b>, non-conforming loan the automatic point drops to 77%.) No good-payment showing, no appraisal — the servicer tracks it and cancels it."
+            }
+          ]
+        },
+        {
+          "heading": "final termination",
+          "paras": [
+            {
+              "html": "The third exit is a backstop for a loan that never reaches the LTV triggers — say the borrower fell behind. At the <b>midpoint</b> of the loan's amortization period (halfway through the scheduled term), PMI must come off <b>regardless of payment status</b>. It's the guarantee that PMI can't run the entire life of the loan. Final termination is the one exit that doesn't apply to high-risk loans."
+            }
+          ]
+        },
+        {
+          "heading": "after PMI comes off",
+          "paras": [
+            {
+              "html": "Once PMI is cancelled or terminated, the servicer can't keep collecting for it — no premium may be charged more than 30 days after it ends — and it must <b>refund any unearned premium</b> within <span class=\"cloze\" data-accept='[\"45 days\",\"45\",\"forty-five\",\"forty-five days\"]' data-reveal=\"45 days\">?</span>. The servicer also has to send an annual reminder of the borrower's cancellation rights. A servicer that violates the HPA can owe statutory damages of up to $2,000 to the borrower, on top of actual damages."
             }
           ]
         }
@@ -3471,52 +3700,90 @@ const section3: SectionContent = {
       "review": {
         "flashcards": [
           {
+            "peg": "protects whom",
+            "topic": "What PMI is",
+            "q": "Who does private mortgage insurance protect?",
+            "a": "the <span class='hl'>lender</span> (and investor) — not the borrower"
+          },
+          {
+            "peg": "not covered",
+            "topic": "Coverage",
+            "q": "Which loans does the HPA NOT apply to?",
+            "a": "government loans — <span class='hl'>FHA, VA, USDA</span> — and lender-paid PMI"
+          },
+          {
             "peg": "high-risk",
-            "topic": "Automatic termination",
-            "q": "Automatic-termination LTV for a high-risk (non-conforming) loan?",
-            "a": "<span class='hl'>77% LTV</span>, and the loan must be current (midpoint rule does not apply)"
+            "topic": "Termination",
+            "q": "The automatic-termination LTV for a high-risk (non-conforming) loan?",
+            "a": "<span class='hl'>77%</span> (versus 78% for a conforming loan)"
           },
           {
-            "peg": "refund",
-            "topic": "Premium refunds",
-            "q": "After PMI is canceled/terminated, how fast must unearned premiums be refunded?",
-            "a": "within <span class='hl'>45 days</span>"
+            "peg": "no subordinate",
+            "topic": "Cancellation",
+            "q": "Besides good payment history, what disqualifies a PMI cancellation request?",
+            "a": "a <span class='hl'>subordinate lien</span> (a second mortgage) on the property"
           },
           {
-            "peg": "notice",
-            "topic": "Borrower notice",
-            "q": "How soon after cancellation/termination must the servicer notify the borrower?",
-            "a": "no later than <span class='hl'>30 days</span>"
+            "peg": "the backstop",
+            "topic": "Termination",
+            "q": "Final termination removes PMI at the amortization midpoint —",
+            "a": "<span class='hl'>regardless of payment status</span> (not for high-risk loans)"
+          },
+          {
+            "peg": "yearly note",
+            "topic": "Disclosures",
+            "q": "What must a servicer send PMI borrowers every year?",
+            "a": "an <span class='hl'>annual reminder</span> of their PMI cancellation rights"
           }
         ],
         "mcq": [
           {
-            "q": "On a standard loan, the servicer must AUTOMATICALLY terminate PMI at —",
+            "q": "Private mortgage insurance is generally required when a conventional loan's LTV is above —",
             "opts": [
-              "80% LTV",
-              "78% LTV",
-              "77% LTV",
-              "75% LTV"
-            ],
-            "correct": 1
-          },
-          {
-            "q": "After PMI is canceled, unearned premiums must be refunded within —",
-            "opts": [
-              "15 days",
-              "30 days",
-              "45 days",
-              "60 days"
+              "50%",
+              "70%",
+              "80%",
+              "95%"
             ],
             "correct": 2
           },
           {
-            "q": "For a high-risk (non-conforming) loan, automatic termination occurs at —",
+            "q": "A borrower may REQUEST PMI cancellation once the loan reaches —",
+            "opts": [
+              "78% LTV",
+              "80% LTV",
+              "77% LTV",
+              "the amortization midpoint"
+            ],
+            "correct": 1
+          },
+          {
+            "q": "Automatic PMI termination on a conforming loan happens at —",
             "opts": [
               "80% LTV",
               "78% LTV",
-              "77% LTV",
-              "the midpoint, always"
+              "the first payment",
+              "closing"
+            ],
+            "correct": 1
+          },
+          {
+            "q": "On a single-lien loan, LTV plus the borrower's equity equals —",
+            "opts": [
+              "80%",
+              "100%",
+              "120%",
+              "it varies"
+            ],
+            "correct": 1
+          },
+          {
+            "q": "After PMI is cancelled, the servicer must refund any unearned premium within —",
+            "opts": [
+              "10 days",
+              "30 days",
+              "45 days",
+              "60 days"
             ],
             "correct": 2
           }
@@ -3549,32 +3816,75 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "The 2008 crash ran on loans nobody could really repay, written by originators who earned more for pushing borrowers into worse terms. Dodd-Frank rewrote both halves. <b>Title X stood up the Consumer Financial Protection Bureau (CFPB)</b> to police consumer lending, and Title XIV — the Mortgage Reform and Anti-Predatory Lending Act — bolted on the rules that reach the loan itself."
+              "html": "In the mid-2000s, lenders handed out mortgages to people who plainly couldn't afford them — low teaser rates that would jump, almost no check on whether the borrower could pay the higher payment — then bundled those loans and sold them off. When the rates reset and home values fell, borrowers couldn't pay and couldn't refinance, and foreclosures hit at a scale the country had never seen. <b>Dodd-Frank</b>, the Wall Street Reform and Consumer Protection Act, is the 2010 response to that collapse. Nearly every mortgage rule in it is a fix for a specific thing that broke."
             }
           ]
         },
         {
-          "heading": "ability to repay",
-          "anchor": {
-            "file": "rollerskates-packages.PNG",
-            "caption": "can't repay",
-            "kind": "char"
-          },
+          "heading": "what actually broke",
           "paras": [
             {
-              "html": "The Ability-to-Repay (ATR) rule forces a creditor to make a reasonable, good-faith, documented determination that the borrower can actually repay before the loan is made — weighing credit history, current and expected income, current obligations, debt-to-income or residual income, employment status, and other resources. A Qualified Mortgage (QM) is presumed to satisfy that requirement, which is why lenders steer toward it: writing a <span class=\"cloze\" data-accept='[\"qualified mortgage\",\"QM\",\"qualified mortgage (QM)\"]' data-reveal=\"Qualified Mortgage (QM)\">?</span> is the cleanest way to show ATR was met."
+              "html": "The failure had a shape. Borrowers were pushed into <b>adjustable-rate mortgages</b> with low start rates, qualified on that low payment and not the one coming after the reset. When rates climbed, payments became unaffordable. At the same moment, home values dropped, so borrowers owed more than their homes were worth — <b>underwater</b> — and couldn't refinance their way out. Unable to pay and unable to sell or refinance, they defaulted in waves. Dodd-Frank's central mortgage reforms each target one link in that chain."
             }
           ],
           "synth": {
-            "q": "What is the ATR rule, and how does a Qualified Mortgage relate to it?",
-            "a": "ATR requires a creditor to make a reasonable, good-faith, documented determination that the borrower can repay before making the loan (considering credit history, income, obligations, DTI/residual income, employment, and other resources). A Qualified Mortgage (QM) is presumed to satisfy — to comply with — the Ability-to-Repay requirement."
+            "q": "In plain terms, what chain of events did Dodd-Frank's mortgage reforms respond to?",
+            "a": "Lenders made loans (often adjustable-rate with low teaser payments) to borrowers without verifying they could afford the eventual payment. When rates reset and home values fell, borrowers couldn't afford the loans and — being underwater — couldn't refinance, so they defaulted en masse, triggering the 2007–2008 foreclosure crisis."
           }
         },
         {
-          "heading": "paying the originator",
+          "heading": "the new referee: the CFPB",
           "paras": [
             {
-              "html": "To kill the incentive behind the crash, Dodd-Frank bars loan-originator compensation from varying based on the loan's terms — anything other than the loan amount — and prohibits steering a borrower into worse terms for higher pay. Separately, a hybrid ARM reset notice has to reach the borrower during the one-month period ending six months before the rate first adjusts, so the warning lands while there's still time to react — that window closes <span class=\"cloze\" data-accept='[\"6 months\",\"6\",\"six months\",\"six\"]' data-reveal=\"6 months\">?</span> ahead of the first adjustment."
+              "html": "The scattered regulators had failed to catch any of it, so Dodd-Frank built one watchdog: the <b>Consumer Financial Protection Bureau (CFPB)</b>, an independent bureau housed within the Federal Reserve, dedicated to consumer finance. It writes the rules, supervises companies, and enforces the law against unfair, deceptive, or abusive practices. It's led by a single <b>Director</b>, appointed by the President and confirmed by the Senate to a <span class=\"cloze\" data-accept='[\"5 years\",\"5\",\"five\",\"five-year\",\"five year\",\"five years\"]' data-reveal=\"5-year\">?</span> term, removable only for cause. It's also the agency Dodd-Frank ordered to build TRID."
+            }
+          ],
+          "synth": {
+            "q": "What is the CFPB, and why did Dodd-Frank create it?",
+            "a": "The Consumer Financial Protection Bureau is an independent bureau within the Federal Reserve that regulates consumer financial products — writing rules, supervising companies, and enforcing against unfair, deceptive, or abusive practices. Dodd-Frank created it because the pre-crisis patchwork of regulators had failed to police consumer finance, and one accountable agency was needed."
+          }
+        },
+        {
+          "heading": "the core fix: ability to repay",
+          "paras": [
+            {
+              "html": "The heart of the reform answers the question nobody was asking in 2006: can this borrower actually pay? The <b>ability-to-repay (ATR)</b> rule bars a creditor from making a mortgage unless it first makes a reasonable, good-faith determination — based on <b>verified, documented</b> information — that the borrower can repay it. Wasn't the lender always supposed to check that? Legally, no — and that gap is exactly what ATR closes."
+            }
+          ]
+        },
+        {
+          "heading": "what ability-to-repay weighs",
+          "paras": [
+            {
+              "html": "ATR isn't a gut call; it's a checklist of verified facts. The creditor must consider the borrower's income, employment status, credit history, current debts and obligations, and either the <b>debt-to-income ratio</b> or the residual income left after paying the bills — plus assets other than the home itself. Crucially, the payment used in the math has to be a <b>fully amortizing</b> one: for a teaser-rate ARM, interest-only, or negative-amortization loan, the lender must qualify the borrower on the real, higher payment, not the low introductory one. That single requirement is what would have stopped the crisis loans."
+            }
+          ],
+          "synth": {
+            "q": "What must a creditor verify under the ability-to-repay rule, and which payment must it use?",
+            "a": "It must make a reasonable, good-faith, documented determination the borrower can repay — weighing income, employment, credit history, current obligations, debt-to-income or residual income, and non-home assets. It must qualify the borrower using a fully amortizing payment (the real payment after any teaser rate resets), not a low introductory or interest-only one."
+          }
+        },
+        {
+          "heading": "the safe loan: the Qualified Mortgage",
+          "paras": [
+            {
+              "html": "To give lenders a clear lane, Dodd-Frank defined the <b>Qualified Mortgage (QM)</b> — a loan built to meet the ability-to-repay standard by design, without the riskiest features. Make a QM and you're <b>presumed</b> to have satisfied ATR; the loan is treated as having considered the borrower's ability to repay. It's the safe harbor that rewards writing the sound loan instead of the exotic one."
+            }
+          ]
+        },
+        {
+          "heading": "the ARM reset warning",
+          "paras": [
+            {
+              "html": "Because a payment shock was central to the crisis, Dodd-Frank makes the reset visible in advance. For a hybrid ARM — one with a fixed intro period longer than a year before it starts adjusting — the creditor or servicer must send a written notice roughly <span class=\"cloze\" data-accept='[\"6 months\",\"6\",\"six\",\"six months\"]' data-reveal=\"6 months\">?</span> before the first rate adjustment. The notice estimates the new payment, explains the index and margin behind it, and lists the borrower's options — refinance, renegotiate, forbearance — along with HUD-approved counseling contacts."
+            }
+          ]
+        },
+        {
+          "heading": "where TILA's originator rules came from",
+          "paras": [
+            {
+              "html": "Two rules you already met under TILA are Dodd-Frank's doing. Its <b>loan-originator compensation</b> limits — pay can't be based on a loan's terms, only on the loan amount — and its <b>anti-steering</b> rule — you can't push a borrower into a costlier loan, one they can't repay, or away from a Qualified Mortgage they qualify for — both originate here, in the Mortgage Reform and Anti-Predatory Lending Act. Dodd-Frank also locked in <b>appraiser independence</b>, walling originators off from the people who value the collateral. TILA is where you drill them; Dodd-Frank is where they were born."
             }
           ]
         }
@@ -3582,54 +3892,98 @@ const section3: SectionContent = {
       "review": {
         "flashcards": [
           {
-            "peg": "Title X",
-            "topic": "CFPB (Title X)",
-            "q": "What did Title X of Dodd-Frank create?",
-            "a": "the <span class='hl'>Consumer Financial Protection Bureau (CFPB)</span>"
+            "peg": "the response",
+            "topic": "Origin",
+            "q": "Dodd-Frank (2010) was the response to what?",
+            "a": "the <span class='hl'>2007–2008 financial crisis</span> and its foreclosure epidemic"
           },
           {
-            "peg": "Title XIV",
-            "topic": "Mortgage reform (Title XIV)",
-            "q": "What is Title XIV of Dodd-Frank called?",
-            "a": "the <span class='hl'>Mortgage Reform and Anti-Predatory Lending Act</span>"
+            "peg": "housed where",
+            "topic": "CFPB",
+            "q": "The CFPB is an independent bureau within which body?",
+            "a": "the <span class='hl'>Federal Reserve</span> System"
           },
           {
-            "peg": "LO comp",
-            "topic": "LO compensation",
-            "q": "How does Dodd-Frank restrict loan-originator compensation?",
-            "a": "comp may not vary based on the loan's terms (other than <span class='hl'>loan amount</span>); steering for higher pay is prohibited"
+            "peg": "for cause",
+            "topic": "CFPB",
+            "q": "How can the CFPB Director be removed before the term ends?",
+            "a": "only <span class='hl'>for cause</span> (inefficiency, neglect, or malfeasance)"
+          },
+          {
+            "peg": "verified",
+            "topic": "Ability to repay",
+            "q": "ATR determinations must be based on what kind of information?",
+            "a": "<span class='hl'>verified and documented</span> information (not stated or assumed)"
+          },
+          {
+            "peg": "QM presumption",
+            "topic": "Qualified Mortgage",
+            "q": "What does making a Qualified Mortgage give the lender?",
+            "a": "a <span class='hl'>presumption</span> that the ability-to-repay rule was satisfied"
+          },
+          {
+            "peg": "built TRID",
+            "topic": "CFPB",
+            "q": "Which disclosure rule did Dodd-Frank order the CFPB to build?",
+            "a": "<span class='hl'>TRID</span> (integrating the TILA and RESPA disclosures)"
+          },
+          {
+            "peg": "the exception",
+            "topic": "Ability to repay",
+            "q": "ATR generally must be assessed on a refinance except for —",
+            "a": "certain <span class='hl'>streamlined refinances</span>"
           }
         ],
         "mcq": [
           {
-            "q": "Title X of Dodd-Frank created the —",
+            "q": "The CFPB was created by —",
             "opts": [
-              "Federal Housing Finance Agency",
-              "Consumer Financial Protection Bureau (CFPB)",
-              "Office of the Comptroller of the Currency",
-              "Financial Stability Oversight Council"
+              "RESPA",
+              "the Dodd-Frank Act",
+              "the USA PATRIOT Act",
+              "TILA"
             ],
             "correct": 1
           },
           {
-            "q": "A hybrid ARM reset notice must be delivered during the one-month period ending —",
+            "q": "Under the ability-to-repay rule, a creditor must qualify the borrower using —",
             "opts": [
-              "3 months before the first rate adjustment",
-              "6 months before the first rate adjustment",
-              "12 months before the first rate adjustment",
-              "60 days before the first rate adjustment"
+              "the introductory teaser payment",
+              "an interest-only payment",
+              "a fully amortizing payment",
+              "whatever the borrower requests"
+            ],
+            "correct": 2
+          },
+          {
+            "q": "A Qualified Mortgage (QM) is —",
+            "opts": [
+              "any loan over $100,000",
+              "a loan built to satisfy the ability-to-repay rule, presumed compliant",
+              "a government-insured loan",
+              "an adjustable-rate loan"
             ],
             "correct": 1
           },
           {
-            "q": "Loan-originator compensation under Dodd-Frank may vary based on —",
+            "q": "For a hybrid ARM, the reset notice must be sent roughly — before the first adjustment.",
             "opts": [
-              "the interest rate",
-              "the loan amount",
-              "whether a prepayment penalty applies",
-              "the loan's points and fees"
+              "3 days",
+              "30 days",
+              "6 months",
+              "2 years"
             ],
-            "correct": 1
+            "correct": 2
+          },
+          {
+            "q": "The CFPB Director serves a term of —",
+            "opts": [
+              "2 years",
+              "4 years",
+              "5 years",
+              "life"
+            ],
+            "correct": 2
           }
         ]
       }

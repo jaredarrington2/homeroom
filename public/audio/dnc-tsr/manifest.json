@@ -2,28 +2,62 @@
   "unitId": "dnc-tsr",
   "name": "DNC / TSR",
   "reg": "Do-Not-Call · Telemarketing Sales Rule",
-  "groupCount": 3,
+  "groupCount": 7,
   "items": [
     {
       "kind": "prose",
       "id": "audio-dnc-tsr-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "An MLO who cold-calls for business is, in this rule's eyes, a telemarketer — so the registry applies to them too. DNC/TSR draws the boundaries on those calls: whose number you have to scrub against the Do-Not-Call list, how fresh that scrub has to be, and what tips a call into abusive."
+      "text": "By the early 2000s the dinner hour belonged to telemarketers. Congress answered in 2003 with the Telemarketing Sales Rule (TSR), which created the Do-Not-Call Registry — the list you add your number to so sellers have to leave you alone. Two agencies enforce it: the FTC handles interstate calls (caller and recipient in different states), and the FCC handles intrastate calls (both in the same state)."
     },
     {
       "kind": "prose",
       "id": "audio-dnc-tsr-g1-p0",
       "gi": 1,
       "pi": 0,
-      "text": "Before dialing, the number has to be checked against the Do-Not-Call registry within the last 31 days — anything older than 31 days doesn't count. Calls are also boxed in by time: you can only dial between 8:00 a.m. and 9:00 p.m. in the call recipient's local time."
+      "text": "The TSR splits bad telemarketing into two kinds. Deceptive practices are about lying — hiding the real cost, faking prize odds, burying a policy of no refunds. Abusive practices are about harassing — calling at all hours, threatening, demanding money up front, dialing a number that asked to be left alone. Deception attacks your wallet; abuse attacks your peace. Nearly every TSR rule falls into one bucket or the other."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-dnc-tsr-g1-gate-synth",
+      "gi": 1
     },
     {
       "kind": "prose",
       "id": "audio-dnc-tsr-g2-p0",
       "gi": 2,
       "pi": 0,
-      "text": "Hang up on too many people because an autodialer outran your agents and you trip the abandonment limit: no more than 3% of answered calls may be abandoned, so the ceiling is 3%. Break these rules and the cost is steep — the FTC can assess up to $51,744 per violation under the Telemarketing Sales Rule."
+      "text": "Before taking a consumer's payment, a telemarketer must truthfully and clearly disclose the total cost and quantity, any material restrictions, and — if it applies — a no-refund policy. In a prize promotion, they must state the odds, that no purchase is necessary to win, and how to enter for free. Lying about any of it — the cost, the product, a refund policy, an investment's risk, or an affiliation — is a deceptive act and prohibited outright."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-dnc-tsr-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "On the abuse side, the TSR bans threats and profanity, calling repeatedly to annoy, and blocking your caller ID. It bars demanding a fee in advance of delivering a loan or credit, and charging for debt-relief work before a debt is actually settled. It also forbids charging your account without your express informed consent. And residential sales calls are boxed into set hours — no earlier than 8 a.m. and no later than 9 p.m. in the called person's local time."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-dnc-tsr-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "A telemarketer can't just dial — it has to scrub its call list against the Do-Not-Call Registry, removing listed numbers, and re-scrub every 31 days since numbers come and go. A few calls escape the registry: to a current customer, to someone who was a customer within the last 18 months, to someone who asked about the product within the last 3 months, and calls that are purely charitable or political."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-dnc-tsr-g5-p0",
+      "gi": 5,
+      "pi": 0,
+      "text": "A seller that slips up isn't automatically liable if it can show a genuine compliance routine: written procedures, trained staff, its own internal do-not-call list, scrubbing the registry on time, and technology that keeps abandoned (dead-air) calls to no more than 3% of calls answered. It must also let an unanswered call ring at least 15 seconds or four rings, and play a message naming the seller when no rep is available. The safe harbor rewards the company that tried."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-dnc-tsr-g6-p0",
+      "gi": 6,
+      "pi": 0,
+      "text": "Telemarketers must keep their scripts, ads, and sales records for at least 24 months. And the rule has teeth: as of 2024, a TSR violation carries a fine of up to $51,744 per violation — a number that ratchets up with inflation, so it's the per-call scale, not the exact figure, worth remembering."
     },
     {
       "kind": "gate",

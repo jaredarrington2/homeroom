@@ -2,21 +2,21 @@
   "unitId": "dodd-frank",
   "name": "Dodd-Frank",
   "reg": "Wall Street Reform & Consumer Protection Act",
-  "groupCount": 3,
+  "groupCount": 8,
   "items": [
     {
       "kind": "prose",
       "id": "audio-dodd-frank-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "The 2008 crash ran on loans nobody could really repay, written by originators who earned more for pushing borrowers into worse terms. Dodd-Frank rewrote both halves. Title X stood up the Consumer Financial Protection Bureau (CFPB) to police consumer lending, and Title XIV — the Mortgage Reform and Anti-Predatory Lending Act — bolted on the rules that reach the loan itself."
+      "text": "In the mid-2000s, lenders handed out mortgages to people who plainly couldn't afford them — low teaser rates that would jump, almost no check on whether the borrower could pay the higher payment — then bundled those loans and sold them off. When the rates reset and home values fell, borrowers couldn't pay and couldn't refinance, and foreclosures hit at a scale the country had never seen. Dodd-Frank, the Wall Street Reform and Consumer Protection Act, is the 2010 response to that collapse. Nearly every mortgage rule in it is a fix for a specific thing that broke."
     },
     {
       "kind": "prose",
       "id": "audio-dodd-frank-g1-p0",
       "gi": 1,
       "pi": 0,
-      "text": "The Ability-to-Repay (ATR) rule forces a creditor to make a reasonable, good-faith, documented determination that the borrower can actually repay before the loan is made — weighing credit history, current and expected income, current obligations, debt-to-income or residual income, employment status, and other resources. A Qualified Mortgage (QM) is presumed to satisfy that requirement, which is why lenders steer toward it: writing a Qualified Mortgage (QM) is the cleanest way to show ATR was met."
+      "text": "The failure had a shape. Borrowers were pushed into adjustable-rate mortgages with low start rates, qualified on that low payment and not the one coming after the reset. When rates climbed, payments became unaffordable. At the same moment, home values dropped, so borrowers owed more than their homes were worth — underwater — and couldn't refinance their way out. Unable to pay and unable to sell or refinance, they defaulted in waves. Dodd-Frank's central mortgage reforms each target one link in that chain."
     },
     {
       "kind": "gate",
@@ -29,7 +29,54 @@
       "id": "audio-dodd-frank-g2-p0",
       "gi": 2,
       "pi": 0,
-      "text": "To kill the incentive behind the crash, Dodd-Frank bars loan-originator compensation from varying based on the loan's terms — anything other than the loan amount — and prohibits steering a borrower into worse terms for higher pay. Separately, a hybrid ARM reset notice has to reach the borrower during the one-month period ending six months before the rate first adjusts, so the warning lands while there's still time to react — that window closes 6 months ahead of the first adjustment."
+      "text": "The scattered regulators had failed to catch any of it, so Dodd-Frank built one watchdog: the Consumer Financial Protection Bureau (CFPB), an independent bureau housed within the Federal Reserve, dedicated to consumer finance. It writes the rules, supervises companies, and enforces the law against unfair, deceptive, or abusive practices. It's led by a single Director, appointed by the President and confirmed by the Senate to a 5-year term, removable only for cause. It's also the agency Dodd-Frank ordered to build TRID."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-dodd-frank-g2-gate-synth",
+      "gi": 2
+    },
+    {
+      "kind": "prose",
+      "id": "audio-dodd-frank-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "The heart of the reform answers the question nobody was asking in 2006: can this borrower actually pay? The ability-to-repay (ATR) rule bars a creditor from making a mortgage unless it first makes a reasonable, good-faith determination — based on verified, documented information — that the borrower can repay it. Wasn't the lender always supposed to check that? Legally, no — and that gap is exactly what ATR closes."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-dodd-frank-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "ATR isn't a gut call; it's a checklist of verified facts. The creditor must consider the borrower's income, employment status, credit history, current debts and obligations, and either the debt-to-income ratio or the residual income left after paying the bills — plus assets other than the home itself. Crucially, the payment used in the math has to be a fully amortizing one: for a teaser-rate ARM, interest-only, or negative-amortization loan, the lender must qualify the borrower on the real, higher payment, not the low introductory one. That single requirement is what would have stopped the crisis loans."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-dodd-frank-g4-gate-synth",
+      "gi": 4
+    },
+    {
+      "kind": "prose",
+      "id": "audio-dodd-frank-g5-p0",
+      "gi": 5,
+      "pi": 0,
+      "text": "To give lenders a clear lane, Dodd-Frank defined the Qualified Mortgage (QM) — a loan built to meet the ability-to-repay standard by design, without the riskiest features. Make a QM and you're presumed to have satisfied ATR; the loan is treated as having considered the borrower's ability to repay. It's the safe harbor that rewards writing the sound loan instead of the exotic one."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-dodd-frank-g6-p0",
+      "gi": 6,
+      "pi": 0,
+      "text": "Because a payment shock was central to the crisis, Dodd-Frank makes the reset visible in advance. For a hybrid ARM — one with a fixed intro period longer than a year before it starts adjusting — the creditor or servicer must send a written notice roughly 6 months before the first rate adjustment. The notice estimates the new payment, explains the index and margin behind it, and lists the borrower's options — refinance, renegotiate, forbearance — along with HUD-approved counseling contacts."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-dodd-frank-g7-p0",
+      "gi": 7,
+      "pi": 0,
+      "text": "Two rules you already met under TILA are Dodd-Frank's doing. Its loan-originator compensation limits — pay can't be based on a loan's terms, only on the loan amount — and its anti-steering rule — you can't push a borrower into a costlier loan, one they can't repay, or away from a Qualified Mortgage they qualify for — both originate here, in the Mortgage Reform and Anti-Predatory Lending Act. Dodd-Frank also locked in appraiser independence, walling originators off from the people who value the collateral. TILA is where you drill them; Dodd-Frank is where they were born."
     },
     {
       "kind": "gate",

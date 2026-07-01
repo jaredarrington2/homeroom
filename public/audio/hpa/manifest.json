@@ -2,21 +2,21 @@
   "unitId": "hpa",
   "name": "HPA",
   "reg": "Homeowners Protection Act · PMI",
-  "groupCount": 3,
+  "groupCount": 9,
   "items": [
     {
       "kind": "prose",
       "id": "audio-hpa-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "Put down less than 20% and the lender makes you buy private mortgage insurance that protects the lender, not you. Left alone it would ride your bill long after the equity made it pointless. HPA is the rule that gets it off — and it works through two LTV numbers that do different jobs: 80%, where you can ask, and 78%, where the servicer has to act on its own."
+      "text": "Put less than 20% down on a house and the lender is carrying more risk — borrowers with little equity default more often. To cover that gap, the lender makes you buy private mortgage insurance (PMI): insurance that pays the lender, not you, if you default. PMI does nothing for the borrower except make a low-down-payment loan possible — and it's an extra monthly cost you'd want gone as soon as you're allowed. The Homeowners Protection Act (HPA), passed in 1998, is the law that makes sure PMI actually comes off."
     },
     {
       "kind": "prose",
       "id": "audio-hpa-g1-p0",
       "gi": 1,
       "pi": 0,
-      "text": "Once the loan reaches 80% LTV — measured against the original value or purchase price — the borrower can request that PMI come off. Lower, at 78% LTV, the servicer must terminate it automatically, but only if the borrower is current. So the request right opens at 80% LTV LTV, while automatic termination waits for 78%. Miss the current-payment condition at 78% and final termination is deferred to the midpoint of the loan's amortization period, taking effect once the borrower is back in good standing."
+      "text": "Everything in this law runs on one ratio: loan-to-value (LTV) — the loan balance divided by the home's value, the lender's share of the property expressed as a percent. Buy a $100,000 home with $10,000 down and you borrow $90,000; that's a 90% LTV, and the other 10% is your equity. With a single loan, LTV and equity always add to 100%, and every payment you make shifts the balance — LTV down, equity up. (For a purchase, LTV uses the lesser of the price or the appraised value.)"
     },
     {
       "kind": "gate",
@@ -29,7 +29,49 @@
       "id": "audio-hpa-g2-p0",
       "gi": 2,
       "pi": 0,
-      "text": "A high-risk (non-conforming) loan moves the automatic-termination line down to 77% LTV, and the loan must still be current; the midpoint backstop doesn't apply to these loans. For that riskier tier the cutoff is 77% LTV rather than 78%. Once PMI is canceled or terminated, the clock starts on the servicer: notice to the borrower within 30 days, and any unearned premiums returned within 45 days."
+      "text": "Conventional lenders draw the risk line at 80% LTV. Borrow more than that — less than 20% down — and PMI is required, insuring the lender against the slice of the loan above the 80% line, not the whole balance. Read that twice: the borrower pays the premium, but the coverage protects the lender and the investor. HPA applies only to conventional loans with PMI; FHA, VA, and USDA government loans use their own insurance and fall outside it."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hpa-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "Before HPA, the only way to shed PMI was to ask your servicer to remove it once you hit 80% LTV — and hitting 80% could take years. The removal right was explained once, at closing, then forgotten, so thousands of borrowers kept paying PMI for years after they qualified to drop it. HPA fixed that by making removal happen on a schedule the servicer has to track, not one the borrower has to remember."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hpa-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "The first exit is the borrower's to take. Once the loan reaches 80% LTV, you can request that the servicer cancel PMI — but you have to earn it. You need a good payment history, no subordinate liens on the property (a second mortgage disqualifies you), and usually an appraisal you pay for to prove the value supports the 80%. Meet all three and the servicer removes the PMI."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hpa-g5-p0",
+      "gi": 5,
+      "pi": 0,
+      "text": "\"Good payment history\" has a precise meaning here: no payment 60 days or more past due in the last 24 months, and none 30 days or more past due in the last 12 months. Because it looks back two years, a loan essentially has to be at least two years old to clear the bar. Miss those marks and the request waits."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hpa-g6-p0",
+      "gi": 6,
+      "pi": 0,
+      "text": "The second exit doesn't need the borrower at all. Whether or not you ask, the servicer must automatically drop PMI once the loan is scheduled to reach 78% LTV of the home's original value — provided the loan is current. (For a high-risk, non-conforming loan the automatic point drops to 77%.) No good-payment showing, no appraisal — the servicer tracks it and cancels it."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hpa-g7-p0",
+      "gi": 7,
+      "pi": 0,
+      "text": "The third exit is a backstop for a loan that never reaches the LTV triggers — say the borrower fell behind. At the midpoint of the loan's amortization period (halfway through the scheduled term), PMI must come off regardless of payment status. It's the guarantee that PMI can't run the entire life of the loan. Final termination is the one exit that doesn't apply to high-risk loans."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hpa-g8-p0",
+      "gi": 8,
+      "pi": 0,
+      "text": "Once PMI is cancelled or terminated, the servicer can't keep collecting for it — no premium may be charged more than 30 days after it ends — and it must refund any unearned premium within 45 days. The servicer also has to send an annual reminder of the borrower's cancellation rights. A servicer that violates the HPA can owe statutory damages of up to $2,000 to the borrower, on top of actual damages."
     },
     {
       "kind": "gate",

@@ -2,27 +2,55 @@
   "unitId": "e-sign-act",
   "name": "E-Sign Act",
   "reg": "Electronic Signatures in Global & National Commerce",
-  "groupCount": 2,
+  "groupCount": 6,
   "items": [
     {
       "kind": "prose",
       "id": "audio-e-sign-act-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "You close a mortgage from your couch, clicking through a stack of documents you never print. For that to hold up, the click has to carry the same weight as a pen on paper. E-Sign supplies that weight: it gives electronic records and electronic signatures the same legal validity and enforceability as ink and paper, so a contract can't be thrown out later just because it was signed on a screen. An electronic signature, under the act, is any electronic sound, symbol, or process attached to or logically associated with a record and adopted by a person with the intent to sign — broad enough to cover a typed name, a clicked box, or a stylus scrawl, as long as the signer meant it to count."
+      "text": "For centuries the enforceable thing was ink on paper — a signature you could hold. When lending moved online, that raised a real question: is a click, or a typed name, actually binding? The Electronic Signatures in Global and National Commerce Act (E-Sign Act), passed in 2000, answered yes. It gives electronic records and electronic signatures the same legal force as paper ones, so a mortgage can be signed and delivered entirely on a screen."
     },
     {
       "kind": "prose",
       "id": "audio-e-sign-act-g1-p0",
       "gi": 1,
       "pi": 0,
-      "text": "That validity isn't automatic for required disclosures. Before a lender may deliver them electronically, the borrower has to affirmatively consent to electronic delivery and demonstrate they can actually access the records in the format used. Both steps matter: the consumer must affirmatively consent rather than be opted in by default, and they must show the documents will reach a screen they can open, not vanish into a file they can't read."
+      "text": "E-Sign defines an electronic signature broadly: any electronic sound, symbol, or process attached to a record and adopted with the intent to sign. A typed name, a clicked \"I agree,\" a drawn signature on a pad — any of them can bind, as long as the person meant it as their signature. The Act's key promise is that a contract or signature can't be denied legal effect just because it's electronic. Intent is what makes it a signature, not paper."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-e-sign-act-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "Electronic delivery isn't something a lender can simply impose. If a law requires that information reach the consumer in writing, the lender may deliver it electronically only if the consumer has affirmatively consented to receive it that way and hasn't withdrawn that consent. Nobody can be forced to accept electronic records; the choice stays with the consumer."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-e-sign-act-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "The heart of E-Sign is a step that's easy to miss: the consumer's consent has to reasonably demonstrate that they can actually access the electronic records in the format you'll use. In practice, the consumer consents (or confirms consent) electronically, in that same format — proving they can open the PDF you're about to bind them with before you rely on it. Consent given in a form the borrower can't actually read wouldn't count."
     },
     {
       "kind": "gate",
       "gateType": "synth",
-      "id": "audio-e-sign-act-g1-gate-synth",
-      "gi": 1
+      "id": "audio-e-sign-act-g3-gate-synth",
+      "gi": 3
+    },
+    {
+      "kind": "prose",
+      "id": "audio-e-sign-act-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "Before that consent, the lender must give a clear statement covering the consumer's options: their right to get the record on paper instead, their right to withdraw consent and any conditions or fees for doing so, whether the consent covers just this transaction or a whole category of records, how to withdraw consent or update contact information, and how to request a paper copy and any fee for it. The consumer must also receive a statement of the hardware and software needed to access and keep the records."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-e-sign-act-g5-p0",
+      "gi": 5,
+      "pi": 0,
+      "text": "If the hardware or software requirements later change enough to risk the consumer no longer being able to open their records, the lender must send a revised statement and give the consumer the right to withdraw consent free of any fee or penalty. And the records themselves have to be kept in a form that stays accurate, accessible to anyone legally entitled to them, and reproducible for later reference. One carve-out: agreements made before the Act took effect, on October 1, 2000, are exempt."
     },
     {
       "kind": "gate",

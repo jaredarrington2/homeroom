@@ -2,28 +2,41 @@
   "unitId": "maps-reg-n",
   "name": "MAPs (Reg N)",
   "reg": "Mortgage Acts and Practices — Advertising",
-  "groupCount": 2,
+  "groupCount": 4,
   "items": [
     {
       "kind": "prose",
       "id": "audio-maps-reg-n-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "A teaser rate with the strings buried, a \"government\" badge that means nothing — mortgage ads are where a lot of deception gets its start. MAPs polices that advertising: it bans material misrepresentations in any commercial communication about a mortgage credit product, and it pins down which terms force you to disclose the rest."
+      "text": "People pick a mortgage off an ad — a rate in a window, a payment in a mailer — and a loan is too big a decision to make on a lie. Mortgage Acts and Practices–Advertising (MAPs), issued under Regulation N in 2009, is the rule that keeps mortgage advertising honest. It's a close cousin of TILA's advertising rules, and its core is blunt: don't materially misrepresent anything about a mortgage."
     },
     {
       "kind": "prose",
       "id": "audio-maps-reg-n-g1-p0",
       "gi": 1,
       "pi": 0,
-      "text": "Some figures can't stand alone in an ad. A triggering term — a stated rate, a payment amount, a down-payment figure — pulls additional disclosures in behind it the moment you use it, so the borrower sees the full terms instead of the flattering fragment."
+      "text": "MAPs reads like a long list of don'ts, but they all reduce to a single idea: any material misrepresentation — express or implied — about a mortgage credit product violates the rule. That covers the interest and the APR, the existence or amount of any fees (including claiming there are none), a prepayment penalty, whether the rate is really 'fixed,' the loan type, taxes and insurance, any government affiliation or endorsement, whether the ad comes from your current lender, and promises to eliminate or reduce debt. If it would mislead a borrower about the loan, MAPs reaches it."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-maps-reg-n-g1-gate-synth",
+      "gi": 1
     },
     {
       "kind": "prose",
-      "id": "audio-maps-reg-n-g1-p1",
-      "gi": 1,
-      "pi": 1,
-      "text": "Whatever the ad claims, the proof has to survive afterward. MAPs advertising records must be retained for 24 months, so the file stays on hand for 24 months."
+      "id": "audio-maps-reg-n-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "MAPs also carries the same triggering-term logic you met in TILA. State a specific number in a mortgage ad — a down-payment amount or percent, the number or period of payments, a payment amount, or a finance-charge amount — and the ad must then clearly and conspicuously disclose the full picture: the down payment, the actual repayment terms over the whole loan (including any balloon), and the annual percentage rate, using that term. A tempting figure can't travel alone."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-maps-reg-n-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "So violations can be traced, MAPs requires whoever runs a mortgage ad to keep it. Copies of all materially different commercial communications — plus the sales scripts, training, and marketing materials behind them, and records of the products actually available while the ad ran — must be retained for at least 24 months."
     },
     {
       "kind": "gate",
