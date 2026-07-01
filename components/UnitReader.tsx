@@ -59,8 +59,8 @@ export default function UnitReader({
                 <Image
                   src={figureSrc(g.illustration)}
                   alt={g.illustration.caption}
-                  width={1536}
-                  height={1024}
+                  width={1508}
+                  height={983}
                   unoptimized
                   loading="eager"
                   sizes="(max-width: 40rem) 100vw, 40rem"
