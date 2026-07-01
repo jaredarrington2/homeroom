@@ -2,34 +2,107 @@
   "unitId": "hoepa",
   "name": "HOEPA",
   "reg": "Home Ownership & Equity Protection Act · TILA §32",
-  "groupCount": 3,
+  "groupCount": 10,
   "items": [
     {
       "kind": "prose",
       "id": "audio-hoepa-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "Some loans cost enough that the law sets them apart and bolts on extra protection. HOEPA is that tripwire. Cross any one of three thresholds — on rate, on points and fees, or on the prepayment penalty — and the loan becomes a \"high-cost\" mortgage carrying a list of restrictions. The aim isn't to ban these loans but to make sure a borrower was warned and advised before signing. HOEPA sits inside TILA as Section 32, which is why you'll hear \"Section 32 loan.\""
+      "text": "Most of TILA sets the rules every mortgage follows. HOEPA is a trap-door inside it. When a loan's cost climbs past certain lines, the loan trips into a category called a \"high-cost\" mortgage and a wall of extra restrictions drops down on it. The point isn't to ban these loans — it's to make sure a borrower taking on an expensive, risky one was warned and advised first. HOEPA lives in TILA as Section 32, which is why you'll hear a high-cost loan called a \"Section 32 loan.\""
     },
     {
       "kind": "prose",
       "id": "audio-hoepa-g1-p0",
       "gi": 1,
       "pi": 0,
-      "text": "The first threshold watches the APR against the average prime offer rate. A first-lien loan goes high-cost when its APR beats APOR by 6.5 percentage points or more. That first-lien tripwire — APR over APOR by 6.5 percentage points or more — is the one to fix. A subordinate lien, or a personal-property loan under $50,000, crosses at the steeper 8.5 percentage points over APOR."
-    },
-    {
-      "kind": "gate",
-      "gateType": "synth",
-      "id": "audio-hoepa-g1-gate-synth",
-      "gi": 1
+      "text": "The thing HOEPA is really protecting is your equity — the slice of the home you actually own, the difference between what it's worth and what you still owe on it. Pay a mortgage down for thirty years and your equity grows until, paid off, you own the whole thing outright. That stored-up wealth is exactly what makes a longtime or elderly homeowner a target: a house with lots of equity and an owner who may not read the fine print is, to the wrong kind of lender, a prize sitting behind an easy loan."
     },
     {
       "kind": "prose",
       "id": "audio-hoepa-g2-p0",
       "gi": 2,
       "pi": 0,
-      "text": "The other two triggers catch cost loaded elsewhere. On a loan of $27,592 or more (the 2026 figure), total points and fees that come to more than 5% of the loan amount make it high-cost — so once points and fees cross 5% of the loan amount of the loan amount, the loan is high-cost. A prepayment penalty does the same if it runs more than 2% of the amount prepaid, or can apply more than 36 months after consummation. Once a loan is high-cost, HOEPA demands pre-loan homeownership counseling, the high-cost disclosure must reach the borrower at least 3 business days before consummation, and any late fee is capped at 4% of the past-due payment."
+      "text": "Normally a lender wants the loan repaid. A predatory lender wants the opposite. Equity stripping is the abuse HOEPA is named against: a lender writes a loan it expects the borrower can't afford — stuffed with fees, carrying a payment that will eventually balloon — not despite the likelihood of default but because of it. When the borrower falls behind, the lender forecloses and walks away with a house that had real equity in it. The loan was never meant to be paid; it was a way to take the home."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-hoepa-g2-gate-synth",
+      "gi": 2
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hoepa-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "A loan becomes high-cost the moment it crosses any one of three lines — you don't need all three, just one. The three watch the three places excess cost hides: the loan's rate, its points and fees, and its prepayment penalty. HOEPA reaches consumer loans on a borrower's principal dwelling; it leaves out reverse mortgages, loans for a home's initial construction, loans where a state Housing Finance Agency is the creditor, and USDA Section 502 Direct loans."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hoepa-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "The first line watches the APR against the average prime offer rate (APOR), the low-risk benchmark from TILA. A first-lien loan goes high-cost when its APR beats APOR by 6.5 percentage points percentage points or more. The bar sits higher for riskier, smaller loans: a subordinate lien, or a personal-property loan under $50,000, crosses at 8.5 percentage points over APOR."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-hoepa-g4-gate-synth",
+      "gi": 4
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hoepa-g5-p0",
+      "gi": 5,
+      "pi": 0,
+      "text": "The second line catches cost front-loaded into fees. On a normal-sized loan — $27,592 or more, a figure that resets each year — the loan goes high-cost once total points and fees exceed 5% of the loan amount of the loan amount. On a smaller loan the percentage would let a lender pile on fees without ever tripping it, so the test tightens to the lesser of 8% of the loan or a flat $1,380. The dollar figures move with inflation; the idea doesn't — fees past a share of the loan flip it high-cost."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-hoepa-g5-gate-synth",
+      "gi": 5
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hoepa-g6-p0",
+      "gi": 6,
+      "pi": 0,
+      "text": "The third line watches the prepayment penalty — a fee for paying the loan off early. A loan goes high-cost if that penalty can be charged more than 36 months after consummation, or if it can ever run to 2% of the amount prepaid or more of the amount prepaid. A penalty that reaches too deep into the loan's life, or bites too hard, is treated as a mark of a high-cost loan."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hoepa-g7-p0",
+      "gi": 7,
+      "pi": 0,
+      "text": "Once a loan is high-cost, HOEPA strips out the terms a predatory loan relies on. No balloon payment more than twice a regular payment. No negative amortization — the balance can't be built to grow. No prepayment penalty at all, and no interest-rate hike triggered just by default. No demand feature letting the lender call the whole balance due, except for fraud, real default, or damage to the lender's security. And the loan's proceeds can't pay more than two periodic payments in advance."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-hoepa-g7-gate-synth",
+      "gi": 7
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hoepa-g8-p0",
+      "gi": 8,
+      "pi": 0,
+      "text": "Because a high-cost loan is dangerous, HOEPA forces a pause before signing. The borrower must first get homeownership counseling from a HUD-approved counselor of their own choosing — one not employed by or tied to the lender — and the lender must hold written certification of it before extending the loan. On top of that, a special high-cost disclosure has to reach the borrower at least 3 business days before consummation, carrying a blunt warning: you don't have to go through with this, and if you take the loan you could lose your home and everything you've put into it."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-hoepa-g8-gate-synth",
+      "gi": 8
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hoepa-g9-p0",
+      "gi": 9,
+      "pi": 0,
+      "text": "HOEPA closes the side doors, too. Loan proceeds meant for home improvements can't be paid straight to the contractor — they go to the borrower, jointly, or to an agreed escrow — so a contractor can't take the money and vanish. Anyone who buys a high-cost loan is put on notice that they inherit the borrower's claims and defenses, which makes these loans hard to offload. A lender can't refinance a borrower's high-cost loan into another high-cost loan within 1 year unless it's clearly in the borrower's interest, can't encourage a borrower to default, and must actually check the borrower's ability to repay. Late fees are capped at 4% of the past-due payment, charged only after a 15-day grace period and only once per late payment."
     },
     {
       "kind": "gate",
