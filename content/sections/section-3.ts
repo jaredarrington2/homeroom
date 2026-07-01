@@ -457,22 +457,10 @@ const section3: SectionContent = {
             "a": "<span class='hl'>Calendar day</span> (every day), <span class='hl'>precise business day</span> (every day except Sundays and federal holidays), and <span class='hl'>general business day</span> (same exclusions, plus the entity must be fully operational)."
           },
           {
-            "peg": "the toolkit",
-            "topic": "Disclosures",
-            "q": "What is another name for the Special Information Booklet, and when must it be issued?",
-            "a": "The <span class='hl'>HUD Home Loan Toolkit</span>. Issued within <span class='hl'>3 general business days</span> of application."
-          },
-          {
             "peg": "ABAD files",
             "topic": "Recordkeeping",
             "q": "How long must a lender retain copies of Affiliated Business Arrangement Disclosures?",
             "a": "At least <span class='hl'>5 years</span> from execution."
-          },
-          {
-            "peg": "the sham",
-            "topic": "Affiliated businesses",
-            "q": "What is a sham affiliated business arrangement under RESPA?",
-            "a": "A shell company that <span class='hl'>appears</span> to be a legitimate settlement service provider but exists only to <span class='hl'>funnel referral fees</span> to its owner — it has no real operations, employees, or independent business."
           },
           {
             "peg": "ten factors",
@@ -493,12 +481,6 @@ const section3: SectionContent = {
             "a": "A <span class='hl'>goodbye letter</span> from the releasing servicer (15 calendar days before) and a <span class='hl'>welcome letter</span> from the receiving servicer (15 calendar days after)."
           },
           {
-            "peg": "Section 8",
-            "topic": "Kickbacks & referrals",
-            "q": "What does Section 8 of RESPA prohibit?",
-            "a": "The exchange of <span class='hl'>anything of value</span> between actual or potential referral sources in connection with a federally related mortgage loan — both giving and accepting."
-          },
-          {
             "peg": "unearned fee",
             "topic": "Kickbacks & referrals",
             "q": "What makes a settlement service charge an 'unearned fee' under RESPA?",
@@ -511,22 +493,10 @@ const section3: SectionContent = {
             "a": "No. It includes discounts, stock, trips, special rates, services, future credits, and <span class='hl'>the opportunity to participate in a money-making program</span> — anything, not just cash."
           },
           {
-            "peg": "pattern as evidence",
-            "topic": "Kickbacks & referrals",
-            "q": "Can a kickback agreement exist without a written or verbal agreement?",
-            "a": "Yes. A <span class='hl'>practice, pattern, or course of conduct</span> can establish it. Repeated receipt of value connected to referral volume is evidence of an agreement."
-          },
-          {
             "peg": "cooperative brokerage",
             "topic": "Kickbacks & referrals",
             "q": "Which exception allows referral payments between real estate professionals?",
             "a": "Cooperative brokerage and referral arrangements <span class='hl'>solely between real estate agents and brokers</span>."
-          },
-          {
-            "peg": "impound account",
-            "topic": "Escrow accounts",
-            "q": "What is another name for an escrow account?",
-            "a": "An <span class='hl'>impound account</span>."
           },
           {
             "peg": "deficiency vs shortage",
@@ -805,12 +775,6 @@ const section3: SectionContent = {
             "a": "<span class='hl'>receipt of public-assistance income</span>, and <span class='hl'>exercising rights</span> under consumer-credit law"
           },
           {
-            "peg": "discouragement",
-            "topic": "Discouragement",
-            "q": "What is 'discouragement' under ECOA?",
-            "a": "acting in a way that would discourage a reasonable person from applying, on a prohibited basis — a violation even with <span class='hl'>no formal application</span>"
-          },
-          {
             "peg": "co-applicant",
             "topic": "Income & co-applicants",
             "q": "Can a creditor require a co-applicant?",
@@ -829,34 +793,10 @@ const section3: SectionContent = {
             "a": "Note the applicant's race, national origin, and sex based on <span class='hl'>visual observation</span>"
           },
           {
-            "peg": "corrective action",
-            "topic": "Testing & self-testing",
-            "q": "Taking corrective action after a self-test is —",
-            "a": "<span class='hl'>not an admission</span> that a violation occurred"
-          },
-          {
-            "peg": "elderly",
-            "topic": "Definitions",
-            "q": "Under ECOA, 'elderly' means —",
-            "a": "age <span class='hl'>62</span> or older"
-          },
-          {
-            "peg": "government credit",
-            "topic": "Exemptions",
-            "q": "Which ECOA exemption is the broadest?",
-            "a": "<span class='hl'>Government credit</span> — the only type exempt from the discrimination rule itself"
-          },
-          {
             "peg": "counteroffer",
             "topic": "Adverse action",
             "q": "After a counteroffer on an Adverse Action Notice, the applicant has —",
             "a": "<span class='hl'>90 calendar days</span> to accept"
-          },
-          {
-            "peg": "offspring",
-            "topic": "Protected classes",
-            "q": "The 11th prohibited basis under § 1002.4(a) that's easy to miss?",
-            "a": "Whether the applicant intends to <span class='hl'>bear offspring</span>"
           }
         ],
         "mcq": [
@@ -1024,12 +964,6 @@ const section3: SectionContent = {
             "a": "the <span class='hl'>APR</span> and the <span class='hl'>finance charge</span>"
           },
           {
-            "peg": "stale window",
-            "topic": "Rescission",
-            "q": "If the rescission disclosure was never properly given, the window becomes…",
-            "a": "<span class='hl'>3 years</span> after consummation"
-          },
-          {
             "peg": "refund",
             "topic": "Rescission",
             "q": "After a borrower rescinds, the lender returns money within…",
@@ -1133,12 +1067,6 @@ const section3: SectionContent = {
             "topic": "Fee limits",
             "q": "Late-fee cap on a high-cost mortgage?",
             "a": "no more than <span class='hl'>4%</span> of the past-due payment"
-          },
-          {
-            "peg": "disclosure",
-            "topic": "Disclosures",
-            "q": "When is the high-cost disclosure due?",
-            "a": "at least <span class='hl'>3 business days</span> before consummation"
           }
         ],
         "mcq": [
@@ -1228,12 +1156,6 @@ const section3: SectionContent = {
             "topic": "Integrated disclosures",
             "q": "TRID's two integrated disclosures?",
             "a": "the <span class='hl'>Loan Estimate (LE)</span> and the <span class='hl'>Closing Disclosure (CD)</span>"
-          },
-          {
-            "peg": "honor",
-            "topic": "Loan Estimate",
-            "q": "How long must Loan Estimate terms be honored?",
-            "a": "at least <span class='hl'>10 business days</span>"
           },
           {
             "peg": "retention",
@@ -1340,12 +1262,6 @@ const section3: SectionContent = {
             "topic": "Purpose",
             "q": "What does HMDA exist to expose?",
             "a": "Discriminatory lending, <span class='hl'>redlining</span>, and underserved areas — by collecting lending data"
-          },
-          {
-            "peg": "the register",
-            "topic": "Data reporting",
-            "q": "Where does the reported HMDA data live?",
-            "a": "The <span class='hl'>Loan/Application Register</span> (LAR or L/AR)"
           },
           {
             "peg": "quarterly trigger",
@@ -1460,12 +1376,6 @@ const section3: SectionContent = {
             "a": "A <span class='hl'>permissible purpose</span> under FCRA — e.g., the consumer's own credit application"
           },
           {
-            "peg": "most marks",
-            "topic": "Credit reporting",
-            "q": "How long do most derogatory items remain?",
-            "a": "Generally <span class='hl'>7 years</span> (late/missed payments up to about 7½)"
-          },
-          {
             "peg": "fico mix",
             "topic": "Credit scoring",
             "q": "The five FICO categories and their weights?",
@@ -1553,18 +1463,6 @@ const section3: SectionContent = {
       "review": {
         "flashcards": [
           {
-            "peg": "extended",
-            "topic": "Fraud alerts",
-            "q": "How long does an extended fraud alert last?",
-            "a": "<span class='hl'>7 years</span> (placed after real identity theft)"
-          },
-          {
-            "peg": "active-duty",
-            "topic": "Fraud alerts",
-            "q": "How long does an active-duty (military) alert last?",
-            "a": "<span class='hl'>1 year</span>"
-          },
-          {
             "peg": "free yearly",
             "topic": "Consumer rights",
             "q": "What is every consumer entitled to annually under FACTA?",
@@ -1643,12 +1541,6 @@ const section3: SectionContent = {
       ],
       "review": {
         "flashcards": [
-          {
-            "peg": "the program",
-            "topic": "Program requirement",
-            "q": "What must a covered institution maintain under the Red Flags Rule?",
-            "a": "A written <span class='hl'>Identity Theft Prevention Program</span>"
-          },
           {
             "peg": "three jobs",
             "topic": "Program functions",
@@ -1755,12 +1647,6 @@ const section3: SectionContent = {
       ],
       "review": {
         "flashcards": [
-          {
-            "peg": "structuring",
-            "topic": "Structuring",
-            "q": "What is structuring?",
-            "a": "breaking deposits into amounts under <span class='hl'>$10,000</span> to dodge the CTR filing requirement — itself illegal"
-          },
           {
             "peg": "no suspect",
             "topic": "SAR filing",
@@ -1873,12 +1759,6 @@ const section3: SectionContent = {
             "a": "a written <span class='hl'>information-security program</span> to protect customer data, with regular testing, monitoring, and adjustment"
           },
           {
-            "peg": "opt-out",
-            "topic": "Privacy & opt-out",
-            "q": "What right does GLBA give consumers over information sharing?",
-            "a": "the right to <span class='hl'>opt out</span> of sharing nonpublic personal information with nonaffiliated third parties"
-          },
-          {
             "peg": "people",
             "topic": "Penalties",
             "q": "GLBA penalty against officers/directors, plus prison?",
@@ -1982,12 +1862,6 @@ const section3: SectionContent = {
             "topic": "Penalties",
             "q": "Penalty per Telemarketing Sales Rule violation?",
             "a": "up to <span class='hl'>$51,744</span> per violation"
-          },
-          {
-            "peg": "abandonment",
-            "topic": "Call abandonment",
-            "q": "Maximum allowable call-abandonment rate?",
-            "a": "no more than <span class='hl'>3%</span>"
           }
         ],
         "mcq": [
@@ -2075,12 +1949,6 @@ const section3: SectionContent = {
             "topic": "Advertising terms",
             "q": "What is a 'triggering term' in mortgage advertising?",
             "a": "a specific term (a stated rate, payment, or down-payment figure) that, once used, <span class='hl'>requires additional disclosures</span>"
-          },
-          {
-            "peg": "records",
-            "topic": "Recordkeeping",
-            "q": "How long must MAPs advertising records be retained?",
-            "a": "<span class='hl'>24 months</span>"
           }
         ],
         "mcq": [
@@ -2341,12 +2209,6 @@ const section3: SectionContent = {
             "topic": "Borrower notice",
             "q": "How soon after cancellation/termination must the servicer notify the borrower?",
             "a": "no later than <span class='hl'>30 days</span>"
-          },
-          {
-            "peg": "not current",
-            "topic": "Final termination",
-            "q": "If the borrower isn't current at 78%, when does final termination happen?",
-            "a": "at the <span class='hl'>midpoint of the loan's amortization period</span> (once the borrower is current)"
           }
         ],
         "mcq": [
@@ -2452,12 +2314,6 @@ const section3: SectionContent = {
             "topic": "Mortgage reform (Title XIV)",
             "q": "What is Title XIV of Dodd-Frank called?",
             "a": "the <span class='hl'>Mortgage Reform and Anti-Predatory Lending Act</span>"
-          },
-          {
-            "peg": "ARM notice",
-            "topic": "ARM disclosures",
-            "q": "When must a hybrid ARM reset notice be delivered?",
-            "a": "during the one-month period ending <span class='hl'>6 months</span> before the rate first adjusts"
           },
           {
             "peg": "LO comp",
