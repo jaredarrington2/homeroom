@@ -2,27 +2,48 @@
   "unitId": "usa-patriot-act",
   "name": "USA PATRIOT Act",
   "reg": "Counterterrorism · CIP",
-  "groupCount": 2,
+  "groupCount": 5,
   "items": [
     {
       "kind": "prose",
       "id": "audio-usa-patriot-act-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "A borrower fills out an application with a name and a number, and at face value you can't tell whether any of it is real. After 2001, anti-money-laundering law grew a counterterrorism arm to close that gap, and it reinforced every institution's duty to maintain an Anti-Money-Laundering (AML) program. For an MLO it lands as the Customer Identification Program (CIP) — the duty to verify a customer is who they claim to be before the relationship goes forward, so identity-checking sits inside the larger machinery for catching laundering."
+      "text": "The attacks of September 11, 2001 were funded through ordinary bank accounts, so part of the response was to tighten the financial system itself. Weeks later Congress passed the USA PATRIOT Act, which — among far broader counterterrorism powers — strengthened the Bank Secrecy Act's grip on money laundering and pushed identity checks deeper into every financial institution, mortgage companies included. Where BSA/AML set up the reporting, the PATRIOT Act sharpened the question underneath it: are you certain who you're dealing with?"
     },
     {
       "kind": "prose",
       "id": "audio-usa-patriot-act-g1-p0",
       "gi": 1,
       "pi": 0,
-      "text": "At minimum a CIP gathers four pieces of identifying information before opening the account: name, date of birth, address, and an identification number such as an SSN or TIN. Each one narrows who the applicant can be, and together those four data points give the institution enough to check the person against its records and government lists."
+      "text": "The PATRIOT Act's centerpiece for lenders is the Customer Identification Program (CIP) — the formal routine for proving an applicant is who they claim to be. Every institution must verify and record the identity of anyone opening an account or applying for a loan, post a notice in its lobby that it will ask for identification, and check applicants against government watch lists of known or suspected terrorists. Someone already verified as an existing customer doesn't have to prove their identity again."
     },
     {
       "kind": "gate",
       "gateType": "synth",
       "id": "audio-usa-patriot-act-g1-gate-synth",
       "gi": 1
+    },
+    {
+      "kind": "prose",
+      "id": "audio-usa-patriot-act-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "For a mortgage, the CIP has a concrete sequence. At application, the lender gives every applicant the Patriot Act Information Disclosure, explaining that identification is required. Then, for anyone not already a customer, the loan originator must collect a valid, government-issued photo ID whose picture clearly resembles the person presenting it — and attest, under penalty of law, that identity was verified as the Act requires. Getting this wrong isn't a paperwork slip; the attestation carries legal weight."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-usa-patriot-act-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "Verifying identity is only half the check; the other half is who that verified person is. The CIP requires screening applicants against government lists of terrorists and barred parties — the same duty as OFAC's Specially Designated Nationals list from BSA/AML. A match is a hard stop: no financial institution may open an account or make a loan for anyone on such a list."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-usa-patriot-act-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "The Act also reaches into credit files. A credit bureau must hand a consumer's report and file to a government agency conducting an authorized international-terrorism investigation when the agency certifies in writing that it needs it. And the bureau must stay silent about it: it may not tell the consumer — or note in the report — that a government agency requested or obtained access to the file."
     },
     {
       "kind": "gate",

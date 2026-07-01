@@ -2,41 +2,75 @@
   "unitId": "glba",
   "name": "GLBA",
   "reg": "Gramm-Leach-Bliley Act",
-  "groupCount": 3,
+  "groupCount": 8,
   "items": [
     {
       "kind": "prose",
       "id": "audio-glba-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "A mortgage application is a dossier — income, Social Security number, account balances, the whole financial life of the person across the desk. GLBA governs what the institution may do with that dossier once it holds it: tell you what gets shared, let you stop some of the sharing, and actually guard the data."
+      "text": "Your lender knows an enormous amount about you — income, balances, debts, Social Security number. The Gramm-Leach-Bliley Act (GLBA) is the law that says it can't just do whatever it wants with that. Passed in 1999, GLBA forces financial institutions to guard your private financial information, tell you what they share, let you say no to some of it, and actually secure the data they hold."
     },
     {
       "kind": "prose",
       "id": "audio-glba-g1-p0",
       "gi": 1,
       "pi": 0,
-      "text": "The relationship opens with a privacy notice spelling out what the institution shares, and that notice repeats annually for as long as you're a customer — owed at the start of the relationship and once annually thereafter. Built into it is your right to opt out of having nonpublic personal information shared with nonaffiliated third parties."
-    },
-    {
-      "kind": "gate",
-      "gateType": "synth",
-      "id": "audio-glba-g1-gate-synth",
-      "gi": 1
+      "text": "For most of the 20th century a Depression-era law, Glass-Steagall (1933), kept banking, investing, and insurance in separate companies. GLBA tore down that wall, letting them combine into single financial holding companies. Convenient — but now one corporate family could hold your checking account, your brokerage, and your insurance, pooling a complete financial picture of you in one place. That concentration is exactly the privacy risk GLBA was written to manage."
     },
     {
       "kind": "prose",
       "id": "audio-glba-g2-p0",
       "gi": 2,
       "pi": 0,
-      "text": "The Safeguards Rule turns privacy into engineering: the institution must run a written information-security program protecting customer data, with regular testing, monitoring, and adjustment as threats change."
+      "text": "The thing GLBA protects is your nonpublic personal information (NPI) — the financial details about you that someone couldn't just dig up through a public records search or a Freedom of Information Act request. Your account balance and loan application are NPI; something already public isn't. The protection covers information tied to products you get for personal, family, or household use — a business or commercial account falls outside it."
     },
     {
       "kind": "prose",
-      "id": "audio-glba-g2-p1",
-      "gi": 2,
-      "pi": 1,
-      "text": "The penalties bite at two levels. The institution can be fined up to $100,000 per violation, so its exposure runs to $100,000 each time. Officers and directors face up to $10,000 each, with imprisonment of up to 5 years behind it."
+      "id": "audio-glba-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "GLBA splits the people it protects into two, and the difference decides how often they hear from you. A consumer uses a financial product without a continuing relationship — someone who just gets a quote. A customer has a formal, ongoing relationship — they opened an account or took a loan. The distinction matters because a customer is owed the privacy notice up front and on a repeating basis, while a one-time consumer is not."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-glba-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "The core bargain is simple. Before a financial institution shares your NPI with a nonaffiliated third party — an outside company it doesn't own or control — it must first tell you clearly that it may, and give you a real chance to opt out and stop it. There are practical exceptions: it can share NPI to get the deal done (ordering your title report) or under a joint marketing agreement without an opt-out. But it can never hand your account number to an outside company for that company's telemarketing or mail marketing."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-glba-g4-gate-synth",
+      "gi": 4
+    },
+    {
+      "kind": "prose",
+      "id": "audio-glba-g5-p0",
+      "gi": 5,
+      "pi": 0,
+      "text": "The vehicle for all this is the privacy notice. A financial institution must give a customer a clear written notice of its information-sharing policies when the relationship begins and annually after that. The notice spells out what it collects, what it shares and with whom, and how to opt out. One break: if its policies haven't changed since the last notice, it doesn't have to send the yearly one."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-glba-g6-p0",
+      "gi": 6,
+      "pi": 0,
+      "text": "Promising privacy is worthless if the data leaks, so GLBA's Safeguards Rule requires a written information security program — real administrative, technical, and physical protections for customer information. It has to name a qualified individual to run it, run regular risk assessments, control who can reach the data, test and monitor the protections, train staff, and oversee any service providers that touch the information. The idea is a living program, not a filed-away policy."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-glba-g6-gate-synth",
+      "gi": 6
+    },
+    {
+      "kind": "prose",
+      "id": "audio-glba-g7-p0",
+      "gi": 7,
+      "pi": 0,
+      "text": "GLBA's penalties are steep enough to take seriously. An institution can be fined up to $100,000 per violation, its officers and directors up to $10,000 each, and violations can carry imprisonment of up to five years, plus license revocation and the reputational hit that follows."
     },
     {
       "kind": "gate",

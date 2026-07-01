@@ -2,48 +2,115 @@
   "unitId": "bsa-aml",
   "name": "BSA / AML",
   "reg": "Bank Secrecy Act · Anti-Money Laundering",
-  "groupCount": 4,
+  "groupCount": 12,
   "items": [
     {
       "kind": "prose",
       "id": "audio-bsa-aml-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "Dirty money isn't spendable until it's been washed, and the rinse cycle runs through financial institutions. BSA/AML drafts those institutions into the watch: they have to notice when a transaction is really an attempt to make illegitimate money look earned, and report it to the Treasury's FinCEN. Two reports carry most of the load — one fires on size alone, the other on judgment."
+      "text": "Criminals and terrorists run on cash — and cash earned from drugs, fraud, or gambling can't just be spent, because a pile of unexplained money invites questions. So they launder it: run it through the banking system until it looks like ordinary, legitimate income. The Bank Secrecy Act (BSA) — also called the Anti-Money Laundering law, so you'll see it as BSA/AML — is the country's main weapon against that. Passed in 1970, it turns banks and mortgage companies into watchers: keep records, verify who you're dealing with, and report the suspicious. Your job as an MLO sits right inside it."
     },
     {
       "kind": "prose",
       "id": "audio-bsa-aml-g1-p0",
       "gi": 1,
       "pi": 0,
-      "text": "The first report is mechanical. Any cash transaction of $10,000 or more triggers a Currency Transaction Report (CTR), no suspicion required — the figure that matters is $10,000. Try to dodge it by slicing one deposit into smaller pieces, each kept under $10,000, and you've committed structuring — a crime in its own right."
+      "text": "Laundering dirty money into clean money runs in three moves. Placement slips the illegal cash into the financial system — deposited, often in small amounts, to avoid notice. Layering then moves it through a maze of transactions — shell companies, transfers, fake invoices — so the trail back to the crime goes cold. Integration is the payoff: the now-clean-looking money re-enters the economy as ordinary income — a paycheck, an investment, a house — and the launderer even pays taxes on it to complete the disguise. Placement, layering, and integration — in that order."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-bsa-aml-g1-gate-synth",
+      "gi": 1
     },
     {
       "kind": "prose",
       "id": "audio-bsa-aml-g2-p0",
       "gi": 2,
       "pi": 0,
-      "text": "The second report runs on judgment. Anything that looks like laundering gets a Suspicious Activity Report (SAR) filed with FinCEN within 30 days of detecting the activity, so the standard deadline is 30 days. When no suspect can be named, the clock stretches by another 30 days, but the SAR can land no later than 60 days out. The dollar triggers depend on the suspect: a SAR is owed at $5,000 or more when a suspect can be identified, and at $25,000 or more regardless of whether any suspect is identified."
-    },
-    {
-      "kind": "gate",
-      "gateType": "synth",
-      "id": "audio-bsa-aml-g2-gate-synth",
-      "gi": 2
+      "text": "Banks must report any cash transaction of $10,000 or more to the government on a Currency Transaction Report (CTR). Launderers know the line, so they structure — breaking one big deposit into several smaller ones, each under the limit, to stay invisible. Structuring is itself a crime, and a pattern of just-under-$10,000 deposits is one of the loudest red flags there is."
     },
     {
       "kind": "prose",
       "id": "audio-bsa-aml-g3-p0",
       "gi": 3,
       "pi": 0,
-      "text": "Filing a SAR comes with a gag: tipping off the subject, or even disclosing that a SAR exists, is illegal. The records of that filing — SARs along with CIP and account records — have to be kept on hand for at least 5 years from the filing date."
+      "text": "A mortgage is a launderer's dream, which is why this law reaches you. Real estate is a big, respectable purchase that soaks up a lot of money at once and turns it into an asset nobody blinks at — perfect for the integration stage. Buy a house with laundered funds, or take a loan to move dirty money through a closing, and the crime hides behind an ordinary transaction. Mortgage professionals sit at that exact chokepoint, in direct contact with the buyer, which is why the law leans on them so hard."
     },
     {
       "kind": "prose",
-      "id": "audio-bsa-aml-g3-p1",
-      "gi": 3,
-      "pi": 1,
-      "text": "Separately, OFAC administers U.S. sanctions and maintains the SDN list of blocked parties. Institutions holding blocked property file the Annual Report of Blocked Property each year by September 30, so the cutoff date is September 30."
+      "id": "audio-bsa-aml-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "Three Treasury bodies run this world, each with one job. The financial-intelligence unit that collects the reports and hunts for patterns — that's FinCEN, the Financial Crimes Enforcement Network, the BSA's administrator. The supervisor that examines national banks to keep them sound and compliant is the OCC, the Office of the Comptroller of the Currency. And the sanctions enforcer that maintains the list of people the U.S. forbids doing business with is OFAC, the Office of Foreign Assets Control. Report to FinCEN; answer to the OCC; screen against OFAC."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-bsa-aml-g4-gate-synth",
+      "gi": 4
+    },
+    {
+      "kind": "prose",
+      "id": "audio-bsa-aml-g5-p0",
+      "gi": 5,
+      "pi": 0,
+      "text": "The first thing every financial institution owes the law is certainty about who it's dealing with — money can't be traced if identities are fake. So each one must run a Customer Identification Program (CIP): verify and record the identity of anyone opening an account or applying for a loan. The CIP is the foundation the reporting sits on, and its detailed mechanics come from the USA PATRIOT Act, covered next."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-bsa-aml-g6-p0",
+      "gi": 6,
+      "pi": 0,
+      "text": "Every institution — banks and mortgage companies alike — must maintain a written anti-money-laundering (AML) program built on four pillars: internal policies, procedures, and controls; a designated compliance officer; ongoing employee training; and an independent audit to test that the program actually works. The four together are meant to make catching laundering a routine, not an accident."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-bsa-aml-g6-gate-synth",
+      "gi": 6
+    },
+    {
+      "kind": "prose",
+      "id": "audio-bsa-aml-g7-p0",
+      "gi": 7,
+      "pi": 0,
+      "text": "When something looks like laundering or fraud, you file a Suspicious Activity Report (SAR) — electronically, to FinCEN. The clock is 30 days from the date the activity is spotted. If no suspect has been identified yet, filing can be pushed back another 30 days to try to name one — but never beyond 60 days total. When the activity needs immediate attention, like suspected terrorist financing, you also alert law enforcement directly, on top of the SAR."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-bsa-aml-g8-p0",
+      "gi": 8,
+      "pi": 0,
+      "text": "For banks, SARs kick in at dollar lines: insider abuse in any amount, criminal violations of $5,000 or more when a suspect is known, and $25,000 or more even when no suspect is. But for mortgage lenders and brokers, there is no dollar floor at all — a mortgage professional must file a SAR for any suspicious activity, regardless of the amount. The one carve-out: a person selling their own property and arranging its financing is exempt from filing."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-bsa-aml-g8-gate-synth",
+      "gi": 8
+    },
+    {
+      "kind": "prose",
+      "id": "audio-bsa-aml-g9-p0",
+      "gi": 9,
+      "pi": 0,
+      "text": "A SAR is secret by law. Once one is filed, it is illegal to tell the subject that a report was made — no warning, no hint. If someone subpoenas the SAR or asks anything that would reveal its existence, you refuse and may notify FinCEN of the request. A copy of every SAR, along with the CIP and account records behind it, must be kept for at least 5 years from filing."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-bsa-aml-g10-p0",
+      "gi": 10,
+      "pi": 0,
+      "text": "Some people the United States simply forbids you to transact with — foreign terrorists, narcotics traffickers, certain regimes — collected on OFAC's list of Specially Designated Nationals (SDNs) and Blocked Persons. Before issuing a mortgage, you must screen the applicant against that list. A match means you may not proceed — completing a blocked transaction is itself a violation with severe penalties. Blocked transactions must be reported to OFAC within 10 days, and an annual Report of Blocked Property is due each September 30."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-bsa-aml-g11-p0",
+      "gi": 11,
+      "pi": 0,
+      "text": "A red flag is anything that warrants a second look — not proof of a crime, just a reason to pay attention (everyone stays innocent until proven otherwise). In a loan file, common ones include cash deposits structured just under $10,000, documents with deletions or correction fluid, a Social Security number or address that doesn't match across the file, a cash-out refinance of a property the seller only just bought, or a buyer who already lives in the home they're supposedly purchasing. The rule isn't to accuse — it's to not ignore."
     },
     {
       "kind": "gate",

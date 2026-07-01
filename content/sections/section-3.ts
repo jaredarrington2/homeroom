@@ -2615,43 +2615,111 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "Dirty money isn't spendable until it's been washed, and the rinse cycle runs through financial institutions. <b>BSA/AML drafts those institutions into the watch</b>: they have to notice when a transaction is really an attempt to make illegitimate money look earned, and report it to the Treasury's <b>FinCEN</b>. Two reports carry most of the load — one fires on size alone, the other on judgment."
+              "html": "Criminals and terrorists run on cash — and cash earned from drugs, fraud, or gambling can't just be spent, because a pile of unexplained money invites questions. So they <b>launder</b> it: run it through the banking system until it looks like ordinary, legitimate income. The <b>Bank Secrecy Act (BSA)</b> — also called the Anti-Money Laundering law, so you'll see it as BSA/AML — is the country's main weapon against that. Passed in 1970, it turns banks and mortgage companies into watchers: keep records, verify who you're dealing with, and report the suspicious. Your job as an MLO sits right inside it."
             }
           ]
         },
         {
-          "heading": "the size-based report",
-          "anchor": {
-            "file": "man-smoking.PNG",
-            "caption": "Suspicious activity",
-            "kind": "char"
-          },
+          "heading": "how laundering works",
           "paras": [
             {
-              "html": "The first report is mechanical. Any cash transaction of $10,000 or more triggers a <b>Currency Transaction Report (CTR)</b>, no suspicion required — the figure that matters is <span class=\"cloze\" data-accept='[\"$10,000\",\"10000\",\"ten thousand\"]' data-reveal=\"$10,000\">?</span>. Try to dodge it by slicing one deposit into smaller pieces, each kept under $10,000, and you've committed <b>structuring</b> — a crime in its own right."
-            }
-          ]
-        },
-        {
-          "heading": "the judgment-based report",
-          "paras": [
-            {
-              "html": "The second report runs on judgment. Anything that looks like laundering gets a <b>Suspicious Activity Report (SAR)</b> filed with FinCEN within 30 days of detecting the activity, so the standard deadline is <span class=\"cloze\" data-accept='[\"30 days\",\"30\",\"thirty\"]' data-reveal=\"30 days\">?</span>. When no suspect can be named, the clock stretches by another 30 days, but the SAR can land no later than 60 days out. The dollar triggers depend on the suspect: a SAR is owed at $5,000 or more when a suspect can be identified, and at $25,000 or more regardless of whether any suspect is identified."
+              "html": "Laundering dirty money into clean money runs in three moves. <b>Placement</b> slips the illegal cash into the financial system — deposited, often in small amounts, to avoid notice. <b>Layering</b> then moves it through a maze of transactions — shell companies, transfers, fake invoices — so the trail back to the crime goes cold. <b>Integration</b> is the payoff: the now-clean-looking money re-enters the economy as ordinary income — a paycheck, an investment, a house — and the launderer even pays taxes on it to complete the disguise. Placement, layering, and <span class=\"cloze\" data-accept='[\"integration\"]' data-reveal=\"integration\">?</span> — in that order."
             }
           ],
           "synth": {
-            "q": "A SAR keys off two dollar thresholds depending on whether a suspect is known. What are they?",
-            "a": "$5,000 or more when a suspect can be identified; $25,000 or more regardless of whether any suspect is identified."
+            "q": "Name money laundering's three stages in order and what each accomplishes.",
+            "a": "Placement — getting the illegal cash into the financial system; layering — moving it through many transactions to hide its origin; integration — bringing the now-clean-looking money back into the economy as apparently legitimate income."
           }
         },
         {
-          "heading": "after you file",
+          "heading": "structuring and the $10,000 line",
           "paras": [
             {
-              "html": "Filing a SAR comes with a gag: tipping off the subject, or even disclosing that a SAR exists, is illegal. The records of that filing — SARs along with CIP and account records — have to be kept on hand for at least 5 years from the filing date."
-            },
+              "html": "Banks must report any cash transaction of <span class=\"cloze\" data-accept='[\"$10,000\",\"10000\",\"10,000\",\"ten thousand\"]' data-reveal=\"$10,000\">?</span> or more to the government on a <b>Currency Transaction Report (CTR)</b>. Launderers know the line, so they <b>structure</b> — breaking one big deposit into several smaller ones, each under the limit, to stay invisible. Structuring is itself a crime, and a pattern of just-under-$10,000 deposits is one of the loudest red flags there is."
+            }
+          ]
+        },
+        {
+          "heading": "why real estate",
+          "paras": [
             {
-              "html": "Separately, <b>OFAC</b> administers U.S. sanctions and maintains the SDN list of blocked parties. Institutions holding blocked property file the Annual Report of Blocked Property each year by September 30, so the cutoff date is <span class=\"cloze\" data-accept='[\"september 30\",\"sept 30\",\"sept. 30\",\"9/30\"]' data-reveal=\"September 30\">?</span>."
+              "html": "A mortgage is a launderer's dream, which is why this law reaches you. Real estate is a big, respectable purchase that soaks up a lot of money at once and turns it into an asset nobody blinks at — perfect for the integration stage. Buy a house with laundered funds, or take a loan to move dirty money through a closing, and the crime hides behind an ordinary transaction. Mortgage professionals sit at that exact chokepoint, in direct contact with the buyer, which is why the law leans on them so hard."
+            }
+          ]
+        },
+        {
+          "heading": "the agencies, by job",
+          "paras": [
+            {
+              "html": "Three Treasury bodies run this world, each with one job. The financial-intelligence unit that collects the reports and hunts for patterns — that's <b>FinCEN</b>, the Financial Crimes Enforcement Network, the BSA's administrator. The supervisor that examines national banks to keep them sound and compliant is the <b>OCC</b>, the Office of the Comptroller of the Currency. And the sanctions enforcer that maintains the list of people the U.S. forbids doing business with is <b>OFAC</b>, the Office of Foreign Assets Control. Report to FinCEN; answer to the OCC; screen against OFAC."
+            }
+          ],
+          "synth": {
+            "q": "Match each Treasury body to its job: FinCEN, OCC, OFAC.",
+            "a": "FinCEN (Financial Crimes Enforcement Network) is the BSA administrator that collects reports and analyzes financial intelligence; the OCC (Office of the Comptroller of the Currency) supervises and examines national banks for safety, soundness, and BSA compliance; OFAC (Office of Foreign Assets Control) runs U.S. economic sanctions and the list of barred persons."
+          }
+        },
+        {
+          "heading": "your first duty: know the customer",
+          "paras": [
+            {
+              "html": "The first thing every financial institution owes the law is certainty about <em>who</em> it's dealing with — money can't be traced if identities are fake. So each one must run a <b>Customer Identification Program (CIP)</b>: verify and record the identity of anyone opening an account or applying for a loan. The CIP is the foundation the reporting sits on, and its detailed mechanics come from the USA PATRIOT Act, covered next."
+            }
+          ]
+        },
+        {
+          "heading": "the anti-money-laundering program",
+          "paras": [
+            {
+              "html": "Every institution — banks and mortgage companies alike — must maintain a written <b>anti-money-laundering (AML) program</b> built on <span class=\"cloze\" data-accept='[\"4\",\"four\"]' data-reveal=\"four\">?</span> pillars: internal policies, procedures, and controls; a designated <b>compliance officer</b>; ongoing employee <b>training</b>; and an independent <b>audit</b> to test that the program actually works. The four together are meant to make catching laundering a routine, not an accident."
+            }
+          ],
+          "synth": {
+            "q": "What are the four required pillars of an anti-money-laundering program?",
+            "a": "Internal policies, procedures, and controls; a designated compliance officer; an ongoing employee training program; and an independent audit function to test the program."
+          }
+        },
+        {
+          "heading": "your second duty: report the suspicious",
+          "paras": [
+            {
+              "html": "When something looks like laundering or fraud, you file a <b>Suspicious Activity Report (SAR)</b> — electronically, to FinCEN. The clock is <span class=\"cloze\" data-accept='[\"30 days\",\"30\",\"thirty\",\"thirty days\"]' data-reveal=\"30 days\">?</span> from the date the activity is spotted. If no suspect has been identified yet, filing can be pushed back another 30 days to try to name one — but never beyond 60 days total. When the activity needs immediate attention, like suspected terrorist financing, you also alert law enforcement directly, on top of the SAR."
+            }
+          ]
+        },
+        {
+          "heading": "the dollar thresholds — and why they don't apply to you",
+          "paras": [
+            {
+              "html": "For banks, SARs kick in at dollar lines: insider abuse in <b>any</b> amount, criminal violations of $5,000 or more when a suspect is known, and $25,000 or more even when no suspect is. But for <b>mortgage</b> lenders and brokers, there is no dollar floor at all — a mortgage professional must file a SAR for <b>any</b> suspicious activity, regardless of the amount. The one carve-out: a person selling their own property and arranging its financing is exempt from filing."
+            }
+          ],
+          "synth": {
+            "q": "How does the SAR dollar threshold differ for a mortgage lender versus a bank?",
+            "a": "Banks file SARs at dollar thresholds — any amount for insider abuse, $5,000+ with a known suspect, $25,000+ without one. Mortgage lenders and brokers have no dollar floor: they must file a SAR for any suspicious activity regardless of the amount involved."
+          }
+        },
+        {
+          "heading": "never tip off the subject",
+          "paras": [
+            {
+              "html": "A SAR is secret by law. Once one is filed, it is <b>illegal to tell the subject</b> that a report was made — no warning, no hint. If someone subpoenas the SAR or asks anything that would reveal its existence, you refuse and may notify FinCEN of the request. A copy of every SAR, along with the CIP and account records behind it, must be kept for at least <span class=\"cloze\" data-accept='[\"5 years\",\"5\",\"five\",\"five years\"]' data-reveal=\"5 years\">?</span> from filing."
+            }
+          ]
+        },
+        {
+          "heading": "the sanctions list (OFAC)",
+          "paras": [
+            {
+              "html": "Some people the United States simply forbids you to transact with — foreign terrorists, narcotics traffickers, certain regimes — collected on OFAC's list of <b>Specially Designated Nationals (SDNs) and Blocked Persons</b>. Before issuing a mortgage, you must screen the applicant against that list. A match means you <b>may not proceed</b> — completing a blocked transaction is itself a violation with severe penalties. Blocked transactions must be reported to OFAC within <span class=\"cloze\" data-accept='[\"10 days\",\"10\",\"ten\",\"ten days\"]' data-reveal=\"10 days\">?</span>, and an annual Report of Blocked Property is due each September 30."
+            }
+          ]
+        },
+        {
+          "heading": "what a red flag looks like",
+          "paras": [
+            {
+              "html": "A <b>red flag</b> is anything that warrants a second look — not proof of a crime, just a reason to pay attention (everyone stays innocent until proven otherwise). In a loan file, common ones include cash deposits structured just under $10,000, documents with deletions or correction fluid, a Social Security number or address that doesn't match across the file, a cash-out refinance of a property the seller only just bought, or a buyer who already lives in the home they're supposedly purchasing. The rule isn't to accuse — it's to not ignore."
             }
           ]
         }
@@ -2659,54 +2727,120 @@ const section3: SectionContent = {
       "review": {
         "flashcards": [
           {
-            "peg": "no suspect",
-            "topic": "SAR filing",
-            "q": "If no suspect is identified, how long can the SAR deadline extend?",
-            "a": "an extra 30 days, but no later than <span class='hl'>60 days</span> from the activity"
+            "peg": "the report",
+            "topic": "Currency reporting",
+            "q": "Which report covers a cash transaction of $10,000 or more?",
+            "a": "the <span class='hl'>Currency Transaction Report (CTR)</span>"
           },
           {
-            "peg": "tipping off",
-            "topic": "SAR filing",
-            "q": "Once a SAR is filed, what's prohibited?",
-            "a": "telling the subject or disclosing the SAR's existence — that's illegal"
+            "peg": "FinCEN",
+            "topic": "The agencies",
+            "q": "Which agency administers the BSA and collects the reports?",
+            "a": "<span class='hl'>FinCEN</span> — the Financial Crimes Enforcement Network (Treasury)"
           },
           {
-            "peg": "retention",
-            "topic": "Recordkeeping",
-            "q": "How long must SARs and CIP/account records be kept?",
-            "a": "at least <span class='hl'>5 years</span> from the date of filing"
+            "peg": "60 max",
+            "topic": "SAR",
+            "q": "The absolute maximum time to file a SAR?",
+            "a": "<span class='hl'>60 days</span> from the date the activity was identified"
+          },
+          {
+            "peg": "$25k no suspect",
+            "topic": "SAR",
+            "q": "A bank's SAR threshold when no suspect can be identified?",
+            "a": "<span class='hl'>$25,000</span> or more"
+          },
+          {
+            "peg": "sell-your-own",
+            "topic": "SAR",
+            "q": "Who's exempt from the mortgage SAR-filing requirement?",
+            "a": "an individual <span class='hl'>selling their own property</span> and arranging its financing"
+          },
+          {
+            "peg": "structuring",
+            "topic": "Money laundering",
+            "q": "What is 'structuring'?",
+            "a": "breaking a large cash deposit into smaller ones <span class='hl'>under $10,000</span> to dodge reporting"
+          },
+          {
+            "peg": "SDN list",
+            "topic": "OFAC",
+            "q": "What is OFAC's list of barred persons called?",
+            "a": "<span class='hl'>Specially Designated Nationals (SDNs)</span> and Blocked Persons"
+          },
+          {
+            "peg": "Sept 30",
+            "topic": "OFAC",
+            "q": "When is the annual Report of Blocked Property due?",
+            "a": "each <span class='hl'>September 30</span>"
+          },
+          {
+            "peg": "the OCC",
+            "topic": "The agencies",
+            "q": "Which body examines national banks for safety and BSA compliance?",
+            "a": "the <span class='hl'>OCC</span> — Office of the Comptroller of the Currency"
           }
         ],
         "mcq": [
           {
-            "q": "A Currency Transaction Report covers cash transactions at or above —",
+            "q": "The correct order of money laundering's three stages is —",
             "opts": [
-              "$3,000",
-              "$5,000",
-              "$10,000",
-              "$25,000"
+              "layering, placement, integration",
+              "placement, layering, integration",
+              "integration, layering, placement",
+              "placement, integration, layering"
+            ],
+            "correct": 1
+          },
+          {
+            "q": "A mortgage broker must file a SAR for suspicious activity —",
+            "opts": [
+              "only above $5,000",
+              "only above $25,000",
+              "regardless of the dollar amount",
+              "only if a suspect is identified"
             ],
             "correct": 2
           },
           {
-            "q": "A SAR is filed with —",
+            "q": "After filing a SAR, informing the subject that a report was filed is —",
             "opts": [
-              "OFAC",
-              "FinCEN",
-              "the CFPB",
-              "the FTC"
+              "required",
+              "illegal",
+              "optional",
+              "encouraged"
             ],
             "correct": 1
           },
           {
-            "q": "OFAC's Annual Report of Blocked Property is due each year by —",
+            "q": "If a mortgage applicant matches an OFAC SDN listing, the lender must —",
             "opts": [
-              "December 31",
-              "September 30",
-              "April 15",
-              "June 30"
+              "charge a higher rate",
+              "not proceed with the transaction",
+              "require a co-signer",
+              "proceed but file a CTR"
             ],
             "correct": 1
+          },
+          {
+            "q": "SARs and the CIP/account records behind them must be retained for at least —",
+            "opts": [
+              "1 year",
+              "3 years",
+              "5 years",
+              "7 years"
+            ],
+            "correct": 2
+          },
+          {
+            "q": "FinCEN is a division of —",
+            "opts": [
+              "the U.S. Treasury",
+              "the FBI",
+              "the CFPB",
+              "the Federal Reserve"
+            ],
+            "correct": 0
           }
         ]
       }
@@ -2728,35 +2862,71 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "A mortgage application is a dossier — income, Social Security number, account balances, the whole financial life of the person across the desk. <b>GLBA governs what the institution may do with that dossier</b> once it holds it: tell you what gets shared, let you stop some of the sharing, and actually guard the data."
+              "html": "Your lender knows an enormous amount about you — income, balances, debts, Social Security number. The <b>Gramm-Leach-Bliley Act (GLBA)</b> is the law that says it can't just do whatever it wants with that. Passed in 1999, GLBA forces financial institutions to guard your private financial information, tell you what they share, let you say no to some of it, and actually secure the data they hold."
             }
           ]
         },
         {
-          "heading": "notice and opt-out",
-          "anchor": {
-            "file": "soldier-painting.PNG",
-            "caption": "Privacy notice",
-            "kind": "char"
-          },
+          "heading": "why bank mergers created a privacy problem",
           "paras": [
             {
-              "html": "The relationship opens with a <b>privacy notice</b> spelling out what the institution shares, and that notice repeats annually for as long as you're a customer — owed at the start of the relationship and once <span class=\"cloze\" data-accept='[\"annually\",\"annual\",\"every year\",\"yearly\"]' data-reveal=\"annually\">?</span> thereafter. Built into it is your right to <b>opt out</b> of having nonpublic personal information shared with nonaffiliated third parties."
+              "html": "For most of the 20th century a Depression-era law, <b>Glass-Steagall</b> (1933), kept banking, investing, and insurance in separate companies. GLBA tore down that wall, letting them combine into single <b>financial holding companies</b>. Convenient — but now one corporate family could hold your checking account, your brokerage, and your insurance, pooling a complete financial picture of you in one place. That concentration is exactly the privacy risk GLBA was written to manage."
+            }
+          ]
+        },
+        {
+          "heading": "what NPI is",
+          "paras": [
+            {
+              "html": "The thing GLBA protects is your <b>nonpublic personal information (NPI)</b> — the financial details about you that someone <em>couldn't</em> just dig up through a public records search or a Freedom of Information Act request. Your account balance and loan application are NPI; something already public isn't. The protection covers information tied to products you get for personal, family, or household use — a business or commercial account falls outside it."
+            }
+          ]
+        },
+        {
+          "heading": "consumer versus customer",
+          "paras": [
+            {
+              "html": "GLBA splits the people it protects into two, and the difference decides how often they hear from you. A <b>consumer</b> uses a financial product without a continuing relationship — someone who just gets a quote. A <b>customer</b> has a formal, ongoing relationship — they opened an account or took a loan. The distinction matters because a customer is owed the privacy notice up front <em>and</em> on a repeating basis, while a one-time consumer is not."
+            }
+          ]
+        },
+        {
+          "heading": "the deal: notice and opt-out",
+          "paras": [
+            {
+              "html": "The core bargain is simple. Before a financial institution shares your NPI with a <b>nonaffiliated third party</b> — an outside company it doesn't own or control — it must first tell you clearly that it may, and give you a real chance to <b>opt out</b> and stop it. There are practical exceptions: it can share NPI to get the deal done (ordering your title report) or under a joint marketing agreement without an opt-out. But it can <b>never</b> hand your account number to an outside company for that company's telemarketing or mail marketing."
             }
           ],
           "synth": {
-            "q": "GLBA's privacy machinery has two moving parts the institution owes the consumer. Name both, including the notice's timing.",
-            "a": "A privacy notice at the start of the relationship and annually thereafter, plus the right to opt out of sharing nonpublic personal information with nonaffiliated third parties."
+            "q": "Before sharing a customer's NPI with a nonaffiliated third party, what must a financial institution do?",
+            "a": "It must first clearly and conspicuously tell the customer that it may share the information, and give the customer a reasonable opportunity and simple method to opt out before any sharing occurs. (Exceptions exist for sharing needed to perform the transaction or under joint marketing agreements.)"
           }
         },
         {
-          "heading": "safeguards and penalties",
+          "heading": "the privacy notice",
           "paras": [
             {
-              "html": "The <b>Safeguards Rule</b> turns privacy into engineering: the institution must run a written information-security program protecting customer data, with regular testing, monitoring, and adjustment as threats change."
-            },
+              "html": "The vehicle for all this is the <b>privacy notice</b>. A financial institution must give a customer a clear written notice of its information-sharing policies when the relationship begins and <span class=\"cloze\" data-accept='[\"annually\",\"yearly\",\"once a year\",\"every year\"]' data-reveal=\"annually\">?</span> after that. The notice spells out what it collects, what it shares and with whom, and how to opt out. One break: if its policies haven't changed since the last notice, it doesn't have to send the yearly one."
+            }
+          ]
+        },
+        {
+          "heading": "the Safeguards Rule",
+          "paras": [
             {
-              "html": "The penalties bite at two levels. The institution can be fined up to $100,000 per violation, so its exposure runs to <span class=\"cloze\" data-accept='[\"$100,000\",\"100000\",\"one hundred thousand\"]' data-reveal=\"$100,000\">?</span> each time. Officers and directors face up to $10,000 each, with imprisonment of up to 5 years behind it."
+              "html": "Promising privacy is worthless if the data leaks, so GLBA's <b>Safeguards Rule</b> requires a written <b>information security program</b> — real administrative, technical, and physical protections for customer information. It has to name a qualified individual to run it, run regular risk assessments, control who can reach the data, test and monitor the protections, train staff, and oversee any service providers that touch the information. The idea is a living program, not a filed-away policy."
+            }
+          ],
+          "synth": {
+            "q": "What does GLBA's Safeguards Rule require a financial institution to build?",
+            "a": "A written information security program with administrative, technical, and physical safeguards to protect customer information — including a designated qualified individual to run it, regular risk assessments, access controls, ongoing testing and monitoring, staff training, and oversight of service providers."
+          }
+        },
+        {
+          "heading": "what non-compliance costs",
+          "paras": [
+            {
+              "html": "GLBA's penalties are steep enough to take seriously. An institution can be fined up to <span class=\"cloze\" data-accept='[\"$100,000\",\"100000\",\"100,000\",\"one hundred thousand\"]' data-reveal=\"$100,000\">?</span> per violation, its officers and directors up to $10,000 each, and violations can carry imprisonment of up to five years, plus license revocation and the reputational hit that follows."
             }
           ]
         }
@@ -2764,48 +2934,82 @@ const section3: SectionContent = {
       "review": {
         "flashcards": [
           {
-            "peg": "safeguards",
-            "topic": "Safeguards Rule",
-            "q": "What does the GLBA Safeguards Rule require?",
-            "a": "a written <span class='hl'>information-security program</span> to protect customer data, with regular testing, monitoring, and adjustment"
+            "peg": "tore the wall",
+            "topic": "Origin",
+            "q": "Which 1933 law did GLBA repeal, letting banks, brokerages, and insurers merge?",
+            "a": "<span class='hl'>Glass-Steagall</span>"
           },
           {
-            "peg": "people",
+            "peg": "not NPI",
+            "topic": "NPI",
+            "q": "Is information findable through a public records search or FOIA request NPI?",
+            "a": "<span class='hl'>No</span> — that's public personal information, not protected NPI"
+          },
+          {
+            "peg": "no acct #",
+            "topic": "Sharing limits",
+            "q": "Can a lender share your account number with an outside company for its marketing?",
+            "a": "<span class='hl'>Never</span> — account numbers can't go to a nonaffiliated third party for marketing"
+          },
+          {
+            "peg": "unchanged = skip",
+            "topic": "Privacy notice",
+            "q": "When is the annual privacy notice NOT required?",
+            "a": "when the institution's sharing <span class='hl'>policies haven't changed</span>"
+          },
+          {
+            "peg": "one-time",
+            "topic": "Who's covered",
+            "q": "Who gets the privacy notice repeatedly — a consumer or a customer?",
+            "a": "a <span class='hl'>customer</span> (formal ongoing relationship); a one-time consumer does not"
+          },
+          {
+            "peg": "officers too",
             "topic": "Penalties",
-            "q": "GLBA penalty against officers/directors, plus prison?",
-            "a": "up to <span class='hl'>$10,000</span> per officer/director and imprisonment up to <span class='hl'>5 years</span>"
+            "q": "GLBA fine cap for an institution's officers and directors?",
+            "a": "up to <span class='hl'>$10,000</span> each (and up to 5 years' imprisonment)"
           }
         ],
         "mcq": [
           {
-            "q": "A GLBA privacy notice is owed to the customer —",
+            "q": "GLBA exists chiefly to protect a consumer's —",
             "opts": [
-              "once, at account opening only",
-              "at the start of the relationship and annually thereafter",
-              "only when sharing changes",
-              "every quarter"
+              "credit score",
+              "nonpublic personal (financial) information",
+              "interest rate",
+              "property value"
             ],
             "correct": 1
           },
           {
-            "q": "The maximum GLBA penalty against the institution per violation is —",
+            "q": "A 'customer' under GLBA differs from a 'consumer' in that a customer —",
             "opts": [
-              "$10,000",
-              "$50,000",
-              "$100,000",
-              "$1,000,000"
+              "has a formal, ongoing relationship (an account or loan)",
+              "always pays cash",
+              "is a business, not an individual",
+              "has opted out of sharing"
             ],
-            "correct": 2
+            "correct": 0
           },
           {
-            "q": "The opt-out right covers sharing nonpublic personal information with —",
+            "q": "Before sharing NPI with a nonaffiliated third party, an institution must —",
             "opts": [
-              "affiliated companies",
-              "nonaffiliated third parties",
-              "credit bureaus",
-              "federal regulators"
+              "get a court order",
+              "give notice and an opportunity to opt out",
+              "charge a fee",
+              "notify the CFPB"
             ],
             "correct": 1
+          },
+          {
+            "q": "The GLBA Safeguards Rule requires —",
+            "opts": [
+              "a written information security program",
+              "a fixed interest rate",
+              "an annual credit report",
+              "a co-signer"
+            ],
+            "correct": 0
           }
         ]
       }
@@ -3084,61 +3288,124 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "A borrower fills out an application with a name and a number, and at face value you can't tell whether any of it is real. After 2001, anti-money-laundering law grew a counterterrorism arm to close that gap, and it reinforced every institution's duty to maintain an Anti-Money-Laundering (AML) program. <b>For an MLO it lands as the Customer Identification Program (CIP)</b> — the duty to verify a customer is who they claim to be before the relationship goes forward, so identity-checking sits inside the larger machinery for catching laundering."
+              "html": "The attacks of September 11, 2001 were funded through ordinary bank accounts, so part of the response was to tighten the financial system itself. Weeks later Congress passed the <b>USA PATRIOT Act</b>, which — among far broader counterterrorism powers — strengthened the Bank Secrecy Act's grip on money laundering and pushed identity checks deeper into every financial institution, mortgage companies included. Where BSA/AML set up the reporting, the PATRIOT Act sharpened the question underneath it: are you certain who you're dealing with?"
             }
           ]
         },
         {
-          "heading": "what cip collects",
-          "anchor": {
-            "file": "caution-mirror.PNG",
-            "caption": "verify identity",
-            "kind": "char"
-          },
+          "heading": "knowing exactly who you're lending to",
           "paras": [
             {
-              "html": "At minimum a CIP gathers four pieces of identifying information before opening the account: name, date of birth, address, and an identification number such as an SSN or TIN. Each one narrows who the applicant can be, and together those <span class=\"cloze\" data-accept='[\"four\",\"4\"]' data-reveal=\"four\">?</span> data points give the institution enough to check the person against its records and government lists."
+              "html": "The PATRIOT Act's centerpiece for lenders is the <b>Customer Identification Program (CIP)</b> — the formal routine for proving an applicant is who they claim to be. Every institution must verify and record the identity of anyone opening an account or applying for a loan, post a notice in its lobby that it will ask for identification, and check applicants against government <b>watch lists</b> of known or suspected terrorists. Someone already verified as an existing customer doesn't have to prove their identity again."
             }
           ],
           "synth": {
-            "q": "Name the four pieces of identifying information a CIP must collect at minimum.",
-            "a": "Name, date of birth, address, and an identification number (e.g., SSN or TIN)."
+            "q": "What three things must a Customer Identification Program (CIP) do?",
+            "a": "Verify the identity of any person opening an account or applying for a loan (to the extent reasonable and practicable), keep records of the identifying information used, and check the person against government lists of known or suspected terrorists."
           }
+        },
+        {
+          "heading": "the mortgage identity steps",
+          "paras": [
+            {
+              "html": "For a mortgage, the CIP has a concrete sequence. At application, the lender gives every applicant the <b>Patriot Act Information Disclosure</b>, explaining that identification is required. Then, for anyone not already a customer, the loan originator must collect a valid, <b>government-issued photo ID</b> whose picture clearly resembles the person presenting it — and attest, <b>under penalty of law</b>, that identity was verified as the Act requires. Getting this wrong isn't a paperwork slip; the attestation carries legal weight."
+            }
+          ]
+        },
+        {
+          "heading": "the watch lists",
+          "paras": [
+            {
+              "html": "Verifying identity is only half the check; the other half is <em>who</em> that verified person is. The CIP requires screening applicants against government lists of terrorists and barred parties — the same duty as OFAC's Specially Designated Nationals list from BSA/AML. A match is a hard stop: no financial institution may open an account or make a loan for anyone on such a list."
+            }
+          ]
+        },
+        {
+          "heading": "credit files and terror investigations",
+          "paras": [
+            {
+              "html": "The Act also reaches into credit files. A credit bureau must hand a consumer's report and file to a government agency conducting an authorized international-terrorism investigation when the agency certifies in writing that it needs it. And the bureau must stay silent about it: it may <b>not</b> tell the consumer — or note in the report — that a government agency requested or obtained access to the file."
+            }
+          ]
         }
       ],
       "review": {
         "flashcards": [
           {
-            "peg": "the program",
-            "topic": "Customer identification",
-            "q": "What program does the PATRIOT Act require to verify identity?",
-            "a": "a <span class='hl'>Customer Identification Program (CIP)</span>"
+            "peg": "post-9/11",
+            "topic": "Origin",
+            "q": "The USA PATRIOT Act strengthened which earlier law's anti-laundering rules?",
+            "a": "the <span class='hl'>Bank Secrecy Act</span> (BSA/AML)"
           },
           {
-            "peg": "broader duty",
-            "topic": "AML obligations",
-            "q": "What broader AML obligation did the PATRIOT Act reinforce?",
-            "a": "maintaining an <span class='hl'>Anti-Money-Laundering (AML)</span> program"
+            "peg": "lobby sign",
+            "topic": "CIP",
+            "q": "What must an institution post in its lobby under its CIP?",
+            "a": "a notice that it will require <span class='hl'>identification</span> to open an account or apply for a loan"
+          },
+          {
+            "peg": "the disclosure",
+            "topic": "CIP",
+            "q": "What does a mortgage applicant receive at application under the PATRIOT Act?",
+            "a": "the <span class='hl'>Patriot Act Information Disclosure</span>"
+          },
+          {
+            "peg": "already known",
+            "topic": "CIP",
+            "q": "Must an already-verified existing customer re-prove their identity?",
+            "a": "<span class='hl'>No</span> — only new, non-customers must"
+          },
+          {
+            "peg": "stay silent",
+            "topic": "Credit files",
+            "q": "May a bureau tell a consumer a government agency accessed their file for a terror probe?",
+            "a": "<span class='hl'>No</span> — it must not disclose the access"
+          },
+          {
+            "peg": "penalty of law",
+            "topic": "CIP",
+            "q": "How does an MLO confirm they verified a new customer's identity?",
+            "a": "by attesting <span class='hl'>under penalty of law</span>, after collecting a government photo ID that resembles the person"
           }
         ],
         "mcq": [
           {
-            "q": "The PATRIOT Act requires financial institutions to verify customer identity through a —",
+            "q": "The USA PATRIOT Act's Customer Identification Program requires a lender to —",
             "opts": [
-              "Suspicious Activity Report",
-              "Customer Identification Program (CIP)",
-              "Currency Transaction Report",
-              "privacy opt-out notice"
+              "guarantee the lowest rate",
+              "verify identity and screen against government watch lists",
+              "pull a credit report weekly",
+              "waive closing costs"
             ],
             "correct": 1
           },
           {
-            "q": "Which set is the minimum identifying information a CIP collects?",
+            "q": "A mortgage applicant who is a brand-new (non-existing) customer must provide —",
             "opts": [
-              "Name, employer, salary, SSN",
-              "Name, date of birth, address, identification number",
-              "Name, address, credit score, account balance",
-              "Date of birth, address, marital status, income"
+              "two years of tax returns",
+              "a valid government-issued photo ID resembling them",
+              "a co-signer",
+              "a notarized letter"
+            ],
+            "correct": 1
+          },
+          {
+            "q": "If an applicant appears on a government terrorist watch list, the institution must —",
+            "opts": [
+              "charge more",
+              "not open the account or make the loan",
+              "require a larger down payment",
+              "proceed but monitor"
+            ],
+            "correct": 1
+          },
+          {
+            "q": "When a government agency lawfully accesses a consumer's credit file for a terror investigation, the bureau —",
+            "opts": [
+              "must notify the consumer",
+              "may not disclose the access to the consumer",
+              "must publish it in the report",
+              "charges the consumer a fee"
             ],
             "correct": 1
           }
