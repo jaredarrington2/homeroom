@@ -2,21 +2,21 @@
   "unitId": "fcra",
   "name": "FCRA",
   "reg": "Fair Credit Reporting Act",
-  "groupCount": 3,
+  "groupCount": 10,
   "items": [
     {
       "kind": "prose",
       "id": "audio-fcra-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "Your credit report decides whether you get the loan and at what rate, so the law over it really answers two questions: who's allowed to pull your file, and what power you have to fix it when it's wrong. A lender can't open your report on a whim — it needs a permissible purpose, such as your own application for credit. And the score that lender sees isn't a black box: a FICO score is built from five weighted pieces — payment history at 35%, amounts owed at 30%, length of credit history at 15%, credit mix at 10%, and new credit and inquiries at 10% — so the single biggest lever, payment history, carries 35% of the score."
+      "text": "Somewhere, a private company keeps a file on you — every credit card, car loan, and mortgage you've ever had, whether you paid on time, how much you owe right now. It sells that file to lenders, who read it to guess whether you'll pay them back. That file is your credit report, and the company keeping it is a credit bureau. The Fair Credit Reporting Act (FCRA) is the law that keeps the file honest: it makes your report accurate, keeps it private, and gives you the power to fix what's wrong. FCRA passed in 1970 and runs through Regulation V."
     },
     {
       "kind": "prose",
       "id": "audio-fcra-g1-p0",
       "gi": 1,
       "pi": 0,
-      "text": "When you dispute an item, the furnisher and the bureau owe you an investigation on a clock — 30 days from receipt, with a 15-day extension if they genuinely need it, which pushes the outside limit to 45 days. Separately, after a mortgage application the lender has to hand you the credit-score disclosure quickly — within 3 business days. So if you apply on a Monday, that score disclosure is due within 3 business days."
+      "text": "Three parties move your data. A furnisher — a bank or card company you borrow from — reports how you're handling the account. A consumer reporting agency (CRA), the credit bureau, gathers those reports into your file. And a user — a lender deciding whether to approve you — buys the file to make the call. There are three (Equifax, Experian, TransUnion) nationwide bureaus — Equifax, Experian, and TransUnion — which is why a lender often pulls a merged \"tri-merge\" report showing all three."
     },
     {
       "kind": "gate",
@@ -29,13 +29,74 @@
       "id": "audio-fcra-g2-p0",
       "gi": 2,
       "pi": 0,
-      "text": "Derogatory items don't sit on your file forever; each kind ages off on its own schedule. Most negatives — late payments, collections, charge-offs, foreclosures — drop after about 7 years (late payments can linger to roughly 7½). Bankruptcy splits by chapter: a Chapter 13 stays 7 years, while the heavier Chapter 7 stays a full 10 years on your file. So the chapter that haunts a borrower the longest, Chapter 7, sticks for 10 years."
+      "text": "A credit report is a snapshot of one thing: how likely you are to repay. It's built from more than whether you pay on time — it lists your past addresses and employers, your tradelines (each open account, its balance, its payment record, how much of your limit you're using), matters of public record like a bankruptcy, and recent inquiries when someone pulled your file. Together those paint a picture of how you manage money, and it moves both ways: bad credit can be repaired over time, good credit can be damaged fast."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-fcra-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "Lenders boil the report down to a credit score — a single number predicting repayment. Five things build it, and they don't count equally. Payment history — whether you pay on time — is the biggest, at 35%. Amounts owed — how much of your available credit you're using — is next at 30%. Then length of credit history at 15%, your credit mix (cards, car loans, a mortgage) at 10%, and new credit — recent hard inquiries — at 10%. A lender usually weighs the whole report, not just the score."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-fcra-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "Your file isn't public. A user may pull it only with both permission from you and a permissible purpose — a legitimate reason like reviewing your loan application. A lender can't just check the credit of anyone it's curious about. In a mortgage, completing the Uniform Residential Loan Application (URLA) gives the lender both at once; short of that, you sign a Credit Report Authorization and Release. And though a lender can go over your report with you, it can't hand you a copy — only a bureau or credit repository can give you that."
     },
     {
       "kind": "gate",
       "gateType": "synth",
-      "id": "audio-fcra-g2-gate-synth",
-      "gi": 2
+      "id": "audio-fcra-g4-gate-synth",
+      "gi": 4
+    },
+    {
+      "kind": "prose",
+      "id": "audio-fcra-g5-p0",
+      "gi": 5,
+      "pi": 0,
+      "text": "Ever get a \"you're pre-approved\" card offer you never asked for? That's a lender pulling limited data to prescreen you, which FCRA allows only if the offer carries an opt-out. A short opt-out notice must run in at least 12-point type type with a toll-free number, pointing to a longer \"PRESCREEN & OPT-OUT NOTICE.\" Separately, a company can't use information from an affiliate to market to you unless it disclosed that use and gave you a chance to opt out first."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-fcra-g6-p0",
+      "gi": 6,
+      "pi": 0,
+      "text": "When your report shows something false, you can send a direct dispute to the furnisher that reported it. Once it gets a proper dispute — enough detail to identify the account and the basis, with any supporting proof — the furnisher must investigate and report back within 30 days (a 15-day extension is allowed), and if it finds the item was wrong, correct it with every bureau it told. It can decline only a frivolous dispute — one with too little information or a repeat of a settled one — and it has to say so within 5 business days."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-fcra-g6-gate-synth",
+      "gi": 6
+    },
+    {
+      "kind": "prose",
+      "id": "audio-fcra-g7-p0",
+      "gi": 7,
+      "pi": 0,
+      "text": "A formal dispute can take 30 to 60 days — too slow when a loan is waiting. So a lender can order faster tools through the credit repository: a tradeline verification for a stray error, or an investigative consumer report (a \"full factual\") when there are many, where the repository interviews the borrower and re-checks the file. A rapid rescore can then update the score once errors are corrected. The catch: these only fix the file for the current transaction — to clear an error for good, the borrower still has to take it up with the furnisher or the bureau directly."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-fcra-g8-p0",
+      "gi": 8,
+      "pi": 0,
+      "text": "If a lender denies you based even partly on your credit, that denial is an adverse action, and FCRA gives you three things. The notice must name the bureau it pulled from (name and address), it must tell you that you can get a free copy of that report, and it must state plainly that the lender — not the bureau — made the decision. The bureau only sold the data; the call was the lender's."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-fcra-g8-gate-synth",
+      "gi": 8
+    },
+    {
+      "kind": "prose",
+      "id": "audio-fcra-g9-p0",
+      "gi": 9,
+      "pi": 0,
+      "text": "Bad marks don't stay forever — most age off after 7 years: late payments, collections, charged-off accounts, foreclosures, and a Chapter 13 bankruptcy. The heavier ones run longer: a Chapter 7 bankruptcy reports for 10 years, and a paid tax lien for 7 years from its filing. One never expires on its own: an unpaid tax lien can be reported potentially forever."
     },
     {
       "kind": "gate",

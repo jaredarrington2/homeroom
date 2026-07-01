@@ -1894,87 +1894,178 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "Redlining never shows up in a single file. One denial looks like a credit call; it's only across a whole market — who got approved, who didn't, which neighborhoods went dry — that the pattern surfaces. <b>HMDA forces that pattern into the open.</b> Covered lenders report standardized data on the applications they take, and regulators and the public comb it for discrimination and for areas being starved of credit. The data lands in a <b>Loan/Application Register</b>, and a lender holds onto the underlying register data for at least 3 years and the public disclosure reports built from it for at least 5 years."
+              "html": "Most federal laws tell a lender how to make a loan. <b>HMDA</b> — the Home Mortgage Disclosure Act — tells lenders to <b>report</b> the loans they make, so regulators can see the whole pattern from above. It makes most mortgage lenders hand over data on every application and loan, sorted by geography and by the borrower's race, sex, and national origin. It sounds invasive until you know what it's watching for. HMDA passed in 1975 and runs through Regulation C, with the CFPB as its main enforcer."
+            }
+          ]
+        },
+        {
+          "heading": "redlining, and why lending got mapped",
+          "paras": [
+            {
+              "html": "For decades, lenders drew literal lines on maps — often red — around poor and majority-minority neighborhoods and refused to lend inside them, no matter how qualified the individual applicant. That practice is <b>redlining</b>: an institution avoiding whole areas, starving them of the mortgages that build wealth. One loan officer's decision looks innocent; the pattern across thousands of loans is where the discrimination shows. HMDA forces that pattern into the open — which is the honest answer to \"why does the government need the race of everyone I lend to.\" Not to police one loan, but to catch the map."
+            }
+          ],
+          "synth": {
+            "q": "Why does HMDA make lenders report the race and location of their borrowers?",
+            "a": "To detect redlining and other discriminatory lending patterns. A single loan decision can't reveal discrimination, but the aggregate data across many loans exposes whether a lender is avoiding certain neighborhoods or groups — letting regulators enforce fair-lending laws at scale."
+          }
+        },
+        {
+          "heading": "what HMDA is for",
+          "paras": [
+            {
+              "html": "The reporting serves three purposes. It shows whether lenders are meeting the <b>housing needs of their communities</b>; it helps <b>public officials steer investment</b> toward areas that need it; and it helps <b>identify discriminatory lending</b> and enforce the laws against it. Everyone is entitled to <em>pursue</em> a mortgage on equal footing — HMDA isn't a promise that everyone qualifies, only that the door is open to everyone equally, and the data is how that's checked."
+            }
+          ]
+        },
+        {
+          "heading": "the register",
+          "paras": [
+            {
+              "html": "The data lands in one document: the <b>Loan/Application Register (LAR)</b>. Every covered application and loan becomes a row, filled with data points — the loan's purpose and amount, the outcome, the property's location, and the applicant's demographics. Bundled together and reported, the LAR is the raw material regulators sift for unfair patterns. Of everything on it, the <b>loan originator</b> is personally responsible for collecting one piece: the applicant's <b>race, national origin, and sex</b>."
             }
           ]
         },
         {
           "heading": "who has to report",
-          "anchor": {
-            "file": "caution-mirror.PNG",
-            "caption": "the pattern",
-            "kind": "char"
-          },
           "paras": [
             {
-              "html": "A lender gets pulled in by volume, not by choice. The closed-end trigger is 25 closed-end mortgage loans in each of the two preceding calendar years — make fewer than that and you stay out, so the line that turns an ordinary lender into a HMDA reporter sits at <span class=\"cloze\" data-accept='[\"25\",\"twenty-five\",\"25 closed-end loans\"]' data-reveal=\"25\">?</span> closed-end loans. For revolving credit, the parallel trigger is at least <b>200 open-end lines of credit</b>, again in each of the two preceding years."
+              "html": "Not every lender reports — the rules aim at institutions doing real volume. A lender is covered if it has an office in a metropolitan area, meets an annually-set asset threshold, and crosses a loan-count line: it originated at least <span class=\"cloze\" data-accept='[\"25\",\"twenty-five\"]' data-reveal=\"25\">?</span> closed-end mortgage loans in each of the two prior years, or at least 200 open-end lines of credit in each of those years. Fall below both counts and you're exempt from that category of reporting."
+            }
+          ]
+        },
+        {
+          "heading": "what's left out",
+          "paras": [
+            {
+              "html": "HMDA also carves out loans that wouldn't tell regulators much about community lending. Out: loans on <b>unimproved land</b>, temporary <b>bridge financing</b>, loans made for <b>agricultural</b> or <b>business</b> purposes (unless the loan is a home purchase, home improvement, or refinance), the purchase of loan pools or servicing rights alone, and any loan under <span class=\"cloze\" data-accept='[\"$500\",\"500\",\"five hundred\"]' data-reveal=\"$500\">?</span>. What's left — ordinary consumer home loans — is exactly the lending HMDA wants to map."
+            }
+          ]
+        },
+        {
+          "heading": "when the reports are due",
+          "paras": [
+            {
+              "html": "The main filing is annual: a lender submits its full prior-year LAR, in electronic form and certified accurate by someone who knows the data, by <span class=\"cloze\" data-accept='[\"March 1\",\"march 1\",\"march 1st\",\"march first\"]' data-reveal=\"March 1\">?</span> each year. The largest lenders also file quarterly — within 60 days after each quarter except the fourth — but only if they reported at least 60,000 covered loans and applications the year before. Most lenders file once a year and never touch the quarterly rule."
+            }
+          ]
+        },
+        {
+          "heading": "how long records are kept",
+          "paras": [
+            {
+              "html": "HMDA sets two retention clocks. The submitted <b>LAR</b> is kept for at least <span class=\"cloze\" data-accept='[\"3 years\",\"3\",\"three\",\"three years\"]' data-reveal=\"3 years\">?</span> from the date it's filed. The underlying records and data used to build the reports are kept longer — at least 5 years. The register that's filed ages off first; the working papers behind it live longer."
+            }
+          ]
+        },
+        {
+          "heading": "collecting the demographic data",
+          "paras": [
+            {
+              "html": "How the borrower's demographics get recorded depends on how you meet. <b>Face-to-face</b> — where you can see and hear each other — you ask the applicant to self-identify race, national origin, and sex; if they refuse, you must record it yourself based on <b>visual observation</b>. <b>Not face-to-face</b> — over the phone or online — you still offer the chance to self-identify, but if the applicant declines, you simply note the refusal and stop. If you later meet them or see a photo, you may <b>not</b> go back and change what was recorded."
             }
           ],
           "synth": {
-            "q": "The open-end line-of-credit trigger pulls a lender into HMDA at what count, and over what look-back?",
-            "a": "At least 200 open-end lines of credit in each of the two preceding calendar years."
+            "q": "How does demographic collection differ between a face-to-face and a non-face-to-face application when the applicant won't self-identify?",
+            "a": "Face-to-face, if the applicant refuses to self-identify their race, national origin, and sex, the loan originator must record it based on visual observation. Non-face-to-face (phone or online), the originator only notes the refusal and stops — and may not later alter the data even after meeting the applicant or seeing a photo."
           }
-        },
-        {
-          "heading": "reporting cadence",
-          "paras": [
-            {
-              "html": "Most reporters file once a year. A high-volume lender — one with <b>60,000 or more</b> covered loans and applications combined (purchased loans don't count) — has to file <b>quarterly</b> instead. Each quarterly report covers every quarter but the fourth, and the deadline is the same each time: 60 calendar days after the quarter closes. So a high-volume lender's first-quarter numbers are due within <span class=\"cloze\" data-accept='[\"60 days\",\"60\",\"sixty\",\"60 calendar days\"]' data-reveal=\"60 calendar days\">?</span> of the quarter ending."
-            }
-          ]
         }
       ],
       "review": {
         "flashcards": [
           {
-            "peg": "purpose",
+            "peg": "reg + year",
+            "topic": "What HMDA is",
+            "q": "HMDA's regulation and year?",
+            "a": "<span class='hl'>Regulation C</span>, enacted <span class='hl'>1975</span>"
+          },
+          {
+            "peg": "three jobs",
             "topic": "Purpose",
-            "q": "What does HMDA exist to expose?",
-            "a": "Discriminatory lending, <span class='hl'>redlining</span>, and underserved areas — by collecting lending data"
+            "q": "HMDA's three purposes?",
+            "a": "gauge if lenders meet <span class='hl'>community housing needs</span>, guide <span class='hl'>public investment</span>, and detect <span class='hl'>discriminatory lending</span>"
           },
           {
-            "peg": "quarterly trigger",
-            "topic": "Data reporting",
-            "q": "Loan volume that forces quarterly (not annual) reporting?",
-            "a": "<span class='hl'>60,000 or more</span> covered loans and applications combined, excluding purchased loans"
+            "peg": "open-end line",
+            "topic": "Coverage",
+            "q": "The open-end coverage threshold?",
+            "a": "at least <span class='hl'>200</span> open-end lines in each of the two prior years"
           },
           {
-            "peg": "keep it",
+            "peg": "big filers",
+            "topic": "Reporting",
+            "q": "Who must file HMDA data quarterly?",
+            "a": "lenders that reported at least <span class='hl'>60,000</span> covered loans and applications the prior year"
+          },
+          {
+            "peg": "working papers",
             "topic": "Recordkeeping",
-            "q": "HMDA retention — LAR data vs. disclosure reports?",
-            "a": "LAR data <span class='hl'>at least 3 years</span>; disclosure reports <span class='hl'>at least 5 years</span>"
+            "q": "How long are the underlying records behind the reports kept?",
+            "a": "at least <span class='hl'>5 years</span>"
+          },
+          {
+            "peg": "MLO's piece",
+            "topic": "The register",
+            "q": "Which data is the loan originator personally responsible for collecting?",
+            "a": "the applicant's <span class='hl'>race, national origin, and sex</span>"
+          },
+          {
+            "peg": "certified",
+            "topic": "Reporting",
+            "q": "How is the annual LAR submitted?",
+            "a": "in <span class='hl'>electronic</span> form, <span class='hl'>certified accurate</span> by someone who knows the data"
           }
         ],
         "mcq": [
           {
-            "q": "A lender becomes a HMDA reporter on closed-end volume at —",
+            "q": "The lending pattern HMDA is chiefly designed to expose is —",
             "opts": [
-              "10 loans in the prior year",
-              "25 loans in each of the two preceding calendar years",
-              "50 loans in the prior year",
-              "100 loans in each of the two preceding years"
+              "usury",
+              "redlining / discriminatory lending",
+              "money laundering",
+              "appraisal fraud"
             ],
             "correct": 1
           },
           {
-            "q": "The open-end line-of-credit threshold for HMDA reporting is —",
+            "q": "The Loan/Application Register (LAR) is —",
             "opts": [
-              "100 lines",
-              "200 lines in each of the two preceding calendar years",
-              "500 lines",
-              "1,000 lines"
+              "a borrower's promissory note",
+              "the record of covered applications and loans a lender reports",
+              "a credit report",
+              "the closing disclosure"
             ],
             "correct": 1
           },
           {
-            "q": "HMDA disclosure reports must be retained for at least —",
+            "q": "A lender must report under HMDA if, among other tests, it originated at least —",
             "opts": [
-              "2 years",
-              "3 years",
-              "5 years",
-              "7 years"
+              "5 closed-end loans in the prior year",
+              "25 closed-end loans in each of the two prior years",
+              "1,000 loans in the prior year",
+              "any loan at all"
+            ],
+            "correct": 1
+          },
+          {
+            "q": "Which loan is exempt from HMDA reporting?",
+            "opts": [
+              "a home purchase mortgage",
+              "a refinance of a home loan",
+              "a loan on unimproved land",
+              "a home improvement loan"
             ],
             "correct": 2
+          },
+          {
+            "q": "In a non-face-to-face application where the applicant refuses to self-identify, the loan originator —",
+            "opts": [
+              "records demographics by visual observation",
+              "notes the refusal and may not later alter it",
+              "must deny the application",
+              "guesses based on the name"
+            ],
+            "correct": 1
           }
         ]
       }
@@ -2007,7 +2098,55 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "Your credit report decides whether you get the loan and at what rate, so the law over it really answers two questions: who's allowed to pull your file, and what power you have to fix it when it's wrong. A lender can't open your report on a whim — it needs a <b>permissible purpose</b>, such as your own application for credit. And the score that lender sees isn't a black box: a FICO score is built from five weighted pieces — payment history at 35%, amounts owed at 30%, length of credit history at 15%, credit mix at 10%, and new credit and inquiries at 10% — so the single biggest lever, payment history, carries 35% of the score."
+              "html": "Somewhere, a private company keeps a <b>file on you</b> — every credit card, car loan, and mortgage you've ever had, whether you paid on time, how much you owe right now. It sells that file to lenders, who read it to guess whether you'll pay them back. That file is your <b>credit report</b>, and the company keeping it is a <b>credit bureau</b>. The <b>Fair Credit Reporting Act (FCRA)</b> is the law that keeps the file honest: it makes your report accurate, keeps it private, and gives you the power to fix what's wrong. FCRA passed in 1970 and runs through Regulation V."
+            }
+          ]
+        },
+        {
+          "heading": "the players",
+          "paras": [
+            {
+              "html": "Three parties move your data. A <b>furnisher</b> — a bank or card company you borrow from — reports how you're handling the account. A <b>consumer reporting agency (CRA)</b>, the credit bureau, gathers those reports into your file. And a <b>user</b> — a lender deciding whether to approve you — buys the file to make the call. There are <span class=\"cloze\" data-accept='[\"3\",\"three\"]' data-reveal=\"three (Equifax, Experian, TransUnion)\">?</span> nationwide bureaus — Equifax, Experian, and TransUnion — which is why a lender often pulls a merged \"tri-merge\" report showing all three."
+            }
+          ],
+          "synth": {
+            "q": "Name the three roles FCRA regulates in the flow of your credit data and what each does.",
+            "a": "A furnisher (a lender you have an account with) reports your account behavior; a consumer reporting agency / credit bureau (Equifax, Experian, TransUnion) assembles that into your file; and a user (a lender deciding on your application) buys the report to make its decision."
+          }
+        },
+        {
+          "heading": "what's in the report",
+          "paras": [
+            {
+              "html": "A credit report is a snapshot of one thing: how likely you are to repay. It's built from more than whether you pay on time — it lists your past addresses and employers, your <b>tradelines</b> (each open account, its balance, its payment record, how much of your limit you're using), matters of public record like a bankruptcy, and recent <b>inquiries</b> when someone pulled your file. Together those paint a picture of how you manage money, and it moves both ways: bad credit can be repaired over time, good credit can be damaged fast."
+            }
+          ]
+        },
+        {
+          "heading": "the score",
+          "paras": [
+            {
+              "html": "Lenders boil the report down to a <b>credit score</b> — a single number predicting repayment. Five things build it, and they don't count equally. <b>Payment history</b> — whether you pay on time — is the biggest, at <span class=\"cloze\" data-accept='[\"35%\",\"35\",\"thirty-five percent\",\"thirty-five\"]' data-reveal=\"35%\">?</span>. <b>Amounts owed</b> — how much of your available credit you're using — is next at 30%. Then <b>length of credit history</b> at 15%, your <b>credit mix</b> (cards, car loans, a mortgage) at 10%, and <b>new credit</b> — recent hard inquiries — at 10%. A lender usually weighs the whole report, not just the score."
+            }
+          ]
+        },
+        {
+          "heading": "who's allowed to look",
+          "paras": [
+            {
+              "html": "Your file isn't public. A user may pull it only with both <b>permission</b> from you and a <b>permissible purpose</b> — a legitimate reason like reviewing your loan application. A lender can't just check the credit of anyone it's curious about. In a mortgage, completing the <b>Uniform Residential Loan Application (URLA)</b> gives the lender both at once; short of that, you sign a Credit Report Authorization and Release. And though a lender can go over your report with you, it can't hand you a copy — only a bureau or credit repository can give you that."
+            }
+          ],
+          "synth": {
+            "q": "What two things must a lender have before pulling a consumer's credit report, and what supplies them in a mortgage?",
+            "a": "Both permission from the consumer and a permissible purpose (a legitimate reason, such as acting on the consumer's loan application). Completing the Uniform Residential Loan Application (URLA) provides both; otherwise the consumer signs a Credit Report Authorization and Release form."
+          }
+        },
+        {
+          "heading": "prescreened offers and affiliate marketing",
+          "paras": [
+            {
+              "html": "Ever get a \"you're pre-approved\" card offer you never asked for? That's a lender pulling limited data to <b>prescreen</b> you, which FCRA allows only if the offer carries an opt-out. A short opt-out notice must run in at least <span class=\"cloze\" data-accept='[\"12-point\",\"12\",\"12 point\",\"twelve-point\",\"twelve\"]' data-reveal=\"12-point type\">?</span> type with a toll-free number, pointing to a longer \"PRESCREEN &amp; OPT-OUT NOTICE.\" Separately, a company can't use information from an <b>affiliate</b> to market to you unless it disclosed that use and gave you a chance to opt out first."
             }
           ]
         },
@@ -2015,72 +2154,160 @@ const section3: SectionContent = {
           "heading": "fixing what's wrong",
           "paras": [
             {
-              "html": "When you dispute an item, the furnisher and the bureau owe you an investigation on a clock — 30 days from receipt, with a 15-day extension if they genuinely need it, which pushes the outside limit to 45 days. Separately, after a mortgage application the lender has to hand you the credit-score disclosure quickly — within 3 business days. So if you apply on a Monday, that score disclosure is due within <span class=\"cloze\" data-accept='[\"3 business days\",\"3\",\"three\",\"three business days\"]' data-reveal=\"3 business days\">?</span>."
+              "html": "When your report shows something false, you can send a <b>direct dispute</b> to the furnisher that reported it. Once it gets a proper dispute — enough detail to identify the account and the basis, with any supporting proof — the furnisher must investigate and report back within <span class=\"cloze\" data-accept='[\"30 days\",\"30\",\"thirty\",\"thirty days\"]' data-reveal=\"30 days\">?</span> (a 15-day extension is allowed), and if it finds the item was wrong, correct it with every bureau it told. It can decline only a <b>frivolous</b> dispute — one with too little information or a repeat of a settled one — and it has to say so within 5 business days."
             }
           ],
           "synth": {
-            "q": "A borrower disputes a tradeline. How long does the investigation run, and what extension is allowed?",
-            "a": "30 days from receipt of the dispute, extendable by 15 days if more time is genuinely needed — 45 days at the outside."
+            "q": "What must a furnisher do when it receives a proper direct dispute, and how fast?",
+            "a": "It must reasonably investigate the disputed item and report the results to the consumer within 30 days (a 15-day extension is available), and if the information was inaccurate, notify every consumer reporting agency it reported to and send the correction. A frivolous or insufficient dispute can be declined, with notice to the consumer within 5 business days."
+          }
+        },
+        {
+          "heading": "the quick fix versus the real fix",
+          "paras": [
+            {
+              "html": "A formal dispute can take 30 to 60 days — too slow when a loan is waiting. So a lender can order faster tools through the credit repository: a <b>tradeline verification</b> for a stray error, or an <b>investigative consumer report</b> (a \"full factual\") when there are many, where the repository interviews the borrower and re-checks the file. A <b>rapid rescore</b> can then update the score once errors are corrected. The catch: these only fix the file for the <b>current transaction</b> — to clear an error for good, the borrower still has to take it up with the furnisher or the bureau directly."
+            }
+          ]
+        },
+        {
+          "heading": "when you're turned down",
+          "paras": [
+            {
+              "html": "If a lender denies you based even partly on your credit, that denial is an <b>adverse action</b>, and FCRA gives you three things. The notice must name the <b>bureau</b> it pulled from (name and address), it must tell you that you can get a <b>free copy</b> of that report, and it must state plainly that the lender — not the bureau — made the decision. The bureau only sold the data; the call was the lender's."
+            }
+          ],
+          "synth": {
+            "q": "When a lender denies credit based on a report, what three things must the adverse-action notice give the consumer?",
+            "a": "The name and address of the consumer reporting agency the lender used, notice that the consumer is entitled to a free copy of that report, and a statement that the lender — not the bureau — made the decision."
           }
         },
         {
           "heading": "how long marks last",
           "paras": [
             {
-              "html": "Derogatory items don't sit on your file forever; each kind ages off on its own schedule. Most negatives — late payments, collections, charge-offs, foreclosures — drop after about <b>7 years</b> (late payments can linger to roughly 7½). Bankruptcy splits by chapter: a Chapter 13 stays <b>7 years</b>, while the heavier Chapter 7 stays a full 10 years on your file. So the chapter that haunts a borrower the longest, Chapter 7, sticks for <span class=\"cloze\" data-accept='[\"10 years\",\"10\",\"ten\"]' data-reveal=\"10 years\">?</span>."
+              "html": "Bad marks don't stay forever — most age off after <b>7 years</b>: late payments, collections, charged-off accounts, foreclosures, and a Chapter 13 bankruptcy. The heavier ones run longer: a <b>Chapter 7 bankruptcy</b> reports for <span class=\"cloze\" data-accept='[\"10 years\",\"10\",\"ten\",\"ten years\"]' data-reveal=\"10 years\">?</span>, and a paid tax lien for 7 years from its filing. One never expires on its own: an <b>unpaid</b> tax lien can be reported potentially forever."
             }
-          ],
-          "synth": {
-            "q": "Contrast how long a Chapter 7 versus a Chapter 13 bankruptcy stays on a credit report.",
-            "a": "Chapter 7 stays 10 years; Chapter 13 stays 7 years."
-          }
+          ]
         }
       ],
       "review": {
         "flashcards": [
           {
-            "peg": "to pull",
-            "topic": "Permissible purpose",
-            "q": "What does a lender need before accessing a credit report?",
-            "a": "A <span class='hl'>permissible purpose</span> under FCRA — e.g., the consumer's own credit application"
+            "peg": "reg + year",
+            "topic": "What FCRA is",
+            "q": "FCRA's regulation and year?",
+            "a": "<span class='hl'>Regulation V</span>, enacted <span class='hl'>1970</span>"
           },
           {
-            "peg": "fico mix",
-            "topic": "Credit scoring",
-            "q": "The five FICO categories and their weights?",
-            "a": "Payment history <span class='hl'>35%</span>, amounts owed <span class='hl'>30%</span>, length of history <span class='hl'>15%</span>, credit mix <span class='hl'>10%</span>, new credit/inquiries <span class='hl'>10%</span>"
+            "peg": "the other four",
+            "topic": "The score",
+            "q": "Beyond payment history, name the other credit-score factors.",
+            "a": "amounts owed <span class='hl'>30%</span>, length of history <span class='hl'>15%</span>, credit mix <span class='hl'>10%</span>, new credit <span class='hl'>10%</span>"
+          },
+          {
+            "peg": "no self-copy",
+            "topic": "Access rules",
+            "q": "May a lender hand you a copy of your own credit report?",
+            "a": "<span class='hl'>No</span> — only a bureau or credit repository can"
+          },
+          {
+            "peg": "long notice",
+            "topic": "Prescreened offers",
+            "q": "The longer prescreen opt-out notice is headed…",
+            "a": "\"<span class='hl'>PRESCREEN &amp; OPT-OUT NOTICE</span>\" (≥8-point type)"
+          },
+          {
+            "peg": "frivolous",
+            "topic": "Disputes",
+            "q": "A furnisher that rejects a dispute as frivolous must say so within…",
+            "a": "<span class='hl'>5 business days</span>"
+          },
+          {
+            "peg": "unpaid lien",
+            "topic": "How long marks last",
+            "q": "Which derogatory mark can be reported potentially forever?",
+            "a": "an <span class='hl'>unpaid tax lien</span>"
+          },
+          {
+            "peg": "most = 7",
+            "topic": "How long marks last",
+            "q": "How long do late payments, collections, charge-offs, and foreclosures report?",
+            "a": "<span class='hl'>7 years</span>"
+          },
+          {
+            "peg": "only this deal",
+            "topic": "Disputes",
+            "q": "A tradeline verification or rapid rescore fixes an error…",
+            "a": "only for the <span class='hl'>current transaction</span> — not permanently"
+          },
+          {
+            "peg": "no outdated",
+            "topic": "Access rules",
+            "q": "FCRA bars a bureau or furnisher from reporting…",
+            "a": "<span class='hl'>outdated</span> negative information past its reporting period"
           }
         ],
         "mcq": [
           {
-            "q": "The single largest FICO scoring factor is —",
+            "q": "FCRA exists to keep a consumer report —",
             "opts": [
-              "amounts owed (30%)",
-              "payment history (35%)",
-              "length of credit history (15%)",
-              "new credit (10%)"
+              "cheap for lenders to buy",
+              "accurate, fair, and private",
+              "permanent and unchangeable",
+              "hidden from the consumer"
             ],
             "correct": 1
           },
           {
-            "q": "Most derogatory items (collections, charge-offs, foreclosures) generally remain on a report for —",
+            "q": "Completing a Uniform Residential Loan Application (URLA) gives a lender —",
             "opts": [
-              "2 years",
-              "5 years",
-              "7 years",
-              "10 years"
+              "permission only",
+              "a permissible purpose only",
+              "both permission and a permissible purpose",
+              "neither — a separate release is always required"
             ],
             "correct": 2
           },
           {
-            "q": "Amounts owed accounts for what share of a FICO score?",
+            "q": "A Chapter 13 bankruptcy generally reports for —",
             "opts": [
-              "10%",
-              "15%",
-              "30%",
-              "35%"
+              "3 years",
+              "7 years",
+              "10 years",
+              "forever"
             ],
-            "correct": 2
+            "correct": 1
+          },
+          {
+            "q": "Which is NOT a permissible purpose to pull someone's credit report?",
+            "opts": [
+              "reviewing their loan application",
+              "a neighbor's curiosity",
+              "an employment decision they applied for",
+              "an insurance application they initiated"
+            ],
+            "correct": 1
+          },
+          {
+            "q": "An adverse-action notice based on credit must tell the consumer all EXCEPT —",
+            "opts": [
+              "the name and address of the bureau used",
+              "that they can get a free copy of the report",
+              "that the lender, not the bureau, made the decision",
+              "the exact internal score cutoff the lender used"
+            ],
+            "correct": 3
+          },
+          {
+            "q": "The three nationwide credit bureaus are —",
+            "opts": [
+              "Equifax, Experian, and TransUnion",
+              "FICO, VantageScore, and Experian",
+              "Fannie Mae, Freddie Mac, and Ginnie Mae",
+              "the CFPB, FTC, and OCC"
+            ],
+            "correct": 0
           }
         ]
       }
@@ -2099,32 +2326,51 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "FCRA assumed the identity on your file was yours to begin with. <b>FACTA is the amendment that added the identity-theft toolkit</b> — the alerts you can drop onto your own credit file, the free report you're owed every year, and the rule about destroying the data once you're done with it."
+              "html": "<b>Identity theft</b> is someone using your name, Social Security number, or other details to open credit as if they were you — and your credit file is where the damage lands, filling with accounts you never opened. In 2003 Congress bolted a set of identity-theft defenses onto FCRA: the <b>Fair and Accurate Credit Transactions Act (FACTA)</b>. It adds alerts you can flag on your file, a free look at your own report, rules for shredding sensitive paper, and duties when a lender spots a mismatched address."
             }
           ]
         },
         {
-          "heading": "the three alerts",
-          "anchor": {
-            "file": "caution-mirror.PNG",
-            "caption": "red flags",
-            "kind": "char"
-          },
+          "heading": "fraud alerts",
           "paras": [
             {
-              "html": "The alerts come in three lengths, and the length tells you the situation behind it. An <b>initial fraud alert</b> — \"something feels off\" — stays on the file for one year, and the bureau has to deliver a free report within 3 business days of it; so the lightest, no-proof-needed alert lasts <span class=\"cloze\" data-accept='[\"1 year\",\"1\",\"one year\",\"one\"]' data-reveal=\"1 year\">?</span>. An <b>extended alert</b>, dropped after real, documented theft, runs a full <b>7 years</b>. An <b>active-duty (military) alert</b>, shielding a deployed service member's credit, lasts <b>1 year</b>."
+              "html": "A <b>fraud alert</b> is a flag on your credit file telling any lender who pulls it to stop and confirm you're really you before opening anything. Two lengths. An <b>initial</b> fraud alert — placed on a good-faith suspicion you've been or may be victimized — lasts at least <span class=\"cloze\" data-accept='[\"1 year\",\"1\",\"one\",\"one year\"]' data-reveal=\"1 year\">?</span>. An <b>extended</b> alert requires you to file an identity-theft report first, and in exchange it runs for 7 years, keeps you off prescreened-offer lists for 5 years, and entitles you to two free reports in the following 12 months. Whichever bureau places an alert must pass it to the other two."
             }
           ],
           "synth": {
-            "q": "Name FACTA's three fraud alerts and how long each lasts.",
-            "a": "Initial fraud alert — 1 year (free report within 3 business days); extended fraud alert — 7 years; active-duty/military alert — 1 year."
+            "q": "How does an extended fraud alert differ from an initial one?",
+            "a": "An initial fraud alert lasts at least 1 year and needs only a good-faith suspicion of fraud. An extended alert requires the consumer to file an identity-theft report, and in return lasts 7 years, removes the consumer from prescreened-offer lists for 5 years, and provides two free reports over the next 12 months."
           }
         },
         {
-          "heading": "free report and disposal",
+          "heading": "active-duty alerts",
           "paras": [
             {
-              "html": "Beyond the alerts, FACTA entitles every consumer to <b>one free credit report per year from each of the three</b> major reporting agencies. And once a business is finished with consumer-report data, the <b>FTC Disposal Rule</b> requires it be destroyed securely — shredded or burned — so it can't be reconstructed."
+              "html": "A deployed service member can't watch their credit closely, so FACTA gives them an <b>active-duty alert</b>. Like a fraud alert, it tells lenders to verify identity before extending credit, and it lasts at least <span class=\"cloze\" data-accept='[\"12 months\",\"12\",\"twelve\",\"twelve months\",\"1 year\",\"one year\"]' data-reveal=\"12 months\">?</span>. It also keeps the service member off prescreened credit and insurance lists for two years."
+            }
+          ]
+        },
+        {
+          "heading": "free reports and fast disclosures",
+          "paras": [
+            {
+              "html": "FACTA opened up access to your own file. Every consumer can get a <b>free copy of their credit report once a year from each of the three bureaus</b>. On a mortgage, the lender must send a <b>Credit Score Disclosure</b> — telling you the score it used — within <span class=\"cloze\" data-accept='[\"3 business days\",\"3\",\"three\",\"three business days\"]' data-reveal=\"3 business days\">?</span> of your application. And when you report identity theft to a bureau, it must block the theft-related entries from your file, hand you a Victim's Notice of Rights, and give you copies of the fraudulent transaction's paperwork free."
+            }
+          ]
+        },
+        {
+          "heading": "the disposal rule",
+          "paras": [
+            {
+              "html": "Discarded paper is a thief's easiest source, so the FTC <b>Disposal Rule</b> — which FACTA requires — allows only <span class=\"cloze\" data-accept='[\"3\",\"three\"]' data-reveal=\"three (shredding, burning, pulverizing)\">?</span> ways to destroy a consumer's personal information: <b>shredding</b>, <b>burning</b>, or <b>pulverizing</b>. Tossing sensitive documents in the trash intact is a violation."
+            }
+          ]
+        },
+        {
+          "heading": "address changes and discrepancies",
+          "paras": [
+            {
+              "html": "A sudden address change is a classic sign of a stolen identity, so FACTA makes lenders watch for it. A user must run a secure process for handling <b>address-change</b> requests, verifying the person asking is really the customer. And when a credit report comes back with an address that doesn't match what the applicant gave — an <b>address discrepancy</b> — the lender must form a <b>reasonable belief</b> that the report actually belongs to the person in front of it before relying on it."
             }
           ]
         }
@@ -2132,48 +2378,82 @@ const section3: SectionContent = {
       "review": {
         "flashcards": [
           {
-            "peg": "free yearly",
-            "topic": "Consumer rights",
-            "q": "What is every consumer entitled to annually under FACTA?",
-            "a": "<span class='hl'>One free credit report per year</span> from each of the three major reporting agencies"
+            "peg": "the bolt-on",
+            "topic": "What FACTA is",
+            "q": "FACTA amended which law, and in what year?",
+            "a": "it amended <span class='hl'>FCRA</span> in <span class='hl'>2003</span>"
           },
           {
-            "peg": "disposal",
-            "topic": "Disposal Rule",
-            "q": "What does the FTC Disposal Rule require?",
-            "a": "Secure disposal of consumer-report info (<span class='hl'>shred/burn</span>) so it can't be reconstructed"
+            "peg": "AD list",
+            "topic": "Alerts",
+            "q": "An active-duty alert keeps a service member off prescreened-offer lists for…",
+            "a": "<span class='hl'>2 years</span>"
+          },
+          {
+            "peg": "annual free",
+            "topic": "Access",
+            "q": "How often can a consumer get a free report from each bureau?",
+            "a": "once a <span class='hl'>year</span>, from each of the three bureaus"
+          },
+          {
+            "peg": "free docs",
+            "topic": "Identity-theft response",
+            "q": "When a consumer reports that a transaction involved identity theft, the creditor must give…",
+            "a": "free <span class='hl'>copies of that transaction's documents</span>"
+          },
+          {
+            "peg": "reasonable belief",
+            "topic": "Address rules",
+            "q": "On an address discrepancy, what must the lender form before relying on the report?",
+            "a": "a <span class='hl'>reasonable belief</span> the report belongs to the applicant"
+          },
+          {
+            "peg": "block it",
+            "topic": "Identity-theft response",
+            "q": "After a consumer reports identity theft to a bureau, the bureau must provide a…",
+            "a": "<span class='hl'>Victim's Notice of Rights</span> (and block the fraudulent entries)"
           }
         ],
         "mcq": [
           {
-            "q": "An initial fraud alert lasts —",
+            "q": "FACTA's central purpose is to —",
             "opts": [
-              "90 days",
-              "1 year",
-              "2 years",
-              "7 years"
+              "set interest-rate caps",
+              "strengthen protection against identity theft",
+              "require flood insurance",
+              "license loan originators"
             ],
             "correct": 1
           },
           {
-            "q": "After an initial fraud alert, the bureau must provide a free report within —",
+            "q": "A user must maintain a secure process for handling —",
             "opts": [
-              "1 business day",
-              "3 business days",
-              "15 days",
-              "30 days"
+              "wire transfers",
+              "address-change requests",
+              "appraisal orders",
+              "rate locks"
             ],
             "correct": 1
           },
           {
-            "q": "An extended fraud alert remains on file for —",
+            "q": "Which lasts the longest?",
             "opts": [
-              "1 year",
-              "2 years",
-              "7 years",
-              "10 years"
+              "an initial fraud alert",
+              "an active-duty alert",
+              "an extended fraud alert",
+              "they are all the same length"
             ],
             "correct": 2
+          },
+          {
+            "q": "FACTA requires lenders to treat which as a possible identity-theft signal?",
+            "opts": [
+              "a high credit score",
+              "a suspicious address change",
+              "a large down payment",
+              "a fixed interest rate"
+            ],
+            "correct": 1
           }
         ]
       }
@@ -2186,71 +2466,128 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "FACTA told institutions to watch for identity theft. The Red Flags Rule is what \"watching\" actually becomes on the ground: a covered institution must put its watching in writing and maintain a written Identity Theft Prevention Program — the program that catches a stolen identity before it turns into a funded loan. Because nothing here can be informal or unwritten, what each covered institution has to keep on file is a <span class=\"cloze\" data-accept='[\"written identity theft prevention program\",\"written program\",\"identity theft prevention program\",\"written identity theft program\"]' data-reveal=\"written Identity Theft Prevention Program\">?</span>."
+              "html": "FACTA's alerts put tools in the consumer's hands. The <b>FTC Red Flags Rule</b> flips the burden onto the business: a lender must actively watch for identity theft <em>before</em> it opens or funds an account, not clean up afterward. Added to FACTA and effective <span class=\"cloze\" data-accept='[\"2008\",\"January 1, 2008\",\"Jan 1 2008\"]' data-reveal=\"January 1, 2008\">?</span>, it requires every creditor under Federal Trade Commission enforcement — which includes mortgage lenders and brokers — to run a written program to detect, prevent, and mitigate identity theft."
             }
           ]
         },
         {
-          "heading": "what the program does",
-          "anchor": {
-            "file": "caution-mirror.PNG",
-            "caption": "the flags",
-            "kind": "char"
-          },
+          "heading": "covered accounts",
           "paras": [
             {
-              "html": "The program has a three-part job in covered accounts: <b>detect, prevent, and mitigate</b> identity theft. The \"red flags\" it watches for are the concrete warning signs — an alert from a credit bureau, a suspicious or altered document, personal information that doesn't line up, an address mismatch, or unusual activity on the account."
+              "html": "The rule attaches to a <b>covered account</b>: an account a creditor offers mainly for personal, family, or household purposes that allows <b>multiple payments or transactions</b> — a mortgage is the textbook case. The multiple-payment part is what makes an account a standing target for impersonation over time, which is why these accounts, and not one-off transactions, are the ones the program has to guard."
+            }
+          ]
+        },
+        {
+          "heading": "the identity-theft prevention program",
+          "paras": [
+            {
+              "html": "At the center of the rule is a written <b>Identity Theft Prevention Program</b> — a standing routine, not a one-time policy. It has to do four things and then keep doing them: <b>identify</b> the red flags relevant to the creditor's accounts, <b>detect</b> those red flags in day-to-day business, <b>respond</b> appropriately when one appears, and stay <b>updated</b> as new theft patterns emerge. And it has to answer to leadership: the program reports to the board or senior management at least <span class=\"cloze\" data-accept='[\"annually\",\"yearly\",\"once a year\",\"1\",\"one\"]' data-reveal=\"annually\">?</span>."
             }
           ],
           "synth": {
-            "q": "What three things must a covered institution's Red Flags program do, and against what?",
-            "a": "Detect, prevent, and mitigate identity theft in connection with covered accounts."
+            "q": "What four ongoing jobs must an Identity Theft Prevention Program perform?",
+            "a": "Identify the red flags relevant to its covered accounts, detect those red flags in daily operations, respond appropriately when one appears, and keep the program updated as identity-theft risks change (reporting to the board or senior management at least annually)."
           }
+        },
+        {
+          "heading": "what a red flag looks like",
+          "paras": [
+            {
+              "html": "A <b>red flag</b> is a pattern that signals possible impersonation. The Guidelines give examples, and each makes sense once you picture the fraud behind it: an <b>alert from a credit bureau</b> or fraud-detection service; <b>suspicious documents</b> that look altered; <b>suspicious personal information</b>, like an address that doesn't match the file or a Social Security number that belongs to someone else; <b>unusual activity</b> on an existing account; or a <b>notice</b> from a customer, a victim, or law enforcement that theft may be underway. The rule expects staff to recognize these and act."
+            }
+          ],
+          "synth": {
+            "q": "Give two examples of a red flag and the fraud each one hints at.",
+            "a": "Examples include a credit-bureau or fraud-service alert, suspicious or altered documents, suspicious personal information (a mismatched address or a Social Security number tied to someone else), unusual activity on an existing account, or a notice from a customer/victim/law enforcement. Each suggests someone may be opening or using an account under a stolen identity."
+          }
+        },
+        {
+          "heading": "the guidelines and service providers",
+          "paras": [
+            {
+              "html": "The creditor must keep a written copy of <b>The Guidelines on Identity Theft Detection, Prevention, and Mitigation</b> on premises and build its program around them. Responsibility doesn't end at the company's own door: when a creditor hires a <b>service provider</b> to work on covered accounts, it must make sure that provider follows red-flag procedures too — and it can be held liable for harm to its customers if the provider's controls fall short. Failing to catch a red flag anyone in the role would reasonably be expected to spot can carry serious accountability."
+            }
+          ]
         }
       ],
       "review": {
         "flashcards": [
           {
-            "peg": "three jobs",
-            "topic": "Program functions",
-            "q": "The program's three required functions?",
-            "a": "<span class='hl'>Detect, prevent, and mitigate</span> identity theft in covered accounts"
+            "peg": "who it burdens",
+            "topic": "Scope",
+            "q": "Does the Red Flags Rule burden the consumer or the business?",
+            "a": "the <span class='hl'>business</span> — creditors under FTC enforcement, including mortgage lenders and brokers"
           },
           {
-            "peg": "examples",
-            "topic": "Red flag examples",
-            "q": "Give examples of red flags.",
-            "a": "Credit-bureau alerts, <span class='hl'>altered/suspicious documents</span>, inconsistent personal info, address mismatch, unusual account activity"
+            "peg": "covered account",
+            "topic": "Scope",
+            "q": "What makes an account a 'covered account'?",
+            "a": "a personal/family/household account allowing <span class='hl'>multiple payments</span> — e.g. a mortgage"
+          },
+          {
+            "peg": "written plan",
+            "topic": "The program",
+            "q": "What must every covered creditor maintain?",
+            "a": "a written <span class='hl'>Identity Theft Prevention Program</span>"
+          },
+          {
+            "peg": "on premises",
+            "topic": "The program",
+            "q": "What must the creditor keep a written copy of on premises?",
+            "a": "<span class='hl'>The Guidelines</span> on Identity Theft Detection, Prevention, and Mitigation"
+          },
+          {
+            "peg": "vendor too",
+            "topic": "Service providers",
+            "q": "Is a creditor responsible for a service provider's red-flag controls?",
+            "a": "<span class='hl'>Yes</span> — and it can be liable for customer harm if they fall short"
+          },
+          {
+            "peg": "must act",
+            "topic": "Enforcement",
+            "q": "What happens if staff miss a red flag they'd reasonably be expected to catch?",
+            "a": "they can face serious <span class='hl'>accountability</span> — the rule expects recognition and response"
           }
         ],
         "mcq": [
           {
-            "q": "The Red Flags Rule requires a covered institution to maintain —",
+            "q": "The Red Flags Rule places the duty to watch for identity theft on —",
             "opts": [
-              "a written Identity Theft Prevention Program",
-              "a Currency Transaction Report",
-              "a Customer Identification Program",
-              "an annual privacy notice"
+              "the consumer",
+              "the credit bureau",
+              "the creditor / financial institution",
+              "the FTC itself"
             ],
-            "correct": 0
+            "correct": 2
           },
           {
-            "q": "The three things a Red Flags program must do are —",
+            "q": "Which is a 'covered account' under the rule?",
             "opts": [
-              "report, audit, and disclose",
-              "detect, prevent, and mitigate",
-              "verify, retain, and notify",
-              "collect, store, and share"
+              "a one-time cash purchase",
+              "a mortgage loan",
+              "a wire transfer",
+              "a stock trade"
             ],
             "correct": 1
           },
           {
             "q": "Which is an example of a red flag?",
             "opts": [
-              "a 20% down payment",
-              "an address mismatch on the application",
+              "an on-time mortgage payment",
+              "an address on the application that doesn't match the credit report",
               "a high credit score",
-              "a co-signer on the loan"
+              "a 20% down payment"
+            ],
+            "correct": 1
+          },
+          {
+            "q": "An Identity Theft Prevention Program must be —",
+            "opts": [
+              "an unwritten understanding",
+              "a written, ongoing program that reports to leadership",
+              "prepared only after a breach",
+              "handled entirely by the FTC"
             ],
             "correct": 1
           }

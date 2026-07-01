@@ -2,21 +2,21 @@
   "unitId": "facta",
   "name": "FACTA",
   "reg": "Fair & Accurate Credit Transactions Act",
-  "groupCount": 3,
+  "groupCount": 6,
   "items": [
     {
       "kind": "prose",
       "id": "audio-facta-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "FCRA assumed the identity on your file was yours to begin with. FACTA is the amendment that added the identity-theft toolkit — the alerts you can drop onto your own credit file, the free report you're owed every year, and the rule about destroying the data once you're done with it."
+      "text": "Identity theft is someone using your name, Social Security number, or other details to open credit as if they were you — and your credit file is where the damage lands, filling with accounts you never opened. In 2003 Congress bolted a set of identity-theft defenses onto FCRA: the Fair and Accurate Credit Transactions Act (FACTA). It adds alerts you can flag on your file, a free look at your own report, rules for shredding sensitive paper, and duties when a lender spots a mismatched address."
     },
     {
       "kind": "prose",
       "id": "audio-facta-g1-p0",
       "gi": 1,
       "pi": 0,
-      "text": "The alerts come in three lengths, and the length tells you the situation behind it. An initial fraud alert — \"something feels off\" — stays on the file for one year, and the bureau has to deliver a free report within 3 business days of it; so the lightest, no-proof-needed alert lasts 1 year. An extended alert, dropped after real, documented theft, runs a full 7 years. An active-duty (military) alert, shielding a deployed service member's credit, lasts 1 year."
+      "text": "A fraud alert is a flag on your credit file telling any lender who pulls it to stop and confirm you're really you before opening anything. Two lengths. An initial fraud alert — placed on a good-faith suspicion you've been or may be victimized — lasts at least 1 year. An extended alert requires you to file an identity-theft report first, and in exchange it runs for 7 years, keeps you off prescreened-offer lists for 5 years, and entitles you to two free reports in the following 12 months. Whichever bureau places an alert must pass it to the other two."
     },
     {
       "kind": "gate",
@@ -29,7 +29,28 @@
       "id": "audio-facta-g2-p0",
       "gi": 2,
       "pi": 0,
-      "text": "Beyond the alerts, FACTA entitles every consumer to one free credit report per year from each of the three major reporting agencies. And once a business is finished with consumer-report data, the FTC Disposal Rule requires it be destroyed securely — shredded or burned — so it can't be reconstructed."
+      "text": "A deployed service member can't watch their credit closely, so FACTA gives them an active-duty alert. Like a fraud alert, it tells lenders to verify identity before extending credit, and it lasts at least 12 months. It also keeps the service member off prescreened credit and insurance lists for two years."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-facta-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "FACTA opened up access to your own file. Every consumer can get a free copy of their credit report once a year from each of the three bureaus. On a mortgage, the lender must send a Credit Score Disclosure — telling you the score it used — within 3 business days of your application. And when you report identity theft to a bureau, it must block the theft-related entries from your file, hand you a Victim's Notice of Rights, and give you copies of the fraudulent transaction's paperwork free."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-facta-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "Discarded paper is a thief's easiest source, so the FTC Disposal Rule — which FACTA requires — allows only three (shredding, burning, pulverizing) ways to destroy a consumer's personal information: shredding, burning, or pulverizing. Tossing sensitive documents in the trash intact is a violation."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-facta-g5-p0",
+      "gi": 5,
+      "pi": 0,
+      "text": "A sudden address change is a classic sign of a stolen identity, so FACTA makes lenders watch for it. A user must run a secure process for handling address-change requests, verifying the person asking is really the customer. And when a credit report comes back with an address that doesn't match what the applicant gave — an address discrepancy — the lender must form a reasonable belief that the report actually belongs to the person in front of it before relying on it."
     },
     {
       "kind": "gate",

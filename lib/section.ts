@@ -7,10 +7,12 @@
 //   tier 2 — synthesis short-answer: a concept group's 2+ facts, assembled in the reader's words
 //   tier 3 — review deck: everything else, as flashcards (flip) + MCQ (select)
 
-export type FigKind = "char" | "bldg";
+export type FigKind = "char" | "bldg" | "illus";
 
 export interface Figure {
-  /** Image filename as it sits in public/. char -> /characters, bldg -> /properties */
+  /** Image filename as it sits in public/. char -> /characters, bldg -> /properties,
+   *  illus -> /illustrations (authoring-time generated art; file may include a unit subdir,
+   *  e.g. "tila/finance-charge-card.png"). */
   file: string;
   /** ≤2-word mono caption naming the memory link, e.g. "outside RESPA", "Section 8" */
   caption: string;
@@ -44,6 +46,10 @@ export interface ConceptGroup {
   heading?: string;
   /** 0–1 small anchor image, matched to the group's core idea by manifest tags. */
   anchor?: Figure;
+  /** 0–1 full-width bespoke illustration (a generated study visual, not a floated anchor).
+   *  Rendered large after the prose, before the synth — for content-rich art like the
+   *  finance-charge sort card. Kind is typically "illus". */
+  illustration?: Figure;
   /** Listen feature: override the spoken text for this group's FIRST paragraph (e.g. to
    *  skip a scene-setting opener). Falls back to that paragraph's own spoken/html. */
   spoken?: string;
@@ -109,5 +115,6 @@ export interface SectionContent {
 
 /** Resolve a figure's public path. */
 export function figureSrc(fig: Figure): string {
-  return (fig.kind === "bldg" ? "/properties/" : "/characters/") + fig.file;
+  const dir = fig.kind === "bldg" ? "/properties/" : fig.kind === "illus" ? "/illustrations/" : "/characters/";
+  return dir + fig.file;
 }

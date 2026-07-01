@@ -54,6 +54,21 @@ export default function UnitReader({
               </figure>
             )}
             <ClozeProse paras={g.paras} unitId={unit.id} groupIndex={gi} />
+            {g.illustration && (
+              <figure className="sr-illus">
+                <Image
+                  src={figureSrc(g.illustration)}
+                  alt={g.illustration.caption}
+                  width={1536}
+                  height={1024}
+                  unoptimized
+                  loading="eager"
+                  sizes="(max-width: 40rem) 100vw, 40rem"
+                  style={{ width: "100%", height: "auto", display: "block" }}
+                />
+                <figcaption>{g.illustration.caption}</figcaption>
+              </figure>
+            )}
             {g.visual && <DisclosureVisual kind={g.visual} />}
             {g.synth && <Synth q={g.synth.q} a={g.synth.a} unitId={unit.id} groupIndex={gi} synthId={`${unit.id}-synth-${gi}`} />}
           </div>

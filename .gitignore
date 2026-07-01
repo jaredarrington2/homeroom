@@ -20,6 +20,10 @@
 .DS_Store
 *.pem
 
+# local generator caches (plate/overlay intermediates — the committed output lives in public/)
+scripts/.cache/
+.ts-build/
+
 # debug
 npm-debug.log*
 yarn-debug.log*

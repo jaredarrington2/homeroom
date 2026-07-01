@@ -2,27 +2,54 @@
   "unitId": "ftc-red-flags-rule",
   "name": "FTC Red Flags Rule",
   "reg": "Identity Theft Prevention",
-  "groupCount": 2,
+  "groupCount": 5,
   "items": [
     {
       "kind": "prose",
       "id": "audio-ftc-red-flags-rule-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "FACTA told institutions to watch for identity theft. The Red Flags Rule is what \"watching\" actually becomes on the ground: a covered institution must put its watching in writing and maintain a written Identity Theft Prevention Program — the program that catches a stolen identity before it turns into a funded loan. Because nothing here can be informal or unwritten, what each covered institution has to keep on file is a written Identity Theft Prevention Program."
+      "text": "FACTA's alerts put tools in the consumer's hands. The FTC Red Flags Rule flips the burden onto the business: a lender must actively watch for identity theft before it opens or funds an account, not clean up afterward. Added to FACTA and effective January 1, 2008, it requires every creditor under Federal Trade Commission enforcement — which includes mortgage lenders and brokers — to run a written program to detect, prevent, and mitigate identity theft."
     },
     {
       "kind": "prose",
       "id": "audio-ftc-red-flags-rule-g1-p0",
       "gi": 1,
       "pi": 0,
-      "text": "The program has a three-part job in covered accounts: detect, prevent, and mitigate identity theft. The \"red flags\" it watches for are the concrete warning signs — an alert from a credit bureau, a suspicious or altered document, personal information that doesn't line up, an address mismatch, or unusual activity on the account."
+      "text": "The rule attaches to a covered account: an account a creditor offers mainly for personal, family, or household purposes that allows multiple payments or transactions — a mortgage is the textbook case. The multiple-payment part is what makes an account a standing target for impersonation over time, which is why these accounts, and not one-off transactions, are the ones the program has to guard."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-ftc-red-flags-rule-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "At the center of the rule is a written Identity Theft Prevention Program — a standing routine, not a one-time policy. It has to do four things and then keep doing them: identify the red flags relevant to the creditor's accounts, detect those red flags in day-to-day business, respond appropriately when one appears, and stay updated as new theft patterns emerge. And it has to answer to leadership: the program reports to the board or senior management at least annually."
     },
     {
       "kind": "gate",
       "gateType": "synth",
-      "id": "audio-ftc-red-flags-rule-g1-gate-synth",
-      "gi": 1
+      "id": "audio-ftc-red-flags-rule-g2-gate-synth",
+      "gi": 2
+    },
+    {
+      "kind": "prose",
+      "id": "audio-ftc-red-flags-rule-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "A red flag is a pattern that signals possible impersonation. The Guidelines give examples, and each makes sense once you picture the fraud behind it: an alert from a credit bureau or fraud-detection service; suspicious documents that look altered; suspicious personal information, like an address that doesn't match the file or a Social Security number that belongs to someone else; unusual activity on an existing account; or a notice from a customer, a victim, or law enforcement that theft may be underway. The rule expects staff to recognize these and act."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-ftc-red-flags-rule-g3-gate-synth",
+      "gi": 3
+    },
+    {
+      "kind": "prose",
+      "id": "audio-ftc-red-flags-rule-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "The creditor must keep a written copy of The Guidelines on Identity Theft Detection, Prevention, and Mitigation on premises and build its program around them. Responsibility doesn't end at the company's own door: when a creditor hires a service provider to work on covered accounts, it must make sure that provider follows red-flag procedures too — and it can be held liable for harm to its customers if the provider's controls fall short. Failing to catch a red flag anyone in the role would reasonably be expected to spot can carry serious accountability."
     },
     {
       "kind": "gate",

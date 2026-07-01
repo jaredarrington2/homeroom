@@ -2,21 +2,21 @@
   "unitId": "hmda",
   "name": "HMDA",
   "reg": "Home Mortgage Disclosure Act · Reg C",
-  "groupCount": 3,
+  "groupCount": 9,
   "items": [
     {
       "kind": "prose",
       "id": "audio-hmda-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "Redlining never shows up in a single file. One denial looks like a credit call; it's only across a whole market — who got approved, who didn't, which neighborhoods went dry — that the pattern surfaces. HMDA forces that pattern into the open. Covered lenders report standardized data on the applications they take, and regulators and the public comb it for discrimination and for areas being starved of credit. The data lands in a Loan/Application Register, and a lender holds onto the underlying register data for at least 3 years and the public disclosure reports built from it for at least 5 years."
+      "text": "Most federal laws tell a lender how to make a loan. HMDA — the Home Mortgage Disclosure Act — tells lenders to report the loans they make, so regulators can see the whole pattern from above. It makes most mortgage lenders hand over data on every application and loan, sorted by geography and by the borrower's race, sex, and national origin. It sounds invasive until you know what it's watching for. HMDA passed in 1975 and runs through Regulation C, with the CFPB as its main enforcer."
     },
     {
       "kind": "prose",
       "id": "audio-hmda-g1-p0",
       "gi": 1,
       "pi": 0,
-      "text": "A lender gets pulled in by volume, not by choice. The closed-end trigger is 25 closed-end mortgage loans in each of the two preceding calendar years — make fewer than that and you stay out, so the line that turns an ordinary lender into a HMDA reporter sits at 25 closed-end loans. For revolving credit, the parallel trigger is at least 200 open-end lines of credit, again in each of the two preceding years."
+      "text": "For decades, lenders drew literal lines on maps — often red — around poor and majority-minority neighborhoods and refused to lend inside them, no matter how qualified the individual applicant. That practice is redlining: an institution avoiding whole areas, starving them of the mortgages that build wealth. One loan officer's decision looks innocent; the pattern across thousands of loans is where the discrimination shows. HMDA forces that pattern into the open — which is the honest answer to \"why does the government need the race of everyone I lend to.\" Not to police one loan, but to catch the map."
     },
     {
       "kind": "gate",
@@ -29,7 +29,55 @@
       "id": "audio-hmda-g2-p0",
       "gi": 2,
       "pi": 0,
-      "text": "Most reporters file once a year. A high-volume lender — one with 60,000 or more covered loans and applications combined (purchased loans don't count) — has to file quarterly instead. Each quarterly report covers every quarter but the fourth, and the deadline is the same each time: 60 calendar days after the quarter closes. So a high-volume lender's first-quarter numbers are due within 60 calendar days of the quarter ending."
+      "text": "The reporting serves three purposes. It shows whether lenders are meeting the housing needs of their communities; it helps public officials steer investment toward areas that need it; and it helps identify discriminatory lending and enforce the laws against it. Everyone is entitled to pursue a mortgage on equal footing — HMDA isn't a promise that everyone qualifies, only that the door is open to everyone equally, and the data is how that's checked."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hmda-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "The data lands in one document: the Loan/Application Register (LAR). Every covered application and loan becomes a row, filled with data points — the loan's purpose and amount, the outcome, the property's location, and the applicant's demographics. Bundled together and reported, the LAR is the raw material regulators sift for unfair patterns. Of everything on it, the loan originator is personally responsible for collecting one piece: the applicant's race, national origin, and sex."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hmda-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "Not every lender reports — the rules aim at institutions doing real volume. A lender is covered if it has an office in a metropolitan area, meets an annually-set asset threshold, and crosses a loan-count line: it originated at least 25 closed-end mortgage loans in each of the two prior years, or at least 200 open-end lines of credit in each of those years. Fall below both counts and you're exempt from that category of reporting."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hmda-g5-p0",
+      "gi": 5,
+      "pi": 0,
+      "text": "HMDA also carves out loans that wouldn't tell regulators much about community lending. Out: loans on unimproved land, temporary bridge financing, loans made for agricultural or business purposes (unless the loan is a home purchase, home improvement, or refinance), the purchase of loan pools or servicing rights alone, and any loan under $500. What's left — ordinary consumer home loans — is exactly the lending HMDA wants to map."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hmda-g6-p0",
+      "gi": 6,
+      "pi": 0,
+      "text": "The main filing is annual: a lender submits its full prior-year LAR, in electronic form and certified accurate by someone who knows the data, by March 1 each year. The largest lenders also file quarterly — within 60 days after each quarter except the fourth — but only if they reported at least 60,000 covered loans and applications the year before. Most lenders file once a year and never touch the quarterly rule."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hmda-g7-p0",
+      "gi": 7,
+      "pi": 0,
+      "text": "HMDA sets two retention clocks. The submitted LAR is kept for at least 3 years from the date it's filed. The underlying records and data used to build the reports are kept longer — at least 5 years. The register that's filed ages off first; the working papers behind it live longer."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-hmda-g8-p0",
+      "gi": 8,
+      "pi": 0,
+      "text": "How the borrower's demographics get recorded depends on how you meet. Face-to-face — where you can see and hear each other — you ask the applicant to self-identify race, national origin, and sex; if they refuse, you must record it yourself based on visual observation. Not face-to-face — over the phone or online — you still offer the chance to self-identify, but if the applicant declines, you simply note the refusal and stop. If you later meet them or see a photo, you may not go back and change what was recorded."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-hmda-g8-gate-synth",
+      "gi": 8
     },
     {
       "kind": "gate",

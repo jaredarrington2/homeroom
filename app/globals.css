@@ -70,6 +70,13 @@
 .section-reader .anchor figcaption { font-family: var(--fm); font-size: 10px; color: var(--ink-faint); text-align: center;
   margin-top: 5px; letter-spacing: .02em; }
 
+/* full-width bespoke illustration (a generated study visual — e.g. the finance-charge card).
+   Clears any floated anchor, spans the reading column, photoreal so it carries its own shadow. */
+.section-reader .sr-illus { clear: both; width: 100%; margin: 24px 0 28px; }
+.section-reader .sr-illus img { width: 100%; height: auto; display: block; }
+.section-reader .sr-illus figcaption { font-family: var(--fm); font-size: 10px; color: var(--ink-faint);
+  text-align: center; margin-top: 7px; letter-spacing: .02em; }
+
 /* tier 1: inline cloze */
 .section-reader .cloze { display: inline-block; }
 .section-reader .cloze input { font-family: var(--fs); font-size: 17px; color: var(--ink); background: var(--loose-paper);
