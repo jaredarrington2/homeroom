@@ -1402,40 +1402,156 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "RESPA and TILA each used to demand their own forms, so a borrower drowned in four overlapping disclosures that never quite reconciled. <b>TRID merged them into two.</b> The <b>Loan Estimate (LE)</b> comes at the front — the lender's early promise of terms and costs. The <b>Closing Disclosure (CD)</b> is the final accounting at the end, and it has to land far enough ahead of signing that you can actually read it. The rest of TRID governs when those numbers may move, and who pays when they move too far."
+              "html": "At the end of buying a house comes the <b>closing</b> — you sit at a table, sign a thick stack of paper, the money moves, and you walk out with the keys. Buried in that stack are dozens of fees you never itemized: a title search, an appraisal, recording charges, prepaid taxes. Two forms bracket that whole event, and the rule that governs them is <b>TRID</b> — the TILA-RESPA Integrated Disclosure rule. Since 2015 it has merged four overlapping old forms into a <b>Loan Estimate</b> at the start and a <b>Closing Disclosure</b> at the end, and it sets how far the numbers may move between them."
             }
           ]
         },
         {
-          "heading": "the two clocks",
-          "anchor": {
-            "file": "navy-family-headphones.PNG",
-            "caption": "three days to read",
-            "kind": "char"
-          },
+          "heading": "what a closing actually is",
           "paras": [
             {
-              "html": "Each disclosure runs on its own timer. The Loan Estimate has to go out fast — no later than three general business days after application — and once delivered the lender must honor its terms for at least 10 business days. Put a number on that first deadline: the LE is due within <span class=\"cloze\" data-accept='[\"3 general business days\",\"3\",\"three\",\"three general business days\",\"3 business days\"]' data-reveal=\"3 general business days\">?</span> after application. The Closing Disclosure has to be <b>received</b> at least 3 precise business days before consummation. Send it by mail or electronically and the wait grows to 6 precise business days — three to account for delivery, three to read."
+              "html": "Two words get used loosely at the end of a loan. <b>Settlement</b> (or closing) is the event where the documents are signed and the funds change hands; <b>consummation</b> is the exact moment you become contractually obligated on the loan — the point every TRID deadline counts from. The fees in the stack pay for <b>settlement services</b>: the outside jobs a loan needs done — the appraisal that values the home, the title work that proves the seller owns it, the escrow or settlement agent who handles the money, the county's recording of the new lien. You didn't hire most of these companies, but you pay them, which is exactly why the law forces their costs into the open."
+            }
+          ]
+        },
+        {
+          "heading": "two forms, front and back",
+          "paras": [
+            {
+              "html": "The <b>Loan Estimate (LE)</b> comes first — the lender's early, good-faith quote of your rate, your monthly payment, and every closing cost, laid out so you can set two lenders' offers side by side and shop. The <b>Closing Disclosure (CD)</b> comes last — the final, binding accounting of the same items, the numbers you'll actually pay. The point of having both is that you can hold the CD up against the LE and see what moved. Everything else in TRID is about that gap: how fast each form has to reach you, and how far a fee is allowed to drift from the estimate to the final bill."
             }
           ],
           "synth": {
-            "q": "Lay out the Closing Disclosure waiting period both ways — delivered in person versus mailed or sent electronically.",
-            "a": "The borrower must receive the CD at least 3 precise business days before consummation; if it's mailed or sent electronically, the period becomes 6 precise business days (3 mailing days plus 3 review days)."
+            "q": "What's the difference in purpose between the Loan Estimate and the Closing Disclosure?",
+            "a": "The Loan Estimate is the lender's early good-faith quote of rate, payment, and costs, given so the borrower can compare lenders and shop. The Closing Disclosure is the final, binding statement of the same figures at the end, so the borrower can check it against the estimate before signing."
           }
         },
         {
-          "heading": "tolerances and cures",
+          "heading": "the four forms it replaced",
           "paras": [
             {
-              "html": "Quoted fees can drift, but only so far. TRID sorts them into three buckets: <b>zero tolerance</b> (the fee can't rise at all), <b>10% tolerance</b>, and <b>no-tolerance</b> (unlimited). Under the 10% bucket the borrower can be charged up to 10% over the disclosed total — anything beyond that the <b>creditor</b> eats. When fees breach tolerance with no valid change of circumstance, the lender has to refund the excess — the <b>cure</b> — and the deadline is 60 days after consummation. The refund is due no later than <span class=\"cloze\" data-accept='[\"60 days\",\"60\",\"sixty\",\"sixty days\"]' data-reveal=\"60 days after consummation\">?</span>."
+              "html": "Before TRID, four documents did this job: a <b>Good Faith Estimate</b> and an initial <b>Truth-in-Lending</b> statement up front, then a <b>HUD-1</b> settlement statement and a final Truth-in-Lending statement at the end. They overlapped, used inconsistent language, and were hard to line up — so an unscrupulous originator could hand out a Good Faith Estimate with intentionally lowballed fees to look cheaper than the competition, then reveal the real total on the HUD-1 as late as the morning of closing. Cornered at the table, the borrower usually just signed and paid. TRID collapsed those four into the LE and CD to end exactly that surprise."
             }
           ]
         },
         {
-          "heading": "what restarts the clock",
+          "heading": "who TRID covers",
           "paras": [
             {
-              "html": "Most last-minute changes just get a corrected CD. Three don't — they reset the full 3-day waiting period: the <b>APR moving more than 0.125% on a fixed loan</b> (or 0.25% on an ARM), the loan product itself changing, or a prepayment penalty being added. Records outlive the deal: the Loan Estimate is kept at least 3 years, the Closing Disclosure at least 5."
+              "html": "TRID reaches most <b>closed-end consumer loans secured by real property</b> — an ordinary purchase or refinance mortgage. It leaves out a familiar handful: <b>home-equity lines of credit</b> (HELOCs), <b>reverse mortgages</b>, loans on a <b>mobile home not attached to real property</b>, and certain no-interest second mortgages used for down-payment assistance or rehab. A loan outside TRID falls back to the older disclosure forms. This is roughly the same consumer-versus-business line the other federal laws draw — TRID is built for the individual home borrower drowning in paperwork, not the sophisticated commercial one."
+            }
+          ]
+        },
+        {
+          "heading": "what starts the loan estimate clock",
+          "paras": [
+            {
+              "html": "The Loan Estimate is due once you have a real application, and TRID defines that precisely: an application exists the moment the originator has all <b>six</b> items — your name, your income, your Social Security number, the property address, an estimate of the property's value, and the loan amount you want. Once those six are in hand, the lender has to send the LE no later than <span class=\"cloze\" data-accept='[\"3 general business days\",\"3\",\"three\",\"three general business days\",\"3 business days\"]' data-reveal=\"3 general business days\">?</span> after application, and must formally approve or deny the loan within 30 calendar days. Collecting the six items is what trips the clock — even if you say you're only browsing, they still owe you an LE."
+            }
+          ]
+        },
+        {
+          "heading": "before the lender can charge you",
+          "paras": [
+            {
+              "html": "The LE is meant to be free to receive and easy to walk away from, so TRID guards the moment money first changes hands. After it issues the LE, the lender may not charge you <b>any</b> fee — beyond the actual cost of pulling your credit report — until you tell it, in writing or out loud, that you <b>intend to proceed</b>. Every fee on the LE has to be quoted in good faith, and if one later changes the lender must be able to justify why. A blank line item is left blank, never marked \"N/A.\" And a lender that gives an informal cost sheet instead of the official LE has to print, in at least 12-point type, that the real rate and costs could be higher and the borrower should get an official Loan Estimate."
+            }
+          ]
+        },
+        {
+          "heading": "the seven-day floor",
+          "paras": [
+            {
+              "html": "Getting the estimate early is only useful if there's time to act on it, so TRID puts a floor under the whole process: once the Loan Estimate is delivered or mailed, the loan may not close for at least <span class=\"cloze\" data-accept='[\"7 precise business days\",\"7\",\"seven\",\"seven precise business days\",\"7 business days\"]' data-reveal=\"7 precise business days\">?</span>. That waiting period can be shortened only for a genuine, documented financial emergency. It guarantees a full week between the first real quote and the earliest possible signing."
+            }
+          ]
+        },
+        {
+          "heading": "what lets a fee change",
+          "paras": [
+            {
+              "html": "Once the LE is out, its fees are supposed to hold. Only a <b>valid change of circumstance (VCOC)</b> lets them move and forces a revised estimate. There are five: an extraordinary event outside anyone's control; information the lender relied on turning out to be wrong or changing; new, relevant information surfacing after disclosure; a natural disaster; or the chosen title company going out of business mid-deal. When one of these happens, the borrower pays the item's true cost — but absent a VCOC, the tolerance rules below hold the line."
+            }
+          ],
+          "synth": {
+            "q": "What is a valid change of circumstance (VCOC), and what does it do to the fee tolerances?",
+            "a": "A VCOC is one of five events — an extraordinary event beyond anyone's control, information the lender relied on being wrong or changing, new relevant information surfacing, a natural disaster, or the chosen title company closing mid-transaction. It suspends the tolerance limits, so the borrower pays the fee's true cost and the lender issues a revised Loan Estimate."
+          }
+        },
+        {
+          "heading": "the three tolerance buckets",
+          "visual": "tolerance-buckets",
+          "paras": [
+            {
+              "html": "How far a quoted fee may drift from the LE to the CD depends on who controls it. TRID sorts every fee into three <b>tolerance</b> buckets. <b>Zero tolerance</b>: fees the lender controls — its own charges, a provider it required you to use, transfer taxes — can't rise a dollar; the lender eats any increase. <b>10% tolerance</b>: fees you could shop but only from the lender's list, plus recording fees — the whole group's total may rise up to <span class=\"cloze\" data-accept='[\"10%\",\"10\",\"ten percent\",\"ten\"]' data-reveal=\"10%\">?</span>, and the lender pays anything beyond that. <b>No tolerance</b>: fees the lender doesn't control — prepaid interest, property taxes, insurance, or a provider you picked entirely on your own — can rise to their true cost as long as the estimate was made in good faith. The logic is one idea: the more control the lender had over a fee, the less it's allowed to move."
+            }
+          ],
+          "synth": {
+            "q": "Why does TRID let some fees rise freely while freezing others at the estimate?",
+            "a": "Because the buckets track control. Fees the lender controls — its own charges, required providers, transfer taxes — are zero-tolerance and can't rise. Fees the borrower can shop from the lender's list can rise up to 10% in aggregate. Fees the lender doesn't control — taxes, insurance, a provider the borrower chose independently — have no tolerance limit and can rise to actual cost."
+          }
+        },
+        {
+          "heading": "how the 10% test works",
+          "paras": [
+            {
+              "html": "The 10% bucket isn't checked fee by fee — it's checked in <b>total</b>. Add up that bucket's fees on the Loan Estimate, add up the same fees on the Closing Disclosure, and compare the two sums. The borrower can be charged up to 110% of the disclosed total; anything above that is the lender's to absorb. So one fee can overshoot as long as another in the bucket came in low enough to keep the group under 110%. It's the aggregate that has to stay in bounds."
+            }
+          ]
+        },
+        {
+          "heading": "the cure",
+          "paras": [
+            {
+              "html": "When the final numbers breach a tolerance and no valid change of circumstance excuses it, the lender has to make the borrower whole — the <b>cure</b>. It refunds the excess the borrower overpaid, and the deadline is no later than <span class=\"cloze\" data-accept='[\"60 days\",\"60\",\"sixty\",\"sixty days\"]' data-reveal=\"60 days after consummation\">?</span> after consummation. The cure is the enforcement behind the tolerance rules: exceed the limit without a valid reason and you simply owe the money back."
+            }
+          ]
+        },
+        {
+          "heading": "revising the loan estimate",
+          "paras": [
+            {
+              "html": "A valid change of circumstance triggers a <b>revised Loan Estimate</b>, due within 3 general business days of the lender identifying the change. Because a revised estimate resets the borrower's chance to react, the closing can't happen for at least <span class=\"cloze\" data-accept='[\"4 precise business days\",\"4\",\"four\",\"four precise business days\",\"4 business days\"]' data-reveal=\"4 precise business days\">?</span> after the borrower receives it — stretched to seven if it's mailed, to allow for delivery. One hard stop: a revised LE may never be issued after the Closing Disclosure has already gone out. Past that point, changes ride on the CD instead."
+            }
+          ]
+        },
+        {
+          "heading": "the closing disclosure clock",
+          "paras": [
+            {
+              "html": "The Closing Disclosure has to reach the borrower with time to read it against the estimate. The rule: the borrower must <b>receive</b> the CD at least <span class=\"cloze\" data-accept='[\"3 precise business days\",\"3\",\"three\",\"three precise business days\",\"3 business days\"]' data-reveal=\"3 precise business days\">?</span> before consummation. If it's mailed or sent electronically, the wait grows to six precise business days — three assumed for delivery, three to review — unless the borrower confirms receipt earlier. The lender, the settlement agent, or both may prepare it, and on a rescindable loan every party with the right to cancel gets a copy."
+            }
+          ],
+          "synth": {
+            "q": "Lay out the Closing Disclosure waiting period both ways — handed over in person versus mailed or sent electronically.",
+            "a": "The borrower must receive the CD at least 3 precise business days before consummation. If it's mailed or sent electronically, the period becomes 6 precise business days — 3 for delivery plus 3 to review — unless the borrower confirms receipt sooner."
+          }
+        },
+        {
+          "heading": "what restarts the three-day clock",
+          "paras": [
+            {
+              "html": "Most last-minute changes just get a corrected CD handed over at the table — no new waiting period. Three changes are serious enough to reset the full three-day clock and force a new Closing Disclosure: the final <b>APR</b> moving more than <span class=\"cloze\" data-accept='[\"0.125%\",\".125\",\"0.125\",\"1/8\",\"one-eighth\"]' data-reveal=\"0.125% (fixed) / 0.25% (ARM)\">?</span> on a fixed-rate loan (or 0.25% on an ARM), the <b>loan product itself changing</b>, or a <b>prepayment penalty being added</b>. Each of these changes the deal enough that the borrower is owed a fresh three days to reconsider."
+            }
+          ],
+          "synth": {
+            "q": "Which three changes force a brand-new 3-day Closing Disclosure waiting period?",
+            "a": "The APR moving more than 0.125% on a fixed-rate loan (or 0.25% on an ARM), the loan product changing, or a prepayment penalty being added. Any of the three resets the full 3-day clock."
+          }
+        },
+        {
+          "heading": "how long the forms are kept",
+          "paras": [
+            {
+              "html": "TRID's records outlast the loan. The Loan Estimate must be kept for at least 3 years after consummation; the Closing Disclosure, longer, for at least <span class=\"cloze\" data-accept='[\"5 years\",\"5\",\"five\",\"five years\"]' data-reveal=\"5 years\">?</span>; and a post-consummation Escrow Closing Notice or Partial Payment Policy disclosure for at least 2 years. If the loan is sold, the original creditor hands the file — LE and CD included — to the new owner, and both keep copies for the remainder of their periods."
+            }
+          ]
+        },
+        {
+          "heading": "what the forms actually show",
+          "paras": [
+            {
+              "html": "Both forms walk the same path: the loan's terms (amount, interest rate, monthly principal-and-interest, and whether each can rise), the projected payments over the loan's life, the closing costs, and the cash the borrower brings to the table. The Closing Disclosure closes with a page of loan calculations — the total you'll pay over the loan's life, the finance charge, the amount financed, and the <b>Total Interest Percentage (TIP)</b>, the total interest as a percentage of the loan amount. Signing the CD only acknowledges you received it; it doesn't, by itself, obligate you to the loan."
             }
           ]
         }
@@ -1443,31 +1559,75 @@ const section3: SectionContent = {
       "review": {
         "flashcards": [
           {
-            "peg": "two forms",
+            "peg": "the old four",
             "topic": "Integrated disclosures",
-            "q": "TRID's two integrated disclosures?",
-            "a": "the <span class='hl'>Loan Estimate (LE)</span> and the <span class='hl'>Closing Disclosure (CD)</span>"
+            "q": "The four forms TRID replaced?",
+            "a": "the <span class='hl'>Good Faith Estimate</span> + initial <span class='hl'>TIL</span> (front) and the <span class='hl'>HUD-1</span> + final <span class='hl'>TIL</span> (back)"
           },
           {
-            "peg": "retention",
+            "peg": "who issues",
+            "topic": "Loan Estimate",
+            "q": "If a broker takes the application, who may issue the Loan Estimate?",
+            "a": "the <span class='hl'>lender or the broker</span> — as long as the 3-day timing is met"
+          },
+          {
+            "peg": "intent",
+            "topic": "Loan Estimate",
+            "q": "Before the borrower states intent to proceed, the only fee the lender may charge is…",
+            "a": "the cost of the <span class='hl'>credit report</span>"
+          },
+          {
+            "peg": "decision",
+            "topic": "Loan Estimate",
+            "q": "After a live (six-item) application, the lender must approve or deny within…",
+            "a": "<span class='hl'>30 calendar days</span>"
+          },
+          {
+            "peg": "no N/A",
+            "topic": "Loan Estimate",
+            "q": "A line item that doesn't apply on the LE is handled how?",
+            "a": "left <span class='hl'>blank</span> — never marked \"N/A\""
+          },
+          {
+            "peg": "in aggregate",
+            "topic": "Tolerances",
+            "q": "Is the 10% tolerance checked fee-by-fee or in total?",
+            "a": "in <span class='hl'>total</span> — the bucket's LE sum vs. its CD sum, up to 110%"
+          },
+          {
+            "peg": "who prepares",
+            "topic": "Closing Disclosure",
+            "q": "Who may prepare the Closing Disclosure?",
+            "a": "the <span class='hl'>lender, the settlement agent, or both</span>"
+          },
+          {
+            "peg": "LE kept",
             "topic": "Recordkeeping",
-            "q": "Record retention for the LE vs. the CD?",
-            "a": "LE at least <span class='hl'>3 years</span>; CD at least <span class='hl'>5 years</span>"
+            "q": "How long must the Loan Estimate be retained?",
+            "a": "at least <span class='hl'>3 years</span> after consummation"
+          },
+          {
+            "peg": "the 2-year pair",
+            "topic": "Recordkeeping",
+            "q": "Which TRID records are kept only 2 years?",
+            "a": "the <span class='hl'>Escrow Closing Notice</span> and <span class='hl'>Partial Payment Policy</span> disclosure"
+          },
+          {
+            "peg": "TIP",
+            "topic": "The forms",
+            "q": "What does the Total Interest Percentage (TIP) express?",
+            "a": "total interest paid over the loan's life as a <span class='hl'>percentage of the loan amount</span>"
+          },
+          {
+            "peg": "just receipt",
+            "topic": "The forms",
+            "q": "Does signing the Closing Disclosure obligate the borrower to the loan?",
+            "a": "<span class='hl'>No</span> — it only acknowledges receipt"
           }
         ],
         "mcq": [
           {
-            "q": "Which change forces a new 3-day CD waiting period?",
-            "opts": [
-              "A $100 drop in title fees",
-              "The APR rising more than 0.125% on a fixed loan",
-              "A typo in the borrower's address",
-              "A lower interest rate"
-            ],
-            "correct": 1
-          },
-          {
-            "q": "TRID's three fee tolerance categories are —",
+            "q": "TRID's three fee-tolerance categories are —",
             "opts": [
               "1%, 5%, 10%",
               "Zero, 10%, and no-tolerance",
@@ -1477,12 +1637,92 @@ const section3: SectionContent = {
             "correct": 1
           },
           {
-            "q": "Under the 10% tolerance, who pays the overage above 10%?",
+            "q": "Which fee falls in the zero-tolerance bucket?",
             "opts": [
-              "The borrower",
-              "The creditor",
-              "The title company",
-              "Split evenly"
+              "Property taxes",
+              "Prepaid interest",
+              "A transfer tax",
+              "Homeowner's insurance you shopped for yourself"
+            ],
+            "correct": 2
+          },
+          {
+            "q": "Which loan is exempt from TRID?",
+            "opts": [
+              "A 30-year purchase mortgage",
+              "A home-equity line of credit (HELOC)",
+              "A conventional refinance",
+              "An FHA purchase loan"
+            ],
+            "correct": 1
+          },
+          {
+            "q": "Which is a valid change of circumstance?",
+            "opts": [
+              "The borrower changes their mind about the color of the house",
+              "The chosen title company goes out of business mid-transaction",
+              "The lender wants to earn more",
+              "Interest rates fall generally"
+            ],
+            "correct": 1
+          },
+          {
+            "q": "A revised Loan Estimate may not be issued after —",
+            "opts": [
+              "the borrower states intent to proceed",
+              "the Closing Disclosure has been issued",
+              "the appraisal is ordered",
+              "the rate is locked"
+            ],
+            "correct": 1
+          },
+          {
+            "q": "Which set of items makes a 'live application' that triggers the LE?",
+            "opts": [
+              "Name, income, SSN, property address, property value, loan amount",
+              "A signed purchase contract and earnest money",
+              "A credit score above 620",
+              "Two years of tax returns and pay stubs"
+            ],
+            "correct": 0
+          },
+          {
+            "q": "An informal cost sheet given instead of the official LE must state, in ≥12-point type —",
+            "opts": [
+              "that the loan is pre-approved",
+              "that the actual rate and costs could be higher; get an official Loan Estimate",
+              "the lender's NMLS number only",
+              "that fees are final"
+            ],
+            "correct": 1
+          },
+          {
+            "q": "On a rescindable transaction, the Closing Disclosure must go to —",
+            "opts": [
+              "only the primary borrower",
+              "all parties with the right to rescind",
+              "only the settlement agent",
+              "the real estate agent"
+            ],
+            "correct": 1
+          },
+          {
+            "q": "The Total Interest Percentage (TIP) tells the borrower —",
+            "opts": [
+              "the monthly payment",
+              "total interest over the loan's life as a percent of the loan amount",
+              "the APR",
+              "the down payment required"
+            ],
+            "correct": 1
+          },
+          {
+            "q": "If the Closing Disclosure is mailed rather than handed over, the borrower is assumed to receive it after —",
+            "opts": [
+              "1 business day",
+              "3 precise business days (making the wait 6 in total)",
+              "10 business days",
+              "the day it is sent"
             ],
             "correct": 1
           }

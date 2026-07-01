@@ -36,7 +36,8 @@ export type DisclosureVisualKind =
   | "escrow-accrual"
   | "escrow-analysis"
   | "servicing-transfer"
-  | "apr-stack";
+  | "apr-stack"
+  | "tolerance-buckets";
 
 export interface ConceptGroup {
   /** Plain lowercase mono heading, e.g. "what it covers". Omit for the opening paragraph. */

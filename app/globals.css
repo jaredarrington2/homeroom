@@ -456,10 +456,29 @@
   letter-spacing: .6px; color: var(--dv-muted); margin-top: 12px; text-align: center; }
 .section-reader .dv-apr-sub { font-family: var(--dv-hand); font-size: 14px; color: var(--dv-sharpie-blue); margin-top: 2px; text-align: center; }
 
+/* tolerance-buckets — TRID zero / 10% / no-tolerance (three columns) */
+.section-reader .dv-tol-cols { display: flex; gap: 14px; align-items: stretch; margin: 6px 0; }
+.section-reader .dv-tol-col { flex: 1; min-width: 0; border: 1px solid var(--dv-edge); background: #FCFAF4;
+  padding: 12px 12px 14px; display: flex; flex-direction: column; }
+.section-reader .dv-tol-cap { font-family: var(--dv-type); font-size: 12px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .6px; padding: 4px 6px; text-align: center; margin-bottom: 8px; }
+.section-reader .dv-tol-zero { background: var(--dv-hl-p); color: var(--dv-red); }
+.section-reader .dv-tol-ten { background: var(--dv-hl-y); color: var(--dv-sharpie); }
+.section-reader .dv-tol-none { background: var(--dv-hl-g); color: var(--dv-green); }
+.section-reader .dv-tol-rule { font-family: var(--dv-hand); font-size: 14px; color: var(--dv-sharpie-blue);
+  line-height: 1.25; margin-bottom: 8px; text-align: center; }
+.section-reader .dv-tol-list { list-style: none; padding: 0; margin: 0 0 10px; }
+.section-reader .dv-tol-list li { font-family: var(--dv-type); font-size: 10.5px; line-height: 1.5; color: var(--dv-ink);
+  padding-left: 12px; position: relative; margin-bottom: 3px; }
+.section-reader .dv-tol-list li::before { content: '•'; position: absolute; left: 0; color: var(--dv-muted); }
+.section-reader .dv-tol-who { font-family: var(--dv-hand); font-size: 13px; color: var(--dv-muted);
+  margin-top: auto; padding-top: 6px; border-top: 1px dotted #C8C0B0; }
+
 @media (max-width: 560px) {
   .section-reader .dv-pair { flex-direction: column; }
   .section-reader .dv-paper { padding: 22px 18px 20px; }
   .section-reader .dv-apr-cols { gap: 20px; }
+  .section-reader .dv-tol-cols { flex-direction: column; }
 }
 
 /* ===== RecapCard — exam recap, big-format recall card =====

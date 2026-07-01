@@ -13,7 +13,60 @@ export default function DisclosureVisual({ kind }: { kind: DisclosureVisualKind 
       {kind === "escrow-analysis" && <EscrowAnalysis />}
       {kind === "servicing-transfer" && <ServicingTransfer />}
       {kind === "apr-stack" && <AprStack />}
+      {kind === "tolerance-buckets" && <ToleranceBuckets />}
     </figure>
+  );
+}
+
+/* ── 6. TRID fee tolerances — zero / 10% / no-tolerance ─────────────────────── */
+function ToleranceBuckets() {
+  return (
+    <div className="dv-paper" style={{ padding: "26px 24px 22px" }}>
+      <div className="dv-h">TRID fee tolerances</div>
+      <div className="dv-hsub">How far a quoted fee may move from Loan Estimate to Closing Disclosure</div>
+      <hr className="dv-rule dv-double" />
+
+      <div className="dv-tol-cols">
+        <div className="dv-tol-col">
+          <div className="dv-tol-cap dv-tol-zero">Zero tolerance</div>
+          <div className="dv-tol-rule">can&apos;t rise at all — the lender eats any increase</div>
+          <ul className="dv-tol-list">
+            <li>lender / origination fees</li>
+            <li>a provider the lender requires</li>
+            <li>transfer taxes</li>
+          </ul>
+          <div className="dv-tol-who">the lender controls these</div>
+        </div>
+
+        <div className="dv-tol-col">
+          <div className="dv-tol-cap dv-tol-ten">10% tolerance</div>
+          <div className="dv-tol-rule">the group&apos;s total may rise up to 10% — lender pays the rest</div>
+          <ul className="dv-tol-list">
+            <li>recording fees</li>
+            <li>a provider you shopped from the lender&apos;s list</li>
+          </ul>
+          <div className="dv-tol-who">you shopped, but from the lender&apos;s list</div>
+        </div>
+
+        <div className="dv-tol-col">
+          <div className="dv-tol-cap dv-tol-none">No tolerance</div>
+          <div className="dv-tol-rule">may rise to the true cost, disclosed in good faith</div>
+          <ul className="dv-tol-list">
+            <li>prepaid interest, property taxes</li>
+            <li>homeowner&apos;s insurance</li>
+            <li>a provider you chose off the list</li>
+          </ul>
+          <div className="dv-tol-who">the lender doesn&apos;t control these</div>
+        </div>
+      </div>
+
+      <hr className="dv-rule" />
+
+      <div className="dv-mnote">
+        The 10% test compares the LE and CD <b>totals</b> for the whole bucket, not fee by fee —
+        anything above 110% of the disclosed total is the lender&apos;s to refund.
+      </div>
+    </div>
   );
 }
 
