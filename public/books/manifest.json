@@ -1,0 +1,288 @@
+{
+  "charm": {
+    "title": "CHARM",
+    "official": "Consumer Handbook on ARMs",
+    "reg": "REG Z",
+    "due": "WITHIN 3 DAYS",
+    "channel": "deliver",
+    "covers": [
+      "/books/charm/cover-v1.png",
+      "/books/charm/cover-v2.png",
+      "/books/charm/cover-v3.png"
+    ],
+    "open": "/books/charm/open.png"
+  },
+  "arm": {
+    "title": "ARM",
+    "official": "Early ARM Disclosure",
+    "reg": "REG Z",
+    "due": "AT APPLICATION",
+    "channel": "deliver",
+    "covers": [
+      "/books/arm/cover-v1.png",
+      "/books/arm/cover-v2.png",
+      "/books/arm/cover-v3.png"
+    ],
+    "open": "/books/arm/open.png"
+  },
+  "toolkit": {
+    "title": "TOOLKIT",
+    "official": "Special Information Booklet",
+    "reg": "RESPA",
+    "due": "WITHIN 3 DAYS",
+    "channel": "deliver",
+    "covers": [
+      "/books/toolkit/cover-v1.png",
+      "/books/toolkit/cover-v2.png",
+      "/books/toolkit/cover-v3.png"
+    ],
+    "open": "/books/toolkit/open.png"
+  },
+  "heloc": {
+    "title": "HELOC",
+    "official": "HELOC Brochure",
+    "reg": "REG Z",
+    "due": "AT APPLICATION",
+    "channel": "deliver",
+    "covers": [
+      "/books/heloc/cover-v1.png",
+      "/books/heloc/cover-v2.png",
+      "/books/heloc/cover-v3.png"
+    ],
+    "open": "/books/heloc/open.png"
+  },
+  "estimate": {
+    "title": "ESTIMATE",
+    "official": "Loan Estimate",
+    "reg": "TRID",
+    "due": "WITHIN 3 DAYS",
+    "channel": "deliver",
+    "covers": [
+      "/books/estimate/cover-v1.png",
+      "/books/estimate/cover-v2.png",
+      "/books/estimate/cover-v3.png"
+    ],
+    "open": "/books/estimate/open.png"
+  },
+  "closing": {
+    "title": "CLOSING",
+    "official": "Closing Disclosure",
+    "reg": "TRID",
+    "due": "3 DAYS BEFORE CLOSING",
+    "channel": "deliver",
+    "covers": [
+      "/books/closing/cover-v1.png",
+      "/books/closing/cover-v2.png",
+      "/books/closing/cover-v3.png"
+    ],
+    "open": "/books/closing/open.png"
+  },
+  "cancel": {
+    "title": "CANCEL",
+    "official": "Notice of Right to Cancel",
+    "reg": "REG Z",
+    "due": "3 DAY WINDOW",
+    "channel": "law",
+    "covers": [
+      "/books/cancel/cover-v1.png",
+      "/books/cancel/cover-v2.png",
+      "/books/cancel/cover-v3.png"
+    ],
+    "open": "/books/cancel/open.png"
+  },
+  "adverse": {
+    "title": "ADVERSE",
+    "official": "Adverse Action Notice",
+    "reg": "ECOA",
+    "due": "WITHIN 30 DAYS",
+    "channel": "notify",
+    "covers": [
+      "/books/adverse/cover-v1.png",
+      "/books/adverse/cover-v2.png",
+      "/books/adverse/cover-v3.png"
+    ],
+    "open": "/books/adverse/open.png"
+  },
+  "privacy": {
+    "title": "PRIVACY",
+    "official": "GLBA Privacy Notice",
+    "reg": "GLBA",
+    "due": "YEARLY",
+    "channel": "notify",
+    "covers": [
+      "/books/privacy/cover-v1.png",
+      "/books/privacy/cover-v2.png",
+      "/books/privacy/cover-v3.png"
+    ],
+    "open": "/books/privacy/open.png"
+  },
+  "cip": {
+    "title": "CIP",
+    "official": "Customer Identification Program Notice",
+    "reg": "PATRIOT ACT",
+    "due": "BEFORE OPENING",
+    "channel": "notify",
+    "covers": [
+      "/books/cip/cover-v1.png",
+      "/books/cip/cover-v2.png",
+      "/books/cip/cover-v3.png"
+    ],
+    "open": "/books/cip/open.png"
+  },
+  "counseling": {
+    "title": "COUNSELING",
+    "official": "Homeownership Counseling List",
+    "reg": "RESPA",
+    "due": "WITHIN 3 DAYS",
+    "channel": "deliver",
+    "covers": [
+      "/books/counseling/cover-v1.png",
+      "/books/counseling/cover-v2.png",
+      "/books/counseling/cover-v3.png"
+    ],
+    "open": "/books/counseling/open.png"
+  },
+  "servicing": {
+    "title": "SERVICING",
+    "official": "Servicing Transfer Statement",
+    "reg": "RESPA",
+    "due": "15 DAYS AHEAD",
+    "channel": "notify",
+    "covers": [
+      "/books/servicing/cover-v1.png",
+      "/books/servicing/cover-v2.png",
+      "/books/servicing/cover-v3.png"
+    ],
+    "open": "/books/servicing/open.png"
+  },
+  "escrow": {
+    "title": "ESCROW",
+    "official": "Initial & Annual Escrow Statements",
+    "reg": "RESPA",
+    "due": "YEARLY",
+    "channel": "deliver",
+    "covers": [
+      "/books/escrow/cover-v1.png",
+      "/books/escrow/cover-v2.png",
+      "/books/escrow/cover-v3.png"
+    ],
+    "open": "/books/escrow/open.png"
+  },
+  "payoff": {
+    "title": "PAYOFF",
+    "official": "Payoff Statement",
+    "reg": "REG Z",
+    "due": "WITHIN 7 DAYS",
+    "channel": "deliver",
+    "covers": [
+      "/books/payoff/cover-v1.png",
+      "/books/payoff/cover-v2.png",
+      "/books/payoff/cover-v3.png"
+    ],
+    "open": "/books/payoff/open.png"
+  },
+  "hoepa": {
+    "title": "HOEPA",
+    "official": "High-Cost Mortgage Disclosure",
+    "reg": "HOEPA",
+    "due": "3 DAYS BEFORE CLOSING",
+    "channel": "law",
+    "covers": [
+      "/books/hoepa/cover-v1.png",
+      "/books/hoepa/cover-v2.png",
+      "/books/hoepa/cover-v3.png"
+    ],
+    "open": "/books/hoepa/open.png"
+  },
+  "appraisal": {
+    "title": "APPRAISAL",
+    "official": "Appraisal / Valuation Copy & Notice",
+    "reg": "ECOA",
+    "due": "PROMPTLY",
+    "channel": "law",
+    "covers": [
+      "/books/appraisal/cover-v1.png",
+      "/books/appraisal/cover-v2.png",
+      "/books/appraisal/cover-v3.png"
+    ],
+    "open": "/books/appraisal/open.png"
+  },
+  "score": {
+    "title": "SCORE",
+    "official": "Credit Score Disclosure",
+    "reg": "FACTA",
+    "due": "AT APPLICATION",
+    "channel": "notify",
+    "covers": [
+      "/books/score/cover-v1.png",
+      "/books/score/cover-v2.png",
+      "/books/score/cover-v3.png"
+    ],
+    "open": "/books/score/open.png"
+  },
+  "esign": {
+    "title": "ESIGN",
+    "official": "E-Sign Consent Disclosure",
+    "reg": "E-SIGN ACT",
+    "due": "BEFORE E-DELIVERY",
+    "channel": "law",
+    "covers": [
+      "/books/esign/cover-v1.png",
+      "/books/esign/cover-v2.png",
+      "/books/esign/cover-v3.png"
+    ],
+    "open": "/books/esign/open.png"
+  },
+  "pmi": {
+    "title": "PMI",
+    "official": "PMI Disclosures & Cancellation Notices",
+    "reg": "HPA",
+    "due": "YEARLY",
+    "channel": "notify",
+    "covers": [
+      "/books/pmi/cover-v1.png",
+      "/books/pmi/cover-v2.png",
+      "/books/pmi/cover-v3.png"
+    ],
+    "open": "/books/pmi/open.png"
+  },
+  "abad": {
+    "title": "ABAD",
+    "official": "Affiliated Business Arrangement Disclosure",
+    "reg": "RESPA",
+    "due": "AT REFERRAL",
+    "channel": "notify",
+    "covers": [
+      "/books/abad/cover-v1.png",
+      "/books/abad/cover-v2.png",
+      "/books/abad/cover-v3.png"
+    ],
+    "open": "/books/abad/open.png"
+  },
+  "atr": {
+    "title": "ATR",
+    "official": "Ability-to-Repay / Qualified Mortgage",
+    "reg": "DODD-FRANK",
+    "due": "BEFORE APPROVAL",
+    "channel": "law",
+    "covers": [
+      "/books/atr/cover-v1.png",
+      "/books/atr/cover-v2.png",
+      "/books/atr/cover-v3.png"
+    ],
+    "open": "/books/atr/open.png"
+  },
+  "flood": {
+    "title": "FLOOD",
+    "official": "Notice of Special Flood Hazard",
+    "reg": "FLOOD ACT",
+    "due": "BEFORE CLOSING",
+    "channel": "law",
+    "covers": [
+      "/books/flood/cover-v1.png",
+      "/books/flood/cover-v2.png",
+      "/books/flood/cover-v3.png"
+    ],
+    "open": "/books/flood/open.png"
+  }
+}
