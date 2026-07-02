@@ -884,13 +884,13 @@ const section3: SectionContent = {
       }
     ,
       "recap": {
-        "plainLanguage": "ECOA bans discrimination in lending — a creditor can't let who you are (race, color, religion, national origin, sex, marital status, age, receiving public assistance, or having used your consumer-credit rights) affect whether you get credit or on what terms.",
+        "plainLanguage": "ECOA makes it illegal to judge a credit application on who someone is rather than whether they can repay, and forces a creditor to say why when it turns someone down.",
         "facts": [
-          "The two protected classes people forget: <span class=\"hl\">receipt of public-assistance income</span> and <span class=\"hl\">exercising rights</span> under consumer-credit law.",
-          "The creditor must send the Notice of Action Taken within <span class=\"hl\">30 calendar days</span> of a completed application.",
-          "After an adverse action the applicant has <span class=\"hl\">60 days</span> to request the specific reasons in writing; the creditor then has <span class=\"hl\">30 days</span> to give them. After a counteroffer, the applicant has <span class=\"hl\">90 calendar days</span> to accept.",
-          "Application records are retained for <span class=\"hl\">25 months</span>.",
-          "Disparate treatment is intentional discrimination; <span class=\"hl\">disparate impact</span> is a neutral policy that disadvantages a protected class with no business justification."
+          "Bars decisions on any <span class=\"hl\">prohibited basis</span> — race, color, religion, national origin, sex, marital status, age, receipt of public-assistance income, or exercising a consumer-credit right.",
+          "<span class=\"hl\">Discouraging</span> a reasonable person from applying on a prohibited basis is a violation, even with no application on file.",
+          "A creditor may offer a co-applicant but can <span class=\"hl\">never require one</span>.",
+          "\"Elderly\" means <span class=\"hl\">age 62 or older</span>.",
+          "After a counteroffer on an Adverse Action Notice, the applicant has <span class=\"hl\">90 calendar days</span> to accept."
         ]
       }
     },
@@ -1318,13 +1318,13 @@ const section3: SectionContent = {
       }
     ,
       "recap": {
-        "plainLanguage": "TILA makes the cost of credit transparent — it forces lenders to disclose the finance charge and APR so borrowers can compare loans, and it regulates advertising, rescission, and how originators are paid. It sets no maximum interest rate; it just requires honest disclosure.",
+        "plainLanguage": "TILA puts the true cost of borrowing into the same two numbers on every loan so borrowers can compare lenders, and gives homeowners a short window to unwind certain refinances.",
         "facts": [
-          "The <span class=\"hl\">APR</span> folds up-front points and fees into one yearly rate so loans can be compared; a mortgage broker's fee is <span class=\"hl\">always</span> part of the finance charge, but a cost you'd also pay in an all-cash purchase is not.",
-          "The right of rescission gives <span class=\"hl\">3 business days</span> to cancel a loan secured by your principal dwelling (refinances qualify, purchases don't); each owner gets <span class=\"hl\">two</span> copies of the notice to cancel.",
-          "APR-accuracy tolerance is <span class=\"hl\">1/8 of 1%</span> on a regular transaction and <span class=\"hl\">1/4 of 1%</span> on an irregular one.",
-          "Loan-originator pay can't be based on a loan's <span class=\"hl\">terms</span> — only a fixed percentage of the loan amount — and dual compensation is barred.",
-          "An HPML's APR exceeds APOR by <span class=\"hl\">2.5 points</span> (first-lien jumbo) or <span class=\"hl\">3.5 points</span> (subordinate lien); the Closing Disclosure is kept <span class=\"hl\">5 years</span>."
+          "Every loan must state the <span class=\"hl\">APR</span> and the <span class=\"hl\">finance charge</span>.",
+          "The right of rescission runs <span class=\"hl\">3 business days</span> after consummation on a qualifying refinance.",
+          "If the rescission disclosure was never properly given, the window stretches to <span class=\"hl\">3 years</span>.",
+          "After a borrower rescinds, the lender returns money within <span class=\"hl\">20 calendar days</span>.",
+          "An HPML escrow can be removed after 5 years once LTV is <span class=\"hl\">80% or less</span> of the current balance."
         ]
       }
     },
@@ -1560,13 +1560,12 @@ const section3: SectionContent = {
       }
     ,
       "recap": {
-        "plainLanguage": "HOEPA targets predatory 'high-cost' mortgages built to strip a borrower's equity through foreclosure. Crossing any one of three thresholds makes a loan high-cost, which triggers extra warnings, counseling, and a list of banned terms.",
+        "plainLanguage": "HOEPA catches the most expensive home loans and wraps them in extra protections, so a borrower who crosses into high-cost territory gets warned and shielded from the worst terms.",
         "facts": [
-          "Also called a <span class=\"hl\">Section 32 loan</span> or <span class=\"hl\">high-cost mortgage</span>; crossing <span class=\"hl\">any one</span> of the three triggers is enough.",
-          "Rate trigger: APR over APOR by <span class=\"hl\">6.5 points</span> (first lien) or <span class=\"hl\">8.5 points</span> (subordinate lien, or a personal-property loan under $50,000).",
-          "Points-and-fees trigger: over <span class=\"hl\">5%</span> of the loan amount for loans of $27,592 or more (a tighter dollar cap protects smaller loans).",
-          "Prepayment-penalty trigger: a penalty chargeable more than <span class=\"hl\">36 months</span> after closing.",
-          "High-cost loans ban balloon payments, <span class=\"hl\">negative amortization</span>, and prepayment penalties, and require <span class=\"hl\">homeownership counseling</span> from an independent HUD-approved counselor before closing."
+          "A loan becomes high-cost by crossing any of three triggers: the <span class=\"hl\">APR</span>, the <span class=\"hl\">points-and-fees</span>, or the <span class=\"hl\">prepayment-penalty</span> threshold.",
+          "The prepayment trigger: a penalty over <span class=\"hl\">2% of the amount prepaid</span>, or one that can apply more than <span class=\"hl\">36 months</span> after consummation.",
+          "Late fees are capped at <span class=\"hl\">4% of the past-due payment</span>.",
+          "The high-cost disclosure is due at least <span class=\"hl\">3 business days before consummation</span>."
         ]
       }
     },
@@ -1906,13 +1905,11 @@ const section3: SectionContent = {
       }
     ,
       "recap": {
-        "plainLanguage": "TRID merged four old mortgage forms into two — the Loan Estimate (an early good-faith quote) and the Closing Disclosure (the final, binding figures) — with strict timing so a borrower can shop up front and check the final numbers before signing.",
+        "plainLanguage": "TRID merged RESPA's and TILA's overlapping paperwork into two forms, so a borrower sees the same numbers up front and again at the table and can check that they held.",
         "facts": [
-          "The LE and CD replaced the <span class=\"hl\">Good Faith Estimate, initial TIL, HUD-1, and final TIL</span>.",
-          "Fees fall into three tolerance buckets: <span class=\"hl\">zero</span>, <span class=\"hl\">10%</span> (aggregate, shoppable), and <span class=\"hl\">no tolerance</span>.",
-          "The borrower must receive the Closing Disclosure at least <span class=\"hl\">3 business days</span> before consummation (<span class=\"hl\">6</span> if it's mailed).",
-          "Three changes reset the 3-day clock: APR moving more than <span class=\"hl\">0.125%</span> (fixed) or <span class=\"hl\">0.25%</span> (ARM), a product change, or adding a prepayment penalty.",
-          "Before the borrower states intent to proceed, the only fee a lender may charge is the <span class=\"hl\">credit report</span>; the LE is kept <span class=\"hl\">3 years</span>, and HELOCs are exempt."
+          "The two integrated forms are the <span class=\"hl\">Loan Estimate (LE)</span> and the <span class=\"hl\">Closing Disclosure (CD)</span>.",
+          "Loan Estimate terms must be honored for at least <span class=\"hl\">10 business days</span>.",
+          "Retention: the LE for at least <span class=\"hl\">3 years</span>, the CD for at least <span class=\"hl\">5 years</span>."
         ]
       }
     },
@@ -2120,13 +2117,11 @@ const section3: SectionContent = {
       }
     ,
       "recap": {
-        "plainLanguage": "HMDA makes lenders report the who and where of their mortgage lending so regulators can spot redlining and discrimination that no single loan file would reveal.",
+        "plainLanguage": "HMDA makes lenders report who they lend to and where, so regulators and the public can see redlining and underserved neighborhoods in the data.",
         "facts": [
-          "<span class=\"hl\">Regulation C</span>, enacted <span class=\"hl\">1975</span>; the data lives on the Loan/Application Register (LAR).",
-          "Reporting is triggered (among other tests) at <span class=\"hl\">25 closed-end loans</span> in each of the two prior years, or <span class=\"hl\">200 open-end lines</span>.",
-          "Very large lenders — <span class=\"hl\">60,000+</span> covered loans and applications — file <span class=\"hl\">quarterly</span>.",
-          "The MLO is personally responsible for collecting the applicant's <span class=\"hl\">race, national origin, and sex</span>.",
-          "If a non-face-to-face applicant won't self-identify, the originator <span class=\"hl\">notes the refusal</span> and may not later alter it; underlying records are kept <span class=\"hl\">5 years</span>."
+          "Reported data lives in the <span class=\"hl\">Loan/Application Register (LAR)</span>.",
+          "Hitting <span class=\"hl\">60,000 or more</span> covered loans and applications forces quarterly rather than annual reporting.",
+          "Retention: LAR data at least <span class=\"hl\">3 years</span>, disclosure reports at least <span class=\"hl\">5 years</span>."
         ]
       }
     },
@@ -2373,13 +2368,11 @@ const section3: SectionContent = {
       }
     ,
       "recap": {
-        "plainLanguage": "FCRA keeps consumer credit reports accurate, fair, and private — governing who may pull a report, how errors get investigated and fixed, and how long negative marks can stay.",
+        "plainLanguage": "FCRA governs who may pull a credit report and how long the bad marks stay, so a consumer's file is used only for real purposes and doesn't follow them forever.",
         "facts": [
-          "<span class=\"hl\">Regulation V</span>, enacted <span class=\"hl\">1970</span>; it governs furnishers, credit bureaus, and users.",
-          "A lender needs both <span class=\"hl\">permission</span> and a <span class=\"hl\">permissible purpose</span>; completing the URLA supplies both.",
-          "A furnisher must investigate a dispute within <span class=\"hl\">30 days</span> (a 15-day extension is allowed), or reject a frivolous one within <span class=\"hl\">5 business days</span>.",
-          "Most negatives — late payments, collections, charge-offs, foreclosures, Chapter 13 — report for <span class=\"hl\">7 years</span>; an <span class=\"hl\">unpaid tax lien</span> can report indefinitely.",
-          "Credit-score weights: payment history is largest, then amounts owed <span class=\"hl\">30%</span>, length of history <span class=\"hl\">15%</span>, credit mix <span class=\"hl\">10%</span>, new credit <span class=\"hl\">10%</span>."
+          "A lender needs a <span class=\"hl\">permissible purpose</span> — such as the consumer's own application — before pulling a report.",
+          "Most derogatory items fall off after about <span class=\"hl\">7 years</span>.",
+          "FICO weights: payment history <span class=\"hl\">35%</span>, amounts owed <span class=\"hl\">30%</span>, length of history <span class=\"hl\">15%</span>, credit mix <span class=\"hl\">10%</span>, new credit <span class=\"hl\">10%</span>."
         ]
       }
     },
@@ -2530,13 +2523,12 @@ const section3: SectionContent = {
       }
     ,
       "recap": {
-        "plainLanguage": "FACTA bolted identity-theft protections onto FCRA — fraud alerts, free annual credit reports, secure disposal of consumer data, and address-discrepancy checks.",
+        "plainLanguage": "FACTA bolted identity-theft protections onto FCRA, giving consumers free reports, fraud alerts, and a rule for destroying old credit data.",
         "facts": [
-          "It amended <span class=\"hl\">FCRA</span> in <span class=\"hl\">2003</span>.",
-          "An <span class=\"hl\">initial fraud alert</span> lasts at least <span class=\"hl\">1 year</span>; an <span class=\"hl\">extended alert</span> (which needs an identity-theft report) lasts <span class=\"hl\">7 years</span> and removes the consumer from prescreened lists for <span class=\"hl\">5 years</span>.",
-          "An <span class=\"hl\">active-duty alert</span> keeps a service member off prescreened-offer lists for <span class=\"hl\">2 years</span>.",
-          "Every consumer can get one <span class=\"hl\">free report a year</span> from each of the three bureaus.",
-          "The Disposal Rule requires secure destruction of consumer-report data, and lenders must treat a suspicious <span class=\"hl\">address change</span> as a possible identity-theft signal."
+          "Every consumer gets <span class=\"hl\">one free credit report a year</span> from each of the three major agencies.",
+          "An extended fraud alert, placed after real identity theft, lasts <span class=\"hl\">7 years</span>.",
+          "An active-duty military alert lasts <span class=\"hl\">1 year</span>.",
+          "The FTC Disposal Rule requires <span class=\"hl\">secure destruction</span> of consumer-report data so it can't be reconstructed."
         ]
       }
     },
@@ -2677,13 +2669,11 @@ const section3: SectionContent = {
       }
     ,
       "recap": {
-        "plainLanguage": "The FTC Red Flags Rule makes creditors — including mortgage lenders and brokers — run a written program to spot and respond to the warning signs of identity theft in their accounts.",
+        "plainLanguage": "The Red Flags Rule makes covered institutions write down how they'll spot the early signs of identity theft before an account is opened or drained.",
         "facts": [
-          "The duty falls on the <span class=\"hl\">business/creditor</span>, not the consumer.",
-          "A 'covered account' is a personal account allowing <span class=\"hl\">multiple payments</span> — a mortgage qualifies.",
-          "Every covered creditor must maintain a written <span class=\"hl\">Identity Theft Prevention Program</span> that reports to the board or senior management at least <span class=\"hl\">annually</span>.",
-          "The program must <span class=\"hl\">identify, detect, respond to, and update</span> its red flags.",
-          "Red flags include a fraud alert, altered documents, and mismatched information such as an <span class=\"hl\">address that doesn't match</span> the credit report — and the creditor is responsible for its <span class=\"hl\">service providers</span> too."
+          "Each covered institution must maintain a written <span class=\"hl\">Identity Theft Prevention Program</span>.",
+          "The program has to <span class=\"hl\">detect, prevent, and mitigate</span> identity theft in covered accounts.",
+          "Red flags include credit-bureau alerts, altered documents, <span class=\"hl\">address mismatches</span>, and unusual account activity."
         ]
       }
     },
@@ -2934,13 +2924,12 @@ const section3: SectionContent = {
       }
     ,
       "recap": {
-        "plainLanguage": "The Bank Secrecy Act enlists financial institutions in fighting money laundering — know your customer, run an anti-money-laundering program, and report suspicious activity to the government.",
+        "plainLanguage": "The BSA puts financial institutions on the front line against money laundering — reporting large and suspicious cash movements and keeping the records that let investigators follow the money.",
         "facts": [
-          "Laundering runs three stages in order: <span class=\"hl\">placement, layering, integration</span>.",
-          "A <span class=\"hl\">Currency Transaction Report (CTR)</span> covers cash of <span class=\"hl\">$10,000</span> or more; <span class=\"hl\">structuring</span> is splitting cash to stay under that line.",
-          "Mortgage lenders and brokers must file a <span class=\"hl\">SAR</span> for suspicious activity <span class=\"hl\">regardless of the dollar amount</span>, within a maximum of <span class=\"hl\">60 days</span> — and <span class=\"hl\">tipping off</span> the subject is illegal.",
-          "The AML program has four pillars: <span class=\"hl\">policies, a compliance officer, training, and an independent audit</span>.",
-          "<span class=\"hl\">FinCEN</span> (Treasury) administers the BSA; <span class=\"hl\">OFAC</span> runs sanctions and the SDN list, and an SDN match means <span class=\"hl\">do not proceed</span>. Records are kept <span class=\"hl\">5 years</span>."
+          "<span class=\"hl\">Structuring</span> — splitting deposits under $10,000 to dodge a CTR filing — is itself a crime.",
+          "If no suspect is identified, the SAR deadline can extend <span class=\"hl\">an extra 30 days</span>, but no later than 60 days from the activity.",
+          "Once a SAR is filed, <span class=\"hl\">tipping off</span> the subject or disclosing the SAR is prohibited.",
+          "SARs and CIP/account records are kept at least <span class=\"hl\">5 years</span>."
         ]
       }
     },
@@ -3114,13 +3103,11 @@ const section3: SectionContent = {
       }
     ,
       "recap": {
-        "plainLanguage": "GLBA protects a consumer's nonpublic personal (financial) information — requiring privacy notices, an opt-out before sharing with outsiders, and a written security program to safeguard the data.",
+        "plainLanguage": "GLBA makes financial institutions guard customer data and disclose how it's shared, giving consumers a say before their private information goes to outsiders.",
         "facts": [
-          "It repealed <span class=\"hl\">Glass-Steagall</span>, letting banks, brokerages, and insurers merge — which created the privacy problem it addresses.",
-          "It protects <span class=\"hl\">NPI</span> (nonpublic personal information); publicly available information is not NPI.",
-          "Before sharing NPI with a nonaffiliated third party, an institution must give <span class=\"hl\">notice and an opportunity to opt out</span>; account numbers can <span class=\"hl\">never</span> go to outsiders for marketing.",
-          "A <span class=\"hl\">customer</span> (an ongoing relationship) gets the privacy notice repeatedly; a one-time <span class=\"hl\">consumer</span> does not — and the annual notice is skipped when sharing policies haven't changed.",
-          "The <span class=\"hl\">Safeguards Rule</span> requires a written information security program; officers and directors face fines up to <span class=\"hl\">$10,000</span> each."
+          "The Safeguards Rule requires a written <span class=\"hl\">information-security program</span>, tested and adjusted over time.",
+          "Consumers can <span class=\"hl\">opt out</span> of sharing nonpublic personal information with nonaffiliated third parties.",
+          "Penalties reach <span class=\"hl\">$10,000 per officer/director</span> and up to <span class=\"hl\">5 years</span> in prison."
         ]
       }
     },
@@ -3294,13 +3281,11 @@ const section3: SectionContent = {
       }
     ,
       "recap": {
-        "plainLanguage": "The Telemarketing Sales Rule and Do-Not-Call Registry police sales calls — banning deceptive practices (lying about costs or terms) and abusive ones (harassment, off-hours calls, or calling listed numbers).",
+        "plainLanguage": "The Telemarketing Sales Rule and Do-Not-Call registry limit when and how a business can cold-call, so consumers aren't hounded at dinner or after they've opted out.",
         "facts": [
-          "Two prohibited categories: <span class=\"hl\">deceptive</span> (misleading) and <span class=\"hl\">abusive</span> (harassing or coercive).",
-          "Calls are allowed only between <span class=\"hl\">8 a.m. and 9 p.m.</span> local time; the list must be re-scrubbed every <span class=\"hl\">31 days</span>.",
-          "An existing business relationship lets a seller call for <span class=\"hl\">18 months</span> after a purchase (or 3 months after an inquiry).",
-          "<span class=\"hl\">Charitable and political</span> calls aren't blocked by the registry; demanding an <span class=\"hl\">advance fee</span> for credit is an abusive practice.",
-          "Abandoned (dead-air) calls must stay under <span class=\"hl\">3%</span> of answered calls; scripts and records are kept <span class=\"hl\">24 months</span>. The FTC enforces interstate calls, the FCC intrastate."
+          "Calls are allowed only between <span class=\"hl\">8:00 a.m. and 9:00 p.m.</span> in the recipient's local time.",
+          "The call-abandonment rate can't exceed <span class=\"hl\">3%</span>.",
+          "Each violation can cost up to <span class=\"hl\">$51,744</span>."
         ]
       }
     },
@@ -3422,13 +3407,11 @@ const section3: SectionContent = {
       }
     ,
       "recap": {
-        "plainLanguage": "MAPs (Reg N) bans deceptive mortgage advertising — no commercial message may materially misrepresent any term or aspect of a mortgage product, expressly or by implication.",
+        "plainLanguage": "Regulation N bans lying in mortgage ads: a material misstatement about a loan product in any commercial message is a violation.",
         "facts": [
-          "Implemented under <span class=\"hl\">Regulation N</span> (<span class=\"hl\">2009</span>); it mirrors <span class=\"hl\">TILA</span>'s advertising rules.",
-          "The one underlying principle: no ad may <span class=\"hl\">materially misrepresent</span> any aspect of a mortgage — its rate, fees, prepayment penalty, fixed-vs-adjustable status, or government tie.",
-          "A \"<span class=\"hl\">no fees</span>\" claim when fees exist, or a <span class=\"hl\">debt-elimination</span> promise, both violate MAPs.",
-          "Stating a specific figure (a <span class=\"hl\">triggering term</span>) forces disclosure of the down payment, full repayment terms, and the APR.",
-          "Records of a mortgage ad must be retained for <span class=\"hl\">24 months</span>."
+          "Prohibits <span class=\"hl\">material misrepresentations</span> in any commercial communication about a mortgage credit product.",
+          "A <span class=\"hl\">triggering term</span> — a stated rate, payment, or down-payment figure — pulls in extra required disclosures once used.",
+          "Advertising records are kept for <span class=\"hl\">24 months</span>."
         ]
       }
     },
@@ -3588,13 +3571,10 @@ const section3: SectionContent = {
       }
     ,
       "recap": {
-        "plainLanguage": "The E-Sign Act gives electronic signatures and records the same legal force as paper — but only after the consumer affirmatively consents in a way that proves they can actually open the electronic documents.",
+        "plainLanguage": "The E-Sign Act makes an electronic signature count the same as ink, so a loan can close online without losing legal force.",
         "facts": [
-          "A contract can't be denied legal effect <span class=\"hl\">solely</span> because it's electronic.",
-          "An electronic signature requires adopting a sound, symbol, or process with the <span class=\"hl\">intent to sign</span>.",
-          "Before e-delivering disclosures, the lender must get the consumer's <span class=\"hl\">affirmative consent</span>, given in the <span class=\"hl\">format that will be used</span> — which proves the consumer can access the records.",
-          "The lender must first disclose the right to receive records on <span class=\"hl\">paper</span> and to <span class=\"hl\">withdraw consent</span>.",
-          "A consumer can <span class=\"hl\">never be required</span> to accept electronic records; records must be kept accurate, <span class=\"hl\">accessible</span>, and reproducible."
+          "Electronic records and signatures carry the <span class=\"hl\">same legal validity</span> as paper and ink.",
+          "An electronic signature is any <span class=\"hl\">sound, symbol, or process</span> attached to a record and adopted with intent to sign."
         ]
       }
     },
@@ -3737,13 +3717,10 @@ const section3: SectionContent = {
       }
     ,
       "recap": {
-        "plainLanguage": "The USA PATRIOT Act strengthened anti-money-laundering law by requiring every institution to run a Customer Identification Program — verify who you're lending to and screen them against terrorist watch lists.",
+        "plainLanguage": "The PATRIOT Act pushed identity checks and anti-money-laundering duties onto financial institutions, so accounts can't be opened anonymously to move terrorist or criminal money.",
         "facts": [
-          "It strengthened the <span class=\"hl\">Bank Secrecy Act</span>'s anti-laundering rules after 9/11.",
-          "A <span class=\"hl\">CIP</span> must verify identity, keep records of the identifying information, and check applicants against <span class=\"hl\">government watch lists</span>.",
-          "A brand-new (non-customer) applicant must present a valid <span class=\"hl\">government-issued photo ID</span> resembling them; already-verified existing customers need not re-prove identity.",
-          "The institution posts a <span class=\"hl\">lobby notice</span> about ID requirements and gives applicants the <span class=\"hl\">Patriot Act Information Disclosure</span>.",
-          "A watch-list match means <span class=\"hl\">do not</span> open the account or make the loan, and a bureau <span class=\"hl\">may not tell</span> a consumer their file was accessed for a terror investigation."
+          "Requires a <span class=\"hl\">Customer Identification Program (CIP)</span> to verify who is opening an account.",
+          "Reinforces the duty to maintain an <span class=\"hl\">Anti-Money-Laundering (AML) program</span>."
         ]
       }
     },
@@ -3945,13 +3922,12 @@ const section3: SectionContent = {
       }
     ,
       "recap": {
-        "plainLanguage": "The Homeowners Protection Act gives borrowers a way off private mortgage insurance. PMI protects the lender, not you, so HPA fixes the points at which it can be cancelled or must automatically end.",
+        "plainLanguage": "The Homeowners Protection Act ends private mortgage insurance once a borrower has enough equity, so PMI stops charging after it has stopped protecting the lender's risk.",
         "facts": [
-          "PMI protects the <span class=\"hl\">lender</span> (and investor), not the borrower, and is generally required when a conventional loan's LTV is above <span class=\"hl\">80%</span>.",
-          "A borrower may <span class=\"hl\">request</span> cancellation at <span class=\"hl\">80%</span> LTV, with good payment history and no subordinate lien.",
-          "<span class=\"hl\">Automatic termination</span> happens at <span class=\"hl\">78%</span> LTV (<span class=\"hl\">77%</span> for a high-risk loan).",
-          "<span class=\"hl\">Final termination</span> removes PMI at the loan's amortization midpoint <span class=\"hl\">regardless of payment status</span>.",
-          "HPA doesn't cover <span class=\"hl\">FHA, VA, USDA</span>, or lender-paid PMI; unearned premiums are refunded within <span class=\"hl\">45 days</span>, and servicers send an <span class=\"hl\">annual reminder</span> of cancellation rights."
+          "PMI terminates automatically at <span class=\"hl\">78% LTV</span> when the borrower is current — <span class=\"hl\">77%</span> for a high-risk loan.",
+          "If the borrower isn't current at 78%, final termination waits for the <span class=\"hl\">midpoint of amortization</span>.",
+          "Unearned premiums are refunded within <span class=\"hl\">45 days</span> of cancellation or termination.",
+          "The servicer must notify the borrower no later than <span class=\"hl\">30 days</span> after PMI ends."
         ]
       }
     },
@@ -4154,13 +4130,12 @@ const section3: SectionContent = {
       }
     ,
       "recap": {
-        "plainLanguage": "Dodd-Frank was the response to the 2008 meltdown — it created the CFPB and made 'ability to repay' the law, so a lender must verify a borrower can actually afford the loan rather than betting on rising home values.",
+        "plainLanguage": "Dodd-Frank was the post-2008 overhaul: it created the CFPB and rewrote mortgage rules so originators can't be paid to steer borrowers into worse loans.",
         "facts": [
-          "It answered the <span class=\"hl\">2007–2008 financial crisis</span> and created the <span class=\"hl\">CFPB</span>, an independent bureau within the <span class=\"hl\">Federal Reserve</span> System.",
-          "The CFPB Director serves a <span class=\"hl\">5-year</span> term and can be removed only <span class=\"hl\">for cause</span>.",
-          "The <span class=\"hl\">ability-to-repay</span> rule requires a documented, <span class=\"hl\">verified</span> determination the borrower can repay, using a <span class=\"hl\">fully amortizing</span> payment — not a teaser rate.",
-          "A <span class=\"hl\">Qualified Mortgage (QM)</span> is built to satisfy ATR and gives the lender a <span class=\"hl\">presumption</span> of compliance.",
-          "Dodd-Frank ordered the CFPB to build <span class=\"hl\">TRID</span> and is where TILA's loan-originator compensation rules came from."
+          "Title X created the <span class=\"hl\">Consumer Financial Protection Bureau (CFPB)</span>.",
+          "Title XIV is the <span class=\"hl\">Mortgage Reform and Anti-Predatory Lending Act</span>.",
+          "Originator pay can't vary with a loan's terms other than amount; <span class=\"hl\">steering</span> for higher pay is prohibited.",
+          "A hybrid ARM reset notice is due in the one-month window ending <span class=\"hl\">6 months before</span> the first rate adjustment."
         ]
       }
     }

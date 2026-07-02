@@ -488,8 +488,10 @@
   .section-reader .dv-tol-cols { flex-direction: column; }
 }
 
-/* ===== RecapCard — exam recap, big-format recall card =====
-   Fifth scoped skeuomorphic exception (warm-paper recall card), namespaced .rc-*. */
+/* ===== RecapCard — exam recap, photorealistic landscape recall card =====
+   Fifth scoped skeuomorphic exception (warm-paper flash card), namespaced .rc-*.
+   Replaces the v3.14 .rc-* block (previously the 400x640 left-slide portrait card).
+   RecapCard.tsx is unchanged — this is a pure-CSS redesign. */
 
 .section-reader .rc-trigger {
   display: inline-flex;
@@ -514,43 +516,83 @@
 .section-reader .rc-scrim {
   position: fixed;
   inset: 0;
-  background: rgba(10, 10, 10, 0.4);
+  background: rgba(10, 10, 10, 0.44);
   z-index: 60;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  padding-left: 6vw;
+  justify-content: center;   /* centered, not left-slid */
+  padding: 24px;
   animation: rc-fade-in 160ms ease-out;
 }
 
 .section-reader .rc-panel {
   position: relative;
-  width: 400px;
-  max-width: 88vw;
-  height: 640px;          /* 400×640 ≈ 5×8 ratio */
+  box-sizing: border-box;
+  width: 720px;
+  max-width: 92vw;
+  min-height: 430px;
   max-height: 86vh;
-  background: #FBF6E9;
-  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
-  padding: 34px 30px;
   overflow-y: auto;
-  transform: rotate(-0.6deg);
-  animation: rc-slide-in 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  background: #FBF6E9;                 /* card's own scoped warm-paper palette */
+  border-radius: 8px;
+  border: 1px solid rgba(60, 44, 24, 0.14);
+  padding: 34px 40px 36px 58px;        /* extra left pad clears the margin rule */
+  transform: rotate(-0.5deg);
+
+  /* red index-card margin rule down the left column */
+  background-image: linear-gradient(
+    to right,
+    transparent 44px, rgba(176, 72, 60, 0.5) 44px,
+    rgba(176, 72, 60, 0.5) 45px, transparent 45px
+  );
+  background-repeat: no-repeat;
+
+  /* realistic lift: card thickness highlight + contact + ambient shadow */
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.6),
+    0 1px 1px rgba(0, 0, 0, 0.10),
+    0 8px 16px rgba(0, 0, 0, 0.16),
+    0 26px 54px rgba(0, 0, 0, 0.28);
+
+  /* two-column: heading block | dashed rule | key facts */
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) 1px minmax(0, 1.28fr);
+  grid-template-rows: auto auto 1fr;
+  column-gap: 32px;
+  align-items: start;
+  animation: rc-settle 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }
+
+/* paper grain — same noise data-URI as .defface (.defs-*), kept consistent */
 .section-reader .rc-panel::before {
   content: "";
   position: absolute;
   inset: 0;
+  border-radius: 8px;
   pointer-events: none;
   mix-blend-mode: multiply;
-  opacity: 0.4;
-  /* same noise data-URI as the .defface (.defs-*) grain — kept consistent */
+  opacity: 0.35;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='5' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)' opacity='0.18'/%3E%3C/svg%3E");
+}
+
+/* a second card peeking from the stack behind */
+.section-reader .rc-panel::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 8px; right: -6px; top: 10px; bottom: -8px;
+  background: #F3ECDA;
+  border-radius: 8px;
+  border: 1px solid rgba(60, 44, 24, 0.12);
+  transform: rotate(1.3deg);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.18);
 }
 
 .section-reader .rc-close {
   position: absolute;
   top: 12px;
   right: 14px;
+  z-index: 2;
   width: 28px;
   height: 28px;
   border: none;
@@ -563,52 +605,65 @@
 .section-reader .rc-close:hover { color: var(--ink); }
 
 .section-reader .rc-kicker {
+  grid-column: 1; grid-row: 1;
   font-family: var(--font-type);
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--ink-muted);
-  margin-bottom: 6px;
+  margin: 0 0 8px;
 }
 .section-reader .rc-title {
+  grid-column: 1; grid-row: 2;
   font-family: var(--font-display);
-  font-size: 22px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.08;
   color: var(--ink);
-  margin: 0 0 18px;
+  margin: 0 0 14px;
 }
 .section-reader .rc-plain {
+  grid-column: 1; grid-row: 3;
   font-family: var(--font-hand);
-  font-size: 22px;
-  line-height: 1.4;
+  font-size: 25px;
+  line-height: 1.36;
   color: var(--pencil, #3F3F3F);
-  margin: 0 0 20px;
+  margin: 0;
 }
+
+/* vertical dashed divider between the two columns */
 .section-reader .rc-divider {
-  border-top: 1px dashed var(--hair-strong);
-  margin: 0 0 16px;
+  grid-column: 2; grid-row: 1 / -1;
+  width: 0;
+  border-left: 1px dashed rgba(72, 54, 32, 0.35);
+  align-self: stretch;
+  margin: 2px 0;
 }
+
 .section-reader .rc-facts-label {
+  grid-column: 3; grid-row: 1;
   font-family: var(--font-type);
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--ink-muted);
-  margin-bottom: 10px;
+  margin: 0 0 10px;
 }
 .section-reader .rc-facts {
+  grid-column: 3; grid-row: 2 / 4;
   margin: 0;
-  padding-left: 20px;
+  padding-left: 18px;
   font-family: var(--font-sans);
   font-size: 15px;
-  line-height: 1.55;
+  line-height: 1.6;
   color: var(--ink);
 }
-.section-reader .rc-facts li { margin-bottom: 10px; }
+.section-reader .rc-facts li { margin-bottom: 11px; }
+.section-reader .rc-facts li:last-child { margin-bottom: 0; }
 
-/* Highlighter spans inside fact strings — .hl is otherwise only defined on the
-   review-card back, so define it here against this card's warm-paper background. */
+/* highlighter spans inside fact strings — defined here against warm paper */
 .section-reader .rc-facts .hl {
-  background: linear-gradient(transparent 60%, #FFE899 60%);
+  background: linear-gradient(transparent 58%, #FFE27A 58%);
   padding: 0 2px;
 }
 
@@ -616,11 +671,12 @@
   from { opacity: 0; }
   to { opacity: 1; }
 }
-@keyframes rc-slide-in {
-  from { opacity: 0; transform: translateX(-32px) rotate(-0.6deg); }
-  to { opacity: 1; transform: translateX(0) rotate(-0.6deg); }
+@keyframes rc-settle {
+  from { opacity: 0; transform: translateY(10px) scale(0.985) rotate(-0.5deg); }
+  to   { opacity: 1; transform: translateY(0)    scale(1)     rotate(-0.5deg); }
 }
 
+/* ── mobile: full-width bottom sheet, single column ─────────── */
 @media (max-width: 560px) {
   .section-reader .rc-scrim {
     align-items: flex-end;
@@ -630,15 +686,38 @@
   .section-reader .rc-panel {
     width: 100%;
     max-width: 100%;
-    height: auto;
-    max-height: 80vh;
+    min-height: 0;
+    max-height: 82vh;
+    border-radius: 14px 14px 0 0;
     transform: none;
+    padding: 26px 22px 30px 30px;
+    display: flex;              /* overrides the grid → children stack in source order */
+    flex-direction: column;
+    background-image: linear-gradient(
+      to right,
+      transparent 18px, rgba(176, 72, 60, 0.5) 18px,
+      rgba(176, 72, 60, 0.5) 19px, transparent 19px
+    );
     animation: rc-slide-up 220ms ease-out;
+  }
+  .section-reader .rc-panel::after { display: none; }
+  .section-reader .rc-kicker { padding-right: 30px; }   /* clear the close × */
+  .section-reader .rc-plain { margin-bottom: 18px; }
+  .section-reader .rc-divider {
+    width: auto; height: 0;
+    border-left: 0;
+    border-top: 1px dashed rgba(72, 54, 32, 0.35);
+    margin: 0 0 16px;
   }
 }
 @keyframes rc-slide-up {
   from { opacity: 0; transform: translateY(24px); }
-  to { opacity: 1; transform: translateY(0); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .section-reader .rc-scrim,
+  .section-reader .rc-panel { animation: none; }
 }
 
 /* ── Listen player (NYT-style, pre-generated ElevenLabs narration) ──────────
