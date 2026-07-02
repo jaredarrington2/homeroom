@@ -89,7 +89,7 @@ export function unitAudioItems(unit: SectionUnit): AudioItem[] {
       items.push({ kind: "image", id: `audio-${u}-g${gi}-img`, gi, text: g.anchor.spokenCaption.trim() });
     }
 
-    // Synth is an interactive element: the player chimes + announces it and stops here.
+    // Synth is an interactive element: the player chimes and stops here.
     // The question/answer text is NOT narrated (you do it on screen).
     if (g.synth) {
       items.push({ kind: "gate", gateType: "synth", id: `audio-${u}-g${gi}-gate-synth`, gi });

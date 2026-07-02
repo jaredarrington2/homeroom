@@ -124,7 +124,8 @@ export function ListenProvider({ children }: { children: ReactNode }) {
       return;
     }
     if (item.kind === "gate") {
-      // Don't narrate the question — chime, announce there's something to do, and stop.
+      // Don't narrate the question — chime and stop; the chime alone signals there's
+      // something to do on screen.
       engine().cancel();
       statusRef.current = "gated";
       savePos(man.unitId, item.id);
@@ -132,9 +133,6 @@ export function ListenProvider({ children }: { children: ReactNode }) {
       refreshResume();
       sync(man, i, "gated");
       engine().chime();
-      setTimeout(() => {
-        if (tokenRef.current === token) engine().play(`/audio/_cue/${item.gateType}.mp3`, {});
-      }, 460);
       return;
     }
     statusRef.current = "playing";

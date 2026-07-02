@@ -40,14 +40,8 @@ const CHARS_PER_SEC = 14.5;         // ~spoken pace, for the minutes estimate
 const AUDIO_ROOT = path.join(process.cwd(), "public", "audio");
 const REQUEST_GAP_MS = 200;
 
-// Generic spoken cues for interactive gates (generated once, reused across every unit).
-// The player plays a chime, then the matching cue, then stops — the question itself is never read.
-const CUES: Record<string, string> = {
-  synth: "Question on screen.",
-  definitions: "Definitions on screen.",
-  flashcards: "Flashcards on screen.",
-  mcq: "Questions on screen.",
-};
+// Interactive gates have no spoken cue — the player plays a synthesized chime and stops;
+// the question itself is never read.
 const MAX_INPUT = 4096; // OpenAI per-request input limit (our paragraph segments are well under)
 
 function loadApiKey(): string {
@@ -127,19 +121,6 @@ async function generate(manifests: UnitManifest[]) {
     process.exit(1);
   }
   let made = 0, skipped = 0, chars = 0;
-
-  // Interactive-gate cues (once, shared by all units).
-  const cueDir = path.join(AUDIO_ROOT, "_cue");
-  fs.mkdirSync(cueDir, { recursive: true });
-  for (const [kind, text] of Object.entries(CUES)) {
-    const mp3 = path.join(cueDir, `${kind}.mp3`);
-    if (fs.existsSync(mp3)) { skipped++; continue; }
-    process.stdout.write(`    _cue/${kind} (${text.length})… `);
-    fs.writeFileSync(mp3, await tts(text, apiKey));
-    made++; chars += text.length;
-    console.log("ok");
-    await new Promise((r) => setTimeout(r, REQUEST_GAP_MS));
-  }
 
   for (const m of manifests) {
     const dir = path.join(AUDIO_ROOT, m.unitId);
