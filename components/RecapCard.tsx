@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
 import type { UnitRecap } from '@/lib/section';
 
 interface RecapCardProps {
@@ -22,8 +23,12 @@ function IconRecap() {
 
 export default function RecapCard({ unitName, reg, recap }: RecapCardProps) {
   const [open, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const panelRef = useRef<HTMLDivElement>(null);
   const triggerRef = useRef<HTMLButtonElement>(null);
+
+  // portals need a client DOM target; only render one after mount
+  useEffect(() => setMounted(true), []);
 
   function close() {
     setOpen(false);
@@ -32,6 +37,10 @@ export default function RecapCard({ unitName, reg, recap }: RecapCardProps) {
 
   useEffect(() => {
     if (!open) return;
+
+    // lock background scroll while the card is up
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
 
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
@@ -62,9 +71,50 @@ export default function RecapCard({ unitName, reg, recap }: RecapCardProps) {
     );
     return () => {
       document.removeEventListener('keydown', onKey);
+      document.body.style.overflow = prevOverflow;
       clearTimeout(t);
     };
   }, [open]);
+
+  const overlay = (
+    // portaled to <body>, so re-scope with .section-reader for the .rc-* CSS +
+    // tokens; .rc-portal strips the reader column's max-width/margin/padding.
+    <div className="section-reader rc-portal">
+      <div className="rc-scrim" onClick={close}>
+        <div
+          ref={panelRef}
+          className="rc-panel"
+          role="dialog"
+          aria-modal="true"
+          aria-label={`Recap card — ${unitName}`}
+          onClick={(e) => e.stopPropagation()}
+        >
+          <button
+            type="button"
+            className="rc-close"
+            aria-label="Close recap card"
+            onClick={close}
+          >
+            ×
+          </button>
+
+          <div className="rc-kicker">the gist{reg ? ` · ${reg}` : ''}</div>
+          <h3 className="rc-title">{unitName}</h3>
+
+          <p className="rc-plain">{recap.plainLanguage}</p>
+
+          <div className="rc-divider" aria-hidden="true" />
+
+          <div className="rc-facts-label">key facts</div>
+          <ul className="rc-facts">
+            {recap.facts.map((fact, i) => (
+              <li key={i} dangerouslySetInnerHTML={{ __html: fact }} />
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
 
   return (
     <>
@@ -79,41 +129,7 @@ export default function RecapCard({ unitName, reg, recap }: RecapCardProps) {
         <span className="rc-trigger-label">recap</span>
       </button>
 
-      {open && (
-        <div className="rc-scrim" onClick={close}>
-          <div
-            ref={panelRef}
-            className="rc-panel"
-            role="dialog"
-            aria-modal="true"
-            aria-label={`Recap card — ${unitName}`}
-            onClick={(e) => e.stopPropagation()}
-          >
-            <button
-              type="button"
-              className="rc-close"
-              aria-label="Close recap card"
-              onClick={close}
-            >
-              ×
-            </button>
-
-            <div className="rc-kicker">the gist{reg ? ` · ${reg}` : ''}</div>
-            <h3 className="rc-title">{unitName}</h3>
-
-            <p className="rc-plain">{recap.plainLanguage}</p>
-
-            <div className="rc-divider" aria-hidden="true" />
-
-            <div className="rc-facts-label">key facts</div>
-            <ul className="rc-facts">
-              {recap.facts.map((fact, i) => (
-                <li key={i} dangerouslySetInnerHTML={{ __html: fact }} />
-              ))}
-            </ul>
-          </div>
-        </div>
-      )}
+      {open && mounted && createPortal(overlay, document.body)}
     </>
   );
 }

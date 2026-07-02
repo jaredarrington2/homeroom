@@ -513,6 +513,15 @@
 }
 .section-reader .rc-trigger-label { text-transform: lowercase; }
 
+/* portal host: RecapCard is portaled to <body> and re-tagged .section-reader
+   for scoping + tokens; strip the reader column's max-width/margin/padding so
+   the fixed scrim fills the viewport instead of the 40rem reading column. */
+.section-reader.rc-portal {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
 .section-reader .rc-scrim {
   position: fixed;
   inset: 0;
