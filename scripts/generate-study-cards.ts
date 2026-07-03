@@ -66,12 +66,15 @@ const PLATE_PROMPT =
 
 function titlePrompt(title: string): string {
   return (
-    `A close-up photograph of the words "${title}" hand-lettered in thick black chisel-tip ` +
-    "Sharpie marker on clean white paper, written left-to-right on a SINGLE horizontal line, a " +
-    "wide banner layout, NOT stacked vertically. Real marker strokes: thick down-strokes and thin " +
-    "connecting strokes, ink pooling where strokes change direction, slight feathering and bleed " +
-    "into the paper fibers, an uneven baseline, slightly imperfect letter spacing. Authentic " +
-    "human hand-lettering, not a font. Pure white background, nothing else on the paper."
+    `A photograph of the words "${title}" written by hand as a heading at the top of an index ` +
+    "card, on a single horizontal line, in neat everyday handwriting with a fine bullet-tip black " +
+    "marker. Ordinary tidy penmanship — the kind a careful student writes at the top of their " +
+    "notes. Consistent, roughly uniform stroke width with no calligraphic thick-and-thin contrast; " +
+    "an upright or very slightly slanted hand; a mostly level baseline that isn't perfectly " +
+    "straight; small natural variation in letter size and spacing. It should look plainly " +
+    "handwritten — not designed, not brush-lettered, not a logo, no flourishes or swashes. Do NOT " +
+    "underline the words; absolutely no underline, no horizontal line, and no rule beneath or " +
+    "around the text — just the letters. Black ink on clean white paper, nothing else."
   );
 }
 
@@ -150,7 +153,9 @@ async function makeTitle(apiKey: string, card: StudyCard, model: string, quality
     const check = await checkSpelling(anthropic, trimmed, card.title);
     if (check.ok) {
       fs.mkdirSync(path.dirname(titlePath(card)), { recursive: true });
-      await sharp(trimmed).png().toFile(titlePath(card));
+      // Key the lettering to ink-on-TRANSPARENT (alpha from ink darkness) so there is no paper at
+      // all — nothing to leave a faint rectangle behind the title on the card.
+      fs.writeFileSync(titlePath(card), await inkOnTransparent(trimmed));
       console.log(`      spelling OK ("${check.read}") — wrote ${path.relative(ROOT, titlePath(card))}`);
       return;
     }
@@ -176,6 +181,21 @@ async function trimToInk(buf: Buffer): Promise<Buffer> {
   const left = Math.max(0, l - padX), top = Math.max(0, t - padY);
   const width = Math.min(W - left, r - l + 1 + padX * 2), height = Math.min(H - top, b - t + 1 + padY * 2);
   return sharp(buf).extract({ left, top, width, height }).png().toBuffer();
+}
+
+/** Convert dark-ink-on-white lettering to ink-on-TRANSPARENT: alpha = how dark each pixel is,
+ *  so the white paper disappears entirely (keeping the ink's own tone). No paper => no faint box. */
+async function inkOnTransparent(buf: Buffer): Promise<Buffer> {
+  const { data, info } = await sharp(buf).greyscale().normalise().raw().toBuffer({ resolveWithObject: true });
+  const W = info.width, H = info.height;
+  const out = Buffer.alloc(W * H * 4);
+  for (let i = 0; i < W * H; i++) {
+    const g = data[i];
+    let a = 255 - g; // dark ink -> opaque, white paper -> transparent
+    if (a < 16) a = 0; // floor: drop faint paper texture to fully transparent
+    out[i * 4] = g; out[i * 4 + 1] = g; out[i * 4 + 2] = g; out[i * 4 + 3] = a;
+  }
+  return sharp(out, { raw: { width: W, height: H, channels: 4 } }).png().toBuffer();
 }
 
 /** Vision spelling gate: transcribe the lettering and compare to the intended title. */

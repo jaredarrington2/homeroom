@@ -94,9 +94,9 @@
 .section-reader .sc-title { position: absolute; top: 2.6cqw; left: 6.4cqw; width: 87.2cqw; height: auto;
   mix-blend-mode: multiply; }
 .section-reader .sc-overlay { position: absolute; inset: 0; color: var(--sc-ink); font-family: var(--font-type); }
-.section-reader .sc-subtitle { position: absolute; top: 19.4cqw; left: 6.4cqw; right: 6.4cqw;
+.section-reader .sc-subtitle { position: absolute; top: 13.6cqw; left: 6.4cqw; right: 6.4cqw;
   font-family: var(--font-hand); font-size: 2.2cqw; color: var(--sc-pencil); line-height: 1.1; }
-.section-reader .sc-body { position: absolute; left: 6.4cqw; right: 6.4cqw; top: 23cqw; bottom: 6.4cqw;
+.section-reader .sc-body { position: absolute; left: 6.4cqw; right: 6.4cqw; top: 17.2cqw; bottom: 6.4cqw;
   display: flex; overflow: hidden;
   background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 3.03cqw,
     var(--sc-rule) 3.03cqw, var(--sc-rule) 3.143cqw); }
