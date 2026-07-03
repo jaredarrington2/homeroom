@@ -77,6 +77,61 @@
 .section-reader .sr-illus figcaption { font-family: var(--fm); font-size: 10px; color: var(--ink-faint);
   text-align: center; margin-top: 7px; letter-spacing: .02em; }
 
+/* photoreal study cards (spec: homeroom-photoreal-study-cards-spec.md). A live, layered card:
+   blank paper plate + Sharpie-title PNG (its white multiplied out live) + this DOM overlay that
+   draws the rules / dividers / typed body / highlighter / tooltips. Scoped .sc-* skeuomorphic
+   surface, same posture as .dv-*. All sizes in cqw (1cqw = 1% of card width) so it scales with no
+   flash; 1 design px = 1/14 cqw on the 1400px design face. line-height == rule pitch, so the
+   typed body lands on the drawn rules by construction. */
+.section-reader .sc { clear: both; width: 100%; margin: 24px 0 28px; }
+.section-reader .sc-card {
+  position: relative; width: 100%; aspect-ratio: 1400 / 875; container-type: inline-size;
+  border-radius: 2px; filter: drop-shadow(0 8px 18px rgba(0,0,0,.18));
+  --sc-ink: #1a1a1a; --sc-pencil: #3F3F3F; --sc-red: #C8534F; --sc-rule: rgba(150,185,225,.55);
+  --sc-hl-pink: rgba(255,150,170,.5); --sc-hl-yellow: rgba(255,231,90,.6);
+  --sc-hl-green: rgba(140,220,140,.52); --sc-hl-blue: rgba(140,185,255,.5); }
+.section-reader .sc-plate { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.section-reader .sc-title { position: absolute; top: 2.6cqw; left: 6.4cqw; max-width: 60cqw; max-height: 8cqw;
+  width: auto; height: auto; mix-blend-mode: multiply; }
+.section-reader .sc-overlay { position: absolute; inset: 0; color: var(--sc-ink); font-family: var(--font-type); }
+.section-reader .sc-subtitle { position: absolute; top: 10.8cqw; left: 6.4cqw; right: 6.4cqw;
+  font-family: var(--font-hand); font-size: 2.2cqw; color: var(--sc-pencil); line-height: 1.1; }
+.section-reader .sc-body { position: absolute; left: 6.4cqw; right: 6.4cqw; top: 14.5cqw; bottom: 6.4cqw;
+  display: flex; overflow: hidden;
+  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 3.03cqw,
+    var(--sc-rule) 3.03cqw, var(--sc-rule) 3.143cqw); }
+.section-reader .sc-col { flex: 1; min-width: 0; padding: 0 1.6cqw; }
+.section-reader .sc--three-column .sc-col:not(:last-child) { border-right: .1cqw solid rgba(63,63,63,.28); }
+.section-reader .sc--two-column .sc-col:first-child { border-right: .16cqw solid var(--sc-red); }
+.section-reader .sc--single-column .sc-body { border-left: .16cqw solid var(--sc-red); padding-left: 1.6cqw; }
+.section-reader .sc-colhead { height: 6.286cqw; display: flex; align-items: flex-end; padding-bottom: .6cqw; }
+.section-reader .sc-colhead-inner { position: relative; display: inline-block; }
+.section-reader .sc-colhead-txt { position: relative; z-index: 1; font-size: 1.6cqw; letter-spacing: .12em;
+  text-transform: uppercase; font-weight: 700; color: var(--sc-ink); }
+.section-reader .sc-hl { position: absolute; inset: -0.3cqw -0.6cqw -0.1cqw -0.6cqw; mix-blend-mode: multiply;
+  border-radius: 1.4cqw 1cqw 1.6cqw .8cqw; transform: rotate(-1.5deg); z-index: 0; }
+.section-reader .sc-hl--pink { background: var(--sc-hl-pink); }
+.section-reader .sc-hl--yellow { background: var(--sc-hl-yellow); }
+.section-reader .sc-hl--green { background: var(--sc-hl-green); }
+.section-reader .sc-hl--blue { background: var(--sc-hl-blue); }
+.section-reader .sc-line { display: flex; gap: .8cqw; align-items: flex-start; }
+.section-reader .sc-mk { flex: none; color: var(--sc-pencil); line-height: 3.143cqw; font-size: 1.5cqw; }
+.section-reader .sc-txt { font-size: calc(1.5cqw * var(--sc-fit, 1)); line-height: 3.143cqw; }
+.section-reader .sc-margin { font-family: var(--font-hand); font-size: 1.7cqw; color: var(--sc-pencil);
+  margin-left: .6cqw; display: inline-block; transform: rotate(-3deg); }
+.section-reader .sc-footer { position: absolute; left: 6.4cqw; right: 6.4cqw; bottom: 2cqw;
+  font-family: var(--font-hand); font-size: 1.7cqw; color: var(--sc-pencil); line-height: 1.15; }
+.section-reader .sc-term { position: relative; border-bottom: 1px dotted var(--sc-pencil); cursor: help; outline: none; }
+.section-reader .sc-tip { position: absolute; left: 0; bottom: calc(100% + .6cqw); z-index: 5; width: 22cqw;
+  max-width: 44cqw; padding: 1cqw 1.2cqw; background: #FBF6E9; color: #2a2a2a; border: 1px solid rgba(0,0,0,.18);
+  box-shadow: 0 4px 12px rgba(0,0,0,.16); border-radius: 2px; font-family: var(--font-type); font-size: 1.15cqw;
+  line-height: 1.35; text-transform: none; letter-spacing: 0; opacity: 0; visibility: hidden;
+  transition: opacity .12s; pointer-events: none; }
+.section-reader .sc-term:hover .sc-tip, .section-reader .sc-term:focus .sc-tip,
+.section-reader .sc-term.sc-open .sc-tip { opacity: 1; visibility: visible; }
+.section-reader .sc-cap { font-family: var(--fm); font-size: 10px; color: var(--ink-faint); text-align: center;
+  margin-top: 9px; letter-spacing: .02em; }
+
 /* tier 1: inline cloze */
 .section-reader .cloze { display: inline-block; }
 .section-reader .cloze input { font-family: var(--fs); font-size: 17px; color: var(--ink); background: var(--loose-paper);

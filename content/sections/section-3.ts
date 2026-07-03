@@ -1655,7 +1655,7 @@ const section3: SectionContent = {
         },
         {
           "heading": "the three tolerance buckets",
-          "visual": "tolerance-buckets",
+          "studyCard": "trid-tolerances",
           "paras": [
             {
               "html": "How far a quoted fee may drift from the LE to the CD depends on who controls it. TRID sorts every fee into three <b>tolerance</b> buckets. <b>Zero tolerance</b>: fees the lender controls — its own charges, a provider it required you to use, transfer taxes — can't rise a dollar; the lender eats any increase. <b>10% tolerance</b>: fees you could shop but only from the lender's list, plus recording fees — the whole group's total may rise up to <span class=\"cloze\" data-accept='[\"10%\",\"10\",\"ten percent\",\"ten\"]' data-reveal=\"10%\">?</span>, and the lender pays anything beyond that. <b>No tolerance</b>: fees the lender doesn't control — prepaid interest, property taxes, insurance, or a provider you picked entirely on your own — can rise to their true cost as long as the estimate was made in good faith. The logic is one idea: the more control the lender had over a fee, the less it's allowed to move."

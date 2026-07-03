@@ -58,6 +58,9 @@ export interface ConceptGroup {
   synth?: { q: string; a: string };
   /** 0–1 inline document mockup showing what this disclosure requires. */
   visual?: DisclosureVisualKind;
+  /** 0–1 live photoreal study card (an id in content/study-cards.ts). Rendered as the layered
+   *  <StudyCard> after the prose — richer than `visual` for content that sorts into columns. */
+  studyCard?: string;
 }
 
 export interface Definition {
