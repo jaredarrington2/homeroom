@@ -1719,12 +1719,22 @@ const section3: SectionContent = {
           ]
         },
         {
-          "heading": "what the forms actually show",
+          "heading": "reading the loan estimate",
           "paras": [
             {
-              "html": "Both forms walk the same path: the loan's terms (amount, interest rate, monthly principal-and-interest, and whether each can rise), the projected payments over the loan's life, the closing costs, and the cash the borrower brings to the table. The Closing Disclosure closes with a page of loan calculations — the total you'll pay over the loan's life, the finance charge, the amount financed, and the <b>Total Interest Percentage (TIP)</b>, the total interest as a percentage of the loan amount. Signing the CD only acknowledges you received it; it doesn't, by itself, obligate you to the loan."
+              "html": "Both forms walk the same path: the loan's terms (amount, interest rate, monthly principal-and-interest, and whether each can rise), the projected payments over the loan's life, the closing costs, and the cash the borrower brings to the table. The Loan Estimate lays that path out at the start of the loan — here is Ficus Bank's, page one, field by field."
             }
-          ]
+          ],
+          "walkthrough": "le"
+        },
+        {
+          "heading": "reading the closing disclosure",
+          "paras": [
+            {
+              "html": "The Closing Disclosure restates those same terms as final, then closes with a page of loan calculations — the total you'll pay over the loan's life, the finance charge, the amount financed, and the <b>Total Interest Percentage (TIP)</b>, the total interest as a percentage of the loan amount. Signing the CD only acknowledges you received it; it doesn't, by itself, obligate you to the loan. The same loan, now as the CD records it:"
+            }
+          ],
+          "walkthrough": "cd"
         }
       ],
       "review": {

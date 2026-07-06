@@ -1,0 +1,42 @@
+// content/forms/cd.ts — Closing Disclosure walkthrough steps.
+// Steps ported verbatim from cd-walkthrough-page1.html (same loan as the LE so the two compare 1:1).
+import type { FormWalkthroughData } from "./types";
+
+export const cdWalk: FormWalkthroughData = {
+  kind: "cd",
+  label: "Closing Disclosure",
+  sub: "Same loan as the LE · walk it top to bottom",
+  pageCount: 1,
+  steps: [
+    { page: 1, region: 1, title: "Three dates, not one",
+      body: "The Closing Disclosure is dated three ways: when it was issued, the closing date, and the disbursement date, when money actually moves. The LE carried only an issue date.",
+      tell: "Disbursement is <mark>the date a rescission clock runs from</mark> on a refinance." },
+    { page: 1, region: 2, title: "Who's handling the closing",
+      body: "The settlement agent, the file number, and the property with its price. By closing there's a named settlement agent and file number — neither existed on the LE." },
+    { page: 1, region: 3, title: "Now there's a seller",
+      body: "Borrower, seller, and lender are all named. The Loan Estimate listed only the applicants; the CD records both sides of the sale plus the lender." },
+    { page: 1, region: 4, title: "Loan information, plus the MIC number",
+      body: "Term, purpose, product, type, and loan ID all carry over from the LE. The Mortgage Insurance Certificate number is new to the CD.",
+      tell: "The MIC # <mark>shows up only when the loan carries mortgage insurance</mark>." },
+    { page: 1, region: 5, title: "Loan Terms, now final",
+      body: "$162,000, with the same can-it-increase column the LE used — no. On the CD these are the final terms rather than an estimate.",
+      tell: "Set beside your LE, these <mark>should match</mark> unless a change was disclosed." },
+    { page: 1, region: 6, title: "Rate and P&I",
+      body: "3.875% and $761.78, each final and unchanging on this fixed-rate loan." },
+    { page: 1, region: 7, title: "Prepayment penalty and balloon",
+      body: "Still named: a prepayment penalty as high as $3,240 in the first two years, and no balloon payment." },
+    { page: 1, region: 8, title: "Projected payments, in two bands",
+      body: "Principal and interest hold steady. Mortgage insurance ($82.35) runs only through year 7.",
+      tell: "MI ends at year 8 — <mark>the total steps down</mark>." },
+    { page: 1, region: 9, title: "Escrow, and the total",
+      body: "Escrow ($206.13) brings the total monthly payment to $1,050.26 early, then $967.91 once mortgage insurance ends." },
+    { page: 1, region: 10, title: "What's escrowed, and what isn't",
+      body: "Monthly property costs run $356.13, but only $206.13 goes through escrow. Homeowner's association dues are checked as Other and paid on their own.",
+      tell: "The gap is <mark>the HOA dues — owed monthly, but not collected in escrow</mark>." },
+    { page: 1, region: 11, title: "Total closing costs",
+      body: "$9,712.10, made of $4,694.05 in loan costs and $5,018.05 in other costs, with no lender credits. The itemization is on page 2." },
+    { page: 1, region: 12, title: "Cash to close",
+      body: "$14,147.26 is what the borrower brings to the table. The full arithmetic is elsewhere.",
+      tell: "On the LE that detail sat on page 2; <mark>on the CD it moves to page 3</mark>." },
+  ],
+};

@@ -61,6 +61,9 @@ export interface ConceptGroup {
   /** 0–1 live photoreal study card (an id in content/study-cards.ts). Rendered as the layered
    *  <StudyCard> after the prose — richer than `visual` for content that sorts into columns. */
   studyCard?: string;
+  /** 0–1 guided form walkthrough (FormWalkthrough.tsx, a client component). Renders the faithful
+   *  Loan Estimate ('le') or Closing Disclosure ('cd') and steps a highlight field-by-field. */
+  walkthrough?: "le" | "cd";
 }
 
 export interface Definition {

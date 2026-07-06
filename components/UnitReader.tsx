@@ -13,6 +13,7 @@ import RecapCard from "./RecapCard";
 import ListenEntry from "./ListenEntry";
 import ListenMark from "./ListenMark";
 import StudyCard from "./StudyCard";
+import FormWalkthrough from "./FormWalkthrough";
 import { figureSrc, type SectionUnit } from "@/lib/section";
 import { getStudyCard } from "@/content/study-cards";
 
@@ -72,6 +73,7 @@ export default function UnitReader({
               </figure>
             )}
             {g.visual && <DisclosureVisual kind={g.visual} />}
+            {g.walkthrough && <FormWalkthrough form={g.walkthrough} />}
             {g.studyCard && getStudyCard(g.studyCard) && <StudyCard card={getStudyCard(g.studyCard)!} />}
             {g.synth && <Synth q={g.synth.q} a={g.synth.a} unitId={unit.id} groupIndex={gi} synthId={`${unit.id}-synth-${gi}`} />}
           </div>

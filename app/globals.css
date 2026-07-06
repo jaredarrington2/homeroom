@@ -871,3 +871,113 @@
 @media (max-width: 560px) {
   .lp-bar { left: 0; right: 0; bottom: 0; transform: none; width: 100%; padding: 10px 14px env(safe-area-inset-bottom, 10px); }
 }
+
+/* ===== FormWalkthrough — guided one-field-at-a-time tour of a real loan form (LE / CD) =====
+   Sixth scoped skeuomorphic surface, namespaced .fw-* / .fw. The form is an authentic
+   near-black-ink-on-white government document; the caption is warm paper; the gliding
+   highlight is canon royal. Nothing here leaks into the flat canon. */
+.section-reader .fw {
+  --fw-card: #FBF6E9; --fw-hr: #E7DEC7; --fw-hl: #FFE27A; --fw-mut: #5f5b54;
+  margin: 26px 0 30px;
+}
+.section-reader .fw * { box-sizing: border-box; }
+
+.section-reader .fw-hd {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin: 0 0 12px;
+}
+.section-reader .fw-appttl { font-family: var(--font-display); font-size: 18px; font-weight: 500; margin: 0; color: var(--ink); }
+.section-reader .fw-appsub { font-family: var(--font-sans); font-size: 12px; color: var(--fw-mut); }
+.section-reader .fw-icon {
+  background: transparent; border: 0; color: #b6ac93; cursor: pointer; padding: 6px; border-radius: 8px;
+  display: inline-flex; line-height: 0; transition: color .16s ease, background .16s ease;
+}
+.section-reader .fw-icon:hover { color: var(--royal); background: rgba(30, 58, 138, .06); }
+.section-reader .fw-icon[aria-pressed="true"] { color: var(--royal); }
+
+/* the document */
+.section-reader .fw-doc {
+  position: relative; background: #fff; border: 1px solid #1c1c1c; padding: 16px 18px;
+  font-family: var(--font-sans); font-size: 12px; line-height: 1.35; color: #1c1c1c;
+  box-shadow: 0 2px 10px rgba(20, 18, 16, .1);
+}
+.section-reader .fw-doc .region { position: relative; z-index: 1; transition: opacity .38s ease; border-radius: 4px; }
+.section-reader .fw-doc.guided .region { opacity: .22; }
+.section-reader .fw-doc.guided .region.on { opacity: 1; }
+.section-reader .fw-spot {
+  position: absolute; z-index: 0; top: 0; left: 0; width: 0; height: 0;
+  background: var(--royal-faint); border: 1.5px solid var(--royal); border-radius: 6px;
+  box-shadow: 0 1px 6px rgba(30, 58, 138, .14); opacity: 0; pointer-events: none;
+  transition: top .44s cubic-bezier(.4, 0, .2, 1), left .44s cubic-bezier(.4, 0, .2, 1),
+    width .44s cubic-bezier(.4, 0, .2, 1), height .44s cubic-bezier(.4, 0, .2, 1), opacity .3s ease;
+}
+/* on-form value highlight — transparent until its own step is active */
+.section-reader .fw-doc .fw-vhl { background: transparent; border-radius: 1px; padding: 0 1px; transition: background .3s ease; }
+.section-reader .fw-doc.guided .region.on .fw-vhl { background: var(--fw-hl); }
+
+/* form internals (faithful reproduction) */
+.section-reader .fw-doc .d-top { display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; border-bottom: 2px solid #1c1c1c; padding-bottom: 8px; }
+.section-reader .fw-doc .d-bank { font-weight: 700; font-size: 15px; letter-spacing: .02em; }
+.section-reader .fw-doc .d-bank small { display: block; font-weight: 400; font-size: 10px; letter-spacing: 0; margin-top: 2px; }
+.section-reader .fw-doc .d-compare { font-style: italic; font-size: 10.5px; color: #333; max-width: 230px; text-align: right; }
+.section-reader .fw-doc .d-h1 { font-weight: 700; font-size: 17px; margin: 10px 0 8px; }
+.section-reader .fw-doc .d-meta { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.section-reader .fw-doc .d-meta3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-top: 10px; }
+.section-reader .fw-doc .d-col h4 { font-family: var(--font-type); font-size: 9.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; margin: 0 0 5px; padding-bottom: 3px; border-bottom: 1px solid #cfcfcf; color: #1c1c1c; }
+.section-reader .fw-doc .d-col .f { font-size: 10px; line-height: 1.4; margin-bottom: 4px; }
+.section-reader .fw-doc .d-col .f b { font-weight: 700; }
+.section-reader .fw-doc .kv { display: grid; grid-template-columns: 74px 1fr; gap: 2px 8px; font-size: 11px; margin: 0; }
+.section-reader .fw-doc .kv dt { font-family: var(--font-type); font-weight: 700; letter-spacing: .02em; text-transform: uppercase; font-size: 9.5px; padding-top: 1px; }
+.section-reader .fw-doc .kv dd { margin: 0; }
+.section-reader .fw-doc .note { font-style: italic; font-size: 10px; color: #333; margin-top: 6px; line-height: 1.4; }
+.section-reader .fw-doc .bar { background: #1c1c1c; color: #fff; font-weight: 700; font-size: 12px; padding: 3px 8px; margin: 14px 0 8px; letter-spacing: .02em; }
+.section-reader .fw-doc .trow { display: grid; grid-template-columns: 1fr auto; gap: 10px; align-items: baseline; padding: 3px 0; border-bottom: 1px solid #e2e2e2; }
+.section-reader .fw-doc .trow .lab { font-weight: 700; }
+.section-reader .fw-doc .trow .sub { font-weight: 400; color: #333; font-size: 10.5px; }
+.section-reader .fw-doc .trow .ans { font-weight: 700; text-align: right; white-space: nowrap; }
+.section-reader .fw-doc .colhdr { font-size: 10px; font-weight: 700; text-align: right; color: #333; padding-bottom: 2px; }
+.section-reader .fw-doc .feat { font-size: 10.5px; font-weight: 700; margin: 8px 0 2px; }
+.section-reader .fw-doc .pp { width: 100%; border-collapse: collapse; font-size: 11px; }
+.section-reader .fw-doc .pp th { text-align: right; font-size: 10px; border-bottom: 1px solid #1c1c1c; padding: 3px 4px; }
+.section-reader .fw-doc .pp th:first-child { text-align: left; }
+.section-reader .fw-doc .pp td { padding: 3px 4px; border-bottom: 1px solid #e2e2e2; text-align: right; }
+.section-reader .fw-doc .pp td:first-child { text-align: left; }
+.section-reader .fw-doc .pp .tot td { font-weight: 700; border-bottom: 2px solid #1c1c1c; }
+.section-reader .fw-doc .pp .sub2 { font-weight: 400; color: #333; font-size: 9.5px; }
+.section-reader .fw-doc .taxbox { border: 1px solid #1c1c1c; padding: 6px 8px; margin-top: 6px; font-size: 10.5px; }
+.section-reader .fw-doc .taxbox b { font-size: 15px; }
+.section-reader .fw-doc .cost { display: grid; grid-template-columns: 1fr auto; gap: 8px; padding: 4px 0; }
+.section-reader .fw-doc .cost .big { font-size: 16px; font-weight: 700; text-align: right; }
+.section-reader .fw-doc .cost .exp { font-size: 10px; color: #333; }
+.section-reader .fw-doc .d-foot { font-family: var(--font-type); border-top: 1px solid #1c1c1c; margin-top: 12px; padding-top: 6px; font-size: 9.5px; display: flex; justify-content: space-between; color: #333; }
+
+/* caption card — warm paper, sticky to the viewport bottom while the tall form scrolls */
+.section-reader .fw-cap {
+  position: sticky; bottom: 12px; z-index: 20; margin-top: 16px;
+  background: var(--fw-card); border: 0.5px solid var(--fw-hr); border-radius: 10px;
+  padding: 14px 16px; box-shadow: 0 6px 20px rgba(20, 18, 16, .18);
+}
+.section-reader .fw-prog { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.section-reader .fw-dots { display: flex; gap: 4px; flex: 1; flex-wrap: wrap; }
+.section-reader .fw-dot { width: 7px; height: 7px; border-radius: 50%; background: #d9cfb6; }
+.section-reader .fw-dot.on { background: var(--royal); }
+.section-reader .fw-dot.done { background: #a9bdd9; }
+.section-reader .fw-count { font-family: var(--font-type); font-size: 11px; color: var(--fw-mut); white-space: nowrap; }
+.section-reader .fw-ttl { font-family: var(--font-display); font-size: 17px; font-weight: 500; margin: 2px 0 5px; color: var(--ink); }
+.section-reader .fw-body { font-family: var(--font-sans); font-size: 13.5px; line-height: 1.55; margin: 0 0 8px; color: #2b2825; }
+.section-reader .fw-tell { font-family: var(--font-hand); font-size: 19px; line-height: 1.35; color: #2b2825; margin: 0 0 12px; }
+.section-reader .fw-tell mark { background: var(--fw-hl); padding: 0 2px; border-radius: 1px; color: inherit; }
+.section-reader .fw-row { display: flex; gap: 8px; align-items: center; }
+.section-reader .fw-btn { font-family: var(--font-sans); font-weight: 500; font-size: 13px; border-radius: 6px; padding: 8px 16px; cursor: pointer; border: 0; }
+.section-reader .fw-btn.next { background: var(--royal); color: #fff; }
+.section-reader .fw-btn.next:hover { background: var(--royal-hover); }
+.section-reader .fw-btn.back { background: transparent; color: var(--royal); border: 0.5px solid var(--royal); }
+.section-reader .fw-btn:disabled { opacity: .4; cursor: default; }
+
+@media (max-width: 560px) {
+  .section-reader .fw-doc .d-meta { grid-template-columns: 1fr; }
+  .section-reader .fw-doc .d-meta3 { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .section-reader .fw-doc .region,
+  .section-reader .fw-spot { transition: none; }
+}
