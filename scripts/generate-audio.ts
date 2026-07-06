@@ -22,7 +22,11 @@
 import * as fs from "fs";
 import * as path from "path";
 import section3 from "../content/sections/section-3";
+import section4 from "../content/sections/section-4";
 import { unitManifest, isSegment, type UnitManifest } from "../lib/audioText";
+
+// All reader sections whose units get pre-generated narration. Add new sections here.
+const ALL_UNITS = [...section3.units, ...section4.units];
 
 const MODEL_ID = "gpt-4o-mini-tts"; // steerable via `instructions`; tts-1 has no accent control
 const VOICE = "ash";                // male base timbre. Other male options: onyx, echo, ballad, verse
@@ -65,11 +69,11 @@ function parseArgs() {
 
 function targetManifests(unit: string | null): UnitManifest[] {
   if (unit) {
-    const u = section3.units.find((x) => x.id === unit);
-    if (!u) { console.error(`No unit "${unit}". Ids: ${section3.units.map((x) => x.id).join(", ")}`); process.exit(1); }
+    const u = ALL_UNITS.find((x) => x.id === unit);
+    if (!u) { console.error(`No unit "${unit}". Ids: ${ALL_UNITS.map((x) => x.id).join(", ")}`); process.exit(1); }
     return [unitManifest(u)];
   }
-  return section3.units.map(unitManifest);
+  return ALL_UNITS.map(unitManifest);
 }
 
 const charsOf = (m: UnitManifest) => m.items.filter(isSegment).reduce((n, s) => n + s.text.length, 0);

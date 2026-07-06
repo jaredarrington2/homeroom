@@ -1,0 +1,72 @@
+{
+  "unitId": "getting-licensed",
+  "name": "Getting licensed",
+  "reg": "SAFE Act · 12 USC 5104",
+  "groupCount": 6,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-getting-licensed-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "Earning a state MLO license is a gauntlet, and it's designed that way — the whole point of the SAFE Act was to make sure the people originating loans are trustworthy and competent. A candidate has to pass a background check, clear a set of minimum standards, complete required education, pass a national exam, and get sponsored by a licensed employer. Miss any one and the license doesn't issue."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-getting-licensed-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "It starts with the NMLS looking hard at who you are. Before applying, a candidate submits fingerprints for a state and national criminal-history check run through the FBI, authorizes the NMLS to pull an independent credit report, and provides a full personal history including any past administrative, civil, or criminal findings. The background check is the gate everything else sits behind."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-getting-licensed-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "Clearing the background check means meeting fixed standards. You must have never had an MLO license revoked. You can't have a felony conviction within the past 7 years — and for a felony involving fraud, dishonesty, a breach of trust, or money laundering, the bar is ever, with no time limit at all. Put a number on the general rule: a disqualifying felony conviction within the last 7 years blocks a license. You also have to show financial responsibility — no outstanding judgments (medical excepted) or tax liens, no foreclosures in the past 3 years, and no pattern of seriously delinquent accounts."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-getting-licensed-g2-gate-synth",
+      "gi": 2
+    },
+    {
+      "kind": "prose",
+      "id": "audio-getting-licensed-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "A license isn't usable on its own — it has to be tied to an employer. To originate, an MLO must be sponsored by a state-licensed entity. Submit your application without a sponsor and, if you're otherwise qualified, the state issues the license in an \"approved-inactive\" status. You can't originate a single loan until a sponsorship flips it to \"approved-active.\" The license exists; the sponsorship is what switches it on."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-getting-licensed-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "Before the exam comes the classroom. A candidate must complete at least 20 hours of NMLS-approved pre-licensing education, and the hours are carved up: at least 3 hours of federal law, 3 hours of ethics (covering fraud, consumer protection, and fair lending), and 2 hours on non-traditional mortgage products. One approved course satisfies the national requirement for every state, though a particular state may pile its own state-specific hours on top."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-getting-licensed-g4-gate-synth",
+      "gi": 4
+    },
+    {
+      "kind": "prose",
+      "id": "audio-getting-licensed-g5-p0",
+      "gi": 5,
+      "pi": 0,
+      "text": "The finish line is a national exam: a 120-question test written by the NMLS, and passing means scoring at least 75%. Fail and you can retake it twice more — three attempts in all — with each try at least 30 days after the last. Fail all three and you're locked out for 6 months before the cycle starts over. One more rule reaches into the future: let your license lapse for 5 years or more (not counting time you spent as a registered originator) and you have to sit the exam again."
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-getting-licensed-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-getting-licensed-gate-mcq"
+    }
+  ]
+}

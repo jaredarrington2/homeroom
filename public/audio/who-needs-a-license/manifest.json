@@ -1,0 +1,58 @@
+{
+  "unitId": "who-needs-a-license",
+  "name": "Who needs a license",
+  "reg": "SAFE Act · 12 USC 5103",
+  "groupCount": 4,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-who-needs-a-license-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "Not everyone who works on a mortgage needs a license, and the line the SAFE Act draws is about employer and role. Every loan originator has to be registered in the NMLS with a unique identifier — that part is universal. Whether they also need a state license on top of that depends entirely on who they work for."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-who-needs-a-license-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "There are two kinds of loan originator. A registered loan originator works for an exempt entity — a bank, credit union, or other depository institution (or an institution the Farm Credit Administration regulates). They register in the NMLS and carry a unique identifier, but because a federal banking agency already supervises their employer, they do not need a state license. A state-licensed loan originator is everyone else — someone at a mortgage broker or non-depository lender — and they must earn and maintain a state license. Both are tracked in the NMLS; only one needs the license."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-who-needs-a-license-g1-gate-synth",
+      "gi": 1
+    },
+    {
+      "kind": "prose",
+      "id": "audio-who-needs-a-license-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "Beyond the exempt-entity rule, a few individuals can arrange a mortgage without a license because they aren't in the business of it. You don't need a license to negotiate a loan for an immediate family member, or on a home that is your own residence. A licensed attorney is also exempt when negotiating a mortgage as an incidental part of representing a client — unless a lender or broker is paying the attorney for it, in which case the exemption disappears."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-who-needs-a-license-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "A loan processor or underwriter who works clerical, behind-the-scenes duties under a licensed originator's supervision doesn't need a license — they collect and analyze information but never offer or negotiate rates or terms. Two things flip that. If they hold themselves out as able to originate — on a business card, a sign, a rate sheet — they need a license. And a contract (1099) processor or underwriter, working independently rather than as a supervised employee, must be licensed in every state where the properties they work on are located."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-who-needs-a-license-g3-gate-synth",
+      "gi": 3
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-who-needs-a-license-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-who-needs-a-license-gate-mcq"
+    }
+  ]
+}

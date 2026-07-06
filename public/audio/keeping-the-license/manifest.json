@@ -1,0 +1,72 @@
+{
+  "unitId": "keeping-the-license",
+  "name": "Keeping the license",
+  "reg": "SAFE Act · 12 USC 5105",
+  "groupCount": 6,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-keeping-the-license-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "A license isn't a one-time achievement — it's a subscription you renew every year. Miss the renewal and you can't legally originate a thing until you fix it. Keeping the license means meeting the same standards you started with, taking continuing education, and paying the fees, all on an annual clock."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-keeping-the-license-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "Every MLO license expires on the same day: 11:59 p.m. on December 31. Miss the renewal and the license is dead at 12:00 a.m. on January 1 — and from that moment you must stop any activity that requires a license. Because state agencies take time to process, the smart move is to submit the renewal early, around November 1, rather than gambling on the last week of December."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-keeping-the-license-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "Each year the license also demands fresh learning: at least 8 hours of NMLS-approved continuing education. The hours are earmarked much like pre-licensing: at least 3 hours of federal law, 2 hours of ethics (fraud, consumer protection, fair lending), and 2 hours on non-traditional mortgage products, with the remaining hour rounding it out. A state may require its own state-specific CE on top of the national eight."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-keeping-the-license-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "The CE rules exist to stop people from gaming them. You can only get credit for a course in the year you take it — no stockpiling — and you can't take the same approved course in the same or successive years. If you also teach an approved CE course, you earn two hours of credit for every one hour you teach. And if your license lapses, a Late CE (LCE) course completed by the last day of February lets you still renew for the previous year."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-keeping-the-license-g3-gate-synth",
+      "gi": 3
+    },
+    {
+      "kind": "prose",
+      "id": "audio-keeping-the-license-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "Letting a license expire briefly is recoverable, but there's a hard limit. If a license stays lapsed for 5 years or more, the originator has to retake the national exam to get back in. The key wrinkle: time spent working as a registered loan originator (at an exempt entity like a bank) doesn't count toward the lapse. So someone who leaves a licensed shop for a bank and originates there for years can return without re-testing — the clock only runs while they're fully out of origination."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-keeping-the-license-g4-gate-synth",
+      "gi": 4
+    },
+    {
+      "kind": "prose",
+      "id": "audio-keeping-the-license-g5-p0",
+      "gi": 5,
+      "pi": 0,
+      "text": "The registry only works if it's current, so changes have to be reported. When a registered MLO changes employers, or a licensed MLO changes sponsorship, the update is filed with the NMLS on form MU4 — and both the individual and the company have to file it. The SAFE Act itself doesn't set a national deadline for the filing, but individual states usually do, which is one more reason to know each state's rules."
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-keeping-the-license-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-keeping-the-license-gate-mcq"
+    }
+  ]
+}

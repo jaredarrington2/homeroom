@@ -1,0 +1,72 @@
+{
+  "unitId": "state-oversight",
+  "name": "State oversight",
+  "reg": "SAFE Act · 12 USC 5107–5114",
+  "groupCount": 6,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-state-oversight-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "The SAFE Act is federal, but the day-to-day policing of loan originators is done by the states. Congress gave each state a template — the State Model Law — and required every one of them to adopt its own SAFE Act and stand up a regulator to enforce it. That regulator, and the person who runs it, is where the real supervisory power sits."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-state-oversight-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "The Housing and Economic Recovery Act made every state pass a state-specific SAFE Act, built from a common Model Law so the rules stay roughly uniform coast to coast. Each state's system is run by a State Commissioner with broad authority: to write rules, to deny, suspend, condition, or revoke licenses, and to examine, investigate, and enforce — including the power to subpoena, issue cease-and-desist orders, order restitution and penalties, and ban an individual from the industry."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-state-oversight-g1-gate-synth",
+      "gi": 1
+    },
+    {
+      "kind": "prose",
+      "id": "audio-state-oversight-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "To do that job, the CFPB and every State Commissioner can examine and investigate any licensee as often as necessary. They can demand the books and records, interview officers and employees under oath, and even take physical possession of documents during an investigation. The flip side is a hard duty on you: no one under examination may knowingly withhold, alter, or destroy records — doing so is itself a serious violation."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-state-oversight-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "The SAFE Act spells out what an originator may never do, and the theme is honesty. It's a violation to defraud or mislead a borrower or lender, to engage in any unfair or deceptive practice, or to advertise or contract for rates and terms that aren't actually available — classic bait-and-switch. It's also a violation to originate without a valid license, to try to influence an appraiser's judgment, to collect a prohibited fee, or to fail to truthfully account for money belonging to a party in the transaction."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-state-oversight-g3-gate-synth",
+      "gi": 3
+    },
+    {
+      "kind": "prose",
+      "id": "audio-state-oversight-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "When someone violates the Act, a Commissioner can deny, suspend, or revoke a license, order restitution, and impose fines. The ceiling on a civil penalty is $25,000 for each act or omission — and each separate violation counts on its own, so they stack. Separately, every mortgage licensee entity has to keep regulators informed by filing a Call Report — a report of condition submitted to the NMLS quarterly, describing the origination activity of the previous calendar quarter."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-state-oversight-g5-p0",
+      "gi": 5,
+      "pi": 0,
+      "text": "States also make originators put money behind their promises. Every MLO must be covered by a surety bond — a guarantee that pays out if the originator causes harm — though an employer's bond can cover its employees. Each must also maintain a minimum net worth. Both the bond amount and the net worth aren't fixed dollar figures; they scale with the dollar amount of loans the originator produces, as the State Commissioner sets."
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-state-oversight-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-state-oversight-gate-mcq"
+    }
+  ]
+}

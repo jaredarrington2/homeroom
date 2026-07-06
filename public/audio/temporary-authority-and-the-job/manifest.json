@@ -1,0 +1,72 @@
+{
+  "unitId": "temporary-authority-and-the-job",
+  "name": "Temporary authority & on the job",
+  "reg": "SAFE Act · 12 USC 5117",
+  "groupCount": 6,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-temporary-authority-and-the-job-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "Getting a license in a new state takes time, and the SAFE Act didn't want a qualified originator sitting idle for weeks while paperwork clears. So it created temporary authority — a bridge that lets certain originators start working in a new state before that state's license is actually issued, as long as they already have a clean track record and an application pending."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-temporary-authority-and-the-job-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "The first bridge is for a registered loan originator moving to a licensed shop. When a registered LO takes a job at a state-licensed mortgage company, they get temporary authority if their record is clean — no denied, revoked, or suspended license, no cease-and-desist order, no disqualifying conviction — and they've submitted a state license application and were registered in the NMLS at some point during the 1 year before applying."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-temporary-authority-and-the-job-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "The second bridge is for a state-licensed originator crossing into a new state. They get temporary authority in the new (application) state if they meet the standard requirements, are employed by a state-licensed company there, and held a license in a different state at some point during the 30 days before submitting the new application. The idea is the same both ways: an already-vetted originator shouldn't have to stop working just to change states."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-temporary-authority-and-the-job-g2-gate-synth",
+      "gi": 2
+    },
+    {
+      "kind": "prose",
+      "id": "audio-temporary-authority-and-the-job-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "Temporary authority isn't open-ended — it ends at the earliest of four events: the originator withdraws the application, the state denies it (or signals intent to deny), the state grants the license, or 120 days pass with the application still sitting incomplete. Whichever comes first closes the bridge."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-temporary-authority-and-the-job-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "One product feature worth knowing: some mortgages can be assumed — a buyer takes over the seller's existing loan, qualifies for it, gets added to the note and title, and the seller is released. What makes a loan assumable is the absence of an alienation clause (also called a due-on-sale clause), the provision that would otherwise let the lender demand full repayment when the property changes hands. Without it, the loan can pass to a new owner. Government loans — FHA, VA, and USDA — are assumable, as are some conventional adjustable-rate loans."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-temporary-authority-and-the-job-g4-gate-synth",
+      "gi": 4
+    },
+    {
+      "kind": "prose",
+      "id": "audio-temporary-authority-and-the-job-g5-p0",
+      "gi": 5,
+      "pi": 0,
+      "text": "Three habits round out compliant practice. Your unique identifier has to appear on every application, solicitation, and advertisement — business cards and websites included — and you disclose it to anyone who asks. Every loan gets an organized loan file holding the records that support and service it. And on the Loan Estimate and Closing Disclosure, the entry \"N/A\" is prohibited — a line that doesn't apply is simply left blank."
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-temporary-authority-and-the-job-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-temporary-authority-and-the-job-gate-mcq"
+    }
+  ]
+}

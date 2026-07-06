@@ -1,0 +1,64 @@
+{
+  "unitId": "the-safe-act",
+  "name": "The SAFE Act",
+  "reg": "Secure and Fair Enforcement for Mortgage Licensing Act · 12 USC Ch. 51",
+  "groupCount": 5,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-the-safe-act-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "In the years before 2008, becoming a mortgage loan originator took almost nothing — no license, no exam, no background check, and barely any oversight. That's the world the SAFE Act was built to end. Passed in the wreckage of the 2008 crisis, it created a single national system to license, register, and track everyone who originates home loans, so the industry could never again run unaccountable. Its full name is the Secure and Fair Enforcement for Mortgage Licensing Act, and it lives at Title V of the Housing and Economic Recovery Act."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-the-safe-act-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "Before the SAFE Act, mortgage rules existed but were rarely enforced, and originators knew it. Lenders wrote loans that barely checked whether the borrower could pay — low-doc, no-doc, even a \"no income, no asset, no employment\" loan — because risky products were wildly profitable. An originator who lied or cheated and got caught could simply resign, move, and start over somewhere else; there was no system tracking who they were or what they'd done. That escape hatch is exactly what the SAFE Act slammed shut."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-the-safe-act-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "The SAFE Act, enacted in 2008, did two big things. It created the NMLS — one national registry every loan originator must be entered in — and it attached real consequences to misconduct. It also spread the accountability upward: under the doctrine of respondeat superior (\"let the master answer\"), when an originator breaks the law, the employer can be held responsible too — even if the violation traced back to poor training. The fox could no longer guard the henhouse."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-the-safe-act-g2-gate-synth",
+      "gi": 2
+    },
+    {
+      "kind": "prose",
+      "id": "audio-the-safe-act-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "The Nationwide Mortgage Licensing System & Registry (NMLS) is the spine of the whole system — one database that licenses state MLOs, registers the exempt ones, and follows them across state lines and jobs. It was built and is run by two bodies working together: the Conference of State Bank Supervisors (CSBS) and the American Association of Residential Mortgage Regulators (AARMR). Because everything funnels through it, a consumer can look up an originator's employment history and any public disciplinary action for free."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-the-safe-act-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "The NMLS gives every loan originator a permanent number — the unique identifier — that follows them for their whole career. Two things make it matter. It is deliberately not your Social Security number, so it can be public without exposing you, and it's permanent: change employers or states and the number stays the same, which is what makes cross-country tracking possible. An originator has to display it on their applications, solicitations, and advertising, and share it with anyone who asks."
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-the-safe-act-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-the-safe-act-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-the-safe-act-gate-mcq"
+    }
+  ]
+}

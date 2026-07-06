@@ -5,8 +5,8 @@ import type { FormWalkthroughData } from "./types";
 export const leWalk: FormWalkthroughData = {
   kind: "le",
   label: "Loan Estimate",
-  sub: "Ficus Bank sample · walk it top to bottom",
-  pageCount: 1,
+  sub: "Ficus Bank sample · three pages",
+  pageCount: 3,
   steps: [
     { page: 1, region: 1, title: "The basics",
       body: "Who's borrowing, the property they're buying, its sale price, and the date the lender issued this estimate." },
@@ -35,5 +35,37 @@ export const leWalk: FormWalkthroughData = {
     { page: 1, region: 11, title: "Estimated cash to close",
       body: "$16,054 is what the borrower actually brings to the table. It folds in the closing costs; the full arithmetic is on page 2.",
       tell: "Closing costs and cash to close are <mark>different numbers</mark> — cash to close is the larger one." },
+
+    // ---- page 2 · closing cost details + calculating cash to close ----
+    { page: 2, region: 1, title: "A. Origination charges",
+      body: "What the lender charges to make the loan: points to buy the rate down, plus the application and underwriting fees. $1,802." },
+    { page: 2, region: 2, title: "B. Services you can't shop for",
+      body: "Fees for services the lender picks — appraisal, credit report, flood and tax work. $672 estimated." },
+    { page: 2, region: 3, title: "C. Services you can shop for",
+      body: "Fees for services you choose the provider for — pest inspection, survey, and the title company's work. $3,198 estimated.",
+      tell: "On the LE these are estimates; <mark>the CD reports what they actually came to</mark>." },
+    { page: 2, region: 4, title: "D. Total loan costs",
+      body: "Sections A, B, and C together: $5,672 — the loan-costs figure page 1 named. One amount column here, not the CD's six." },
+    { page: 2, region: 5, title: "Other costs: taxes, prepaids, escrow",
+      body: "Government recording fees (E), the first homeowner's-insurance premium and prepaid interest (F), and the initial escrow deposit (G)." },
+    { page: 2, region: 6, title: "H. Other, and the other-costs total",
+      body: "The optional owner's title policy sits here. Sections E through H total $2,382." },
+    { page: 2, region: 7, title: "J. Total closing costs",
+      body: "Loan costs plus other costs: $8,054, with no lender credits." },
+    { page: 2, region: 8, title: "Calculating cash to close",
+      body: "Total closing costs, the down payment, and the deposit net to $16,054 — the cash-to-close figure from page 1.",
+      tell: "One estimate column here; <mark>the CD adds a 'did this change?' column against it</mark>." },
+
+    // ---- page 3 · comparisons, other considerations, contacts, receipt ----
+    { page: 3, region: 1, title: "Comparisons: 5 years, APR, TIP",
+      body: "Three yardsticks for shopping: what you'll have paid in five years ($56,582, with $15,773 off the principal), the APR at 4.274%, and the total interest percentage at 69.45%.",
+      tell: "The <mark>APR (4.274%) isn't the note rate (3.875%)</mark> — it folds in the loan costs." },
+    { page: 3, region: 2, title: "Other considerations",
+      body: "Appraisal-copy rights, whether the loan can be assumed, the homeowner's-insurance requirement, the late-payment charge, refinance risk, and whether servicing may transfer." },
+    { page: 3, region: 3, title: "Who to contact, with NMLS IDs",
+      body: "The lender and the loan officer, each with the NMLS ID number that identifies them." },
+    { page: 3, region: 4, title: "Confirming receipt",
+      body: "A signature line for the estimate. Signing confirms the borrower received it — nothing more.",
+      tell: "Receipt, not acceptance — <mark>the same rule the CD states</mark>." },
   ],
 };
