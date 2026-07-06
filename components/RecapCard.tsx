@@ -101,16 +101,17 @@ export default function RecapCard({ unitName, reg, recap, unitId }: RecapCardPro
             ×
           </button>
 
-          <Sticker
-            className="rc-sticker"
-            src={`/illustrations/_stickers/${unitId}.png`}
-            alt={`${unitName} — category sticker`}
-          />
-
           <div className="rc-kicker">the gist{reg ? ` · ${reg}` : ''}</div>
           <h3 className="rc-title">{unitName}</h3>
 
-          <p className="rc-plain">{recap.plainLanguage}</p>
+          <div className="rc-leftbody">
+            <p className="rc-plain">{recap.plainLanguage}</p>
+            <Sticker
+              className="rc-sticker"
+              src={`/illustrations/_stickers/${unitId}.png`}
+              alt={`${unitName} — category sticker`}
+            />
+          </div>
 
           <div className="rc-divider" aria-hidden="true" />
 

@@ -130,8 +130,8 @@
 .section-reader .sc-sticker--bl { left: 3.5cqw; bottom: 6.5cqw; transform: rotate(-7deg); }
 .section-reader .sc-sticker--tr { right: 3.5cqw; top: 15cqw; transform: rotate(5deg); }
 .section-reader .sc-sticker--tl { left: 3.5cqw; top: 15cqw; transform: rotate(-6deg); }
-/* recap-card sticker — affixed inside the panel's bottom-left (panel clips overflow) */
-.section-reader .rc-sticker { position: absolute; left: 30px; bottom: 22px; width: 118px; z-index: 3;
+/* recap-card sticker — flows below the summary in the left column (never overlaps text) */
+.section-reader .rc-sticker { margin-top: auto; align-self: flex-start; width: 116px; padding-top: 20px; z-index: 3;
   filter: drop-shadow(0 6px 13px rgba(0,0,0,.28)); transform: rotate(-5deg); }
 .section-reader .rc-sticker img { width: 100%; height: auto; }
 /* sticker lightbox — portaled to <body>, so NOT scoped under .section-reader */
@@ -143,7 +143,7 @@
   background: rgba(255,255,255,.16); color: #fff; font-size: 30px; line-height: 1; border-radius: 999px; cursor: pointer; }
 .sticker-lightbox-close:hover { background: rgba(255,255,255,.28); }
 @media (max-width: 560px) {
-  .section-reader .rc-sticker { width: 86px; top: -14px; left: -8px; }
+  .section-reader .rc-sticker { width: 90px; padding-top: 14px; }
 }
 .section-reader .sc-term { position: relative; border-bottom: 1px dotted var(--sc-pencil); cursor: help; outline: none; }
 .section-reader .sc-tip { position: absolute; left: 0; top: calc(100% + .6cqw); z-index: 6; width: 22cqw;
@@ -699,8 +699,12 @@
   color: var(--ink);
   margin: 0 0 14px;
 }
-.section-reader .rc-plain {
+/* left column body: the plain summary, with the sticker pushed to the bottom below it */
+.section-reader .rc-leftbody {
   grid-column: 1; grid-row: 3;
+  display: flex; flex-direction: column; min-height: 0;
+}
+.section-reader .rc-plain {
   font-family: var(--font-hand);
   font-size: 25px;
   line-height: 1.36;
