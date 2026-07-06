@@ -13,6 +13,62 @@
       "/assets/charm/v3.png"
     ]
   },
+  "arm": {
+    "title": "ARM",
+    "official": "Early ARM Disclosure",
+    "fmt": "book",
+    "role": "teal",
+    "reg": "REG Z",
+    "due": "AT APPLICATION",
+    "channel": "deliver",
+    "versions": [
+      "/assets/arm/v1.png",
+      "/assets/arm/v2.png",
+      "/assets/arm/v3.png"
+    ]
+  },
+  "toolkit": {
+    "title": "TOOLKIT",
+    "official": "Special Information Booklet",
+    "fmt": "book",
+    "role": "blue",
+    "reg": "RESPA",
+    "due": "WITHIN 3 DAYS",
+    "channel": "deliver",
+    "versions": [
+      "/assets/toolkit/v1.png",
+      "/assets/toolkit/v2.png",
+      "/assets/toolkit/v3.png"
+    ]
+  },
+  "heloc": {
+    "title": "HELOC",
+    "official": "HELOC Brochure",
+    "fmt": "book",
+    "role": "teal",
+    "reg": "REG Z",
+    "due": "AT APPLICATION",
+    "channel": "deliver",
+    "versions": [
+      "/assets/heloc/v1.png",
+      "/assets/heloc/v2.png",
+      "/assets/heloc/v3.png"
+    ]
+  },
+  "atr": {
+    "title": "ATR",
+    "official": "Ability-to-Repay / Qualified Mortgage",
+    "fmt": "book",
+    "role": "blue",
+    "reg": "DODD-FRANK",
+    "due": "BEFORE APPROVAL",
+    "channel": "law",
+    "versions": [
+      "/assets/atr/v1.png",
+      "/assets/atr/v2.png",
+      "/assets/atr/v3.png"
+    ]
+  },
   "estimate": {
     "title": "LOAN ESTIMATE",
     "official": "Loan Estimate",
@@ -25,6 +81,132 @@
       "/assets/estimate/v1.png",
       "/assets/estimate/v2.png",
       "/assets/estimate/v3.png"
+    ]
+  },
+  "closing": {
+    "title": "CLOSING",
+    "official": "Closing Disclosure",
+    "fmt": "form",
+    "role": "red",
+    "reg": "TRID",
+    "due": "3 DAYS BEFORE CLOSING",
+    "channel": "deliver",
+    "versions": [
+      "/assets/closing/v1.png",
+      "/assets/closing/v2.png",
+      "/assets/closing/v3.png"
+    ]
+  },
+  "escrow": {
+    "title": "ESCROW",
+    "official": "Aggregate Escrow Analysis Statement",
+    "fmt": "form",
+    "role": "blue",
+    "reg": "RESPA",
+    "due": "YEARLY",
+    "channel": "deliver",
+    "versions": [
+      "/assets/escrow/v1.png",
+      "/assets/escrow/v2.png",
+      "/assets/escrow/v3.png"
+    ]
+  },
+  "score": {
+    "title": "SCORE",
+    "official": "Credit Score Disclosure",
+    "fmt": "form",
+    "role": "blue",
+    "reg": "FACTA",
+    "due": "AT APPLICATION",
+    "channel": "notify",
+    "versions": [
+      "/assets/score/v1.png",
+      "/assets/score/v2.png",
+      "/assets/score/v3.png"
+    ]
+  },
+  "payoff": {
+    "title": "PAYOFF",
+    "official": "Payoff Statement",
+    "fmt": "form",
+    "role": "blue",
+    "reg": "REG Z",
+    "due": "WITHIN 7 DAYS",
+    "channel": "deliver",
+    "versions": [
+      "/assets/payoff/v1.png",
+      "/assets/payoff/v2.png",
+      "/assets/payoff/v3.png"
+    ]
+  },
+  "cancel": {
+    "title": "CANCEL",
+    "official": "Notice of Right to Cancel",
+    "fmt": "form",
+    "role": "red",
+    "reg": "REG Z",
+    "due": "3-DAY WINDOW",
+    "channel": "law",
+    "versions": [
+      "/assets/cancel/v1.png",
+      "/assets/cancel/v2.png",
+      "/assets/cancel/v3.png"
+    ]
+  },
+  "hoepa": {
+    "title": "HIGH-COST",
+    "official": "High-Cost Mortgage Disclosure",
+    "fmt": "form",
+    "role": "red",
+    "reg": "HOEPA",
+    "due": "3 DAYS BEFORE CLOSING",
+    "channel": "law",
+    "versions": [
+      "/assets/hoepa/v1.png",
+      "/assets/hoepa/v2.png",
+      "/assets/hoepa/v3.png"
+    ]
+  },
+  "cip": {
+    "title": "CIP",
+    "official": "Customer Identification Program Notice",
+    "fmt": "form",
+    "role": "blue",
+    "reg": "PATRIOT ACT",
+    "due": "BEFORE OPENING",
+    "channel": "notify",
+    "versions": [
+      "/assets/cip/v1.png",
+      "/assets/cip/v2.png",
+      "/assets/cip/v3.png"
+    ]
+  },
+  "esign": {
+    "title": "E-SIGN",
+    "official": "E-Sign Consent Disclosure",
+    "fmt": "form",
+    "role": "blue",
+    "reg": "E-SIGN ACT",
+    "due": "BEFORE E-DELIVERY",
+    "channel": "law",
+    "versions": [
+      "/assets/esign/v1.png",
+      "/assets/esign/v2.png",
+      "/assets/esign/v3.png"
+    ]
+  },
+  "flood": {
+    "title": "FLOOD",
+    "official": "Notice of Special Flood Hazard",
+    "fmt": "form",
+    "role": "red",
+    "reg": "FLOOD ACT",
+    "due": "BEFORE CLOSING",
+    "channel": "law",
+    "versions": [
+      "/assets/flood/v1.png",
+      "/assets/flood/v2.png",
+      "/assets/flood/v3.png"
     ]
   },
   "adverse": {
@@ -41,6 +223,62 @@
       "/assets/adverse/v3.png"
     ]
   },
+  "servicing": {
+    "title": "SERVICING",
+    "official": "Servicing Transfer Statement",
+    "fmt": "envelope",
+    "role": "blue",
+    "reg": "RESPA",
+    "due": "15 DAYS AHEAD",
+    "channel": "notify",
+    "versions": [
+      "/assets/servicing/v1.png",
+      "/assets/servicing/v2.png",
+      "/assets/servicing/v3.png"
+    ]
+  },
+  "privacy": {
+    "title": "PRIVACY",
+    "official": "GLBA Privacy Notice",
+    "fmt": "envelope",
+    "role": "blue",
+    "reg": "GLBA",
+    "due": "YEARLY",
+    "channel": "notify",
+    "versions": [
+      "/assets/privacy/v1.png",
+      "/assets/privacy/v2.png",
+      "/assets/privacy/v3.png"
+    ]
+  },
+  "pmi": {
+    "title": "PMI",
+    "official": "PMI Disclosures & Cancellation Notices",
+    "fmt": "envelope",
+    "role": "blue",
+    "reg": "HPA",
+    "due": "YEARLY",
+    "channel": "notify",
+    "versions": [
+      "/assets/pmi/v1.png",
+      "/assets/pmi/v2.png",
+      "/assets/pmi/v3.png"
+    ]
+  },
+  "abad": {
+    "title": "ABAD",
+    "official": "Affiliated Business Arrangement Disclosure",
+    "fmt": "envelope",
+    "role": "blue",
+    "reg": "RESPA",
+    "due": "AT REFERRAL",
+    "channel": "notify",
+    "versions": [
+      "/assets/abad/v1.png",
+      "/assets/abad/v2.png",
+      "/assets/abad/v3.png"
+    ]
+  },
   "counseling": {
     "title": "COUNSELING",
     "official": "Homeownership Counseling List",
@@ -53,6 +291,20 @@
       "/assets/counseling/v1.png",
       "/assets/counseling/v2.png",
       "/assets/counseling/v3.png"
+    ]
+  },
+  "appraisal": {
+    "title": "APPRAISAL",
+    "official": "Appraisal / Valuation Copy & Notice",
+    "fmt": "folder",
+    "role": "blue",
+    "reg": "ECOA",
+    "due": "PROMPTLY",
+    "channel": "law",
+    "versions": [
+      "/assets/appraisal/v1.png",
+      "/assets/appraisal/v2.png",
+      "/assets/appraisal/v3.png"
     ]
   }
 }

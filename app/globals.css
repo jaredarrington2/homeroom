@@ -981,9 +981,77 @@
 }
 .section-reader .fw-cap.fw-cap-off { opacity: 0; pointer-events: none; }
 
+/* header right cluster: minimalist arrow pager (no background shape) + eye icon */
+.section-reader .fw-hd-right { display: flex; align-items: center; gap: 6px; }
+.section-reader .fw-pager { display: flex; align-items: center; gap: 2px; }
+.section-reader .fw-arrow {
+  background: transparent; border: 0; padding: 4px; color: var(--fw-mut); cursor: pointer;
+  display: inline-flex; line-height: 0; border-radius: 6px; transition: color .15s ease;
+}
+.section-reader .fw-arrow:hover:not(:disabled) { color: var(--royal); }
+.section-reader .fw-arrow:disabled { color: #d3ccb8; cursor: default; }
+.section-reader .fw-pagenum { font-family: var(--font-type); font-size: 11px; color: var(--fw-mut); white-space: nowrap; min-width: 72px; text-align: center; }
+
+/* page 2 — the six-column closing-cost grid (Borrower/Seller × at/before + Paid by Others).
+   Each .region is its own grid; equal doc width + fixed amount columns keep them aligned. */
+.section-reader .fw-doc .cc {
+  display: grid; grid-template-columns: 1fr 46px 46px 46px 46px 40px;
+  column-gap: 4px; row-gap: 3px; align-items: baseline;
+}
+.section-reader .fw-doc .cc + .cc { margin-top: 2px; }
+.section-reader .fw-doc .cc-d { font-size: 9px; }
+.section-reader .fw-doc .cc-item { padding-left: 8px; color: #333; }
+.section-reader .fw-doc .cc-sec { font-size: 9px; font-weight: 700; }
+.section-reader .fw-doc .cc-a { font-size: 8.5px; text-align: right; white-space: nowrap; }
+.section-reader .fw-doc .cc-sub { font-weight: 700; }
+.section-reader .fw-doc .cc-grp { font-size: 8px; font-weight: 700; text-align: center; border-bottom: 1px solid #999; padding-bottom: 1px; align-self: end; }
+.section-reader .fw-doc .cc-lbl { font-size: 7.5px; line-height: 1.1; text-align: right; color: #333; align-self: end; }
+
+/* page 3 — calculating cash to close (LE vs final vs "did this change?") */
+.section-reader .fw-doc .c3 {
+  display: grid; grid-template-columns: 1.2fr 66px 66px 1.5fr;
+  column-gap: 6px; row-gap: 3px; align-items: baseline;
+}
+.section-reader .fw-doc .c3-d { font-size: 9px; }
+.section-reader .fw-doc .c3-a { font-size: 8.5px; text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.section-reader .fw-doc .c3-q { font-size: 8px; color: #333; line-height: 1.25; }
+.section-reader .fw-doc .c3-q b { color: #1c1c1c; }
+.section-reader .fw-doc .c3-h { font-size: 8.5px; font-weight: 700; text-align: right; border-bottom: 1px solid #1c1c1c; padding-bottom: 2px; }
+.section-reader .fw-doc .c3-hq { font-size: 8.5px; font-weight: 700; border-bottom: 1px solid #1c1c1c; padding-bottom: 2px; }
+.section-reader .fw-doc .c3.c3-tot { border-top: 1.5px solid #1c1c1c; margin-top: 3px; padding-top: 3px; }
+
+/* page 3 — summaries of transactions (borrower's + seller's debit/credit columns) */
+.section-reader .fw-doc .sx { font-size: 9px; }
+.section-reader .fw-doc .region.sx + .region.sx { margin-top: 10px; }
+.section-reader .fw-doc .sx-h { font-size: 8.5px; font-weight: 700; letter-spacing: .03em; border-bottom: 1px solid #1c1c1c; padding-bottom: 2px; margin-bottom: 3px; }
+.section-reader .fw-doc .sx-row { display: flex; justify-content: space-between; gap: 10px; padding: 1.5px 0 1.5px 10px; }
+.section-reader .fw-doc .sx-row > span:last-child { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.section-reader .fw-doc .sx-sec { font-weight: 700; padding-left: 0; border-top: 1px solid #ddd; padding-top: 3px; margin-top: 2px; }
+.section-reader .fw-doc .sx-calc { font-weight: 700; padding-left: 0; border-top: 1.5px solid #1c1c1c; margin-top: 3px; padding-top: 3px; }
+
+/* page 4 — loan disclosures */
+.section-reader .fw-doc .ld { margin-bottom: 9px; }
+.section-reader .fw-doc .ld-t { font-size: 10px; font-weight: 700; margin-bottom: 2px; }
+.section-reader .fw-doc .ld-note { font-weight: 400; font-size: 9px; color: #333; }
+.section-reader .fw-doc .ld-b { font-size: 10px; line-height: 1.4; }
+
+/* page 5 — loan calculations, other disclosures, contacts, receipt */
+.section-reader .fw-doc .lc-row { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; border-bottom: 1px solid #e2e2e2; padding: 5px 0; font-size: 10px; line-height: 1.35; }
+.section-reader .fw-doc .lc-a { font-size: 15px; font-weight: 700; white-space: nowrap; }
+.section-reader .fw-doc .od-row { font-size: 10px; line-height: 1.4; margin-bottom: 5px; }
+.section-reader .fw-doc .ci-row { display: grid; grid-template-columns: 132px 1fr auto; gap: 8px; font-size: 10px; padding: 3px 0; border-bottom: 1px solid #e2e2e2; }
+.section-reader .fw-doc .ci-role { font-weight: 700; }
+.section-reader .fw-doc .ci-id { font-family: var(--font-type); font-size: 9px; color: #333; white-space: nowrap; }
+.section-reader .fw-doc .cr-b { font-size: 10px; line-height: 1.4; margin-bottom: 8px; }
+.section-reader .fw-doc .cr-sign { display: flex; justify-content: space-between; gap: 16px; border-top: 1px solid #1c1c1c; padding-top: 3px; margin-top: 20px; font-size: 9px; color: #333; }
+
 @media (max-width: 560px) {
   .section-reader .fw-doc .d-meta { grid-template-columns: 1fr; }
   .section-reader .fw-doc .d-meta3 { grid-template-columns: 1fr; }
+  .section-reader .fw-doc .cc { grid-template-columns: 1fr 40px 40px 40px 40px 34px; column-gap: 2px; }
+  .section-reader .fw-doc .c3 { grid-template-columns: 1.1fr 54px 54px 1.3fr; column-gap: 4px; }
+  .section-reader .fw-doc .ci-row { grid-template-columns: 1fr auto; }
+  .section-reader .fw-doc .ci-role { grid-column: 1 / -1; }
 }
 @media (prefers-reduced-motion: reduce) {
   .section-reader .fw-doc .region,

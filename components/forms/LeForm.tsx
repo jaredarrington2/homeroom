@@ -2,7 +2,8 @@
 // Region wrappers carry data-r (matched by FormWalkthrough); values that are the point of a
 // step wrap in <span className="fw-vhl"> and light up only when their region is active.
 // Ported from le-walkthrough-page1.html; class names are scoped under .fw in globals.css.
-export default function LeForm() {
+// Single-page for now; accepts (and ignores) `page` so it shares FormWalkthrough's form slot.
+export default function LeForm(_props: { page?: number }) {
   return (
     <>
       <div className="d-top">

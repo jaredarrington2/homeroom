@@ -1,13 +1,16 @@
-// content/forms/cd.ts — Closing Disclosure walkthrough steps.
-// Steps ported verbatim from cd-walkthrough-page1.html (same loan as the LE so the two compare 1:1).
+// content/forms/cd.ts — Closing Disclosure walkthrough steps, all 5 pages.
+// Page 1 ported verbatim from cd-walkthrough-page1.html; pages 2–5 authored from the canonical
+// CFPB H-25 sample (same Ficus Bank loan, so values reconcile with page 1). Copy follows the
+// walkthrough doctrine: captions state the field, highlights point, tells carry the one gotcha.
 import type { FormWalkthroughData } from "./types";
 
 export const cdWalk: FormWalkthroughData = {
   kind: "cd",
   label: "Closing Disclosure",
-  sub: "Same loan as the LE · walk it top to bottom",
-  pageCount: 1,
+  sub: "Same loan as the LE · five pages",
+  pageCount: 5,
   steps: [
+    // ---- page 1 · the summary page (mirrors the LE) ----
     { page: 1, region: 1, title: "Three dates, not one",
       body: "The Closing Disclosure is dated three ways: when it was issued, the closing date, and the disbursement date, when money actually moves. The LE carried only an issue date.",
       tell: "Disbursement is <mark>the date a rescission clock runs from</mark> on a refinance." },
@@ -38,5 +41,66 @@ export const cdWalk: FormWalkthroughData = {
     { page: 1, region: 12, title: "Cash to close",
       body: "$14,147.26 is what the borrower brings to the table. The full arithmetic is elsewhere.",
       tell: "On the LE that detail sat on page 2; <mark>on the CD it moves to page 3</mark>." },
+
+    // ---- page 2 · closing cost details (the who-paid columns) ----
+    { page: 2, region: 1, title: "Six columns, not one total",
+      body: "Every charge is split by who pays it and when: Borrower-Paid and Seller-Paid each divide into at-closing and before-closing, with a last column for costs Paid by Others.",
+      tell: "This split is <mark>the CD's own mechanic — the LE never broke costs out this way</mark>." },
+    { page: 2, region: 2, title: "A. Origination charges",
+      body: "What the lender charges to make the loan: the points paid to buy the rate down, plus the application and underwriting fees. $1,802.00, all borrower-paid at closing." },
+    { page: 2, region: 3, title: "B. Services you couldn't shop for",
+      body: "Fees for services the lender chose — appraisal, credit report, flood and tax monitoring. $236.55. The $29.80 credit report was paid before closing.",
+      tell: "That $29.80 is the <mark>one cost paid before closing — it reappears on page 3</mark>." },
+    { page: 2, region: 4, title: "C. Services you shopped for",
+      body: "Fees for services the borrower picked the provider for — pest inspection, survey, and the title company's work. $2,655.50." },
+    { page: 2, region: 5, title: "D. Total loan costs",
+      body: "Sections A, B, and C added together: $4,694.05 — the loan-costs figure page 1 named." },
+    { page: 2, region: 6, title: "Taxes, prepaids, and escrow",
+      body: "Government recording and transfer taxes (E), the prepaid interest and first insurance and tax bills (F), and the initial escrow deposit (G)." },
+    { page: 2, region: 7, title: "H. Other — where the seller's costs sit",
+      body: "Owner's title insurance, HOA fees, and the two real-estate commissions. The commissions ($5,700 each) land in the Seller-Paid column.",
+      tell: "A commission is <mark>the seller's cost — shown here, but not owed by the borrower</mark>." },
+    { page: 2, region: 8, title: "J. Total closing costs",
+      body: "Everything borrower-paid, added: $9,712.10, with no lender credits. This is the figure page 1 summarized." },
+
+    // ---- page 3 · calculating cash to close + summaries of transactions ----
+    { page: 3, region: 1, title: "Calculating cash to close",
+      body: "Each line shows the Loan Estimate figure beside the final one, and a column answering whether it changed — closing costs, the down payment, the deposit, seller credits, and other adjustments.",
+      tell: "Every 'yes' <mark>names the section that explains it</mark> — the CD shows its work." },
+    { page: 3, region: 2, title: "Cash to close",
+      body: "The lines net to $14,147.26 — down from the Loan Estimate's $16,054.00, mostly on a $2,500 seller credit plus other credits." },
+    { page: 3, region: 3, title: "The borrower's side",
+      body: "Due from the borrower (K) is the sale price plus closing costs; paid already (L) is the deposit, the loan amount, and the seller credit. K minus L is the cash to close." },
+    { page: 3, region: 4, title: "The seller's side",
+      body: "The seller's own debit-and-credit column: due to the seller (M) is mostly the sale price; due from the seller (N) covers the mortgage payoff, commissions, and credits.",
+      tell: "The seller's math is <mark>tracked apart — the borrower's cash to close doesn't ride on it</mark>." },
+
+    // ---- page 4 · loan disclosures ----
+    { page: 4, region: 1, title: "If you sell: assumption",
+      body: "Whether a future buyer could take over this loan on its current terms. Here the lender will not allow assumption." },
+    { page: 4, region: 2, title: "Demand feature",
+      body: "Whether the lender can require repayment of the whole balance early. This loan has no demand feature." },
+    { page: 4, region: 3, title: "Late payment",
+      body: "What a late payment costs: after 15 days, a charge of 5% of the monthly principal-and-interest." },
+    { page: 4, region: 4, title: "Negative amortization",
+      body: "Whether the balance can grow while you pay. This loan does not have negative amortization.",
+      tell: "No neg-am means <mark>every payment covers at least the interest owed</mark>." },
+    { page: 4, region: 5, title: "Partial payments",
+      body: "How the lender handles a payment that isn't the full amount. Here, partial payments may be accepted and applied to the loan." },
+    { page: 4, region: 6, title: "Escrow account",
+      body: "What the lender collects monthly for taxes and insurance, and what falls outside it. Escrowed costs run $2,473.56 a year; the non-escrowed HOA dues are the borrower's to pay.",
+      tell: "Waiving escrow <mark>can carry a fee — stated right here</mark>." },
+
+    // ---- page 5 · loan calculations, other disclosures, contacts, receipt ----
+    { page: 5, region: 1, title: "The five loan calculations",
+      body: "The whole cost of the loan in five figures: total of payments $285,803.36, finance charge $118,830.27, amount financed $162,000.00, an APR of 4.174%, and a TIP of 69.46%.",
+      tell: "The <mark>APR (4.174%) and the note rate (3.875%) are different numbers</mark> — the APR folds in the finance charge." },
+    { page: 5, region: 2, title: "Other disclosures",
+      body: "Appraisal-copy rights, what becomes of the loan on refinance or default, liability after a foreclosure, and whether the interest is tax-deductible." },
+    { page: 5, region: 3, title: "Who's who, with NMLS IDs",
+      body: "The lender, the real-estate brokers, and the settlement agent, each with the license or NMLS ID number that identifies them." },
+    { page: 5, region: 4, title: "Confirming receipt",
+      body: "A signature line confirming the borrower received the disclosure. Signing acknowledges receipt — it does not, by itself, obligate the borrower to the loan.",
+      tell: "Same rule as page 1: <mark>receipt, not acceptance</mark>." },
   ],
 };
