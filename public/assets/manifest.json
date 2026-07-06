@@ -1,0 +1,58 @@
+{
+  "charm": {
+    "title": "CHARM",
+    "official": "Consumer Handbook on ARMs",
+    "fmt": "book",
+    "role": "red",
+    "reg": "REG Z",
+    "due": "WITHIN 3 DAYS",
+    "channel": "deliver",
+    "versions": [
+      "/assets/charm/v1.png",
+      "/assets/charm/v2.png",
+      "/assets/charm/v3.png"
+    ]
+  },
+  "estimate": {
+    "title": "LOAN ESTIMATE",
+    "official": "Loan Estimate",
+    "fmt": "form",
+    "role": "blue",
+    "reg": "TRID",
+    "due": "WITHIN 3 DAYS",
+    "channel": "deliver",
+    "versions": [
+      "/assets/estimate/v1.png",
+      "/assets/estimate/v2.png",
+      "/assets/estimate/v3.png"
+    ]
+  },
+  "adverse": {
+    "title": "ADVERSE",
+    "official": "Adverse Action Notice",
+    "fmt": "envelope",
+    "role": "red",
+    "reg": "ECOA",
+    "due": "WITHIN 30 DAYS",
+    "channel": "notify",
+    "versions": [
+      "/assets/adverse/v1.png",
+      "/assets/adverse/v2.png",
+      "/assets/adverse/v3.png"
+    ]
+  },
+  "counseling": {
+    "title": "COUNSELING",
+    "official": "Homeownership Counseling List",
+    "fmt": "folder",
+    "role": "blue",
+    "reg": "RESPA",
+    "due": "WITHIN 3 DAYS",
+    "channel": "deliver",
+    "versions": [
+      "/assets/counseling/v1.png",
+      "/assets/counseling/v2.png",
+      "/assets/counseling/v3.png"
+    ]
+  }
+}

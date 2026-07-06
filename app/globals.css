@@ -973,6 +973,14 @@
 .section-reader .fw-btn.back { background: transparent; color: var(--royal); border: 0.5px solid var(--royal); }
 .section-reader .fw-btn:disabled { opacity: .4; cursor: default; }
 
+/* wide screens: float the caption in the right gutter beside the form (left/width set inline),
+   vertically centered and fixed so it never covers the document */
+.section-reader .fw-cap.fw-cap-margin {
+  position: fixed; top: 50%; bottom: auto; margin-top: 0; transform: translateY(-50%);
+  max-height: calc(100vh - 40px); overflow-y: auto; z-index: 30; transition: opacity .22s ease;
+}
+.section-reader .fw-cap.fw-cap-off { opacity: 0; pointer-events: none; }
+
 @media (max-width: 560px) {
   .section-reader .fw-doc .d-meta { grid-template-columns: 1fr; }
   .section-reader .fw-doc .d-meta3 { grid-template-columns: 1fr; }

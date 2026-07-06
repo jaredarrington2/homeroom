@@ -13,6 +13,8 @@ import type { FormWalkthroughData } from "@/content/forms/types";
 
 const DATA: Record<"le" | "cd", FormWalkthroughData> = { le: leWalk, cd: cdWalk };
 const PAD = 6;
+// minimum right-gutter width (px) before the caption floats into the margin instead of the bottom
+const MARGIN_MIN = 300;
 
 function EyeIcon() {
   return (
@@ -34,9 +36,31 @@ export default function FormWalkthrough({ form }: { form: "le" | "cd" }) {
   const steps = data.steps;
   const [i, setI] = useState(0);
   const [guided, setGuided] = useState(true);
+  // caption layout: 'margin' floats a fixed card in the right gutter on wide screens;
+  // 'bottom' is the sticky-bottom fallback for narrow viewports (and mobile).
+  const [cap, setCap] = useState<{ mode: "margin" | "bottom"; left: number; width: number }>({
+    mode: "bottom",
+    left: 0,
+    width: 0,
+  });
+  const [inView, setInView] = useState(true);
+  const rootRef = useRef<HTMLDivElement>(null);
   const docRef = useRef<HTMLDivElement>(null);
   const spotRef = useRef<HTMLDivElement>(null);
   const didMount = useRef(false);
+
+  // pick caption placement from the room to the right of the form
+  const measureCaption = useCallback(() => {
+    const doc = docRef.current;
+    if (!doc) return;
+    const r = doc.getBoundingClientRect();
+    const rightMargin = window.innerWidth - r.right;
+    if (rightMargin >= MARGIN_MIN) {
+      setCap({ mode: "margin", left: Math.round(r.right + 24), width: Math.min(330, Math.round(rightMargin - 40)) });
+    } else {
+      setCap((c) => (c.mode === "bottom" ? c : { mode: "bottom", left: 0, width: 0 }));
+    }
+  }, []);
 
   const positionSpot = useCallback(() => {
     const doc = docRef.current;
@@ -80,25 +104,40 @@ export default function FormWalkthrough({ form }: { form: "le" | "cd" }) {
       ?.scrollIntoView({ behavior: "smooth", block: "center" });
   }, [i, guided, steps]);
 
-  // keep the highlight aligned across resize + after webfonts settle (they shift metrics)
+  // keep the highlight aligned + the caption placement current across resize and after
+  // webfonts settle (they shift metrics)
   useEffect(() => {
-    const onResize = () => positionSpot();
+    const onResize = () => {
+      positionSpot();
+      measureCaption();
+    };
+    onResize();
     window.addEventListener("resize", onResize);
-    const t1 = setTimeout(positionSpot, 250);
-    const t2 = setTimeout(positionSpot, 800);
+    const t1 = setTimeout(onResize, 250);
+    const t2 = setTimeout(onResize, 800);
     return () => {
       window.removeEventListener("resize", onResize);
       clearTimeout(t1);
       clearTimeout(t2);
     };
-  }, [positionSpot]);
+  }, [positionSpot, measureCaption]);
+
+  // the margin card is position:fixed, so it can't self-hide on scroll — gate it on the
+  // walkthrough being in view (the bottom card is sticky and self-gates)
+  useEffect(() => {
+    const el = rootRef.current;
+    if (!el || typeof IntersectionObserver === "undefined") return;
+    const io = new IntersectionObserver(([e]) => setInView(e.isIntersecting), { rootMargin: "0px" });
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
 
   const s = steps[i];
   const FormBody = form === "le" ? LeForm : CdForm;
   const freeLabel = guided ? "See the whole form" : "Back to the walkthrough";
 
   return (
-    <div className="fw">
+    <div className="fw" ref={rootRef}>
       <div className="fw-hd">
         <div>
           <p className="fw-appttl">
@@ -126,7 +165,14 @@ export default function FormWalkthrough({ form }: { form: "le" | "cd" }) {
       </div>
 
       {guided && (
-        <div className="fw-cap">
+        <div
+          className={
+            "fw-cap" +
+            (cap.mode === "margin" ? " fw-cap-margin" : "") +
+            (cap.mode === "margin" && !inView ? " fw-cap-off" : "")
+          }
+          style={cap.mode === "margin" ? { left: cap.left, width: cap.width } : undefined}
+        >
           <div className="fw-prog">
             <div className="fw-dots">
               {steps.map((_, k) => (
