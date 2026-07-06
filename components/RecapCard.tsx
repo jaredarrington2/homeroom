@@ -3,7 +3,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import type { UnitRecap } from '@/lib/section';
-import Sticker from './Sticker';
 
 interface RecapCardProps {
   unitName: string;
@@ -106,10 +105,11 @@ export default function RecapCard({ unitName, reg, recap, unitId }: RecapCardPro
 
           <div className="rc-leftbody">
             <p className="rc-plain">{recap.plainLanguage}</p>
-            <Sticker
+            <img
               className="rc-sticker"
               src={`/illustrations/_stickers/${unitId}.png`}
               alt={`${unitName} — category sticker`}
+              loading="lazy"
             />
           </div>
 

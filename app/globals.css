@@ -120,30 +120,29 @@
   margin-left: .6cqw; display: inline-block; transform: rotate(-3deg); }
 .section-reader .sc-footer { position: absolute; left: 6.4cqw; right: 6.4cqw; bottom: 2cqw;
   font-family: var(--font-hand); font-size: 1.7cqw; color: var(--sc-pencil); line-height: 1.15; }
-/* die-cut category-cue sticker (transparent PNG). Click to enlarge — rendered as a bare button. */
-.section-reader .sticker-btn { border: 0; background: none; padding: 0; margin: 0; display: block; cursor: zoom-in; }
-.section-reader .sticker-btn img { display: block; }
-.section-reader .sc-sticker { position: absolute; width: 18cqw; z-index: 5;
+/* the whole study card is click-to-enlarge — the inline card sits inside a bare button */
+.section-reader .sc-open { display: block; width: 100%; border: 0; background: none; padding: 0; margin: 0; cursor: zoom-in; }
+/* die-cut category-cue sticker (transparent PNG) — a static image, part of the card */
+.section-reader .sc-sticker { position: absolute; width: 18cqw; height: auto; z-index: 5;
   filter: drop-shadow(.28cqw .45cqw .55cqw rgba(0,0,0,.30)) drop-shadow(.05cqw .06cqw .08cqw rgba(0,0,0,.22)); }
-.section-reader .sc-sticker img { width: 100%; height: auto; }
 .section-reader .sc-sticker--br { right: 4cqw; bottom: 6.5cqw; transform: rotate(4deg); }
 .section-reader .sc-sticker--bl { left: 3.5cqw; bottom: 6.5cqw; transform: rotate(-7deg); }
 .section-reader .sc-sticker--tr { right: 3.5cqw; top: 15cqw; transform: rotate(5deg); }
 .section-reader .sc-sticker--tl { left: 3.5cqw; top: 15cqw; transform: rotate(-6deg); }
 /* recap-card sticker — flows below the summary in the left column (never overlaps text) */
-.section-reader .rc-sticker { margin-top: auto; align-self: flex-start; width: 116px; padding-top: 20px; z-index: 3;
-  filter: drop-shadow(0 6px 13px rgba(0,0,0,.28)); transform: rotate(-5deg); }
-.section-reader .rc-sticker img { width: 100%; height: auto; }
-/* sticker lightbox — portaled to <body>, so NOT scoped under .section-reader */
-.sticker-lightbox { position: fixed; inset: 0; z-index: 4000; display: flex; align-items: center; justify-content: center;
-  background: rgba(18,18,22,.82); padding: 5vh 5vw; cursor: zoom-out; }
-.sticker-lightbox img { max-width: 92vw; max-height: 92vh; width: auto; height: auto; cursor: default;
-  filter: drop-shadow(0 14px 44px rgba(0,0,0,.55)); }
-.sticker-lightbox-close { position: fixed; top: 16px; right: 20px; width: 46px; height: 46px; border: 0;
+.section-reader .rc-sticker { margin-top: auto; align-self: flex-start; width: 116px; height: auto; padding-top: 20px;
+  z-index: 3; filter: drop-shadow(0 6px 13px rgba(0,0,0,.28)); transform: rotate(-5deg); }
+/* study-card lightbox — portaled to <body>, re-scoped .section-reader; strip the reader column */
+.section-reader.sc-lightbox { position: fixed; inset: 0; z-index: 4000; max-width: none; margin: 0; padding: 4vh 4vw;
+  display: flex; align-items: center; justify-content: center; background: rgba(18,18,22,.82); cursor: zoom-out; }
+.section-reader .sc-lightbox-card { width: min(1180px, 94vw, 150vh); margin: 0; cursor: default;
+  filter: drop-shadow(0 18px 50px rgba(0,0,0,.5)); }
+.sc-lightbox-close { position: fixed; top: 16px; right: 20px; width: 46px; height: 46px; border: 0;
   background: rgba(255,255,255,.16); color: #fff; font-size: 30px; line-height: 1; border-radius: 999px; cursor: pointer; }
-.sticker-lightbox-close:hover { background: rgba(255,255,255,.28); }
+.sc-lightbox-close:hover { background: rgba(255,255,255,.28); }
 @media (max-width: 560px) {
   .section-reader .rc-sticker { width: 90px; padding-top: 14px; }
+  .section-reader .sc-lightbox-card { width: 96vw; }
 }
 .section-reader .sc-term { position: relative; border-bottom: 1px dotted var(--sc-pencil); cursor: help; outline: none; }
 .section-reader .sc-tip { position: absolute; left: 0; top: calc(100% + .6cqw); z-index: 6; width: 22cqw;

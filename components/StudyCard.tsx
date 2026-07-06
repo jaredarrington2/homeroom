@@ -5,16 +5,14 @@
 //   [ title PNG ]   per-card Sharpie lettering (OpenAI), white dropped via mix-blend-mode:multiply
 //   [ DOM overlay ] rules, dividers, typed body, highlighter, marginalia, tooltips — all drawn here
 //
-// Coordinate system: the card face is a container-query context; every size is in cqw (1cqw = 1%
-// of the card width), so it scales to any column width with NO flash and NO JS for layout. The
-// only JS is the auto-fit guard, which shrinks the body font if content would overflow the rules.
-import { useLayoutEffect, useRef, useState, type ReactNode } from "react";
-import Sticker from "./Sticker";
+// The card is small in the reading column, so the whole card is click-to-enlarge: clicking opens
+// a portaled lightbox with the same card at a large, readable width (cqw units scale it up).
+import { useEffect, useLayoutEffect, useRef, useState, type ReactNode } from "react";
+import { createPortal } from "react-dom";
 import {
   PLATE_FILE,
   titleFile,
   stickerFile,
-  columnCount,
   type StudyCard as StudyCardT,
   type HighlighterColor,
 } from "@/content/study-cards";
@@ -85,13 +83,12 @@ function Column({
   );
 }
 
-export default function StudyCard({ card }: { card: StudyCardT }) {
+/** The card visual itself — reused at reading size and blown up in the lightbox. */
+function CardFace({ card }: { card: StudyCardT }) {
   const bodyRef = useRef<HTMLDivElement>(null);
   const [fit, setFit] = useState(1);
-  const cols = columnCount(card.format);
 
-  // Auto-fit guard: if the typed body overflows the ruled area, step the font down. Insurance
-  // against later content edits; for the seed cards it never fires.
+  // Auto-fit guard: if the typed body overflows the ruled area, step the font down.
   useLayoutEffect(() => {
     const el = bodyRef.current;
     if (!el) return;
@@ -111,42 +108,102 @@ export default function StudyCard({ card }: { card: StudyCardT }) {
   }, [card.id]);
 
   return (
-    <figure className={`sc sc--${card.format}`} style={{ ["--sc-fit" as string]: fit }}>
-      <div className="sc-card">
-        {/* layer 1 — blank paper plate */}
-        <img className="sc-plate" src={src(PLATE_FILE)} alt="" loading="eager" />
+    <div className="sc-card" style={{ ["--sc-fit" as string]: fit }}>
+      {/* layer 1 — blank paper plate */}
+      <img className="sc-plate" src={src(PLATE_FILE)} alt="" loading="eager" />
 
-        {/* layer 2 — Sharpie title (white multiplied out live) */}
-        <img className="sc-title" src={src(titleFile(card))} alt={card.title} loading="eager" />
+      {/* layer 2 — Sharpie title (white multiplied out live) */}
+      <img className="sc-title" src={src(titleFile(card))} alt={card.title} loading="eager" />
 
-        {/* layer 3 — DOM overlay */}
-        <div className="sc-overlay">
-          {card.subtitle && <div className="sc-subtitle">{card.subtitle}</div>}
-          <div className="sc-body" ref={bodyRef}>
-            {card.columns.map((col, i) => (
-              <Column
-                key={i}
-                header={col.header}
-                lines={col.lines}
-                swipe={card.highlighter?.find((h) => h.target === col.header)?.color}
-                tooltips={card.tooltips}
-                marginalia={card.marginalia}
-              />
-            ))}
-          </div>
-          {card.footer && <div className="sc-footer">{card.footer}</div>}
+      {/* layer 3 — DOM overlay */}
+      <div className="sc-overlay">
+        {card.subtitle && <div className="sc-subtitle">{card.subtitle}</div>}
+        <div className="sc-body" ref={bodyRef}>
+          {card.columns.map((col, i) => (
+            <Column
+              key={i}
+              header={col.header}
+              lines={col.lines}
+              swipe={card.highlighter?.find((h) => h.target === col.header)?.color}
+              tooltips={card.tooltips}
+              marginalia={card.marginalia}
+            />
+          ))}
         </div>
-
-        {/* photoreal die-cut sticker — a category cue; click to enlarge */}
-        {card.sticker && (
-          <Sticker
-            className={`sc-sticker sc-sticker--${card.sticker.corner ?? "br"}`}
-            src={src(stickerFile(card))}
-            alt={card.sticker.alt ?? ""}
-          />
-        )}
+        {card.footer && <div className="sc-footer">{card.footer}</div>}
       </div>
-      <figcaption className="sc-cap">{card.title}</figcaption>
+
+      {/* die-cut category-cue sticker */}
+      {card.sticker && (
+        <img
+          className={`sc-sticker sc-sticker--${card.sticker.corner ?? "br"}`}
+          src={src(stickerFile(card))}
+          alt={card.sticker.alt ?? ""}
+          loading="lazy"
+        />
+      )}
+    </div>
+  );
+}
+
+export default function StudyCard({ card }: { card: StudyCardT }) {
+  const [open, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
+  useEffect(() => {
+    if (!open) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setOpen(false);
+    };
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      document.body.style.overflow = prev;
+    };
+  }, [open]);
+
+  return (
+    <figure className={`sc sc--${card.format}`}>
+      <button
+        type="button"
+        className="sc-open"
+        aria-label={`Enlarge card: ${card.title}`}
+        onClick={() => setOpen(true)}
+      >
+        <CardFace card={card} />
+      </button>
+      <figcaption className="sc-cap">{card.title} — tap to enlarge</figcaption>
+
+      {open &&
+        mounted &&
+        createPortal(
+          <div
+            className="section-reader sc-lightbox"
+            role="dialog"
+            aria-modal="true"
+            aria-label={card.title}
+            onClick={() => setOpen(false)}
+          >
+            <div
+              className={`sc sc--${card.format} sc-lightbox-card`}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <CardFace card={card} />
+            </div>
+            <button
+              type="button"
+              className="sc-lightbox-close"
+              aria-label="Close"
+              onClick={() => setOpen(false)}
+            >
+              ×
+            </button>
+          </div>,
+          document.body
+        )}
     </figure>
   );
 }
