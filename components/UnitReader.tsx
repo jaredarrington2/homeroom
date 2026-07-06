@@ -88,7 +88,7 @@ export default function UnitReader({
 
       <div className="sr-unit-foot">
         {unit.recap && (
-          <RecapCard unitName={unit.name} reg={unit.reg} recap={unit.recap} />
+          <RecapCard unitName={unit.name} reg={unit.reg} recap={unit.recap} unitId={unit.id} />
         )}
         <MarkComplete sectionId={unit.id} />
       </div>

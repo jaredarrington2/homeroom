@@ -9,6 +9,7 @@
 // of the card width), so it scales to any column width with NO flash and NO JS for layout. The
 // only JS is the auto-fit guard, which shrinks the body font if content would overflow the rules.
 import { useLayoutEffect, useRef, useState, type ReactNode } from "react";
+import Sticker from "./Sticker";
 import {
   PLATE_FILE,
   titleFile,
@@ -136,13 +137,12 @@ export default function StudyCard({ card }: { card: StudyCardT }) {
           {card.footer && <div className="sc-footer">{card.footer}</div>}
         </div>
 
-        {/* photoreal fact sticker — hastily affixed over the ruled area */}
+        {/* photoreal die-cut sticker — a category cue; click to enlarge */}
         {card.sticker && (
-          <img
+          <Sticker
             className={`sc-sticker sc-sticker--${card.sticker.corner ?? "br"}`}
             src={src(stickerFile(card))}
             alt={card.sticker.alt ?? ""}
-            loading="eager"
           />
         )}
       </div>

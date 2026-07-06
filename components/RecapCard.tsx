@@ -3,11 +3,14 @@
 import { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import type { UnitRecap } from '@/lib/section';
+import Sticker from './Sticker';
 
 interface RecapCardProps {
   unitName: string;
   reg?: string;
   recap: UnitRecap;
+  /** Unit id — resolves the die-cut category sticker at /illustrations/_stickers/{unitId}.png. */
+  unitId: string;
 }
 
 function IconRecap() {
@@ -21,7 +24,7 @@ function IconRecap() {
   );
 }
 
-export default function RecapCard({ unitName, reg, recap }: RecapCardProps) {
+export default function RecapCard({ unitName, reg, recap, unitId }: RecapCardProps) {
   const [open, setOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const panelRef = useRef<HTMLDivElement>(null);
@@ -97,6 +100,12 @@ export default function RecapCard({ unitName, reg, recap }: RecapCardProps) {
           >
             ×
           </button>
+
+          <Sticker
+            className="rc-sticker"
+            src={`/illustrations/_stickers/${unitId}.png`}
+            alt={`${unitName} — category sticker`}
+          />
 
           <div className="rc-kicker">the gist{reg ? ` · ${reg}` : ''}</div>
           <h3 className="rc-title">{unitName}</h3>

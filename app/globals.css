@@ -120,14 +120,31 @@
   margin-left: .6cqw; display: inline-block; transform: rotate(-3deg); }
 .section-reader .sc-footer { position: absolute; left: 6.4cqw; right: 6.4cqw; bottom: 2cqw;
   font-family: var(--font-hand); font-size: 1.7cqw; color: var(--sc-pencil); line-height: 1.15; }
-/* photoreal category-cue sticker — cleanly affixed, transparent PNG, its own soft shadow */
-.section-reader .sc-sticker { position: absolute; width: 18cqw; height: auto; z-index: 5;
-  filter: drop-shadow(.28cqw .45cqw .55cqw rgba(0,0,0,.30)) drop-shadow(.05cqw .06cqw .08cqw rgba(0,0,0,.22));
-  pointer-events: none; }
+/* die-cut category-cue sticker (transparent PNG). Click to enlarge — rendered as a bare button. */
+.section-reader .sticker-btn { border: 0; background: none; padding: 0; margin: 0; display: block; cursor: zoom-in; }
+.section-reader .sticker-btn img { display: block; }
+.section-reader .sc-sticker { position: absolute; width: 18cqw; z-index: 5;
+  filter: drop-shadow(.28cqw .45cqw .55cqw rgba(0,0,0,.30)) drop-shadow(.05cqw .06cqw .08cqw rgba(0,0,0,.22)); }
+.section-reader .sc-sticker img { width: 100%; height: auto; }
 .section-reader .sc-sticker--br { right: 4cqw; bottom: 6.5cqw; transform: rotate(4deg); }
 .section-reader .sc-sticker--bl { left: 3.5cqw; bottom: 6.5cqw; transform: rotate(-7deg); }
 .section-reader .sc-sticker--tr { right: 3.5cqw; top: 15cqw; transform: rotate(5deg); }
 .section-reader .sc-sticker--tl { left: 3.5cqw; top: 15cqw; transform: rotate(-6deg); }
+/* recap-card sticker — affixed inside the panel's bottom-left (panel clips overflow) */
+.section-reader .rc-sticker { position: absolute; left: 30px; bottom: 22px; width: 118px; z-index: 3;
+  filter: drop-shadow(0 6px 13px rgba(0,0,0,.28)); transform: rotate(-5deg); }
+.section-reader .rc-sticker img { width: 100%; height: auto; }
+/* sticker lightbox — portaled to <body>, so NOT scoped under .section-reader */
+.sticker-lightbox { position: fixed; inset: 0; z-index: 4000; display: flex; align-items: center; justify-content: center;
+  background: rgba(18,18,22,.82); padding: 5vh 5vw; cursor: zoom-out; }
+.sticker-lightbox img { max-width: 92vw; max-height: 92vh; width: auto; height: auto; cursor: default;
+  filter: drop-shadow(0 14px 44px rgba(0,0,0,.55)); }
+.sticker-lightbox-close { position: fixed; top: 16px; right: 20px; width: 46px; height: 46px; border: 0;
+  background: rgba(255,255,255,.16); color: #fff; font-size: 30px; line-height: 1; border-radius: 999px; cursor: pointer; }
+.sticker-lightbox-close:hover { background: rgba(255,255,255,.28); }
+@media (max-width: 560px) {
+  .section-reader .rc-sticker { width: 86px; top: -14px; left: -8px; }
+}
 .section-reader .sc-term { position: relative; border-bottom: 1px dotted var(--sc-pencil); cursor: help; outline: none; }
 .section-reader .sc-tip { position: absolute; left: 0; top: calc(100% + .6cqw); z-index: 6; width: 22cqw;
   max-width: 44cqw; padding: 1cqw 1.2cqw; background: #FBF6E9; color: #2a2a2a; border: 1px solid rgba(0,0,0,.18);
