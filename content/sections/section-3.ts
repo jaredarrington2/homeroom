@@ -1008,11 +1008,7 @@ const section3: SectionContent = {
               "html": "Because the APR is just the finance charge expressed as a rate, the same test decides what lands in it. <b>In:</b> interest, points, and the lender's own charges; any premium for insurance that protects the lender against your default; and a required third-party fee — a title or closing service the lender insists on, or any part of such a fee the lender keeps. A <b>mortgage broker's fee</b> is always in, even if you picked the broker and the lender keeps none of it. <b>Out:</b> an application fee charged to every applicant whether they close or not, late fees and over-limit charges, the <b>seller's</b> points, and fees paid before closing for services like the appraisal and the credit report."
             }
           ],
-          "illustration": {
-            "file": "tila/finance-charge-card.png",
-            "caption": "in / out",
-            "kind": "illus"
-          }
+          "studyCard": "finance-charge"
         },
         {
           "heading": "the right of rescission",

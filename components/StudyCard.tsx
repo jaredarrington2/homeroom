@@ -12,6 +12,7 @@ import { useLayoutEffect, useRef, useState, type ReactNode } from "react";
 import {
   PLATE_FILE,
   titleFile,
+  stickerFile,
   columnCount,
   type StudyCard as StudyCardT,
   type HighlighterColor,
@@ -62,10 +63,7 @@ function Column({
     <div className="sc-col">
       {header && (
         <div className="sc-colhead">
-          <span className={`sc-colhead-inner`}>
-            {swipe && <span className={`sc-hl sc-hl--${swipe}`} aria-hidden />}
-            <span className="sc-colhead-txt">{header}</span>
-          </span>
+          <span className={`sc-stamp${swipe ? ` sc-stamp--${swipe}` : ""}`}>{header}</span>
         </div>
       )}
       {lines.map((ln, i) => {
@@ -137,6 +135,16 @@ export default function StudyCard({ card }: { card: StudyCardT }) {
           </div>
           {card.footer && <div className="sc-footer">{card.footer}</div>}
         </div>
+
+        {/* photoreal fact sticker — hastily affixed over the ruled area */}
+        {card.sticker && (
+          <img
+            className={`sc-sticker sc-sticker--${card.sticker.corner ?? "br"}`}
+            src={src(stickerFile(card))}
+            alt={card.sticker.alt ?? ""}
+            loading="eager"
+          />
+        )}
       </div>
       <figcaption className="sc-cap">{card.title}</figcaption>
     </figure>

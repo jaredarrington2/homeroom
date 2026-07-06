@@ -50,6 +50,10 @@ export interface StudyCard {
   tooltips?: Record<string, string>;
   /** Pen-marginalia line along the base rule. */
   footer?: string;
+  /** A photoreal sticker (OpenAI) affixed to the card — a VISUAL CATEGORY CUE, not a fact (the
+   *  stamps + typed text carry the facts). `motif` is the generation subject: a simple thematic
+   *  icon that harkens to the card's topic. */
+  sticker?: { motif: string; alt?: string; corner?: "tl" | "tr" | "bl" | "br" };
 }
 
 export const studyCards: StudyCard[] = [
@@ -99,26 +103,52 @@ export const studyCards: StudyCard[] = [
     },
     footer:
       "The 10% test compares LE and CD totals for the whole bucket, not fee by fee — anything above 110% of the disclosed total is the lender's to refund.",
+    sticker: {
+      motif: "two tabbed document sheets joined by a zipper with a small clock tucked behind them (letterpress office ephemera)",
+      alt: "Sticker: two documents zipped together with a clock behind — the TRID integrated disclosures and their timing.",
+      corner: "br",
+    },
   },
 
-  // finance-charge lives as a baked transparent PNG for now (scripts/generate-finance-card.ts,
-  // public/illustrations/tila/finance-charge-card.png). To migrate it into this live system,
-  // add the entry below and swap its group's `illustration` for `studyCard: "finance-charge"`:
-  //
-  // {
-  //   id: "finance-charge", unitId: "tila", format: "two-column",
-  //   title: "What counts in the finance charge",
-  //   subtitle: "= the APR, just in dollars instead of a rate",
-  //   columns: [
-  //     { header: "IN", lines: [ "Interest + points", "The lender's own fees",
-  //       "Insurance for the lender's default risk",
-  //       "A required third-party fee — the part the lender keeps", "Broker's fee — always" ] },
-  //     { header: "OUT", lines: [ "Application fee (charged to everyone)",
-  //       "Late & over-limit fees", "The seller's points",
-  //       "Pre-closing services — appraisal, credit report" ] },
-  //   ],
-  //   marginalia: [{ text: "even if you picked them", anchor: "Broker's fee — always" }],
-  // },
+  // Migrated off the old baked PNG (scripts/generate-finance-card.ts) into the live system.
+  {
+    id: "finance-charge",
+    unitId: "tila",
+    format: "two-column",
+    title: "What counts in the finance charge",
+    subtitle: "= the APR, just in dollars instead of a rate",
+    columns: [
+      {
+        header: "IN",
+        lines: [
+          "Interest + points",
+          "The lender's own fees",
+          "Insurance for the lender's default risk",
+          "A required third-party fee — the part the lender keeps",
+          "Broker's fee — always",
+        ],
+      },
+      {
+        header: "OUT",
+        lines: [
+          "Application fee (charged to everyone)",
+          "Late & over-limit fees",
+          "The seller's points",
+          "Pre-closing services — appraisal, credit report",
+        ],
+      },
+    ],
+    highlighter: [
+      { color: "blue", target: "IN" },
+      { color: "pink", target: "OUT" },
+    ],
+    marginalia: [{ text: "even if you picked them", anchor: "Broker's fee — always" }],
+    sticker: {
+      motif: "a paper price tag under a round magnifying lens with coins and tiny fee marks inside (mid-century editorial cut-paper collage)",
+      alt: "Sticker: a price tag under a magnifying glass — reading the true cost of a loan.",
+      corner: "br",
+    },
+  },
 ];
 
 export function getStudyCard(id: string): StudyCard | undefined {
@@ -136,4 +166,9 @@ export const PLATE_FILE = "_plates/index-card.png";
 /** Per-card Sharpie title PNG (dark ink on white; the component multiplies out the white). */
 export function titleFile(card: StudyCard): string {
   return `${card.unitId}/${card.id}-title.png`;
+}
+
+/** Per-card photoreal sticker PNG (keyed to transparent). */
+export function stickerFile(card: StudyCard): string {
+  return `${card.unitId}/${card.id}-sticker.png`;
 }

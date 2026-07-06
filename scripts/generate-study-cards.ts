@@ -66,15 +66,15 @@ const PLATE_PROMPT =
 
 function titlePrompt(title: string): string {
   return (
-    `A photograph of the words "${title}" written by hand as a heading at the top of an index ` +
-    "card, on a single horizontal line, in neat everyday handwriting with a fine bullet-tip black " +
-    "marker. Ordinary tidy penmanship — the kind a careful student writes at the top of their " +
-    "notes. Consistent, roughly uniform stroke width with no calligraphic thick-and-thin contrast; " +
-    "an upright or very slightly slanted hand; a mostly level baseline that isn't perfectly " +
-    "straight; small natural variation in letter size and spacing. It should look plainly " +
-    "handwritten — not designed, not brush-lettered, not a logo, no flourishes or swashes. Do NOT " +
-    "underline the words; absolutely no underline, no horizontal line, and no rule beneath or " +
-    "around the text — just the letters. Black ink on clean white paper, nothing else."
+    `A photograph of the words "${title}" written by hand on a single STRAIGHT, level horizontal ` +
+    "line, jotted quickly with a slightly dry black marker so the ink coverage is uneven. It must " +
+    "look like genuine, slightly messy HUMAN handwriting, NOT a computer font and NOT lettering: " +
+    "every letter is a little different (repeated letters each look distinct), and the stroke " +
+    "thickness varies naturally — some strokes heavier and thicker, others lighter and thinner, " +
+    "with a little uneven ink and the odd rough edge. Imperfect, slightly messy letter shapes, " +
+    "sizes and spacing, but the overall baseline stays straight and level (not slanted, not wavy, " +
+    "not arched). No underline, no flourishes, no decorative lines. Black ink on clean white " +
+    "paper, nothing else."
   );
 }
 

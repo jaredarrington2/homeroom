@@ -97,23 +97,22 @@
 .section-reader .sc-subtitle { position: absolute; top: 13.6cqw; left: 6.4cqw; right: 6.4cqw;
   font-family: var(--font-hand); font-size: 2.2cqw; color: var(--sc-pencil); line-height: 1.1; }
 .section-reader .sc-body { position: absolute; left: 6.4cqw; right: 6.4cqw; top: 17.2cqw; bottom: 6.4cqw;
-  display: flex; overflow: hidden;
+  display: flex;
   background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 3.03cqw,
     var(--sc-rule) 3.03cqw, var(--sc-rule) 3.143cqw); }
 .section-reader .sc-col { flex: 1; min-width: 0; padding: 0 1.6cqw; }
 .section-reader .sc--three-column .sc-col:not(:last-child) { border-right: .1cqw solid rgba(63,63,63,.28); }
 .section-reader .sc--two-column .sc-col:first-child { border-right: .16cqw solid var(--sc-red); }
 .section-reader .sc--single-column .sc-body { border-left: .16cqw solid var(--sc-red); padding-left: 1.6cqw; }
-.section-reader .sc-colhead { height: 6.286cqw; display: flex; align-items: flex-end; padding-bottom: .6cqw; }
-.section-reader .sc-colhead-inner { position: relative; display: inline-block; }
-.section-reader .sc-colhead-txt { position: relative; z-index: 1; font-size: 1.6cqw; letter-spacing: .12em;
-  text-transform: uppercase; font-weight: 700; color: var(--sc-ink); }
-.section-reader .sc-hl { position: absolute; inset: -0.3cqw -0.6cqw -0.1cqw -0.6cqw; mix-blend-mode: multiply;
-  border-radius: 1.4cqw 1cqw 1.6cqw .8cqw; transform: rotate(-1.5deg); z-index: 0; }
-.section-reader .sc-hl--pink { background: var(--sc-hl-pink); }
-.section-reader .sc-hl--yellow { background: var(--sc-hl-yellow); }
-.section-reader .sc-hl--green { background: var(--sc-hl-green); }
-.section-reader .sc-hl--blue { background: var(--sc-hl-blue); }
+.section-reader .sc-colhead { height: 6.286cqw; display: flex; align-items: center; }
+/* rubber-stamp column tags (inked, slightly askew) */
+.section-reader .sc-stamp { display: inline-block; font-size: 1.5cqw; letter-spacing: .1em; text-transform: uppercase;
+  font-weight: 700; line-height: 1; padding: .5cqw .95cqw; border: .17cqw solid; border-radius: .35cqw;
+  transform: rotate(-2.2deg); }
+.section-reader .sc-stamp--pink { color: #A83227; border-color: #A83227; }
+.section-reader .sc-stamp--yellow { color: #8A6A10; border-color: #8A6A10; }
+.section-reader .sc-stamp--green { color: #3D6B33; border-color: #3D6B33; }
+.section-reader .sc-stamp--blue { color: #2B4E8A; border-color: #2B4E8A; }
 .section-reader .sc-line { display: flex; gap: .8cqw; align-items: flex-start; }
 .section-reader .sc-mk { flex: none; color: var(--sc-pencil); line-height: 3.143cqw; font-size: 1.5cqw; }
 .section-reader .sc-txt { font-size: calc(1.5cqw * var(--sc-fit, 1)); line-height: 3.143cqw; }
@@ -121,8 +120,16 @@
   margin-left: .6cqw; display: inline-block; transform: rotate(-3deg); }
 .section-reader .sc-footer { position: absolute; left: 6.4cqw; right: 6.4cqw; bottom: 2cqw;
   font-family: var(--font-hand); font-size: 1.7cqw; color: var(--sc-pencil); line-height: 1.15; }
+/* photoreal category-cue sticker — cleanly affixed, transparent PNG, its own soft shadow */
+.section-reader .sc-sticker { position: absolute; width: 18cqw; height: auto; z-index: 5;
+  filter: drop-shadow(.28cqw .45cqw .55cqw rgba(0,0,0,.30)) drop-shadow(.05cqw .06cqw .08cqw rgba(0,0,0,.22));
+  pointer-events: none; }
+.section-reader .sc-sticker--br { right: 4cqw; bottom: 6.5cqw; transform: rotate(4deg); }
+.section-reader .sc-sticker--bl { left: 3.5cqw; bottom: 6.5cqw; transform: rotate(-7deg); }
+.section-reader .sc-sticker--tr { right: 3.5cqw; top: 15cqw; transform: rotate(5deg); }
+.section-reader .sc-sticker--tl { left: 3.5cqw; top: 15cqw; transform: rotate(-6deg); }
 .section-reader .sc-term { position: relative; border-bottom: 1px dotted var(--sc-pencil); cursor: help; outline: none; }
-.section-reader .sc-tip { position: absolute; left: 0; bottom: calc(100% + .6cqw); z-index: 5; width: 22cqw;
+.section-reader .sc-tip { position: absolute; left: 0; top: calc(100% + .6cqw); z-index: 6; width: 22cqw;
   max-width: 44cqw; padding: 1cqw 1.2cqw; background: #FBF6E9; color: #2a2a2a; border: 1px solid rgba(0,0,0,.18);
   box-shadow: 0 4px 12px rgba(0,0,0,.16); border-radius: 2px; font-family: var(--font-type); font-size: 1.15cqw;
   line-height: 1.35; text-transform: none; letter-spacing: 0; opacity: 0; visibility: hidden;
