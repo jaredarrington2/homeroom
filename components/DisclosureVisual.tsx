@@ -14,7 +14,183 @@ export default function DisclosureVisual({ kind }: { kind: DisclosureVisualKind 
       {kind === "servicing-transfer" && <ServicingTransfer />}
       {kind === "apr-stack" && <AprStack />}
       {kind === "tolerance-buckets" && <ToleranceBuckets />}
+      {kind === "licensed-vs-registered" && <LicensedVsRegistered />}
+      {kind === "pe-ce-hours" && <PeCeHours />}
+      {kind === "exam-attempts" && <ExamAttempts />}
+      {kind === "temp-authority-windows" && <TempAuthorityWindows />}
     </figure>
+  );
+}
+
+/* ── 7. SAFE Act — registered vs. state-licensed decision tree ──────────────── */
+function LicensedVsRegistered() {
+  return (
+    <div className="dv-paper" style={{ padding: "26px 24px 22px" }}>
+      <div className="dv-h">Registered vs. State-Licensed</div>
+      <div className="dv-hsub">One question sets which rules apply to a loan originator</div>
+      <hr className="dv-rule dv-double" />
+
+      <div className="dv-lr-q">Who employs you?</div>
+
+      <div className="dv-lr-cols">
+        <div className="dv-lr-col">
+          <div className="dv-lr-branch">a bank, credit union, or other depository institution — or an FCA-regulated institution</div>
+          <div className="dv-lr-tag dv-lr-reg">an EXEMPT entity → REGISTERED</div>
+          <ul className="dv-checks">
+            <li className="checked">register in the NMLS</li>
+            <li className="checked">carry a unique identifier</li>
+            <li className="checked"><span className="dv-hl-g">no state license needed</span></li>
+            <li className="checked">no PE, exam, or CE required</li>
+          </ul>
+          <div className="dv-lr-why">a federal banking agency already supervises the employer</div>
+        </div>
+
+        <div className="dv-lr-col">
+          <div className="dv-lr-branch">a mortgage broker or non-bank lender</div>
+          <div className="dv-lr-tag dv-lr-lic">NOT exempt → STATE-LICENSED</div>
+          <ul className="dv-checks">
+            <li className="checked">register in the NMLS</li>
+            <li className="checked">carry a unique identifier</li>
+            <li className="checked"><span className="dv-hl-y">plus a state license</span></li>
+            <li className="checked">20-hr PE · national exam · 8-hr CE</li>
+            <li className="checked">sponsorship switches it on</li>
+          </ul>
+          <div className="dv-lr-why">no federal banking agency over the employer, so the state licenses the person</div>
+        </div>
+      </div>
+
+      <hr className="dv-rule" />
+      <div className="dv-mnote">
+        Both kinds live in the NMLS with a unique identifier — the fork is only whether a <b>state license</b> sits on top.
+      </div>
+    </div>
+  );
+}
+
+/* ── 8. Pre-licensing vs. continuing education hours ────────────────────────── */
+function PeCeHours() {
+  return (
+    <div className="dv-paper" style={{ padding: "26px 24px 22px" }}>
+      <div className="dv-h">Education hours</div>
+      <div className="dv-hsub">Before the license (once) vs. every year to keep it</div>
+      <hr className="dv-rule dv-double" />
+
+      <div className="dv-apr-cols">
+        <div className="dv-apr-col">
+          <div className="dv-apr-fig">20<span className="dv-apr-unit"> hrs PE</span></div>
+          <div className="dv-hrs-bar">
+            <div className="dv-hrs-seg dv-hrs-fed">3<br />federal law</div>
+            <div className="dv-hrs-seg dv-hrs-eth">3<br />ethics</div>
+            <div className="dv-hrs-seg dv-hrs-nt">2<br />non-traditional</div>
+            <div className="dv-hrs-seg dv-hrs-rest">12<br />remaining</div>
+          </div>
+          <div className="dv-apr-lender">Pre-licensing</div>
+          <div className="dv-apr-sub">one time, before the exam</div>
+        </div>
+
+        <div className="dv-apr-col">
+          <div className="dv-apr-fig">8<span className="dv-apr-unit"> hrs CE</span></div>
+          <div className="dv-hrs-bar">
+            <div className="dv-hrs-seg dv-hrs-fed">3<br />federal law</div>
+            <div className="dv-hrs-seg dv-hrs-eth">2<br />ethics</div>
+            <div className="dv-hrs-seg dv-hrs-nt">2<br />non-traditional</div>
+            <div className="dv-hrs-seg dv-hrs-rest">1<br />remaining</div>
+          </div>
+          <div className="dv-apr-lender">Continuing ed</div>
+          <div className="dv-apr-sub">every year, to renew</div>
+        </div>
+      </div>
+
+      <hr className="dv-rule" />
+      <div className="dv-mnote">
+        Same three buckets both times — only the <b>ethics</b> hours differ (3 for PE, 2 for CE). A state may pile
+        its own state-specific hours on top of either.
+      </div>
+    </div>
+  );
+}
+
+/* ── 9. National exam — the retake ladder ──────────────────────────────────── */
+function ExamAttempts() {
+  return (
+    <div className="dv-paper" style={{ padding: "26px 24px 22px" }}>
+      <div className="dv-h">The national exam</div>
+      <div className="dv-hsub">120 questions · pass at 75% · the retake ladder</div>
+      <hr className="dv-rule dv-double" />
+
+      <div className="dv-exam-row">
+        <div className="dv-exam-try">
+          <div className="dv-exam-n">1st</div>
+          <div className="dv-exam-lbl">attempt</div>
+        </div>
+        <div className="dv-exam-gap">wait<br /><b>30 days</b></div>
+        <div className="dv-exam-try">
+          <div className="dv-exam-n">2nd</div>
+          <div className="dv-exam-lbl">attempt</div>
+        </div>
+        <div className="dv-exam-gap">wait<br /><b>30 days</b></div>
+        <div className="dv-exam-try">
+          <div className="dv-exam-n">3rd</div>
+          <div className="dv-exam-lbl">attempt</div>
+        </div>
+        <div className="dv-exam-gap dv-exam-wall">fail 3 →<br /><b>6 months</b></div>
+        <div className="dv-exam-try dv-exam-repeat">
+          <div className="dv-exam-n">↻</div>
+          <div className="dv-exam-lbl">cycle repeats</div>
+        </div>
+      </div>
+
+      <hr className="dv-rule" />
+      <div className="dv-mnote">
+        Three tries per cycle, each at least <b>30 days</b> apart; after three straight fails, a <b>6-month</b> wall
+        before the ladder resets. Separately: let a license lapse <b>5+ years</b> (not counting registered time) and you re-sit the exam.
+      </div>
+    </div>
+  );
+}
+
+/* ── 10. Temporary authority — the two paths + four end-conditions ──────────── */
+function TempAuthorityWindows() {
+  return (
+    <div className="dv-paper" style={{ padding: "26px 24px 22px" }}>
+      <div className="dv-h">Temporary authority</div>
+      <div className="dv-hsub">Who qualifies to work before the new state license issues</div>
+      <hr className="dv-rule dv-double" />
+
+      <div className="dv-lr-cols">
+        <div className="dv-lr-col">
+          <div className="dv-lr-tag dv-lr-reg">REGISTERED → licensed</div>
+          <div className="dv-lr-branch">a bank (registered) MLO joining a state-licensed company</div>
+          <ul className="dv-checks">
+            <li className="checked">clean record — no denial, revocation, suspension, or cease-and-desist</li>
+            <li className="checked">state license application submitted</li>
+            <li className="checked"><span className="dv-hl-y">NMLS-registered in the prior 1 year</span></li>
+          </ul>
+        </div>
+        <div className="dv-lr-col">
+          <div className="dv-lr-tag dv-lr-lic">LICENSED → new state</div>
+          <div className="dv-lr-branch">a state-licensed MLO crossing into a new state</div>
+          <ul className="dv-checks">
+            <li className="checked">meets the standard requirements</li>
+            <li className="checked">employed by a licensed company there</li>
+            <li className="checked"><span className="dv-hl-y">licensed in another state in the prior 30 days</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="dv-ta-end">the bridge ends at the EARLIEST of —</div>
+      <div className="dv-ta-conds">
+        <span>application withdrawn</span>
+        <span>state denies (or intends to)</span>
+        <span>state grants the license</span>
+        <span><b>120 days</b> if still incomplete</span>
+      </div>
+
+      <hr className="dv-rule" />
+      <div className="dv-mnote">
+        Same idea both ways: an already-vetted originator shouldn&apos;t sit idle just to change states or employers.
+      </div>
+    </div>
   );
 }
 

@@ -2,7 +2,7 @@
   "unitId": "state-oversight",
   "name": "State oversight",
   "reg": "SAFE Act · 12 USC 5107–5114",
-  "groupCount": 6,
+  "groupCount": 7,
   "items": [
     {
       "kind": "prose",
@@ -29,32 +29,39 @@
       "id": "audio-state-oversight-g2-p0",
       "gi": 2,
       "pi": 0,
-      "text": "To do that job, the CFPB and every State Commissioner can examine and investigate any licensee as often as necessary. They can demand the books and records, interview officers and employees under oath, and even take physical possession of documents during an investigation. The flip side is a hard duty on you: no one under examination may knowingly withhold, alter, or destroy records — doing so is itself a serious violation."
+      "text": "The SAFE Act sets a floor each state has to clear to count as compliant. A state must run a loan-originator supervisory authority that can actually enforce the law — suspending, revoking, or refusing to renew a license for a violation. It must make sure every state-licensed MLO is registered in the NMLS, report violations and enforcement actions back to the NMLS, and keep a process that lets an originator challenge information held about them. It must be able to penalize unlicensed activity, and require a minimum net worth or surety bond (or a recovery fund) scaled to each originator's loan volume. In short: supervise, register, report, and put money behind the promise."
     },
     {
       "kind": "prose",
       "id": "audio-state-oversight-g3-p0",
       "gi": 3,
       "pi": 0,
-      "text": "The SAFE Act spells out what an originator may never do, and the theme is honesty. It's a violation to defraud or mislead a borrower or lender, to engage in any unfair or deceptive practice, or to advertise or contract for rates and terms that aren't actually available — classic bait-and-switch. It's also a violation to originate without a valid license, to try to influence an appraiser's judgment, to collect a prohibited fee, or to fail to truthfully account for money belonging to a party in the transaction."
-    },
-    {
-      "kind": "gate",
-      "gateType": "synth",
-      "id": "audio-state-oversight-g3-gate-synth",
-      "gi": 3
+      "text": "To do that job, the CFPB and every State Commissioner can examine and investigate any licensee as often as necessary. They can demand the books and records, interview officers and employees under oath, and even take physical possession of documents during an investigation. The flip side is a hard duty on you: no one under examination may knowingly withhold, alter, or destroy records — doing so is itself a serious violation."
     },
     {
       "kind": "prose",
       "id": "audio-state-oversight-g4-p0",
       "gi": 4,
       "pi": 0,
-      "text": "When someone violates the Act, a Commissioner can deny, suspend, or revoke a license, order restitution, and impose fines. The ceiling on a civil penalty is $25,000 for each act or omission — and each separate violation counts on its own, so they stack. Separately, every mortgage licensee entity has to keep regulators informed by filing a Call Report — a report of condition submitted to the NMLS quarterly, describing the origination activity of the previous calendar quarter."
+      "text": "The SAFE Act spells out what an originator may never do, and the theme is honesty. It's a violation to defraud or mislead a borrower or lender, to engage in any unfair or deceptive practice, or to advertise or contract for rates and terms that aren't actually available — classic bait-and-switch. It's also a violation to originate without a valid license, to try to influence an appraiser's judgment, to collect a prohibited fee, or to fail to truthfully account for money belonging to a party in the transaction."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-state-oversight-g4-gate-synth",
+      "gi": 4
     },
     {
       "kind": "prose",
       "id": "audio-state-oversight-g5-p0",
       "gi": 5,
+      "pi": 0,
+      "text": "When someone violates the Act, a Commissioner can deny, suspend, or revoke a license, order restitution, and impose fines. The ceiling on a civil penalty is $25,000 for each act or omission — and each separate violation counts on its own, so they stack. Separately, every mortgage licensee entity has to keep regulators informed by filing a Call Report — a report of condition submitted to the NMLS quarterly, describing the origination activity of the previous calendar quarter."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-state-oversight-g6-p0",
+      "gi": 6,
       "pi": 0,
       "text": "States also make originators put money behind their promises. Every MLO must be covered by a surety bond — a guarantee that pays out if the originator causes harm — though an employer's bond can cover its employees. Each must also maintain a minimum net worth. Both the bond amount and the net worth aren't fixed dollar figures; they scale with the dollar amount of loans the originator produces, as the State Commissioner sets."
     },

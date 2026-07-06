@@ -2,7 +2,7 @@
   "unitId": "temporary-authority-and-the-job",
   "name": "Temporary authority & on the job",
   "reg": "SAFE Act · 12 USC 5117",
-  "groupCount": 6,
+  "groupCount": 7,
   "items": [
     {
       "kind": "prose",
@@ -56,7 +56,19 @@
       "id": "audio-temporary-authority-and-the-job-g5-p0",
       "gi": 5,
       "pi": 0,
+      "text": "One more rulebook governs the job, but it isn't the SAFE Act's — it's the CFPB Loan Originator Rule, taught in full back in Module 3 under the Truth in Lending Act (12 CFR 1026.36). The short version: an originator's compensation can't be tied to a loan's terms (or a proxy for them), an originator can't be paid by both the borrower and another party on the same loan (no dual compensation), and steering a borrower into a worse loan for a bigger payday is off-limits. Its qualification duties simply echo the SAFE Act — be licensed or registered — and it requires the originator's and the company's names and NMLS identifiers to appear on certain loan documents. Treat it here as a cross-reference; the mechanics live in Module 3."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-temporary-authority-and-the-job-g6-p0",
+      "gi": 6,
+      "pi": 0,
       "text": "Three habits round out compliant practice. Your unique identifier has to appear on every application, solicitation, and advertisement — business cards and websites included — and you disclose it to anyone who asks. Every loan gets an organized loan file holding the records that support and service it. And on the Loan Estimate and Closing Disclosure, the entry \"N/A\" is prohibited — a line that doesn't apply is simply left blank."
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-temporary-authority-and-the-job-gate-definitions"
     },
     {
       "kind": "gate",

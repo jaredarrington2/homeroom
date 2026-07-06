@@ -67,7 +67,11 @@ const section4: SectionContent = {
             {
               "html": "The <b>Nationwide Mortgage Licensing System &amp; Registry (NMLS)</b> is the spine of the whole system — one database that licenses state MLOs, registers the exempt ones, and follows them across state lines and jobs. It was built and is run by two bodies working together: the <b>Conference of State Bank Supervisors (CSBS)</b> and the <b>American Association of Residential Mortgage Regulators (AARMR)</b>. Because everything funnels through it, a consumer can look up an originator's employment history and any public disciplinary action for free."
             }
-          ]
+          ],
+          "synth": {
+            "q": "Why did the SAFE Act create one national registry instead of leaving oversight to each state?",
+            "a": "Because state-by-state oversight let bad actors escape accountability — an originator caught breaking the rules could resign, cross a state line, and start over untracked. A single national registry (the NMLS) closes that escape hatch: every originator carries a permanent record that follows them across states and employers, so misconduct is visible anywhere."
+          }
         },
         {
           "heading": "the unique identifier",
@@ -76,6 +80,18 @@ const section4: SectionContent = {
               "html": "The NMLS gives every loan originator a permanent number — the <b>unique identifier</b> — that follows them for their whole career. Two things make it matter. It is deliberately <b>not your Social Security number</b>, so it can be public without exposing you, and it's <b>permanent</b>: change employers or states and the number stays the same, which is what makes cross-country tracking possible. An originator has to display it on their applications, solicitations, and advertising, and share it with anyone who asks."
             }
           ]
+        },
+        {
+          "heading": "who counts as a loan originator",
+          "paras": [
+            {
+              "html": "The whole Act turns on one definition. A <b>loan originator</b> is someone who <b>takes a residential mortgage loan application</b> and <b>offers or negotiates loan terms</b> for <span class=\"cloze\" data-accept='[\"compensation or gain\",\"compensation\",\"gain\",\"pay\",\"money\"]' data-reveal=\"compensation or gain\">?</span>. Both halves matter — take an application <em>and</em> talk terms, for money. That's why some people who touch a loan aren't originators at all: purely <b>clerical or administrative</b> staff, a <b>real-estate agent</b> doing brokerage work (unless a lender or broker pays them for the loan), and anyone dealing solely in <b>timeshare</b> credit all fall outside the definition — and outside the licensing that comes with it."
+            }
+          ],
+          "synth": {
+            "q": "What two things must a person do to be a 'loan originator,' and name someone who isn't one.",
+            "a": "A loan originator both takes a residential mortgage loan application and offers or negotiates its terms, for compensation or gain — both halves are required. Someone doing only clerical or administrative work, a real-estate agent doing brokerage (unless paid by a lender or broker for the loan), or a person handling only timeshare credit is not a loan originator."
+          }
         }
       ],
       "review": {
@@ -103,6 +119,12 @@ const section4: SectionContent = {
             "topic": "Unique identifier",
             "q": "Can an originator's unique identifier be their Social Security number?",
             "a": "<span class='hl'>No</span> — it's a permanent NMLS number, never the SSN"
+          },
+          {
+            "peg": "not an LO",
+            "topic": "Loan originator",
+            "q": "Name someone who touches a loan but is NOT a 'loan originator.'",
+            "a": "<span class='hl'>clerical or administrative</span> staff, a real-estate agent doing brokerage (unless lender/broker-paid), or someone handling only <span class='hl'>timeshare</span> credit"
           }
         ],
         "mcq": [
@@ -135,6 +157,16 @@ const section4: SectionContent = {
               "nothing — it's confidential"
             ],
             "correct": 1
+          },
+          {
+            "q": "To be a 'loan originator,' a person must —",
+            "opts": [
+              "merely advertise loan products",
+              "take a loan application AND offer or negotiate terms, for compensation",
+              "only sign the closing documents",
+              "hold any real-estate license"
+            ],
+            "correct": 1
           }
         ]
       }
@@ -158,6 +190,7 @@ const section4: SectionContent = {
               "html": "There are two kinds of loan originator. A <b>registered loan originator</b> works for an <b>exempt entity</b> — a bank, credit union, or other depository institution (or an institution the Farm Credit Administration regulates). They register in the NMLS and carry a unique identifier, but because a federal banking agency already supervises their employer, they do <b>not</b> need a state license. A <b>state-licensed loan originator</b> is everyone else — someone at a mortgage broker or non-depository lender — and they must earn and maintain a state license. Both are tracked in the NMLS; only one needs the license."
             }
           ],
+          "visual": "licensed-vs-registered",
           "synth": {
             "q": "What decides whether a loan originator needs a state license versus only NMLS registration?",
             "a": "Their employer. An originator employed by an exempt entity (a depository institution or FCA-regulated institution) is a registered loan originator — registered in the NMLS but not state-licensed, since a federal banking agency already supervises the employer. Everyone else (brokers, non-depository lenders) is a state-licensed loan originator and must hold a state license."
@@ -175,7 +208,7 @@ const section4: SectionContent = {
           "heading": "processors and underwriters",
           "paras": [
             {
-              "html": "A <b>loan processor or underwriter</b> who works clerical, behind-the-scenes duties under a licensed originator's supervision doesn't need a license — they collect and analyze information but never offer or negotiate rates or terms. Two things flip that. If they <b>hold themselves out</b> as able to originate — on a business card, a sign, a rate sheet — they need a license. And a <b>contract (1099) processor or underwriter</b>, working independently rather than as a supervised employee, must be licensed in every state where the properties they work on are located."
+              "html": "A <b>loan processor or underwriter</b> who works clerical, behind-the-scenes duties under a licensed originator's supervision doesn't need a license — they collect and analyze information but never offer or negotiate rates or terms. Two things flip that. If they <b>hold themselves out</b> as able to originate — on a business card, a sign, a rate sheet — they need a license. And a <b>contract (1099) processor or underwriter</b>, working independently rather than as a supervised employee, must be licensed in <span class=\"cloze\" data-accept='[\"every state\",\"each state\",\"all states\",\"every state where the property is\"]' data-reveal=\"every state\">?</span> where the properties they work on are located."
             }
           ],
           "synth": {
@@ -205,10 +238,10 @@ const section4: SectionContent = {
             "a": "when a <span class='hl'>lender or broker pays</span> the attorney for negotiating the loan"
           },
           {
-            "peg": "1099",
-            "topic": "Processors",
-            "q": "A contract (1099) processor/underwriter must be licensed —",
-            "a": "in <span class='hl'>every state</span> where the subject properties are located"
+            "peg": "the exempt line",
+            "topic": "Registered vs. licensed",
+            "q": "Why is a bank MLO exempt from state licensing while a broker's MLO isn't?",
+            "a": "a <span class='hl'>federal banking agency</span> already supervises the bank; no such regulator sits over the broker, so the <span class='hl'>state</span> licenses that originator directly"
           }
         ],
         "mcq": [
@@ -261,7 +294,7 @@ const section4: SectionContent = {
           "heading": "the background check",
           "paras": [
             {
-              "html": "It starts with the NMLS looking hard at who you are. Before applying, a candidate submits <b>fingerprints</b> for a state and national criminal-history check run through the <b>FBI</b>, authorizes the NMLS to pull an independent <b>credit report</b>, and provides a full personal history including any past administrative, civil, or criminal findings. The background check is the gate everything else sits behind."
+              "html": "It starts with the NMLS looking hard at who you are. Before applying, a candidate submits <b>fingerprints</b> for a state and national criminal-history check run through the <b>FBI</b> — obtained within the most-recent <span class=\"cloze\" data-accept='[\"180 days\",\"180\",\"one hundred eighty\",\"180-day\"]' data-reveal=\"180 days\">?</span>, and re-taken if the prints already on file are older than <span class=\"cloze\" data-accept='[\"3 years\",\"3\",\"three\",\"three years\"]' data-reveal=\"3 years\">?</span>. The candidate also authorizes the NMLS to pull an independent <b>credit report</b> and files a full personal history: their most-recent <span class=\"cloze\" data-accept='[\"10 years\",\"10\",\"ten\",\"ten years\"]' data-reveal=\"10 years\">?</span> of residential and employment history, containing <b>no gaps</b>, plus any past administrative, civil, or criminal findings. It all goes to the NMLS on <b>form MU4</b>. The background check is the gate everything else sits behind."
             }
           ]
         },
@@ -292,6 +325,7 @@ const section4: SectionContent = {
               "html": "Before the exam comes the classroom. A candidate must complete at least <span class=\"cloze\" data-accept='[\"20 hours\",\"20\",\"twenty\",\"twenty hours\"]' data-reveal=\"20 hours\">?</span> of NMLS-approved pre-licensing education, and the hours are carved up: at least <b>3 hours of federal law</b>, <b>3 hours of ethics</b> (covering fraud, consumer protection, and fair lending), and <b>2 hours on non-traditional mortgage products</b>. One approved course satisfies the national requirement for every state, though a particular state may pile its own state-specific hours on top."
             }
           ],
+          "visual": "pe-ce-hours",
           "synth": {
             "q": "How are the 20 hours of pre-licensing education allocated?",
             "a": "At least 20 total NMLS-approved hours, including at least 3 hours of federal law and regulations, 3 hours of ethics (fraud, consumer protection, and fair lending), and 2 hours on non-traditional mortgage products. The remaining hours round out the 20."
@@ -301,9 +335,10 @@ const section4: SectionContent = {
           "heading": "the exam",
           "paras": [
             {
-              "html": "The finish line is a national exam: a <b>120-question</b> test written by the NMLS, and passing means scoring at least <span class=\"cloze\" data-accept='[\"75%\",\"75\",\"seventy-five\",\"seventy-five percent\"]' data-reveal=\"75%\">?</span>. Fail and you can retake it twice more — three attempts in all — with each try at least 30 days after the last. Fail all three and you're locked out for <b>6 months</b> before the cycle starts over. One more rule reaches into the future: let your license lapse for 5 years or more (not counting time you spent as a registered originator) and you have to sit the exam again."
+              "html": "The finish line is a national exam: a <span class=\"cloze\" data-accept='[\"120\",\"one hundred twenty\",\"120-question\"]' data-reveal=\"120\">?</span>-question test written by the NMLS, and passing means scoring at least <span class=\"cloze\" data-accept='[\"75%\",\"75\",\"seventy-five\",\"seventy-five percent\"]' data-reveal=\"75%\">?</span>. Fail and you can retake it twice more — three attempts in all — with each try at least <b>30 days</b> after the last. Fail all three and you're locked out for <b>6 months</b> before the cycle starts over. One more rule reaches into the future: let your license lapse for 5 years or more (not counting time you spent as a registered originator) and you have to sit the exam again."
             }
-          ]
+          ],
+          "visual": "exam-attempts"
         }
       ],
       "review": {
@@ -351,32 +386,32 @@ const section4: SectionContent = {
             "correct": 2
           },
           {
-            "q": "The national MLO exam has —",
+            "q": "Which is a minimum standard for issuing an MLO license?",
             "opts": [
-              "75 questions",
-              "100 questions",
-              "120 questions",
-              "200 questions"
+              "at least five years of prior banking experience",
+              "never having had an MLO license revoked",
+              "a college degree in finance",
+              "residence in the licensing state"
             ],
-            "correct": 2
+            "correct": 1
           },
           {
-            "q": "The minimum passing score on the national MLO exam is —",
+            "q": "One NMLS-approved pre-licensing course —",
             "opts": [
-              "60%",
-              "70%",
-              "75%",
-              "80%"
+              "must be retaken in every state",
+              "satisfies the national requirement for every state",
+              "expires after 30 days",
+              "counts only toward continuing education"
             ],
-            "correct": 2
+            "correct": 1
           },
           {
-            "q": "Pre-licensing education requires at least —",
+            "q": "Under the financial-responsibility standard, which is NOT disqualifying?",
             "opts": [
-              "8 total hours",
-              "12 total hours",
-              "20 total hours",
-              "40 total hours"
+              "an outstanding tax lien",
+              "a foreclosure within the past 3 years",
+              "a judgment solely from medical expenses",
+              "a pattern of seriously-delinquent accounts"
             ],
             "correct": 2
           }
@@ -399,7 +434,7 @@ const section4: SectionContent = {
           "heading": "the December 31 deadline",
           "paras": [
             {
-              "html": "Every MLO license expires on the same day: <b>11:59 p.m. on December 31</b>. Miss the renewal and the license is dead at 12:00 a.m. on January 1 — and from that moment you must stop any activity that requires a license. Because state agencies take time to process, the smart move is to submit the renewal early, around <b>November 1</b>, rather than gambling on the last week of December."
+              "html": "Every MLO license expires on the same day: <b>11:59 p.m.</b> on <span class=\"cloze\" data-accept='[\"December 31\",\"Dec 31\",\"December 31st\",\"dec 31\"]' data-reveal=\"December 31\">?</span>. Miss the renewal and the license is dead at 12:00 a.m. on January 1 — and from that moment you must stop any activity that requires a license. Because state agencies take time to process, the smart move is to submit the renewal early, around <b>November 1</b>, rather than gambling on the last week of December. A license that does expire isn't gone for good — reinstatement follows each state's own policy."
             }
           ]
         },
@@ -409,7 +444,8 @@ const section4: SectionContent = {
             {
               "html": "Each year the license also demands fresh learning: at least <span class=\"cloze\" data-accept='[\"8 hours\",\"8\",\"eight\",\"eight hours\"]' data-reveal=\"8 hours\">?</span> of NMLS-approved continuing education. The hours are earmarked much like pre-licensing: at least <b>3 hours of federal law</b>, <b>2 hours of ethics</b> (fraud, consumer protection, fair lending), and <b>2 hours on non-traditional mortgage products</b>, with the remaining hour rounding it out. A state may require its own state-specific CE on top of the national eight."
             }
-          ]
+          ],
+          "visual": "pe-ce-hours"
         },
         {
           "heading": "the fine print on CE",
@@ -479,22 +515,22 @@ const section4: SectionContent = {
         ],
         "mcq": [
           {
-            "q": "Every MLO license expires at —",
+            "q": "Once a license expires at 12:00 a.m. on January 1, the former licensee must —",
             "opts": [
-              "11:59 p.m. on December 31",
-              "the anniversary of issuance",
-              "the end of the fiscal year",
-              "midnight on the applicant's birthday"
+              "keep originating until the state objects",
+              "stop all activity that requires a license",
+              "pay a flat $500 penalty and continue",
+              "wait exactly 30 days, then resume"
             ],
-            "correct": 0
+            "correct": 1
           },
           {
-            "q": "Annual continuing education requires at least —",
+            "q": "An MLO whose license has expired reinstates it by —",
             "opts": [
-              "4 hours",
-              "8 hours",
-              "12 hours",
-              "20 hours"
+              "automatic renewal after 90 days",
+              "following each state's own reinstatement policy",
+              "retaking the exam in every case",
+              "filing with the FBI"
             ],
             "correct": 1
           },
@@ -546,6 +582,14 @@ const section4: SectionContent = {
           }
         },
         {
+          "heading": "what every state must guarantee",
+          "paras": [
+            {
+              "html": "The SAFE Act sets a floor each state has to clear to count as compliant. A state must run a <b>loan-originator supervisory authority</b> that can actually enforce the law — suspending, revoking, or refusing to renew a license for a violation. It must make sure every state-licensed MLO is <b>registered in the NMLS</b>, <b>report violations and enforcement actions</b> back to the NMLS, and keep a process that lets an originator <b>challenge</b> information held about them. It must be able to <b>penalize unlicensed activity</b>, and require a minimum net worth or surety bond (or a recovery fund) scaled to each originator's loan volume. In short: supervise, register, report, and put money behind the promise."
+            }
+          ]
+        },
+        {
           "heading": "investigation and examination",
           "paras": [
             {
@@ -569,7 +613,7 @@ const section4: SectionContent = {
           "heading": "penalties and call reports",
           "paras": [
             {
-              "html": "When someone violates the Act, a Commissioner can deny, suspend, or revoke a license, order restitution, and impose fines. The ceiling on a civil penalty is <span class=\"cloze\" data-accept='[\"$25,000\",\"25000\",\"25,000\",\"twenty-five thousand\"]' data-reveal=\"$25,000\">?</span> for each act or omission — and each separate violation counts on its own, so they stack. Separately, every mortgage licensee entity has to keep regulators informed by filing a <b>Call Report</b> — a report of condition submitted to the NMLS <b>quarterly</b>, describing the origination activity of the previous calendar quarter."
+              "html": "When someone violates the Act, a Commissioner can deny, suspend, or revoke a license, order restitution, and impose fines. The ceiling on a civil penalty is <span class=\"cloze\" data-accept='[\"$25,000\",\"25000\",\"25,000\",\"twenty-five thousand\"]' data-reveal=\"$25,000\">?</span> for each act or omission — and each separate violation counts on its own, so they stack. Separately, every mortgage licensee entity has to keep regulators informed by filing a <b>Call Report</b> — a report of condition submitted to the NMLS <span class=\"cloze\" data-accept='[\"quarterly\",\"every quarter\",\"each quarter\",\"4 times a year\",\"four times a year\"]' data-reveal=\"quarterly\">?</span>, describing the origination activity of the previous calendar quarter."
             }
           ]
         },
@@ -621,24 +665,24 @@ const section4: SectionContent = {
             "correct": 1
           },
           {
-            "q": "The maximum civil penalty a Commissioner may assess per violation is —",
+            "q": "To be counted as SAFE-Act compliant, a state must, among other things —",
             "opts": [
-              "$1,000",
-              "$10,000",
-              "$25,000",
-              "$100,000"
+              "cap all mortgage interest rates",
+              "keep a process letting an originator challenge NMLS information about them",
+              "employ every licensee directly",
+              "run its own national exam"
             ],
-            "correct": 2
+            "correct": 1
           },
           {
-            "q": "A Call Report (report of condition) is submitted to the NMLS —",
+            "q": "During an investigation, the CFPB or a State Commissioner may —",
             "opts": [
-              "annually",
-              "monthly",
-              "quarterly",
-              "only when requested"
+              "take physical custody of records if it fears they'll be destroyed",
+              "jail the licensee without a hearing",
+              "seize the borrower's home",
+              "waive all federal law"
             ],
-            "correct": 2
+            "correct": 0
           },
           {
             "q": "A licensee's surety bond can be satisfied by —",
@@ -657,6 +701,10 @@ const section4: SectionContent = {
       "id": "temporary-authority-and-the-job",
       "name": "Temporary authority & on the job",
       "reg": "SAFE Act · 12 USC 5117",
+      "definitions": [
+        { "term": "Application State", "def": "The state in which a registered or state-licensed loan originator is seeking to be licensed." },
+        { "term": "State-Licensed Mortgage Company", "def": "An entity licensed or registered under any state's law to engage in residential mortgage loan origination and processing activities." }
+      ],
       "groups": [
         {
           "paras": [
@@ -691,7 +739,8 @@ const section4: SectionContent = {
             {
               "html": "Temporary authority isn't open-ended — it ends at the <b>earliest</b> of four events: the originator withdraws the application, the state denies it (or signals intent to deny), the state grants the license, or <span class=\"cloze\" data-accept='[\"120 days\",\"120\",\"one hundred twenty\"]' data-reveal=\"120 days\">?</span> pass with the application still sitting incomplete. Whichever comes first closes the bridge."
             }
-          ]
+          ],
+          "visual": "temp-authority-windows"
         },
         {
           "heading": "assumable loans",
@@ -704,6 +753,14 @@ const section4: SectionContent = {
             "q": "What makes a mortgage assumable, and which loan types are?",
             "a": "A loan is assumable when it lacks an alienation (due-on-sale) clause — the provision that lets a lender accelerate the balance when the property's title changes. Without it, a qualified buyer can take over the loan. FHA, VA, and USDA loans are assumable, along with some conventional adjustable-rate mortgages."
           }
+        },
+        {
+          "heading": "the loan-originator rule (see Module 3)",
+          "paras": [
+            {
+              "html": "One more rulebook governs the job, but it isn't the SAFE Act's — it's the <b>CFPB Loan Originator Rule</b>, taught in full back in Module 3 under the Truth in Lending Act (12 CFR 1026.36). The short version: an originator's <b>compensation can't be tied to a loan's terms</b> (or a proxy for them), an originator <b>can't be paid by both the borrower and another party</b> on the same loan (no dual compensation), and steering a borrower into a worse loan for a bigger payday is off-limits. Its qualification duties simply echo the SAFE Act — be licensed or registered — and it requires the originator's and the company's names and NMLS identifiers to appear on certain loan documents. Treat it here as a cross-reference; the mechanics live in Module 3."
+            }
+          ]
         },
         {
           "heading": "the identifier, the file, and 'N/A'",

@@ -2,7 +2,7 @@
   "unitId": "the-safe-act",
   "name": "The SAFE Act",
   "reg": "Secure and Fair Enforcement for Mortgage Licensing Act · 12 USC Ch. 51",
-  "groupCount": 5,
+  "groupCount": 6,
   "items": [
     {
       "kind": "prose",
@@ -39,11 +39,30 @@
       "text": "The Nationwide Mortgage Licensing System & Registry (NMLS) is the spine of the whole system — one database that licenses state MLOs, registers the exempt ones, and follows them across state lines and jobs. It was built and is run by two bodies working together: the Conference of State Bank Supervisors (CSBS) and the American Association of Residential Mortgage Regulators (AARMR). Because everything funnels through it, a consumer can look up an originator's employment history and any public disciplinary action for free."
     },
     {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-the-safe-act-g3-gate-synth",
+      "gi": 3
+    },
+    {
       "kind": "prose",
       "id": "audio-the-safe-act-g4-p0",
       "gi": 4,
       "pi": 0,
       "text": "The NMLS gives every loan originator a permanent number — the unique identifier — that follows them for their whole career. Two things make it matter. It is deliberately not your Social Security number, so it can be public without exposing you, and it's permanent: change employers or states and the number stays the same, which is what makes cross-country tracking possible. An originator has to display it on their applications, solicitations, and advertising, and share it with anyone who asks."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-the-safe-act-g5-p0",
+      "gi": 5,
+      "pi": 0,
+      "text": "The whole Act turns on one definition. A loan originator is someone who takes a residential mortgage loan application and offers or negotiates loan terms for compensation or gain. Both halves matter — take an application and talk terms, for money. That's why some people who touch a loan aren't originators at all: purely clerical or administrative staff, a real-estate agent doing brokerage work (unless a lender or broker pays them for the loan), and anyone dealing solely in timeshare credit all fall outside the definition — and outside the licensing that comes with it."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-the-safe-act-g5-gate-synth",
+      "gi": 5
     },
     {
       "kind": "gate",

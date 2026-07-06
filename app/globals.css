@@ -559,11 +559,62 @@
 .section-reader .dv-tol-who { font-family: var(--dv-hand); font-size: 13px; color: var(--dv-muted);
   margin-top: auto; padding-top: 6px; border-top: 1px dotted #C8C0B0; }
 
+/* 7. Registered vs. state-licensed decision tree + temp-authority paths (shared .dv-lr-*) */
+.section-reader .dv-lr-q { font-family: var(--dv-type); font-size: 12px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 1px; text-align: center; color: var(--dv-ink); background: var(--dv-hl-b);
+  padding: 8px 10px; margin: 4px auto 0; max-width: 260px; }
+.section-reader .dv-lr-cols { display: flex; gap: 16px; align-items: stretch; margin: 16px 0 6px; }
+.section-reader .dv-lr-col { flex: 1; min-width: 0; border: 1px solid var(--dv-edge); background: #FCFAF4;
+  padding: 12px 14px; display: flex; flex-direction: column; }
+.section-reader .dv-lr-branch { font-family: var(--dv-hand); font-size: 15px; color: var(--dv-sharpie-blue);
+  line-height: 1.3; margin-bottom: 10px; }
+.section-reader .dv-lr-tag { font-family: var(--dv-type); font-size: 11px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .6px; padding: 5px 8px; margin-bottom: 10px; text-align: center; }
+.section-reader .dv-lr-reg { background: var(--dv-hl-g); color: var(--dv-green); }
+.section-reader .dv-lr-lic { background: var(--dv-hl-y); color: var(--dv-sharpie); }
+.section-reader .dv-lr-why { font-family: var(--dv-hand); font-size: 13px; color: var(--dv-muted);
+  margin-top: auto; padding-top: 8px; border-top: 1px dotted #C8C0B0; line-height: 1.3; }
+
+/* 8. PE vs CE hour bars (reuse .dv-apr-cols/col; segmented .dv-hrs-*) */
+.section-reader .dv-hrs-bar { width: 108px; display: flex; flex-direction: column;
+  border: 1px solid var(--dv-edge); border-bottom: 2px solid #B8B0A0; }
+.section-reader .dv-hrs-seg { display: flex; flex-direction: column; align-items: center; justify-content: center;
+  font-family: var(--dv-type); font-size: 10px; text-align: center; color: var(--dv-ink); line-height: 1.2;
+  padding: 6px 2px; border-bottom: 1px dashed #C8C0B0; }
+.section-reader .dv-hrs-seg:last-child { border-bottom: none; }
+.section-reader .dv-hrs-fed { background: var(--dv-hl-b); }
+.section-reader .dv-hrs-eth { background: var(--dv-hl-p); }
+.section-reader .dv-hrs-nt { background: var(--dv-hl-y); }
+.section-reader .dv-hrs-rest { background: #FCFAF4; color: var(--dv-muted); }
+
+/* 9. Exam retake ladder */
+.section-reader .dv-exam-row { display: flex; align-items: center; justify-content: center; flex-wrap: wrap;
+  gap: 8px; margin: 14px 0 6px; }
+.section-reader .dv-exam-try { border: 1px solid var(--dv-edge); background: #FCFAF4; padding: 8px 12px;
+  text-align: center; min-width: 62px; }
+.section-reader .dv-exam-n { font-family: var(--dv-hand); font-size: 22px; font-weight: 700; color: var(--dv-royal); line-height: 1; }
+.section-reader .dv-exam-lbl { font-family: var(--dv-type); font-size: 9.5px; text-transform: uppercase;
+  letter-spacing: .5px; color: var(--dv-muted); margin-top: 3px; }
+.section-reader .dv-exam-gap { font-family: var(--dv-type); font-size: 10px; color: var(--dv-muted);
+  text-align: center; line-height: 1.4; }
+.section-reader .dv-exam-gap b { color: var(--dv-ink); }
+.section-reader .dv-exam-wall { color: var(--dv-red); }
+.section-reader .dv-exam-wall b { color: var(--dv-red); }
+.section-reader .dv-exam-repeat .dv-exam-n { color: var(--dv-muted); }
+
+/* 10. Temporary-authority end-conditions row */
+.section-reader .dv-ta-end { font-family: var(--dv-type); font-size: 10.5px; text-transform: uppercase;
+  letter-spacing: .8px; color: var(--dv-red); text-align: center; margin: 14px 0 8px; }
+.section-reader .dv-ta-conds { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.section-reader .dv-ta-conds span { font-family: var(--dv-type); font-size: 10.5px; color: var(--dv-ink);
+  background: var(--dv-hl-p); padding: 5px 9px; line-height: 1.3; }
+
 @media (max-width: 560px) {
   .section-reader .dv-pair { flex-direction: column; }
   .section-reader .dv-paper { padding: 22px 18px 20px; }
   .section-reader .dv-apr-cols { gap: 20px; }
   .section-reader .dv-tol-cols { flex-direction: column; }
+  .section-reader .dv-lr-cols { flex-direction: column; }
 }
 
 /* ===== RecapCard — exam recap, photorealistic landscape recall card =====
