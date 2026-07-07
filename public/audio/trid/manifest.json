@@ -2,7 +2,7 @@
   "unitId": "trid",
   "name": "TRID",
   "reg": "TILA-RESPA Integrated Disclosure Rule",
-  "groupCount": 17,
+  "groupCount": 18,
   "items": [
     {
       "kind": "prose",
@@ -151,7 +151,14 @@
       "id": "audio-trid-g16-p0",
       "gi": 16,
       "pi": 0,
-      "text": "Both forms walk the same path: the loan's terms (amount, interest rate, monthly principal-and-interest, and whether each can rise), the projected payments over the loan's life, the closing costs, and the cash the borrower brings to the table. The Closing Disclosure closes with a page of loan calculations — the total you'll pay over the loan's life, the finance charge, the amount financed, and the Total Interest Percentage (TIP), the total interest as a percentage of the loan amount. Signing the CD only acknowledges you received it; it doesn't, by itself, obligate you to the loan."
+      "text": "Both forms walk the same path: the loan's terms (amount, interest rate, monthly principal-and-interest, and whether each can rise), the projected payments over the loan's life, the closing costs, and the cash the borrower brings to the table. The Loan Estimate lays that path out at the start of the loan — here is Ficus Bank's, page one, field by field."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-trid-g17-p0",
+      "gi": 17,
+      "pi": 0,
+      "text": "The Closing Disclosure restates those same terms as final, then closes with a page of loan calculations — the total you'll pay over the loan's life, the finance charge, the amount financed, and the Total Interest Percentage (TIP), the total interest as a percentage of the loan amount. Signing the CD only acknowledges you received it; it doesn't, by itself, obligate you to the loan. The same loan, now as the CD records it:"
     },
     {
       "kind": "gate",
