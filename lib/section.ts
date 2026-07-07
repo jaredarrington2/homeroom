@@ -46,6 +46,59 @@ export type DisclosureVisualKind =
   | "temp-authority-windows"
   | "program-comparison";
 
+/** A chained computational cloze rendered as a lender's loan worksheet (Worksheet.tsx,
+ *  a client component). The learner fills the blank amount lines; each feeds the next.
+ *  Steps + scenario + derive() live in content/worksheets/<kind>.ts. */
+export type WorksheetKind = "fha-structure" | "purchase" | "va-structure";
+
+export interface WorksheetStep {
+  /** Display operator in muted ink at the head of the label. */
+  op: "" | "−" | "×" | "÷" | "+" | "=";
+  /** Line label; may contain <span class="hl">…</span> on the one gotcha. */
+  label: string;
+  /** Key into the object returned by derive(). */
+  key: string;
+  /** Printed, not asked (a given). */
+  given?: boolean;
+  /** A checked blank the learner fills. */
+  ask?: boolean;
+  /** Ruled + bold subtotal line. */
+  total?: boolean;
+  /** Caveat margin annotation beside the line (the gotcha). */
+  scrawl?: string;
+  /** Extra accepted strings beyond the numeric ±0.01 match. */
+  accept?: string[];
+}
+
+/** One assumption the explorer (pencil-icon mode) exposes as an editable input. */
+export interface WorksheetInput {
+  /** Key into the scenario's `inputs` map and derive()'s argument. */
+  key: string;
+  /** Short lowercase label, e.g. "purchase price". */
+  label: string;
+  /** Hover/focus tooltip copy (voice-checked). */
+  tip: string;
+  /** currency formats live to $1,234.56; number is a plain numeric input. */
+  kind: "currency" | "number";
+  /** Numeric input step (number kind only). */
+  step?: number;
+}
+
+export interface WorksheetScenario {
+  /** Letterhead + meta line. */
+  lender: string;
+  program: string;
+  borrower: string;
+  /** The rate shown in the meta line, e.g. "5.25%". */
+  rate: string;
+  /** Assumption inputs the explorer exposes and derive() reads. */
+  inputs: Record<string, number>;
+  /** Explorer field descriptors, in display order. */
+  explorer: WorksheetInput[];
+  sections: { title: string; steps: WorksheetStep[] }[];
+  footnote?: string;
+}
+
 export interface ConceptGroup {
   /** Plain lowercase mono heading, e.g. "what it covers". Omit for the opening paragraph. */
   heading?: string;
@@ -69,6 +122,9 @@ export interface ConceptGroup {
   /** 0–1 guided form walkthrough (FormWalkthrough.tsx, a client component). Renders the faithful
    *  Loan Estimate ('le') or Closing Disclosure ('cd') and steps a highlight field-by-field. */
   walkthrough?: "le" | "cd";
+  /** 0–1 chained worksheet drill (Worksheet.tsx, a client component). Renders a lender
+   *  statement whose blank amount lines the learner fills; each answer feeds the next. */
+  worksheet?: WorksheetKind;
 }
 
 export interface Definition {

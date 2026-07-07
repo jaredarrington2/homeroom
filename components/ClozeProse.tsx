@@ -11,10 +11,8 @@
 import { useEffect, useRef, memo } from "react";
 import type { SectionParagraph } from "@/lib/section";
 import { useProgressContext } from "@/lib/ProgressContext";
+import { checkAnswer } from "@/lib/answer";
 import ListenMark from "./ListenMark";
-
-const norm = (s: string) =>
-  s.toLowerCase().trim().replace(/[$,%]/g, "").replace(/\s+/g, " ").replace(/\.$/, "");
 
 const ProseHTML = memo(function ProseHTML({
   paras, unitId, groupIndex,
@@ -54,13 +52,13 @@ export default function ClozeProse({
       if (!span.dataset.hydrated) {
         span.dataset.hydrated = "1";
         let accept: string[] = [];
-        try { accept = JSON.parse(span.dataset.accept || "[]").map(norm); } catch { /* leave empty */ }
+        try { accept = JSON.parse(span.dataset.accept || "[]"); } catch { /* leave empty */ }
         span.innerHTML = `<input size="6" aria-label="fill in the blank" autocomplete="off" /><span class="rev">reveal</span>`;
         const input = span.querySelector("input") as HTMLInputElement;
         const rev = span.querySelector(".rev") as HTMLElement;
         const check = () => {
           const value = input.value.trim();
-          if (accept.includes(norm(input.value))) {
+          if (checkAnswer(input.value, accept)) {
             lock(value);
             api.current.saveCloze(unitId, clozeId, { value, correct: true, revealed: false });
           } else {

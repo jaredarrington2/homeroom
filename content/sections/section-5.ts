@@ -189,6 +189,61 @@ const section5: SectionContent = {
         ],
       },
     },
+    {
+      id: "fha",
+      name: "FHA loans",
+      reg: "Federal Housing Administration · HUD-insured loans · National Housing Act",
+      definitions: [
+        { term: "Base loan amount", def: "The purchase price minus the down payment. Every other figure on the worksheet is built from it." },
+        { term: "Mortgage insurance premium (MIP)", def: "FHA's protection against default, charged in two parts: once up front and again every year." },
+        { term: "Up-front MIP (UFMIP)", def: "The one-time premium, 1.75% of the base loan amount. Most borrowers finance it into the loan rather than pay it at closing." },
+        { term: "Annual MIP (AMIP)", def: "The ongoing premium, set by loan term and loan-to-value, collected monthly inside the payment." },
+        { term: "PITI", def: "The full monthly payment: principal, interest, taxes, and insurance. On an FHA loan the monthly MIP rides inside it." },
+      ],
+      groups: [
+        {
+          heading: "structuring an FHA loan",
+          paras: [
+            {
+              html: `An FHA loan is insured by HUD, so a borrower can qualify with a smaller down payment and a lower credit score than a conventional loan requires. In exchange, it carries mortgage insurance in two parts — an up-front premium financed into the loan, and an annual premium collected monthly with the payment.`,
+            },
+          ],
+          worksheet: "fha-structure",
+          synth: {
+            q: "A borrower notices their FHA loan amount is larger than the purchase price minus their down payment. What accounts for the difference?",
+            a: "The up-front MIP — 1.75% of the base loan amount — is financed into the loan rather than paid in cash. So the loan is the base plus the UFMIP, then rounded down to the nearest $50.",
+          },
+        },
+      ],
+      review: {
+        flashcards: [
+          {
+            peg: "why finance",
+            topic: "Mortgage insurance",
+            q: "Why is the up-front MIP usually financed into the loan instead of paid at closing?",
+            a: "It spares the borrower a large cash outlay — the premium is rolled into the loan amount and repaid over the term.",
+          },
+          {
+            peg: "monthly part",
+            topic: "Mortgage insurance",
+            q: "On an FHA loan, which part of the mortgage insurance is collected monthly?",
+            a: "The <span class=\"hl\">annual MIP</span> — the up-front premium is one-time, while the annual premium rides inside each monthly payment.",
+          },
+        ],
+        mcq: [
+          {
+            q: "Which statement about FHA mortgage insurance is correct?",
+            opts: [
+              "It is paid entirely at closing.",
+              "It comes in two parts — an up-front premium and an annual premium.",
+              "It is required only when the down payment is under 20%.",
+              "It replaces the borrower's homeowner's insurance.",
+            ],
+            correct: 1,
+          },
+        ],
+      },
+    },
   ],
 };
 
