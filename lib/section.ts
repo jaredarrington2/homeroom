@@ -43,7 +43,8 @@ export type DisclosureVisualKind =
   | "licensed-vs-registered"
   | "pe-ce-hours"
   | "exam-attempts"
-  | "temp-authority-windows";
+  | "temp-authority-windows"
+  | "program-comparison";
 
 export interface ConceptGroup {
   /** Plain lowercase mono heading, e.g. "what it covers". Omit for the opening paragraph. */

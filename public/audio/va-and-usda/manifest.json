@@ -1,0 +1,118 @@
+{
+  "unitId": "va-and-usda",
+  "name": "VA & USDA loans",
+  "reg": "Government-guaranteed loans · Servicemen's Readjustment Act (VA) · USDA §502",
+  "groupCount": 11,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-va-and-usda-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "Two of the four loan programs an originator works with are guaranteed by the federal government rather than insured or left to the private market. On a VA loan, the Department of Veterans Affairs stands behind the loan; on a USDA loan, the Department of Agriculture does. That government guaranty is what lets both programs do something conventional and even FHA loans can't — lend with no down payment and no mortgage insurance. This unit teaches both, then sets all four programs side by side."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-va-and-usda-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "In 1944, Congress passed the Servicemen's Readjustment Act to ease the return of World War II veterans, and among other things it created VA mortgage financing. A VA residential mortgage loan is guaranteed through — and governed by the rules of — the U.S. Department of Veterans Affairs. The VA doesn't lend the money or insure the loan; it promises the lender that a portion of the loan is backed by the government if the veteran defaults."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-va-and-usda-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "Not everyone can get a VA loan. The borrower must be active military in good standing or anything other than dishonorably discharged, and must hold a Certificate of Eligibility (COE). The COE reflects a basic entitlement of $36,000. That entitlement means the VA will guarantee a loan up to four times the entitlement amount — but that isn't the ceiling on what a veteran can borrow. As long as the borrower qualifies, has full entitlement, and has no other active VA loan, no maximum loan limit applies (up to the property's VA Reasonable Value)."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-va-and-usda-g2-gate-synth",
+      "gi": 2
+    },
+    {
+      "kind": "prose",
+      "id": "audio-va-and-usda-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "Conventional loans require private mortgage insurance when the loan-to-value is above 80%, and FHA loans carry their own insurance. VA loans prohibit mortgage insurance altogether. Instead, the borrower pays a one-time VA funding fee at settlement, which the VA pools to reimburse lenders when a guaranteed loan defaults. The fee may be financed into the loan, and its amount turns on three things: purchase vs. refinance, the size of any down payment, and whether this is the veteran's first or a subsequent VA loan. For a first-use purchase with less than 5% down, the funding fee is 2.15% of the loan amount; it falls as the down payment rises. Escrow for taxes and insurance is mandatory on a VA loan."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-va-and-usda-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "The funding fee is waived for veterans the program most wants to protect. A veteran with a service-connected disability of 10% or more (as rated by the VA), and their immediate family, is exempt — as is an active member awarded a Purple Heart, and certain surviving spouses of members killed or missing in action. Everyone else pays the fee. VA loans also never permit a prepayment penalty, and their proceeds may never be used to pay a prepayment penalty on a loan being refinanced."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-va-and-usda-g5-p0",
+      "gi": 5,
+      "pi": 0,
+      "text": "Unlike every other program, the VA doesn't look at the borrower's front-end (housing) debt-to-income ratio at all. It considers only a back-end DTI, generally up to 41%, and that ceiling can stretch higher when residual income is strong. Residual income is what's left each month after all mandatory expenses are paid; the VA sets a minimum that varies by loan amount, family size, and geographic region. The idea is simple: measure whether a household actually has money left to live on, not just whether a ratio clears a line."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-va-and-usda-g6-p0",
+      "gi": 6,
+      "pi": 0,
+      "text": "VA loans are fully assumable, and even a non-veteran may assume a veteran's VA mortgage. There's a catch that trips up originators: because the assuming non-veteran has no COE of their own, the original veteran's COE stays attached to the assumed loan until it is paid in full — so that veteran can't get another VA loan in the meantime. The original veteran is not, however, still liable for the debt and keeps no ownership in the property. For refinancing, the VA offers the IRRRL — the Interest Rate Reduction Refinance Loan, or VA Streamline — a low-documentation refinance aimed at lowering the rate."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-va-and-usda-g7-p0",
+      "gi": 7,
+      "pi": 0,
+      "text": "Section 502 of the USDA code establishes USDA home financing, whose purpose is to encourage homeownership in rural America. Like the VA loan, it's guaranteed by its agency — the U.S. Department of Agriculture — not insured. A property qualifies only if it sits in an approved USDA rural locale (the USDA publishes an eligibility map). USDA loans, like FHA, accommodate both traditional and non-traditional credit, and finance primary residences only."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-va-and-usda-g8-p0",
+      "gi": 8,
+      "pi": 0,
+      "text": "Congress funds the USDA program with a finite annual budget, so an income cap keeps it aimed at people of modest means: a household's income may not exceed 115% of the adjusted area median income (AMI) for the area. Because it's income-tested, a USDA applicant can't decline to disclose income — alimony, child support, and separate maintenance the borrower is legally entitled to must all be reported on the application."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-va-and-usda-g8-gate-synth",
+      "gi": 8
+    },
+    {
+      "kind": "prose",
+      "id": "audio-va-and-usda-g9-p0",
+      "gi": 9,
+      "pi": 0,
+      "text": "USDA loans require zero down (100% LTV) and, like VA loans, prohibit mortgage insurance — but they may carry a guarantee fee instead. The standard USDA loan, the Guaranteed Rural Housing (GRH) loan, charges a 1% up-front guarantee financed into the loan plus a small monthly fee of 0.35% per year (35 basis points), and amortizes over 30 years with no prepayment penalty. The second type, the Homeownership Direct (HD) loan, serves very-low-income borrowers (50%–80% of adjusted AMI), can run 33–38 years, may offer payment subsidies, and carries no guarantee fee at all."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-va-and-usda-g10-p0",
+      "gi": 10,
+      "pi": 0,
+      "text": "Here are the four residential loan programs set side by side. Conventional loans are backed by Fannie Mae and Freddie Mac; FHA loans are insured by the government; VA loans are guaranteed by the Department of Veterans Affairs; and USDA loans are guaranteed by the Department of Agriculture. On screen, a reference matrix compares them across down payment, mortgage insurance, debt-to-income, occupancy, seller concessions, loan limits, and assumability."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-va-and-usda-g10-gate-synth",
+      "gi": 10
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-va-and-usda-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-va-and-usda-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-va-and-usda-gate-mcq"
+    }
+  ]
+}

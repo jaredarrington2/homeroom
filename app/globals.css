@@ -609,12 +609,49 @@
 .section-reader .dv-ta-conds span { font-family: var(--dv-type); font-size: 10.5px; color: var(--dv-ink);
   background: var(--dv-hl-p); padding: 5px 9px; line-height: 1.3; }
 
+/* 11. Program comparison — the four residential loan programs, side by side.
+   Desktop: an 8-row × 5-column reference grid (label column + 4 programs). Rows are
+   wrapped in .dv-pc-line (display:contents) so their cells participate in the grid.
+   Mobile (≤560px): the grid hides and one warm-paper card per program shows instead. */
+.section-reader .dv-pc-grid { display: grid; grid-template-columns: minmax(92px, 1.05fr) repeat(4, 1fr);
+  border-top: 1px solid var(--dv-edge); }
+.section-reader .dv-pc-line { display: contents; }
+.section-reader .dv-pc-corner { border-bottom: 1.5px solid var(--dv-royal); }
+.section-reader .dv-pc-head { font-family: var(--dv-type); font-size: 11px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .7px; color: var(--dv-royal); text-align: center;
+  padding: 7px 6px; border-bottom: 1.5px solid var(--dv-royal); }
+.section-reader .dv-pc-rowlabel { font-family: var(--dv-type); font-size: 10.5px; color: var(--dv-royal);
+  line-height: 1.35; padding: 8px 10px 8px 4px; border-bottom: 1px solid var(--dv-edge);
+  border-right: 1px solid var(--dv-edge); }
+.section-reader .dv-pc-cell { font-family: var(--font-sans, 'Inter', sans-serif); font-size: 11px;
+  color: var(--dv-ink); line-height: 1.35; text-align: center; padding: 8px 8px;
+  border-bottom: 1px solid var(--dv-edge); }
+.section-reader .dv-pc-cell + .dv-pc-cell { border-left: 1px solid #EFEADB; }
+.section-reader .dv-pc-hl { color: var(--dv-royal); font-weight: 600;
+  background: rgba(30,58,138,.09); box-shadow: inset 0 -2px 0 rgba(30,58,138,.28); padding: 1px 3px; }
+/* mobile per-program cards — hidden on desktop */
+.section-reader .dv-pc-cards { display: none; }
+.section-reader .dv-pc-card { border: 1px solid var(--dv-edge); background: #FCFAF4; margin-top: 14px; }
+.section-reader .dv-pc-card-head { font-family: var(--dv-type); font-size: 12px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .8px; color: #fff; background: var(--dv-royal);
+  text-align: center; padding: 7px 8px; }
+.section-reader .dv-pc-card-list { margin: 0; padding: 4px 12px 8px; }
+.section-reader .dv-pc-card-pair { display: flex; gap: 12px; justify-content: space-between;
+  align-items: baseline; padding: 7px 0; border-bottom: 1px dotted #D8D0BE; }
+.section-reader .dv-pc-card-pair:last-child { border-bottom: none; }
+.section-reader .dv-pc-card-pair dt { font-family: var(--dv-type); font-size: 10.5px; color: var(--dv-royal);
+  flex: 0 0 40%; line-height: 1.3; }
+.section-reader .dv-pc-card-pair dd { font-family: var(--font-sans, 'Inter', sans-serif); font-size: 11.5px;
+  color: var(--dv-ink); margin: 0; text-align: right; line-height: 1.3; }
+
 @media (max-width: 560px) {
   .section-reader .dv-pair { flex-direction: column; }
   .section-reader .dv-paper { padding: 22px 18px 20px; }
   .section-reader .dv-apr-cols { gap: 20px; }
   .section-reader .dv-tol-cols { flex-direction: column; }
   .section-reader .dv-lr-cols { flex-direction: column; }
+  .section-reader .dv-pc-grid { display: none; }
+  .section-reader .dv-pc-cards { display: block; }
 }
 
 /* ===== RecapCard — exam recap, photorealistic landscape recall card =====

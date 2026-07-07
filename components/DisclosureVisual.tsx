@@ -18,7 +18,72 @@ export default function DisclosureVisual({ kind }: { kind: DisclosureVisualKind 
       {kind === "pe-ce-hours" && <PeCeHours />}
       {kind === "exam-attempts" && <ExamAttempts />}
       {kind === "temp-authority-windows" && <TempAuthorityWindows />}
+      {kind === "program-comparison" && <ProgramComparison />}
     </figure>
+  );
+}
+
+/* ── Module 5 — the four residential loan programs, side by side ─────────────── */
+// Reference matrix (Conventional · FHA · VA · USDA). Illustrative-but-consistent
+// figures verified against the 2026 ebook; `hl` marks the cells that separate the
+// programs (0% down, no PMI, the lone non-assumable). Renders a desktop grid AND a
+// per-program card stack — CSS shows one at a time (a 5-col grid can't reflow to
+// column-major cards, so both are authored from the same rows).
+const PC_PROGRAMS = ["Conventional", "FHA", "VA", "USDA"] as const;
+type PcCell = string | { t: string; hl: true };
+const PC_ROWS: { label: string; cells: [PcCell, PcCell, PcCell, PcCell] }[] = [
+  { label: "min. down payment", cells: ["5% (3% community)", "3.5% (10% if score < 580)", { t: "0%", hl: true }, { t: "0%", hl: true }] },
+  { label: "mortgage insurance", cells: ["PMI if < 20% down", "MIP — 1.75% up-front + annual", { t: "none — funding fee instead", hl: true }, { t: "none — guarantee fee (1% + 0.35%/yr)", hl: true }] },
+  { label: "DTI guideline", cells: ["28 / 36", "31 / 43", "41 back-end only", "29 / 41"] },
+  { label: "occupancy", cells: ["primary · second · investment", "primary (occupy ≤ 60 days, 1 yr)", "primary only", "primary only"] },
+  { label: "seller concessions", cells: ["3 / 6 / 9% (2% investment)", "6%", "4%", "6%"] },
+  { label: "loan limits (2026)", cells: ["FHFA conforming", "FHA floor → ceiling", "none, with full entitlement", "none — income-capped (115% AMI)"] },
+  { label: "assumable", cells: [{ t: "no (due-on-sale)", hl: true }, "yes", "yes", "yes"] },
+  { label: "backed by", cells: ["Fannie / Freddie", "FHA (HUD-insured)", "VA-guaranteed", "USDA-guaranteed"] },
+];
+function pcText(c: PcCell) {
+  return typeof c === "string" ? c : <span className="dv-pc-hl">{c.t}</span>;
+}
+function ProgramComparison() {
+  return (
+    <div className="dv-paper dv-pc" style={{ padding: "26px 22px 20px" }}>
+      <div className="dv-h">The four residential loan programs</div>
+      <div className="dv-hsub">Conventional · FHA · VA · USDA — what separates them, side by side</div>
+      <hr className="dv-rule dv-double" />
+
+      {/* desktop: 8-row × 5-column grid */}
+      <div className="dv-pc-grid" role="presentation">
+        <div className="dv-pc-corner" />
+        {PC_PROGRAMS.map((p) => (
+          <div key={p} className="dv-pc-head">{p}</div>
+        ))}
+        {PC_ROWS.map((row) => (
+          <div key={row.label} className="dv-pc-line" role="presentation">
+            <div className="dv-pc-rowlabel">{row.label}</div>
+            {row.cells.map((c, i) => (
+              <div key={PC_PROGRAMS[i]} className="dv-pc-cell">{pcText(c)}</div>
+            ))}
+          </div>
+        ))}
+      </div>
+
+      {/* mobile: one warm-paper card per program */}
+      <div className="dv-pc-cards" role="presentation">
+        {PC_PROGRAMS.map((p, i) => (
+          <div key={p} className="dv-pc-card">
+            <div className="dv-pc-card-head">{p}</div>
+            <dl className="dv-pc-card-list">
+              {PC_ROWS.map((row) => (
+                <div key={row.label} className="dv-pc-card-pair">
+                  <dt>{row.label}</dt>
+                  <dd>{pcText(row.cells[i])}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 }
 
