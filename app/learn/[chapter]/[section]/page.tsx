@@ -8,6 +8,12 @@ import SectionNav from '@/components/SectionNav';
 import { getChapterTree, getSectionContent, getQuestions } from '@/lib/content';
 import { notFound } from 'next/navigation';
 
+// Hand-chosen hero images for sections where a specific character fits the topic.
+// Sections not listed fall back to the deterministic picker.
+const HERO_OVERRIDES: Record<string, string> = {
+  application: 'ballerina-holding-stack-of-folders-transparent.png',
+};
+
 export default function SectionPage({ params }: { params: { chapter: string; section: string } }) {
   const tree = getChapterTree();
   const chapter = tree.parts.flatMap(p => p.chapters).find(c => c.id === params.chapter);
@@ -42,6 +48,7 @@ export default function SectionPage({ params }: { params: { chapter: string; sec
               {content.summary}
             </p>
             <Character
+              file={HERO_OVERRIDES[params.section]}
               tags={['mortgage', 'regulation', 'compliance']}
               sectionId={params.section}
               maxHeight={300}

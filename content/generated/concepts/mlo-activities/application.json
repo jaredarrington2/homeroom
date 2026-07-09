@@ -7,7 +7,7 @@
     "start": 391,
     "end": 415
   },
-  "summary": "The application is the form the whole loan is built on, and it's fussier than it looks. A retirement account doesn't count for its full balance, only some liabilities make the list, and a whole section exists just to collect demographic data the lender is forbidden to use in the decision. This walks the URLA — the standard mortgage application — part by part: what belongs in each, and the valuation rules that trip people up.",
+  "summary": "Every mortgage starts with the application, and it's more particular than it looks. A retirement account doesn't count at its full value, only some debts belong on it, and one whole section exists to collect race and demographic data the lender isn't allowed to use in the decision. The URLA is the standard form; this goes through it section by section — what belongs where, and the valuation rules people get wrong.",
   "concepts": [
     {
       "id": "mutual-fund-120-percent-rule",

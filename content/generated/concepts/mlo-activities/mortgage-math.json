@@ -7,7 +7,7 @@
     "start": 521,
     "end": 540
   },
-  "summary": "This is the arithmetic the job runs on. How much interest builds between closing and the first payment, what the monthly payment comes to once taxes and insurance are folded in, where the loan-to-value and debt-to-income ratios land, and whether paying for points ever earns its cost back. These are the calculations you're expected to do by hand — and to get right, because they decide what a borrower can be offered.",
+  "summary": "This is the math you actually do on the job: how much interest builds between closing and the first payment, what the monthly payment comes to once taxes and insurance are folded in, where the loan-to-value and debt-to-income ratios land, and whether paying for points ever earns its cost back. You're expected to run these by hand and get them right, because they decide what a borrower can be offered.",
   "concepts": [
     {
       "id": "periodic-and-interim-interest",
