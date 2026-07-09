@@ -81,7 +81,7 @@ export async function POST(req: NextRequest) {
   }
   const q = typeof body.q === 'string' ? body.q.trim() : '';
   const results = Array.isArray(body.results) ? body.results : [];
-  if (q.length < 3 || q.length > 300) {
+  if (q.length < 3 || q.length > 1000) {
     return NextResponse.json({ error: 'invalid_input' }, { status: 400 });
   }
 

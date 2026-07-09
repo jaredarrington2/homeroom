@@ -68,7 +68,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'invalid_input' }, { status: 400 });
   }
   const q = typeof body.q === 'string' ? body.q.trim() : '';
-  if (q.length < 2 || q.length > 200) return NextResponse.json({ error: 'invalid_input' }, { status: 400 });
+  if (q.length < 2 || q.length > 1000) return NextResponse.json({ error: 'invalid_input' }, { status: 400 });
 
   // KV (gracefully skipped if not provisioned)
   let kv: typeof import('@/lib/kvServer').kv | null = null;
