@@ -244,6 +244,72 @@ const section5: SectionContent = {
         ],
       },
     },
+    {
+      id: "arms",
+      name: "Adjustable-rate mortgages",
+      reg: "ARMs · fully-indexed rate + cap structure · Reg Z disclosures",
+      definitions: [
+        { term: "Start rate", def: "The introductory rate an ARM locks at, set below market and held through the fixed period." },
+        { term: "Index", def: "The public rate an ARM tracks; when the loan adjusts, its rate is built from wherever the index sits that day." },
+        { term: "Margin", def: "The lender's fixed markup, added to the index. The rate can't fall below it." },
+        { term: "Fully-indexed rate (FIAR)", def: "The index plus the margin, rounded to the nearest ⅛%. It's the rate the loan charges once it adjusts." },
+        { term: "Initial adjustment cap", def: "The most the rate can move at the first adjustment, measured from the start rate." },
+        { term: "Periodic adjustment cap", def: "The most the rate can move at each adjustment after the first, measured from the prior rate." },
+        { term: "Life-of-loan cap", def: "The most the rate can ever rise above the start rate." },
+        { term: "Teaser vs discount rate", def: "Both are start rates below the fully-indexed rate. A discount rate is within 3% of it; a teaser rate is more than 3% below." },
+      ],
+      groups: [
+        {
+          paras: [
+            {
+              html: `An adjustable-rate mortgage keeps a low fixed rate for its first few years, then adjusts on a set schedule for the rest of the term. Lenders write it as two numbers — how long the rate stays fixed, then how often it adjusts after that, like 5/1. Where the rate goes from there depends on the note's index, margin, and caps.`,
+            },
+          ],
+          walkthrough: "arm-note",
+        },
+        {
+          heading: "what the caps do over the loan's life",
+          paras: [
+            {
+              html: `Each cap applies to a different move: the initial cap to the first adjustment, the periodic cap to every one after, and the life cap sets the ceiling the rate can never pass. FHA and VA ARMs have no initial cap — there, the periodic cap applies to the first adjustment too.`,
+            },
+          ],
+          vizWidget: "arm-cap-ladder",
+          synth: {
+            q: "Two ARMs start at the same rate and share the same life cap. One is conventional with a 3/1/6 structure; the other is FHA with a 3/6 structure. Which reaches its ceiling sooner, and why?",
+            a: "The FHA ARM. After the first jump both sit three points above start, but the conventional loan's periodic cap is one point a year while the FHA loan's is three — so the FHA rate hits the +6 ceiling in two adjustments, the conventional in four.",
+          },
+        },
+      ],
+      review: {
+        flashcards: [
+          {
+            peg: "cap basis",
+            topic: "ARM caps",
+            q: "On a conventional ARM, what does the periodic cap measure from — the start rate or the prior year's rate?",
+            a: "The prior year's rate. Only the initial and life caps measure from the start rate.",
+          },
+          {
+            peg: "teaser",
+            topic: "ARM start rates",
+            q: "What separates a teaser rate from a discount rate?",
+            a: "Both are start rates below the fully-indexed rate. A discount rate is within 3% of it; a <span class=\"hl\">teaser rate</span> is more than 3% below.",
+          },
+        ],
+        mcq: [
+          {
+            q: "An ARM's fully-indexed rate is the:",
+            opts: [
+              "start rate plus the initial cap",
+              "index plus the margin, rounded to the nearest ⅛%",
+              "highest rate the life cap allows",
+              "index at closing",
+            ],
+            correct: 1,
+          },
+        ],
+      },
+    },
   ],
 };
 

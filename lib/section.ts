@@ -51,6 +51,44 @@ export type DisclosureVisualKind =
  *  Steps + scenario + derive() live in content/worksheets/<kind>.ts. */
 export type WorksheetKind = "fha-structure" | "purchase" | "va-structure";
 
+/** A hand-rolled SVG viz widget (CapLadder.tsx, a client component) — a flat white chart card,
+ *  not a skeuomorphic document (charts aren't documents). arm-cap-ladder drills the ARM
+ *  worst-case rate climb; amortization is the second instance on the same shell (later).
+ *  Config + exercises live in content/widgets/<kind>.ts. */
+export type VizWidgetKind = "arm-cap-ladder" | "amortization";
+
+export type CapMode = "conv" | "fha";
+
+/** One worst-case ARM rate ladder. Conventional uses three caps (iac/rac/lolc); FHA & VA use
+ *  two (per/life), with no separate initial cap — the periodic cap governs the first jump too. */
+export interface LadderConfig {
+  mode: CapMode;
+  /** Introductory (start) rate, %. */
+  start: number;
+  /** Years the rate stays fixed before the first adjustment. */
+  fixed: number;
+  /** conv — initial adjustment cap: the first jump, measured off the start rate. */
+  iac?: number;
+  /** conv — periodic (recurring) adjustment cap: each jump after the first, off the prior rate. */
+  rac?: number;
+  /** conv — life-of-loan cap: ceiling = start + lolc. */
+  lolc?: number;
+  /** fha/va — periodic cap: governs every adjustment, the first included. */
+  per?: number;
+  /** fha/va — life cap: ceiling = start + life. */
+  life?: number;
+}
+
+/** One check-your-work exercise for the CAP ladder: predict the peak year + rate, then draw. */
+export interface CapExercise {
+  config: LadderConfig;
+  /** Prompt HTML; may wrap the loan terms in <b>. */
+  prompt: string;
+  answer: { year: number; rate: number };
+  /** Reveal HTML shown once solved; may wrap values in <span class="hl">. */
+  reveal: string;
+}
+
 export interface WorksheetStep {
   /** Display operator in muted ink at the head of the label. */
   op: "" | "−" | "×" | "÷" | "+" | "=";
@@ -120,11 +158,14 @@ export interface ConceptGroup {
    *  <StudyCard> after the prose — richer than `visual` for content that sorts into columns. */
   studyCard?: string;
   /** 0–1 guided form walkthrough (FormWalkthrough.tsx, a client component). Renders the faithful
-   *  Loan Estimate ('le') or Closing Disclosure ('cd') and steps a highlight field-by-field. */
-  walkthrough?: "le" | "cd";
+   *  Loan Estimate ('le') or Closing Disclosure ('cd'), or the labeled-field ARM note
+   *  ('arm-note'), and steps a highlight field-by-field. */
+  walkthrough?: "le" | "cd" | "arm-note";
   /** 0–1 chained worksheet drill (Worksheet.tsx, a client component). Renders a lender
    *  statement whose blank amount lines the learner fills; each answer feeds the next. */
   worksheet?: WorksheetKind;
+  /** 0–1 SVG viz widget (CapLadder.tsx, a client component). Config lives in content/widgets/. */
+  vizWidget?: VizWidgetKind;
 }
 
 export interface Definition {

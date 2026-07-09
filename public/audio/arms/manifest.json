@@ -1,0 +1,43 @@
+{
+  "unitId": "arms",
+  "name": "Adjustable-rate mortgages",
+  "reg": "ARMs · fully-indexed rate + cap structure · Reg Z disclosures",
+  "groupCount": 2,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-arms-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "An adjustable-rate mortgage keeps a low fixed rate for its first few years, then adjusts on a set schedule for the rest of the term. Lenders write it as two numbers — how long the rate stays fixed, then how often it adjusts after that, like 5/1. Where the rate goes from there depends on the note's index, margin, and caps."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-arms-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "Each cap applies to a different move: the initial cap to the first adjustment, the periodic cap to every one after, and the life cap sets the ceiling the rate can never pass. FHA and VA ARMs have no initial cap — there, the periodic cap applies to the first adjustment too."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-arms-g1-gate-synth",
+      "gi": 1
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-arms-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-arms-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-arms-gate-mcq"
+    }
+  ]
+}

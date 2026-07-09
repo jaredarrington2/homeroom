@@ -14,14 +14,23 @@ export interface WalkStep {
   tell?: string;
 }
 
+/** A labeled field on the arm-note artifact (rendered from config, not hard-coded JSX). */
+export interface NoteField {
+  label: string;
+  value: string;
+}
+
 export interface FormWalkthroughData {
-  kind: "le" | "cd";
+  kind: "le" | "cd" | "arm-note";
   /** Header title, e.g. "Loan Estimate". */
   label: string;
   /** Header subline. */
   sub: string;
   /** 1 now; grows as pages are added. */
   pageCount: number;
+  /** arm-note only: the labeled fields the note renders, in order. Region N is the 1-based
+   *  field index; steps target them by region. LE/CD ignore this (their markup is JSX). */
+  fields?: NoteField[];
   /** Ordered top-to-bottom, page by page. */
   steps: WalkStep[];
 }

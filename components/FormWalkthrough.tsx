@@ -8,11 +8,15 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import LeForm from "./forms/LeForm";
 import CdForm from "./forms/CdForm";
+import ArmNote from "./forms/ArmNote";
 import { leWalk } from "@/content/forms/le";
 import { cdWalk } from "@/content/forms/cd";
+import { armNoteWalk } from "@/content/forms/arm-note";
 import type { FormWalkthroughData } from "@/content/forms/types";
 
-const DATA: Record<"le" | "cd", FormWalkthroughData> = { le: leWalk, cd: cdWalk };
+type FormKind = "le" | "cd" | "arm-note";
+const DATA: Record<FormKind, FormWalkthroughData> = { le: leWalk, cd: cdWalk, "arm-note": armNoteWalk };
+const FORMS: Record<FormKind, (props: { page?: number }) => JSX.Element> = { le: LeForm, cd: CdForm, "arm-note": ArmNote };
 const PAD = 6;
 // minimum right-gutter width (px) before the caption floats into the margin instead of the bottom
 const MARGIN_MIN = 300;
@@ -32,7 +36,7 @@ function FocusIcon() {
   );
 }
 
-export default function FormWalkthrough({ form }: { form: "le" | "cd" }) {
+export default function FormWalkthrough({ form }: { form: FormKind }) {
   const data = DATA[form];
   const [page, setPage] = useState(1);
   const [i, setI] = useState(0);
@@ -151,7 +155,7 @@ export default function FormWalkthrough({ form }: { form: "le" | "cd" }) {
     setI(0);
   }
 
-  const FormBody = form === "le" ? LeForm : CdForm;
+  const FormBody = FORMS[form];
   const freeLabel = guided ? "See the whole form" : "Back to the walkthrough";
   const lastStep = pageSteps.length - 1;
 
