@@ -200,6 +200,7 @@ const section3: SectionContent = {
         },
         {
           "heading": "sham affiliated business arrangements",
+          "anchor": { "file": "mannequin-briefcase-money-transparent.png", "caption": "empty suit", "kind": "char" },
           "paras": [
             {
               "html": "An affiliated business arrangement is legal — RESPA allows it as long as the disclosure happens. The risk is when someone sets up a shell company that <em>looks</em> like an affiliated business but exists only to funnel referral fees. That's a sham arrangement, and it violates RESPA's anti-kickback provisions."
@@ -744,6 +745,7 @@ const section3: SectionContent = {
         },
         {
           "heading": "disparate treatment and disparate impact",
+          "anchor": { "file": "trackstars-tied-for-first-transparent.png", "caption": "looks equal", "kind": "char" },
           "paras": [
             {
               "html": "<b>Disparate treatment</b> is intentional discrimination: an applicant is treated differently because of a protected characteristic. A lender charging higher rates to borrowers of one ethnicity while offering lower rates to equally qualified borrowers of another ethnicity is disparate treatment — the intent to discriminate is the defining element."
@@ -962,6 +964,7 @@ const section3: SectionContent = {
         },
         {
           "heading": "the annual percentage rate",
+          "anchor": { "file": "mime-long-receipt-transparent.png", "caption": "the real cost", "kind": "char" },
           "visual": "apr-stack",
           "paras": [
             {
@@ -1339,7 +1342,7 @@ const section3: SectionContent = {
         },
         {
           "heading": "equity, and why it's a target",
-          "anchor": { "file": "beekeeper-with-hive-transparent.png", "caption": "stored wealth", "kind": "char" },
+          "anchor": { "file": "cow-military-gear-transparent.png", "caption": "on guard", "kind": "char" },
           "paras": [
             {
               "html": "The thing HOEPA is really protecting is your <b>equity</b> — the slice of the home you actually own, the difference between what it's worth and what you still owe on it. Pay a mortgage down for thirty years and your equity grows until, paid off, you own the whole thing outright. That stored-up wealth is exactly what makes a longtime or elderly homeowner a target: a house with lots of equity and an owner who may not read the fine print is, to the wrong kind of lender, a prize sitting behind an easy loan."
@@ -1348,6 +1351,7 @@ const section3: SectionContent = {
         },
         {
           "heading": "the predatory loan",
+          "anchor": { "file": "lion-mascot-fingers-crossed-transparent.png", "caption": "fingers crossed", "kind": "char" },
           "paras": [
             {
               "html": "Normally a lender wants the loan repaid. A predatory lender wants the opposite. <b>Equity stripping</b> is the abuse HOEPA is named against: a lender writes a loan it expects the borrower <em>can't</em> afford — stuffed with fees, carrying a payment that will eventually balloon — not despite the likelihood of default but because of it. When the borrower falls behind, the lender forecloses and walks away with a house that had real equity in it. The loan was never meant to be paid; it was a way to take the home."
@@ -1635,6 +1639,7 @@ const section3: SectionContent = {
         },
         {
           "heading": "the seven-day floor",
+          "anchor": { "file": "jester-checking-stopwatch-transparent.png", "caption": "the wait", "kind": "char" },
           "paras": [
             {
               "html": "Getting the estimate early is only useful if there's time to act on it, so TRID puts a floor under the whole process: once the Loan Estimate is delivered or mailed, the loan may not close for at least <span class=\"cloze\" data-accept='[\"7 precise business days\",\"7\",\"seven\",\"seven precise business days\",\"7 business days\"]' data-reveal=\"7 precise business days\">?</span>. That waiting period can be shortened only for a genuine, documented financial emergency. It guarantees a full week between the first real quote and the earliest possible signing."
@@ -1956,6 +1961,7 @@ const section3: SectionContent = {
         },
         {
           "heading": "redlining, and why lending got mapped",
+          "illustration": { "file": "redlining-holc-map.jpg", "caption": "how neighborhoods got graded", "kind": "illus" },
           "paras": [
             {
               "html": "For decades, lenders drew literal lines on maps — often red — around poor and majority-minority neighborhoods and refused to lend inside them, no matter how qualified the individual applicant. That practice is <b>redlining</b>: an institution avoiding whole areas, starving them of the mortgages that build wealth. One loan officer's decision looks innocent; the pattern across thousands of loans is where the discrimination shows. HMDA forces that pattern into the open — which is the honest answer to \"why does the government need the race of everyone I lend to.\" Not to police one loan, but to catch the map."

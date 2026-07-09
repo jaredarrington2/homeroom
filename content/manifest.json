@@ -3692,5 +3692,726 @@
     "kind": "character",
     "id": "char_039",
     "filename": "wedding-couple-on-scales-rear-view-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered anthropomorphic cow on a transparent background, viewed from behind in full military tactical gear: camouflage uniform, plate-carrier vest, utility belt with pouches, and combat boots. The cow's black-and-white spotted head and horns are visible but the face is turned away and hidden.",
+    "primary_subject": "military cow",
+    "primary_action": "standing guard facing away",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "protection",
+        "defense",
+        "vigilance",
+        "guarding assets",
+        "security",
+        "fortification",
+        "risk mitigation",
+        "standing watch",
+        "readiness"
+      ],
+      "mood": [
+        "watchful",
+        "serious",
+        "resolute",
+        "protective",
+        "stoic"
+      ],
+      "domain": [
+        "risk",
+        "home equity",
+        "asset protection",
+        "insurance",
+        "security",
+        "compliance",
+        "financial defense"
+      ],
+      "metaphor": [
+        "guarding the fort",
+        "shield around your equity",
+        "sentry over savings",
+        "armor for your assets"
+      ],
+      "demographic": [
+        "protector archetype",
+        "guardian figure",
+        "defender persona"
+      ],
+      "visual": [
+        "camouflage uniform",
+        "tactical vest",
+        "utility belt with pouches",
+        "cow horns",
+        "black-and-white spots",
+        "combat boots",
+        "cow tail",
+        "back-turned stance"
+      ]
+    },
+    "mortgage_roles": [
+      "equity protector",
+      "home defense advocate",
+      "risk manager",
+      "insurance guardian"
+    ],
+    "use_cases": [
+      "Illustrate a lesson on defending and preserving home equity against risk.",
+      "Head a module about protecting your home as an asset through insurance and reserves.",
+      "Support content on guarding against foreclosure and financial threats to homeownership.",
+      "Anchor a section on building a defensive financial buffer around a mortgage.",
+      "Serve as the mascot for a 'protect your investment' checklist or tips card.",
+      "Depict vigilance in a lesson on monitoring your loan and watching for scams.",
+      "Open a chapter on risk management and safeguarding long-term homeownership."
+    ],
+    "avoid_for": [
+      "Warm, approachable customer-service or onboarding imagery.",
+      "Content about aggression or conflict that should not militarize personal finance.",
+      "Since the face is hidden, avoid uses where an identifiable, trustworthy human advisor's warmth or eye contact must read.",
+      "Lighthearted or celebratory moments where the serious tactical tone would clash."
+    ],
+    "kind": "character",
+    "id": "char_040",
+    "filename": "cow-military-gear-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered figurine of a cowboy seen from behind on a transparent background, tipping his brown hat with one hand while wearing a leather vest, white shirt, red neckerchief, blue jeans, and cowboy boots. He is mounted in a Western saddle atop a friendly green long-necked dinosaur; his face is turned away and hidden from view.",
+    "primary_subject": "cowboy",
+    "primary_action": "riding a dinosaur while tipping his hat",
+    "anachronism": true,
+    "tags": {
+      "concept": [
+        "frontier lawlessness",
+        "pre-regulation era",
+        "untamed markets",
+        "risk-taking",
+        "improvisation",
+        "the wild west of lending",
+        "absence of rules",
+        "pioneering",
+        "unpredictability",
+        "self-governance"
+      ],
+      "mood": [
+        "adventurous",
+        "rugged",
+        "whimsical",
+        "carefree",
+        "brash"
+      ],
+      "domain": [
+        "risk",
+        "regulation",
+        "market history",
+        "compliance",
+        "consumer protection",
+        "licensing",
+        "lending standards"
+      ],
+      "metaphor": [
+        "wild west of unregulated lending",
+        "riding an untamed beast",
+        "taming the frontier",
+        "anachronistic mismatch",
+        "cowboy operator"
+      ],
+      "demographic": [
+        "frontiersman",
+        "risk-taker",
+        "old-timer",
+        "maverick"
+      ],
+      "visual": [
+        "brown cowboy hat",
+        "leather vest",
+        "red neckerchief",
+        "blue jeans",
+        "green dinosaur",
+        "Western saddle",
+        "reins",
+        "cowboy boot in stirrup"
+      ]
+    },
+    "mortgage_roles": [
+      "unregulated lender",
+      "predatory operator",
+      "frontier-era originator",
+      "risk-tolerant borrower",
+      "unlicensed broker"
+    ],
+    "use_cases": [
+      "Illustrate the pre-1930s 'wild west' era of home lending before federal regulation and standardized underwriting.",
+      "Open a lesson on why consumer-protection laws like TILA and RESPA were created to tame reckless practices.",
+      "Represent a 'cowboy' loan officer who ignores rules and takes untamed risks with borrowers' money.",
+      "Contrast a lawless, anything-goes market against today's disclosure and compliance requirements.",
+      "Add levity to a module on how anachronistic, outdated lending practices no longer fit the modern regulatory landscape.",
+      "Serve as a quiz-section mascot for identifying risky or non-compliant lending behavior.",
+      "Anchor a timeline slide marking the frontier origins of the American mortgage industry."
+    ],
+    "avoid_for": [
+      "Contexts requiring a trustworthy, licensed, compliant professional.",
+      "Serious disclosure or fair-lending screens where levity would undercut the message.",
+      "Any use where identity, warmth, or a relatable human face must read, since the cowboy is turned away and his face is hidden.",
+      "Formal legal or fiduciary-duty content that should feel authoritative rather than playful."
+    ],
+    "kind": "character",
+    "id": "char_041",
+    "filename": "cowboy-riding-dinosaur-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered court jester shown from behind on a transparent background, in a two-tone purple-and-yellow harlequin costume with a belled cap, jagged tunic hem, tights, and curled-toe boots. The face is turned away and not visible; one hand is on the hip while the other holds up a small silver stopwatch that the figure appears to be checking.",
+    "primary_subject": "jester",
+    "primary_action": "checking a stopwatch",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "waiting period",
+        "mandatory pause",
+        "timing rules",
+        "cooling-off period",
+        "required delay",
+        "closing timeline",
+        "patience",
+        "compliance windows",
+        "readiness"
+      ],
+      "mood": [
+        "expectant",
+        "impatient",
+        "watchful",
+        "wry",
+        "suspenseful"
+      ],
+      "domain": [
+        "timing",
+        "waiting period",
+        "compliance",
+        "disclosure",
+        "closing",
+        "deadlines"
+      ],
+      "metaphor": [
+        "watching the clock before closing",
+        "the required pause",
+        "counting down the waiting days",
+        "time you must let pass"
+      ],
+      "demographic": [
+        "borrower awaiting closing",
+        "deadline-watcher",
+        "process-follower"
+      ],
+      "visual": [
+        "silver stopwatch held aloft",
+        "purple-and-yellow harlequin costume",
+        "belled jester cap",
+        "curled-toe boots",
+        "figure seen from behind"
+      ]
+    },
+    "mortgage_roles": [
+      "borrower waiting out a mandatory period",
+      "closing-timeline tracker",
+      "compliance-conscious applicant"
+    ],
+    "use_cases": [
+      "Head a lesson on the mandatory waiting period required before a loan can close.",
+      "Explain the TRID three-day disclosure window between receiving documents and signing.",
+      "Illustrate a cooling-off or right-of-rescission period that pauses the process.",
+      "Anchor a timeline graphic counting down the days remaining until closing.",
+      "Introduce a section on why the process cannot be rushed and timing rules exist.",
+      "Support content reassuring borrowers that a required pause is normal, not a delay.",
+      "Mark a step where learners must wait for a clock or deadline before proceeding."
+    ],
+    "avoid_for": [
+      "Warm, face-forward welcome or advisor moments needing eye contact.",
+      "Trust and credibility contexts where a recognizable, sincere face matters.",
+      "Because the face is turned away, avoid anywhere identity, trust, or warmth must read.",
+      "Serious or somber financial-hardship content where the playful jester motif clashes.",
+      "Messaging about speed or instant approval, since the pose emphasizes waiting."
+    ],
+    "kind": "character",
+    "id": "char_042",
+    "filename": "jester-checking-stopwatch-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered lion mascot on a transparent background, seen from behind wearing a fuzzy yellow lion costume with a maned hood, standing upright with hands clasped and fingers crossed behind its back. The face is turned away and completely hidden from view.",
+    "primary_subject": "lion mascot",
+    "primary_action": "crossing fingers behind back",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "deception",
+        "hidden intent",
+        "broken promise",
+        "false assurance",
+        "predatory behavior",
+        "concealed terms",
+        "trust betrayal",
+        "bad faith",
+        "fine print",
+        "ulterior motive"
+      ],
+      "mood": [
+        "sinister",
+        "sneaky",
+        "cheerful-facade",
+        "ominous",
+        "playful-menace"
+      ],
+      "domain": [
+        "deception",
+        "predatory lending",
+        "disclosure",
+        "compliance",
+        "fraud",
+        "risk",
+        "consumer protection"
+      ],
+      "metaphor": [
+        "fingers crossed lie",
+        "wolf in sheep's clothing",
+        "friendly mascot hiding a catch",
+        "smile that hides a scheme"
+      ],
+      "demographic": [
+        "salesperson archetype",
+        "mascot brand persona",
+        "trusted authority figure"
+      ],
+      "visual": [
+        "yellow lion costume",
+        "brown mane hood",
+        "crossed fingers",
+        "hands behind back",
+        "lion tail",
+        "back-turned pose",
+        "costume feet"
+      ]
+    },
+    "mortgage_roles": [
+      "predatory lender",
+      "deceptive loan officer",
+      "bait-and-switch marketer",
+      "unscrupulous broker"
+    ],
+    "use_cases": [
+      "Illustrate a lesson on predatory lending where the friendly pitch hides unfavorable terms.",
+      "Anchor a module on how a lender's cheerful branding can mask a broken promise in the fine print.",
+      "Head a warning callout about too-good-to-be-true offers that quietly reverse later.",
+      "Support a quiz scenario asking learners to spot the hidden catch in a mortgage advertisement.",
+      "Depict bad-faith negotiation in a case study on deceptive disclosure practices.",
+      "Serve as the 'red flag' icon for a checklist on identifying dishonest loan sales tactics.",
+      "Open a section on why to read terms carefully when a mascot-friendly brand seems too reassuring."
+    ],
+    "avoid_for": [
+      "Any context that must convey a trustworthy, honest lender or advisor.",
+      "Warm, welcoming onboarding imagery where sincerity must read.",
+      "Since the face is hidden, avoid uses where a relatable, identifiable human helper's warmth or trust must come through.",
+      "Celebratory or reassuring milestone moments like a successful closing."
+    ],
+    "kind": "character",
+    "id": "char_043",
+    "filename": "lion-mascot-fingers-crossed-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered, featureless beige mannequin standing on a transparent background, holding up an open black briefcase packed with neat stacks of banded US hundred-dollar bills. The mannequin has no face, no head detail, and no identifying features; the briefcase obscures where its head would be.",
+    "primary_subject": "faceless mannequin",
+    "primary_action": "holding up a briefcase full of cash",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "lack of substance",
+        "shell entity",
+        "hollow identity",
+        "money without accountability",
+        "facade",
+        "anonymous capital",
+        "empty promise",
+        "front operation",
+        "opacity",
+        "surface over substance"
+      ],
+      "mood": [
+        "cold",
+        "impersonal",
+        "suspicious",
+        "hollow",
+        "unsettling"
+      ],
+      "domain": [
+        "fraud",
+        "disclosure",
+        "compliance",
+        "beneficial ownership",
+        "money laundering",
+        "licensing",
+        "due diligence",
+        "risk"
+      ],
+      "metaphor": [
+        "shell company with no real substance",
+        "faceless money",
+        "empty suit",
+        "cash as a mask",
+        "hollow facade"
+      ],
+      "demographic": [
+        "anonymous operator",
+        "straw entity",
+        "shadow investor",
+        "faceless institution"
+      ],
+      "visual": [
+        "beige mannequin body",
+        "no face",
+        "open black briefcase",
+        "stacks of hundred-dollar bills",
+        "banded cash bundles",
+        "briefcase handle"
+      ]
+    },
+    "mortgage_roles": [
+      "shell company",
+      "straw buyer",
+      "anonymous investor",
+      "unverified funding source",
+      "front for hidden ownership"
+    ],
+    "use_cases": [
+      "Illustrate a sham shell company that has cash but no real operations or accountability.",
+      "Teach red flags for beneficial-ownership and know-your-customer due diligence in lending.",
+      "Represent an anonymous or unverified funding source that fails source-of-funds checks.",
+      "Anchor a lesson on mortgage fraud schemes involving straw buyers and cash-flush fronts.",
+      "Warn learners about counterparties that show money but hide identity and substance.",
+      "Support a compliance module on why disclosure of true ownership matters.",
+      "Signal a 'too good to be true' cash offer that warrants deeper scrutiny."
+    ],
+    "avoid_for": [
+      "Depicting a legitimate, trustworthy borrower or lending partner.",
+      "Warm, human, relationship-driven content like homeownership celebration.",
+      "Any use where identity, trust, or warmth must read, since the mannequin is deliberately faceless and impersonal.",
+      "Positive marketing imagery meant to inspire confidence in a real institution.",
+      "Content aimed at reassuring anxious first-time buyers."
+    ],
+    "kind": "character",
+    "id": "char_044",
+    "filename": "mannequin-briefcase-money-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered mime shown from behind on a transparent background, wearing a black beret, black-and-white striped long-sleeve top, red neckerchief, black trousers, white gloves, and black shoes. The face is turned away and not visible; the figure trails an extremely long cream-colored ribbon/receipt strip that unspools across the floor.",
+    "primary_subject": "mime",
+    "primary_action": "trailing a very long receipt",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "hidden costs",
+        "accumulating fees",
+        "APR",
+        "total cost of borrowing",
+        "disclosure",
+        "transparency",
+        "fine print",
+        "long-term expense",
+        "compounding"
+      ],
+      "mood": [
+        "ominous",
+        "deadpan",
+        "wry",
+        "unsettling",
+        "quiet"
+      ],
+      "domain": [
+        "cost",
+        "disclosure",
+        "risk",
+        "fees",
+        "APR",
+        "transparency",
+        "budgeting"
+      ],
+      "metaphor": [
+        "the receipt that never ends",
+        "costs trailing behind you",
+        "silent accumulation",
+        "what you don't see following you"
+      ],
+      "demographic": [
+        "first-time borrower",
+        "cost-conscious buyer",
+        "budget-planner"
+      ],
+      "visual": [
+        "long unspooling receipt strip",
+        "black-and-white stripes",
+        "beret",
+        "red neckerchief",
+        "white gloves",
+        "figure seen from behind"
+      ]
+    },
+    "mortgage_roles": [
+      "borrower facing accumulating costs",
+      "cost-conscious homebuyer",
+      "budget-planner"
+    ],
+    "use_cases": [
+      "Illustrate an APR lesson that reveals the true total cost of a loan beyond the sticker interest rate.",
+      "Head a module on hidden or accumulating closing costs and fees over the life of a loan.",
+      "Anchor a section explaining how small recurring charges add up to a long, surprising total.",
+      "Introduce a lesson on reading the fine print and full cost disclosures before signing.",
+      "Support a budgeting exercise where learners tally every line item in a loan estimate.",
+      "Illustrate the difference between the monthly payment and the total amount repaid over 30 years.",
+      "Open a cautionary lesson about costs that quietly follow a borrower long after closing."
+    ],
+    "avoid_for": [
+      "Warm, reassuring welcome or onboarding moments that need a friendly face.",
+      "Trust-building or advisor-credibility contexts where identity and eye contact matter.",
+      "Because the face is hidden and turned away, avoid anywhere identity, trust, or personal warmth must read.",
+      "Upbeat celebratory milestones like closing-day success.",
+      "Content aimed at reassuring anxious borrowers, since the mood skews ominous."
+    ],
+    "kind": "character",
+    "id": "char_045",
+    "filename": "mime-long-receipt-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered pirate on a transparent background, facing forward but with the face fully hidden behind a tall stack of hardcover books held at chest height. He wears a black tricorn hat, cream shirt, dark vest with gold trim, red sash and belt, brown striped breeches, and cuffed brown boots with gold buckles.",
+    "primary_subject": "pirate",
+    "primary_action": "carrying a tall stack of books",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "continuing education",
+        "required coursework",
+        "learning hours",
+        "curriculum",
+        "study burden",
+        "credentialing",
+        "knowledge accumulation",
+        "compliance requirements",
+        "self-education"
+      ],
+      "mood": [
+        "earnest",
+        "overloaded",
+        "determined",
+        "playful"
+      ],
+      "domain": [
+        "education",
+        "requirements",
+        "compliance",
+        "credentialing",
+        "timing",
+        "coursework"
+      ],
+      "metaphor": [
+        "a mountain of books to climb",
+        "carrying the coursework load",
+        "buried in the reading",
+        "the stack you must finish"
+      ],
+      "demographic": [
+        "diligent student",
+        "licensing candidate",
+        "lifelong learner"
+      ],
+      "visual": [
+        "tall stack of colorful hardcover books",
+        "tricorn pirate hat",
+        "red sash",
+        "gold-buckled boots",
+        "face obscured by books"
+      ]
+    },
+    "mortgage_roles": [
+      "licensing student completing required hours",
+      "continuing-education learner",
+      "diligent course-taker"
+    ],
+    "use_cases": [
+      "Head a lesson on continuing-education hour requirements for mortgage professionals.",
+      "Introduce the volume of coursework or modules a learner must complete to finish a track.",
+      "Anchor a progress screen showing how many study hours or units remain.",
+      "Illustrate a section on required reading and staying current with rules and regulations.",
+      "Support a lesson framing the effort of self-education before taking a licensing exam.",
+      "Motivate learners facing a heavy curriculum by making the study load feel approachable.",
+      "Mark a checklist of educational prerequisites that must be satisfied before advancing."
+    ],
+    "avoid_for": [
+      "Contexts needing a clear, trustworthy human face since the books hide the face entirely.",
+      "Advisor or spokesperson roles where personal warmth and eye contact must read.",
+      "Because the face is obscured, avoid anywhere identity, trust, or reassurance is essential.",
+      "Minimalist or serious financial-disclosure content where a pirate motif feels flippant.",
+      "Fast-action or urgency messaging, since the pose reads as static and burdened."
+    ],
+    "kind": "character",
+    "id": "char_046",
+    "filename": "pirate-stack-of-books-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered soldier viewed from behind on a transparent background, wearing a WWII-style olive green helmet, military webbing with belt pouches and a canteen, olive cargo trousers, and combat boots, but with a red-and-black plaid flannel shirt instead of a camouflage or uniform tunic. His face is turned away and not visible.",
+    "primary_subject": "soldier in flannel",
+    "primary_action": "standing at ease, seen from behind",
+    "anachronism": true,
+    "tags": {
+      "concept": [
+        "homecoming",
+        "veteran benefits",
+        "post-war transition",
+        "civilian reintegration",
+        "earned entitlement",
+        "service and reward",
+        "returning home",
+        "military-to-civilian",
+        "national gratitude",
+        "the GI generation"
+      ],
+      "mood": [
+        "nostalgic",
+        "steadfast",
+        "solemn",
+        "hopeful",
+        "grounded"
+      ],
+      "domain": [
+        "VA loans",
+        "veteran benefits",
+        "eligibility",
+        "licensing",
+        "underwriting",
+        "government-backed lending",
+        "entitlement",
+        "disclosure"
+      ],
+      "metaphor": [
+        "soldier trading uniform for civilian life",
+        "coming home to a home loan",
+        "service converted to opportunity",
+        "military roots of the mortgage benefit"
+      ],
+      "demographic": [
+        "returning veteran",
+        "WWII GI",
+        "first-time veteran buyer",
+        "working-class serviceman"
+      ],
+      "visual": [
+        "olive military helmet",
+        "plaid flannel shirt",
+        "military webbing and pouches",
+        "canteen",
+        "olive cargo trousers",
+        "combat boots",
+        "suspender straps"
+      ]
+    },
+    "mortgage_roles": [
+      "VA loan borrower",
+      "eligible veteran",
+      "returning serviceman buyer",
+      "GI Bill beneficiary",
+      "government-backed loan applicant"
+    ],
+    "use_cases": [
+      "Illustrate the post-WWII origin of the VA home loan and the GI Bill for returning veterans.",
+      "Open a lesson on VA loan eligibility, entitlement, and government-backed guarantees.",
+      "Represent the transition from military service to civilian homeownership.",
+      "Anchor a historical timeline slide on how the VA benefit reshaped American homebuying.",
+      "Teach the flannel-over-camo detail as a visual metaphor for a veteran hanging up the uniform for civilian life.",
+      "Support a module comparing VA loans to conventional and FHA financing.",
+      "Serve as a character prompt for scenarios involving veteran borrowers and their unique loan requirements."
+    ],
+    "avoid_for": [
+      "Active-combat or violence-themed framing that could feel insensitive.",
+      "Modern-day general borrower content where the historical WWII styling would confuse the era.",
+      "Any use where identity, trust, or warmth must read, since the soldier is turned away and his face is hidden.",
+      "Content implying current military affiliation or endorsement rather than a historical veteran archetype."
+    ],
+    "kind": "character",
+    "id": "char_047",
+    "filename": "soldier-flannel-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered scene on a transparent background showing three female track athletes in navy, red, and green running outfits standing together atop a single gold winner's podium marked with a large number 1. Each holds a gold trophy raised in front of her head, completely hiding all three faces.",
+    "primary_subject": "three track athletes",
+    "primary_action": "tying for first while hiding faces with trophies",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "equal outcome",
+        "surface fairness",
+        "disparate impact",
+        "hidden disparity",
+        "tie",
+        "sameness on the surface",
+        "obscured identity",
+        "equity vs equality",
+        "comparison",
+        "masked difference"
+      ],
+      "mood": [
+        "triumphant",
+        "ambiguous",
+        "uniform",
+        "uneasy-equality",
+        "staged"
+      ],
+      "domain": [
+        "disparate impact",
+        "fair lending",
+        "compliance",
+        "discrimination",
+        "disclosure",
+        "risk",
+        "consumer protection"
+      ],
+      "metaphor": [
+        "everyone wins on paper",
+        "podium that hides the runners",
+        "trophy that masks who you are",
+        "equal on the surface only"
+      ],
+      "demographic": [
+        "diverse athletes",
+        "competitors",
+        "peer group",
+        "borrower archetypes"
+      ],
+      "visual": [
+        "gold trophies over faces",
+        "navy running outfit",
+        "red running outfit",
+        "green running outfit",
+        "gold podium",
+        "number 1",
+        "running shoes and socks"
+      ]
+    },
+    "mortgage_roles": [
+      "fair-lending compliance subject",
+      "protected-class borrowers",
+      "applicant cohort",
+      "underwriting comparison group"
+    ],
+    "use_cases": [
+      "Illustrate a lesson on disparate impact where outcomes look equal but hide underlying disparities.",
+      "Head a fair-lending module about results that appear identical on the surface yet mask differences.",
+      "Support a compliance scenario asking learners why a 'tie' in approvals may still signal discrimination.",
+      "Anchor content on equity versus equality in mortgage access across borrower groups.",
+      "Depict a comparison of applicants whose true differences are obscured by uniform outcomes.",
+      "Serve as the visual for a case study on statistical patterns that reveal hidden bias.",
+      "Open a chapter on why equal-looking lending results still require scrutiny for fair treatment."
+    ],
+    "avoid_for": [
+      "Genuine celebration or achievement imagery where individual winners should be recognized.",
+      "Contexts needing a single relatable protagonist rather than an anonymized group.",
+      "Since all three faces are hidden by trophies, avoid uses where individual identity, trust, or personal warmth must read.",
+      "Straightforward 'you succeeded' congratulations where the ironic hidden-face framing would confuse."
+    ],
+    "kind": "character",
+    "id": "char_048",
+    "filename": "trackstars-tied-for-first-transparent.png"
   }
 ]

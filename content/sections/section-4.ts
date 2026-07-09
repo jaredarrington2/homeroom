@@ -43,6 +43,7 @@ const section4: SectionContent = {
         },
         {
           "heading": "the wild, wild west",
+          "anchor": { "file": "cowboy-riding-dinosaur-transparent.png", "caption": "before rules", "kind": "char" },
           "paras": [
             {
               "html": "Before the SAFE Act, mortgage rules existed but were rarely enforced, and originators knew it. Lenders wrote loans that barely checked whether the borrower could pay — low-doc, no-doc, even a <b>\"no income, no asset, no employment\"</b> loan — because risky products were wildly profitable. An originator who lied or cheated and got caught could simply resign, move, and start over somewhere else; there was no system tracking who they were or what they'd done. That escape hatch is exactly what the SAFE Act slammed shut."
@@ -441,6 +442,7 @@ const section4: SectionContent = {
         },
         {
           "heading": "continuing education",
+          "anchor": { "file": "pirate-stack-of-books-transparent.png", "caption": "the hours", "kind": "char" },
           "paras": [
             {
               "html": "Each year the license also demands fresh learning: at least <span class=\"cloze\" data-accept='[\"8 hours\",\"8\",\"eight\",\"eight hours\"]' data-reveal=\"8 hours\">?</span> of NMLS-approved continuing education. The hours are earmarked much like pre-licensing: at least <b>3 hours of federal law</b>, <b>2 hours of ethics</b> (fraud, consumer protection, fair lending), and <b>2 hours on non-traditional mortgage products</b>, with the remaining hour rounding it out. A state may require its own state-specific CE on top of the national eight."

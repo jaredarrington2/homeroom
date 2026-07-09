@@ -42,6 +42,7 @@ const section5: SectionContent = {
         },
         {
           heading: "where the VA loan came from",
+          anchor: { file: "soldier-flannel-transparent.png", caption: "coming home", kind: "char" },
           paras: [
             {
               html: `In <span class="cloze" data-accept='["1944","nineteen forty-four"]' data-reveal="1944">?</span>, Congress passed the <b>Servicemen's Readjustment Act</b> to ease the return of World War II veterans, and among other things it created VA mortgage financing. A VA residential mortgage loan is <b>guaranteed</b> through — and governed by the rules of — the U.S. Department of Veterans Affairs. The VA doesn't lend the money or insure the loan; it promises the lender that a portion of the loan is backed by the government if the veteran defaults.`,
@@ -270,6 +271,7 @@ const section5: SectionContent = {
         },
         {
           heading: "what the caps do over the loan's life",
+          anchor: { file: "three-women-in-poodle-skirts-transparent.png", caption: "three caps", kind: "char" },
           paras: [
             {
               html: `Each cap applies to a different move: the initial cap to the first adjustment, the periodic cap to every one after, and the life cap sets the ceiling the rate can never pass. FHA and VA ARMs have no initial cap — there, the periodic cap applies to the first adjustment too.`,
