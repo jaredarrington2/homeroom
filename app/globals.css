@@ -1793,3 +1793,14 @@
 .hr-ask-body li { margin: 3px 0; padding-left: 2px; }
 .hr-ask-body li::marker { color: var(--royal, #1E3A8A); }
 .hr-ask-body strong { font-weight: 600; }
+
+/* Always-available Ask action row (selected by default; Enter asks) */
+.hr-askrow { display: flex; align-items: center; gap: 10px; padding: 12px 20px; cursor: pointer;
+  border-left: 2px solid transparent; }
+.hr-askrow:hover, .hr-askrow.sel { background: #E8EDF7; border-left-color: #1E3A8A; }
+.hr-askrow-spark { color: #1E3A8A; font-size: 13px; flex: none; }
+.hr-askrow-label { flex: 1; font-size: 14px; color: #0A0A0A; font-weight: 500;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hr-askrow-q { color: #6B6B6B; font-weight: 400; }
+.hr-askrow-go { flex: none; font-family: var(--font-mono, 'Courier Prime', monospace); font-size: 11px;
+  color: #1E3A8A; background: #fff; border: 1px solid #d2ddf1; padding: 1px 7px; }

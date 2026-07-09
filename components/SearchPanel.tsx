@@ -38,11 +38,6 @@ const IconClose = () => (
   </svg>
 );
 
-function isQuestion(s: string): boolean {
-  const t = s.trim();
-  return /\?$/.test(t) || /^(what|when|where|why|how|can|do|does|is|are|which|who|if)\b/i.test(t);
-}
-
 /** Where a result deep-links in the reader (§9). Prose → the exact group anchor; definition/recap
  *  → the unit anchor; a Module-6 form → the lookup companion (coarse for v1). */
 function hrefFor(r: SearchResult | Cite): string {
@@ -97,7 +92,9 @@ export default function SearchPanel() {
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const reqIdRef = useRef(0);
 
-  const questionable = isQuestion(query) && query.trim().length > 4;
+  // Ask is available for any non-trivial query that has passages to ground on — no phrasing
+  // gate. The "Ask" row is selected by default (selIdx === -1), so Enter asks; ↓ picks a result.
+  const canAsk = query.trim().length > 4 && results.length > 0 && !askLimited;
 
   const closePanel = useCallback(() => {
     setOpen(false);
@@ -133,7 +130,7 @@ export default function SearchPanel() {
   useEffect(() => {
     if (!open) return;
     setAsk(null);
-    setSelIdx(0);
+    setSelIdx(-1); // default selection = the Ask row, so Enter asks
     const q = query.trim();
     if (q.length < 2) { setResults([]); return; }
     if (debounceRef.current) clearTimeout(debounceRef.current);
@@ -197,11 +194,11 @@ export default function SearchPanel() {
 
   const onInputKey = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'ArrowDown') { e.preventDefault(); setSelIdx((i) => Math.min(results.length - 1, i + 1)); }
-    else if (e.key === 'ArrowUp') { e.preventDefault(); setSelIdx((i) => Math.max(0, i - 1)); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); setSelIdx((i) => Math.max(canAsk ? -1 : 0, i - 1)); }
     else if (e.key === 'Enter') {
       e.preventDefault();
-      if (questionable) runAsk();
-      else if (results[selIdx]) jump(results[selIdx]);
+      if (selIdx < 0) { if (canAsk && !ask) runAsk(); }   // Ask row selected → ask
+      else if (results[selIdx]) jump(results[selIdx]);     // a result selected → open it
     } else if (e.key === 'Tab') {
       e.preventDefault();
       if (query.trim()) runAsk();
@@ -215,7 +212,7 @@ export default function SearchPanel() {
   if (!onLearn) return null;
 
   const max = results.length ? results[0].score : 1;
-  const showAsk = questionable && (askLoading || ask || askLimited);
+  const showAsk = askLoading || ask || askLimited;
 
   return (
     <>
@@ -243,7 +240,7 @@ export default function SearchPanel() {
               <IconClose />
             </button>
           )}
-          <span className="hr-modehint" style={{ opacity: questionable ? 1 : 0.55 }}><b>↵</b> ask</span>
+          <span className="hr-modehint" style={{ opacity: canAsk ? 1 : 0.4 }}><b>↵</b> ask</span>
         </div>
 
         <div className="hr-body">
@@ -258,6 +255,18 @@ export default function SearchPanel() {
             </div>
           ) : (
             <>
+              {/* Always-available Ask action — selected by default so Enter asks (no phrasing gate) */}
+              {canAsk && !showAsk && (
+                <div
+                  className={'hr-askrow' + (selIdx < 0 ? ' sel' : '')}
+                  onMouseEnter={() => setSelIdx(-1)}
+                  onClick={() => runAsk()}
+                >
+                  <span className="hr-askrow-spark" aria-hidden="true">✦</span>
+                  <span className="hr-askrow-label">Ask<span className="hr-askrow-q"> “{query.trim()}”</span></span>
+                  <span className="hr-askrow-go">↵</span>
+                </div>
+              )}
               {showAsk && (
                 askLimited ? (
                   <div className="hr-ask hr-ask-note">ask limit reached for today — find still works</div>
@@ -296,7 +305,7 @@ export default function SearchPanel() {
                     <Meter score={r.score} max={max} />
                   </div>
                 ))
-              ) : !questionable ? (
+              ) : !showAsk ? (
                 <div className="hr-empty"><div className="big">nothing matched</div>try fewer or plainer words</div>
               ) : null}
             </>
@@ -305,7 +314,7 @@ export default function SearchPanel() {
 
         <div className="hr-foot">
           <div className="hr-keys">
-            <span><b>↑↓</b> move</span><span><b>↵</b> open</span><span><b>tab</b> ask</span><span><b>esc</b> clear</span>
+            <span><b>↵</b> ask</span><span><b>↑↓</b> then <b>↵</b> open</span><span><b>esc</b> clear</span>
           </div>
         </div>
       </div>
