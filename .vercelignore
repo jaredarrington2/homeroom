@@ -1,0 +1,32 @@
+# .vercelignore — controls what `vercel --prod` uploads. When present, Vercel uses THIS
+# file (not .gitignore) to decide uploads. It exists so the gitignored ebook grounding index
+# (content/generated/source-index.json) still ships to the deployment as a PRIVATE, server-only
+# fs asset — it is read only by /api/ask, never publicly served, and never in the public repo.
+#
+# Everything sensitive or heavy is still excluded below. In particular the raw copyrighted
+# ebook (emlo.pdf, source/) and all env files must never upload.
+
+# build + tooling
+.git
+node_modules
+.next
+out
+.vercel
+.ts-build
+scripts/.cache
+*.tsbuildinfo
+
+# env / secrets — never upload
+.env
+.env.*
+*.local
+
+# copyrighted source material — never upload the raw ebook
+emlo.pdf
+source/
+
+# misc
+.DS_Store
+*.pem
+
+# NOTE: content/generated/source-index.json is intentionally NOT listed here, so it uploads.

@@ -37,6 +37,25 @@ export interface SearchChunk {
 
 export type SearchIndex = SearchChunk[];
 
+/** A verbatim ebook passage — the PRIVATE grounding corpus for Ask only. Never displayed
+ *  (synth-only), never in the public repo (gitignored), never publicly served (server-only
+ *  fs asset shipped via .vercelignore). See scripts/generate-source-index.ts + /api/ask. */
+export interface SourceChunk {
+  id: string;          // `p{page}:{n}`
+  page: number;
+  chapterId: string;   // reader chapter id, or "" (ethics / front-matter have no reader)
+  sectionId: string;   // ebook section id (matches a reader unit id for Modules 3/4)
+  sectionTitle: string;
+  text: string;        // verbatim ebook text — grounding only, NEVER shown to the client
+  embedding: number[]; // 512-d unit-normalized
+}
+export type SourceIndex = SourceChunk[];
+
+/** Reader route for an ebook chapter, or "" when that chapter has no recall reader. */
+export function readerRouteFor(chapterId: string): string {
+  return MODULE_LABEL[chapterId] ? `/learn/${chapterId}` : "";
+}
+
 /** What /api/search returns per hit (no vectors — display fields only). */
 export interface SearchResult {
   id: string;

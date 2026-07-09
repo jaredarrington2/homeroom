@@ -46,6 +46,9 @@ function isQuestion(s: string): boolean {
  *  → the unit anchor; a Module-6 form → the lookup companion (coarse for v1). */
 function hrefFor(r: SearchResult | Cite): string {
   if (r.kind === 'form') return '/learn/mlo-activities/explorer';
+  // ebook citation (Ask only): deep-link to the matching reader chapter/unit when one exists;
+  // some ebook chapters (ethics / front-matter) have no reader, so there's no link.
+  if (r.kind === 'source') return r.route ? `${r.route}${r.unitId ? '#' + r.unitId : ''}` : '';
   if (r.kind === 'definition' || r.kind === 'recap') return `${r.route}#${r.unitId ?? ''}`;
   return `${r.route}#grp-${r.unitId}-${r.gi}`;
 }
@@ -178,6 +181,7 @@ export default function SearchPanel() {
 
   const jump = useCallback((r: SearchResult | Cite) => {
     const href = hrefFor(r);
+    if (!href) return; // ebook cite with no matching reader — nothing to open
     const [path, hash] = href.split('#');
     closePanel();
     if (hash && path === pathname) {

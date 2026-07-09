@@ -42,6 +42,10 @@ next-env.d.ts
 # source material (copyrighted ebook — never commit)
 source/
 emlo.pdf
+# ebook grounding index — holds verbatim ebook text, never commit. Reaches prod
+# as a server-only asset via .vercelignore (uploaded to the deployment, not the repo).
+content/generated/source-index.json
+content/generated/source-index.meta.json
 
 # local env
 .env.local

@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import type { ChapterTree, SectionContent, Flashcard, Question } from './types';
-import type { SearchIndex } from './search';
+import type { SearchIndex, SourceIndex } from './search';
 
 const GENERATED = path.join(process.cwd(), 'content', 'generated');
 
@@ -38,4 +38,17 @@ export function getSearchIndex(): SearchIndex {
   const file = path.join(GENERATED, 'search-index.json');
   if (!fs.existsSync(file)) return (SEARCH_INDEX = []);
   return (SEARCH_INDEX = JSON.parse(fs.readFileSync(file, 'utf-8')));
+}
+
+// The ebook grounding index (verbatim copyrighted passages) is server-only, module-cached,
+// and PRIVATE: gitignored, shipped to prod as a non-public fs asset via .vercelignore, and
+// used only to ground Ask (never returned to the client). Absent locally → empty (Ask degrades
+// to notes-only grounding, exactly as before this feature).
+let SOURCE_INDEX: SourceIndex | null = null;
+
+export function getSourceIndex(): SourceIndex {
+  if (SOURCE_INDEX) return SOURCE_INDEX;
+  const file = path.join(GENERATED, 'source-index.json');
+  if (!fs.existsSync(file)) return (SOURCE_INDEX = []);
+  return (SOURCE_INDEX = JSON.parse(fs.readFileSync(file, 'utf-8')));
 }
