@@ -1667,3 +1667,117 @@
   .form-explorer .pair{grid-template-columns:1fr;}
   .form-explorer .pair > div:first-child{border-right:none; border-bottom:1px solid var(--hairline-strong);}
 }
+
+/* ============================================================================
+   Search / ask surface (.hr-search) — ninth scoped skeuomorphic surface.
+   Ported from homeroom-search-prototype.html. Self-contained literal palette
+   (near-white warm #FDFCF8, hairline borders, no rounded corners, royal accent,
+   #FFE27A highlighter). Namespaced .hr-* so it can't leak into the app.
+   ============================================================================ */
+
+/* TopBar trigger — borderless icon button, sits in the right cluster */
+.hr-trigger { width: 34px; height: 34px; border: 0; background: transparent; cursor: pointer;
+  color: #6B6B6B; display: grid; place-items: center; border-radius: 0; }
+.hr-trigger:hover { background: #FAF7EE; color: #0A0A0A; }
+
+/* scrim + floating panel */
+.hr-scrim { position: fixed; inset: 0; background: rgba(30,26,18,.16); backdrop-filter: blur(.5px);
+  z-index: 45; display: none; opacity: 0; transition: opacity .16s; }
+.hr-scrim.open { display: block; opacity: 1; }
+
+.hr-search { position: fixed; left: 50%; top: 72px; transform: translateX(-50%) translateY(-6px);
+  width: min(680px, calc(100vw - 28px)); z-index: 60; background: #FDFCF8;
+  border: 1px solid #E5E5E5; box-shadow: 0 14px 40px -22px rgba(20,18,12,.30);
+  display: none; opacity: 0; transition: opacity .16s, transform .16s;
+  font-family: var(--font-sans, 'Inter', system-ui, sans-serif); color: #0A0A0A; }
+.hr-search.open { display: block; opacity: 1; transform: translateX(-50%) translateY(0); }
+.hr-search *::selection { background: #E8EDF7; }
+
+/* input row */
+.hr-inrow { display: flex; align-items: center; gap: 11px; padding: 15px 18px; border-bottom: 1px solid #E5E5E5; }
+.hr-mag { flex: none; color: #1E3A8A; display: grid; place-items: center; }
+.hr-input { flex: 1; border: 0; background: transparent; font: inherit; font-size: 18px; color: #0A0A0A;
+  line-height: 1.3; padding: 2px 0; }
+.hr-input:focus { outline: none; }
+.hr-input::placeholder { color: #A8A8A8; }
+.hr-modehint { flex: none; font-family: var(--font-mono, 'Courier Prime', monospace); font-size: 10.5px;
+  color: #A8A8A8; white-space: nowrap; }
+.hr-modehint b { color: #6B6B6B; font-weight: 700; }
+.hr-clear { flex: none; width: 22px; height: 22px; border: 0; background: transparent; cursor: pointer;
+  color: #A8A8A8; display: grid; place-items: center; border-radius: 0; }
+.hr-clear:hover { color: #0A0A0A; }
+
+/* scroll region */
+.hr-body { max-height: min(64vh, 520px); overflow: auto; padding: 6px 0 4px; }
+.hr-body::-webkit-scrollbar { width: 10px; }
+.hr-body::-webkit-scrollbar-thumb { background: #CFCFCF; }
+
+/* ask answer card */
+.hr-ask { margin: 10px 14px 4px; padding: 15px 16px 14px; background: #FFFFFF;
+  border: 1px solid #CFCFCF; border-top: 2px solid #1E3A8A; }
+.hr-ask.loading { display: flex; align-items: center; justify-content: center; min-height: 50px; padding: 0; }
+.hr-ask.hr-ask-note { font-family: var(--font-mono, 'Courier Prime', monospace); font-size: 12px;
+  color: #6B6B6B; border-top-color: #CFCFCF; }
+.hr-ask .spin { width: 13px; height: 13px; border: 1.6px solid #1E3A8A; border-right-color: transparent;
+  border-radius: 50%; animation: hr-sp .7s linear infinite; }
+.hr-ask-body { font-size: 15px; line-height: 1.62; color: #0A0A0A; }
+.hr-ask-body .hl { background: linear-gradient(transparent 62%, #FFE27A 62%); padding: 0 1px; }
+.hr-cites { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 11px; }
+.hr-chip { font-family: var(--font-mono, 'Courier Prime', monospace); font-size: 11px; color: #1E3A8A;
+  background: #E8EDF7; border: 1px solid #d2ddf1; padding: 3px 9px; cursor: pointer;
+  display: inline-flex; align-items: center; gap: 5px; }
+.hr-chip:hover { background: #dde6f6; }
+.hr-chip .n { color: #A8A8A8; }
+
+/* section label between ask and finds */
+.hr-seclbl { font-family: var(--font-mono, 'Courier Prime', monospace); font-size: 10px; letter-spacing: .12em;
+  text-transform: uppercase; color: #A8A8A8; padding: 14px 20px 6px; }
+
+/* result rows */
+.hr-row { display: grid; grid-template-columns: 1fr auto; gap: 12px; padding: 11px 20px; cursor: pointer;
+  border-left: 2px solid transparent; }
+.hr-row:hover, .hr-row.sel { background: #FAF7EE; border-left-color: #1E3A8A; }
+.hr-crumb { font-family: var(--font-mono, 'Courier Prime', monospace); font-size: 11px; color: #1E3A8A;
+  letter-spacing: .02em; margin-bottom: 3px; }
+.hr-crumb .mod { color: #A8A8A8; }
+.hr-snip { font-size: 13.5px; line-height: 1.5; color: #0A0A0A; }
+.hr-snip mark { background: #FFE27A; color: inherit; padding: 0 1px; }
+.hr-kind { font-family: var(--font-mono, 'Courier Prime', monospace); font-size: 9.5px; letter-spacing: .08em;
+  text-transform: uppercase; color: #A8A8A8; margin-top: 5px; }
+
+/* match-strength meter */
+.hr-meter { display: flex; flex-direction: column; align-items: flex-end; gap: 5px; padding-top: 2px; white-space: nowrap; }
+.hr-bars { display: flex; gap: 2px; align-items: flex-end; height: 14px; }
+.hr-bars i { width: 4px; background: #CFCFCF; display: block; }
+.hr-bars i.on { background: #1E3A8A; }
+.hr-bars i:nth-child(1) { height: 6px; } .hr-bars i:nth-child(2) { height: 9px; }
+.hr-bars i:nth-child(3) { height: 12px; } .hr-bars i:nth-child(4) { height: 14px; }
+.hr-pct { font-family: var(--font-mono, 'Courier Prime', monospace); font-size: 10px; color: #A8A8A8; }
+
+/* empty state */
+.hr-empty { padding: 34px 22px; text-align: center; color: #A8A8A8; font-size: 13.5px; }
+.hr-empty .big { font-family: var(--font-hand, 'Caveat', cursive); font-size: 22px; color: #6B6B6B; margin-bottom: 6px; }
+.hr-tries { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 16px; }
+.hr-try { font-family: var(--font-mono, 'Courier Prime', monospace); font-size: 11.5px; color: #1E3A8A;
+  border: 1px solid #CFCFCF; background: #FDFCF8; padding: 5px 11px; cursor: pointer; }
+.hr-try:hover { background: #FAF7EE; }
+
+/* footer */
+.hr-foot { display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  padding: 9px 18px; border-top: 1px solid #E5E5E5; background: #FDFCF8; }
+.hr-keys { font-family: var(--font-mono, 'Courier Prime', monospace); font-size: 10.5px; color: #A8A8A8;
+  display: flex; gap: 14px; flex-wrap: wrap; }
+.hr-keys b { color: #6B6B6B; font-weight: 700; }
+
+@keyframes hr-sp { to { transform: rotate(360deg); } }
+
+@media (max-width: 560px) {
+  .hr-search { top: 0; left: 0; transform: none; width: 100vw; height: 100vh; max-height: none; }
+  .hr-search.open { transform: none; }
+  .hr-body { max-height: calc(100vh - 132px); }
+  .hr-modehint { display: none; }
+}
+
+/* Reader deep-link flash — a landed search result pulses its target group/unit (§9). */
+.section-reader .sr-flash { animation: sr-flash 1.2s ease-out; }
+@keyframes sr-flash { 0%, 15% { background: #E8EDF7; } 100% { background: transparent; } }

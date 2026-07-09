@@ -41,7 +41,7 @@ export default function UnitReader({
 
       <ExplainableBody sectionId={sectionId} sectionTitle={sectionTitle} chapterId={sectionId}>
         {unit.groups.map((g, gi) => (
-          <div className="group-block" key={gi}>
+          <div className="group-block" key={gi} id={`grp-${unit.id}-${gi}`} style={{ scrollMarginTop: 72 }}>
             {g.heading && <div className="group">{g.heading}</div>}
             {g.anchor && (
               <figure className="anchor" id={g.anchor.spokenCaption ? `audio-${unit.id}-g${gi}-img` : undefined}>

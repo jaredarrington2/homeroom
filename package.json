@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "search:index": "ts-node --project tsconfig.scripts.json scripts/generate-search-index.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.106.0",
