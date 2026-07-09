@@ -28,7 +28,9 @@ const SYSTEM_PROMPT = `You answer a self-studying SAFE Mortgage Loan Originator 
 Plain English, sentence case, active voice. Default to 2-3 sentences. When the question asks for an enumeration (e.g. "what fees", "which documents", "what types"), answer with a one-line lead then a compact list of the items as brief labels — do not copy long passages verbatim. No throat-clearing, no "great question," no restating the question. No self-referential preface — never open with "based on your notes," "from the passages," "from the ebook," or any variant; state the fact directly. Wrap the single most important value in <span class="hl">…</span> when there is one clear key value.`;
 
 function buildCacheKey(q: string) {
-  return `ask:${createHash('sha256').update(normalizeQuery(q)).digest('hex')}`;
+  // v2 namespace: the value shape changed from a plain string (answer only) to { answer, cites }
+  // when ebook grounding landed. A fresh prefix avoids reading stale string-format entries.
+  return `ask:v2:${createHash('sha256').update(normalizeQuery(q)).digest('hex')}`;
 }
 
 function todayKey(userId: string) {
@@ -93,7 +95,9 @@ export async function POST(req: NextRequest) {
   if (kv) {
     try {
       const cached = await kv.get<{ answer: string; cites: Cite[] }>(cacheKey);
-      if (cached) return NextResponse.json({ ...cached, cached: true });
+      if (cached && typeof cached === 'object' && typeof cached.answer === 'string') {
+        return NextResponse.json({ ...cached, cached: true });
+      }
     } catch { /* cache miss */ }
   }
 
