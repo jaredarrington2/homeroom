@@ -1783,3 +1783,13 @@
 /* Reader deep-link flash — a landed search result pulses its target group/unit (§9). */
 .section-reader .sr-flash { animation: sr-flash 1.2s ease-out; }
 @keyframes sr-flash { 0%, 15% { background: #E8EDF7; } 100% { background: transparent; } }
+
+/* Ask answer readability — real paragraphs + bulleted lists (renderAnswer output) */
+.hr-ask-body p { margin: 0 0 9px; }
+.hr-ask-body p:last-child { margin-bottom: 0; }
+.hr-ask-body ul, .hr-ask-body ol { margin: 4px 0 10px; padding-left: 20px; }
+.hr-ask-body ul { list-style: disc; }
+.hr-ask-body ol { list-style: decimal; }
+.hr-ask-body li { margin: 3px 0; padding-left: 2px; }
+.hr-ask-body li::marker { color: var(--royal, #1E3A8A); }
+.hr-ask-body strong { font-weight: 600; }

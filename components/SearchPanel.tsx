@@ -12,6 +12,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
 import { getUserId } from '@/lib/kv';
+import { renderAnswer } from '@/lib/answerFormat';
 import type { SearchResult } from '@/lib/search';
 
 type Cite = { id: string; route: string; unitId: string; unitName: string; heading: string; gi?: number; kind: string };
@@ -264,7 +265,7 @@ export default function SearchPanel() {
                   <div className="hr-ask loading"><span className="spin" /></div>
                 ) : ask ? (
                   <div className="hr-ask">
-                    <div className="hr-ask-body" dangerouslySetInnerHTML={{ __html: ask.answer }} />
+                    <div className="hr-ask-body" dangerouslySetInnerHTML={{ __html: renderAnswer(ask.answer) }} />
                     {ask.cites.length > 0 && (
                       <div className="hr-cites">
                         {ask.cites.map((c, i) => (

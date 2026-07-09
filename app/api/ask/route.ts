@@ -25,12 +25,19 @@ const EBOOK_PASSAGE_CHARS = 1400;
 
 const SYSTEM_PROMPT = `You answer a self-studying SAFE Mortgage Loan Originator exam candidate's question using ONLY the passages provided — both the candidate's own note passages and passages from the course ebook. Ground every claim in them. The ebook passages are the authoritative source for specifics, exact lists, and numbers, so prefer them when they add detail the notes leave out. If a passage carries a number, threshold, day-count, or dollar amount that answers the question, state it exactly. If the passages don't contain the answer, say so plainly and name the closest topic — do not fill from outside knowledge.
 
-Plain English, sentence case, active voice. Default to 2-3 sentences. When the question asks for an enumeration (e.g. "what fees", "which documents", "what types"), answer with a one-line lead then a compact list of the items as brief labels — do not copy long passages verbatim. No throat-clearing, no "great question," no restating the question. No self-referential preface — never open with "based on your notes," "from the passages," "from the ebook," or any variant; state the fact directly. Wrap the single most important value in <span class="hl">…</span> when there is one clear key value.`;
+Plain English, sentence case, active voice. No throat-clearing, no "great question," no restating the question. No self-referential preface — never open with "based on your notes," "from the passages," "from the ebook," or any variant; state the fact directly.
+
+Format the answer for readability using simple Markdown:
+- Open with a one-sentence lead.
+- When you enumerate items (fees, documents, types, steps, conditions), put each on its own line as a "- " bullet — never run them inline inside a sentence.
+- Put any closing caveat or rule in its own short paragraph.
+- Separate the lead, the list, and the closing with a blank line.
+Keep the answer tight (a short lead + the list, or 2-3 sentences when there's nothing to list). Wrap the single most important value in <span class="hl">…</span> when there is one clear key value. Use no other HTML, no headings, and no tables.`;
 
 function buildCacheKey(q: string) {
-  // v2 namespace: the value shape changed from a plain string (answer only) to { answer, cites }
-  // when ebook grounding landed. A fresh prefix avoids reading stale string-format entries.
-  return `ask:v2:${createHash('sha256').update(normalizeQuery(q)).digest('hex')}`;
+  // v3 namespace: v2 was pre-Markdown (answers ran the list inline in one paragraph). Bumping
+  // regenerates cached answers under the new formatted prompt. (v2 also fixed a value-shape change.)
+  return `ask:v3:${createHash('sha256').update(normalizeQuery(q)).digest('hex')}`;
 }
 
 function todayKey(userId: string) {
