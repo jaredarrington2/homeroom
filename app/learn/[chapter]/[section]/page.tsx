@@ -35,18 +35,22 @@ export default function SectionPage({ params }: { params: { chapter: string; sec
       </h1>
 
       {content ? (
-        <div className="lg:grid lg:grid-cols-[minmax(0,38rem)_220px] lg:gap-16">
-          <div>
-            <p className="font-display text-xl text-ink-muted font-light leading-relaxed mb-8">
+        <>
+        <section className="mt-6 mb-12 border border-hairline bg-loose-paper px-8 py-10 sm:px-12">
+          <div className="flex flex-col-reverse items-center gap-8 sm:flex-row sm:items-end sm:gap-12">
+            <p className="flex-1 font-display text-xl font-light leading-relaxed text-ink-muted sm:text-2xl">
               {content.summary}
             </p>
-
             <Character
               tags={['mortgage', 'regulation', 'compliance']}
               sectionId={params.section}
-              maxHeight={200}
+              maxHeight={300}
             />
+          </div>
+        </section>
 
+        <div className="lg:grid lg:grid-cols-[minmax(0,38rem)_220px] lg:gap-16">
+          <div>
             <ExplainableBody
               sectionId={params.section}
               sectionTitle={section.title}
@@ -120,6 +124,7 @@ export default function SectionPage({ params }: { params: { chapter: string; sec
             </div>
           </aside>
         </div>
+        </>
       ) : (
         <div className="border border-hairline p-6 text-sm text-ink-muted">
           Content for this section has not been generated yet. Run the extraction script to populate lessons.
