@@ -28,6 +28,9 @@ export default function UnitReader({
   sectionId: string;
   sectionTitle: string;
 }) {
+  // Alternate anchor images left/right corner down the unit so they don't all stack
+  // in the same corner. Counter resets per unit (one UnitReader renders one unit).
+  let anchorSeen = 0;
   return (
     <section id={unit.id} className="sr-unit">
       <div className="sr-unithead">
@@ -40,11 +43,13 @@ export default function UnitReader({
       </div>
 
       <ExplainableBody sectionId={sectionId} sectionTitle={sectionTitle} chapterId={sectionId}>
-        {unit.groups.map((g, gi) => (
+        {unit.groups.map((g, gi) => {
+          const anchorSide = g.anchor ? (anchorSeen++ % 2 === 0 ? "anchor-right" : "anchor-left") : "";
+          return (
           <div className="group-block" key={gi} id={`grp-${unit.id}-${gi}`} style={{ scrollMarginTop: 72 }}>
             {g.heading && <div className="group">{g.heading}</div>}
             {g.anchor && (
-              <figure className="anchor" id={g.anchor.spokenCaption ? `audio-${unit.id}-g${gi}-img` : undefined}>
+              <figure className={`anchor ${anchorSide}`} id={g.anchor.spokenCaption ? `audio-${unit.id}-g${gi}-img` : undefined}>
                 {g.anchor.spokenCaption && <ListenMark id={`audio-${unit.id}-g${gi}-img`} unitId={unit.id} />}
                 <Image
                   src={figureSrc(g.anchor)}
@@ -81,7 +86,8 @@ export default function UnitReader({
             {g.studyCard && getStudyCard(g.studyCard) && <StudyCard card={getStudyCard(g.studyCard)!} />}
             {g.synth && <Synth q={g.synth.q} a={g.synth.a} unitId={unit.id} groupIndex={gi} synthId={`${unit.id}-synth-${gi}`} />}
           </div>
-        ))}
+          );
+        })}
       </ExplainableBody>
 
       {unit.definitions && unit.definitions.length > 0 && (

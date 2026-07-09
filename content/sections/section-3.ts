@@ -1085,6 +1085,7 @@ const section3: SectionContent = {
         },
         {
           "heading": "servicing: payments and payoffs",
+          "anchor": { "file": "ballerina-holding-stack-of-folders-transparent.png", "caption": "juggling files", "kind": "char" },
           "paras": [
             {
               "html": "Once a loan is made, <b>servicing</b> is the day-to-day handling of it — taking payments, running escrow, issuing payoff figures. TILA polices three parts of that. First, <b>payment crediting</b>: a servicer must credit your payment as of the day it arrives, so a payment isn't quietly held to rack up interest or a late fee. A payment that doesn't follow the servicer's written instructions still has to be credited within 5 days. Second, <b>no pyramiding of late fees</b>: if you pay this month on time but an old late fee is still sitting unpaid, the servicer can't charge a fresh late fee just because of that old one — late fees can't stack on late fees. Third, the <b>payoff statement</b> — the exact amount to close out the loan — must go out within <span class=\"cloze\" data-accept='[\"7 business days\",\"7\",\"seven\",\"seven business days\"]' data-reveal=\"7 business days\">?</span> of your written request."
@@ -1338,6 +1339,7 @@ const section3: SectionContent = {
         },
         {
           "heading": "equity, and why it's a target",
+          "anchor": { "file": "beekeeper-with-hive-transparent.png", "caption": "stored wealth", "kind": "char" },
           "paras": [
             {
               "html": "The thing HOEPA is really protecting is your <b>equity</b> — the slice of the home you actually own, the difference between what it's worth and what you still owe on it. Pay a mortgage down for thirty years and your equity grows until, paid off, you own the whole thing outright. That stored-up wealth is exactly what makes a longtime or elderly homeowner a target: a house with lots of equity and an owner who may not read the fine print is, to the wrong kind of lender, a prize sitting behind an easy loan."
@@ -1358,6 +1360,7 @@ const section3: SectionContent = {
         },
         {
           "heading": "the three lines that make a loan high-cost",
+          "anchor": { "file": "house-of-cards-made-of-credit-cards-transparent.png", "caption": "cost stack", "kind": "char" },
           "paras": [
             {
               "html": "A loan becomes high-cost the moment it crosses <b>any one</b> of three lines — you don't need all three, just one. The three watch the three places excess cost hides: the loan's <b>rate</b>, its <b>points and fees</b>, and its <b>prepayment penalty</b>. HOEPA reaches consumer loans on a borrower's principal dwelling; it leaves out reverse mortgages, loans for a home's initial construction, loans where a state Housing Finance Agency is the creditor, and USDA Section 502 Direct loans."
@@ -1579,6 +1582,7 @@ const section3: SectionContent = {
         },
         {
           "heading": "what a closing actually is",
+          "anchor": { "file": "party-hat-on-stack-of-folders-with-champagne-transparent.png", "caption": "closing day", "kind": "char" },
           "paras": [
             {
               "html": "Two words get used loosely at the end of a loan. <b>Settlement</b> (or closing) is the event where the documents are signed and the funds change hands; <b>consummation</b> is the exact moment you become contractually obligated on the loan — the point every TRID deadline counts from. The fees in the stack pay for <b>settlement services</b>: the outside jobs a loan needs done — the appraisal that values the home, the title work that proves the seller owns it, the escrow or settlement agent who handles the money, the county's recording of the new lien. You didn't hire most of these companies, but you pay them, which is exactly why the law forces their costs into the open."
@@ -2225,6 +2229,7 @@ const section3: SectionContent = {
         },
         {
           "heading": "the quick fix versus the real fix",
+          "anchor": { "file": "scuba-vacuum.PNG", "caption": "wrong tool", "kind": "char" },
           "paras": [
             {
               "html": "A formal dispute can take 30 to 60 days — too slow when a loan is waiting. So a lender can order faster tools through the credit repository: a <b>tradeline verification</b> for a stray error, or an <b>investigative consumer report</b> (a \"full factual\") when there are many, where the repository interviews the borrower and re-checks the file. A <b>rapid rescore</b> can then update the score once errors are corrected. The catch: these only fix the file for the <b>current transaction</b> — to clear an error for good, the borrower still has to take it up with the furnisher or the bureau directly."
@@ -2402,6 +2407,7 @@ const section3: SectionContent = {
         },
         {
           "heading": "fraud alerts",
+          "anchor": { "file": "caution-mirror.PNG", "caption": "the flag", "kind": "char" },
           "paras": [
             {
               "html": "A <b>fraud alert</b> is a flag on your credit file telling any lender who pulls it to stop and confirm you're really you before opening anything. Two lengths. An <b>initial</b> fraud alert — placed on a good-faith suspicion you've been or may be victimized — lasts at least <span class=\"cloze\" data-accept='[\"1 year\",\"1\",\"one\",\"one year\"]' data-reveal=\"1 year\">?</span>. An <b>extended</b> alert requires you to file an identity-theft report first, and in exchange it runs for 7 years, keeps you off prescreened-offer lists for 5 years, and entitles you to two free reports in the following 12 months. Whichever bureau places an alert must pass it to the other two."

@@ -78,7 +78,8 @@
       "Any context where the character's face or identity needs to be legible to build trust"
     ],
     "id": "char_001",
-    "filename": "astronaut-saxophone.PNG"
+    "filename": "astronaut-saxophone.PNG",
+    "kind": "character"
   },
   {
     "literal_description": "A tattooed biker in a leather vest and bandana sits at a desk chair reviewing a stock portfolio dashboard on a desktop monitor showing $42,583 in holdings with diversification across tech, finance, health, and energy sectors.",
@@ -158,7 +159,8 @@
       "Senior borrower or reverse mortgage content where demographic alignment is critical"
     ],
     "id": "char_002",
-    "filename": "biker-stocks.PNG"
+    "filename": "biker-stocks.PNG",
+    "kind": "character"
   },
   {
     "literal_description": "A person wearing a black-and-white horizontal striped shirt, black pants, black gloves, and a medieval knight's helmet carries a large black sack over one shoulder while crouching in a sneaking pose.",
@@ -237,7 +239,8 @@
       "Diversity and inclusion focused onboarding materials"
     ],
     "id": "char_003",
-    "filename": "burglar-knight.PNG"
+    "filename": "burglar-knight.PNG",
+    "kind": "character"
   },
   {
     "literal_description": "A standing figure wrapped head-to-toe in yellow caution tape, holding a black oval hand mirror in front of their face, photographed against a white background.",
@@ -317,7 +320,8 @@
       "Any context representing a competent, ethical expert advisor"
     ],
     "id": "char_004",
-    "filename": "caution-mirror.PNG"
+    "filename": "caution-mirror.PNG",
+    "kind": "character"
   },
   {
     "literal_description": "Three headless cheerleaders in purple, red, and blue uniforms carry a dark wood coffin with gold handles overhead while walking in unison.",
@@ -392,7 +396,8 @@
       "diversity and inclusion framing where the uniform-and-coffin combo would read as exploitative"
     ],
     "id": "char_005",
-    "filename": "cheerleader-coffin.PNG"
+    "filename": "cheerleader-coffin.PNG",
+    "kind": "character"
   },
   {
     "literal_description": "An adult in a full rainbow polka-dot clown costume with oversized red shoes and multicolored afro wig holds a baby dressed in a matching miniature clown outfit with a party hat, both photographed from behind against a white background.",
@@ -472,7 +477,8 @@
       "Any context requiring clear demographic representation of a specific borrower profile"
     ],
     "id": "char_006",
-    "filename": "clown-clown-baby.PNG"
+    "filename": "clown-clown-baby.PNG",
+    "kind": "character"
   },
   {
     "literal_description": "A 3D-rendered construction worker in an orange safety vest, hard hat, jeans, work boots, and tool belt plays a large brass euphonium or tuba, obscuring his face.",
@@ -550,7 +556,8 @@
       "Regulatory compliance deep-dives requiring authoritative, professional visual tone"
     ],
     "id": "char_007",
-    "filename": "construction-worker-tuba.PNG"
+    "filename": "construction-worker-tuba.PNG",
+    "kind": "character"
   },
   {
     "literal_description": "Two men photographed from behind dancing together, one dressed as a cowboy in jeans, leather vest, bandana, and boots, the other in a dark pinstripe business suit, their hands clasped and arms around each other's waists.",
@@ -631,7 +638,8 @@
       "content targeting female demographics or diverse household archetypes"
     ],
     "id": "char_008",
-    "filename": "cowboy-business-man-tango.PNG"
+    "filename": "cowboy-business-man-tango.PNG",
+    "kind": "character"
   },
   {
     "literal_description": "A 3D-rendered hula dancer wearing a grass skirt, floral lei, bikini top, and flower anklets and wristlets, with her face completely obscured by an oversized wide-brimmed hat, arms raised in a dancing pose.",
@@ -712,7 +720,8 @@
       "any context where a legible, trustworthy face is needed for rapport-building"
     ],
     "id": "char_009",
-    "filename": "hawaiian-pizza-dough.PNG"
+    "filename": "hawaiian-pizza-dough.PNG",
+    "kind": "character"
   },
   {
     "literal_description": "A stylized illustration of a woman in 1970s hippie attire — paisley bell-bottoms, fringed suede vest, headband, sandals, and layered boho jewelry — holding a baseball glove in one hand and a smoking cigarette or joint in the other, with her face obscured by a large cloud of smoke.",
@@ -792,7 +801,8 @@
       "compliance celebration or regulatory success scenarios"
     ],
     "id": "char_010",
-    "filename": "hippy-baseball.PNG"
+    "filename": "hippy-baseball.PNG",
+    "kind": "character"
   },
   {
     "literal_description": "A barefoot figure in a black martial arts gi with a black belt holds a large terracotta pot containing a lush, round green plant in front of their face, completely obscuring their identity.",
@@ -870,7 +880,8 @@
       "Straightforward explainers on loan officer ethics or professional trust"
     ],
     "id": "char_011",
-    "filename": "karate-plant.PNG"
+    "filename": "karate-plant.PNG",
+    "kind": "character"
   },
   {
     "literal_description": "A stylized 3D-rendered male figure seen from behind, wearing a black bomber jacket and khaki trousers, holding a lit cigarette with smoke rising from it.",
@@ -949,7 +960,8 @@
       "Any context requiring a clearly identified or transparent protagonist"
     ],
     "id": "char_012",
-    "filename": "man-smoking.PNG"
+    "filename": "man-smoking.PNG",
+    "kind": "character"
   },
   {
     "literal_description": "A family of four — two adults and two children — all wearing matching navy-and-cream sailor uniforms with white captain's hats and over-ear headphones, viewed from behind as they walk together.",
@@ -1030,7 +1042,8 @@
       "sections addressing divorce, estate disputes, or fractured co-borrower relationships"
     ],
     "id": "char_013",
-    "filename": "navy-family-headphones.PNG"
+    "filename": "navy-family-headphones.PNG",
+    "kind": "character"
   },
   {
     "literal_description": "A 3D-rendered female doctor in white coat, teal scrubs, and stethoscope holds a black frying pan in one hand while a large omelet or savory pancake obscures her face, with her hair in a bun.",
@@ -1108,7 +1121,8 @@
       "Regulatory compliance checklists that require a tone of procedural seriousness"
     ],
     "id": "char_014",
-    "filename": "omlette-doctor.PNG"
+    "filename": "omlette-doctor.PNG",
+    "kind": "character"
   },
   {
     "literal_description": "A muscular man in a gray t-shirt, black shorts, and sneakers holds a large bunch of colorful helium balloons that completely obscure his face, while wearing a coach's whistle on a lanyard.",
@@ -1188,7 +1202,8 @@
       "modules requiring demographic representation of a specific borrower community"
     ],
     "id": "char_015",
-    "filename": "personal-trainer-balloons.PNG"
+    "filename": "personal-trainer-balloons.PNG",
+    "kind": "character"
   },
   {
     "literal_description": "A 3D-rendered figure dressed in 19th-century pioneer woman attire with a bonnet, floral brown dress, lace collar, and apron bow, operating a modern Pioneer DJ turntable setup with headphones around her neck and one finger raised.",
@@ -1267,7 +1282,8 @@
       "First-time homebuyer onboarding where relatability and approachability are paramount"
     ],
     "id": "char_016",
-    "filename": "pioneer-dj-2.PNG"
+    "filename": "pioneer-dj-2.PNG",
+    "kind": "character"
   },
   {
     "literal_description": "A person wearing inline roller skates and jeans with a brown belt carries an enormous, precarious stack of colorful boxes and shopping bags that completely obscures their upper body and face.",
@@ -1348,7 +1364,8 @@
       "Content aimed at sophisticated or institutional investors who would find the consumer-chaos aesthetic misaligned"
     ],
     "id": "char_017",
-    "filename": "rollerskates-packages.PNG"
+    "filename": "rollerskates-packages.PNG",
+    "kind": "character"
   },
   {
     "literal_description": "A wetsuit-clad scuba diver seen from behind, dripping water, wearing fins, snorkel mask, and a yellow air tank, holds a canister vacuum cleaner that color-matches the tank.",
@@ -1420,7 +1437,8 @@
       "content targeting senior borrowers where the youthful action-sport archetype creates demographic mismatch"
     ],
     "id": "char_018",
-    "filename": "scuba-vacuum.PNG"
+    "filename": "scuba-vacuum.PNG",
+    "kind": "character"
   },
   {
     "literal_description": "A soldier in rainbow camouflage uniform and olive tactical vest stands in a daisy field, holding a paint palette and painting a sunny meadow landscape on a wooden easel.",
@@ -1497,7 +1515,8 @@
       "content targeting grieving or financially distressed borrowers where whimsy reads as dismissive"
     ],
     "id": "char_019",
-    "filename": "soldier-painting.PNG"
+    "filename": "soldier-painting.PNG",
+    "kind": "character"
   },
   {
     "literal_description": "A muscular shirtless male figure in navy blue wave-print swim trunks holds an oversized Japanese folding fan decorated with a Great Wave off Kanagawa motif in front of his face, concealing his identity.",
@@ -1576,7 +1595,8 @@
       "any context requiring a clearly identifiable, relatable protagonist"
     ],
     "id": "char_020",
-    "filename": "swimmer-fan.PNG"
+    "filename": "swimmer-fan.PNG",
+    "kind": "character"
   },
   {
     "literal_description": "Three women in Girl Scout-style uniforms with merit badge vests attempt to extinguish a flaming charcoal grill using three different methods: a metal bucket, a garden hose, and a fire extinguisher.",
@@ -1656,7 +1676,8 @@
       "Content aimed at senior borrowers where the youth-organization aesthetic may feel condescending"
     ],
     "id": "char_021",
-    "filename": "troop-leaders-barbecue-grill-fire.PNG"
+    "filename": "troop-leaders-barbecue-grill-fire.PNG",
+    "kind": "character"
   },
   {
     "literal_description": "A stylized female witch character seen from behind, wearing a black asymmetric dress with gold-trimmed jagged hem, purple underlayer, lace-up corset, black pointed hat with purple band, long wavy black-to-purple ombre hair, black heeled boots, and purple crystal pendant, holding a microphone stand with one hand.",
@@ -1735,7 +1756,8 @@
       "Sections celebrating homeownership milestones, where the witch's ambiguity reads as ominous rather than empowering"
     ],
     "id": "char_022",
-    "filename": "witch-microphone.PNG"
+    "filename": "witch-microphone.PNG",
+    "kind": "character"
   },
   {
     "id": "prop_001",
@@ -2361,5 +2383,1314 @@
       "unique",
       "real estate"
     ]
+  },
+  {
+    "literal_description": "A 3D-rendered ballerina in a pink tutu and pointe shoes, posed en pointe, holding a towering, overflowing stack of manila and colored folders and loose papers that completely hides her face and torso. Plain transparent background; her face is entirely obscured behind the paperwork so no identity reads.",
+    "primary_subject": "ballerina",
+    "primary_action": "balancing a precarious tower of folders and paperwork",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "paperwork overload",
+        "document management",
+        "balancing act",
+        "administrative burden",
+        "closing paperwork",
+        "disclosure stack",
+        "precision under pressure",
+        "organization",
+        "buried in files",
+        "diligence"
+      ],
+      "mood": [
+        "overwhelmed",
+        "graceful",
+        "precarious",
+        "whimsical",
+        "strained",
+        "lighthearted"
+      ],
+      "domain": [
+        "documentation",
+        "process",
+        "compliance",
+        "disclosure",
+        "administration",
+        "closing"
+      ],
+      "metaphor": [
+        "balancing act",
+        "juggling paperwork",
+        "delicate handling of documents",
+        "a mountain of files",
+        "poise under load"
+      ],
+      "demographic": [
+        "performer",
+        "young professional woman",
+        "meticulous worker"
+      ],
+      "visual": [
+        "pink tutu",
+        "pointe shoes",
+        "stacked manila and pink folders",
+        "loose papers",
+        "hair bun",
+        "hidden face"
+      ]
+    },
+    "mortgage_roles": [
+      "loan processor",
+      "closing coordinator",
+      "underwriter",
+      "borrower",
+      "document specialist"
+    ],
+    "use_cases": [
+      "Header image for a lesson on the volume of documents required to close a mortgage.",
+      "Quiz anchor for identifying which disclosures belong in a closing package.",
+      "Module opener on staying organized through the paperwork-heavy loan process.",
+      "Illustration for a tip on gathering income and asset documents before applying.",
+      "Section graphic on the balancing act of managing deadlines and document requests.",
+      "Empty-state art for a document-checklist or upload feature.",
+      "Callout image emphasizing precision and diligence in handling loan files."
+    ],
+    "avoid_for": [
+      "Contexts requiring a warm, personal, face-to-face human connection, since her face is fully hidden and identity/trust/warmth cannot read.",
+      "Serious content about fraud or legal jeopardy, where the whimsical tone would undercut the message.",
+      "Imagery meant to convey a simple, low-effort, paperless process.",
+      "Modules where a specific named persona or relatable borrower must be recognizable."
+    ],
+    "kind": "character",
+    "id": "char_023",
+    "filename": "ballerina-holding-stack-of-folders-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered figure in full British barrister attire, a black robe, waistcoat, white bands, and a curled grey horsehair wig, standing and holding an open black-and-white manga comic book up in front of his face. Plain transparent background; the comic hides his face so no identity reads.",
+    "primary_subject": "barrister",
+    "primary_action": "reading a manga comic book instead of legal papers",
+    "anachronism": true,
+    "tags": {
+      "concept": [
+        "reading the fine print",
+        "misplaced attention",
+        "legal formality vs. reality",
+        "not reading the contract",
+        "distraction",
+        "comprehension gap",
+        "authority",
+        "due diligence",
+        "the fine print",
+        "entertainment disguised as documents"
+      ],
+      "mood": [
+        "ironic",
+        "playful",
+        "aloof",
+        "formal",
+        "absurd",
+        "wry"
+      ],
+      "domain": [
+        "legal",
+        "compliance",
+        "disclosure",
+        "documentation",
+        "regulation",
+        "contracts"
+      ],
+      "metaphor": [
+        "reading the fine print",
+        "judging a book by its cover",
+        "the letter of the law",
+        "skimming instead of studying"
+      ],
+      "demographic": [
+        "legal professional",
+        "authority figure",
+        "formal expert"
+      ],
+      "visual": [
+        "black barrister robe",
+        "grey horsehair wig",
+        "white neck bands",
+        "open manga comic",
+        "black dress shoes",
+        "hidden face"
+      ]
+    },
+    "mortgage_roles": [
+      "closing attorney",
+      "compliance officer",
+      "regulator",
+      "title attorney",
+      "loan officer reviewing contracts"
+    ],
+    "use_cases": [
+      "Header image for a lesson on why borrowers actually need to read their loan contract, not just skim it.",
+      "Quiz anchor about the difference between legalese and plain-language disclosures.",
+      "Module opener on the legal and compliance side of closing.",
+      "Illustration for a lighthearted warning against glossing over the fine print.",
+      "Section graphic contrasting formal legal authority with real-world comprehension.",
+      "Callout for a myth-busting segment on contracts and legal jargon.",
+      "Empty-state art for a legal-documents or terms-review screen."
+    ],
+    "avoid_for": [
+      "Contexts needing a trustworthy, attentive advisor, since reading a comic signals inattention and the face is hidden so warmth/trust cannot read.",
+      "Serious modules on legal rights or foreclosure defense, where the comic undercuts the gravity.",
+      "Imagery meant to reassure users that professionals are diligently reviewing their file.",
+      "Any place a specific relatable human face must be recognizable."
+    ],
+    "kind": "character",
+    "id": "char_024",
+    "filename": "barrister-reading-comic-book-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered beekeeper in a full cream-colored protective suit with a veiled hood and boots, standing beside a stacked wooden beehive, holding tongs that grip a shiny gold bar. Plain transparent background; the mesh veil hides the face so no identity reads.",
+    "primary_subject": "beekeeper",
+    "primary_action": "carefully extracting a gold bar from a beehive with tongs",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "harvesting wealth",
+        "protected investment",
+        "yield and returns",
+        "careful extraction of value",
+        "risk protection",
+        "building equity over time",
+        "compounding",
+        "guarded assets",
+        "cautious handling",
+        "the payoff of patience"
+      ],
+      "mood": [
+        "cautious",
+        "protective",
+        "diligent",
+        "curious",
+        "quirky",
+        "deliberate"
+      ],
+      "domain": [
+        "risk",
+        "investment",
+        "process",
+        "protection",
+        "returns",
+        "asset management"
+      ],
+      "metaphor": [
+        "harvesting honey as harvesting returns",
+        "gold in the hive as equity",
+        "protective gear as risk management",
+        "handling value with care"
+      ],
+      "demographic": [
+        "cautious steward",
+        "hands-on worker",
+        "patient investor"
+      ],
+      "visual": [
+        "cream beekeeping suit",
+        "veiled hood",
+        "stacked wooden beehive",
+        "gold bar held in tongs",
+        "rubber boots",
+        "hidden face"
+      ]
+    },
+    "mortgage_roles": [
+      "appraiser",
+      "risk manager",
+      "investor",
+      "asset manager",
+      "loan servicer"
+    ],
+    "use_cases": [
+      "Header image for a lesson on building home equity as a store of value over time.",
+      "Quiz anchor about protecting your investment and managing risk.",
+      "Module opener on how returns are harvested carefully rather than grabbed.",
+      "Illustration for content on the patience required to accumulate wealth through a home.",
+      "Section graphic on handling valuable assets with the right precautions.",
+      "Callout for a segment on appraisals and assessing what value a property holds.",
+      "Empty-state art for an equity-tracker or savings-growth feature."
+    ],
+    "avoid_for": [
+      "Contexts needing an approachable, face-forward human, since the veil hides the face and identity/trust cannot read.",
+      "Fast, effortless, or spontaneous themes, since the imagery reads as slow and cautious.",
+      "Literal home-buying visuals where a hive and gold bar would confuse the message.",
+      "Any place a specific recognizable persona is required."
+    ],
+    "kind": "character",
+    "id": "char_025",
+    "filename": "beekeeper-with-hive-transparent.png"
+  },
+  {
+    "literal_description": "A stylized 3D/illustrated pile of banded stacks of green cash engulfed in bright orange flames, with charred edges and plumes of white smoke rising off the top. Plain transparent background; it is a surreal object prop with no person present.",
+    "primary_subject": "burning stack of cash",
+    "primary_action": "going up in flames",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "wasting money",
+        "financial loss",
+        "hidden costs and fees",
+        "throwing money away",
+        "high interest burning cash",
+        "bad investment",
+        "sunk costs",
+        "wealth destruction",
+        "penalties",
+        "money down the drain"
+      ],
+      "mood": [
+        "alarming",
+        "destructive",
+        "urgent",
+        "cautionary",
+        "dramatic",
+        "wasteful"
+      ],
+      "domain": [
+        "risk",
+        "cost",
+        "fees",
+        "loss",
+        "interest",
+        "budgeting"
+      ],
+      "metaphor": [
+        "money going up in smoke",
+        "burning cash",
+        "throwing money away",
+        "watching wealth burn"
+      ],
+      "demographic": [],
+      "visual": [
+        "banded stacks of green bills",
+        "orange and yellow flames",
+        "charred burnt edges",
+        "rising white smoke",
+        "pyramid pile of cash"
+      ]
+    },
+    "mortgage_roles": [
+      "predatory lender",
+      "borrower overpaying",
+      "servicer charging fees"
+    ],
+    "use_cases": [
+      "Header image for a lesson on how high interest or fees waste money over the life of a loan.",
+      "Quiz anchor about identifying costly mistakes like paying PMI unnecessarily.",
+      "Module opener on avoiding throwing money away on the wrong loan terms.",
+      "Illustration for a warning about prepayment penalties or junk fees.",
+      "Section graphic contrasting renting-as-burning-money with building equity.",
+      "Callout for a cautionary segment on predatory lending or overpaying at closing.",
+      "Empty-state or alert art for a fee-comparison or cost-of-loan tool."
+    ],
+    "avoid_for": [
+      "Positive, reassuring content about saving or financial security, where the destruction reads wrong.",
+      "Contexts about safe, insured, or protected funds.",
+      "Celebratory milestones like closing on a home.",
+      "Neutral educational content where the alarming tone would feel manipulative."
+    ],
+    "kind": "character",
+    "id": "char_026",
+    "filename": "burning-stack-of-cash-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered man in full woodland-camo hunting gear, a camo cap, vest with shotgun shells, camo pants, and boots, drinking a green smoothie from a portable blender that covers his face, with a heavy iron ball and chain shackled to his ankle. Plain transparent background; the blender hides his face so no identity reads.",
+    "primary_subject": "camo-clad hunter",
+    "primary_action": "sipping a green smoothie while shackled to a ball and chain",
+    "anachronism": true,
+    "tags": {
+      "concept": [
+        "debt as a burden",
+        "being weighed down",
+        "financial shackles",
+        "long-term obligation",
+        "trapped by payments",
+        "conflicting priorities",
+        "self-improvement amid constraint",
+        "the drag of liabilities",
+        "commitment",
+        "being tied down"
+      ],
+      "mood": [
+        "burdened",
+        "ironic",
+        "conflicted",
+        "absurd",
+        "wry",
+        "encumbered"
+      ],
+      "domain": [
+        "debt",
+        "risk",
+        "obligation",
+        "liability",
+        "commitment",
+        "budgeting"
+      ],
+      "metaphor": [
+        "ball and chain as debt",
+        "shackled to a mortgage",
+        "weighed down by obligations",
+        "chasing wellness while dragging a burden"
+      ],
+      "demographic": [
+        "outdoorsman",
+        "everyday consumer",
+        "constrained borrower"
+      ],
+      "visual": [
+        "woodland camo cap and vest",
+        "shotgun shells in pocket",
+        "portable green-smoothie blender",
+        "iron ball and chain on ankle",
+        "brown boots",
+        "hidden face"
+      ]
+    },
+    "mortgage_roles": [
+      "borrower",
+      "debtor",
+      "co-signer",
+      "loan holder"
+    ],
+    "use_cases": [
+      "Header image for a lesson on how a mortgage is a long-term obligation that can feel like a ball and chain.",
+      "Quiz anchor about the trade-offs of taking on long-term debt.",
+      "Module opener on debt-to-income ratio and the weight of monthly obligations.",
+      "Illustration for content on staying financially healthy while carrying a mortgage.",
+      "Section graphic on the feeling of being tied down by loan commitments.",
+      "Callout for a segment on prepayment or refinancing to lighten the debt burden.",
+      "Empty-state art for a debt-payoff or obligation-tracking feature."
+    ],
+    "avoid_for": [
+      "Contexts needing a relatable, face-forward borrower, since the blender hides the face and identity/trust/warmth cannot read.",
+      "Positive, freeing messages about the joy of homeownership, where the shackle reads negative.",
+      "Serious content about financial hardship or default, where the absurd tone would trivialize it.",
+      "Any place a specific recognizable persona must be shown."
+    ],
+    "kind": "character",
+    "id": "char_027",
+    "filename": "camo-hunter-with-ball-and-chain-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered pyramid of banded stacks of green cash bills displayed inside an illuminated glass museum display case on a dark pedestal base, set on a plain transparent background. No person is present.",
+    "primary_subject": "cash pyramid in a glass display case",
+    "primary_action": "displaying stacked money like a museum exhibit",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "wealth on display",
+        "the pyramid scheme",
+        "capital reserves",
+        "inaccessible money",
+        "conspicuous wealth",
+        "equity locked away",
+        "aspirational net worth",
+        "trophy assets",
+        "liquidity behind glass"
+      ],
+      "mood": [
+        "opulent",
+        "aspirational",
+        "cold",
+        "untouchable",
+        "ostentatious",
+        "tantalizing"
+      ],
+      "domain": [
+        "capital",
+        "wealth",
+        "risk",
+        "investment",
+        "reserves",
+        "net worth",
+        "assets"
+      ],
+      "metaphor": [
+        "money you can see but can't touch",
+        "wealth as a museum piece",
+        "the pyramid of a scheme",
+        "locked equity"
+      ],
+      "demographic": [
+        "aspiring wealth-builder",
+        "investor",
+        "high-net-worth saver"
+      ],
+      "visual": [
+        "banded cash stacks",
+        "pyramid arrangement",
+        "glass display case",
+        "spotlights inside case",
+        "dark pedestal base"
+      ]
+    },
+    "mortgage_roles": [
+      "lender with capital reserves",
+      "investor",
+      "borrower saving a down payment",
+      "wealth manager"
+    ],
+    "use_cases": [
+      "Header image for a module on down-payment savings and the wealth locked behind a home purchase.",
+      "Quiz anchor for a lesson distinguishing legitimate capital reserves from a pyramid scheme.",
+      "Module opener for a lesson on how lenders hold and display capital reserves.",
+      "Illustration for a section on home equity as wealth you can see but not easily access.",
+      "Header for a warning lesson about get-rich-quick and pyramid-scheme financing pitches.",
+      "Visual anchor for a lesson on net worth and asset accumulation over time."
+    ],
+    "avoid_for": [
+      "Lessons emphasizing frugality or modest budgeting, where opulence reads as tone-deaf.",
+      "Content about liquid, spendable cash, since the money here is sealed away.",
+      "Warm, human-centered trust-building content, since the image is cold and impersonal.",
+      "Serious hardship or foreclosure topics, where flaunted wealth would misfire."
+    ],
+    "kind": "character",
+    "id": "char_028",
+    "filename": "cash-pyramid-in-glass-display-case-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered blue chip credit card reading '1234 5678 9012 3456 / CARDHOLDER' lying beside a bar of cream-colored soap, both covered in white soap suds and iridescent bubbles, on a plain transparent background. No person is present.",
+    "primary_subject": "credit card with soap suds",
+    "primary_action": "being washed clean with soap and bubbles",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "money laundering",
+        "cleaning up credit",
+        "washing away debt",
+        "credit repair",
+        "a clean financial slate",
+        "sanitizing finances",
+        "fraud and illicit funds",
+        "credit hygiene"
+      ],
+      "mood": [
+        "playful",
+        "cheeky",
+        "ironic",
+        "light",
+        "suspicious"
+      ],
+      "domain": [
+        "credit",
+        "compliance",
+        "fraud",
+        "risk",
+        "debt",
+        "regulation"
+      ],
+      "metaphor": [
+        "laundering money",
+        "washing your credit clean",
+        "coming clean financially",
+        "a spotless credit record"
+      ],
+      "demographic": [
+        "debtor rebuilding credit",
+        "consumer",
+        "compliance officer"
+      ],
+      "visual": [
+        "blue credit card",
+        "gold EMV chip",
+        "bar of soap",
+        "soap suds",
+        "iridescent bubbles"
+      ]
+    },
+    "mortgage_roles": [
+      "borrower with credit issues",
+      "compliance officer",
+      "fraud investigator",
+      "credit-repair advisor",
+      "predatory lender"
+    ],
+    "use_cases": [
+      "Header image for a module on credit repair and cleaning up your credit report before applying.",
+      "Quiz anchor for a compliance lesson defining money laundering and anti-money-laundering rules.",
+      "Module opener for a lesson on presenting a clean financial slate to underwriters.",
+      "Illustration for a section on fraud red flags and suspicious source-of-funds.",
+      "Header for a lesson on credit hygiene habits that improve mortgage eligibility.",
+      "Visual anchor for content warning about too-good-to-be-true debt-erasure schemes."
+    ],
+    "avoid_for": [
+      "Formal legal or regulatory content where the pun would undercut seriousness.",
+      "Reassuring trust-building copy, where the laundering connotation raises suspicion.",
+      "Lessons about physical property or home value, which the imagery does not evoke.",
+      "Somber content for borrowers in genuine financial distress."
+    ],
+    "kind": "character",
+    "id": "char_029",
+    "filename": "credit-card-with-soap-suds-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered house of cards built entirely from colorful chip-and-contactless credit cards (blue, gold, teal, red, silver) stacked in three tented tiers, on a plain transparent background. No person is present.",
+    "primary_subject": "house of cards made of credit cards",
+    "primary_action": "balancing precariously in a fragile stacked structure",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "financial fragility",
+        "unsustainable debt",
+        "leverage risk",
+        "credit-fueled housing",
+        "the coming collapse",
+        "overextension",
+        "a shaky foundation",
+        "systemic risk",
+        "living on credit"
+      ],
+      "mood": [
+        "precarious",
+        "tense",
+        "ominous",
+        "unstable",
+        "cautionary"
+      ],
+      "domain": [
+        "risk",
+        "debt",
+        "credit",
+        "leverage",
+        "underwriting",
+        "default"
+      ],
+      "metaphor": [
+        "a house of cards",
+        "building a home on debt",
+        "one card away from collapse",
+        "a shaky financial foundation"
+      ],
+      "demographic": [
+        "overextended borrower",
+        "risk-taker",
+        "credit-dependent household"
+      ],
+      "visual": [
+        "multicolored credit cards",
+        "tented card structure",
+        "three stacked tiers",
+        "EMV chips and contactless icons"
+      ]
+    },
+    "mortgage_roles": [
+      "overleveraged borrower",
+      "underwriter assessing risk",
+      "risk analyst",
+      "predatory lender",
+      "loan officer"
+    ],
+    "use_cases": [
+      "Header image for a module on the dangers of building a home purchase on credit-card debt.",
+      "Quiz anchor for a lesson on debt-to-income ratios and overleveraging risk.",
+      "Module opener for a lesson on financial fragility and how loans collapse under stress.",
+      "Illustration for a section on the 2008 housing crisis and systemic mortgage risk.",
+      "Header for a cautionary lesson about unsustainable financing structures.",
+      "Visual anchor for underwriting content on assessing a borrower's shaky foundation."
+    ],
+    "avoid_for": [
+      "Reassuring content meant to build borrower confidence, where instability undercuts trust.",
+      "Lessons celebrating successful, stable homeownership.",
+      "Warm human-centered stories, since no person or face is present to convey identity or trust.",
+      "Content about solid, well-capitalized lending where fragility would mislead."
+    ],
+    "kind": "character",
+    "id": "char_030",
+    "filename": "house-of-cards-made-of-credit-cards-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered young woman in a rainbow tie-dye overall romper and purple high-top sneakers, standing and holding a large round black-framed wall clock in front of her head so her face is completely hidden. Plain transparent background.",
+    "primary_subject": "person holding a clock over their face",
+    "primary_action": "obscuring their face with a wall clock",
+    "anachronism": true,
+    "tags": {
+      "concept": [
+        "time and money",
+        "loan term length",
+        "amortization over time",
+        "the ticking clock of a deadline",
+        "waiting periods",
+        "time-in-market",
+        "youth and long horizons",
+        "faceless timing"
+      ],
+      "mood": [
+        "playful",
+        "carefree",
+        "youthful",
+        "quirky",
+        "anonymous"
+      ],
+      "domain": [
+        "process",
+        "timing",
+        "amortization",
+        "deadlines",
+        "term",
+        "disclosure"
+      ],
+      "metaphor": [
+        "time is money",
+        "your face against the clock",
+        "the ticking deadline",
+        "the long horizon of a loan"
+      ],
+      "demographic": [
+        "young first-time buyer",
+        "Gen-Z consumer",
+        "carefree youth",
+        "anonymous everyperson"
+      ],
+      "visual": [
+        "tie-dye romper overalls",
+        "purple high-top sneakers",
+        "large round wall clock",
+        "hidden face",
+        "casual youthful figure"
+      ]
+    },
+    "mortgage_roles": [
+      "first-time homebuyer",
+      "borrower awaiting closing",
+      "young applicant",
+      "someone facing a rate-lock deadline"
+    ],
+    "use_cases": [
+      "Header image for a module on loan terms and how time affects amortization.",
+      "Quiz anchor for a lesson on closing timelines, waiting periods, and deadlines.",
+      "Module opener for a lesson aimed at young, first-time homebuyers.",
+      "Illustration for a section on rate-lock windows and time-sensitive decisions.",
+      "Header for content on the long horizon of a 30-year mortgage.",
+      "Visual anchor for a lesson framing 'time is money' in mortgage planning."
+    ],
+    "avoid_for": [
+      "Content requiring identity, trust, warmth, or a relatable human connection, since the face is hidden by the clock.",
+      "Formal or authoritative material where the playful tie-dye styling undercuts credibility.",
+      "Lessons about serious financial distress, where the carefree mood misfires.",
+      "Advisor or professional-role imagery, since the figure reads as a casual young consumer, not an expert."
+    ],
+    "kind": "character",
+    "id": "char_031",
+    "filename": "kid-in-tie-dye-holding-clock-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered mail carrier in a blue postal uniform, cap, and messenger bag full of envelopes, standing on a plain transparent background. In place of a head, a giant fluffy pink cloud of cotton candy on a stick is held up in front, so the face is completely hidden.",
+    "primary_subject": "mail carrier",
+    "primary_action": "holding cotton candy in place of his head",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "delivery of documents",
+        "mail-based disclosures",
+        "sweet-but-empty promises",
+        "identity obscured",
+        "official notices",
+        "closing paperwork by mail",
+        "distraction from substance",
+        "communication channel",
+        "servicing correspondence"
+      ],
+      "mood": [
+        "whimsical",
+        "playful",
+        "surreal",
+        "lighthearted",
+        "absurd"
+      ],
+      "domain": [
+        "disclosure",
+        "communication",
+        "documentation",
+        "process",
+        "servicing",
+        "notices"
+      ],
+      "metaphor": [
+        "fluff over substance",
+        "sweet distraction hiding the real message",
+        "the messenger with no face",
+        "sugary spin on hard paperwork"
+      ],
+      "demographic": [
+        "public servant",
+        "delivery worker",
+        "uniformed professional",
+        "everyman"
+      ],
+      "visual": [
+        "blue postal uniform and cap",
+        "pink cotton candy on a stick",
+        "messenger bag stuffed with envelopes",
+        "necktie and belt",
+        "black shoes"
+      ]
+    },
+    "mortgage_roles": [
+      "loan servicer",
+      "document courier",
+      "disclosure sender",
+      "closing coordinator",
+      "notice issuer"
+    ],
+    "use_cases": [
+      "Header image for a module on how mortgage disclosures and notices arrive by mail.",
+      "Quiz anchor for a lesson on reading and responding to servicing correspondence.",
+      "Module opener for a unit on why 'sweet' offers can hide substantive terms in the fine print.",
+      "Illustration for a tip about not letting friendly presentation distract from loan documents.",
+      "Section image for the timeline of paperwork delivered before and after closing.",
+      "Lighthearted banner for a lesson on communication channels between borrower and servicer."
+    ],
+    "avoid_for": [
+      "Serious content about mail fraud or hardship notices where whimsy undercuts the tone.",
+      "Any context requiring a trustworthy human face, since the head is entirely hidden by cotton candy and identity/trust/warmth cannot read.",
+      "Formal compliance or legal-accuracy imagery where absurdity feels unprofessional.",
+      "Financial-distress or foreclosure messaging that needs gravity."
+    ],
+    "kind": "character",
+    "id": "char_032",
+    "filename": "mail-carrier-holding-cotton-candy-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered man in a formal black tailcoat and dress shoes, seen from behind, sawing a wooden beam laid across two sawhorses with a hand saw. His face is turned away from the viewer, so it is not visible. Plain transparent background.",
+    "primary_subject": "man in a tailcoat",
+    "primary_action": "sawing a wooden beam by hand",
+    "anachronism": true,
+    "tags": {
+      "concept": [
+        "cutting corners",
+        "formal labor",
+        "hands-on renovation",
+        "overqualified for the task",
+        "restructuring debt",
+        "dividing an asset",
+        "manual due diligence",
+        "building equity by effort",
+        "mismatch of role and task"
+      ],
+      "mood": [
+        "absurd",
+        "wry",
+        "industrious",
+        "incongruous",
+        "deadpan"
+      ],
+      "domain": [
+        "construction",
+        "renovation",
+        "process",
+        "restructuring",
+        "appraisal",
+        "sweat equity"
+      ],
+      "metaphor": [
+        "cutting the numbers down to size",
+        "dressing up hard work",
+        "splitting an asset",
+        "elegant solution to a rough job"
+      ],
+      "demographic": [
+        "formally dressed professional",
+        "gentleman",
+        "old-money archetype",
+        "white-collar worker doing blue-collar work"
+      ],
+      "visual": [
+        "black tailcoat",
+        "hand saw",
+        "wooden beam",
+        "two sawhorses",
+        "dress shoes",
+        "figure seen from the back"
+      ]
+    },
+    "mortgage_roles": [
+      "home renovator",
+      "appraiser",
+      "loan restructurer",
+      "fix-and-flip investor",
+      "contractor"
+    ],
+    "use_cases": [
+      "Module opener for a lesson on renovation loans and sweat-equity home improvements.",
+      "Header image for a unit on restructuring or 'cutting down' a loan balance.",
+      "Quiz anchor for content on dividing or valuing a property's components during appraisal.",
+      "Illustration for a lesson on doing your own due-diligence work rather than outsourcing it.",
+      "Section image contrasting formal finance and hands-on construction realities.",
+      "Banner for a playful lesson on cutting costs or trimming a budget."
+    ],
+    "avoid_for": [
+      "Content needing an approachable, identifiable person, since the figure faces away and the face is hidden, so identity/trust/warmth cannot read.",
+      "Straightforward professional or corporate imagery where the absurd formal-attire-plus-saw pairing distracts.",
+      "Safety-focused construction messaging that requires realistic protective gear.",
+      "Somber financial-hardship topics."
+    ],
+    "kind": "character",
+    "id": "char_033",
+    "filename": "man-in-tailcoat-sawing-wood-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered figure in a full black ninja outfit with a wrapped hood and mask, fingerless gloves, and tabi-style footwear, balancing in a crouched stance on a cream-colored surfboard. The face is fully covered by the mask, so no features are visible. Plain transparent background.",
+    "primary_subject": "ninja",
+    "primary_action": "surfing / balancing on a surfboard",
+    "anachronism": true,
+    "tags": {
+      "concept": [
+        "balancing risk",
+        "riding market waves",
+        "staying agile",
+        "navigating volatility",
+        "stealthy strategy",
+        "riding out rate changes",
+        "keeping your footing",
+        "timing the market",
+        "hidden fees / hidden moves"
+      ],
+      "mood": [
+        "dynamic",
+        "cool",
+        "playful",
+        "adventurous",
+        "surreal"
+      ],
+      "domain": [
+        "risk",
+        "market timing",
+        "strategy",
+        "volatility",
+        "negotiation",
+        "agility"
+      ],
+      "metaphor": [
+        "riding the wave of interest rates",
+        "keeping your balance in a shifting market",
+        "stealth and agility in a deal",
+        "surfing volatility"
+      ],
+      "demographic": [
+        "agile operator",
+        "risk-taker",
+        "strategist",
+        "stealthy figure"
+      ],
+      "visual": [
+        "black ninja hood and mask",
+        "black wrapped gloves and sleeves",
+        "cream surfboard with a center stripe",
+        "crouched surfing stance",
+        "tabi-style footwear"
+      ]
+    },
+    "mortgage_roles": [
+      "savvy borrower",
+      "market-timing refinancer",
+      "rate strategist",
+      "risk-tolerant investor",
+      "sharp negotiator"
+    ],
+    "use_cases": [
+      "Header image for a lesson on riding interest-rate waves and timing a refinance.",
+      "Quiz anchor for content on balancing risk and staying agile in a volatile market.",
+      "Module opener for a unit on strategy and navigating market ups and downs.",
+      "Illustration for a lesson on keeping your financial footing during changing conditions.",
+      "Playful banner for content on stealthy or overlooked costs and moves in a deal.",
+      "Section image for a lesson on adaptability when rates shift unexpectedly."
+    ],
+    "avoid_for": [
+      "Trust- or relationship-building content, since the face is fully masked and identity/warmth cannot read.",
+      "Serious, sober financial-planning material where the ninja concept feels flippant.",
+      "Content about transparency and openness, which clashes with a stealth/concealment figure.",
+      "Formal compliance or legal-accuracy imagery."
+    ],
+    "kind": "character",
+    "id": "char_034",
+    "filename": "ninja-surfer-on-surfboard-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered stack of four color-coded ring binders (pink, orange, green, blue) overflowing with loose papers, topped with a bright blue polka-dot party hat, next to a full flute of sparkling champagne. Plain transparent background; no person present.",
+    "primary_subject": "stack of document folders with party hat and champagne",
+    "primary_action": "celebrating a completed pile of paperwork",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "celebrating closing",
+        "paperwork milestone",
+        "completed documentation",
+        "approval achieved",
+        "deal finalized",
+        "organized records",
+        "the reward after the process",
+        "signing complete",
+        "record-keeping"
+      ],
+      "mood": [
+        "celebratory",
+        "cheerful",
+        "festive",
+        "upbeat",
+        "satisfied"
+      ],
+      "domain": [
+        "documentation",
+        "process",
+        "closing",
+        "compliance",
+        "record-keeping",
+        "milestone"
+      ],
+      "metaphor": [
+        "toasting the finished paperwork",
+        "the party at the end of the process",
+        "papers stacked into a prize",
+        "champagne for a signed deal"
+      ],
+      "demographic": [
+        "first-time homebuyer",
+        "organized planner",
+        "celebrant",
+        "detail-oriented borrower"
+      ],
+      "visual": [
+        "four color-coded ring binders",
+        "overflowing loose papers",
+        "blue polka-dot party hat",
+        "flute of sparkling champagne"
+      ]
+    },
+    "mortgage_roles": [
+      "closing borrower",
+      "loan officer marking a completed file",
+      "document processor",
+      "first-time buyer at closing",
+      "compliance record-keeper"
+    ],
+    "use_cases": [
+      "Celebratory header image for a lesson on reaching the closing / final-signing stage.",
+      "Module completion image congratulating a learner for finishing a documentation unit.",
+      "Quiz anchor for content on organizing and retaining mortgage paperwork.",
+      "Section image for the milestone when all conditions are cleared and the loan is approved.",
+      "Banner for a lesson framing the mountain of closing documents as a finish line.",
+      "Reward graphic shown after completing a paperwork-heavy Homeroom module."
+    ],
+    "avoid_for": [
+      "Serious content about denied applications or missing documents, where celebration is tonally wrong.",
+      "Warmth- or trust-focused imagery that needs a human presence, since no person or face is shown here.",
+      "Early-stage lessons where celebrating implies premature completion.",
+      "Financial-hardship or delinquency topics."
+    ],
+    "kind": "character",
+    "id": "char_035",
+    "filename": "party-hat-on-stack-of-folders-with-champagne-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered, rusted vintage tin robot with a domed antenna head stands on a plain transparent background, cradling a small live tabby kitten in its metal arms. The robot's face is a blank metal plate with glowing amber eyes and no real expression, so no human face reads.",
+    "primary_subject": "rusty robot cradling a kitten",
+    "primary_action": "gently holding a fragile kitten",
+    "anachronism": true,
+    "tags": {
+      "concept": [
+        "trust in automation",
+        "protecting the vulnerable",
+        "human touch vs. machine process",
+        "care and safekeeping",
+        "AI-driven underwriting",
+        "fiduciary duty",
+        "handling a delicate transaction",
+        "legacy systems handling modern needs"
+      ],
+      "mood": [
+        "tender",
+        "quirky",
+        "endearing",
+        "uncanny",
+        "reassuring"
+      ],
+      "domain": [
+        "automation",
+        "process",
+        "risk",
+        "servicing",
+        "trust",
+        "technology",
+        "customer care"
+      ],
+      "metaphor": [
+        "cold machine with a warm heart",
+        "algorithm handling something fragile",
+        "safeguarding a small asset",
+        "the system caring for the borrower"
+      ],
+      "demographic": [
+        "retro-futurist machine",
+        "caretaker archetype",
+        "gentle giant"
+      ],
+      "visual": [
+        "rusted blue-grey metal body",
+        "single head antenna",
+        "glowing amber eyes",
+        "articulated joints",
+        "small tabby kitten",
+        "clasped metal hands",
+        "transparent background"
+      ]
+    },
+    "mortgage_roles": [
+      "automated underwriting system",
+      "loan servicer",
+      "fiduciary/custodian of escrow",
+      "robo-advisor",
+      "compliance bot"
+    ],
+    "use_cases": [
+      "Header image for a lesson on how automated underwriting handles a borrower's sensitive financial data with care",
+      "Module opener explaining escrow accounts as a system safeguarding your money",
+      "Quiz anchor for a question about the human-touch limits of AI mortgage tools",
+      "Illustration for a piece on trusting robo-advisors and digital loan platforms",
+      "Explainer graphic on how loan servicers 'hold' and protect your account",
+      "Reassurance visual for a section easing fears about faceless automated lending"
+    ],
+    "avoid_for": [
+      "Serious compliance or legal-disclosure pages where the whimsy undercuts gravity",
+      "Contexts requiring a warm, trustworthy human face — the robot's face is a blank plate, so avoid where personal identity, empathy, or human warmth must read",
+      "Foreclosure or hardship content where a cute tone would feel tone-deaf"
+    ],
+    "kind": "character",
+    "id": "char_036",
+    "filename": "robot-holding-kitten-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered figure in a slim red-and-white Santa suit with black boots and belt stands on a plain transparent background, holding up a spiral-bound wall calendar reading DECEMBER with the 25th circled in red. The calendar is raised in front of the head, hiding the face entirely.",
+    "primary_subject": "Santa-suited figure holding a December calendar",
+    "primary_action": "holding up a calendar with a deadline date circled",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "deadlines and due dates",
+        "year-end financial planning",
+        "seasonal timing",
+        "closing dates",
+        "payment schedules",
+        "countdown to a milestone",
+        "gifting and generosity",
+        "time-sensitive decisions"
+      ],
+      "mood": [
+        "festive",
+        "playful",
+        "urgent",
+        "cheerful",
+        "anticipatory"
+      ],
+      "domain": [
+        "scheduling",
+        "process",
+        "documentation",
+        "servicing",
+        "payments",
+        "planning"
+      ],
+      "metaphor": [
+        "mark your calendar",
+        "the clock is ticking on a deadline",
+        "a gift with an expiration date",
+        "waiting for the big day"
+      ],
+      "demographic": [
+        "holiday helper archetype",
+        "faceless everyperson",
+        "seasonal figure"
+      ],
+      "visual": [
+        "slim red velvet Santa suit",
+        "white fur trim",
+        "black belt and gold buckle",
+        "December wall calendar",
+        "circled 25th in red",
+        "white gloves",
+        "black boots",
+        "transparent background"
+      ]
+    },
+    "mortgage_roles": [
+      "borrower facing a closing deadline",
+      "loan officer flagging a due date",
+      "servicer sending a payment reminder",
+      "escrow officer tracking key dates"
+    ],
+    "use_cases": [
+      "Header image for a lesson on critical mortgage deadlines like closing dates and rate-lock expirations",
+      "Module opener on year-end refinancing or tax-timing decisions",
+      "Quiz anchor for questions about payment due dates and grace periods",
+      "Illustration for content on the mortgage closing timeline and calendar milestones",
+      "Seasonal explainer on buying or refinancing before the end of the year",
+      "Reminder graphic for a section on scheduling escrow and insurance payments"
+    ],
+    "avoid_for": [
+      "Serious hardship or default content where a festive costume trivializes the topic",
+      "Contexts needing a credible, identifiable professional — the face is hidden behind the calendar, so avoid where personal trust or identity must read",
+      "Evergreen material where the strong December/holiday tie-in would feel off-season"
+    ],
+    "kind": "character",
+    "id": "char_037",
+    "filename": "santa-holding-december-calendar-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered trio of women shown from the rear on a plain transparent background, each in a 1950s-style outfit: white blouse, black belt, and a full poodle skirt (pink, blue, purple) with a black appliqué poodle, plus polka-dot party hats and saddle shoes. All three raise arms in cheering/peace-sign gestures; because it is a rear view, none of their faces are visible.",
+    "primary_subject": "three 1950s poodle-skirt women, rear view",
+    "primary_action": "cheering with raised arms and peace signs",
+    "anachronism": true,
+    "tags": {
+      "concept": [
+        "celebration and milestones",
+        "retro/legacy contrast",
+        "group or community",
+        "vintage lending eras",
+        "cohort comparison",
+        "options and variety",
+        "the way things used to be",
+        "shared success"
+      ],
+      "mood": [
+        "upbeat",
+        "nostalgic",
+        "celebratory",
+        "playful",
+        "energetic"
+      ],
+      "domain": [
+        "history",
+        "comparison",
+        "demographics",
+        "process",
+        "education",
+        "community"
+      ],
+      "metaphor": [
+        "turning your back to the past",
+        "picking from a lineup of options",
+        "the good old days of lending",
+        "three of a kind"
+      ],
+      "demographic": [
+        "1950s Americana archetype",
+        "young adult cohort",
+        "peer group",
+        "retro consumer"
+      ],
+      "visual": [
+        "pink, blue and purple poodle skirts",
+        "black appliqué poodles",
+        "white blouses",
+        "black belts",
+        "polka-dot party hats",
+        "saddle shoes",
+        "raised arms and peace signs",
+        "transparent background"
+      ]
+    },
+    "mortgage_roles": [
+      "first-time homebuyer cohort",
+      "borrowers comparing loan options",
+      "generational borrower archetypes",
+      "community of homeowners"
+    ],
+    "use_cases": [
+      "Header image for a lesson comparing mortgage products from different eras (then vs. now)",
+      "Module opener celebrating a milestone like paying off a loan or closing on a first home",
+      "Quiz anchor for a question about how mortgage lending has changed since mid-century",
+      "Illustration for content on choosing among several loan options, mirroring the three variants",
+      "Playful graphic for a community or peer-group homebuyer section",
+      "Retro-themed opener for a history-of-mortgages explainer"
+    ],
+    "avoid_for": [
+      "Serious legal, disclosure, or hardship content where the retro whimsy undercuts credibility",
+      "Contexts needing eye contact, warmth, or individual identity — it is a rear view with no faces visible, so avoid where personal trust must read",
+      "Content about modern digital lending where the dated 1950s styling could confuse the message"
+    ],
+    "kind": "character",
+    "id": "char_038",
+    "filename": "three-women-in-poodle-skirts-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered wedding couple shown from behind on a plain transparent background — a barefoot bride in a white lace gown and veil and a groom in a black tuxedo — each standing on their own separate bathroom scale, hands on hips. As a rear view, neither face is visible.",
+    "primary_subject": "wedding couple each standing on a bathroom scale, rear view",
+    "primary_action": "weighing themselves on separate scales while facing away",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "weighing your options",
+        "joint vs. individual finances",
+        "measuring up / qualification",
+        "commitment and partnership",
+        "financial assessment",
+        "balancing two applicants",
+        "the weight of a decision",
+        "combining incomes and debts"
+      ],
+      "mood": [
+        "contemplative",
+        "witty",
+        "wry",
+        "measured",
+        "slightly tense"
+      ],
+      "domain": [
+        "qualification",
+        "assessment",
+        "risk",
+        "underwriting",
+        "documentation",
+        "negotiation",
+        "co-borrowing"
+      ],
+      "metaphor": [
+        "weighing the numbers",
+        "measuring up to a standard",
+        "carrying the weight together",
+        "two people put on the scales"
+      ],
+      "demographic": [
+        "newlywed couple archetype",
+        "joint borrowers",
+        "young married applicants"
+      ],
+      "visual": [
+        "white lace wedding gown and veil",
+        "black tuxedo",
+        "two separate bathroom scales",
+        "hands on hips",
+        "barefoot bride",
+        "rear view",
+        "transparent background"
+      ]
+    },
+    "mortgage_roles": [
+      "co-borrowers / married applicants",
+      "underwriter assessing combined income",
+      "borrowers being qualified",
+      "joint account holders"
+    ],
+    "use_cases": [
+      "Header image for a lesson on how lenders weigh two applicants' combined income and debt",
+      "Module opener on joint mortgage applications for married couples",
+      "Quiz anchor for a question about how co-borrower finances are assessed",
+      "Illustration for content on debt-to-income ratios and 'measuring up' to qualify",
+      "Explainer graphic on weighing the pros and cons of buying a home together",
+      "Section opener on combining vs. separating finances when applying as a couple"
+    ],
+    "avoid_for": [
+      "Content about individual/single-applicant mortgages where the couple framing misleads",
+      "Contexts needing warmth, celebration, or personal connection — it is a rear view with no faces, so avoid where identity, joy, or trust must read",
+      "Sensitive topics like divorce or body image where scales-and-weighing could feel uncomfortable"
+    ],
+    "kind": "character",
+    "id": "char_039",
+    "filename": "wedding-couple-on-scales-rear-view-transparent.png"
   }
 ]

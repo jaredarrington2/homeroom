@@ -83,6 +83,7 @@ const section4: SectionContent = {
         },
         {
           "heading": "who counts as a loan originator",
+          "anchor": { "file": "astronaut-saxophone.PNG", "caption": "two roles", "kind": "char" },
           "paras": [
             {
               "html": "The whole Act turns on one definition. A <b>loan originator</b> is someone who <b>takes a residential mortgage loan application</b> and <b>offers or negotiates loan terms</b> for <span class=\"cloze\" data-accept='[\"compensation or gain\",\"compensation\",\"gain\",\"pay\",\"money\"]' data-reveal=\"compensation or gain\">?</span>. Both halves matter — take an application <em>and</em> talk terms, for money. That's why some people who touch a loan aren't originators at all: purely <b>clerical or administrative</b> staff, a <b>real-estate agent</b> doing brokerage work (unless a lender or broker pays them for the loan), and anyone dealing solely in <b>timeshare</b> credit all fall outside the definition — and outside the licensing that comes with it."

@@ -94,6 +94,7 @@ const section5: SectionContent = {
         },
         {
           heading: "the USDA loan — homeownership in rural America",
+          anchor: { file: "01-cozy-cottage.png", caption: "rural roots", kind: "bldg" },
           paras: [
             {
               html: `<b>Section <span class="cloze" data-accept='["502","five hundred two","five oh two"]' data-reveal="502">?</span></b> of the USDA code establishes USDA home financing, whose purpose is to encourage homeownership in <b>rural</b> America. Like the VA loan, it's <b>guaranteed</b> by its agency — the U.S. Department of Agriculture — not insured. A property qualifies only if it sits in an <b>approved USDA rural locale</b> (the USDA publishes an eligibility map). USDA loans, like FHA, accommodate both traditional and non-traditional credit, and finance <b>primary residences only</b>.`,

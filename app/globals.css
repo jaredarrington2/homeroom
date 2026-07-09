@@ -64,8 +64,10 @@
 .section-reader .group { font-family: var(--fm); font-size: 11.5px; letter-spacing: .05em; text-transform: uppercase;
   color: var(--ink-muted); border-top: 1px solid var(--hair); padding-top: 22px; margin: 36px 0 14px; }
 
-/* small, quiet anchor image (one per concept group, not per paragraph) */
+/* small, quiet anchor image (one per concept group, not per paragraph).
+   Anchors alternate corner down a unit (UnitReader sets .anchor-left / .anchor-right). */
 .section-reader .anchor { float: right; margin: 2px 0 10px 22px; width: auto; }
+.section-reader .anchor.anchor-left { float: left; margin: 2px 22px 10px 0; }
 .section-reader .anchor img { height: 118px; width: auto; display: block; filter: drop-shadow(0 8px 14px rgba(10,10,10,.10)); }
 .section-reader .anchor figcaption { font-family: var(--fm); font-size: 10px; color: var(--ink-faint); text-align: center;
   margin-top: 5px; letter-spacing: .02em; }
