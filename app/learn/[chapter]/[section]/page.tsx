@@ -38,7 +38,7 @@ export default function SectionPage({ params }: { params: { chapter: string; sec
         <>
         <section className="mt-6 mb-12 border border-hairline bg-loose-paper px-8 py-10 sm:px-12">
           <div className="flex flex-col-reverse items-center gap-8 sm:flex-row sm:items-end sm:gap-12">
-            <p className="flex-1 font-display text-xl font-light leading-relaxed text-ink-muted sm:text-2xl">
+            <p className="flex-1 font-display text-xl font-light leading-relaxed text-ink-muted sm:self-start sm:text-2xl">
               {content.summary}
             </p>
             <Character
