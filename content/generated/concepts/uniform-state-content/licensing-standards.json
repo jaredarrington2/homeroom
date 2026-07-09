@@ -7,7 +7,7 @@
     "start": 586,
     "end": 600
   },
-  "summary": "This section uses real-world scenarios to illustrate ethical and procedural standards for MLOs, covering topics from down payment calculation and ARM adjustments to fraud prevention, disclosure requirements, and cybersecurity responsibilities. MLOs must act in the borrower's best interest, disclose conflicts, report red flags, and never falsify application information.",
+  "summary": "Most of the job isn't dramatic — it's small decisions made correctly, over and over. Here they come as scenarios: a down payment that isn't the same as the cash a borrower needs at closing, an ARM whose caps you have to read right, a gift that's really a disguised loan. It's about acting in the borrower's interest, and knowing what to disclose, what to report, and what you can never put your name to.",
   "concepts": [
     {
       "id": "down-payment-vs-total-cash",

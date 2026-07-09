@@ -7,7 +7,7 @@
     "start": 271,
     "end": 310
   },
-  "summary": "This section covers loan product fundamentals including temporary MLO authority, compensation rules, property types, security instruments, mortgage purposes, ATR/QM requirements, and conventional conforming/non-conforming loan guidelines. It establishes the regulatory and structural framework within which mortgage loan originators must operate when selecting and originating residential loan products.",
+  "summary": "Before you can put a borrower in a loan, a few things have to be settled: whether you're cleared to originate yet, how you're allowed to be paid, and whether the borrower can actually afford to repay. Those ground rules come first — temporary authority, the limits on your pay, the ability-to-repay test — followed by the anatomy of a conventional loan and the document that puts a home on the line if the payments stop.",
   "concepts": [
     {
       "id": "temporary-authority",

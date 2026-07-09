@@ -7,7 +7,7 @@
     "start": 351,
     "end": 390
   },
-  "summary": "This section covers advanced ARM mechanics (CAPs, start rates, qualification rules), specialty mortgage types (reverse mortgages, piggyback, balloon, construction, interest-only, and less-common products), and foundational mortgage industry terminology used throughout the loan origination process.",
+  "summary": "A fixed-rate loan is easy to picture: the same payment for thirty years. The loans here aren't. An adjustable rate can climb after closing by caps and formulas you'll need to know exactly; a reverse mortgage pays the homeowner instead of the other way around; a balloon comes due all at once. This is where those moving parts get their names — caps, teaser rates, negative amortization — and the vocabulary you'll use every day gets pinned down.",
   "concepts": [
     {
       "id": "arm-caps",

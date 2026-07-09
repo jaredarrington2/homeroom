@@ -7,7 +7,7 @@
     "start": 391,
     "end": 415
   },
-  "summary": "This section covers the URLA mortgage application's asset, liability, real estate, declaration, demographic, and lender-information sections, detailing what must be documented in each and the rules governing how assets like mutual funds and retirement accounts are valued. It also addresses HMDA demographic collection, the Unmarried Addendum, and the Lender Loan Information Form.",
+  "summary": "The application is the form the whole loan is built on, and it's fussier than it looks. A retirement account doesn't count for its full balance, only some liabilities make the list, and a whole section exists just to collect demographic data the lender is forbidden to use in the decision. This walks the URLA — the standard mortgage application — part by part: what belongs in each, and the valuation rules that trip people up.",
   "concepts": [
     {
       "id": "mutual-fund-120-percent-rule",

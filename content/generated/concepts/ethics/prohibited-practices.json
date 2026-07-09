@@ -7,7 +7,7 @@
     "start": 563,
     "end": 570
   },
-  "summary": "This section catalogs the red flags MLOs must watch for across sales contracts, applications, occupancy claims, employment/income documents, credit reports, and general transaction behavior to detect and prevent mortgage fraud. MLOs are obligated to question suspicious indicators, document their findings, and never tip off a subject if a Suspicious Activity Report is filed.",
+  "summary": "Most mortgage fraud doesn't look like fraud. It looks like an income that's a little too round, an address that doesn't match, a job that can't be reached — small things in the file that don't add up. Here's where those signals hide, from the sales contract to the credit report, what you're required to do when one surfaces, and why you never tip off the person you're reporting.",
   "concepts": [
     {
       "id": "sales-contract-red-flags",

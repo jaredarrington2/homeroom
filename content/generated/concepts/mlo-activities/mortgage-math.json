@@ -7,7 +7,7 @@
     "start": 521,
     "end": 540
   },
-  "summary": "This section covers the mathematical calculations mortgage loan originators must perform—including interest, PMI, LTV, DTI, and discount points—as well as ethical obligations, fraud definitions, prohibited conduct, and common mortgage fraud schemes that MLOs must recognize and avoid.",
+  "summary": "This is the arithmetic the job runs on. How much interest builds between closing and the first payment, what the monthly payment comes to once taxes and insurance are folded in, where the loan-to-value and debt-to-income ratios land, and whether paying for points ever earns its cost back. These are the calculations you're expected to do by hand — and to get right, because they decide what a borrower can be offered.",
   "concepts": [
     {
       "id": "periodic-and-interim-interest",
