@@ -50,7 +50,7 @@ function ProgramComparison() {
   return (
     <div className="dv-paper dv-pc" style={{ padding: "26px 22px 20px" }}>
       <div className="dv-h">The four residential loan programs</div>
-      <div className="dv-hsub">Conventional · FHA · VA · USDA — what separates them, side by side</div>
+      <div className="dv-hsub">Who backs each loan sets its down payment and mortgage insurance</div>
       <hr className="dv-rule dv-double" />
 
       {/* desktop: 8-row × 5-column grid */}

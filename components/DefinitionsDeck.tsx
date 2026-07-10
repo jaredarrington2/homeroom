@@ -166,9 +166,8 @@ export default function DefinitionsDeck({ defs, name, unitId }: { defs: Definiti
   return (
     <div className="defs" id={`audio-${unitId}-gate-definitions`}>
       <div className="defs-head">
-        <div className="eyebrow">{name} · the words first</div>
+        <div className="eyebrow">{name}</div>
         <div className="defs-title">Definitions</div>
-        <p className="defs-lede">The terms {name} leans on. See the term, say the meaning, then flip to check.</p>
         <div className="defs-hint">{defs.length} terms</div>
       </div>
 
