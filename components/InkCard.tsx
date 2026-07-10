@@ -24,7 +24,7 @@ const META: Record<InkCardKind, { title: string; sub: string }> = {
   },
   balloon: {
     title: "Balloon",
-    sub: "a small payment set on a long amortization — then the whole balance is called, years early.",
+    sub: "a small payment set on a long amortization — then the whole balance comes due at once, years early.",
   },
 };
 
@@ -174,13 +174,13 @@ function BalloonDiag() {
       </g>
       <g fill={INK} fontFamily="Caveat, cursive" fontWeight={700}>
         <text x={104} y={104} fontSize={20}>balance barely falls</text>
-        <text x={372} y={150} fontSize={23} fill={INK_DEEP}>the whole balance — called</text>
+        <text x={372} y={150} fontSize={23} fill={INK_DEEP}>the whole balance — due at once</text>
         <text x={112} y={332} fontSize={18} fontWeight={600}>small payment · 30-yr clock</text>
         <text x={318} y={332} fontSize={17} fontWeight={700} fill={INK_DEEP}>3/27 · yr 3</text>
       </g>
       <g fontFamily="Caveat, cursive">
         <text x={100} y={366} fontSize={20} fontWeight={700} fill={INK_DEEP}>pays like a 30-year loan, but the full balance comes due years early</text>
-        <text x={100} y={398} fontSize={19} fontWeight={600} fill={INK}>convert instead with a <tspan fontWeight={700} fill={INK_DEEP}>CRTM</tspan> — written notice no later than 45 days before the call.</text>
+        <text x={100} y={398} fontSize={19} fontWeight={600} fill={INK}>convert instead with a <tspan fontWeight={700} fill={INK_DEEP}>CRTM</tspan> — written notice no later than 45 days before it's due.</text>
       </g>
     </svg>
   );
@@ -199,7 +199,9 @@ export default function InkCard({ kind }: { kind: InkCardKind }) {
   return (
     <figure className="ic" aria-hidden="true">
       <div className="ic-pad">
-        <div className="ic-title">{m.title}</div>
+        {/* Sharpie title — same hand-lettering treatment as the photoreal study cards (a
+            per-card OpenAI-generated ink-on-transparent PNG), not a web font. */}
+        <img className="ic-title" src={`/illustrations/repayment/${kind}-title.png`} alt={m.title} loading="eager" />
         <div className="ic-sub">{m.sub}</div>
         <div className="ic-diag">
           <Diag />
