@@ -35,6 +35,9 @@ export default function LearnForms() {
           <footer>
             <p>Progress isn&apos;t saved. Reloading starts you over.</p>
             <p className="lf-xlink">
+              Rather follow one borrower through the whole application? <Link href="/learn/mlo-activities/application">Meet Maya →</Link>
+            </p>
+            <p className="lf-xlink">
               Looking up one field or form? <Link href="/learn/mlo-activities/explorer">Open the form explorer →</Link>
             </p>
           </footer>
