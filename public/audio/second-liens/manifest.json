@@ -1,0 +1,50 @@
+{
+  "unitId": "second-liens",
+  "name": "Second liens and equity lines",
+  "reg": "home-equity loans · HELOCs · purchase-money seconds",
+  "groupCount": 3,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-second-liens-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "A second lien lets an owner borrow against the equity they've built without touching the first mortgage. It comes in two shapes: a home-equity loan hands over a fixed sum at a fixed rate and amortizes like any loan, while a home-equity line of credit (HELOC) works like a credit card against the house — draw, repay, and draw again."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-second-liens-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "A HELOC is open for about 10 years — the draw period — during which the borrower draws and repays freely and is usually billed interest-only on whatever is outstanding, at a rate that tracks the Prime rate. When the draw period closes, the line freezes and the remaining balance amortizes over the years left."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-second-liens-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "A buyer without 20% down can still skip PMI by splitting the financing into two loans. Private mortgage insurance attaches only to the first mortgage, so a first lien at 80% loan-to-value or below carries no PMI at all; a second lien then covers the gap between that first mortgage and the buyer's down payment."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-second-liens-g2-gate-synth",
+      "gi": 2
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-second-liens-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-second-liens-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-second-liens-gate-mcq"
+    }
+  ]
+}

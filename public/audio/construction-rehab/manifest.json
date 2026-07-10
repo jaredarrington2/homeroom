@@ -1,0 +1,57 @@
+{
+  "unitId": "construction-rehab",
+  "name": "Construction and rehab loans",
+  "reg": "construction · construction-to-permanent · rehab (203k / HomeStyle)",
+  "groupCount": 4,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-construction-rehab-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "A lender won't write a standard mortgage on a house that doesn't exist yet — there's no finished collateral to secure the loan. Construction financing fills the gap: it funds the build in stages and converts to an ordinary mortgage once the home stands."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-construction-rehab-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "At closing the lender advances the land cost and an agreed share of the build. As each phase finishes, the builder requests the next draw; the lender inspects the work before releasing it, and repeats until the home is complete and fully funded. During the build the borrower is billed interest-only, and only on the funds drawn so far."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-construction-rehab-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "A construction-to-permanent loan settles the build into an end loan the borrower chooses while construction is still underway. One-close does it in a single settlement; two-close closes the permanent loan separately, in a second settlement. Long rate locks are available, but they get expensive past 90 days, so timing the lock against the build schedule matters."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-construction-rehab-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "A rehab loan lends on the home's as-is value plus the cost of the planned work, releasing funds against inspections as the renovation proceeds, then converting to an end loan. The government versions are the FHA 203(k) and the VA Renovation loan; the conventional versions — Fannie Mae's HomeStyle and Freddie Mac's Renovation loan — also cover second homes and investment properties, which the 203(k) can't."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-construction-rehab-g3-gate-synth",
+      "gi": 3
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-construction-rehab-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-construction-rehab-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-construction-rehab-gate-mcq"
+    }
+  ]
+}

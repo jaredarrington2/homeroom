@@ -1,0 +1,64 @@
+{
+  "unitId": "repayment-structures",
+  "name": "How a loan gets repaid",
+  "reg": "fixed-rate · interest-only · balloon · the amortization curve",
+  "groupCount": 5,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-repayment-structures-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "A fixed-rate loan locks one interest rate for the whole term, so the principal-and-interest payment never changes. Early on, most of each payment is interest; as the balance falls, more of it goes to principal, until the loan is paid off on schedule. Every other product in this unit is a change to that one arrangement — the payment, the payoff date, or both."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-repayment-structures-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "On a 30-year loan the crossover — the month principal finally overtakes interest inside each payment — sits more than halfway in. A $200,000 loan at 6% pays $231,676 in interest across the full schedule. Paying extra against principal each month moves the crossover earlier and drops that total sharply."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-repayment-structures-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "An interest-only loan bills only the interest for a set period, so the balance holds flat — nothing is going to principal. It exists only as a feature of a non-QM mortgage: a lender either keeps it in portfolio or sells it to a private investor. When the interest-only period ends, the loan re-casts to a payment that repays the full balance over the years left, and that payment jumps."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-repayment-structures-g2-gate-synth",
+      "gi": 2
+    },
+    {
+      "kind": "prose",
+      "id": "audio-repayment-structures-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "A balloon loan sets its payment on a 30- or 15-year amortization but calls the entire remaining balance due years earlier. Lenders write it as two numbers — years to the call, then the amortization behind the payment — so a 3/27 pays like a 30-year loan but comes due at year three. The low rate is the trade for the risk that the borrower can't cover the call. To exercise a conditional right to modify (CRTM) — converting the balloon to a fixed rate instead of paying it — the borrower must give written notice no later than 45 days before the call."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-repayment-structures-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "When a borrower pays a lump sum against principal, a fixed-rate loan normally keeps the payment the same and shortens the term. A re-cast does the opposite: the servicer recomputes a lower payment against the new, smaller balance over the remaining term. It's discretionary and often carries a fee — and the interest rate never changes."
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-repayment-structures-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-repayment-structures-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-repayment-structures-gate-mcq"
+    }
+  ]
+}

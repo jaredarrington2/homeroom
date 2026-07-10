@@ -16,6 +16,7 @@ import StudyCard from "./StudyCard";
 import FormWalkthrough from "./FormWalkthrough";
 import Worksheet from "./Worksheet";
 import CapLadder from "./CapLadder";
+import PiggybackStack from "./PiggybackStack";
 import { figureSrc, type SectionUnit } from "@/lib/section";
 import { getStudyCard } from "@/content/study-cards";
 
@@ -82,7 +83,8 @@ export default function UnitReader({
             {g.visual && <DisclosureVisual kind={g.visual} />}
             {g.walkthrough && <FormWalkthrough form={g.walkthrough} />}
             {g.worksheet && <Worksheet kind={g.worksheet} />}
-            {g.vizWidget && <CapLadder kind={g.vizWidget} />}
+            {g.vizWidget === "piggyback" && <PiggybackStack />}
+            {g.vizWidget && g.vizWidget !== "piggyback" && <CapLadder kind={g.vizWidget} />}
             {g.studyCard && getStudyCard(g.studyCard) && <StudyCard card={getStudyCard(g.studyCard)!} />}
             {g.synth && <Synth q={g.synth.q} a={g.synth.a} unitId={unit.id} groupIndex={gi} synthId={`${unit.id}-synth-${gi}`} />}
           </div>

@@ -19,6 +19,8 @@ export default function DisclosureVisual({ kind }: { kind: DisclosureVisualKind 
       {kind === "exam-attempts" && <ExamAttempts />}
       {kind === "temp-authority-windows" && <TempAuthorityWindows />}
       {kind === "program-comparison" && <ProgramComparison />}
+      {kind === "reverse-disbursement" && <ReverseDisbursement />}
+      {kind === "draw-schedule" && <DrawSchedule />}
     </figure>
   );
 }
@@ -715,6 +717,89 @@ function LifecycleTimeline() {
 
       <div className="dv-mnote red" style={{ fontSize: 15, marginTop: 12, fontWeight: 600 }}>
         Only ONE disclosure uses general business days — the Special Information Booklet. Everything else at application = precise.
+      </div>
+    </div>
+  );
+}
+
+/* ── Module 5 — reverse mortgage: the 60% first-year cap + payout options ────── */
+// Reference visual (not graded): the principal-limit bar with the first-year-accessible 60%
+// shaded and the rest hatched, plus the four ways the money can arrive. The 60% figure is the
+// U13 cloze; this reinforces it without re-testing.
+function ReverseDisbursement() {
+  return (
+    <div className="dv-paper" style={{ padding: "26px 24px 22px" }}>
+      <div className="dv-h">Reverse mortgage — how the money comes out</div>
+      <div className="dv-hsub">The principal limit, and the first-year 60% cap</div>
+      <hr className="dv-rule dv-double" />
+
+      <div style={{ display: "flex", height: 36, border: "1px solid var(--dv-ink)", margin: "8px 0 4px" }}>
+        <div style={{ width: "60%", background: "var(--dv-hl-y)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 12, fontWeight: 700 }}>
+          60% — available in year one
+        </div>
+        <div style={{ width: "40%", background: "repeating-linear-gradient(45deg, transparent, transparent 5px, #d8d8d8 5px, #d8d8d8 6px)", borderLeft: "1px dashed var(--dv-ink)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 11 }}>
+          40% — after
+        </div>
+      </div>
+      <div className="dv-mnote" style={{ fontSize: 14 }}>
+        The whole bar is the <b>principal limit</b> — set by the youngest borrower&apos;s age. The first-year draw can&apos;t exceed the shaded 60%.
+      </div>
+
+      <hr className="dv-rule" />
+
+      <div className="dv-tw sm muted" style={{ textTransform: "uppercase", letterSpacing: 1, marginBottom: 8 }}>
+        How the proceeds can arrive
+      </div>
+      <ul className="dv-checks">
+        <li className="checked"><b>Lump sum</b> — the whole available amount at once</li>
+        <li className="checked"><b>Line of credit</b> — draw as needed; the unused line grows over time</li>
+        <li className="checked"><b>Tenure</b> — a set monthly amount for as long as you live in the home</li>
+        <li className="checked"><b>Term</b> — a larger monthly amount for a fixed number of years</li>
+      </ul>
+    </div>
+  );
+}
+
+/* ── Module 5 — construction draw schedule (staged disbursement timeline) ─────── */
+// Reference visual (not graded): closing → inspect → draw → inspect → draw → complete, with the
+// interest-only-on-drawn-funds note. Mirrors the RESPA lifecycle-timeline pattern (.dv-tl).
+function DrawSchedule() {
+  return (
+    <div className="dv-paper" style={{ padding: "28px 28px 24px" }}>
+      <div className="dv-h" style={{ fontSize: 12, marginBottom: 2 }}>Construction draw schedule</div>
+      <div className="dv-hsub" style={{ marginBottom: 16 }}>Closing → staged draws → the end loan</div>
+      <hr className="dv-rule dv-double" />
+
+      <div className="dv-tl">
+        <div className="dv-tl-event">
+          <div className="dv-tl-dot" />
+          <div className="dv-tl-label">Closing</div>
+          <div className="dv-tl-title">Land + first draw</div>
+          <div className="dv-tl-detail">lender advances the lot and an agreed share of the build</div>
+        </div>
+        <div className="dv-tl-event">
+          <div className="dv-tl-dot" />
+          <div className="dv-tl-label">Phase done</div>
+          <div className="dv-tl-title">Inspect → draw</div>
+          <div className="dv-tl-detail">builder requests the next draw; lender inspects before releasing</div>
+        </div>
+        <div className="dv-tl-event">
+          <div className="dv-tl-dot" />
+          <div className="dv-tl-label">Phase done</div>
+          <div className="dv-tl-title">Inspect → draw</div>
+          <div className="dv-tl-detail">repeat until the home is complete and fully funded</div>
+        </div>
+        <div className="dv-tl-event">
+          <div className="dv-tl-dot" style={{ background: "var(--dv-green)", boxShadow: "0 0 0 1px var(--dv-green)" }} />
+          <div className="dv-tl-label" style={{ color: "var(--dv-green)" }}>Complete</div>
+          <div className="dv-tl-title">Converts to the end loan</div>
+          <div className="dv-tl-detail">permanent financing replaces the construction loan</div>
+        </div>
+      </div>
+
+      <hr className="dv-rule" />
+      <div className="dv-mnote red" style={{ fontSize: 15, marginTop: 12, fontWeight: 600 }}>
+        During the build the borrower pays interest only — and only on the funds drawn so far.
       </div>
     </div>
   );

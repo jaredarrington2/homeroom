@@ -1974,3 +1974,48 @@
 .application .app-foot a{color:var(--royal); text-decoration:none;}
 .application .app-foot a:hover{text-decoration:underline;}
 @media(max-width:560px){ .application .studydeck{grid-template-columns:1fr;} .application .hero{width:118px;} .application .toc{display:none;} }
+
+/* ===== PiggybackStack (.pb-*) — the second-liens viz (a stacked LTV bar) =================
+   Flat white card, scoped under .section-reader like the CapLadder. The reader picks a split;
+   the first-lien segment stays at or below the 80% PMI line in every valid split — the teach. */
+.section-reader .pb { --pb-hl: #FFE27A; margin: 26px 0 30px; }
+.section-reader .pb * { box-sizing: border-box; }
+.section-reader .pb-seg { display: inline-flex; border: 1px solid var(--hair-strong); border-radius: 6px; overflow: hidden; margin-bottom: 16px; }
+.section-reader .pb-seg button {
+  font-family: var(--font-type); font-size: 12px; padding: 7px 14px; border: none;
+  border-right: 1px solid var(--hair-strong); background: #fff; color: var(--ink-muted); cursor: pointer;
+  transition: color .15s ease, background .15s ease;
+}
+.section-reader .pb-seg button:last-child { border-right: none; }
+.section-reader .pb-seg button.on { background: var(--royal); color: #fff; }
+
+.section-reader .pb-bar {
+  position: relative; display: flex; width: 100%; height: 46px; border: 1px solid var(--hair);
+  border-radius: 6px; overflow: hidden; background: #fff;
+}
+.section-reader .pb-bar > span { display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-type); font-size: 12px; color: #fff; }
+.section-reader .pb-seg-first { background: var(--royal); }
+.section-reader .pb-seg-second { background: #6E86C4; }
+.section-reader .pb-seg-down { background: #fff; color: var(--ink-muted); border-left: 1px dashed var(--hair-strong); }
+.section-reader .pb-pmi { position: absolute; top: -4px; bottom: -4px; width: 0; border-left: 2px solid var(--loose-margin); }
+
+.section-reader .pb-legend { display: flex; flex-wrap: wrap; gap: 14px; margin: 10px 0 4px;
+  font-family: var(--font-type); font-size: 10.5px; color: var(--ink-muted); align-items: center; }
+.section-reader .pb-legend span { display: inline-flex; align-items: center; gap: 5px; }
+.section-reader .pb-k { width: 11px; height: 11px; border-radius: 2px; display: inline-block; }
+.section-reader .pb-kf { background: var(--royal); }
+.section-reader .pb-ks { background: #6E86C4; }
+.section-reader .pb-kd { background: #fff; border: 1px solid var(--hair-strong); }
+.section-reader .pb-pmi-lbl { color: var(--loose-margin); border-left: 2px solid var(--loose-margin); padding-left: 6px; }
+
+.section-reader .pb-read { font-size: 13.5px; color: var(--ink); line-height: 1.5; margin: 12px 0 0; }
+.section-reader .pb-check { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--hair); }
+.section-reader .pb-q { font-size: 13px; color: var(--ink-muted); margin: 0 0 10px; }
+.section-reader .pb-btn {
+  font-family: var(--font-sans); font-size: 12.5px; font-weight: 500; border: 1px solid var(--hair-strong);
+  background: #fff; color: var(--ink); padding: 6px 14px; border-radius: 6px; cursor: pointer;
+}
+.section-reader .pb-btn:hover { border-color: var(--royal); color: var(--royal); }
+.section-reader .pb-a { font-size: 13.5px; color: var(--ink); line-height: 1.5; margin: 0; }
+.section-reader .pb-a .hl { background: var(--pb-hl); padding: 0 3px; border-radius: 1.5px; }

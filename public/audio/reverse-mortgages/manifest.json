@@ -1,0 +1,71 @@
+{
+  "unitId": "reverse-mortgages",
+  "name": "Reverse mortgages",
+  "reg": "HECM / FHA 255 · HUD-insured · age 62+ · non-recourse",
+  "groupCount": 5,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-reverse-mortgages-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "A reverse mortgage lets an owner 62 or older draw the equity in their home as cash while staying in it, with no monthly mortgage payment required. Interest accrues onto the balance instead of being paid down. The loan comes due only when the last borrower leaves the home — sells it, moves out, or passes away."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-reverse-mortgages-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "The youngest borrower's age sets how much of the home's value the loan will lend — the principal limit. Older borrowers can draw more, since the balance has less time to grow against the home's value. However the money is taken, a first-year cap lets the borrower access no more than 60% of the principal limit up front."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-reverse-mortgages-g1-p1",
+      "gi": 1,
+      "pi": 1,
+      "text": "The proceeds can arrive several ways. First, as a lump sum. Second, as a line of credit the borrower draws on over time. Third, as a monthly annuity — either tenure, which pays for as long as the borrower lives in the home, or term, which pays a larger amount for a set number of years."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-reverse-mortgages-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "Nothing is owed until a triggering event. First, the last borrower dies with no surviving spouse. Second, the home is sold. Third, the borrower is out of the home for more than twelve straight months. Fourth, the property taxes and insurance lapse. Because the loan is non-recourse, if the balance ever climbs above the home's value, the F H A insurance covers the gap — never the borrower or the heirs."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-reverse-mortgages-g2-gate-synth",
+      "gi": 2
+    },
+    {
+      "kind": "prose",
+      "id": "audio-reverse-mortgages-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "Before closing, every borrower completes independent HUD-approved counseling; without that certificate the lender has no enforceable lien. A LESA — a life expectancy set-aside — can be carved out of the proceeds to pay the taxes and insurance on the borrower's behalf, so a lapse never triggers the loan. A spouse under 62 can stay on the title as a non-borrowing spouse and remain in the home for life, as long as the borrowing spouse qualified."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-reverse-mortgages-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "The HECM — home equity conversion mortgage — is the common one: FHA-insured, and flexible in how it pays out. A single-purpose reverse mortgage comes from a state or local program for one named use, like repairs or property taxes; a proprietary one is a private, uninsured loan for higher-value homes. Because the audience is elderly, the advertising is policed hard: the MAP Rule (Regulation N) makes it a violation to misrepresent the costs, the payments, or the borrower's right to stay in the home."
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-reverse-mortgages-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-reverse-mortgages-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-reverse-mortgages-gate-mcq"
+    }
+  ]
+}

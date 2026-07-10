@@ -1,0 +1,43 @@
+{
+  "unitId": "less-common-programs",
+  "name": "Less-common programs",
+  "reg": "GPM · GEM · land contract · package · ROM",
+  "groupCount": 2,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-less-common-programs-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "Two fixed-rate programs deliberately break the level payment. A graduated payment mortgage starts the payments below the true cost — the shortfall is added to the balance, so it negative amortization — then steps them up on a set schedule. A growth equity mortgage does the reverse: the payments run higher than required, the extra goes straight to principal, and the loan pays off early."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-less-common-programs-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "A land contract hands over possession but not the deed — the buyer pays the seller directly and takes title only once the agreed sum is paid; walk away early and the payments are forfeit. A package mortgage collateralizes the land, the dwelling, and the personal property inside it — furniture and appliances — as one appraised bundle. A reduction option mortgage is a fixed-rate loan with a one-time chance to drop the rate without refinancing, for a fee."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-less-common-programs-g1-gate-synth",
+      "gi": 1
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-less-common-programs-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-less-common-programs-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-less-common-programs-gate-mcq"
+    }
+  ]
+}

@@ -44,7 +44,9 @@ export type DisclosureVisualKind =
   | "pe-ce-hours"
   | "exam-attempts"
   | "temp-authority-windows"
-  | "program-comparison";
+  | "program-comparison"
+  | "reverse-disbursement"
+  | "draw-schedule";
 
 /** A chained computational cloze rendered as a lender's loan worksheet (Worksheet.tsx,
  *  a client component). The learner fills the blank amount lines; each feeds the next.
@@ -55,7 +57,7 @@ export type WorksheetKind = "fha-structure" | "purchase" | "va-structure";
  *  not a skeuomorphic document (charts aren't documents). arm-cap-ladder drills the ARM
  *  worst-case rate climb; amortization is the second instance on the same shell (later).
  *  Config + exercises live in content/widgets/<kind>.ts. */
-export type VizWidgetKind = "arm-cap-ladder" | "amortization";
+export type VizWidgetKind = "arm-cap-ladder" | "amortization" | "piggyback";
 
 export type CapMode = "conv" | "fha";
 
@@ -87,6 +89,35 @@ export interface CapExercise {
   answer: { year: number; rate: number };
   /** Reveal HTML shown once solved; may wrap values in <span class="hl">. */
   reveal: string;
+}
+
+/** One amortization case — a fixed-rate loan, optionally with extra monthly principal.
+ *  schedule() in content/widgets/amortization.ts is the single source of truth for both the
+ *  check-your-work reveal and the Explore redraw. */
+export interface AmortizationConfig {
+  principal: number;
+  /** Annual rate, e.g. 0.06 for 6%. */
+  rate: number;
+  termMonths: number;
+  /** Extra monthly principal payment, on top of the standard P&I. */
+  extra?: number;
+}
+
+/** One check-your-work exercise for the amortization viz: predict the payoff month + total
+ *  interest under an extra-payment scenario. */
+export interface AmortizationExercise {
+  config: AmortizationConfig;
+  prompt: string;
+  answer: { months: number; totalInterest: number };
+  reveal: string;
+}
+
+/** One canonical LTV split for the piggyback-stack viz (first + second + down = 100). */
+export interface PiggybackSplit {
+  label: string;
+  first: number;
+  second: number;
+  down: number;
 }
 
 export interface WorksheetStep {
