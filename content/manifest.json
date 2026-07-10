@@ -4413,5 +4413,326 @@
     "kind": "character",
     "id": "char_048",
     "filename": "trackstars-tied-for-first-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered woman seen from behind in a magenta-and-navy sleeveless triathlon suit and a pink swim cap with goggles, a plaid scarf at her neck, standing on downhill snow skis in ski boots and holding two ski poles. Plain transparent background; a whimsical mash-up of three sports at once.",
+    "primary_subject": "triathlete on snow skis",
+    "primary_action": "standing gamely on skis in a triathlon suit, gear mismatched across sports",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "first-timer out of her element",
+        "gamely overprepared for the task",
+        "learning by doing",
+        "tackling something unfamiliar",
+        "eager beginner",
+        "bringing what you have to a new challenge"
+      ],
+      "mood": [
+        "plucky",
+        "earnest",
+        "a little in over her head",
+        "determined"
+      ],
+      "domain": [
+        "application",
+        "process",
+        "learning",
+        "preparation"
+      ],
+      "metaphor": [
+        "a first-time buyer on an unfamiliar course",
+        "dressed for the wrong sport",
+        "diving into something new"
+      ],
+      "visual": [
+        "pink swim cap and goggles",
+        "magenta-and-navy tri-suit",
+        "plaid scarf",
+        "snow skis and poles",
+        "rear view"
+      ]
+    },
+    "mortgage_roles": [
+      "first-time borrower",
+      "loan applicant"
+    ],
+    "use_cases": [
+      "Identity avatar for Maya Okonkwo, the first-time-buyer borrower in the Module 6 Application walkthrough.",
+      "Anchor for content about applying for a first mortgage or being new to the process."
+    ],
+    "avoid_for": [
+      "Contexts needing a seasoned expert figure.",
+      "Places a specific different persona is required."
+    ],
+    "kind": "character",
+    "id": "char_049",
+    "filename": "triathlete-snow-ski-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered couple seen from behind riding a single blue tandem bicycle together, both in matching navy football jerseys numbered 25 and 07 and blue jeans. Plain transparent background; two riders, one bike.",
+    "primary_subject": "couple on a tandem bicycle",
+    "primary_action": "pedaling one bicycle together in matching team jerseys",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "shared undertaking",
+        "two people one vehicle",
+        "combined resources",
+        "pulling together",
+        "partnership",
+        "joint effort"
+      ],
+      "mood": [
+        "in-sync",
+        "companionable",
+        "teamwork"
+      ],
+      "domain": [
+        "co-borrowing",
+        "shared assets",
+        "partnership",
+        "application"
+      ],
+      "metaphor": [
+        "co-borrowers sharing one loan",
+        "one bike two riders as commingled finances",
+        "moving forward in tandem"
+      ],
+      "visual": [
+        "blue tandem bicycle",
+        "matching navy football jerseys",
+        "numbers 25 and 07",
+        "rear view"
+      ]
+    },
+    "mortgage_roles": [
+      "co-borrowers",
+      "joint applicants"
+    ],
+    "use_cases": [
+      "Identity avatar for the Alvarez co-borrowers on the Additional Borrower Form (borrowers who share all assets).",
+      "Anchor for joint-application or shared-asset content."
+    ],
+    "avoid_for": [
+      "Single-borrower or solo-applicant contexts.",
+      "Places a specific different persona is required."
+    ],
+    "kind": "character",
+    "id": "char_050",
+    "filename": "couple-football-fans-tandem-bicycle-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered pair seen from behind running a three-legged race, dressed as samurai in matching lamellar armor — one red, one blue — with their inner ankles tied together by a white cloth band. Plain transparent background.",
+    "primary_subject": "two samurai in a three-legged race",
+    "primary_action": "running a three-legged race with ankles bound together",
+    "anachronism": true,
+    "tags": {
+      "concept": [
+        "bound together but distinct",
+        "joint but not merged",
+        "mutual dependence",
+        "allied, not married",
+        "tied by choice",
+        "coordinated pair"
+      ],
+      "mood": [
+        "determined",
+        "cooperative",
+        "playful-competitive"
+      ],
+      "domain": [
+        "co-borrowing",
+        "joint liability",
+        "partnership",
+        "application"
+      ],
+      "metaphor": [
+        "unmarried co-borrowers legally tied for one loan",
+        "bound at the ankle, not the ring",
+        "joint credit without marriage"
+      ],
+      "visual": [
+        "red and blue samurai armor",
+        "white rope tie between the ankles",
+        "mid-stride",
+        "rear view"
+      ]
+    },
+    "mortgage_roles": [
+      "unmarried co-borrowers",
+      "joint applicants"
+    ],
+    "use_cases": [
+      "Identity avatar for the unmarried domestic-partner borrowers on the Unmarried Addendum.",
+      "Anchor for content on joint credit between unmarried applicants or non-spouse property rights."
+    ],
+    "avoid_for": [
+      "Contexts implying a married couple.",
+      "Places a specific different persona is required."
+    ],
+    "kind": "character",
+    "id": "char_051",
+    "filename": "samurai-three-legged-race-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered pair of park rangers in matching tan-and-green uniforms and campaign hats, each carrying a tall stack of red 'PIZZA' boxes that hides their faces, in green cargo trousers and brown work boots. Plain transparent background.",
+    "primary_subject": "two park rangers carrying pizza boxes",
+    "primary_action": "hauling tall stacks of pizza boxes in ranger uniforms",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "long-time stewards",
+        "returning with a load",
+        "seasoned keepers",
+        "established owners",
+        "carrying what they've accumulated",
+        "back again"
+      ],
+      "mood": [
+        "dependable",
+        "weathered",
+        "wry"
+      ],
+      "domain": [
+        "refinance",
+        "ownership",
+        "stewardship",
+        "servicing"
+      ],
+      "metaphor": [
+        "long-time owners refinancing a home they already hold",
+        "stewards of their own land",
+        "carrying years of accumulated equity"
+      ],
+      "visual": [
+        "ranger uniforms and campaign hats",
+        "tall stacks of red pizza boxes",
+        "hidden faces",
+        "work boots"
+      ]
+    },
+    "mortgage_roles": [
+      "refinancing borrowers",
+      "existing homeowners"
+    ],
+    "use_cases": [
+      "Identity avatar for the Nguyens, the refinance borrowers tied to the Lender Loan Information Form, SCIF, and Continuation Sheet.",
+      "Anchor for refinance or existing-owner content."
+    ],
+    "avoid_for": [
+      "First-time-buyer or purchase-only contexts.",
+      "Places a specific different persona is required."
+    ],
+    "kind": "character",
+    "id": "char_052",
+    "filename": "forest-rangers-pizza-boxes-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered figure in a tan detective's trench coat, deerstalker hat and brown three-piece suit, holding a red-and-black '5KG' medicine ball raised in front of the face. Plain transparent background.",
+    "primary_subject": "detective holding a medicine ball",
+    "primary_action": "raising a weighted medicine ball to size it up in place of the face",
+    "anachronism": false,
+    "tags": {
+      "concept": [
+        "independent inspection",
+        "weighing value",
+        "sizing something up",
+        "outside expert",
+        "investigating worth",
+        "third-party assessment"
+      ],
+      "mood": [
+        "scrutinizing",
+        "methodical",
+        "deadpan"
+      ],
+      "domain": [
+        "appraisal",
+        "valuation",
+        "inspection",
+        "verification"
+      ],
+      "metaphor": [
+        "an appraiser weighing a property's value",
+        "the outside investigator",
+        "judging worth by the pound"
+      ],
+      "visual": [
+        "deerstalker hat",
+        "tan trench coat",
+        "three-piece suit",
+        "5KG medicine ball",
+        "hidden face"
+      ]
+    },
+    "mortgage_roles": [
+      "appraiser",
+      "inspector"
+    ],
+    "use_cases": [
+      "Identity avatar for the appraiser (Dana Osei) on the Uniform Residential Appraisal Report.",
+      "Anchor for appraisal or property-valuation content."
+    ],
+    "avoid_for": [
+      "Contexts needing a borrower or applicant.",
+      "Places a specific different persona is required."
+    ],
+    "kind": "character",
+    "id": "char_053",
+    "filename": "detective-medicine-ball-transparent.png"
+  },
+  {
+    "literal_description": "A 3D-rendered older man seen from behind in a navy lighthouse-keeper's uniform and peaked cap with a pipe, flying on a riveted vintage twin-cylinder jetpack that trails flame, in black rubber boots. Plain transparent background.",
+    "primary_subject": "lighthouse keeper with a jetpack",
+    "primary_action": "flying on a vintage jetpack while dressed as a lighthouse keeper",
+    "anachronism": true,
+    "tags": {
+      "concept": [
+        "guiding others safely",
+        "steady guardian with extra thrust",
+        "seasoned guide",
+        "keeping the light",
+        "propelling a deal forward"
+      ],
+      "mood": [
+        "reassuring",
+        "steady",
+        "adventurous"
+      ],
+      "domain": [
+        "origination",
+        "guidance",
+        "process",
+        "attestation"
+      ],
+      "metaphor": [
+        "the loan officer guiding a file safely to closing",
+        "a steady guardian with momentum",
+        "lighting the way through the process"
+      ],
+      "visual": [
+        "navy keeper uniform and cap",
+        "pipe",
+        "riveted twin-cylinder jetpack",
+        "flame trail",
+        "rear view"
+      ]
+    },
+    "mortgage_roles": [
+      "loan originator",
+      "mortgage loan officer"
+    ],
+    "use_cases": [
+      "Identity avatar for the MLO ('you') who takes the application and attests in Section 9 across the forms.",
+      "Anchor for loan-officer or origination-process content."
+    ],
+    "avoid_for": [
+      "Contexts needing a borrower rather than the originator.",
+      "Places a specific different persona is required."
+    ],
+    "kind": "character",
+    "id": "char_054",
+    "filename": "lighthouse-keeper-jetpack-transparent.png"
   }
 ]

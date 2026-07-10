@@ -384,7 +384,7 @@ export const SCENARIOS: Scenario[] = [
 // the preview's loose associations onto the project's real character library.
 // Floated to the side, text wrapping the silhouette; side alternates down the page.
 export const HEROES: Record<string, HeroDef> = {
-  hero_form: { file: "three-women-in-poodle-skirts-transparent.png", side: "right" },
+  hero_form: { file: "triathlete-snow-ski-transparent.png", side: "right" }, // Maya's own costumed avatar
   ch1: { file: "wedding-couple-on-scales-rear-view-transparent.png", side: "right" }, // marital status, ECOA
   ch2: { file: "beekeeper-with-hive-transparent.png", side: "left" }, // harvesting income from sources
   ch3: { file: "house-of-cards-made-of-credit-cards-transparent.png", side: "right" }, // assets and debts
