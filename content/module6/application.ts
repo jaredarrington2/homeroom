@@ -58,9 +58,9 @@ export const CHAPTERS: AppChapter[] = [
     secs: ["1b", "1c", "1d", "1e"],
     stickerId: "app-income",
     intro:
-      "A lender is really asking one thing across this whole part: can this person keep paying? Every field is " +
-      "evidence for it — where the money comes from, how steady it is, how long it’s lasted. Maya draws a single " +
-      "salary, so her income is easy to document. The harder files are the ones with several sources, or self-employment.",
+      "This part is where the lender weighs whether the borrower can keep paying — where the money comes from, how " +
+      "steady it is, how long it’s lasted. Maya draws a single salary, so her income is easy to document. The harder " +
+      "files are the ones with several sources, or self-employment.",
   },
   {
     id: "ch3",
@@ -204,69 +204,52 @@ export const MAYA_BEAT: Record<string, string> = {
   ch7: "She reads the terms and signs. You add your name and number, attesting you helped prepare it truthfully.",
 };
 
-// Scripted voiceover, one per chapter — NOT a reading of the form. Each narration
-// explains what this part of the application captures and calls out the gotchas an
-// originator has to watch for. Generated to public/audio/application/{chapterId}.mp3
-// by scripts/generate-application-audio.ts (same TTS voice as the reader).
+// Scripted voiceover, one per chapter — NOT a reading of the form. The generator
+// (scripts/generate-application-audio.ts) prepends the chapter's on-screen intro,
+// then reads this continuation: the specific rules and traps that go beyond the
+// intro. So the audio = the paragraph you're reading + the deeper walk-through.
+// Generated to public/audio/application/{chapterId}.mp3 (same TTS voice as the reader).
 export const VOICEOVER: Record<string, string> = {
   ch1:
-    "This first part is where the lender works out exactly who's applying. Maya's legal name, her date of " +
-    "birth, her citizenship — the basics that pin down one specific person. Watch the marital-status line, " +
-    "though. There are only three boxes you're allowed to use: married, separated, or unmarried. And " +
-    "\"unmarried\" is a catch-all — single, divorced, widowed, it all goes there. Here's the trap: you can " +
-    "record that someone's unmarried, but you can never ask them why. Asking a borrower why they're single " +
-    "or divorced is a fair-lending violation under E-C-O-A. One more thing — the address history has to cover " +
-    "a full two years. If Maya had been at her place less than two years, you'd need to account for wherever " +
-    "she was before it.",
+    "Marital status is the line to watch. Only three boxes are allowed — married, separated, or unmarried — " +
+    "and \"unmarried\" covers single, divorced, and widowed alike. You can record it, but you can never ask " +
+    "why someone is unmarried; that crosses into an E-C-O-A violation. The address history matters too: it has " +
+    "to reach back a full two years, so if the borrower has been at their place for less, account for wherever " +
+    "they were before it.",
   ch2:
-    "Everything in this part is really answering one question: can this borrower keep paying? Maya's easy — " +
-    "she draws a single salary from one employer, so her income is simple to document. But notice how it's " +
-    "recorded: every figure goes in as a monthly amount, and it has to come from real documentation like pay " +
-    "stubs, never a number the borrower just tells you. The big gotcha here is self-employment. If a borrower " +
-    "owns twenty-five percent or more of the business that pays them, they count as self-employed — even if " +
-    "they get a regular paycheck and call themselves an employee. And before you ever ask about alimony or " +
-    "child support they receive, you have to tell them first that they don't need to disclose it unless they " +
-    "want it counted as income.",
+    "Watch how income gets recorded — every figure is a monthly amount, taken from documentation like pay " +
+    "stubs, never a number the borrower just tells you. The trap is self-employment: owning twenty-five " +
+    "percent or more of the business that pays you counts as self-employed, even with a regular paycheck. And " +
+    "before you ask about alimony or child support a borrower receives, you have to tell them first that it " +
+    "doesn't need to be disclosed unless they want it counted as income.",
   ch3:
-    "Now we're looking at two things at once: what Maya could put toward the loan, and what already pulls " +
-    "money out of her pocket each month. Assets first, then debts. Her assets are ordinary — a savings " +
-    "account, a checking account, a retirement account. The debts are where the traps live. See that old " +
-    "home-equity line with a zero balance? You still enter it, by hand. Systems leave zero-balance lines off, " +
-    "but a zero balance today doesn't stop her drawing on it tomorrow. And her car loan — six payments left. " +
-    "Normally a debt with no payment shown is a problem, but there's an exception: if there are ten or fewer " +
-    "months remaining, it can be left out of the numbers, subject to underwriting.",
+    "Her assets are ordinary — savings, checking, a retirement account. The debts are where the traps live. " +
+    "That old home-equity line with a zero balance still gets entered by hand: a zero balance today doesn't " +
+    "stop her drawing on it tomorrow. And her car loan has six payments left — normally a debt with no payment " +
+    "shown is a problem, but with ten or fewer months remaining, it can be left out of the numbers, subject to " +
+    "underwriting.",
   ch4:
-    "This part is for real estate the borrower already owns — and Maya owns none, she's a first-time buyer, " +
-    "so her file just reads \"does not apply.\" But it's worth knowing what you'd do if she owned something. " +
-    "Every property gets disclosed here, even one owned free and clear with no mortgage on it, because it " +
-    "still costs money — property taxes, insurance, upkeep. And if there's a rental with no tax return to go " +
-    "by, you don't take the borrower's word for the income. You use seventy-five percent of the gross rent on " +
-    "the lease, minus the mortgage payment. That twenty-five percent haircut covers vacancy and the odd month " +
-    "it sits empty.",
+    "Even with Maya's file reading \"does not apply,\" know what you'd do if she owned something. Every " +
+    "property gets disclosed — even one owned free and clear, because it still costs money in taxes and " +
+    "upkeep. And for a rental with no tax return to go by, you don't take the borrower's word for the income: " +
+    "you count seventy-five percent of the gross rent on the lease, minus the mortgage payment. That " +
+    "twenty-five percent covers vacancy.",
   ch5:
-    "The earlier parts described the borrower. This part describes the deal. How much Maya wants to borrow — " +
-    "three hundred and fifteen thousand — against what property, whether she'll live in it or rent it out, and " +
-    "where the cash to close is coming from. It's straightforward for her. The one thing to watch is a section " +
-    "that trips people up: rent from the property she's buying goes in one place, four-C, while rent from a " +
-    "property she already owns would go somewhere else entirely, three-A. Same idea, two different sections. " +
-    "And keep an eye on the occupancy choices — \"F-H-A secondary residence\" is its own thing here, and it is " +
-    "not the same as a second home.",
+    "It's a straightforward deal for her. The pair of sections people mix up: rent from the property she's " +
+    "buying goes in four-C, while rent from a property she already owns goes in three-A. And watch the " +
+    "occupancy choices — \"F-H-A secondary residence\" is its own option, and it's not the same as a second " +
+    "home.",
   ch6:
-    "These are the questions that decide whether the loan can happen at all. Has the borrower had a " +
-    "bankruptcy, a foreclosure, a lawsuit, a default on a government debt. Maya's come back clean, but you " +
-    "still ask every single one — and here's the rule that matters most: you never answer them for her. The " +
-    "borrower answers each declaration under her own signature. Why does it matter so much? Take that " +
-    "federal-debt question. A default on federal debt — a student loan, say — makes a borrower ineligible for " +
-    "F-H-A financing outright. And four of these questions look back exactly seven years: a deed in lieu, a " +
-    "short sale, a foreclosure, and a bankruptcy.",
+    "Maya's declarations come back clean, but you ask every one, and you never answer them for her — she signs " +
+    "under each. The reason it matters: a default on federal debt, like a student loan, makes a borrower " +
+    "ineligible for F-H-A financing outright. And four of these questions look back exactly seven years — a " +
+    "deed in lieu, a short sale, a foreclosure, and a bankruptcy.",
   ch7:
-    "This is where the application stops being paperwork and becomes a legal document. Maya reads the terms " +
-    "and signs — and her signature means everything on here is true, under penalty. Then there's the " +
-    "government's demographic questionnaire. It's required, it doesn't affect the decision, and there's a " +
-    "sharp rule attached: if a borrower declined to answer on a phone or online application, you never go back " +
-    "and fill it in later, even if you meet them and think you could tell. And finally, your signature, as the " +
-    "loan originator. When you sign section nine, you're attesting you helped prepare this truthfully, " +
-    "correctly and completely. Get that wrong and it's not just a bad file — it can be criminal.",
+    "When Maya signs, everything on the form is true under penalty. The government's demographic questions " +
+    "come next — required, they don't affect the decision, and there's a sharp rule: if a borrower declined to " +
+    "answer on a phone or online application, you never fill it in later, even if you meet them and think you " +
+    "can tell. And your own signature, in section nine, attests you helped prepare this truthfully, correctly, " +
+    "and completely. Get that wrong and it can be criminal.",
 };
 
 // Study cards per chapter: front (a real question) / back (the rule). Feed the SRS later.
@@ -358,8 +341,8 @@ export const RECAP: Record<string, UnitRecap> = {
   },
   ch2: {
     plainLanguage:
-      "Every field in this part is evidence toward the same thing: can this borrower keep paying? Where the " +
-      "money comes from, how steady it is, and how long it's lasted.",
+      "This part weighs whether the borrower can keep paying — where the money comes from, how steady it is, and " +
+      "how long it's lasted.",
     facts: [
       "Owning <span class=\"hl\">25% or more</span> of the business that employs you means self-employed — however you're paid.",
       "Before asking about alimony or child support a borrower receives, you must first say it doesn't need to be disclosed <span class=\"hl\">unless they want it counted</span> as income.",

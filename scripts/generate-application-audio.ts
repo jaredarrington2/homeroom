@@ -15,6 +15,10 @@ import * as fs from "fs";
 import * as path from "path";
 import { CHAPTERS, VOICEOVER } from "../content/module6/application";
 
+// The audio for a chapter = the on-screen intro paragraph, then the deeper walk-through.
+const scriptFor = (chId: string, intro: string): string =>
+  VOICEOVER[chId] ? `${intro} ${VOICEOVER[chId]}` : "";
+
 const MODEL_ID = "gpt-4o-mini-tts";
 const VOICE = "ash"; // same narrator as the reader
 const INSTRUCTIONS =
@@ -66,7 +70,7 @@ function costTable() {
   console.log("  ------------------------------------------------");
   let total = 0;
   for (const ch of CHAPTERS) {
-    const c = (VOICEOVER[ch.id] || "").length;
+    const c = scriptFor(ch.id, ch.intro).length;
     total += c;
     console.log(`  ${ch.id.padEnd(9)} ${ch.q.padEnd(28)} ${String(c).padStart(5)}`);
   }
@@ -82,7 +86,7 @@ async function build() {
   fs.mkdirSync(AUDIO_DIR, { recursive: true });
   let made = 0, skipped = 0;
   for (const ch of CHAPTERS) {
-    const script = VOICEOVER[ch.id];
+    const script = scriptFor(ch.id, ch.intro);
     if (!script) { console.warn(`  ${ch.id}: no script, skipping`); continue; }
     const mp3 = path.join(AUDIO_DIR, `${ch.id}.mp3`);
     if (fs.existsSync(mp3)) { skipped++; continue; }

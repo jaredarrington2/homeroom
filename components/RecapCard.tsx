@@ -105,11 +105,13 @@ export default function RecapCard({ unitName, reg, recap, unitId }: RecapCardPro
 
           <div className="rc-leftbody">
             <p className="rc-plain">{recap.plainLanguage}</p>
+            {/* hide gracefully if the sticker PNG for this unit hasn't been generated yet */}
             <img
               className="rc-sticker"
               src={`/illustrations/_stickers/${unitId}.png`}
               alt={`${unitName} — category sticker`}
               loading="lazy"
+              onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; }}
             />
           </div>
 
