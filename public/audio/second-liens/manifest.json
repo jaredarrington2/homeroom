@@ -9,14 +9,28 @@
       "id": "audio-second-liens-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "A second lien lets an owner borrow against the equity they've built without touching the first mortgage. It comes in two shapes: a home-equity loan hands over a fixed sum at a fixed rate and amortizes like any loan, while a home-equity line of credit (HELOC) works like a credit card against the house — draw, repay, and draw again."
+      "text": "Every mortgage payment buys back a little more of your house. That's what equity is: the part you've already bought — what the home is worth, minus what you still owe on it. Put $80,000 down on a $400,000 house and you own $80,000 of it the day you move in; keep paying, or watch prices in the neighborhood climb, and that share keeps widening. Give it a few years and it can be a serious sum — real money, just locked up in the house."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-second-liens-g0-p1",
+      "gi": 0,
+      "pi": 1,
+      "text": "You can borrow against that share without disturbing the mortgage you already have. The first mortgage stays exactly where it is; the new loan takes second place behind it — which is what makes it a second lien. If the house were ever sold to clear its debts, the first mortgage would be paid off first and the second would wait for whatever's left. Standing at the back of that line is riskier for the lender, so a second lien usually costs a little more."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-second-liens-g0-p2",
+      "gi": 0,
+      "pi": 2,
+      "text": "Two shapes cover most of it. You can take the money in a single piece — a fixed loan you pay back on a set schedule — which is a home-equity loan. Or you can open a line and draw from it as you go, paying down and borrowing again the way you would with a credit card, except the house is what backs it: a home-equity line. A buyer short on the down payment can even set up a second lien the day they close — and use it to skip mortgage insurance."
     },
     {
       "kind": "prose",
       "id": "audio-second-liens-g1-p0",
       "gi": 1,
       "pi": 0,
-      "text": "A HELOC is open for about 10 years — the draw period — during which the borrower draws and repays freely and is usually billed interest-only on whatever is outstanding, at a rate that tracks the Prime rate. When the draw period closes, the line freezes and the remaining balance amortizes over the years left."
+      "text": "A home-equity line — a HELOC — is open for about 10 years — the draw period — during which the borrower draws and repays freely and is usually billed interest-only on whatever is outstanding, at a rate that tracks the Prime rate. When the draw period closes, the line freezes and the remaining balance amortizes over the years left."
     },
     {
       "kind": "prose",

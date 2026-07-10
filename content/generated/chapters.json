@@ -133,6 +133,14 @@
           "title": "General Mortgage Knowledge",
           "sections": [
             {
+              "id": "what-a-mortgage-is",
+              "title": "How a mortgage works",
+              "pageRange": [
+                277,
+                301
+              ]
+            },
+            {
               "id": "va-and-usda",
               "title": "VA & USDA loans",
               "pageRange": [

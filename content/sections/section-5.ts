@@ -16,6 +16,49 @@ const section5: SectionContent = {
   kicker: "Module 5",
   units: [
     {
+      id: "what-a-mortgage-is",
+      name: "How a mortgage works",
+      reg: "The MLO's catalog · lien · principal · interest",
+      groups: [
+        {
+          heading: "the catalog and the job",
+          paras: [
+            {
+              html: `An MLO has a <b>catalog</b> of mortgage products — different ways to help a client pay for a home. No single one fits every borrower: someone's income, the property they're buying, or the size of their down payment can each rule a product out. To recommend from it, you have to know how a mortgage works.`,
+            },
+          ],
+        },
+        {
+          heading: "what a mortgage is",
+          paras: [
+            {
+              html: `Almost nobody buys a house outright; the price is far more than most people keep in the bank. So a lender fronts the money and the buyer pays it back over many years, often thirty. What makes a lender willing to hand over that much is the house itself — it secures the loan. If the payments stop, the lender can take the property and sell it to recover what it's owed. That claim on the house is the <b>lien</b>, and it's why a lender will lend so much, for so long, at the rates it does.`,
+            },
+          ],
+        },
+        {
+          heading: "principal and interest",
+          paras: [
+            {
+              html: `Each monthly payment does two things at once. Part of it pays down the <b>principal</b> — the amount borrowed — and part is <b>interest</b>, the lender's charge for the use of the money. Early on a payment is mostly interest and the balance barely moves; over the years the mix tips toward principal and the loan winds down. Spread the payments over more years and each one is smaller, but the total interest is larger; pack them into fewer years and it runs the other way.`,
+            },
+          ],
+        },
+        {
+          heading: "the range of products",
+          paras: [
+            {
+              html: `Some products ask for twenty percent down, others nothing at all. Some are backed by a bank, others by the government. Some keep one rate for the life of the loan; others adjust it over time. Some can be <b>drawn</b> on — money pulled out a piece at a time as it's needed, not all at once, the way a credit card works. One pays the homeowner instead of the other way around. Each was built for a particular situation.`,
+            },
+            {
+              html: `A veteran, a buyer in a rural county, a first-timer with three percent saved, a retiree with decades of equity, someone financing a house that isn't built yet — each fits a different loan. Matching the borrower to the product is the job.`,
+            },
+          ],
+        },
+      ],
+      review: { flashcards: [], mcq: [] },
+    },
+    {
       id: "va-and-usda",
       name: "VA & USDA loans",
       reg: "Government-guaranteed loans · Servicemen's Readjustment Act (VA) · USDA §502",
@@ -426,7 +469,13 @@ const section5: SectionContent = {
         {
           paras: [
             {
-              html: `A <b>second lien</b> lets an owner borrow against the equity they've built without touching the first mortgage. It comes in two shapes: a <b>home-equity loan</b> hands over a fixed sum at a fixed rate and amortizes like any loan, while a <b>home-equity line of credit (HELOC)</b> works like a credit card against the house — draw, repay, and draw again.`,
+              html: `Every mortgage payment buys back a little more of your house. That's what equity is: the part you've already bought — what the home is worth, minus what you still owe on it. Put $80,000 down on a $400,000 house and you own $80,000 of it the day you move in; keep paying, or watch prices in the neighborhood climb, and that share keeps widening. Give it a few years and it can be a serious sum — real money, just locked up in the house.`,
+            },
+            {
+              html: `You can borrow against that share without disturbing the mortgage you already have. The first mortgage stays exactly where it is; the new loan takes second place behind it — which is what makes it a <b>second lien</b>. If the house were ever sold to clear its debts, the first mortgage would be paid off first and the second would wait for whatever's left. Standing at the back of that line is riskier for the lender, so a second lien usually costs a little more.`,
+            },
+            {
+              html: `Two shapes cover most of it. You can take the money in a single piece — a fixed loan you pay back on a set schedule — which is a <b>home-equity loan</b>. Or you can open a line and draw from it as you go, paying down and borrowing again the way you would with a credit card, except the house is what backs it: a <b>home-equity line</b>. A buyer short on the down payment can even set up a second lien the day they close — and use it to skip mortgage insurance.`,
             },
           ],
         },
@@ -435,7 +484,7 @@ const section5: SectionContent = {
           anchor: { file: "house-of-cards-made-of-credit-cards-transparent.png", caption: "revolving", kind: "char" },
           paras: [
             {
-              html: `A HELOC is open for about <span class="cloze" data-accept='["10 years","10","ten","ten years","10 yrs"]' data-reveal="10 years">?</span> — the <b>draw period</b> — during which the borrower draws and repays freely and is usually billed interest-only on whatever is outstanding, at a rate that tracks the <b>Prime rate</b>. When the draw period closes, the line freezes and the remaining balance amortizes over the years left.`,
+              html: `A home-equity line — a <b>HELOC</b> — is open for about <span class="cloze" data-accept='["10 years","10","ten","ten years","10 yrs"]' data-reveal="10 years">?</span> — the <b>draw period</b> — during which the borrower draws and repays freely and is usually billed interest-only on whatever is outstanding, at a rate that tracks the <b>Prime rate</b>. When the draw period closes, the line freezes and the remaining balance amortizes over the years left.`,
             },
           ],
         },
