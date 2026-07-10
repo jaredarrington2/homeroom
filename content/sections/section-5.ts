@@ -344,6 +344,7 @@ const section5: SectionContent = {
             },
           ],
           vizWidget: "amortization",
+          inkCard: "amortization",
         },
         {
           heading: "when the payment only covers interest",
@@ -352,6 +353,7 @@ const section5: SectionContent = {
               html: `An <b>interest-only loan</b> bills only the interest for a set period, so the balance holds flat — nothing is going to principal. It exists only as a feature of a <span class="cloze" data-accept='["non-qm","non-qualified","nonqualified","non qualified","non-qualified mortgage"]' data-reveal="non-QM">?</span> mortgage: a lender either keeps it in portfolio or sells it to a private investor. When the interest-only period ends, the loan <b>re-casts</b> to a payment that repays the full balance over the years left, and that payment jumps.`,
             },
           ],
+          inkCard: "interest-only",
           synth: {
             q: "A borrower pays interest-only for the first 15 years of a 30-year loan, then it re-casts. Why is the new payment higher than if the loan had amortized from day one?",
             a: "Because nothing went to principal during the interest-only years, the balance never fell. At the re-cast, the full original principal now has to amortize over the shorter remaining term (15 years instead of 30), so each payment must be larger.",
@@ -365,6 +367,7 @@ const section5: SectionContent = {
               html: `A <b>balloon loan</b> sets its payment on a 30- or 15-year amortization but calls the entire remaining balance due years earlier. Lenders write it as two numbers — years to the call, then the amortization behind the payment — so a <b>3/27</b> pays like a 30-year loan but comes due at year three. The low rate is the trade for the risk that the borrower can't cover the call. To exercise a <b>conditional right to modify (CRTM)</b> — converting the balloon to a fixed rate instead of paying it — the borrower must give written notice no later than <span class="cloze" data-accept='["45","45 days","forty-five","forty-five days"]' data-reveal="45 days">?</span> before the call.`,
             },
           ],
+          inkCard: "balloon",
         },
         {
           heading: "re-cast — same rate, smaller payment",
@@ -373,6 +376,7 @@ const section5: SectionContent = {
               html: `When a borrower pays a lump sum against principal, a fixed-rate loan normally keeps the payment the same and shortens the term. A <b>re-cast</b> does the opposite: the servicer recomputes a lower payment against the new, smaller balance over the remaining term. It's discretionary and often carries a fee — and the interest rate never changes.`,
             },
           ],
+          inkCard: "re-cast",
         },
       ],
       review: {

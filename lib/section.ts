@@ -200,6 +200,9 @@ export interface ConceptGroup {
   /** 0–1 static SVG small-multiples (RepaymentShapes.tsx, server-rendered). A flat-white
    *  comparison of how a loan's balance behaves over time under each repayment structure. */
   diagram?: "repayment-shapes";
+  /** 0–1 hand-drawn ink "study card" (InkCard.tsx, server-rendered). A cream card whose blue-ink
+   *  SVG diagram teaches one repayment concept. */
+  inkCard?: "amortization" | "interest-only" | "re-cast" | "balloon";
 }
 
 export interface Definition {
