@@ -8,10 +8,30 @@ import SectionNav from '@/components/SectionNav';
 import { getChapterTree, getSectionContent, getQuestions } from '@/lib/content';
 import { notFound } from 'next/navigation';
 
-// Hand-chosen hero images for sections where a specific character fits the topic.
+// Hand-chosen hero images matched to each section's topic (keyed by section id).
 // Sections not listed fall back to the deterministic picker.
 const HERO_OVERRIDES: Record<string, string> = {
-  application: 'ballerina-holding-stack-of-folders-transparent.png',
+  // Ethics
+  'fair-lending': 'burglar-knight.PNG',                                   // crossing ethical lines / deception
+  'fraud': 'man-smoking.PNG',                                             // discrimination that hides in plain sight
+  'prohibited-practices': 'lion-mascot-fingers-crossed-transparent.png', // spotting the fraud red flags
+  // Front matter
+  'rules-of-conduct': 'caution-mirror.PNG',                              // exam identity check / no cheating
+  // General mortgage knowledge
+  'loan-products': 'robot-holding-kitten-transparent.png',              // ability-to-repay / careful underwriting
+  'loan-programs': 'ninja-surfer-on-surfboard-transparent.png',        // riding rate/market risk (ARM, subprime)
+  'mortgage-terminology': 'kid-in-tie-dye-holding-clock-transparent.png', // loan term / time / amortization
+  // MLO activities
+  'application': 'ballerina-holding-stack-of-folders-transparent.png', // the URLA paperwork
+  'qualification': 'wedding-couple-on-scales-rear-view-transparent.png', // measuring up / can they repay
+  'processing-underwriting': 'scuba-vacuum.PNG',                        // thorough scrutiny of the file
+  'appraisals': 'beekeeper-with-hive-transparent.png',                 // determining value
+  'title': 'clown-clown-baby.PNG',                                     // ownership passing down / chain of title
+  'closing': 'party-hat-on-stack-of-folders-with-champagne-transparent.png', // closing the paperwork
+  'mortgage-math': 'astronaut-saxophone.PNG',                          // precision / technical calculation
+  // Uniform state content
+  'safe-act': 'troop-leaders-barbecue-grill-fire.PNG',                // compliance judgment calls
+  'licensing-standards': 'barrister-reading-comic-book-transparent.png', // the rules / fine print
 };
 
 export default function SectionPage({ params }: { params: { chapter: string; section: string } }) {
