@@ -2801,7 +2801,7 @@
     "concept_id": "transfer-of-servicing-disclosure",
     "chapter_id": "federal-mortgage-laws",
     "section_id": "ecoa",
-    "question": "A borrower's mortgage servicing was transferred on June 1st. On June 45th the borrower, unaware of the new servicer, sends a payment to the old servicer. Which of the following statements is correct?",
+    "question": "A borrower's mortgage servicing was transferred on June 1st. On July 15th the borrower, unaware of the new servicer, sends a payment to the old servicer. Which of the following statements is correct?",
     "options": [
       "The old servicer may charge a late fee because the borrower should have been aware of the transfer",
       "The old servicer cannot charge a late fee or report the payment negatively to credit bureaus because the 60-day protection period has not expired",
@@ -2809,7 +2809,7 @@
       "The new servicer may charge a late fee since the payment was sent to the wrong company"
     ],
     "correct": 1,
-    "explanation": "RESPA provides a 60-calendar-day protection window after a servicing transfer during which neither the old nor the new servicer may charge a late fee or make a negative credit report for payments mistakenly sent to the old servicer. Since June 45th falls within the 60-day window, the borrower is fully protected. Option C is the most tempting distractor because candidates often confuse the 30-day period (related to other RESPA timeframes) with the correct 60-day borrower protection window.",
+    "explanation": "RESPA provides a 60-calendar-day protection window after a servicing transfer during which neither the old nor the new servicer may charge a late fee or make a negative credit report for payments mistakenly sent to the old servicer. Since July 15th falls within the 60-day window, the borrower is fully protected. Option C is the most tempting distractor because candidates often confuse the 30-day period (related to other RESPA timeframes) with the correct 60-day borrower protection window.",
     "difficulty": "application",
     "topic_tags": [
       "RESPA",
