@@ -8,11 +8,16 @@
 // which is the visual + interaction ground truth. Intros are de-llm'd: they
 // frame the "why" before any field, and never restate a heading.
 
+import type { UnitRecap } from '@/lib/section';
+
 export interface AppChapter {
   id: string;
   q: string;
   secs: string[];
   intro: string;
+  /** Resolves the real RecapCard's die-cut category sticker at
+   *  /illustrations/_stickers/{stickerId}.png — one of the seven chapter briefs. */
+  stickerId: string;
 }
 export interface StudyPair {
   front: string;
@@ -41,6 +46,7 @@ export const CHAPTERS: AppChapter[] = [
     id: "ch1",
     q: "Who they are",
     secs: ["1a"],
+    stickerId: "app-identity",
     intro:
       "Every loan starts with a person, and the lender has to establish exactly who: the legal identity, who " +
       "depends on their income, and where they’ve lived for the past two years. Most of it is simple to record. " +
@@ -50,6 +56,7 @@ export const CHAPTERS: AppChapter[] = [
     id: "ch2",
     q: "What they earn",
     secs: ["1b", "1c", "1d", "1e"],
+    stickerId: "app-income",
     intro:
       "A lender is really asking one thing across this whole part: can this person keep paying? Every field is " +
       "evidence for it — where the money comes from, how steady it is, how long it’s lasted. Maya draws a single " +
@@ -59,6 +66,7 @@ export const CHAPTERS: AppChapter[] = [
     id: "ch3",
     q: "What they have and owe",
     secs: ["2a", "2b", "2c", "2d"],
+    stickerId: "app-assets-debts",
     intro:
       "This part holds two questions at once: what the borrower could put toward the loan, and what already pulls " +
       "money from their pocket each month — assets, then debts. Maya’s are ordinary: a savings account, a car loan " +
@@ -68,6 +76,7 @@ export const CHAPTERS: AppChapter[] = [
     id: "ch4",
     q: "What they already own",
     secs: ["3a", "3bc"],
+    stickerId: "app-realestate",
     intro:
       "Before lending against a new property, the lender wants every property the borrower already holds — even one " +
       "owned free and clear, since it still costs money to keep. Maya owns none; she’s a first-time buyer. Her file " +
@@ -77,6 +86,7 @@ export const CHAPTERS: AppChapter[] = [
     id: "ch5",
     q: "What they’re asking for",
     secs: ["4a", "4b", "4c", "4d"],
+    stickerId: "app-request",
     intro:
       "The earlier parts described the borrower; this one describes the deal — how much, against what, to live in or " +
       "rent, and where the cash to close comes from. Maya wants a $315,000 loan on a $340,000 condo she’ll live in. " +
@@ -86,6 +96,7 @@ export const CHAPTERS: AppChapter[] = [
     id: "ch6",
     q: "What they declare",
     secs: ["5a", "5b"],
+    stickerId: "app-declarations",
     intro:
       "These are the questions that decide whether the loan can happen at all. The borrower answers each under their " +
       "own signature — you ask, and you never answer for them. Maya’s come back clean. You still need to know what a " +
@@ -95,6 +106,7 @@ export const CHAPTERS: AppChapter[] = [
     id: "ch7",
     q: "Signing off",
     secs: ["6", "7", "8", "9"],
+    stickerId: "app-signoff",
     intro:
       "The last part is where the application becomes a legal document. The borrower reads the terms and signs; the " +
       "government asks its monitoring questions; and you attest, under your own name and number, that you helped " +
@@ -266,29 +278,81 @@ export const STUDY: Record<string, StudyPair[]> = {
   ],
 };
 
-// One recap card per chapter: the single takeaway.
-export const RECAP: Record<string, string> = {
-  ch1:
-    "Identity, household, and two years of addresses — plus the fair-lending limit on marital status. " +
-    "“Unmarried” is an answer to record, not a reason to ask why.",
-  ch2:
-    "The section answers one question: can they keep paying? Steady, documented, likely to continue. " +
-    "And 25% ownership makes someone self-employed, however they’re paid.",
-  ch3:
-    "Assets first, then obligations. The traps live in the debts: a zero-balance line still gets entered, " +
-    "a nearly-paid loan can come out.",
-  ch4:
-    "Every property owned, even free and clear — since it still carries taxes. No return for a rental? " +
-    "75% of gross rent, minus PITI.",
-  ch5:
-    "This part records the deal itself: amount, property, occupancy, and where cash to close comes from. " +
-    "Rent from the property being bought is 4c, not 3a.",
-  ch6:
-    "The questions that decide whether the loan can happen. You ask every one and answer none of them. " +
-    "A federal-debt default ends FHA eligibility.",
-  ch7:
-    "The application becomes a legal document here. The borrower’s signature makes it true under penalty; " +
-    "yours attests you prepared it honestly.",
+// One recap card per chapter — the real UnitRecap shape.
+export const RECAP: Record<string, UnitRecap> = {
+  ch1: {
+    plainLanguage:
+      "Every file starts with exactly who's applying — legal identity, household, and two years of address " +
+      "history. One line, marital status, sits under fair-lending rules that limit what you can ask.",
+    facts: [
+      "Marital status has only three permitted choices: <span class=\"hl\">married, separated, unmarried</span> — “unmarried” covers single, divorced, widowed, and more.",
+      "Asking <em>why</em> someone is unmarried violates <span class=\"hl\">ECOA</span>. They may volunteer it; you may never solicit it.",
+      "Residential history must cover <span class=\"hl\">two years</span> — under that at the current address, account for everything before it.",
+      "Dependents are the ones claimed on the <span class=\"hl\">federal tax return</span>, listed youngest first.",
+    ],
+  },
+  ch2: {
+    plainLanguage:
+      "Every field in this part is evidence toward the same thing: can this borrower keep paying? Where the " +
+      "money comes from, how steady it is, and how long it's lasted.",
+    facts: [
+      "Owning <span class=\"hl\">25% or more</span> of the business that employs you means self-employed — however you're paid.",
+      "Before asking about alimony or child support a borrower receives, you must first say it doesn't need to be disclosed <span class=\"hl\">unless they want it counted</span> as income.",
+      "The prior two years of employment must be accounted for, <span class=\"hl\">gaps included</span>.",
+      "All income is entered as a <span class=\"hl\">monthly equivalent</span>, backed by documentation — never a verbal estimate.",
+    ],
+  },
+  ch3: {
+    plainLanguage:
+      "This part holds two questions at once: what the borrower could put toward the loan, and what already " +
+      "pulls money out of their pocket every month.",
+    facts: [
+      "A zero-balance line, like a paid-off HELOC, still gets entered <span class=\"hl\">by hand</span> — a $0 balance doesn't remove future access to it.",
+      "Installment debt with <span class=\"hl\">ten or fewer months</span> remaining can be excluded, subject to underwriting.",
+      "A vehicle counts as an asset only with <span class=\"hl\">an appraisal</span>, minus any liens, and a title showing none remain.",
+      "In a joint application sharing only joint assets, list each one <span class=\"hl\">once</span> — never duplicated.",
+    ],
+  },
+  ch4: {
+    plainLanguage:
+      "Every property the borrower already holds gets disclosed here — even one owned free and clear, since it " +
+      "still carries mandatory expenses.",
+    facts: [
+      "A lien-free property still needs to be listed — it carries costs like <span class=\"hl\">real-estate taxes</span>.",
+      "No tax return for a rental? Use <span class=\"hl\">75% of the gross rent</span> on the lease, minus PITI.",
+      "Multiple liens on one property are entered on separate lines, but the <span class=\"hl\">housing expense is counted once</span>.",
+    ],
+  },
+  ch5: {
+    plainLanguage:
+      "This part describes the deal itself — how much, against what, to live in or rent, and where the cash to " +
+      "close comes from.",
+    facts: [
+      "Rent from the property being <span class=\"hl\">purchased</span> goes in 4c; rent from property already <span class=\"hl\">owned</span> goes in 3a.",
+      "“FHA secondary residence” is its own occupancy choice in 4a — <span class=\"hl\">not</span> the same as a second home.",
+      "Eligible gift sources include a relative, an employer, a nonprofit, or an <span class=\"hl\">unmarried partner</span>.",
+    ],
+  },
+  ch6: {
+    plainLanguage:
+      "These questions decide whether the loan can happen at all. The borrower answers each one under their own " +
+      "signature — you ask, and you never answer for them.",
+    facts: [
+      "A default on <span class=\"hl\">federal debt</span> makes a borrower ineligible for FHA financing.",
+      "Deed in lieu, short sale, foreclosure, and bankruptcy all look back exactly <span class=\"hl\">seven years</span>.",
+      "Borrowed down-payment funds may need their <span class=\"hl\">payment counted</span> in underwriting.",
+    ],
+  },
+  ch7: {
+    plainLanguage:
+      "The application becomes a legal document here. The borrower reads the terms and signs; the government " +
+      "asks its monitoring questions; and the loan originator attests to helping prepare it truthfully.",
+    facts: [
+      "Signing an application with false information can mean <span class=\"hl\">fraud</span> or a false statement to a financial institution.",
+      "On a non-face-to-face application, a declined demographic designation is <span class=\"hl\">never changed later</span> — even if you come to believe otherwise.",
+      "Your signature on Section 9 attests you assisted in <span class=\"hl\">truthful, correct, and complete</span> preparation.",
+    ],
+  },
 };
 
 // The judgment calls — one per chapter, drawn from the traps (ch3 gets two; ch4,

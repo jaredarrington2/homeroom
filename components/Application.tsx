@@ -7,6 +7,7 @@
 // ported from the stage-1 preview (stage1-preview.html), which is the visual +
 // interaction ground truth. In-session state only; nothing is persisted.
 import { useEffect, useMemo, useRef, useState } from 'react';
+import RecapCard from '@/components/RecapCard';
 import { FORMS, type SectionDef } from '@/content/module6/forms';
 import {
   CHAPTERS,
@@ -266,12 +267,21 @@ function JudgmentCall({ scenario }: { scenario: Scenario }) {
 function StudyCardFace({ card }: { card: StudyPair }) {
   const [flip, setFlip] = useState(false);
   return (
-    <button className={`scard${flip ? ' flip' : ''}`} type="button" onClick={() => setFlip(f => !f)}>
+    <button
+      className={`scard${flip ? ' flip' : ''}`}
+      type="button"
+      aria-label={flip ? `Answer: ${card.back}` : `Study card: ${card.front} — tap to flip`}
+      onClick={() => setFlip(f => !f)}
+    >
       <span className="sc-face sc-front">
         <span className="sc-front-inner">
-          <span className="sc-tag">study card</span>
           <span className="sc-q">{card.front}</span>
-          <span className="sc-hint">flip &rarr;</span>
+          <span className="sc-hint" aria-hidden="true">
+            <svg viewBox="0 0 20 20">
+              <path d="M4 10a6 6 0 0 1 10.4-4.2M16 10a6 6 0 0 1-10.4 4.2" />
+              <path d="M14.4 3.6v3h-3M5.6 16.4v-3h3" />
+            </svg>
+          </span>
         </span>
       </span>
       <span className="sc-face sc-back">
@@ -312,6 +322,12 @@ function Hero({ hero }: { hero?: HeroDef }) {
   );
 }
 
+// "Borrower Information Form · §1b–1e" — mirrors the design spec's own section notation.
+function regFor(secs: string[]) {
+  const range = secs.length > 1 ? `§${secs[0]}–${secs[secs.length - 1]}` : `§${secs[0]}`;
+  return `Borrower Information Form · ${range}`;
+}
+
 function Chapter({ index }: { index: number }) {
   const chDef = CHAPTERS[index];
   const num = index + 1;
@@ -342,10 +358,12 @@ function Chapter({ index }: { index: number }) {
         <JudgmentCall key={i} scenario={s} />
       ))}
       <StudyDeck cards={STUDY[chDef.id] || []} />
-      <div className="recap">
-        <span className="rc-tag">recap</span>
-        <p className="rc-text">{RECAP[chDef.id]}</p>
-      </div>
+      <RecapCard
+        unitName={chDef.q}
+        reg={regFor(chDef.secs)}
+        recap={RECAP[chDef.id]}
+        unitId={chDef.stickerId}
+      />
     </section>
   );
 }
@@ -372,15 +390,42 @@ export default function Application() {
         <FullForm />
 
         <div className="followbar">
-          <button
-            className={`toggle${following ? ' on' : ''}`}
-            type="button"
-            aria-label="Follow Maya"
-            aria-pressed={following}
-            onClick={() => setFollowing(f => !f)}
-          />
-          <span className="lbl">Follow Maya</span>
-          <span className="state">{following ? 'her answers are showing' : 'showing the blank form'}</span>
+          <div
+            className="follow-seg"
+            role="group"
+            aria-label="Follow Maya — show her answers written into the form, or read it blank"
+          >
+            <button
+              type="button"
+              className={`fs-btn${!following ? ' active' : ''}`}
+              aria-pressed={!following}
+              title="Read the blank form"
+              onClick={() => setFollowing(false)}
+            >
+              {/* blank form: ruled, unwritten */}
+              <svg viewBox="0 0 22 24" aria-hidden="true">
+                <rect x="3.2" y="2.2" width="15.6" height="19.6" rx="1.3" />
+                <line x1="6.4" y1="8" x2="15.6" y2="8" />
+                <line x1="6.4" y1="12" x2="15.6" y2="12" />
+                <line x1="6.4" y1="16" x2="12.8" y2="16" />
+              </svg>
+            </button>
+            <button
+              type="button"
+              className={`fs-btn${following ? ' active' : ''}`}
+              aria-pressed={following}
+              title="Follow Maya — her answers written into the form"
+              onClick={() => setFollowing(true)}
+            >
+              {/* filled form: her answers inked in */}
+              <svg viewBox="0 0 22 24" aria-hidden="true">
+                <rect x="3.2" y="2.2" width="15.6" height="19.6" rx="1.3" />
+                <path d="M6.4 8c1-1.4 2 1.4 3 0s2-1.4 3 0 2 1.4 3 0" />
+                <path d="M6.4 12c1-1.4 2 1.4 3 0s2-1.4 3 0 2 1.4 3 0" />
+                <path d="M6.4 16c.8-1.2 1.7 1.2 2.5 0s1.7-1.2 2.5 0" />
+              </svg>
+            </button>
+          </div>
           <nav className="toc">
             {CHAPTERS.map((c, i) => (
               <a key={c.id} href={`#${c.id}`}>{i + 1}</a>

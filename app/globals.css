@@ -1864,12 +1864,14 @@
 /* the follow-along control */
 .application .followbar{position:sticky; top:0; z-index:20; background:var(--paper); border-bottom:1px solid var(--hairline-strong);
   display:flex; align-items:center; gap:14px; padding:12px 0; margin:22px 0 0;}
-.application .followbar .lbl{font-family:var(--font-mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-muted);}
-.application .toggle{position:relative; width:46px; height:25px; border:none; background:var(--hairline-strong); cursor:pointer; padding:0; transition:background .2s;}
-.application .toggle::after{content:""; position:absolute; top:2px; left:2px; width:21px; height:21px; background:#fff; transition:left .2s;}
-.application .toggle.on{background:var(--royal);}
-.application .toggle.on::after{left:23px;}
-.application .followbar .state{font-size:13.5px; color:var(--ink-faint);}
+/* wordless state control: two graphical form-glyphs (blank vs written-in),
+   the active one filled royal — no text labels, the icons ARE the choice */
+.application .follow-seg{display:inline-flex; border:1.5px solid var(--hairline-strong); background:var(--paper);}
+.application .fs-btn{width:42px; height:34px; display:flex; align-items:center; justify-content:center; background:transparent; border:none; border-right:1px solid var(--hairline); cursor:pointer; color:var(--ink-faint); padding:0; transition:background .18s, color .18s;}
+.application .fs-btn:last-child{border-right:none;}
+.application .fs-btn:hover:not(.active){color:var(--ink-muted); background:var(--loose-paper);}
+.application .fs-btn.active{color:#fff; background:var(--royal);}
+.application .fs-btn svg{width:21px; height:23px; fill:none; stroke:currentColor; stroke-width:1.5; stroke-linecap:round; stroke-linejoin:round;}
 .application .toc{margin-left:auto; display:flex; gap:2px; flex-wrap:wrap;}
 .application .toc a{font-family:var(--font-mono); font-size:11px; width:22px; height:22px; display:flex; align-items:center; justify-content:center;
   color:var(--ink-faint); text-decoration:none; border:1px solid var(--hairline);}
@@ -1952,9 +1954,10 @@
   background-repeat:no-repeat, repeat-y;
 }
 .application .sc-front-inner{padding:14px 16px 16px 42px; display:flex; flex-direction:column; height:100%;}
-.application .sc-tag{font-family:var(--font-mono); font-size:8px; letter-spacing:.14em; text-transform:uppercase; color:#B9A98C; margin:0 0 4px;}
 .application .sc-q{font-family:var(--font-hand); font-weight:600; font-size:20px; line-height:1.15; color:#1A2B4A;}
-.application .sc-hint{font-family:var(--font-hand); font-size:16px; color:var(--kraft); margin:auto 0 0;}
+/* wordless flip affordance: a small graphical flip-arrow glyph, no text hint */
+.application .sc-hint{margin:auto 0 0; color:var(--kraft);}
+.application .sc-hint svg{width:17px; height:17px; fill:none; stroke:currentColor; stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round;}
 .application .sc-back{background:#1A2B4A; color:#F4F1E8; transform:rotateY(180deg); padding:0;}
 .application .sc-back-inner{padding:18px 18px 18px 20px; display:flex; flex-direction:column; justify-content:center; height:100%;
   border-left:4px solid var(--kraft);}
@@ -1964,11 +1967,8 @@
 .application .scard.flip .sc-front{transform:rotateY(180deg);}
 .application .scard.flip .sc-back{transform:rotateY(360deg);}
 
-/* recap card */
-.application .recap{position:relative; border:1.5px solid var(--ink); background:linear-gradient(180deg,#fff,var(--loose-paper));
-  padding:22px 24px; margin:0 0 12px; box-shadow:4px 4px 0 var(--hairline-strong);}
-.application .rc-tag{font-family:var(--font-mono); font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--kraft); display:block; margin:0 0 10px;}
-.application .rc-text{font-family:var(--font-display); font-weight:500; font-size:19px; line-height:1.4; margin:0; color:var(--ink);}
+/* recap: the real <RecapCard/> is used here (its .rc-* CSS lives in the
+   .section-reader block above), so no recap styling is needed in this scope */
 
 .application .app-foot{margin:60px 0 0; padding:24px 0 0; border-top:1px solid var(--hairline-strong); font-size:13.5px; color:var(--ink-faint);}
 .application .app-foot a{color:var(--royal); text-decoration:none;}
