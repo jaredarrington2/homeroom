@@ -2071,3 +2071,15 @@
 .section-reader .pb-btn:hover { border-color: var(--royal); color: var(--royal); }
 .section-reader .pb-a { font-size: 13.5px; color: var(--ink); line-height: 1.5; margin: 0; }
 .section-reader .pb-a .hl { background: var(--pb-hl); padding: 0 3px; border-radius: 1.5px; }
+
+/* ===== RepaymentShapes (.rs-*) — small-multiples of the balance curve per repayment structure.
+   Flat white chart canon (charts aren't documents), scoped under .section-reader. Static SVG. */
+.section-reader .rs { margin: 6px 0 30px; }
+.section-reader .rs-lede { font-family: var(--font-type); font-size: 11px; letter-spacing: .02em; color: var(--ink-muted); margin: 0 0 12px; }
+.section-reader .rs-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.section-reader .rs-panel { margin: 0; background: #fff; border: 1px solid var(--hair); border-radius: 8px; padding: 10px 10px 9px; }
+.section-reader .rs-panel svg { display: block; width: 100%; height: auto; }
+.section-reader .rs-cap { display: flex; flex-direction: column; gap: 1px; margin-top: 7px; }
+.section-reader .rs-ptitle { font-family: var(--font-type); font-size: 11.5px; font-weight: 700; color: var(--royal); }
+.section-reader .rs-pnote { font-family: var(--font-type); font-size: 10px; color: var(--ink-muted); }
+@media (max-width: 40rem) { .section-reader .rs-grid { grid-template-columns: repeat(2, 1fr); } }

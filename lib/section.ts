@@ -197,6 +197,9 @@ export interface ConceptGroup {
   worksheet?: WorksheetKind;
   /** 0–1 SVG viz widget (CapLadder.tsx, a client component). Config lives in content/widgets/. */
   vizWidget?: VizWidgetKind;
+  /** 0–1 static SVG small-multiples (RepaymentShapes.tsx, server-rendered). A flat-white
+   *  comparison of how a loan's balance behaves over time under each repayment structure. */
+  diagram?: "repayment-shapes";
 }
 
 export interface Definition {

@@ -334,6 +334,7 @@ const section5: SectionContent = {
               html: `A <b>fixed-rate loan</b> locks one interest rate for the whole term, so the principal-and-interest payment never changes. Early on, most of each payment is interest; as the balance falls, more of it goes to principal, until the loan is paid off on schedule. Every other product in this unit is a change to that one arrangement — the payment, the payoff date, or both.`,
             },
           ],
+          diagram: "repayment-shapes",
         },
         {
           heading: "the amortization curve",
