@@ -1887,6 +1887,16 @@
 .application .chnum{font-family:var(--font-display); font-weight:600; font-size:clamp(26px,4vw,34px); color:var(--kraft); line-height:1.1;}
 .application .chtitle{font-family:var(--font-display); font-weight:600; font-size:clamp(26px,4vw,34px); line-height:1.1; letter-spacing:-.01em; margin:0;}
 
+/* chapter voiceover: a wordless play/pause + progress tick, pushed to the line's end */
+.application .chaudio{margin-left:auto; align-self:center; display:inline-flex; align-items:center; gap:8px;}
+.application .chaudio-btn{display:inline-flex; align-items:center; justify-content:center; width:34px; height:34px; padding:0; border:1.5px solid var(--hairline-strong); background:var(--paper); color:var(--royal); cursor:pointer; border-radius:50%; transition:border-color .15s, background .15s;}
+.application .chaudio-btn:hover{border-color:var(--royal);}
+.application .chaudio.playing .chaudio-btn{background:var(--royal); color:#fff; border-color:var(--royal);}
+.application .chaudio-btn svg{width:15px; height:15px; fill:currentColor;}
+.application .chaudio-track{width:54px; height:3px; background:var(--hairline); overflow:hidden;}
+.application .chaudio-fill{display:block; height:100%; background:var(--royal); transition:width .2s linear;}
+@media(max-width:560px){ .application .chaudio-track{display:none;} }
+
 /* hero: consistent height (so a tall figure doesn't overhang a short intro), a
    generous shape-margin + threshold so text wraps the silhouette cleanly, side
    alternates per chapter for a non-uniform rhythm */

@@ -8,6 +8,7 @@
 // interaction ground truth. In-session state only; nothing is persisted.
 import { useEffect, useMemo, useRef, useState } from 'react';
 import RecapCard from '@/components/RecapCard';
+import ChapterAudio from '@/components/ChapterAudio';
 import { FORMS, type SectionDef } from '@/content/module6/forms';
 import {
   CALLOUTS,
@@ -367,6 +368,7 @@ function Chapter({ index }: { index: number }) {
         <div className="chline">
           <span className="chnum">{num}</span>
           <h2 className="chtitle">{chDef.q}</h2>
+          <ChapterAudio src={`/audio/application/${chDef.id}.mp3`} label={chDef.q} />
         </div>
       </div>
       <div className="intro">
