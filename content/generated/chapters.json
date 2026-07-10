@@ -133,27 +133,67 @@
           "title": "General Mortgage Knowledge",
           "sections": [
             {
-              "id": "loan-products",
-              "title": "Loan Products",
+              "id": "va-and-usda",
+              "title": "VA & USDA loans",
               "pageRange": [
-                271,
-                310
+                327,
+                337
               ]
             },
             {
-              "id": "loan-programs",
-              "title": "Loan Programs",
+              "id": "fha",
+              "title": "FHA loans",
               "pageRange": [
-                311,
+                338,
                 350
               ]
             },
             {
-              "id": "mortgage-terminology",
-              "title": "Mortgage Terminology",
+              "id": "arms",
+              "title": "Adjustable-rate mortgages",
               "pageRange": [
-                351,
-                390
+                369,
+                371
+              ]
+            },
+            {
+              "id": "repayment-structures",
+              "title": "How a loan gets repaid",
+              "pageRange": [
+                338,
+                343
+              ]
+            },
+            {
+              "id": "second-liens",
+              "title": "Second liens and equity lines",
+              "pageRange": [
+                352,
+                367
+              ]
+            },
+            {
+              "id": "reverse-mortgages",
+              "title": "Reverse mortgages",
+              "pageRange": [
+                355,
+                366
+              ]
+            },
+            {
+              "id": "construction-rehab",
+              "title": "Construction and rehab loans",
+              "pageRange": [
+                367,
+                369
+              ]
+            },
+            {
+              "id": "less-common-programs",
+              "title": "Less-common programs",
+              "pageRange": [
+                371,
+                372
               ]
             }
           ]
