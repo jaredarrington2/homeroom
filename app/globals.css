@@ -44,6 +44,13 @@
 .section-reader p { font-size: 17px; line-height: 1.66; margin: 0 0 16px; }
 .section-reader b { font-weight: 600; }
 
+/* prose lists — a paragraph broken out into a real bulleted set (ClozeProse .lp-rich) */
+.section-reader .lp-rich > p:last-child { margin-bottom: 0; }
+.section-reader .lp-rich ul { margin: 2px 0 16px; padding-left: 22px; list-style: disc; }
+.section-reader .lp-rich li { font-size: 17px; line-height: 1.6; margin: 0 0 7px; }
+.section-reader .lp-rich li:last-child { margin-bottom: 0; }
+.section-reader .lp-rich li::marker { color: var(--royal); }
+
 /* section masthead */
 .section-reader .sr-masthead .eyebrow { font-family: var(--fm); font-size: 11.5px; letter-spacing: .06em;
   text-transform: uppercase; color: var(--royal); }

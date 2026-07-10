@@ -91,7 +91,7 @@
       "id": "audio-va-and-usda-g10-p0",
       "gi": 10,
       "pi": 0,
-      "text": "Here are the four residential loan programs set side by side. Conventional loans are backed by Fannie Mae and Freddie Mac; FHA loans are insured by the government; VA loans are guaranteed by the Department of Veterans Affairs; and USDA loans are guaranteed by the Department of Agriculture. On screen, a reference matrix compares them across down payment, mortgage insurance, debt-to-income, occupancy, seller concessions, loan limits, and assumability."
+      "text": "The four residential loan programs differ by who carries the lender's risk, and how. On a conventional loan, Fannie Mae and Freddie Mac buy the loan; there is no government role. On an FHA loan, the federal government insures it through HUD. On a VA loan, the Department of Veterans Affairs guarantees part of it. On a USDA loan, the Department of Agriculture guarantees it. That one difference sets the rest — the down payment, whether there's mortgage insurance, how income is measured, and whether the loan can pass to the next buyer."
     },
     {
       "kind": "gate",

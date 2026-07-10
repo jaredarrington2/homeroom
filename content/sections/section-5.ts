@@ -124,11 +124,11 @@ const section5: SectionContent = {
           ],
         },
         {
-          heading: "the four programs, side by side",
-          spoken: `Here are the four residential loan programs set side by side. Conventional loans are backed by Fannie Mae and Freddie Mac; FHA loans are insured by the government; VA loans are guaranteed by the Department of Veterans Affairs; and USDA loans are guaranteed by the Department of Agriculture. On screen, a reference matrix compares them across down payment, mortgage insurance, debt-to-income, occupancy, seller concessions, loan limits, and assumability.`,
+          heading: "how the four programs differ",
+          spoken: `The four residential loan programs differ by who carries the lender's risk, and how. On a conventional loan, Fannie Mae and Freddie Mac buy the loan; there is no government role. On an FHA loan, the federal government insures it through HUD. On a VA loan, the Department of Veterans Affairs guarantees part of it. On a USDA loan, the Department of Agriculture guarantees it. That one difference sets the rest — the down payment, whether there's mortgage insurance, how income is measured, and whether the loan can pass to the next buyer.`,
           paras: [
             {
-              html: `Four programs finance nearly every home in the country, and each is defined by <b>who stands behind it</b>. <b>Conventional</b> loans are backed by Fannie Mae and Freddie Mac; <b>FHA</b> loans are insured by the government through HUD; <b>VA</b> loans are guaranteed by the Department of Veterans Affairs; and <b>USDA</b> loans are guaranteed by the Department of Agriculture. That single difference in backing ripples through everything else — the down payment, whether there's mortgage insurance, how income is measured, and whether the loan can be handed to the next buyer. The matrix below is the one every MLO ends up memorizing.`,
+              html: `<p>What separates the four loan programs isn't the house or the borrower — it's who carries the lender's risk if the loan goes bad, and how. Each program uses a different mechanism, and the exact word matters:</p><ul><li><b>Conventional</b> — bought and backed by <b>Fannie Mae and Freddie Mac</b>. No government role.</li><li><b>FHA</b> — <b>insured</b> by the federal government through HUD: if the borrower defaults, the FHA repays the lender.</li><li><b>VA</b> — <b>guaranteed</b> by the Department of Veterans Affairs, which covers part of the lender's loss.</li><li><b>USDA</b> — <b>guaranteed</b> by the Department of Agriculture, for rural borrowers.</li></ul><p>That one difference sets everything after it: the down payment, whether there's mortgage insurance, how income is measured, and whether the loan can pass to the next buyer.</p>`,
             },
           ],
           visual: "program-comparison",

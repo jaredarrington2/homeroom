@@ -21,10 +21,17 @@ const ProseHTML = memo(function ProseHTML({
     <>
       {paras.map((p, i) => {
         const segId = `audio-${unitId}-g${groupIndex}-p${i}`;
+        // A paragraph carrying a real list/table can't sit inside a <p> (invalid HTML —
+        // the browser would auto-close the <p>), so render block-bearing prose in a div.
+        const rich = /<(ul|ol|table)\b/i.test(p.html);
         return (
           <div className="lp-seg" id={segId} key={i}>
             <ListenMark id={segId} unitId={unitId} />
-            <p dangerouslySetInnerHTML={{ __html: p.html }} />
+            {rich ? (
+              <div className="lp-rich" dangerouslySetInnerHTML={{ __html: p.html }} />
+            ) : (
+              <p dangerouslySetInnerHTML={{ __html: p.html }} />
+            )}
           </div>
         );
       })}
