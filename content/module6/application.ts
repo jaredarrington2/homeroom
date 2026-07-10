@@ -444,6 +444,73 @@ export const SCENARIOS: Scenario[] = [
   },
 ];
 
+// Field-level callouts — the "you couldn't know this from the form alone" rules
+// and traps, keyed by section id then the exact field string from FORMS. Rendered
+// as a wordless info affordance on the field row; hover/tap reveals the note. These
+// are the same rules the study cards and recaps carry, surfaced at the point of use.
+export const CALLOUTS: Record<string, Record<string, string>> = {
+  "1a": {
+    "Marital status":
+      "Only three choices — married, separated, unmarried. Never ask why someone is unmarried; soliciting that violates ECOA.",
+    "Dependents and their ages":
+      "The dependents claimed on the federal tax return, listed youngest first — not limited to children.",
+    "Current address, time there, own or rent, monthly housing expense":
+      "A full two-year address history is required. Under two years here? Account for everywhere before it.",
+  },
+  "1b": {
+    "Business owner / self-employed box and ownership share":
+      "Owning 25% or more of the business that employs you counts as self-employed — however you're actually paid.",
+    "Base, overtime, bonus, commission, military entitlements, other":
+      "Every figure is a monthly equivalent, taken from documentation — never a verbal estimate.",
+  },
+  "1e": {
+    Alimony:
+      "You may not require alimony, child support, or separate maintenance to be disclosed unless the borrower wants it counted as income.",
+  },
+  "2c": {
+    "Account type: revolving, installment, open 30-day, lease, or other":
+      "Enter open zero-balance lines by hand — especially HELOCs. A $0 balance today doesn't remove future access to the line.",
+    "Minimum monthly payment":
+      "Installment debt with ten or fewer months remaining can be excluded — subject to underwriting.",
+  },
+  "3a": {
+    "Complete address including unit and country":
+      "Disclose every property owned — even one owned free and clear, since it still carries taxes.",
+    "Gross monthly rental income (2–4 unit primary or investment)":
+      "No tax return for a rental? Use 75% of the gross rent on the lease, minus PITI — the discount covers vacancy.",
+  },
+  "4a": {
+    "Intended occupancy: primary, second home, investment, FHA secondary residence":
+      "“FHA secondary residence” is a distinct occupancy choice here — not the same as a second home.",
+  },
+  "4c": {
+    "Expected monthly rental income":
+      "This is rent from the property being purchased (4c). Rent from a property already owned goes in 3a — the pair people mix up most.",
+  },
+  "5a": {
+    "Is any part of your down payment borrowed? How much?":
+      "Borrowed down-payment funds may need their payment counted in underwriting. Ask every declaration — never answer for the borrower.",
+  },
+  "5b": {
+    "Currently delinquent or in default on federal debt":
+      "A default on federal debt makes the borrower ineligible for FHA financing.",
+    "Foreclosure in the last seven years":
+      "Deed in lieu, short sale, foreclosure, and bankruptcy all look back exactly seven years.",
+  },
+  "6": {
+    "Borrower signature":
+      "The application is a legal document — signing one with false or inaccurate information can be fraud, or a false statement to a financial institution.",
+  },
+  "8": {
+    "Race, one or more categories, with subcategories":
+      "On a non-face-to-face application, a declined designation is never changed later — even if you later believe you can identify the applicant.",
+  },
+  "9": {
+    "MLO signature and date":
+      "By signing, the MLO attests to assisting in the truthful, correct, and complete preparation of the application — a false attestation can carry criminal exposure.",
+  },
+};
+
 // Hero illustrations, one per chapter plus one for the borrower card. Mapped from
 // the preview's loose associations onto the project's real character library.
 // Floated to the side, text wrapping the silhouette; side alternates down the page.

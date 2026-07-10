@@ -10,6 +10,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import RecapCard from '@/components/RecapCard';
 import { FORMS, type SectionDef } from '@/content/module6/forms';
 import {
+  CALLOUTS,
   CHAPTERS,
   HEROES,
   MAYA,
@@ -45,7 +46,31 @@ function fkind(t: string): FieldKind {
 }
 const cap = (s: string) => s.slice(0, 1).toUpperCase() + s.slice(1);
 
-function FieldRow({ field, value }: { field: string; value?: string }) {
+// Wordless callout affordance on a field with an extra rule/trap: an info dot that
+// reveals the note on hover/focus (desktop) or tap (mobile). No visible label text.
+function FieldNote({ note }: { note: string }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <span className={`fnote${open ? ' open' : ''}`}>
+      <button
+        type="button"
+        className="fnote-dot"
+        aria-label={`Callout: ${note}`}
+        aria-expanded={open}
+        onClick={() => setOpen(o => !o)}
+      >
+        <svg viewBox="0 0 16 16" aria-hidden="true">
+          <circle cx="8" cy="8" r="6.6" />
+          <line x1="8" y1="7.2" x2="8" y2="11.2" />
+          <circle cx="8" cy="4.7" r="0.5" />
+        </svg>
+      </button>
+      <span className="ftip" role="tooltip">{note}</span>
+    </span>
+  );
+}
+
+function FieldRow({ field, value, note }: { field: string; value?: string; note?: string }) {
   const kind = fkind(field);
   const has = value != null;
   const filled = has ? ' filled' : '';
@@ -59,7 +84,7 @@ function FieldRow({ field, value }: { field: string; value?: string }) {
     const markN = has && (v.startsWith('n') || v.startsWith('does not'));
     return (
       <div className={`frow yn${filled}`}>
-        <span className="fq">{q}</span>
+        <span className="fq">{q}{note && <FieldNote note={note} />}</span>
         <span className="ynb"><i className={`box${markY ? ' on' : ''}`} />Yes</span>
         <span className="ynb"><i className={`box${markN ? ' on' : ''}`} />No</span>
         {has && !markY && !markN && <span className="ink">{value}</span>}
@@ -70,7 +95,7 @@ function FieldRow({ field, value }: { field: string; value?: string }) {
     const label = field.slice(0, field.indexOf(':')).trim();
     return (
       <div className={`frow${filled}`}>
-        <span className="flabel">{label}</span>
+        <span className="flabel">{label}{note && <FieldNote note={note} />}</span>
         {has ? <span className="ink">{value}</span> : <span className="fline" />}
       </div>
     );
@@ -78,7 +103,7 @@ function FieldRow({ field, value }: { field: string; value?: string }) {
   if (kind === 'sign') {
     return (
       <div className={`frow sign${filled}`}>
-        <span className="flabel">{field}</span>
+        <span className="flabel">{field}{note && <FieldNote note={note} />}</span>
         {has ? (
           <span className="ink script">{value}</span>
         ) : (
@@ -90,7 +115,7 @@ function FieldRow({ field, value }: { field: string; value?: string }) {
   // group and line render the same way
   return (
     <div className={`frow${filled}`}>
-      <span className="flabel">{field}</span>
+      <span className="flabel">{field}{note && <FieldNote note={note} />}</span>
       {has ? <span className="ink">{value}</span> : <span className="fline" />}
     </div>
   );
@@ -105,7 +130,10 @@ function bandName(name: string) {
   return (p.length > 1 ? p[1] : p[0]).trim();
 }
 
-function FormSection({ sid }: { sid: string }) {
+// notes: only passed in the chapter walkthrough (the teaching context), not the
+// full-form overview — the overview scrolls inside a clipped frame where a popover
+// would be cut off, and the callouts belong with the story, not the reference dump.
+function FormSection({ sid, notes }: { sid: string; notes?: Record<string, string> }) {
   const s = SEC[sid];
   if (!s) return null;
   const vals = MAYA[sid] || {};
@@ -117,7 +145,7 @@ function FormSection({ sid }: { sid: string }) {
       </div>
       <div className="fields">
         {s.fields.map((f, i) => (
-          <FieldRow key={i} field={f} value={vals[f]} />
+          <FieldRow key={i} field={f} value={vals[f]} note={notes?.[f]} />
         ))}
       </div>
     </div>
@@ -335,9 +363,9 @@ function Chapter({ index }: { index: number }) {
   return (
     <section className="chapter" id={chDef.id}>
       <div className="chhead">
-        <span className="chnum">{num}</span>
-        <div className="chtitle-wrap">
-          <p className="cheyebrow">Maya’s application</p>
+        <p className="cheyebrow">Maya’s application</p>
+        <div className="chline">
+          <span className="chnum">{num}</span>
           <h2 className="chtitle">{chDef.q}</h2>
         </div>
       </div>
@@ -351,19 +379,21 @@ function Chapter({ index }: { index: number }) {
       </div>
       <div className="form">
         {chDef.secs.map(sid => (
-          <FormSection key={sid} sid={sid} />
+          <FormSection key={sid} sid={sid} notes={CALLOUTS[sid]} />
         ))}
       </div>
       {scenarios.map((s, i) => (
         <JudgmentCall key={i} scenario={s} />
       ))}
       <StudyDeck cards={STUDY[chDef.id] || []} />
-      <RecapCard
-        unitName={chDef.q}
-        reg={regFor(chDef.secs)}
-        recap={RECAP[chDef.id]}
-        unitId={chDef.stickerId}
-      />
+      <div className="chapter-foot">
+        <RecapCard
+          unitName={chDef.q}
+          reg={regFor(chDef.secs)}
+          recap={RECAP[chDef.id]}
+          unitId={chDef.stickerId}
+        />
+      </div>
     </section>
   );
 }
