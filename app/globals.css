@@ -2089,7 +2089,11 @@
    surfaces; scoped under .section-reader. Ported from the module-5-cards mock. */
 .section-reader .ic {
   container-type: inline-size;
-  position: relative; aspect-ratio: 8 / 5; width: 100%; margin: 20px 0 30px;
+  position: relative; aspect-ratio: 8 / 5;
+  /* Break out wider than the reading column so the diagram + its labels render larger
+     (the page canvas is far wider than the text column); clamped to the viewport on mobile. */
+  width: min(48rem, calc(100vw - 2rem)); margin: 26px 0 34px;
+  margin-left: 50%; transform: translateX(-50%);
   border-radius: 9px; overflow: hidden;
   background: radial-gradient(120% 140% at 50% 0%, #F4ECD8 0%, #EFE6CF 100%);
   box-shadow: 0 14px 30px rgba(0,0,0,.26), 0 2px 6px rgba(0,0,0,.20);
@@ -2105,8 +2109,10 @@
 }
 .section-reader .ic-pad { position: absolute; inset: 0; padding: 3.4% 4.2% 2.2%; display: flex; flex-direction: column; }
 .section-reader .ic-title {
-  display: block; height: clamp(26px, 6.6cqw, 44px); width: auto; max-width: 72%;
-  margin: 0 0 .12em; transform: rotate(-.6deg); mix-blend-mode: multiply;
+  /* align-self:flex-start stops the column flexbox from stretching the image to full width
+     (which distorted the Sharpie lettering); height sets the size, width follows the aspect. */
+  display: block; align-self: flex-start; height: clamp(26px, 5.4cqw, 46px); width: auto;
+  margin: 0 0 .1em; transform: rotate(-.6deg); mix-blend-mode: multiply;
 }
 .section-reader .ic-sub {
   font-family: var(--font-hand), cursive; font-weight: 600; color: #5c5140;
