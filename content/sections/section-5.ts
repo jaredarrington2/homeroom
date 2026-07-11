@@ -489,11 +489,11 @@ const section5: SectionContent = {
           ],
         },
         {
-          heading: "two loans, one purchase",
+          heading: "skipping mortgage insurance",
           anchor: { file: "couple-football-fans-tandem-bicycle-transparent.png", caption: "riding double", kind: "char" },
           paras: [
             {
-              html: `A buyer without 20% down can still skip PMI by splitting the financing into two loans. Private mortgage insurance attaches only to the <b>first</b> mortgage, so a first lien at <span class="cloze" data-accept='["80%","80","80 percent","eighty percent"]' data-reveal="80%">?</span> loan-to-value or below carries no PMI at all; a second lien then covers the gap between that first mortgage and the buyer's down payment.`,
+              html: `Put less than 20% down on a conventional loan and the lender adds <b>private mortgage insurance (PMI)</b> — a monthly charge on top of the payment that protects the lender if the borrower defaults, and buys the borrower nothing. A buyer short on the down payment can avoid it by borrowing in two pieces instead of one. PMI only kicks in when the <b>first</b> mortgage is above 80% of the home's value, so the buyer keeps that first loan at <span class="cloze" data-accept='["80%","80","80 percent","eighty percent"]' data-reveal="80%">?</span> and a second lien covers the rest of the price. Neither loan on its own is large enough to trigger PMI. Lenders call this pairing a <b>piggyback</b>.`,
             },
           ],
           vizWidget: "piggyback",
