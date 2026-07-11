@@ -480,6 +480,14 @@ const section5: SectionContent = {
           ],
         },
         {
+          heading: "the fixed lump sum",
+          paras: [
+            {
+              html: `A <b>home-equity loan</b> hands over the whole amount at once and fixes the terms: one lump sum, a set interest rate, and a level monthly payment that retires it over a set term — the same predictable shape as a first mortgage, only behind it. It's <b>closed-end</b>: once the money is paid out, that's the loan; paying it down doesn't reopen anything to draw from again. So it fits a known, one-time cost — a specific renovation, or rolling a few fixed debts into a single payment — where the borrower knows up front exactly how much they need. When the need is open-ended instead, the line is the better shape.`,
+            },
+          ],
+        },
+        {
           heading: "the line you draw against",
           anchor: { file: "house-of-cards-made-of-credit-cards-transparent.png", caption: "revolving", kind: "char" },
           paras: [

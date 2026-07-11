@@ -2,7 +2,7 @@
   "unitId": "second-liens",
   "name": "Second liens and equity lines",
   "reg": "home-equity loans · HELOCs · purchase-money seconds",
-  "groupCount": 3,
+  "groupCount": 4,
   "items": [
     {
       "kind": "prose",
@@ -30,20 +30,27 @@
       "id": "audio-second-liens-g1-p0",
       "gi": 1,
       "pi": 0,
-      "text": "A home-equity line — a HELOC — is open for about 10 years — the draw period — during which the borrower draws and repays freely and is usually billed interest-only on whatever is outstanding, at a rate that tracks the Prime rate. When the draw period closes, the line freezes and the remaining balance amortizes over the years left."
+      "text": "A home-equity loan hands over the whole amount at once and fixes the terms: one lump sum, a set interest rate, and a level monthly payment that retires it over a set term — the same predictable shape as a first mortgage, only behind it. It's closed-end: once the money is paid out, that's the loan; paying it down doesn't reopen anything to draw from again. So it fits a known, one-time cost — a specific renovation, or rolling a few fixed debts into a single payment — where the borrower knows up front exactly how much they need. When the need is open-ended instead, the line is the better shape."
     },
     {
       "kind": "prose",
       "id": "audio-second-liens-g2-p0",
       "gi": 2,
       "pi": 0,
+      "text": "A home-equity line — a HELOC — is open for about 10 years — the draw period — during which the borrower draws and repays freely and is usually billed interest-only on whatever is outstanding, at a rate that tracks the Prime rate. When the draw period closes, the line freezes and the remaining balance amortizes over the years left."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-second-liens-g3-p0",
+      "gi": 3,
+      "pi": 0,
       "text": "Put less than 20% down on a conventional loan and the lender adds private mortgage insurance (PMI) — a monthly charge on top of the payment that protects the lender if the borrower defaults, and buys the borrower nothing. A buyer short on the down payment can avoid it by borrowing in two pieces instead of one. PMI only kicks in when the first mortgage is above 80% of the home's value, so the buyer keeps that first loan at 80% and a second lien covers the rest of the price. Neither loan on its own is large enough to trigger PMI. Lenders call this pairing a piggyback."
     },
     {
       "kind": "gate",
       "gateType": "synth",
-      "id": "audio-second-liens-g2-gate-synth",
-      "gi": 2
+      "id": "audio-second-liens-g3-gate-synth",
+      "gi": 3
     },
     {
       "kind": "gate",
