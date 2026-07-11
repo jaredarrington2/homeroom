@@ -23,7 +23,7 @@
       "id": "audio-repayment-structures-g2-p0",
       "gi": 2,
       "pi": 0,
-      "text": "An interest-only loan bills only the interest for a set period, so the balance holds flat — nothing is going to principal. It exists only as a feature of a non-QM mortgage: a lender either keeps it in portfolio or sells it to a private investor. When the interest-only period ends, the loan re-casts to a payment that repays the full balance over the years left, and that payment jumps."
+      "text": "On an interest-only loan the borrower pays only the interest for a set period, so the balance holds flat — nothing is going to principal. It exists only as a feature of a non-QM mortgage: a lender either keeps it in portfolio or sells it to a private investor. When the interest-only period ends, the loan re-casts to a payment that repays the full balance over the years left, and that payment jumps."
     },
     {
       "kind": "gate",
@@ -36,7 +36,7 @@
       "id": "audio-repayment-structures-g3-p0",
       "gi": 3,
       "pi": 0,
-      "text": "A balloon loan sets its payment on a 30- or 15-year amortization but calls the entire remaining balance due years earlier. Lenders write it as two numbers — years to the call, then the amortization behind the payment — so a 3/27 pays like a 30-year loan but comes due at year three. The low rate is the trade for the risk that the borrower can't cover the call. To exercise a conditional right to modify (CRTM) — converting the balloon to a fixed rate instead of paying it — the borrower must give written notice no later than 45 days before the call."
+      "text": "A balloon loan's payment is set on a 30- or 15-year amortization, but the lender calls the entire remaining balance due years earlier. Lenders write it as two numbers — years to the call, then the amortization behind the payment — so a 3/27 is paid like a 30-year loan but comes due at year three. The low rate is the trade for the risk that the borrower can't cover the call. To exercise a conditional right to modify (CRTM) — converting the balloon to a fixed rate instead of paying it — the borrower must give written notice no later than 45 days before the call."
     },
     {
       "kind": "prose",

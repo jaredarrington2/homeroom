@@ -48,7 +48,7 @@ const section5: SectionContent = {
           heading: "the range of products",
           paras: [
             {
-              html: `Some products ask for twenty percent down, others nothing at all. Some are backed by a bank, others by the government. Some keep one rate for the life of the loan; others adjust it over time. Some can be <b>drawn</b> on — money pulled out a piece at a time as it's needed, not all at once, the way a credit card works. One pays the homeowner instead of the other way around. Each was built for a particular situation.`,
+              html: `Some products ask for twenty percent down, others nothing at all. Some are backed by a bank, others by the government. Some keep one rate for the life of the loan; others adjust it over time. Some can be <b>drawn</b> on — the borrower pulls the money out a piece at a time as it's needed, not all at once, the way a credit card works. With one, the lender pays the homeowner instead of the other way around. Each was built for a particular situation.`,
             },
             {
               html: `A veteran, a buyer in a rural county, a first-timer with three percent saved, a retiree with decades of equity, someone financing a house that isn't built yet — each fits a different loan. Matching the borrower to the product is the job.`,
@@ -80,7 +80,7 @@ const section5: SectionContent = {
         {
           paras: [
             {
-              html: `Two of the four loan programs an originator works with are <b>guaranteed</b> by the federal government rather than insured or left to the private market. On a <b>VA loan</b>, the Department of Veterans Affairs stands behind the loan; on a <b>USDA loan</b>, the Department of Agriculture does. That government guaranty is what lets both programs do something conventional and even FHA loans can't — lend with <b>no down payment and no mortgage insurance</b>. This unit teaches both, then sets all four programs side by side.`,
+              html: `Two of the four loan programs an originator works with are <b>guaranteed</b> by the federal government rather than insured or left to the private market. On a <b>VA loan</b>, the Department of Veterans Affairs guarantees the loan; on a <b>USDA loan</b>, the Department of Agriculture does. That government guaranty is what lets both programs do something conventional and even FHA loans can't — lend with <b>no down payment and no mortgage insurance</b>. This unit teaches both, then sets all four programs side by side.`,
             },
           ],
         },
@@ -177,7 +177,7 @@ const section5: SectionContent = {
           visual: "program-comparison",
           synth: {
             q: "VA and USDA both skip PMI. What does each charge instead, and why can they get away with it?",
-            a: "A VA loan charges a funding fee; a USDA loan charges a guarantee fee. Both can skip private mortgage insurance because the government's own guaranty already stands behind the loan — the agency, not a private insurer, absorbs the lender's risk, so the fee simply funds that guaranty pool.",
+            a: "A VA loan carries a funding fee; a USDA loan carries a guarantee fee. Both can skip private mortgage insurance because the government itself guarantees the loan — the agency, not a private insurer, absorbs the lender's risk, so the fee simply funds that guaranty pool.",
           },
         },
       ],
@@ -225,7 +225,7 @@ const section5: SectionContent = {
         ],
       },
       recap: {
-        plainLanguage: "VA and USDA are the two government-guaranteed loans. Because the government itself stands behind them, both lend with no down payment and no mortgage insurance — the VA charges a funding fee and the USDA a guarantee fee in place of PMI.",
+        plainLanguage: "VA and USDA are the two government-guaranteed loans. Because the government itself guarantees them, both lend with no down payment and no mortgage insurance — the VA charges a funding fee and the USDA a guarantee fee in place of PMI.",
         facts: [
           "VA loans came from the <span class=\"hl\">1944 Servicemen's Readjustment Act</span>; the COE reflects a <span class=\"hl\">$36,000</span> entitlement, guaranteeing up to <span class=\"hl\">four times</span> that.",
           "No mortgage insurance on either: VA charges a <span class=\"hl\">funding fee</span> (first-use, &lt;5% down = <span class=\"hl\">2.15%</span>), USDA a <span class=\"hl\">guarantee fee</span> (1% up-front + <span class=\"hl\">0.35%</span>/yr).",
@@ -298,7 +298,7 @@ const section5: SectionContent = {
         { term: "Start rate", def: "The introductory rate an ARM locks at, set below market and held through the fixed period." },
         { term: "Index", def: "The public rate an ARM tracks; when the loan adjusts, its rate is built from wherever the index sits that day." },
         { term: "Margin", def: "The lender's fixed markup, added to the index. The rate can't fall below it." },
-        { term: "Fully-indexed rate (FIAR)", def: "The index plus the margin, rounded to the nearest ⅛%. It's the rate the loan charges once it adjusts." },
+        { term: "Fully-indexed rate (FIAR)", def: "The index plus the margin, rounded to the nearest ⅛%. It's the rate charged once the loan adjusts." },
         { term: "Initial adjustment cap", def: "The most the rate can move at the first adjustment, measured from the start rate." },
         { term: "Periodic adjustment cap", def: "The most the rate can move at each adjustment after the first, measured from the prior rate." },
         { term: "Life-of-loan cap", def: "The most the rate can ever rise above the start rate." },
@@ -393,7 +393,7 @@ const section5: SectionContent = {
           heading: "when the payment only covers interest",
           paras: [
             {
-              html: `An <b>interest-only loan</b> bills only the interest for a set period, so the balance holds flat — nothing is going to principal. It exists only as a feature of a <span class="cloze" data-accept='["non-qm","non-qualified","nonqualified","non qualified","non-qualified mortgage"]' data-reveal="non-QM">?</span> mortgage: a lender either keeps it in portfolio or sells it to a private investor. When the interest-only period ends, the loan <b>re-casts</b> to a payment that repays the full balance over the years left, and that payment jumps.`,
+              html: `On an <b>interest-only loan</b> the borrower pays only the interest for a set period, so the balance holds flat — nothing is going to principal. It exists only as a feature of a <span class="cloze" data-accept='["non-qm","non-qualified","nonqualified","non qualified","non-qualified mortgage"]' data-reveal="non-QM">?</span> mortgage: a lender either keeps it in portfolio or sells it to a private investor. When the interest-only period ends, the loan <b>re-casts</b> to a payment that repays the full balance over the years left, and that payment jumps.`,
             },
           ],
           inkCard: "interest-only",
@@ -407,7 +407,7 @@ const section5: SectionContent = {
           anchor: { file: "detective-medicine-ball-transparent.png", caption: "the call", kind: "char" },
           paras: [
             {
-              html: `A <b>balloon loan</b> sets its payment on a 30- or 15-year amortization but calls the entire remaining balance due years earlier. Lenders write it as two numbers — years to the call, then the amortization behind the payment — so a <b>3/27</b> pays like a 30-year loan but comes due at year three. The low rate is the trade for the risk that the borrower can't cover the call. To exercise a <b>conditional right to modify (CRTM)</b> — converting the balloon to a fixed rate instead of paying it — the borrower must give written notice no later than <span class="cloze" data-accept='["45","45 days","forty-five","forty-five days"]' data-reveal="45 days">?</span> before the call.`,
+              html: `A <b>balloon loan</b>'s payment is set on a 30- or 15-year amortization, but the lender calls the entire remaining balance due years earlier. Lenders write it as two numbers — years to the call, then the amortization behind the payment — so a <b>3/27</b> is paid like a 30-year loan but comes due at year three. The low rate is the trade for the risk that the borrower can't cover the call. To exercise a <b>conditional right to modify (CRTM)</b> — converting the balloon to a fixed rate instead of paying it — the borrower must give written notice no later than <span class="cloze" data-accept='["45","45 days","forty-five","forty-five days"]' data-reveal="45 days">?</span> before the call.`,
             },
           ],
           inkCard: "balloon",
@@ -443,11 +443,11 @@ const section5: SectionContent = {
         ],
       },
       recap: {
-        plainLanguage: "A fixed-rate loan pays a level amount every month until the balance reaches zero — the same payment throughout, though the split inside it shifts from interest to principal over the years. Interest-only, balloon, and re-cast each change that: the payment, the payoff date, or both.",
+        plainLanguage: "On a fixed-rate loan the borrower pays a level amount every month until the balance reaches zero — the same payment throughout, though the split inside it shifts from interest to principal over the years. Interest-only, balloon, and re-cast each change that: the payment, the payoff date, or both.",
         facts: [
           "A fixed-rate loan is <span class=\"hl\">fully amortizing</span> — early payments are mostly interest, and the <span class=\"hl\">crossover</span> to mostly-principal sits past the halfway mark.",
           "<span class=\"hl\">Interest-only</span> is a non-QM feature: the balance holds flat, then the loan re-casts to a higher fully-amortizing payment.",
-          "A <span class=\"hl\">balloon</span> loan pays on a long amortization but calls the full balance early — a 3/27 means call at year 3, 30-year payment.",
+          "A <span class=\"hl\">balloon</span> loan is paid on a long amortization, but the lender calls the full balance early — a 3/27 means call at year 3, 30-year payment.",
           "A <span class=\"hl\">CRTM</span> lets the borrower convert instead of paying the balloon — written notice no later than <span class=\"hl\">45 days</span> before the call.",
           "A <span class=\"hl\">re-cast</span> lowers the payment against a smaller balance; the rate and term don't move.",
         ],
@@ -475,7 +475,7 @@ const section5: SectionContent = {
               html: `You can borrow against that share without disturbing the mortgage you already have. The first mortgage stays exactly where it is; the new loan takes second place behind it — which is what makes it a <b>second lien</b>. If the house were ever sold to clear its debts, the first mortgage would be paid off first and the second would wait for whatever's left. Standing at the back of that line is riskier for the lender, so a second lien usually costs a little more.`,
             },
             {
-              html: `Two shapes cover most of it. You can take the money in a single piece — a fixed loan you pay back on a set schedule — which is a <b>home-equity loan</b>. Or you can open a line and draw from it as you go, paying down and borrowing again the way you would with a credit card, except the house is what backs it: a <b>home-equity line</b>. A buyer short on the down payment can even set up a second lien the day they close — and use it to skip mortgage insurance.`,
+              html: `Two kinds cover most of it. You can take the money in a single piece — a fixed loan you pay back on a set schedule — which is a <b>home-equity loan</b>. Or you can open a line and draw from it as you go, paying down and borrowing again the way you would with a credit card, except the house is what backs it: a <b>home-equity line</b>. A buyer short on the down payment can even set up a second lien the day they close — and use it to skip mortgage insurance.`,
             },
           ],
         },
@@ -483,7 +483,7 @@ const section5: SectionContent = {
           heading: "the fixed lump sum",
           paras: [
             {
-              html: `A <b>home-equity loan</b> hands over the whole amount at once and fixes the terms: one lump sum, a set interest rate, and a level monthly payment that retires it over a set term — the same predictable shape as a first mortgage, only behind it. It's <b>closed-end</b>: once the money is paid out, that's the loan; paying it down doesn't reopen anything to draw from again. So it fits a known, one-time cost — a specific renovation, or rolling a few fixed debts into a single payment — where the borrower knows up front exactly how much they need. When the need is open-ended instead, the line is the better shape.`,
+              html: `With a <b>home-equity loan</b>, the lender pays out the whole amount at once, and the terms are fixed: one lump sum, a set interest rate, and a level monthly payment the borrower makes over a set term — as steady and predictable as a first mortgage, only behind it. It's <b>closed-end</b>: once the money is paid out, that's the loan; paying it down doesn't reopen anything to draw from again. So it fits a known, one-time cost — a specific renovation, or rolling a few fixed debts into a single payment — where the borrower knows up front exactly how much they need. When the need is open-ended instead, the line fits better.`,
             },
           ],
         },
@@ -603,7 +603,7 @@ const section5: SectionContent = {
           heading: "three kinds, and how they're sold",
           paras: [
             {
-              html: `The <b>HECM</b> — home equity conversion mortgage — is the common one: FHA-insured, and flexible in how it pays out. A <b>single-purpose</b> reverse mortgage comes from a state or local program for one named use, like repairs or property taxes; a <b>proprietary</b> one is a private, uninsured loan for higher-value homes. Because the audience is elderly, the advertising is policed hard: the <b>MAP Rule</b> (Regulation N) makes it a violation to misrepresent the costs, the payments, or the borrower's right to stay in the home.`,
+              html: `The <b>HECM</b> — home equity conversion mortgage — is the common one: FHA-insured, and flexible in how the money reaches the borrower. A <b>single-purpose</b> reverse mortgage comes from a state or local program for one named use, like repairs or property taxes; a <b>proprietary</b> one is a private, uninsured loan for higher-value homes. Because the audience is elderly, the advertising is policed hard: the <b>MAP Rule</b> (Regulation N) makes it a violation to misrepresent the costs, the payments, or the borrower's right to stay in the home.`,
             },
           ],
         },
@@ -732,7 +732,7 @@ const section5: SectionContent = {
       reg: "GPM · GEM · land contract · package · ROM",
       definitions: [
         { term: "Graduated payment mortgage (GPM)", def: "A fixed-rate loan whose payments start low and step up on a schedule. The early payments don't cover the interest, so the loan negatively amortizes at first." },
-        { term: "Growth equity mortgage (GEM)", def: "A fixed-rate loan whose payments start higher than required and rise, with the extra applied to principal, so the loan pays off early." },
+        { term: "Growth equity mortgage (GEM)", def: "A fixed-rate loan whose payments start higher than required and rise, with the extra applied to principal, so the loan is paid off early." },
         { term: "Land contract", def: "A seller-financed sale where the buyer takes possession but not title — paying the seller directly and receiving the deed only when the balance is paid. Default can forfeit the payments made." },
         { term: "Package mortgage", def: "A loan secured by the real property plus the personal property inside it (appliances, furnishings), all appraised together as one bundle." },
         { term: "Reduction option mortgage (ROM)", def: "A fixed-rate loan with a one-time option to lower the rate without a full refinance, usually for a fee and within a set window." },
@@ -741,7 +741,7 @@ const section5: SectionContent = {
         {
           paras: [
             {
-              html: `Two fixed-rate programs deliberately break the level payment. A <b>graduated payment mortgage</b> starts the payments below the true cost — the shortfall is added to the balance, so it <span class="cloze" data-accept='["negative amortization","negatively amortizes","negative","neg am"]' data-reveal="negative amortization">?</span> — then steps them up on a set schedule. A <b>growth equity mortgage</b> does the reverse: the payments run higher than required, the extra goes straight to principal, and the loan pays off early.`,
+              html: `Two fixed-rate programs deliberately break the level payment. On a <b>graduated payment mortgage</b> the payments start below the true cost — the shortfall is added to the balance, so it <span class="cloze" data-accept='["negative amortization","negatively amortizes","negative","neg am"]' data-reveal="negative amortization">?</span> — then step up on a set schedule. A <b>growth equity mortgage</b> does the reverse: the payments run higher than required, the extra goes straight to principal, and the loan is paid off early.`,
             },
           ],
         },
@@ -750,12 +750,12 @@ const section5: SectionContent = {
           anchor: { file: "forest-rangers-pizza-boxes-transparent.png", caption: "one package", kind: "char" },
           paras: [
             {
-              html: `A <b>land contract</b> hands over possession but not the deed — the buyer pays the seller directly and takes title only once the agreed sum is paid; walk away early and the payments are forfeit. A <b>package mortgage</b> collateralizes the land, the dwelling, and the personal property inside it — furniture and appliances — as one appraised bundle. A <b>reduction option mortgage</b> is a fixed-rate loan with a one-time chance to drop the rate without refinancing, for a fee.`,
+              html: `Under a <b>land contract</b>, the buyer takes possession but not the deed — they pay the seller directly and take title only once the agreed sum is paid; walk away early and the payments are forfeit. A <b>package mortgage</b> collateralizes the land, the dwelling, and the personal property inside it — furniture and appliances — as one appraised bundle. A <b>reduction option mortgage</b> is a fixed-rate loan with a one-time chance to drop the rate without refinancing, for a fee.`,
             },
           ],
           synth: {
             q: "A GPM and a GEM are both fixed-rate. How do their payment schedules move in opposite directions, and what happens to the balance in each?",
-            a: "A GPM starts with low payments that don't cover the interest, so the balance grows (negative amortization) before the payments step up. A GEM starts with payments higher than required and the extra goes to principal, so the balance falls faster and the loan pays off early.",
+            a: "A GPM starts with low payments that don't cover the interest, so the balance grows (negative amortization) before the payments step up. A GEM starts with payments higher than required and the extra goes to principal, so the balance falls faster and the loan is paid off early.",
           },
         },
       ],
@@ -774,7 +774,7 @@ const section5: SectionContent = {
           },
           {
             q: "A growth equity mortgage's higher-than-required payments go toward:",
-            opts: ["an escrow cushion", "principal, so the loan pays off early", "interest only", "a rate buy-down"],
+            opts: ["an escrow cushion", "principal, so the loan is paid off early", "interest only", "a rate buy-down"],
             correct: 1,
           },
         ],

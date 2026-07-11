@@ -179,7 +179,7 @@ function BalloonDiag() {
         <text x={318} y={332} fontSize={17} fontWeight={700} fill={INK_DEEP}>3/27 · yr 3</text>
       </g>
       <g fontFamily="Caveat, cursive">
-        <text x={100} y={366} fontSize={20} fontWeight={700} fill={INK_DEEP}>pays like a 30-year loan, but the full balance comes due years early</text>
+        <text x={100} y={366} fontSize={20} fontWeight={700} fill={INK_DEEP}>the payment is sized for a 30-year loan, but the full balance comes due years early</text>
         <text x={100} y={398} fontSize={19} fontWeight={600} fill={INK}>convert instead with a <tspan fontWeight={700} fill={INK_DEEP}>CRTM</tspan> — written notice no later than 45 days before it's due.</text>
       </g>
     </svg>
