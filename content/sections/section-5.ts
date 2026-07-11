@@ -443,7 +443,7 @@ const section5: SectionContent = {
         ],
       },
       recap: {
-        plainLanguage: "Every residential loan is a variation on one arrangement: a fixed-rate loan that pays a level amount each month until the balance hits zero. Interest-only, balloon, and re-cast each change the payment, the payoff date, or both.",
+        plainLanguage: "A fixed-rate loan pays a level amount every month until the balance reaches zero — the same payment throughout, though the split inside it shifts from interest to principal over the years. Interest-only, balloon, and re-cast each change that: the payment, the payoff date, or both.",
         facts: [
           "A fixed-rate loan is <span class=\"hl\">fully amortizing</span> — early payments are mostly interest, and the <span class=\"hl\">crossover</span> to mostly-principal sits past the halfway mark.",
           "<span class=\"hl\">Interest-only</span> is a non-QM feature: the balance holds flat, then the loan re-casts to a higher fully-amortizing payment.",
