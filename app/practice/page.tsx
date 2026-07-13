@@ -10,7 +10,7 @@ export default function PracticePage() {
         <Link href="/practice/mock" className="block border border-hairline p-5 hover:border-royal hover:bg-royal-faint transition-colors">
           <div className="text-xs font-semibold uppercase tracking-eyebrow text-ink-faint mb-1">Mock exam</div>
           <div className="font-display text-lg text-ink">Full 125-question exam</div>
-          <div className="text-sm text-ink-muted mt-1">190 minutes · 75% to pass · SAFE format</div>
+          <div className="text-sm text-ink-muted mt-1">190 minutes · 75% to pass · blueprint-weighted</div>
         </Link>
         <Link href="/practice/topic" className="block border border-hairline p-5 hover:border-royal hover:bg-royal-faint transition-colors">
           <div className="text-xs font-semibold uppercase tracking-eyebrow text-ink-faint mb-1">Topic drill</div>

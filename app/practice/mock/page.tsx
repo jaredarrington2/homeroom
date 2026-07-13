@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect, useRef } from 'react';
 import Button from '@/components/Button';
+import { sampleBlueprint } from '@/lib/exam/sampler';
 import type { Question } from '@/lib/types';
 
 function formatTime(seconds: number) {
@@ -22,8 +23,8 @@ export default function MockExamPage() {
     fetch('/api/questions')
       .then(r => r.json())
       .then((all: Question[]) => {
-        const shuffled = [...all].sort(() => Math.random() - 0.5).slice(0, 125);
-        setQuestions(shuffled);
+        // Blueprint-weighted, not a flat random draw — mirrors the real exam's area mix.
+        setQuestions(sampleBlueprint(all, 125));
       });
     timerRef.current = setInterval(() => {
       setTimeLeft(t => {
