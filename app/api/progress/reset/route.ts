@@ -7,9 +7,10 @@ import { kv } from '@/lib/kvServer';
 import { emptyProgress, type Progress } from '@/lib/types';
 import { getChapterTree } from '@/lib/content';
 import { applyReset, parseScope } from '@/lib/progressReset';
+import { resolveUserId } from '@/lib/authUser';
 
 export async function POST(req: NextRequest) {
-  const userId = req.headers.get('X-User-Id');
+  const userId = await resolveUserId(req.headers.get('X-User-Id'));
   if (!userId) return NextResponse.json({ ok: false }, { status: 400 });
 
   const { scope: rawScope } = await req.json().catch(() => ({ scope: null }));

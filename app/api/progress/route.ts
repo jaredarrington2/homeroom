@@ -1,9 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { kv } from '@/lib/kvServer';
 import { emptyProgress, type Progress } from '@/lib/types';
+import { resolveUserId } from '@/lib/authUser';
 
 export async function GET(req: NextRequest) {
-  const userId = req.headers.get('X-User-Id');
+  const userId = await resolveUserId(req.headers.get('X-User-Id'));
   if (!userId) return NextResponse.json(emptyProgress());
   try {
     const progress = await kv.get<Progress>(`progress:${userId}`);
@@ -14,7 +15,7 @@ export async function GET(req: NextRequest) {
 }
 
 export async function POST(req: NextRequest) {
-  const userId = req.headers.get('X-User-Id');
+  const userId = await resolveUserId(req.headers.get('X-User-Id'));
   if (!userId) return NextResponse.json({ ok: false }, { status: 400 });
   const progress = await req.json();
   try {

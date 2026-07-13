@@ -4,6 +4,7 @@ import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import ContentsDrawer from './ContentsDrawer';
 import SearchPanel from './SearchPanel';
+import AccountMenu from './AccountMenu';
 
 const NAV = [
   { href: '/learn', label: 'Learn' },
@@ -53,9 +54,7 @@ export default function TopBar() {
           {/* Search notes — magnifier trigger + overlay, gated to /learn (self-contained) */}
           <SearchPanel />
 
-          <Link href="/settings" className="hidden md:block text-sm text-ink-muted hover:text-ink transition-colors">
-            Settings
-          </Link>
+          <AccountMenu />
 
           {/* Hamburger button — mobile only */}
           <button
