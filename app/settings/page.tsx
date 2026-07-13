@@ -2,14 +2,15 @@
 import { useState, useEffect } from 'react';
 import Eyebrow from '@/components/Eyebrow';
 import Button from '@/components/Button';
-import { getUserId, setUserId, loadProgress, saveProgress, defaultProgress } from '@/lib/kv';
+import { getUserId, setUserId, loadProgress, saveProgress, resetProgress } from '@/lib/kv';
 import type { Progress } from '@/lib/types';
 
 export default function SettingsPage() {
   const [userId, setUserIdState] = useState('');
   const [progress, setProgress] = useState<Progress | null>(null);
   const [syncInput, setSyncInput] = useState('');
-  const [confirmReset, setConfirmReset] = useState(false);
+  const [confirmScope, setConfirmScope] = useState<string | null>(null);
+  const [busy, setBusy] = useState(false);
 
   useEffect(() => {
     setUserIdState(getUserId());
@@ -25,11 +26,13 @@ export default function SettingsPage() {
     loadProgress().then(setProgress);
   }
 
-  async function handleReset() {
-    if (!confirmReset) { setConfirmReset(true); return; }
-    await saveProgress(defaultProgress);
-    setProgress(defaultProgress);
-    setConfirmReset(false);
+  async function handleReset(scope: string) {
+    if (confirmScope !== scope) { setConfirmScope(scope); return; }
+    setBusy(true);
+    const next = await resetProgress(scope);
+    if (next) setProgress(next);
+    setBusy(false);
+    setConfirmScope(null);
   }
 
   return (
@@ -83,11 +86,27 @@ export default function SettingsPage() {
       </section>
 
       <section>
-        <h2 className="font-display text-lg font-medium text-ink mb-1">Reset progress</h2>
-        <p className="text-sm text-ink-muted mb-4">Clears all completed sections, flashcard history, and exam scores. Cannot be undone.</p>
-        <Button variant="danger" onClick={handleReset}>
-          {confirmReset ? 'Confirm reset' : 'Reset all progress'}
-        </Button>
+        <h2 className="font-display text-lg font-medium text-ink mb-1">Clear progress</h2>
+        <p className="text-sm text-ink-muted mb-4">Pick what to clear. This can&apos;t be undone.</p>
+        <div className="flex flex-col gap-3">
+          <div>
+            <Button variant="ghost" onClick={() => handleReset('answers')} disabled={busy}>
+              {confirmScope === 'answers' ? 'Confirm — clear my answers' : 'Clear my answers'}
+            </Button>
+            <p className="text-xs text-ink-faint mt-1.5">
+              Wipes the cloze, short-answer, quiz, and exam answers you&apos;ve typed. Keeps which sections
+              you&apos;ve read and your flashcard schedule.
+            </p>
+          </div>
+          <div>
+            <Button variant="danger" onClick={() => handleReset('all')} disabled={busy}>
+              {confirmScope === 'all' ? 'Confirm — reset everything' : 'Reset everything'}
+            </Button>
+            <p className="text-xs text-ink-faint mt-1.5">
+              Clears the whole blob — answers, completed sections, flashcard history, and exam scores.
+            </p>
+          </div>
+        </div>
       </section>
     </div>
   );

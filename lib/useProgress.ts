@@ -12,7 +12,7 @@ import {
   type MCQState,
 } from './types';
 import type { FlashcardState } from './types';
-import { loadProgress, saveProgress } from './kv';
+import { loadProgress, saveProgress, resetProgress } from './kv';
 
 const DEBOUNCE_MS = 800;
 
@@ -114,6 +114,19 @@ export function useProgress() {
     update((p) => (p.lastVisitedSection === value ? p : { ...p, lastVisitedSection: value }));
   }, [update]);
 
+  // Clears part or all of the stored progress server-side, then adopts the returned blob.
+  // Cancels any pending debounced save first so it can't clobber the reset.
+  const resetScope = useCallback(async (scope: string) => {
+    if (saveTimer.current) clearTimeout(saveTimer.current);
+    const next = await resetProgress(scope);
+    if (next) {
+      const merged = { ...emptyProgress(), ...next };
+      pending.current = merged;
+      setProgress(merged);
+    }
+    return next;
+  }, []);
+
   return {
     progress, loaded,
     saveCloze, getCloze,
@@ -122,6 +135,6 @@ export function useProgress() {
     saveMCQ, getMCQ,
     saveFlashcardSRS, getFlashcardSRS,
     markUnitComplete, isUnitComplete,
-    setLastVisited,
+    setLastVisited, resetScope,
   };
 }

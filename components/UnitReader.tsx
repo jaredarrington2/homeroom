@@ -9,6 +9,7 @@ import ReviewDeck from "./ReviewDeck";
 import DefinitionsDeck from "./DefinitionsDeck";
 import DisclosureVisual from "./DisclosureVisual";
 import MarkComplete from "./MarkComplete";
+import ClearSection from "./ClearSection";
 import RecapCard from "./RecapCard";
 import SectionHead from "./SectionHead";
 import VisitTracker from "./VisitTracker";
@@ -111,6 +112,7 @@ export default function UnitReader({
         {unit.recap && (
           <RecapCard unitName={unit.name} reg={unit.reg} recap={unit.recap} unitId={unit.id} />
         )}
+        <ClearSection unitId={unit.id} />
         <MarkComplete sectionId={unit.id} />
       </div>
     </section>
