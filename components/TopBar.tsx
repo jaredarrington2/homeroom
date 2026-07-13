@@ -6,12 +6,16 @@ import ContentsDrawer from './ContentsDrawer';
 import SearchPanel from './SearchPanel';
 
 const NAV = [
-  { href: '/', label: 'Home' },
   { href: '/learn', label: 'Learn' },
-  { href: '/flashcards', label: 'Flashcards' },
   { href: '/practice', label: 'Practice' },
-  { href: '/glossary', label: 'Glossary' },
+  // Study consolidates vocab (glossary) and cards (flashcards).
+  { href: '/study', label: 'Study', alsoActiveOn: ['/flashcards', '/glossary'] },
 ];
+
+function isActive(path: string, href: string, alsoActiveOn?: string[]): boolean {
+  if (path === href || path.startsWith(href + '/')) return true;
+  return (alsoActiveOn ?? []).some((p) => path === p || path.startsWith(p + '/'));
+}
 
 export default function TopBar() {
   const path = usePathname();
@@ -29,8 +33,8 @@ export default function TopBar() {
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-6">
-          {NAV.map(({ href, label }) => {
-            const active = href === '/' ? path === '/' : path.startsWith(href);
+          {NAV.map(({ href, label, alsoActiveOn }) => {
+            const active = isActive(path, href, alsoActiveOn);
             return (
               <Link
                 key={href}
@@ -75,8 +79,8 @@ export default function TopBar() {
       {/* Mobile dropdown */}
       {menuOpen && (
         <div className="md:hidden border-t border-hairline bg-paper px-4 pb-4 pt-3 space-y-1">
-          {NAV.map(({ href, label }) => {
-            const active = href === '/' ? path === '/' : path.startsWith(href);
+          {NAV.map(({ href, label, alsoActiveOn }) => {
+            const active = isActive(path, href, alsoActiveOn);
             return (
               <Link
                 key={href}

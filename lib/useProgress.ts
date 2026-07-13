@@ -107,6 +107,13 @@ export function useProgress() {
     progress.completedUnits.includes(unitId)
   , [progress]);
 
+  // Records where the reader is, as "chapterId/sectionId", for the Learn-home Continue card.
+  // No-op if unchanged so scrolling through a unit doesn't thrash the debounced save.
+  const setLastVisited = useCallback((chapterId: string, sectionId: string) => {
+    const value = `${chapterId}/${sectionId}`;
+    update((p) => (p.lastVisitedSection === value ? p : { ...p, lastVisitedSection: value }));
+  }, [update]);
+
   return {
     progress, loaded,
     saveCloze, getCloze,
@@ -115,5 +122,6 @@ export function useProgress() {
     saveMCQ, getMCQ,
     saveFlashcardSRS, getFlashcardSRS,
     markUnitComplete, isUnitComplete,
+    setLastVisited,
   };
 }

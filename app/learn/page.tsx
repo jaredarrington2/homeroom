@@ -1,35 +1,22 @@
-import Link from 'next/link';
-import Eyebrow from '@/components/Eyebrow';
+// app/learn/page.tsx — Learn home (Slice C). The dashboard: Continue · Where you stand · Modules.
+// (Was the flat "Course material" chapter index.) Static module tree is built server-side and
+// handed to LearnDashboard, which overlays progress from the shared context.
+import LearnDashboard, { type DashModule } from '@/components/LearnDashboard';
 import { getChapterTree } from '@/lib/content';
+
+export const metadata = { title: 'Learn — Homeroom' };
 
 export default function LearnPage() {
   const tree = getChapterTree();
-  return (
-    <div className="max-w-reading mx-auto">
-      <Eyebrow>Learn</Eyebrow>
-      <h1 className="font-display text-3xl font-semibold tracking-display mt-2 mb-8">Course material</h1>
-      {tree.parts.length === 0 && (
-        <p className="text-ink-muted text-sm">Content not yet generated. Run the extraction script.</p>
-      )}
-      {tree.parts.map(part => (
-        <div key={part.id} className="mb-8">
-          <h2 className="font-display text-xl font-medium text-ink mb-3 pb-2 border-b border-hairline">
-            {part.title}
-          </h2>
-          <div className="space-y-2">
-            {part.chapters.map(ch => (
-              <Link
-                key={ch.id}
-                href={`/learn/${ch.id}`}
-                className="flex items-center justify-between p-3 border border-hairline hover:border-royal hover:bg-royal-faint transition-colors"
-              >
-                <span className="font-sans text-sm text-ink">{ch.title}</span>
-                <span className="text-xs text-ink-faint">{ch.sections.length} sections</span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      ))}
-    </div>
-  );
+  const modules: DashModule[] = tree.parts
+    .flatMap((p) => p.chapters)
+    .sort((a, b) => a.moduleNumber - b.moduleNumber)
+    .map((ch) => ({
+      id: ch.id,
+      moduleNumber: ch.moduleNumber,
+      title: ch.title,
+      sections: ch.sections.map((s) => ({ id: s.id, title: s.title })),
+    }));
+
+  return <LearnDashboard modules={modules} />;
 }

@@ -11,6 +11,7 @@ import DisclosureVisual from "./DisclosureVisual";
 import MarkComplete from "./MarkComplete";
 import RecapCard from "./RecapCard";
 import SectionHead from "./SectionHead";
+import VisitTracker from "./VisitTracker";
 import ListenEntry from "./ListenEntry";
 import ListenMark from "./ListenMark";
 import StudyCard from "./StudyCard";
@@ -45,6 +46,7 @@ export default function UnitReader({
         sectionTotal={total}
         statute={unit.reg}
       >
+        <VisitTracker chapterId={sectionId} sectionId={unit.id} />
         <ListenEntry unitId={unit.id} />
       </SectionHead>
 
