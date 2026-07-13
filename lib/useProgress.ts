@@ -107,6 +107,24 @@ export function useProgress() {
     progress.completedUnits.includes(unitId)
   , [progress]);
 
+  // Record one end-of-section exam-check attempt + fold each item's result into questionHistory
+  // (which feeds Practice → Missed questions).
+  const recordExamAttempt = useCallback((
+    unitId: string,
+    attempt: { at: number; correct: number; total: number; itemIds: string[]; answers: number[] },
+    itemResults: Record<string, boolean>,
+  ) => {
+    update((p) => ({
+      ...p,
+      exam: { ...p.exam, [unitId]: { attempts: [...(p.exam[unitId]?.attempts ?? []), attempt] } },
+      questionHistory: { ...p.questionHistory, ...itemResults },
+    }));
+  }, [update]);
+
+  const examAttempts = useCallback((unitId: string) =>
+    progress.exam[unitId]?.attempts ?? []
+  , [progress]);
+
   // Records where the reader is, as "chapterId/sectionId", for the Learn-home Continue card.
   // No-op if unchanged so scrolling through a unit doesn't thrash the debounced save.
   const setLastVisited = useCallback((chapterId: string, sectionId: string) => {
@@ -136,5 +154,6 @@ export function useProgress() {
     saveFlashcardSRS, getFlashcardSRS,
     markUnitComplete, isUnitComplete,
     setLastVisited, resetScope,
+    recordExamAttempt, examAttempts,
   };
 }

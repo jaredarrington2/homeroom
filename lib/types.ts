@@ -95,6 +95,15 @@ export type MCQState = {
   correct: boolean;
 };
 
+// One end-of-section exam-check attempt (Slice D).
+export type ExamAttempt = {
+  at: number;
+  correct: number;
+  total: number;
+  itemIds: string[];
+  answers: number[];
+};
+
 export type Progress = {
   // Completed units/sections — unit ids like "respa", "ecoa" (and generic section ids).
   completedUnits: string[];
@@ -106,6 +115,8 @@ export type Progress = {
   // Global flashcard SM-2 SRS, keyed by card id.
   flashcardSRS: Record<string, FlashcardState>;
   questionHistory: Record<string, boolean>;
+  // End-of-section exam checks, keyed by unitId (Slice D).
+  exam: Record<string, { attempts: ExamAttempt[] }>;
   lastVisitedSection?: string;
   updatedAt: number;
   // Retained from earlier versions — still consumed by /settings and /practice.
@@ -124,6 +135,7 @@ export const emptyProgress = (): Progress => ({
   mcq: {},
   flashcardSRS: {},
   questionHistory: {},
+  exam: {},
   updatedAt: Date.now(),
   lastSection: null,
   practiceAttempts: [],

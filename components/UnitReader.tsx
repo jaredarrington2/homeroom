@@ -10,8 +10,10 @@ import DefinitionsDeck from "./DefinitionsDeck";
 import DisclosureVisual from "./DisclosureVisual";
 import MarkComplete from "./MarkComplete";
 import ClearSection from "./ClearSection";
+import ExamCheck from "./ExamCheck";
 import RecapCard from "./RecapCard";
 import SectionHead from "./SectionHead";
+import { sectionItems } from "@/lib/exam/sectionBank";
 import VisitTracker from "./VisitTracker";
 import ListenEntry from "./ListenEntry";
 import ListenMark from "./ListenMark";
@@ -107,6 +109,8 @@ export default function UnitReader({
       )}
 
       <ReviewDeck review={unit.review} name={unit.name} unitId={unit.id} />
+
+      <ExamCheck unitId={unit.id} items={sectionItems(unit.id)} />
 
       <div className="sr-unit-foot">
         {unit.recap && (
