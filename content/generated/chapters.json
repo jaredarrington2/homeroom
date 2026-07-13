@@ -9,18 +9,74 @@
           "title": "Introduction to Mortgage Lending",
           "sections": [
             {
-              "id": "rules-of-conduct",
-              "title": "Rules of Conduct",
+              "id": "note-and-lien",
+              "title": "What a mortgage is",
               "pageRange": [
                 1,
+                3
+              ]
+            },
+            {
+              "id": "principal-interest-term",
+              "title": "Principal, interest, and the term",
+              "pageRange": [
+                4,
+                6
+              ]
+            },
+            {
+              "id": "whos-in-the-room",
+              "title": "Who's in the room",
+              "pageRange": [
+                7,
+                9
+              ]
+            },
+            {
+              "id": "where-money-comes-from",
+              "title": "Where the money comes from",
+              "pageRange": [
+                10,
+                12
+              ]
+            },
+            {
+              "id": "who-makes-the-rules",
+              "title": "Who makes the rules",
+              "pageRange": [
+                13,
                 15
               ]
             },
             {
-              "id": "course-logistics",
-              "title": "Course Logistics",
+              "id": "life-of-a-loan",
+              "title": "The life of a loan",
               "pageRange": [
                 16,
+                18
+              ]
+            },
+            {
+              "id": "what-makes-loans-differ",
+              "title": "What makes loans differ",
+              "pageRange": [
+                19,
+                21
+              ]
+            },
+            {
+              "id": "price-of-a-loan",
+              "title": "The price of a loan",
+              "pageRange": [
+                22,
+                24
+              ]
+            },
+            {
+              "id": "why-rules-exist",
+              "title": "Why the rules exist",
+              "pageRange": [
+                25,
                 30
               ]
             }
