@@ -9,7 +9,7 @@
       "id": "audio-va-and-usda-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "Two of the four loan programs an originator works with are guaranteed by the federal government rather than insured or left to the private market. On a VA loan, the Department of Veterans Affairs guarantees the loan; on a USDA loan, the Department of Agriculture does. That government guaranty is what lets both programs do something conventional and even FHA loans can't — lend with no down payment and no mortgage insurance. This unit teaches both, then sets all four programs side by side."
+      "text": "Two of the four loan programs an originator works with are guaranteed by the federal government rather than insured or left to the private market. On a VA loan, the Department of Veterans Affairs guarantees the loan; on a USDA loan, the Department of Agriculture does. That government guaranty is what lets both programs do something conventional and even FHA loans can't: lend with no down payment and no mortgage insurance."
     },
     {
       "kind": "prose",
@@ -36,7 +36,7 @@
       "id": "audio-va-and-usda-g3-p0",
       "gi": 3,
       "pi": 0,
-      "text": "Conventional loans require private mortgage insurance when the loan-to-value is above 80%, and FHA loans carry their own insurance. VA loans prohibit mortgage insurance altogether. Instead, the borrower pays a one-time VA funding fee at settlement, which the VA pools to reimburse lenders when a guaranteed loan defaults. The fee may be financed into the loan, and its amount turns on three things: purchase vs. refinance, the size of any down payment, and whether this is the veteran's first or a subsequent VA loan. For a first-use purchase with less than 5% down, the funding fee is 2.15% of the loan amount; it falls as the down payment rises. Escrow for taxes and insurance is mandatory on a VA loan."
+      "text": "Conventional loans require private mortgage insurance when the loan-to-value is above eighty percent, and FHA loans carry their own insurance. VA loans prohibit mortgage insurance altogether. Instead, the borrower pays a one-time VA funding fee at settlement, which the VA pools to reimburse lenders when a borrower defaults. The borrower can finance the fee into the loan instead of paying it at closing. Three things set the amount. First, purchase or refinance. Second, how much the borrower puts down. Third, whether it's a first VA loan or a later one. For a first-use purchase with less than five percent down, the funding fee is two point one five percent of the loan amount; it falls as the down payment rises. Escrow for taxes and insurance is mandatory on a VA loan."
     },
     {
       "kind": "prose",

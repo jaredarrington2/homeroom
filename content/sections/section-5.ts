@@ -40,7 +40,7 @@ const section5: SectionContent = {
           heading: "principal and interest",
           paras: [
             {
-              html: `Each monthly payment does two things at once. Part of it pays down the <b>principal</b> — the amount borrowed — and part is <b>interest</b>, the lender's charge for the use of the money. Early on a payment is mostly interest and the balance barely moves; over the years the mix tips toward principal and the loan winds down. Spread the payments over more years and each one is smaller, but the total interest is larger; pack them into fewer years and it runs the other way.`,
+              html: `Each monthly payment does two things at once. Part of it pays down the <b>principal</b> — the amount borrowed — and part is <b>interest</b>, the lender's charge for the use of the money. Early on a payment is mostly interest and the balance barely moves; over the years the mix tips toward principal, and the balance falls. If the same loan is spread over more years, each payment is smaller, but the borrower pays more interest over the life of the loan. Over fewer years, the payments are larger and the total interest is less.`,
             },
           ],
         },
@@ -48,7 +48,7 @@ const section5: SectionContent = {
           heading: "the range of products",
           paras: [
             {
-              html: `Some products ask for twenty percent down, others nothing at all. Some are backed by a bank, others by the government. Some keep one rate for the life of the loan; others adjust it over time. Some can be <b>drawn</b> on — the borrower pulls the money out a piece at a time as it's needed, not all at once, the way a credit card works. With one, the lender pays the homeowner instead of the other way around. Each was built for a particular situation.`,
+              html: `Some products ask for twenty percent down, others nothing at all. Some are backed by a bank, others by the government. Some keep one rate for the life of the loan; others adjust it over time. Some can be <b>drawn</b> on — the borrower pulls the money out a piece at a time as it's needed, not all at once, the way a credit card works. With one, instead of the homeowner paying the lender, the lender pays the homeowner. Each was built for a particular situation.`,
             },
             {
               html: `A veteran, a buyer in a rural county, a first-timer with three percent saved, a retiree with decades of equity, someone financing a house that isn't built yet — each fits a different loan. Matching the borrower to the product is the job.`,
@@ -63,10 +63,10 @@ const section5: SectionContent = {
       name: "VA & USDA loans",
       reg: "Government-guaranteed loans · Servicemen's Readjustment Act (VA) · USDA §502",
       definitions: [
-        { term: "Government-Guaranteed Loan", def: "A loan a federal agency (the VA or USDA) guarantees against the lender's loss — distinct from an FHA loan, which the agency insures, and a conventional loan, which no agency stands behind." },
+        { term: "Government-Guaranteed Loan", def: "A loan a federal agency (the VA or USDA) guarantees against the lender's loss — distinct from an FHA loan, which the agency insures, and a conventional loan, which no federal agency insures or guarantees." },
         { term: "Certificate of Eligibility (COE)", def: "The document proving a veteran qualifies for VA financing. It reflects the borrower's entitlement." },
         { term: "Entitlement", def: "The dollar amount the VA will guarantee on a veteran's behalf — a basic entitlement of $36,000. With full entitlement and no active VA loan, no maximum loan limit applies up to the property's VA Reasonable Value." },
-        { term: "VA Funding Fee", def: "A one-time fee collected at settlement (and financeable into the loan) that pools funds to reimburse lenders when a guaranteed VA loan defaults. It stands in for mortgage insurance." },
+        { term: "VA Funding Fee", def: "A one-time fee collected at settlement (and financeable into the loan) that pools funds to reimburse lenders when a borrower defaults on a guaranteed VA loan. It stands in for mortgage insurance." },
         { term: "VA Reasonable Value", def: "The VA's determination of a property's value, established through the Notice of Value (NOV) after a VA-approved appraisal. A VA loan may not exceed it." },
         { term: "Notice of Value (NOV)", def: "The notice the underwriter issues after a VA appraisal is approved — it sets the VA Reasonable Value and lists any conditions the property must satisfy for the guaranty." },
         { term: "Residual Income", def: "Monthly income left after all mandatory monthly expenses are paid. The VA requires a minimum residual amount that scales with loan amount, family size, and region." },
@@ -80,7 +80,7 @@ const section5: SectionContent = {
         {
           paras: [
             {
-              html: `Two of the four loan programs an originator works with are <b>guaranteed</b> by the federal government rather than insured or left to the private market. On a <b>VA loan</b>, the Department of Veterans Affairs guarantees the loan; on a <b>USDA loan</b>, the Department of Agriculture does. That government guaranty is what lets both programs do something conventional and even FHA loans can't — lend with <b>no down payment and no mortgage insurance</b>. This unit teaches both, then sets all four programs side by side.`,
+              html: `Two of the four loan programs an originator works with are <b>guaranteed</b> by the federal government rather than insured or left to the private market. On a <b>VA loan</b>, the Department of Veterans Affairs guarantees the loan; on a <b>USDA loan</b>, the Department of Agriculture does. That government guaranty is what lets both programs do something conventional and even FHA loans can't: lend with no down payment and no mortgage insurance.`,
             },
           ],
         },
@@ -97,7 +97,7 @@ const section5: SectionContent = {
           heading: "eligibility and the certificate of eligibility",
           paras: [
             {
-              html: `Not everyone can get a VA loan. The borrower must be active military in good standing or anything other than <b>dishonorably</b> discharged, and must hold a <b>Certificate of Eligibility (COE)</b>. The COE reflects a basic <b>entitlement</b> of <span class="cloze" data-accept='["$36,000","36000","36,000"]' data-reveal="$36,000">?</span>. That entitlement means the VA will guarantee a loan up to <span class="cloze" data-accept='["four","4","four times","4 times","4x"]' data-reveal="four">?</span> times the entitlement amount — but that isn't the ceiling on what a veteran can borrow. As long as the borrower qualifies, has <b>full entitlement</b>, and has no other active VA loan, <b>no maximum loan limit applies</b> (up to the property's VA Reasonable Value).`,
+              html: `Not everyone can get a VA loan. The borrower must be active military in good standing or anything other than dishonorably discharged, and must hold a <b>Certificate of Eligibility (COE)</b>. The COE reflects a basic <b>entitlement</b> of <span class="cloze" data-accept='["$36,000","36000","36,000"]' data-reveal="$36,000">?</span>. That entitlement means the VA will guarantee a loan up to <span class="cloze" data-accept='["four","4","four times","4 times","4x"]' data-reveal="four">?</span> times the entitlement amount — but that isn't the ceiling on what a veteran can borrow. As long as the borrower qualifies, has <b>full entitlement</b>, and has no other active VA loan, no maximum loan limit applies (up to the property's VA Reasonable Value).`,
             },
           ],
           synth: {
@@ -107,9 +107,10 @@ const section5: SectionContent = {
         },
         {
           heading: "no PMI — a funding fee instead",
+          spoken: `Conventional loans require private mortgage insurance when the loan-to-value is above eighty percent, and FHA loans carry their own insurance. VA loans prohibit mortgage insurance altogether. Instead, the borrower pays a one-time VA funding fee at settlement, which the VA pools to reimburse lenders when a borrower defaults. The borrower can finance the fee into the loan instead of paying it at closing. Three things set the amount. First, purchase or refinance. Second, how much the borrower puts down. Third, whether it's a first VA loan or a later one. For a first-use purchase with less than five percent down, the funding fee is two point one five percent of the loan amount; it falls as the down payment rises. Escrow for taxes and insurance is mandatory on a VA loan.`,
           paras: [
             {
-              html: `Conventional loans require private mortgage insurance when the loan-to-value is above 80%, and FHA loans carry their own insurance. VA loans <b>prohibit mortgage insurance</b> altogether. Instead, the borrower pays a one-time <b>VA funding fee</b> at settlement, which the VA pools to reimburse lenders when a guaranteed loan defaults. The fee may be financed into the loan, and its amount turns on three things: purchase vs. refinance, the size of any down payment, and whether this is the veteran's first or a subsequent VA loan. For a first-use purchase with less than 5% down, the funding fee is <span class="cloze" data-accept='["2.15%","2.15","2.15 percent"]' data-reveal="2.15%">?</span> of the loan amount; it falls as the down payment rises. Escrow for taxes and insurance is mandatory on a VA loan.`,
+              html: `<p>Conventional loans require private mortgage insurance when the loan-to-value is above 80%, and FHA loans carry their own insurance. VA loans prohibit mortgage insurance altogether. Instead, the borrower pays a one-time <b>VA funding fee</b> at settlement, which the VA pools to reimburse lenders when a borrower defaults. The borrower can finance the fee into the loan instead of paying it at closing. Three things set the amount:</p><ul><li>purchase or refinance</li><li>how much the borrower puts down</li><li>a first VA loan, or a later one</li></ul><p>For a first-use purchase with less than 5% down, the funding fee is <span class="cloze" data-accept='["2.15%","2.15","2.15 percent"]' data-reveal="2.15%">?</span> of the loan amount; it falls as the down payment rises. Escrow for taxes and insurance is mandatory on a VA loan.</p>`,
             },
           ],
         },
@@ -117,7 +118,7 @@ const section5: SectionContent = {
           heading: "who skips the funding fee",
           paras: [
             {
-              html: `The funding fee is waived for veterans the program most wants to protect. A veteran with a service-connected <b>disability of <span class="cloze" data-accept='["10%","10","10 percent","ten percent"]' data-reveal="10%">?</span> or more</b> (as rated by the VA), and their immediate family, is exempt — as is an active member awarded a <b>Purple Heart</b>, and certain surviving spouses of members killed or missing in action. Everyone else pays the fee. VA loans also <b>never</b> permit a prepayment penalty, and their proceeds may never be used to pay a prepayment penalty on a loan being refinanced.`,
+              html: `The funding fee is waived for veterans the program most wants to protect. A veteran with a service-connected disability of <span class="cloze" data-accept='["10%","10","10 percent","ten percent"]' data-reveal="10%">?</span> or more (as rated by the VA), and their immediate family, is exempt — as is an active member awarded a <b>Purple Heart</b>, and certain surviving spouses of members killed or missing in action. Everyone else pays the fee. VA loans also never permit a prepayment penalty, and their proceeds may never be used to pay a prepayment penalty on a loan being refinanced.`,
             },
           ],
         },
@@ -133,7 +134,7 @@ const section5: SectionContent = {
           heading: "assumable — with the COE attached",
           paras: [
             {
-              html: `VA loans are <b>fully assumable</b>, and even a <b>non-veteran</b> may assume a veteran's VA mortgage. There's a catch that trips up originators: because the assuming non-veteran has no COE of their own, the <b>original veteran's COE stays attached</b> to the assumed loan until it is paid in full — so that veteran can't get another VA loan in the meantime. The original veteran is not, however, still liable for the debt and keeps no ownership in the property. For refinancing, the VA offers the <b>IRRRL</b> — the Interest Rate Reduction Refinance Loan, or VA Streamline — a low-documentation refinance aimed at lowering the rate.`,
+              html: `VA loans are <b>fully assumable</b>, and even a <b>non-veteran</b> may assume a veteran's VA mortgage. There's a catch that trips up originators: because the assuming non-veteran has no COE of their own, the original veteran's COE stays attached to the assumed loan until it is paid in full — so that veteran can't get another VA loan in the meantime. The original veteran is not, however, still liable for the debt and keeps no ownership in the property. For refinancing, the VA offers the <b>IRRRL</b> — the Interest Rate Reduction Refinance Loan, or VA Streamline — a low-documentation refinance aimed at lowering the rate.`,
             },
           ],
         },
@@ -142,7 +143,7 @@ const section5: SectionContent = {
           anchor: { file: "01-cozy-cottage.png", caption: "rural roots", kind: "bldg" },
           paras: [
             {
-              html: `<b>Section <span class="cloze" data-accept='["502","five hundred two","five oh two"]' data-reveal="502">?</span></b> of the USDA code establishes USDA home financing, whose purpose is to encourage homeownership in <b>rural</b> America. Like the VA loan, it's <b>guaranteed</b> by its agency — the U.S. Department of Agriculture — not insured. A property qualifies only if it sits in an <b>approved USDA rural locale</b> (the USDA publishes an eligibility map). USDA loans, like FHA, accommodate both traditional and non-traditional credit, and finance <b>primary residences only</b>.`,
+              html: `<b>Section <span class="cloze" data-accept='["502","five hundred two","five oh two"]' data-reveal="502">?</span></b> of the USDA code establishes USDA home financing, whose purpose is to encourage homeownership in <b>rural</b> America. Like the VA loan, it's <b>guaranteed</b> by its agency — the U.S. Department of Agriculture — not insured. A property qualifies only if it sits in an <b>approved USDA rural locale</b> (the USDA publishes an eligibility map). USDA loans, like FHA, accommodate both traditional and non-traditional credit, and finance primary residences only.`,
             },
           ],
         },
@@ -162,7 +163,7 @@ const section5: SectionContent = {
           heading: "no PMI — a guarantee fee, and two loan types",
           paras: [
             {
-              html: `USDA loans require <b>zero down (100% LTV)</b> and, like VA loans, <b>prohibit mortgage insurance</b> — but they may carry a <b>guarantee fee</b> instead. The standard USDA loan, the <b>Guaranteed Rural Housing (GRH)</b> loan, charges a 1% up-front guarantee financed into the loan plus a small monthly fee of <span class="cloze" data-accept='["0.35%","0.35","0.35 percent","35 basis points","35 bps"]' data-reveal="0.35%">?</span> per year (35 basis points), and amortizes over 30 years with no prepayment penalty. The second type, the <b>Homeownership Direct (HD)</b> loan, serves very-low-income borrowers (50%–80% of adjusted AMI), can run 33–38 years, may offer payment subsidies, and carries <b>no guarantee fee</b> at all.`,
+              html: `USDA loans require <b>zero down (100% LTV)</b> and, like VA loans, prohibit mortgage insurance — but they may carry a <b>guarantee fee</b> instead. The standard USDA loan, the <b>Guaranteed Rural Housing (GRH)</b> loan, charges a 1% up-front guarantee financed into the loan plus a small monthly fee of <span class="cloze" data-accept='["0.35%","0.35","0.35 percent","35 basis points","35 bps"]' data-reveal="0.35%">?</span> per year (35 basis points), and amortizes over 30 years with no prepayment penalty. The second type, the <b>Homeownership Direct (HD)</b> loan, serves very-low-income borrowers (50%–80% of adjusted AMI), can run 33–38 years, may offer payment subsidies, and carries no guarantee fee at all.`,
             },
           ],
         },
@@ -493,6 +494,7 @@ const section5: SectionContent = {
           paras: [
             {
               html: `A home-equity line — a <b>HELOC</b> — is open for about <span class="cloze" data-accept='["10 years","10","ten","ten years","10 yrs"]' data-reveal="10 years">?</span> — the <b>draw period</b> — during which the borrower draws and repays freely and is usually billed interest-only on whatever is outstanding, at a rate that tracks the <b>Prime rate</b>. When the draw period closes, the line freezes and the remaining balance amortizes over the years left.`,
+              spoken: `A home-equity line — a hee-lock — is open for about ten years, the draw period, during which the borrower draws and repays freely and is usually billed interest-only on whatever is outstanding, at a rate that tracks the Prime rate. When the draw period closes, the line freezes and the remaining balance amortizes over the years left.`,
             },
           ],
         },
@@ -501,7 +503,7 @@ const section5: SectionContent = {
           anchor: { file: "couple-football-fans-tandem-bicycle-transparent.png", caption: "riding double", kind: "char" },
           paras: [
             {
-              html: `Put less than 20% down on a conventional loan and the lender adds <b>private mortgage insurance (PMI)</b> — a monthly charge on top of the payment that protects the lender if the borrower defaults, and buys the borrower nothing. A buyer short on the down payment can avoid it by borrowing in two pieces instead of one. PMI only kicks in when the <b>first</b> mortgage is above 80% of the home's value, so the buyer keeps that first loan at <span class="cloze" data-accept='["80%","80","80 percent","eighty percent"]' data-reveal="80%">?</span> and a second lien covers the rest of the price. Neither loan on its own is large enough to trigger PMI. Lenders call this pairing a <b>piggyback</b>.`,
+              html: `If a borrower puts less than 20% down on a conventional loan, the lender adds <b>private mortgage insurance (PMI)</b> — a monthly charge on top of the payment that protects the lender if the borrower defaults, and buys the borrower nothing. A buyer short on the down payment can avoid it by borrowing in two pieces instead of one. PMI only kicks in when the <b>first</b> mortgage is above 80% of the home's value, so the buyer keeps that first loan at <span class="cloze" data-accept='["80%","80","80 percent","eighty percent"]' data-reveal="80%">?</span> and a second lien covers the rest of the price. Neither loan on its own is large enough to trigger PMI. Lenders call this pairing a <b>piggyback</b>.`,
             },
           ],
           vizWidget: "piggyback",
@@ -531,7 +533,7 @@ const section5: SectionContent = {
         ],
       },
       recap: {
-        plainLanguage: "A second lien borrows against home equity without disturbing the first mortgage. A home-equity loan is a fixed lump sum; a HELOC is a revolving line you draw against. At purchase, a piggyback second lien lets the first mortgage stay at 80% and skip PMI.",
+        plainLanguage: "A second lien lets the borrower tap home equity without disturbing the first mortgage. A home-equity loan is a fixed lump sum; a HELOC is a revolving line the borrower draws against. At purchase, a piggyback second lien keeps the first mortgage at 80%, so the borrower skips PMI.",
         facts: [
           "<span class=\"hl\">HEQ</span>: closed-end, fixed rate, lump sum. <span class=\"hl\">HELOC</span>: open-end, variable (tracks Prime), revolving.",
           "A HELOC's <span class=\"hl\">draw period</span> runs about 10 years, usually interest-only; then the line freezes and the balance amortizes.",
