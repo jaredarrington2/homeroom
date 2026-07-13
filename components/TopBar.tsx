@@ -4,6 +4,7 @@ import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import ContentsDrawer from './ContentsDrawer';
 import SearchPanel from './SearchPanel';
+import Calculator from './Calculator';
 import AccountMenu from './AccountMenu';
 
 const NAV = [
@@ -53,6 +54,9 @@ export default function TopBar() {
         <div className="ml-auto flex items-center gap-4">
           {/* Search notes — magnifier trigger + overlay, gated to /learn (self-contained) */}
           <SearchPanel />
+
+          {/* Calculator dock — trigger + dock, gated to /learn + /practice (self-contained) */}
+          <Calculator />
 
           <AccountMenu />
 

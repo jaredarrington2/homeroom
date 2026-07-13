@@ -2127,3 +2127,98 @@
 }
 .section-reader .ic-diag { flex: 1; min-height: 0; }
 .section-reader .ic-diag svg { width: 100%; height: 100%; display: block; }
+
+/* ============================================================================
+   Calculator dock (.hcalc) — a four-function calculator with a tape, docked
+   beside the reader (calculator-spec.md). The SearchPanel register: warm
+   near-white #FDFCF8, hairline borders, no rounded corners, royal accent,
+   #FFE27A on the result. JetBrains Mono for digits, Courier Prime for
+   tape/labels. Flat keys, no shadows — a paper keypad. Namespaced .hcalc-*.
+   ============================================================================ */
+
+/* TopBar trigger — borderless icon button, matches .hr-trigger */
+.hcalc-trigger { width: 34px; height: 34px; border: 0; background: transparent; cursor: pointer;
+  color: #6B6B6B; display: grid; place-items: center; border-radius: 0; }
+.hcalc-trigger:hover { background: #FAF7EE; color: #0A0A0A; }
+
+/* the dock */
+.hcalc-dock { position: fixed; z-index: 44; background: #FDFCF8; border: 1px solid #E5E5E5;
+  box-shadow: 0 14px 40px -22px rgba(20,18,12,.30); color: #0A0A0A;
+  font-family: 'Courier Prime', monospace; display: flex; flex-direction: column;
+  --key-h: 46px; }
+.hcalc-margin { top: 50%; transform: translateY(-50%); }
+.hcalc-sheet { left: 0; right: 0; bottom: 0; width: 100%; --key-h: 54px;
+  border-left: 0; border-right: 0; border-bottom: 0;
+  box-shadow: 0 -14px 40px -22px rgba(20,18,12,.34); }
+.hcalc-dock *::selection { background: #E8EDF7; }
+
+/* head — memory flag + collapse/close icons */
+.hcalc-head { display: flex; align-items: center; gap: 4px; padding: 7px 8px 7px 12px;
+  border-bottom: 1px solid #E5E5E5; }
+.hcalc-head-sp { flex: 1; }
+.hcalc-mem { font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11px; font-weight: 500;
+  color: transparent; letter-spacing: .04em; width: 12px; }
+.hcalc-mem.on { color: #1E3A8A; }
+.hcalc-ico { width: 24px; height: 24px; border: 0; background: transparent; cursor: pointer;
+  color: #A8A8A8; display: grid; place-items: center; border-radius: 0; }
+.hcalc-ico:hover { color: #0A0A0A; background: #FAF7EE; }
+
+/* bind bar — only when a field is bound */
+.hcalc-bind { font-family: 'Courier Prime', monospace; font-size: 11.5px; color: #1E3A8A;
+  background: #E8EDF7; border-bottom: 1px solid #d2ddf1; padding: 6px 12px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* tape — the exam's scratchpad; evaluated lines stack above the entry */
+.hcalc-tape { max-height: 104px; overflow: auto; padding: 4px 0;
+  border-bottom: 1px solid #E5E5E5; }
+.hcalc-tape::-webkit-scrollbar { width: 8px; }
+.hcalc-tape::-webkit-scrollbar-thumb { background: #CFCFCF; }
+.hcalc-tline { display: flex; align-items: baseline; justify-content: space-between; gap: 10px;
+  padding: 3px 12px; cursor: pointer; }
+.hcalc-tline:hover { background: #FAF7EE; }
+.hcalc-texpr { font-family: 'Courier Prime', monospace; font-size: 11.5px; color: #6B6B6B;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.hcalc-tval { font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12.5px; color: #0A0A0A;
+  flex: none; }
+
+/* display — expression line + live result preview */
+.hcalc-display { padding: 12px 12px 10px; border-bottom: 1px solid #E5E5E5; }
+.hcalc-entry { width: 100%; border: 0; background: transparent; outline: none; text-align: right;
+  font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 22px; color: #0A0A0A;
+  line-height: 1.2; padding: 0; }
+.hcalc-entry::placeholder { color: #C9C4B8; }
+.hcalc-preview { min-height: 18px; text-align: right; margin-top: 4px;
+  font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 14px; color: #6B6B6B; }
+.hcalc-preview .hl { background: linear-gradient(transparent 60%, #FFE27A 60%); padding: 0 2px; }
+
+/* keypad — 4 columns, hairline grid, square flat keys */
+.hcalc-keys { display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 1px; background: #E5E5E5; border-bottom: 1px solid #E5E5E5; }
+.hcalc-key { border: 0; background: #FDFCF8; cursor: pointer; height: var(--key-h);
+  font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 17px; color: #0A0A0A;
+  display: grid; place-items: center; border-radius: 0; -webkit-tap-highlight-color: transparent;
+  user-select: none; }
+.hcalc-key:hover { background: #FAF7EE; }
+.hcalc-key:active { background: #F1ECDE; }
+.hcalc-key.fn { font-family: 'Courier Prime', monospace; font-size: 13px; color: #6B6B6B; }
+.hcalc-key.op { color: #1E3A8A; }
+.hcalc-key.op:hover { background: #E8EDF7; }
+
+/* mobile insert button (§5) */
+.hcalc-insert { border: 0; background: #1E3A8A; color: #fff; cursor: pointer; width: 100%;
+  height: 46px; font-family: 'Courier Prime', monospace; font-size: 14px; letter-spacing: .03em;
+  border-radius: 0; }
+.hcalc-insert:hover { background: #1B3479; }
+
+/* desktop-only footer hints */
+.hcalc-hints { display: flex; justify-content: space-between; gap: 10px; padding: 8px 12px;
+  font-family: 'Courier Prime', monospace; font-size: 10.5px; color: #A8A8A8; }
+.hcalc-hints b { color: #6B6B6B; font-weight: 700; }
+
+/* collapsed tab — a small wordless tab that persists while you scroll */
+.hcalc-tab { position: fixed; z-index: 44; width: 40px; height: 40px; border: 1px solid #E5E5E5;
+  background: #FDFCF8; color: #1E3A8A; cursor: pointer; display: grid; place-items: center;
+  border-radius: 0; box-shadow: 0 8px 24px -14px rgba(20,18,12,.34); }
+.hcalc-tab:hover { background: #FAF7EE; }
+.hcalc-tab-margin { top: 50%; transform: translateY(-50%); }
+.hcalc-tab-sheet { right: 16px; bottom: 16px; }
