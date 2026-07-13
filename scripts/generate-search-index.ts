@@ -66,7 +66,7 @@ function buildChunks(): RawChunk[] {
 
   for (const section of SECTIONS) {
     const chapterId = section.id;
-    const moduleLabel = MODULE_LABEL[chapterId] ?? section.kicker;
+    const moduleLabel = MODULE_LABEL[chapterId] ?? `Module ${section.moduleNumber}`;
     const route = `/learn/${chapterId}`;
 
     for (const unit of section.units) {

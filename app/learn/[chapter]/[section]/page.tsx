@@ -1,5 +1,4 @@
-import Link from 'next/link';
-import Eyebrow from '@/components/Eyebrow';
+import SectionHead from '@/components/SectionHead';
 import Quiz from '@/components/Quiz';
 import Character from '@/components/Character';
 import ScrollspyTOC from '@/components/ScrollspyTOC';
@@ -50,15 +49,12 @@ export default function SectionPage({ params }: { params: { chapter: string; sec
 
   return (
     <div className="max-w-canvas mx-auto px-4">
-      <Eyebrow>
-        <Link href="/learn" className="hover:text-ink">Learn</Link>
-        {' · '}
-        <Link href={`/learn/${params.chapter}`} className="hover:text-ink">{chapter.title}</Link>
-        {' · '}{section.title}
-      </Eyebrow>
-      <h1 className="font-display text-4xl font-semibold tracking-display mt-2 mb-4">
-        {section.title}
-      </h1>
+      <SectionHead
+        moduleNumber={chapter.moduleNumber}
+        sectionName={section.title}
+        sectionIndex={sectionIdx + 1}
+        sectionTotal={chapter.sections.length}
+      />
 
       {content ? (
         <>

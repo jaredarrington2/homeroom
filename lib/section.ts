@@ -254,7 +254,7 @@ export interface SectionUnit {
 export interface SectionContent {
   id: string;       // chapter/section id, e.g. "federal-mortgage-laws"
   title: string;    // "Federal mortgage related laws"
-  kicker: string;   // "Section 3"
+  moduleNumber: number;  // ebook module number, drives the header eyebrow (was `kicker`)
   units: SectionUnit[];
 }
 

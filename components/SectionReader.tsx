@@ -3,16 +3,19 @@
 // + an end-of-unit review deck). Single reading column; canon tokens.
 import UnitReader from "./UnitReader";
 import ReaderDeepLink from "./ReaderDeepLink";
+import { ModuleMasthead } from "./SectionHead";
 import type { SectionContent } from "@/lib/section";
 
 export default function SectionReader({ section }: { section: SectionContent }) {
   return (
     <div className="section-reader">
       <ReaderDeepLink />
-      <header className="sr-masthead">
-        <div className="eyebrow">{section.kicker}</div>
-        <h1>{section.title}</h1>
-      </header>
+      <ModuleMasthead
+        moduleNumber={section.moduleNumber}
+        title={section.title}
+        sectionCount={section.units.length}
+        unitIds={section.units.map((u) => u.id)}
+      />
 
       {section.units.map((unit, i) => (
         <UnitReader
@@ -20,6 +23,7 @@ export default function SectionReader({ section }: { section: SectionContent }) 
           unit={unit}
           index={i}
           total={section.units.length}
+          moduleNumber={section.moduleNumber}
           sectionId={section.id}
           sectionTitle={section.title}
         />

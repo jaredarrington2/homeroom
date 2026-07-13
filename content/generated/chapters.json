@@ -24,7 +24,8 @@
                 30
               ]
             }
-          ]
+          ],
+          "moduleNumber": 1
         },
         {
           "id": "federal-mortgage-laws",
@@ -32,101 +33,197 @@
           "sections": [
             {
               "id": "respa",
-              "title": "RESPA – Real Estate Settlement Procedures Act",
+              "title": "RESPA",
               "pageRange": [
                 31,
-                50
+                44
               ]
             },
             {
               "id": "ecoa",
-              "title": "ECOA – Equal Credit Opportunity Act",
+              "title": "ECOA",
               "pageRange": [
-                51,
-                70
+                45,
+                58
               ]
             },
             {
               "id": "tila",
-              "title": "TILA – Truth in Lending Act",
+              "title": "TILA",
               "pageRange": [
-                71,
-                100
+                59,
+                72
               ]
             },
             {
               "id": "hoepa",
-              "title": "HOEPA – Home Ownership and Equity Protection Act",
+              "title": "HOEPA",
               "pageRange": [
-                101,
-                115
+                73,
+                86
               ]
             },
             {
               "id": "trid",
-              "title": "TRID – TILA-RESPA Integrated Disclosure",
+              "title": "TRID",
               "pageRange": [
-                116,
-                145
+                87,
+                100
               ]
             },
             {
               "id": "hmda",
-              "title": "HMDA – Home Mortgage Disclosure Act",
+              "title": "HMDA",
               "pageRange": [
-                146,
-                165
+                101,
+                114
               ]
             },
             {
-              "id": "fcra-facta",
-              "title": "FCRA & FACTA",
+              "id": "fcra",
+              "title": "FCRA",
               "pageRange": [
-                166,
-                190
+                115,
+                128
               ]
             },
             {
-              "id": "ftc-red-flags",
+              "id": "facta",
+              "title": "FACTA",
+              "pageRange": [
+                129,
+                142
+              ]
+            },
+            {
+              "id": "ftc-red-flags-rule",
               "title": "FTC Red Flags Rule",
               "pageRange": [
-                191,
-                205
+                143,
+                156
               ]
             },
             {
               "id": "bsa-aml",
-              "title": "BSA/AML – Bank Secrecy Act and Anti-Money Laundering",
+              "title": "BSA / AML",
               "pageRange": [
-                206,
-                225
+                157,
+                170
               ]
             },
             {
               "id": "glba",
-              "title": "GLBA – Gramm-Leach-Bliley Act",
+              "title": "GLBA",
               "pageRange": [
-                226,
-                240
+                171,
+                184
               ]
             },
             {
               "id": "dnc-tsr",
-              "title": "DNC/TSR – Do Not Call and Telemarketing Sales Rule",
+              "title": "DNC / TSR",
               "pageRange": [
-                241,
-                252
+                185,
+                198
               ]
             },
             {
-              "id": "maps",
-              "title": "MAPs – Mortgage Assistance Relief Services",
+              "id": "maps-reg-n",
+              "title": "MAPs (Reg N)",
               "pageRange": [
-                253,
+                199,
+                212
+              ]
+            },
+            {
+              "id": "e-sign-act",
+              "title": "E-Sign Act",
+              "pageRange": [
+                213,
+                226
+              ]
+            },
+            {
+              "id": "usa-patriot-act",
+              "title": "USA PATRIOT Act",
+              "pageRange": [
+                227,
+                240
+              ]
+            },
+            {
+              "id": "hpa",
+              "title": "HPA",
+              "pageRange": [
+                241,
+                254
+              ]
+            },
+            {
+              "id": "dodd-frank",
+              "title": "Dodd-Frank",
+              "pageRange": [
+                255,
                 270
               ]
             }
-          ]
+          ],
+          "moduleNumber": 3
+        },
+        {
+          "id": "uniform-state-content",
+          "title": "Uniform State Content",
+          "sections": [
+            {
+              "id": "the-safe-act",
+              "title": "The SAFE Act",
+              "pageRange": [
+                571,
+                574
+              ]
+            },
+            {
+              "id": "who-needs-a-license",
+              "title": "Who needs a license",
+              "pageRange": [
+                575,
+                578
+              ]
+            },
+            {
+              "id": "getting-licensed",
+              "title": "Getting licensed",
+              "pageRange": [
+                579,
+                582
+              ]
+            },
+            {
+              "id": "keeping-the-license",
+              "title": "Keeping the license",
+              "pageRange": [
+                583,
+                586
+              ]
+            },
+            {
+              "id": "state-oversight",
+              "title": "State oversight",
+              "pageRange": [
+                587,
+                590
+              ]
+            },
+            {
+              "id": "temporary-authority-and-the-job",
+              "title": "Temporary authority & on the job",
+              "pageRange": [
+                591,
+                600
+              ]
+            }
+          ],
+          "moduleNumber": 4
         },
         {
           "id": "general-mortgage-knowledge",
@@ -204,7 +301,8 @@
                 372
               ]
             }
-          ]
+          ],
+          "moduleNumber": 5
         },
         {
           "id": "mlo-activities",
@@ -266,7 +364,8 @@
                 540
               ]
             }
-          ]
+          ],
+          "moduleNumber": 6
         },
         {
           "id": "ethics",
@@ -296,29 +395,8 @@
                 570
               ]
             }
-          ]
-        },
-        {
-          "id": "uniform-state-content",
-          "title": "Uniform State Content",
-          "sections": [
-            {
-              "id": "safe-act",
-              "title": "SAFE Act",
-              "pageRange": [
-                571,
-                585
-              ]
-            },
-            {
-              "id": "licensing-standards",
-              "title": "Licensing Standards",
-              "pageRange": [
-                586,
-                600
-              ]
-            }
-          ]
+          ],
+          "moduleNumber": 7
         }
       ]
     }

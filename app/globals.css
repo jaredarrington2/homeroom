@@ -51,21 +51,28 @@
 .section-reader .lp-rich li:last-child { margin-bottom: 0; }
 .section-reader .lp-rich li::marker { color: var(--royal); }
 
-/* section masthead */
-.section-reader .sr-masthead .eyebrow { font-family: var(--fm); font-size: 11.5px; letter-spacing: .06em;
+/* ── SectionHead — the one header language across every /learn surface ──
+   Level 1 (.sh-module): module masthead, once per chapter page.
+   Level 2 (.sh-section): section head, once per unit/section. */
+.sh-eyebrow { font-family: var(--fm); font-size: 11.5px; letter-spacing: .06em;
   text-transform: uppercase; color: var(--royal); }
-.section-reader .sr-masthead h1 { font-family: var(--fd); font-weight: 600; font-size: 38px; line-height: 1.05;
-  letter-spacing: -.02em; margin: 8px 0 4px; }
 
-/* per-unit header */
+.sh-module { margin-bottom: 8px; }
+.sh-module .sh-mtitle { font-family: var(--fd); font-weight: 600; font-size: 38px; line-height: 1.05;
+  letter-spacing: -.02em; margin: 8px 0 4px; }
+.sh-module .sh-meta { font-family: var(--fm); font-size: 12px; letter-spacing: .02em; color: var(--ink-faint); }
+
+.sh-section .sh-title { font-family: var(--fd); font-weight: 600; font-size: 32px; line-height: 1.08;
+  letter-spacing: -.02em; margin: 8px 0 2px; }
+.sh-section .sh-statute { font-family: var(--fm); font-size: 12.5px; color: var(--royal); margin-bottom: 26px; }
+
+/* In the multi-unit reader, each section head sits under a hairline that separates units. */
 .section-reader .sr-unit { margin-top: 56px; scroll-margin-top: 70px; }
 .section-reader .sr-unit:first-of-type { margin-top: 34px; }
-.section-reader .sr-unithead .eyebrow { font-family: var(--fm); font-size: 11.5px; letter-spacing: .06em;
-  text-transform: uppercase; color: var(--royal); border-top: 1px solid var(--hair); padding-top: 30px; }
-.section-reader .sr-unit:first-of-type .sr-unithead .eyebrow { border-top: 0; padding-top: 0; }
-.section-reader .sr-unithead h2 { font-family: var(--fd); font-weight: 600; font-size: 32px; line-height: 1.08;
-  letter-spacing: -.02em; margin: 8px 0 2px; }
-.section-reader .sr-unithead .reg { font-family: var(--fm); font-size: 12.5px; color: var(--royal); margin-bottom: 26px; }
+.section-reader .sh-section .sh-eyebrow { border-top: 1px solid var(--hair); padding-top: 30px; }
+.section-reader .sr-unit:first-of-type .sh-section .sh-eyebrow { border-top: 0; padding-top: 0; }
+/* On a standalone generic-template page the section head is the page title — a little air below. */
+.sh-section { margin-bottom: 4px; }
 
 /* concept-group heading — plain, lowercase, hairline above */
 .section-reader .group { font-family: var(--fm); font-size: 11.5px; letter-spacing: .05em; text-transform: uppercase;
@@ -336,8 +343,8 @@
   .section-reader .defterm { font-size: 16px; }
   .section-reader .defbody { font-size: 14px; }
   .section-reader .anchor img { height: 96px; }
-  .section-reader .sr-masthead h1 { font-size: 30px; }
-  .section-reader .sr-unithead h2 { font-size: 26px; }
+  .sh-module .sh-mtitle { font-size: 30px; }
+  .sh-section .sh-title { font-size: 26px; }
 
   /* Hide desktop heading/lede/hint on mobile */
   .section-reader .defs-head { display: none; }

@@ -10,6 +10,7 @@ import DefinitionsDeck from "./DefinitionsDeck";
 import DisclosureVisual from "./DisclosureVisual";
 import MarkComplete from "./MarkComplete";
 import RecapCard from "./RecapCard";
+import SectionHead from "./SectionHead";
 import ListenEntry from "./ListenEntry";
 import ListenMark from "./ListenMark";
 import StudyCard from "./StudyCard";
@@ -23,11 +24,12 @@ import { figureSrc, type SectionUnit } from "@/lib/section";
 import { getStudyCard } from "@/content/study-cards";
 
 export default function UnitReader({
-  unit, index, total, sectionId, sectionTitle,
+  unit, index, total, moduleNumber, sectionId, sectionTitle,
 }: {
   unit: SectionUnit;
   index: number;
   total: number;
+  moduleNumber: number;
   sectionId: string;
   sectionTitle: string;
 }) {
@@ -36,14 +38,15 @@ export default function UnitReader({
   let anchorSeen = 0;
   return (
     <section id={unit.id} className="sr-unit">
-      <div className="sr-unithead">
-        <div className="eyebrow">
-          {String(index + 1).padStart(2, "0")} / {String(total).padStart(2, "0")}
-        </div>
-        <h2>{unit.name}</h2>
-        <div className="reg">{unit.reg}</div>
+      <SectionHead
+        moduleNumber={moduleNumber}
+        sectionName={unit.name}
+        sectionIndex={index + 1}
+        sectionTotal={total}
+        statute={unit.reg}
+      >
         <ListenEntry unitId={unit.id} />
-      </div>
+      </SectionHead>
 
       <ExplainableBody sectionId={sectionId} sectionTitle={sectionTitle} chapterId={sectionId}>
         {unit.groups.map((g, gi) => {

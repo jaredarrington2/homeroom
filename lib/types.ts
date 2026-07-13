@@ -5,6 +5,8 @@ export type ChapterTree = {
     chapters: Array<{
       id: string;
       title: string;
+      /** Ebook module number (1,3,4,5,6,7 — ebook keeps a gap at Module 2). */
+      moduleNumber: number;
       sections: Array<{
         id: string;
         title: string;

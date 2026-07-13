@@ -7,7 +7,7 @@ import type { SectionContent } from "@/lib/section";
 const section3: SectionContent = {
   "id": "federal-mortgage-laws",
   "title": "Federal mortgage related laws",
-  "kicker": "Section 3",
+  "moduleNumber": 3,
   "units": [
     {
       "id": "respa",

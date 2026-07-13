@@ -13,7 +13,7 @@ import type { SectionContent } from "@/lib/section";
 const section5: SectionContent = {
   id: "general-mortgage-knowledge",
   title: "General Mortgage Knowledge",
-  kicker: "Module 5",
+  moduleNumber: 5,
   units: [
     {
       id: "what-a-mortgage-is",

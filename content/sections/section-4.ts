@@ -7,7 +7,7 @@ import type { SectionContent } from "@/lib/section";
 const section4: SectionContent = {
   "id": "uniform-state-content",
   "title": "The SAFE Act & state licensing",
-  "kicker": "Module 4",
+  "moduleNumber": 4,
   "units": [
     {
       "id": "the-safe-act",
