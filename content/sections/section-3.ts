@@ -15,7 +15,7 @@ const section3: SectionContent = {
       "reg": "Real Estate Settlement Procedures Act · Reg X",
       "definitions": [
         { "term": "Application", "def": "The borrower's financial information submitted for a mortgage credit decision. At minimum: name, monthly income, SSN, property address, estimated property value or purchase price, and loan amount. Once the lender has enough to treat it as submitted, disclosure timing kicks in — even if some details are still missing." },
-        { "term": "Balloon Payment", "def": "A lump-sum payment due before a loan would naturally pay itself off through regular installments. The borrower owes whatever principal remains in one large payment." },
+        { "term": "Balloon Payment", "def": "A lump-sum payment due before regular installments would naturally pay the loan off. The borrower owes whatever principal remains in one large payment." },
         { "term": "Bureau", "def": "The Consumer Financial Protection Bureau (CFPB)." },
         { "term": "Business Day", "def": "A day the business is open and running normal operations. RESPA breaks this into Calendar Day, Precise Business Day, and General Business Day — each counted differently." },
         { "term": "Changed Circumstances", "def": "A valid reason to revise a Loan Estimate after it's been issued." },
@@ -77,7 +77,7 @@ const section3: SectionContent = {
           },
           "paras": [
             {
-              "html": "Section 8 of RESPA is the anti-kickback rule. It prohibits the exchange of <em>anything of value</em> between actual or potential referral sources in connection with a federally related mortgage loan. The logic is straightforward: if real estate professionals can earn rewards for steering borrowers to specific service providers, the borrower's interests stop driving the referral — the reward does."
+              "html": "Section 8 of RESPA is the anti-kickback rule. It prohibits the exchange of <em>anything of value</em> between actual or potential referral sources in connection with a federally related mortgage loan. If real estate professionals can earn rewards for steering borrowers to specific service providers, the borrower's interests stop driving the referral — the reward does."
             },
             {
               "html": "The prohibition runs in both directions: no person may <em>give</em> and no person may <em>accept</em> any fee, kickback, or other thing of value tied to the referral of settlement service business. A referral itself is not a compensable service — a company cannot pay another company, or another company's employees, simply for sending business its way."
@@ -170,7 +170,7 @@ const section3: SectionContent = {
           "heading": "when your home is on the line",
           "paras": [
             {
-              "html": "When a lender takes an application for a home equity line of credit (HELOC), it must issue a separate disclosure booklet — <em>When Your Home is on the Line: What You Need to Know About Home Equity Lines of Credit</em> — within <span class=\"cloze\" data-accept='[\"3 precise business days\",\"three precise business days\",\"3\"]' data-reveal=\"3 precise business days\">?</span> from the application date. Note the day type: <em>precise</em> business days, not the general business days used for the Special Information Booklet."
+              "html": "When a lender takes an application for a home equity line of credit (HELOC), it must issue a separate disclosure booklet — <em>When Your Home is on the Line: What You Need to Know About Home Equity Lines of Credit</em> — within <span class=\"cloze\" data-accept='[\"3 precise business days\",\"three precise business days\",\"3\"]' data-reveal=\"3 precise business days\">?</span> from the application date. These are <em>precise</em> business days, not the general business days used for the Special Information Booklet."
             },
             {
               "html": "The booklet explains how HELOCs function so the applicant can make an informed decision about whether and how to use the credit line."
@@ -930,7 +930,7 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "A lender's ad shows one number: a rate, big and bold. That number is real, but it isn't what the loan costs you — the fees you pay up front, the insurance the lender requires, and the interest itself all pile on top of it. <b>The Truth in Lending Act (TILA) makes the lender put the full price in writing</b>, in a few standardized figures, so you can hold two offers side by side and see which is actually cheaper. It's a disclosure law, passed in 1968 and run today through the Consumer Financial Protection Bureau's <b>Regulation Z</b>."
+              "html": "A lender's ad shows one number: the rate. That number is real, but it isn't what the loan costs you — the fees you pay up front, the insurance the lender requires, and the interest itself all pile on top of it. <b>The Truth in Lending Act (TILA) makes the lender put the full price in writing</b>, in a few standardized figures, so you can hold two offers side by side and see which is actually cheaper. It's a disclosure law, passed in 1968 and run today through the Consumer Financial Protection Bureau's <b>Regulation Z</b>."
             }
           ]
         },
@@ -954,7 +954,7 @@ const section3: SectionContent = {
           "heading": "the finance charge",
           "paras": [
             {
-              "html": "Add up everything the credit costs you in dollars — the interest over the whole loan, plus the fees the lender charges as a condition of lending — and you have the <b>finance charge</b>: the cost of credit stated as one dollar figure. The test for what counts is a plain one. If you'd pay the charge even when buying the house with cash, it isn't a finance charge; if it exists only because you're borrowing, it is. So interest, points, and the lender's own fees are in; the home's price and the property taxes are out. The whole point of the figure is to gather every borrowing cost into one place, in dollars."
+              "html": "Add up everything the credit costs you in dollars — the interest over the whole loan, plus the fees the lender charges as a condition of lending — and you have the <b>finance charge</b>: the cost of credit stated as one dollar figure. The test: if you'd pay the charge even when buying the house with cash, it isn't a finance charge; if it exists only because you're borrowing, it is. So interest, points, and the lender's own fees are in; the home's price and the property taxes are out. The whole point of the figure is to gather every borrowing cost into one place, in dollars."
             }
           ],
           "synth": {
@@ -980,7 +980,7 @@ const section3: SectionContent = {
           "heading": "liens and your principal dwelling",
           "paras": [
             {
-              "html": "When a loan is <b>secured</b> by your home, you've given the lender a <b>lien</b> — a legal claim on the property. Miss enough payments and the lien lets the lender force a sale to get its money back. Order matters: the <b>first lien</b> is repaid first out of any sale, and a <b>subordinate lien</b> (a second mortgage or a home-equity line) stands behind it, which makes it riskier for that lender and usually pricier for you. TILA saves its strongest protections for loans tied to your <b>principal dwelling</b> — the home you actually live in, not a rental or a vacation place."
+              "html": "When a loan is <b>secured</b> by your home, you've given the lender a <b>lien</b> — a legal claim on the property. If you miss enough payments, the lien lets the lender force a sale to get its money back. Order matters: the <b>first lien</b> is repaid first out of any sale, and a <b>subordinate lien</b> (a second mortgage or a home-equity line) stands behind it, which makes it riskier for that lender and usually pricier for you. TILA saves its strongest protections for loans tied to your <b>principal dwelling</b> — the home you actually live in, not a rental or a vacation place."
             }
           ]
         },
@@ -988,7 +988,7 @@ const section3: SectionContent = {
           "heading": "what TILA covers",
           "paras": [
             {
-              "html": "TILA does three jobs: it forces lenders to disclose a loan's terms and total cost so borrowers can comparison-shop, it gives borrowers a right to cancel certain home loans, and it polices how credit is advertised. It reaches a lender only when four things are all true — the credit goes to a <b>consumer</b>, the lender extends credit <b>regularly</b>, the credit carries a finance charge or is repaid in more than <span class=\"cloze\" data-accept='[\"4\",\"four\"]' data-reveal=\"four\">?</span> installments, and it's for personal, family, or household use. Borrow for a business, a farm, or an organization and you're outside TILA — the same logic as RESPA, that a business borrower can look after itself. A handful of other deals are exempt too: credit above an inflation-adjusted dollar threshold (about $72,000 in 2025) that isn't secured by real estate, public-utility credit, student loans, and employer retirement-plan loans."
+              "html": "TILA does three jobs:<ul><li><b>Disclosure</b> — lenders must put the loan's terms and total cost in writing, so you can compare offers.</li><li><b>Right to cancel</b> — for certain home loans, you can back out within three days of signing.</li><li><b>Advertising rules</b> — it polices how credit gets pitched.</li></ul>It reaches a lender only when four things are all true — the credit goes to a <b>consumer</b>, the lender extends credit <b>regularly</b>, the credit carries a finance charge or is repaid in more than <span class=\"cloze\" data-accept='[\"4\",\"four\"]' data-reveal=\"four\">?</span> installments, and it's for personal, family, or household use. Borrow for a business, a farm, or an organization and you're outside TILA — the same logic as RESPA, that a business borrower can look after itself. A handful of other deals are exempt too: credit above an inflation-adjusted dollar threshold (about $72,000 in 2025) that isn't secured by real estate, public-utility credit, student loans, and employer retirement-plan loans."
             }
           ]
         },
@@ -1663,7 +1663,7 @@ const section3: SectionContent = {
           "studyCard": "trid-tolerances",
           "paras": [
             {
-              "html": "How far a quoted fee may drift from the LE to the CD depends on who controls it. TRID sorts every fee into three <b>tolerance</b> buckets. <b>Zero tolerance</b>: fees the lender controls — its own charges, a provider it required you to use, transfer taxes — can't rise a dollar; the lender eats any increase. <b>10% tolerance</b>: fees you could shop but only from the lender's list, plus recording fees — the whole group's total may rise up to <span class=\"cloze\" data-accept='[\"10%\",\"10\",\"ten percent\",\"ten\"]' data-reveal=\"10%\">?</span>, and the lender pays anything beyond that. <b>No tolerance</b>: fees the lender doesn't control — prepaid interest, property taxes, insurance, or a provider you picked entirely on your own — can rise to their true cost as long as the estimate was made in good faith. The logic is one idea: the more control the lender had over a fee, the less it's allowed to move."
+              "html": "How far a quoted fee may drift from the LE to the CD depends on who controls it. TRID sorts every fee into three <b>tolerance</b> buckets. <b>Zero tolerance</b>: fees the lender controls — its own charges, a provider it required you to use, transfer taxes — can't rise a dollar; the lender eats any increase. <b>10% tolerance</b>: fees you could shop but only from the lender's list, plus recording fees — the whole group's total may rise up to <span class=\"cloze\" data-accept='[\"10%\",\"10\",\"ten percent\",\"ten\"]' data-reveal=\"10%\">?</span>, and the lender pays anything beyond that. <b>No tolerance</b>: fees the lender doesn't control — prepaid interest, property taxes, insurance, or a provider you picked entirely on your own — can rise to their true cost as long as the estimate was made in good faith. The more control the lender had over a fee, the less it's allowed to move."
             }
           ],
           "synth": {
@@ -3000,7 +3000,7 @@ const section3: SectionContent = {
           "heading": "the deal: notice and opt-out",
           "paras": [
             {
-              "html": "The core bargain is simple. Before a financial institution shares your NPI with a <b>nonaffiliated third party</b> — an outside company it doesn't own or control — it must first tell you clearly that it may, and give you a real chance to <b>opt out</b> and stop it. There are practical exceptions: it can share NPI to get the deal done (ordering your title report) or under a joint marketing agreement without an opt-out. But it can <b>never</b> hand your account number to an outside company for that company's telemarketing or mail marketing."
+              "html": "Before a financial institution shares your NPI with a <b>nonaffiliated third party</b> — an outside company it doesn't own or control — it must first tell you clearly that it may, and give you a real chance to <b>opt out</b> and stop it. There are practical exceptions: it can share NPI to get the deal done (ordering your title report) or under a joint marketing agreement without an opt-out. But it can <b>never</b> hand your account number to an outside company for that company's telemarketing or mail marketing."
             }
           ],
           "synth": {
@@ -3210,7 +3210,7 @@ const section3: SectionContent = {
           "heading": "records and the price of breaking it",
           "paras": [
             {
-              "html": "Telemarketers must keep their scripts, ads, and sales records for at least 24 months. And the rule has teeth: as of 2024, a TSR violation carries a fine of up to <span class=\"cloze\" data-accept='[\"$51,744\",\"51744\",\"51,744\"]' data-reveal=\"$51,744\">?</span> per violation — a number that ratchets up with inflation, so it's the per-call scale, not the exact figure, worth remembering."
+              "html": "Telemarketers must keep their scripts, ads, and sales records for at least 24 months. And the rule has teeth: as of 2024, a TSR violation carries a fine of up to <span class=\"cloze\" data-accept='[\"$51,744\",\"51744\",\"51,744\"]' data-reveal=\"$51,744\">?</span> per violation — a number that ratchets up with inflation — it's the per-call scale that matters, not the exact figure."
             }
           ]
         }
@@ -3793,7 +3793,7 @@ const section3: SectionContent = {
           "heading": "why you pay PMI, and who it protects",
           "paras": [
             {
-              "html": "Conventional lenders draw the risk line at <span class=\"cloze\" data-accept='[\"80%\",\"80\",\"eighty percent\",\"eighty\"]' data-reveal=\"80%\">?</span> LTV. Borrow more than that — less than 20% down — and PMI is required, insuring the lender against the slice of the loan above the 80% line, not the whole balance. Read that twice: the borrower pays the premium, but the coverage protects the lender and the investor. HPA applies only to conventional loans with PMI; FHA, VA, and USDA government loans use their own insurance and fall outside it."
+              "html": "Conventional lenders draw the risk line at <span class=\"cloze\" data-accept='[\"80%\",\"80\",\"eighty percent\",\"eighty\"]' data-reveal=\"80%\">?</span> LTV. Borrow more than that — less than 20% down — and PMI is required, insuring the lender against the slice of the loan above the 80% line, not the whole balance. The borrower pays the premium, but the coverage protects the lender and the investor. HPA applies only to conventional loans with PMI; FHA, VA, and USDA government loans use their own insurance and fall outside it."
             }
           ]
         },
@@ -4007,7 +4007,7 @@ const section3: SectionContent = {
           "heading": "the core fix: ability to repay",
           "paras": [
             {
-              "html": "The heart of the reform answers the question nobody was asking in 2006: can this borrower actually pay? The <b>ability-to-repay (ATR)</b> rule bars a creditor from making a mortgage unless it first makes a reasonable, good-faith determination — based on <b>verified, documented</b> information — that the borrower can repay it. Wasn't the lender always supposed to check that? Legally, no — and that gap is exactly what ATR closes."
+              "html": "The heart of the reform answers the question nobody was asking in 2006: can this borrower actually pay? The <b>ability-to-repay (ATR)</b> rule bars a creditor from making a mortgage unless it first makes a reasonable, good-faith determination — based on <b>verified, documented</b> information — that the borrower can repay it. You'd assume the lender always had to check that. Legally, it didn't — and that gap is exactly what ATR closes."
             }
           ]
         },
