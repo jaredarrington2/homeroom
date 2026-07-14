@@ -70,11 +70,10 @@ export default function ExamCheck({ unitId, items }: { unitId: string; items: Ex
   if (!open) {
     return (
       <div className="border border-hairline p-5 my-8">
-        <div className="font-mono text-[11px] uppercase tracking-eyebrow text-royal mb-1">Section check</div>
-        <p className="text-sm text-ink-muted mb-4">
-          {Math.min(DRAW, items.length)} exam-style questions, scored at the end.
-          {priorBest > 0 && ` Your best: ${Math.round(priorBest * 100)}%.`}
-        </p>
+        <div className="font-mono text-[11px] uppercase tracking-eyebrow text-royal mb-3">Section check</div>
+        {priorBest > 0 && (
+          <div className="font-mono text-xs text-ink-muted mb-3">Best {Math.round(priorBest * 100)}%</div>
+        )}
         <button onClick={start} className="text-sm font-medium px-4 py-2 border border-royal text-royal rounded hover:bg-royal-faint transition-colors">
           {priorBest > 0 ? 'Retake' : 'Start'}
         </button>
