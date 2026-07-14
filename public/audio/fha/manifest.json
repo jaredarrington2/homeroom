@@ -2,7 +2,7 @@
   "unitId": "fha",
   "name": "FHA loans",
   "reg": "Federal Housing Administration · HUD-insured loans · National Housing Act",
-  "groupCount": 1,
+  "groupCount": 2,
   "items": [
     {
       "kind": "prose",
@@ -16,6 +16,19 @@
       "gateType": "synth",
       "id": "audio-fha-g0-gate-synth",
       "gi": 0
+    },
+    {
+      "kind": "prose",
+      "id": "audio-fha-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "How much a borrower puts down depends on their credit score. FHA sorts borrowers into three tiers. First, a score of five hundred eighty or higher earns the minimum three and a half percent down, a ninety-six point five percent LTV. Second, a score of five hundred to five seventy-nine still qualifies, but must put ten percent down, a ninety percent LTV. Third, below five hundred, there is no FHA financing at all. A weaker credit profile doesn't close the door; it raises the down payment, since FHA's insurance covers only so much of the lender's risk."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-fha-g1-gate-synth",
+      "gi": 1
     },
     {
       "kind": "gate",

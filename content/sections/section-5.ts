@@ -261,6 +261,19 @@ const section5: SectionContent = {
             a: "The up-front MIP — 1.75% of the base loan amount — is financed into the loan rather than paid in cash. So the loan is the base plus the UFMIP, then rounded down to the nearest $50.",
           },
         },
+        {
+          heading: "credit score sets the down payment",
+          spoken: `How much a borrower puts down depends on their credit score. FHA sorts borrowers into three tiers. First, a score of five hundred eighty or higher earns the minimum three and a half percent down, a ninety-six point five percent LTV. Second, a score of five hundred to five seventy-nine still qualifies, but must put ten percent down, a ninety percent LTV. Third, below five hundred, there is no FHA financing at all. A weaker credit profile doesn't close the door; it raises the down payment, since FHA's insurance covers only so much of the lender's risk.`,
+          paras: [
+            {
+              html: `<p>How much a borrower puts down depends on their credit score — FHA sorts borrowers into three tiers:</p><ul><li>a score of <span class="cloze" data-accept='["580","five hundred eighty","five eighty"]' data-reveal="580">?</span> or higher earns the minimum 3.5% down, a 96.5% LTV</li><li>a score of <span class="cloze" data-accept='["500","five hundred"]' data-reveal="500">?</span> to 579 still qualifies, but must put <span class="cloze" data-accept='["10%","10","10 percent","ten percent"]' data-reveal="10%">?</span> down, a 90% LTV</li><li>below 500, there is no FHA financing at all</li></ul><p>A weaker credit profile doesn't close the door; it raises the down payment, since FHA's insurance covers only so much of the lender's risk.</p>`,
+            },
+          ],
+          synth: {
+            q: "A borrower with a 540 credit score is set on an FHA loan. Can they get one, and how does it differ from a borrower with a 620 score?",
+            a: "Yes — a 540 sits in the 500–579 tier, so FHA financing is still open, but the down payment climbs to 10% (a 90% LTV) instead of the 3.5% a 580-or-higher borrower like the 620 puts down. Below 500, neither could use an FHA loan at all.",
+          },
+        },
       ],
       review: {
         flashcards: [
@@ -288,6 +301,15 @@ const section5: SectionContent = {
             ],
             correct: 1,
           },
+        ],
+      },
+      recap: {
+        plainLanguage: "An FHA loan is insured by HUD, which opens the door to buyers with a smaller down payment and a lower credit score than a conventional loan allows. In exchange the borrower carries mortgage insurance in two parts — up front and annually — and how much they put down depends on their credit score.",
+        facts: [
+          "FHA insures the loan through HUD, so a borrower can qualify with a lower credit score and as little as <span class=\"hl\">3.5% down</span> (a 96.5% LTV).",
+          "Credit tiers set the down payment: <span class=\"hl\">580+</span> → 3.5% down; <span class=\"hl\">500–579</span> → 10% down; <span class=\"hl\">below 500</span> → not eligible.",
+          "Mortgage insurance comes in two parts — an <span class=\"hl\">up-front MIP</span> of 1.75% of the base loan (usually financed in) and an <span class=\"hl\">annual MIP</span> collected monthly inside the payment.",
+          "The FHA loan amount is the base plus the financed UFMIP, rounded down to the nearest <span class=\"hl\">$50</span>.",
         ],
       },
     },
