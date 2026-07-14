@@ -64,7 +64,7 @@ const section3: SectionContent = {
           },
           "paras": [
             {
-              "html": "RESPA only reaches <b>consumer mortgages</b>. A loan to buy a laundromat, an office building, or a stretch of raw land falls outside it — those are business deals, and the law assumes a commercial borrower can look after itself. Two edges trip people up: a temporary bridge loan keeps its exemption only while its term stays short — a year or less — and vacant land is exempt unless construction starts within two years. So a bridge loan crosses back under RESPA the moment its term runs longer than <span class=\"cloze\" data-accept='[\"12 months\",\"12 month\",\"12\",\"twelve\",\"twelve months\",\"a year\",\"one year\"]' data-reveal=\"12 months\">?</span>."
+              "html": "RESPA applies only to <b>consumer mortgages</b>. It doesn't apply to a loan for a laundromat, an office building, or a stretch of raw land — those are business deals, and the law assumes a commercial borrower can look after itself. Two edges trip people up: a temporary bridge loan keeps its exemption only while its term stays short — a year or less — and vacant land is exempt unless construction starts within <span class=\"cloze\" data-accept='[\"two years\",\"2 years\",\"2\",\"two\"]' data-reveal=\"two years\">?</span>. So a bridge loan crosses back under RESPA the moment its term runs longer than <span class=\"cloze\" data-accept='[\"12 months\",\"12 month\",\"12\",\"twelve\",\"twelve months\",\"a year\",\"one year\"]' data-reveal=\"12 months\">?</span>."
             }
           ]
         },
@@ -340,7 +340,7 @@ const section3: SectionContent = {
               "html": "These three terms describe different problems, and the exam tests each one separately. A <strong>shortage</strong> means the account has less money than it needs to cover upcoming disbursements. A <strong>surplus</strong> (overage) means the account has more than it needs. A <strong>deficiency</strong> means the account balance is negative — the servicer has already paid out more than the account held. A deficiency is independent of a shortage or surplus."
             },
             {
-              "html": "<strong>Shortage.</strong> If the shortage is less than one monthly escrow payment, the servicer has three options: allow it to exist and do nothing, require the borrower to repay it within 30 days, or spread repayment over at least 12 months interest-free. If the shortage is equal to or greater than one monthly escrow payment, only two options remain: do nothing, or spread repayment over at least <span class=\"cloze\" data-accept='[\"12 months\",\"12\",\"twelve months\"]' data-reveal=\"12 months\">?</span> interest-free. The 30-day lump-sum demand is not available for larger shortages."
+              "html": "<strong>Shortage.</strong> If the shortage is less than one monthly escrow payment, the servicer has three options: allow it to exist and do nothing, require the borrower to repay it within <span class=\"cloze\" data-accept='[\"30 days\",\"30\",\"thirty\",\"thirty days\"]' data-reveal=\"30 days\">?</span>, or spread repayment over at least 12 months interest-free. If the shortage is equal to or greater than one monthly escrow payment, only two options remain: do nothing, or spread repayment over at least <span class=\"cloze\" data-accept='[\"12 months\",\"12\",\"twelve months\"]' data-reveal=\"12 months\">?</span> interest-free. The 30-day lump-sum demand is not available for larger shortages."
             },
             {
               "html": "<strong>Surplus.</strong> If the surplus is <span class=\"cloze\" data-accept='[\"$50\",\"50\",\"50 dollars\",\"50.00\"]' data-reveal=\"$50\">?</span> or more, the servicer must refund it to the borrower within 30 days of the analysis. If the surplus is less than that threshold, the servicer may either refund it or credit it against next year's escrow payments."
@@ -375,7 +375,7 @@ const section3: SectionContent = {
               "html": "The servicer then has two paths: correct the error and notify the borrower of the correction, its effective date, and contact information for further help — or investigate and send a written explanation that no error occurred, with the reasoning, the borrower's right to request the documents the servicer relied on, and contact information."
             },
             {
-              "html": "Time limits for the response depend on the error type. Payment-related errors (failure to accept or credit a conforming payment) must be resolved within <span class=\"cloze\" data-accept='[\"7 days\",\"seven days\",\"7\"]' data-reveal=\"7 days\">?</span> (excluding weekends and holidays). Foreclosure-related errors must be resolved before the foreclosure sale date or within 30 days, whichever is earlier. All other errors must be resolved within 30 days."
+              "html": "Time limits for the response depend on the error type. Payment-related errors (failure to accept or credit a conforming payment) must be resolved within <span class=\"cloze\" data-accept='[\"7 days\",\"seven days\",\"7\"]' data-reveal=\"7 days\">?</span> (excluding weekends and holidays). Foreclosure-related errors must be resolved before the foreclosure sale date or within 30 days, whichever is earlier. All other errors must be resolved within <span class=\"cloze\" data-accept='[\"30 days\",\"30\",\"thirty\",\"thirty days\"]' data-reveal=\"30 days\">?</span>."
             },
             {
               "html": "The servicer can extend the response period by an additional 15 days (excluding weekends and holidays) as long as it notifies the borrower of the extension and the reasons for it in writing before the original 30-day period expires."
@@ -396,7 +396,7 @@ const section3: SectionContent = {
               "html": "The hard stop is the <b>120-day rule</b>: the servicer cannot make the first foreclosure filing until the borrower is more than <span class=\"cloze\" data-accept='[\"120 days\",\"120\",\"120 calendar days\"]' data-reveal=\"120 days\">?</span> delinquent. The wait exists to give loss mitigation a real chance before the home is on the line."
             },
             {
-              "html": "Once the borrower submits a <b>complete loss-mitigation application</b>, more clocks start. The servicer must acknowledge receipt within <b>5 days</b>. If the application arrives more than <b>37 days</b> before a scheduled foreclosure sale, the servicer must evaluate it within <b>30 days</b>. And if it arrives <b>90 or more days</b> before the sale, a borrower who is denied has the right to <b>appeal</b> that decision."
+              "html": "Once the borrower submits a <b>complete loss-mitigation application</b>, more clocks start. The servicer must acknowledge receipt within <b>5 days</b>. If the application arrives more than <span class=\"cloze\" data-accept='[\"37 days\",\"37\",\"thirty-seven\",\"thirty-seven days\"]' data-reveal=\"37 days\">?</span> before a scheduled foreclosure sale, the servicer must evaluate it within <b>30 days</b>. And if it arrives <span class=\"cloze\" data-accept='[\"90 or more days\",\"90 days\",\"90\",\"ninety\",\"ninety days\"]' data-reveal=\"90 or more days\">?</span> before the sale, a borrower who is denied has the right to <b>appeal</b> that decision."
             }
           ],
           "synth": {
@@ -408,7 +408,7 @@ const section3: SectionContent = {
           "heading": "bona fide discount points",
           "paras": [
             {
-              "html": "Discount points are upfront interest that a borrower pays at settlement to buy a lower interest rate than the market's current \"par\" rate. One discount point costs <span class=\"cloze\" data-accept='[\"1%\",\"one percent\",\"1 percent\"]' data-reveal=\"1%\">?</span> of the loan amount. Points can be purchased in increments as small as 1/8 of a percent."
+              "html": "Discount points are upfront interest that a borrower pays at settlement to buy a lower interest rate than the market's current \"par\" rate. One discount point costs <span class=\"cloze\" data-accept='[\"1%\",\"one percent\",\"1 percent\"]' data-reveal=\"1%\">?</span> of the loan amount. Points can be purchased in increments as small as <span class=\"cloze\" data-accept='[\"1/8\",\"one eighth\",\"one-eighth\",\"0.125\",\"an eighth\"]' data-reveal=\"1/8\">?</span> of a percent."
             },
             {
               "html": "On a $375,000 loan, one full point costs $3,750. Five-eighths of a point costs $2,343.75. One and three-quarter points costs $6,562.50. The math is always the loan amount multiplied by the point percentage."
@@ -687,7 +687,7 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "A lender can turn you down — what it can't do is turn you down for who you are. <b>ECOA</b>, enacted in <span class=\"cloze\" data-accept='[\"1974\",\"nineteen seventy-four\"]' data-reveal=\"1974\">?</span> and implemented through <b>Regulation B</b>, makes it illegal to base any credit decision on a prohibited basis. Unlike the Fair Housing Act, ECOA isn't limited to real estate — it covers <b>all forms of lending</b>. The full list of prohibited bases under § 1002.4(a) runs to <b>11 items</b>: race, color, nationality, sex (including gender, sexual orientation, and sexual identity), religion, marital status, age (with an exception for capacity to contract), participation in a credit counseling program, income earned through public assistance, prior exercise of rights under consumer credit protection laws, and intent to bear offspring. The protection reaches further than the moment of denial: it's also a violation to <b>discourage</b> a reasonable person from even applying on one of those grounds, which means a lender can break the law before any application exists."
+              "html": "A lender can turn you down — what it can't do is turn you down for who you are. <b>ECOA</b>, enacted in <span class=\"cloze\" data-accept='[\"1974\",\"nineteen seventy-four\"]' data-reveal=\"1974\">?</span> and implemented through <b>Regulation B</b>, makes it illegal to base any credit decision on a prohibited basis. Unlike the Fair Housing Act, ECOA isn't limited to real estate — it covers <b>all forms of lending</b>. The full list of prohibited bases under § 1002.4(a) runs to <span class=\"cloze\" data-accept='[\"11\",\"eleven\",\"11 items\",\"eleven items\"]' data-reveal=\"11 items\">?</span>: race, color, nationality, sex (including gender, sexual orientation, and sexual identity), religion, marital status, age (with an exception for capacity to contract), participation in a credit counseling program, income earned through public assistance, prior exercise of rights under consumer credit protection laws, and <span class=\"cloze\" data-accept='[\"intent to bear offspring\",\"intention to bear offspring\",\"childbearing\",\"intent to have children\"]' data-reveal=\"intent to bear offspring\">?</span>. The protection reaches further than the moment of denial: it's also a violation to <b>discourage</b> a reasonable person from even applying on one of those grounds, which means a lender can break the law before any application exists."
             }
           ]
         },
@@ -720,7 +720,7 @@ const section3: SectionContent = {
           },
           "paras": [
             {
-              "html": "Once an application is complete, the creditor owes you a <b>Notice of Action Taken</b>, and the deadline is fixed: it must arrive within <span class=\"cloze\" data-accept='[\"30 calendar days\",\"30 days\",\"30\",\"thirty\",\"thirty days\"]' data-reveal=\"30 calendar days\">?</span>. If the lender approves, the notice explains outstanding conditions and next steps. If the lender can't approve as submitted but can offer different terms, the <b>counteroffer</b> goes on the notice and the applicant has <b>90 calendar days</b> to accept. If additional information is still needed, the creditor sends a <b>Notice of Incomplete Application</b> specifying what's missing and a reasonable deadline to provide it — silence from the applicant releases the creditor from any further obligation. ECOA application records must be retained for <b>25 months</b>."
+              "html": "Once an application is complete, the creditor owes you a <b>Notice of Action Taken</b>, and the deadline is fixed: it must arrive within <span class=\"cloze\" data-accept='[\"30 calendar days\",\"30 days\",\"30\",\"thirty\",\"thirty days\"]' data-reveal=\"30 calendar days\">?</span>. If the lender approves, the notice explains outstanding conditions and next steps. If the lender can't approve as submitted but can offer different terms, the <b>counteroffer</b> goes on the notice and the applicant has <b>90 calendar days</b> to accept. If additional information is still needed, the creditor sends a <span class=\"cloze\" data-accept='[\"Notice of Incomplete Application\",\"notice of incomplete application\",\"incomplete application notice\"]' data-reveal=\"Notice of Incomplete Application\">?</span> specifying what's missing and a reasonable deadline to provide it — silence from the applicant releases the creditor from any further obligation. ECOA application records must be retained for <b>25 months</b>."
             }
           ],
           "synth": {
@@ -744,7 +744,7 @@ const section3: SectionContent = {
           "heading": "the appraisal copy",
           "paras": [
             {
-              "html": "You paid for the appraisal, so ECOA makes sure you see it. For any first-lien dwelling-secured loan not covered by TRID, the creditor must notify you within <b>3 business days</b> of receiving the application that you have the right to a copy. The copy itself must arrive <b>promptly upon completion</b>, and the hard backstop is <span class=\"cloze\" data-accept='[\"3 business days\",\"3\",\"three\",\"three business days\"]' data-reveal=\"3 business days\">?</span> before consummation for closed-end credit or account opening for open-end. You can waive the timing and agree to receive it at or before closing — but the waiver must be obtained at least 3 business days ahead, and waiving the timing never waives the copy itself. If the deal falls through, the creditor has <b>30 days</b> after deciding the transaction won't close to deliver whatever valuations were completed. The creditor may not charge for providing the copy, though it can charge a reasonable fee for the appraisal itself."
+              "html": "You paid for the appraisal, so ECOA makes sure you see it. For any first-lien dwelling-secured loan not covered by TRID, the creditor must notify you within <b>3 business days</b> of receiving the application that you have the right to a copy. The copy itself must arrive <b>promptly upon completion</b>, and the hard backstop is <span class=\"cloze\" data-accept='[\"3 business days\",\"3\",\"three\",\"three business days\"]' data-reveal=\"3 business days\">?</span> before consummation for closed-end credit or account opening for open-end. You can waive the timing and agree to receive it at or before closing — but the waiver must be obtained at least 3 business days ahead, and waiving the timing never waives the copy itself. If the deal falls through, the creditor has <span class=\"cloze\" data-accept='[\"30 days\",\"30\",\"thirty\",\"thirty days\"]' data-reveal=\"30 days\">?</span> after deciding the transaction won't close to deliver whatever valuations were completed. The creditor may not charge for providing the copy, though it can charge a reasonable fee for the appraisal itself."
             }
           ]
         },
@@ -962,7 +962,7 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "A lender's ad shows one number: the rate. That number is real, but it isn't what the loan costs you — the fees you pay up front, the insurance the lender requires, and the interest itself all pile on top of it. <b>The Truth in Lending Act (TILA) makes the lender put the full price in writing</b>, in a few standardized figures, so you can hold two offers side by side and see which is actually cheaper. It's a disclosure law, passed in 1968 and run today through the Consumer Financial Protection Bureau's <b>Regulation Z</b>."
+              "html": "A lender's ad shows one number: the rate. That number is real, but it isn't what the loan costs you — the fees you pay up front, the insurance the lender requires, and the interest itself all pile on top of it. <b>The Truth in Lending Act (TILA) makes the lender put the full price in writing</b>, in a few standardized figures, so you can hold two offers side by side and see which is actually cheaper. It's a disclosure law, passed in <span class=\"cloze\" data-accept='[\"1968\",\"nineteen sixty-eight\"]' data-reveal=\"1968\">?</span> and run today through the Consumer Financial Protection Bureau's <span class=\"cloze\" data-accept='[\"Regulation Z\",\"Reg Z\",\"Z\"]' data-reveal=\"Regulation Z\">?</span>."
             }
           ]
         },
@@ -978,7 +978,7 @@ const section3: SectionContent = {
           "heading": "points and up-front fees",
           "paras": [
             {
-              "html": "Some loan costs aren't in the rate — you pay them once, at closing, in cash. The unit of measure is the <b>point</b>: one point is <span class=\"cloze\" data-accept='[\"1%\",\"1\",\"one percent\",\"one\"]' data-reveal=\"1%\">?</span> of the loan amount, so on a $250,000 loan one point is $2,500. Points come in two kinds. <b>Discount points</b> are optional — you pay them to buy your interest rate down, trading cash now for a lower payment later. <b>Origination points</b> (or origination fees) are what the lender charges to make the loan in the first place. Either way the money leaves your pocket up front, which is why the rate alone never tells you the whole cost."
+              "html": "Some loan costs aren't in the rate — you pay them once, at closing, in cash. The unit of measure is the <b>point</b>: one point is <span class=\"cloze\" data-accept='[\"1%\",\"1\",\"one percent\",\"one\"]' data-reveal=\"1%\">?</span> of the loan amount, so on a $250,000 loan one point is $2,500. Points come in two kinds. <span class=\"cloze\" data-accept='[\"discount points\",\"discount point\",\"discount\"]' data-reveal=\"Discount points\">?</span> are optional — you pay them to buy your interest rate down, trading cash now for a lower payment later. <b>Origination points</b> (or origination fees) are what the lender charges to make the loan in the first place. Either way the money leaves your pocket up front, which is why the rate alone never tells you the whole cost."
             }
           ]
         },
@@ -1020,7 +1020,7 @@ const section3: SectionContent = {
           "heading": "what TILA covers",
           "paras": [
             {
-              "html": "TILA does three jobs:<ul><li><b>Disclosure</b> — lenders must put the loan's terms and total cost in writing, so you can compare offers.</li><li><b>Right to cancel</b> — for certain home loans, you can back out within three days of signing.</li><li><b>Advertising rules</b> — it polices how credit gets pitched.</li></ul>It reaches a lender only when four things are all true — the credit goes to a <b>consumer</b>, the lender extends credit <b>regularly</b>, the credit carries a finance charge or is repaid in more than <span class=\"cloze\" data-accept='[\"4\",\"four\"]' data-reveal=\"four\">?</span> installments, and it's for personal, family, or household use. A loan for a business, a farm, or an organization falls outside TILA — the same logic as RESPA: a business borrower can look after itself. A handful of other deals are exempt too: credit above an inflation-adjusted dollar threshold (about $72,000 in 2025) that isn't secured by real estate, public-utility credit, student loans, and employer retirement-plan loans."
+              "html": "TILA does three jobs:<ul><li><b>Disclosure</b> — lenders must put the loan's terms and total cost in writing, so you can compare offers.</li><li><b>Right to cancel</b> — for certain home loans, you can back out within three days of signing.</li><li><b>Advertising rules</b> — it polices how credit gets pitched.</li></ul>It reaches a lender only when four things are all true — the credit goes to a <b>consumer</b>, the lender extends credit <b>regularly</b>, the credit carries a finance charge or is repaid in more than <span class=\"cloze\" data-accept='[\"4\",\"four\"]' data-reveal=\"four\">?</span> installments, and it's for personal, family, or household use. TILA doesn't apply to a loan for a business, a farm, or an organization — the same logic as RESPA: a business borrower can look after itself. A handful of other deals are exempt too: credit above an inflation-adjusted dollar threshold (about $72,000 in 2025) that isn't secured by real estate, public-utility credit, student loans, and employer retirement-plan loans."
             }
           ]
         },
@@ -1054,7 +1054,7 @@ const section3: SectionContent = {
           },
           "paras": [
             {
-              "html": "On some home loans TILA gives you a cooling-off period — a short window to walk away after you've signed, no reason required. It exists because these loans put your home on the line, and a signature made under pressure shouldn't be irreversible. You <b>can't</b> rescind buying a house — a purchase-money loan is final the moment it closes — but you <b>can</b> unwind a <b>refinance</b> or a home-equity loan on your <b>principal dwelling</b>, where you're borrowing against a home you already own. The window is <span class=\"cloze\" data-accept='[\"3 business days\",\"3\",\"three\",\"three business days\",\"3 precise business days\"]' data-reveal=\"3 business days\">?</span> — counted as precise business days, meaning every day except Sundays and federal holidays — starting the day the loan settles. A few refinances are carved out: one on a second home or an investment property, and a refinance through your original lender that adds no new money."
+              "html": "On some home loans TILA gives you a cooling-off period — a short window to walk away after you've signed, no reason required. It exists because these loans put your home on the line, and a signature made under pressure shouldn't be irreversible. You <b>can't</b> rescind buying a house — a purchase-money loan is final the moment it closes — but you <b>can</b> unwind a <b>refinance</b> or a home-equity loan on your <b>principal dwelling</b>, where you're borrowing against a home you already own. The window is <span class=\"cloze\" data-accept='[\"3 business days\",\"3\",\"three\",\"three business days\",\"3 precise business days\"]' data-reveal=\"3 business days\">?</span> — counted as precise business days, meaning every day except <span class=\"cloze\" data-accept='[\"Sundays and federal holidays\",\"Sundays and holidays\",\"Sunday and federal holidays\"]' data-reveal=\"Sundays and federal holidays\">?</span> — starting the day the loan settles. A few refinances are carved out: one on a second home or an investment property, and a refinance through your original lender that adds no new money."
             }
           ]
         },
@@ -1082,7 +1082,7 @@ const section3: SectionContent = {
           "heading": "adjustable-rate disclosures",
           "paras": [
             {
-              "html": "A fixed-rate loan keeps the same rate for its whole life. An <b>adjustable-rate mortgage (ARM)</b> doesn't — after an initial stretch, its rate resets periodically to an outside benchmark called the <b>index</b>, plus a fixed markup the lender adds called the <b>margin</b>. Because the payment can climb, TILA makes the lender explain the risk up front. On any closed-end loan secured by your principal dwelling whose rate can rise after closing, two disclosures go out at application or within <span class=\"cloze\" data-accept='[\"3 business days\",\"3\",\"three\",\"three business days\"]' data-reveal=\"3 business days of application\">?</span>: the <b>CHARM booklet</b> (the Consumer Handbook on Adjustable-Rate Mortgages), which explains how ARMs work in general, and the <b>Early ARM Disclosure</b>, which spells out the specific program — that the rate, payment, or term can change, what index and margin drive it, and whether the starting rate is a temporary discount."
+              "html": "A fixed-rate loan keeps the same rate for its whole life. An <b>adjustable-rate mortgage (ARM)</b> doesn't — after an initial stretch, its rate resets periodically to an outside benchmark called the <b>index</b>, plus a fixed markup the lender adds called the <span class=\"cloze\" data-accept='[\"margin\",\"the margin\"]' data-reveal=\"margin\">?</span>. Because the payment can climb, TILA makes the lender explain the risk up front. On any closed-end loan secured by your principal dwelling whose rate can rise after closing, two disclosures go out at application or within <span class=\"cloze\" data-accept='[\"3 business days\",\"3\",\"three\",\"three business days\"]' data-reveal=\"3 business days of application\">?</span>: the <b>CHARM booklet</b> (the Consumer Handbook on Adjustable-Rate Mortgages), which explains how ARMs work in general, and the <b>Early ARM Disclosure</b>, which spells out the specific program — that the rate, payment, or term can change, what index and margin drive it, and whether the starting rate is a temporary discount."
             }
           ]
         },
@@ -1143,7 +1143,7 @@ const section3: SectionContent = {
           "heading": "the steering safe harbor",
           "paras": [
             {
-              "html": "Closely related to pay is <b>steering</b> — directing a borrower into a particular loan because it earns the originator more, when a better loan was available. TILA gives originators a <b>safe harbor</b>: an originator who presents the borrower a real set of options is in the clear. The set has to include three loans — the one with the <b>lowest interest rate</b>; the one with the lowest rate that carries <b>none of the risky features</b> (no negative amortization, no prepayment penalty, no interest-only period, no balloon in the first <span class=\"cloze\" data-accept='[\"7 years\",\"7\",\"seven\",\"seven years\"]' data-reveal=\"7 years\">?</span>, no demand feature, no shared equity or appreciation); and the one with the <b>lowest total points and origination fees</b>. Show those three, and the choice is genuinely the borrower's."
+              "html": "Closely related to pay is <b>steering</b> — directing a borrower into a particular loan because it earns the originator more, when a better loan was available. TILA gives originators a <b>safe harbor</b>: an originator who presents the borrower a real set of options is in the clear. The set has to include <span class=\"cloze\" data-accept='[\"3\",\"three\"]' data-reveal=\"three\">?</span> loans — the one with the <b>lowest interest rate</b>; the one with the lowest rate that carries <b>none of the risky features</b> (no negative amortization, no prepayment penalty, no interest-only period, no balloon in the first <span class=\"cloze\" data-accept='[\"7 years\",\"7\",\"seven\",\"seven years\"]' data-reveal=\"7 years\">?</span>, no demand feature, no shared equity or appreciation); and the one with the <b>lowest total points and origination fees</b>. Show those three, and the choice is genuinely the borrower's."
             }
           ]
         },
@@ -1468,7 +1468,7 @@ const section3: SectionContent = {
           "heading": "the rest of the high-cost rulebook",
           "paras": [
             {
-              "html": "HOEPA closes the side doors, too. Loan proceeds meant for home improvements can't be paid straight to the <b>contractor</b> — they go to the borrower, jointly, or to an agreed escrow — so a contractor can't take the money and vanish. Anyone who buys a high-cost loan is put on <b>notice</b> that they inherit the borrower's claims and defenses, which makes these loans hard to offload. A lender can't refinance a borrower's high-cost loan into <b>another</b> high-cost loan within <span class=\"cloze\" data-accept='[\"1 year\",\"1\",\"one\",\"one year\",\"12 months\",\"twelve months\"]' data-reveal=\"1 year\">?</span> unless it's clearly in the borrower's interest, can't encourage a borrower to default, and must actually check the borrower's <b>ability to repay</b>. Late fees are capped at 4% of the past-due payment, charged only after a 15-day grace period and only once per late payment."
+              "html": "HOEPA closes the side doors, too. Loan proceeds meant for home improvements can't be paid straight to the <b>contractor</b> — they go to the borrower, jointly, or to an agreed escrow — so a contractor can't take the money and vanish. Anyone who buys a high-cost loan is put on <b>notice</b> that they inherit the borrower's claims and defenses, which makes these loans hard to offload. A lender can't refinance a borrower's high-cost loan into <b>another</b> high-cost loan within <span class=\"cloze\" data-accept='[\"1 year\",\"1\",\"one\",\"one year\",\"12 months\",\"twelve months\"]' data-reveal=\"1 year\">?</span> unless it's clearly in the borrower's interest, can't encourage a borrower to default, and must actually check the borrower's <b>ability to repay</b>. Late fees are capped at <span class=\"cloze\" data-accept='[\"4%\",\"4\",\"four percent\",\"four\"]' data-reveal=\"4%\">?</span> of the past-due payment, charged only after a 15-day grace period and only once per late payment."
             }
           ]
         }
@@ -1612,7 +1612,7 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "At the end of buying a house comes the <b>closing</b> — you sit at a table, sign a thick stack of paper, the money moves, and you walk out with the keys. Buried in that stack are dozens of fees you never itemized: a title search, an appraisal, recording charges, prepaid taxes. Two forms bracket that whole event, and the rule that governs them is <b>TRID</b> — the TILA-RESPA Integrated Disclosure rule. Since 2015 it has merged four overlapping old forms into a <b>Loan Estimate</b> at the start and a <b>Closing Disclosure</b> at the end, and it sets how far the numbers may move between them."
+              "html": "At the end of buying a house comes the <b>closing</b> — you sit at a table, sign a thick stack of paper, the money moves, and you walk out with the keys. Buried in that stack are dozens of fees you never itemized: a title search, an appraisal, recording charges, prepaid taxes. Two forms bracket that whole event, and the rule that governs them is <b>TRID</b> — the TILA-RESPA Integrated Disclosure rule. Since <span class=\"cloze\" data-accept='[\"2015\",\"twenty fifteen\"]' data-reveal=\"2015\">?</span> it has merged four overlapping old forms into a <b>Loan Estimate</b> at the start and a <b>Closing Disclosure</b> at the end, and it sets how far the numbers may move between them."
             }
           ]
         },
@@ -1621,7 +1621,7 @@ const section3: SectionContent = {
           "anchor": { "file": "party-hat-on-stack-of-folders-with-champagne-transparent.png", "caption": "closing day", "kind": "char" },
           "paras": [
             {
-              "html": "Two words get used loosely at the end of a loan. <b>Settlement</b> (or closing) is the event where the documents are signed and the funds change hands; <b>consummation</b> is the exact moment you become contractually obligated on the loan — the point every TRID deadline counts from. The fees in the stack pay for <b>settlement services</b>: the outside jobs a loan needs done — the appraisal that values the home, the title work that proves the seller owns it, the escrow or settlement agent who handles the money, the county's recording of the new lien. You didn't hire most of these companies, but you pay them, which is exactly why the law forces their costs into the open."
+              "html": "Two words get used loosely at the end of a loan. <b>Settlement</b> (or closing) is the event where the documents are signed and the funds change hands; <span class=\"cloze\" data-accept='[\"consummation\"]' data-reveal=\"consummation\">?</span> is the exact moment you become contractually obligated on the loan — the point every TRID deadline counts from. The fees in the stack pay for <b>settlement services</b>: the outside jobs a loan needs done — the appraisal that values the home, the title work that proves the seller owns it, the escrow or settlement agent who handles the money, the county's recording of the new lien. You didn't hire most of these companies, but you pay them, which is exactly why the law forces their costs into the open."
             }
           ]
         },
@@ -1674,7 +1674,7 @@ const section3: SectionContent = {
           "anchor": { "file": "jester-checking-stopwatch-transparent.png", "caption": "the wait", "kind": "char" },
           "paras": [
             {
-              "html": "Getting the estimate early is only useful if there's time to act on it, so TRID puts a floor under the whole process: once the Loan Estimate is delivered or mailed, the loan may not close for at least <span class=\"cloze\" data-accept='[\"7 precise business days\",\"7\",\"seven\",\"seven precise business days\",\"7 business days\"]' data-reveal=\"7 precise business days\">?</span>. That waiting period can be shortened only for a genuine, documented financial emergency. It guarantees a full week between the first real quote and the earliest possible signing."
+              "html": "Getting the estimate early is only useful if there's time to act on it, so TRID puts a floor under the whole process: once the Loan Estimate is delivered or mailed, the loan may not close for at least <span class=\"cloze\" data-accept='[\"7 precise business days\",\"7\",\"seven\",\"seven precise business days\",\"7 business days\"]' data-reveal=\"7 precise business days\">?</span>. That waiting period can be shortened only for a genuine, documented <span class=\"cloze\" data-accept='[\"financial emergency\",\"bona fide financial emergency\",\"personal financial emergency\",\"emergency\"]' data-reveal=\"financial emergency\">?</span>. It guarantees a full week between the first real quote and the earliest possible signing."
             }
           ]
         },
@@ -1987,7 +1987,7 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "Most federal laws tell a lender how to make a loan. <b>HMDA</b> — the Home Mortgage Disclosure Act — tells lenders to <b>report</b> the loans they make, so regulators can see the whole pattern from above. It makes most mortgage lenders hand over data on every application and loan, sorted by geography and by the borrower's race, sex, and national origin. It sounds invasive until you know what it's watching for. HMDA passed in 1975 and runs through Regulation C, with the CFPB as its main enforcer."
+              "html": "Most federal laws tell a lender how to make a loan. <b>HMDA</b> — the Home Mortgage Disclosure Act — tells lenders to <b>report</b> the loans they make, so regulators can see the whole pattern from above. It makes most mortgage lenders hand over data on every application and loan, sorted by geography and by the borrower's race, sex, and national origin. It sounds invasive until you know what it's watching for. HMDA passed in 1975 and runs through Regulation C, with the <span class=\"cloze\" data-accept='[\"CFPB\",\"Consumer Financial Protection Bureau\",\"the CFPB\",\"Bureau\"]' data-reveal=\"CFPB\">?</span> as its main enforcer."
             }
           ]
         },
@@ -2024,7 +2024,7 @@ const section3: SectionContent = {
           "heading": "who has to report",
           "paras": [
             {
-              "html": "Not every lender reports — the rules aim at institutions doing real volume. A lender is covered if it has an office in a metropolitan area, meets an annually-set asset threshold, and crosses a loan-count line: it originated at least <span class=\"cloze\" data-accept='[\"25\",\"twenty-five\"]' data-reveal=\"25\">?</span> closed-end mortgage loans in each of the two prior years, or at least 200 open-end lines of credit in each of those years. A lender below both counts is exempt from that category of reporting."
+              "html": "Not every lender reports — the rules aim at institutions doing real volume. A lender is covered if it has an office in <span class=\"cloze\" data-accept='[\"a metropolitan area\",\"metropolitan area\",\"MSA\",\"metropolitan statistical area\"]' data-reveal=\"a metropolitan area\">?</span>, meets an annually-set asset threshold, and crosses a loan-count line: it originated at least <span class=\"cloze\" data-accept='[\"25\",\"twenty-five\"]' data-reveal=\"25\">?</span> closed-end mortgage loans in each of the two prior years, or at least 200 open-end lines of credit in each of those years. A lender below both counts is exempt from that category of reporting."
             }
           ]
         },
@@ -2040,7 +2040,7 @@ const section3: SectionContent = {
           "heading": "when the reports are due",
           "paras": [
             {
-              "html": "The main filing is annual: a lender submits its full prior-year LAR, in electronic form and certified accurate by someone who knows the data, by <span class=\"cloze\" data-accept='[\"March 1\",\"march 1\",\"march 1st\",\"march first\"]' data-reveal=\"March 1\">?</span> each year. The largest lenders also file quarterly — within 60 days after each quarter except the fourth — but only if they reported at least 60,000 covered loans and applications the year before. Most lenders file once a year and never touch the quarterly rule."
+              "html": "The main filing is annual: a lender submits its full prior-year LAR, in electronic form and certified accurate by someone who knows the data, by <span class=\"cloze\" data-accept='[\"March 1\",\"march 1\",\"march 1st\",\"march first\"]' data-reveal=\"March 1\">?</span> each year. The largest lenders also file quarterly — within <span class=\"cloze\" data-accept='[\"60 days\",\"60\",\"sixty\",\"sixty days\"]' data-reveal=\"60 days\">?</span> after each quarter except the fourth — but only if they reported at least 60,000 covered loans and applications the year before. Most lenders file once a year and never touch the quarterly rule."
             }
           ]
         },
@@ -2221,7 +2221,7 @@ const section3: SectionContent = {
           "heading": "what's in the report",
           "paras": [
             {
-              "html": "A credit report is a snapshot of one thing: how likely you are to repay. It's built from more than whether you pay on time — it lists your past addresses and employers, your <b>tradelines</b> (each open account, its balance, its payment record, how much of your limit you're using), matters of public record like a bankruptcy, and recent <b>inquiries</b> when someone pulled your file. Together those paint a picture of how you manage money, and it moves both ways: bad credit can be repaired over time, good credit can be damaged fast."
+              "html": "A credit report is a snapshot of one thing: how likely you are to repay. It's built from more than whether you pay on time — it lists your past addresses and employers, your <span class=\"cloze\" data-accept='[\"tradelines\",\"tradeline\",\"trade lines\",\"trade line\"]' data-reveal=\"tradelines\">?</span> (each open account, its balance, its payment record, how much of your limit you're using), matters of public record like a bankruptcy, and recent <b>inquiries</b> when someone pulled your file. Together those paint a picture of how you manage money, and it moves both ways: bad credit can be repaired over time, good credit can be damaged fast."
             }
           ]
         },
@@ -2278,7 +2278,7 @@ const section3: SectionContent = {
           "heading": "when you're turned down",
           "paras": [
             {
-              "html": "If a lender denies you based even partly on your credit, that denial is an <b>adverse action</b>, and FCRA gives you three things. The notice must name the <b>bureau</b> it pulled from (name and address), it must tell you that you can get a <b>free copy</b> of that report, and it must state plainly that the lender — not the bureau — made the decision. The bureau only sold the data; the call was the lender's."
+              "html": "If a lender denies you based even partly on your credit, that denial is an <span class=\"cloze\" data-accept='[\"adverse action\",\"an adverse action\"]' data-reveal=\"adverse action\">?</span>, and FCRA gives you three things. The notice must name the <b>bureau</b> it pulled from (name and address), it must tell you that you can get a <b>free copy</b> of that report, and it must state plainly that the lender — not the bureau — made the decision. The bureau only sold the data; the call was the lender's."
             }
           ],
           "synth": {
@@ -2448,7 +2448,7 @@ const section3: SectionContent = {
           "anchor": { "file": "caution-mirror.PNG", "caption": "the flag", "kind": "char" },
           "paras": [
             {
-              "html": "A <b>fraud alert</b> is a flag on your credit file telling any lender who pulls it to stop and confirm you're really you before opening anything. Two lengths. An <b>initial</b> fraud alert — placed on a good-faith suspicion you've been or may be victimized — lasts at least <span class=\"cloze\" data-accept='[\"1 year\",\"1\",\"one\",\"one year\"]' data-reveal=\"1 year\">?</span>. An <b>extended</b> alert requires you to file an identity-theft report first, and in exchange it runs for 7 years, keeps you off prescreened-offer lists for 5 years, and entitles you to two free reports in the following 12 months. Whichever bureau places an alert must pass it to the other two."
+              "html": "A <b>fraud alert</b> is a flag on your credit file telling any lender who pulls it to stop and confirm you're really you before opening anything. Two lengths. An <b>initial</b> fraud alert — placed on a good-faith suspicion you've been or may be victimized — lasts at least <span class=\"cloze\" data-accept='[\"1 year\",\"1\",\"one\",\"one year\"]' data-reveal=\"1 year\">?</span>. An <b>extended</b> alert requires you to file an identity-theft report first, and in exchange it runs for 7 years, keeps you off prescreened-offer lists for 5 years, and entitles you to two free reports in the following 12 months. Whichever bureau places an alert must pass it to <span class=\"cloze\" data-accept='[\"the other two\",\"other two\",\"2\",\"two\",\"the other two bureaus\"]' data-reveal=\"the other two\">?</span>."
             }
           ],
           "synth": {
@@ -2468,7 +2468,7 @@ const section3: SectionContent = {
           "heading": "free reports and fast disclosures",
           "paras": [
             {
-              "html": "FACTA opened up access to your own file. Every consumer can get a <b>free copy of their credit report once a year from each of the three bureaus</b>. On a mortgage, the lender must send a <b>Credit Score Disclosure</b> — telling you the score it used — within <span class=\"cloze\" data-accept='[\"3 business days\",\"3\",\"three\",\"three business days\"]' data-reveal=\"3 business days\">?</span> of your application. And when you report identity theft to a bureau, it must block the theft-related entries from your file, hand you a Victim's Notice of Rights, and give you copies of the fraudulent transaction's paperwork free."
+              "html": "FACTA opened up access to your own file. Every consumer can get a <b>free copy of their credit report once a year from each of the three bureaus</b>. On a mortgage, the lender must send a <span class=\"cloze\" data-accept='[\"Credit Score Disclosure\",\"credit score disclosure\"]' data-reveal=\"Credit Score Disclosure\">?</span> — telling you the score it used — within <span class=\"cloze\" data-accept='[\"3 business days\",\"3\",\"three\",\"three business days\"]' data-reveal=\"3 business days\">?</span> of your application. And when you report identity theft to a bureau, it must block the theft-related entries from your file, hand you a Victim's Notice of Rights, and give you copies of the fraudulent transaction's paperwork free."
             }
           ]
         },
@@ -2590,7 +2590,7 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "FACTA's alerts put tools in the consumer's hands. The <b>FTC Red Flags Rule</b> flips the burden onto the business: a lender must actively watch for identity theft <em>before</em> it opens or funds an account, not clean up afterward. Added to FACTA and effective <span class=\"cloze\" data-accept='[\"2008\",\"January 1, 2008\",\"Jan 1 2008\"]' data-reveal=\"January 1, 2008\">?</span>, it requires every creditor under Federal Trade Commission enforcement — which includes mortgage lenders and brokers — to run a written program to detect, prevent, and mitigate identity theft."
+              "html": "FACTA's alerts put tools in the consumer's hands. The <b>FTC Red Flags Rule</b> flips the burden onto the business: a lender must actively watch for identity theft <em>before</em> it opens or funds an account, not clean up afterward. Added to FACTA and effective <span class=\"cloze\" data-accept='[\"2008\",\"January 1, 2008\",\"Jan 1 2008\"]' data-reveal=\"January 1, 2008\">?</span>, it requires every creditor under Federal Trade Commission enforcement — which includes mortgage lenders and brokers — to run a written program to <span class=\"cloze\" data-accept='[\"detect, prevent, and mitigate\",\"detect prevent and mitigate\",\"detect, prevent and mitigate\"]' data-reveal=\"detect, prevent, and mitigate\">?</span> identity theft."
             }
           ]
         },
@@ -2743,7 +2743,7 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "Criminals and terrorists run on cash — and cash earned from drugs, fraud, or gambling can't just be spent, because a pile of unexplained money invites questions. So they <b>launder</b> it: run it through the banking system until it looks like ordinary, legitimate income. The <b>Bank Secrecy Act (BSA)</b> — also called the Anti-Money Laundering law, so you'll see it as BSA/AML — is the country's main weapon against that. Passed in 1970, it turns banks and mortgage companies into watchers: keep records, verify who you're dealing with, and report the suspicious. Your job as an MLO sits right inside it."
+              "html": "Criminals and terrorists run on cash — and cash earned from drugs, fraud, or gambling can't just be spent, because a pile of unexplained money invites questions. So they <b>launder</b> it: run it through the banking system until it looks like ordinary, legitimate income. The <b>Bank Secrecy Act (BSA)</b> — also called the Anti-Money Laundering law, so you'll see it as BSA/AML — is the country's main weapon against that. Passed in <span class=\"cloze\" data-accept='[\"1970\",\"nineteen seventy\"]' data-reveal=\"1970\">?</span>, it turns banks and mortgage companies into watchers: keep records, verify who you're dealing with, and report the suspicious. Your job as an MLO sits right inside it."
             }
           ]
         },
@@ -2791,7 +2791,7 @@ const section3: SectionContent = {
           "heading": "your first duty: know the customer",
           "paras": [
             {
-              "html": "The first thing every financial institution owes the law is certainty about <em>who</em> it's dealing with — money can't be traced if identities are fake. So each one must run a <b>Customer Identification Program (CIP)</b>: verify and record the identity of anyone opening an account or applying for a loan. The CIP is the foundation the reporting sits on, and its detailed mechanics come from the USA PATRIOT Act, covered next."
+              "html": "The first thing every financial institution owes the law is certainty about <em>who</em> it's dealing with — money can't be traced if identities are fake. So each one must run a <span class=\"cloze\" data-accept='[\"Customer Identification Program\",\"CIP\",\"Customer Identification Program (CIP)\"]' data-reveal=\"Customer Identification Program (CIP)\">?</span>: verify and record the identity of anyone opening an account or applying for a loan. The CIP is the foundation the reporting sits on, and its detailed mechanics come from the <span class=\"cloze\" data-accept='[\"USA PATRIOT Act\",\"PATRIOT Act\",\"USA Patriot Act\",\"Patriot Act\"]' data-reveal=\"USA PATRIOT Act\">?</span>, covered next."
             }
           ]
         },
@@ -3000,7 +3000,7 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "Your lender knows an enormous amount about you — income, balances, debts, Social Security number. The <b>Gramm-Leach-Bliley Act (GLBA)</b> is the law that says it can't just do whatever it wants with that. Passed in 1999, GLBA forces financial institutions to guard your private financial information, tell you what they share, let you say no to some of it, and actually secure the data they hold."
+              "html": "Your lender knows an enormous amount about you — income, balances, debts, Social Security number. The <b>Gramm-Leach-Bliley Act (GLBA)</b> is the law that says it can't just do whatever it wants with that. Passed in <span class=\"cloze\" data-accept='[\"1999\",\"nineteen ninety-nine\"]' data-reveal=\"1999\">?</span>, GLBA forces financial institutions to guard your private financial information, tell you what they share, let you say no to some of it, and actually secure the data they hold."
             }
           ]
         },
@@ -3008,7 +3008,7 @@ const section3: SectionContent = {
           "heading": "why bank mergers created a privacy problem",
           "paras": [
             {
-              "html": "For most of the 20th century a Depression-era law, <b>Glass-Steagall</b> (1933), kept banking, investing, and insurance in separate companies. GLBA tore down that wall, letting them combine into single <b>financial holding companies</b>. Convenient — but now one corporate family could hold your checking account, your brokerage, and your insurance, pooling a complete financial picture of you in one place. That concentration is exactly the privacy risk GLBA was written to manage."
+              "html": "For most of the 20th century a Depression-era law, <b>Glass-Steagall</b> (1933), kept banking, investing, and insurance in separate companies. GLBA tore down that wall, letting them combine into single <span class=\"cloze\" data-accept='[\"financial holding companies\",\"financial holding company\"]' data-reveal=\"financial holding companies\">?</span>. Convenient — but now one corporate family could hold your checking account, your brokerage, and your insurance, pooling a complete financial picture of you in one place. That concentration is exactly the privacy risk GLBA was written to manage."
             }
           ]
         },
@@ -3016,7 +3016,7 @@ const section3: SectionContent = {
           "heading": "what NPI is",
           "paras": [
             {
-              "html": "The thing GLBA protects is your <b>nonpublic personal information (NPI)</b> — the financial details about you that someone <em>couldn't</em> just dig up through a public records search or a Freedom of Information Act request. Your account balance and loan application are NPI; something already public isn't. The protection covers information tied to products you get for personal, family, or household use — a business or commercial account falls outside it."
+              "html": "The thing GLBA protects is your <b>nonpublic personal information (NPI)</b> — the financial details about you that someone <em>couldn't</em> just dig up through a public records search or a Freedom of Information Act request. Your account balance and loan application are NPI; something already public isn't. The protection covers information tied to products you get for personal, family, or household use; it doesn't apply to <span class=\"cloze\" data-accept='[\"business or commercial account\",\"business or commercial\",\"commercial account\",\"a business or commercial account\"]' data-reveal=\"a business or commercial account\">?</span>."
             }
           ]
         },
@@ -3190,7 +3190,7 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "By the early 2000s the dinner hour belonged to telemarketers. Congress answered in 2003 with the <b>Telemarketing Sales Rule (TSR)</b>, which created the <b>Do-Not-Call Registry</b> — the list you add your number to so sellers have to leave you alone. Two agencies enforce it: the <b>FTC</b> handles interstate calls (caller and recipient in different states), and the <b>FCC</b> handles intrastate calls (both in the same state)."
+              "html": "By the early 2000s the dinner hour belonged to telemarketers. Congress answered in <span class=\"cloze\" data-accept='[\"2003\",\"twenty oh three\"]' data-reveal=\"2003\">?</span> with the <b>Telemarketing Sales Rule (TSR)</b>, which created the <b>Do-Not-Call Registry</b> — the list you add your number to so sellers have to leave you alone. Two agencies enforce it: the <b>FTC</b> handles interstate calls (caller and recipient in different states), and the <b>FCC</b> handles intrastate calls (both in the same state)."
             }
           ]
         },
@@ -3210,7 +3210,7 @@ const section3: SectionContent = {
           "heading": "the deceptive line",
           "paras": [
             {
-              "html": "Before taking a consumer's payment, a telemarketer must truthfully and clearly disclose the <b>total cost</b> and quantity, any material restrictions, and — if it applies — a <b>no-refund</b> policy. In a prize promotion, they must state the odds, that <b>no purchase is necessary</b> to win, and how to enter for free. Lying about any of it — the cost, the product, a refund policy, an investment's risk, or an affiliation — is a deceptive act and prohibited outright."
+              "html": "Before taking a consumer's payment, a telemarketer must truthfully and clearly disclose the <b>total cost</b> and quantity, any material restrictions, and — if it applies — a <b>no-refund</b> policy. In a prize promotion, they must state the odds, that <span class=\"cloze\" data-accept='[\"no purchase is necessary\",\"no purchase necessary\",\"no purchase required\"]' data-reveal=\"no purchase is necessary\">?</span> to win, and how to enter for free. Lying about any of it — the cost, the product, a refund policy, an investment's risk, or an affiliation — is a deceptive act and prohibited outright."
             }
           ]
         },
@@ -3218,7 +3218,7 @@ const section3: SectionContent = {
           "heading": "the abusive line",
           "paras": [
             {
-              "html": "On the abuse side, the TSR bans threats and profanity, calling repeatedly to annoy, and blocking your caller ID. It bars demanding a fee <b>in advance</b> of delivering a loan or credit, and charging for debt-relief work before a debt is actually settled. It also forbids charging your account without your <b>express informed consent</b>. And residential sales calls are boxed into set hours — no earlier than 8 a.m. and no later than <span class=\"cloze\" data-accept='[\"9 p.m.\",\"9pm\",\"9 pm\",\"9:00 p.m.\",\"9\",\"nine\"]' data-reveal=\"9 p.m.\">?</span> in the called person's local time."
+              "html": "On the abuse side, the TSR bans threats and profanity, calling repeatedly to annoy, and blocking your caller ID. It bars demanding a fee <b>in advance</b> of delivering a loan or credit, and charging for debt-relief work before a debt is actually settled. It also forbids charging your account without your <span class=\"cloze\" data-accept='[\"express informed consent\",\"informed consent\",\"express consent\"]' data-reveal=\"express informed consent\">?</span>. And residential sales calls are boxed into set hours — no earlier than 8 a.m. and no later than <span class=\"cloze\" data-accept='[\"9 p.m.\",\"9pm\",\"9 pm\",\"9:00 p.m.\",\"9\",\"nine\"]' data-reveal=\"9 p.m.\">?</span> in the called person's local time."
             }
           ]
         },
@@ -3234,7 +3234,7 @@ const section3: SectionContent = {
           "heading": "the safe harbor",
           "paras": [
             {
-              "html": "A seller that slips up isn't automatically liable if it can show a genuine compliance routine: written procedures, trained staff, its own internal do-not-call list, scrubbing the registry on time, and technology that keeps <b>abandoned</b> (dead-air) calls to no more than <span class=\"cloze\" data-accept='[\"3%\",\"3\",\"three percent\",\"three\"]' data-reveal=\"3%\">?</span> of calls answered. It must also let an unanswered call ring at least 15 seconds or four rings, and play a message naming the seller when no rep is available. The safe harbor rewards the company that tried."
+              "html": "A seller that slips up isn't automatically liable if it can show a genuine compliance routine: written procedures, trained staff, its own <span class=\"cloze\" data-accept='[\"internal do-not-call list\",\"internal do not call list\",\"internal DNC list\",\"company do-not-call list\"]' data-reveal=\"internal do-not-call list\">?</span>, scrubbing the registry on time, and technology that keeps <b>abandoned</b> (dead-air) calls to no more than <span class=\"cloze\" data-accept='[\"3%\",\"3\",\"three percent\",\"three\"]' data-reveal=\"3%\">?</span> of calls answered. It must also let an unanswered call ring at least 15 seconds or four rings, and play a message naming the seller when no rep is available. The safe harbor rewards the company that tried."
             }
           ]
         },
@@ -3376,7 +3376,7 @@ const section3: SectionContent = {
           "heading": "triggering terms, again",
           "paras": [
             {
-              "html": "MAPs also carries the same <b>triggering-term</b> logic you met in TILA. State a specific number in a mortgage ad — a down-payment amount or percent, the number or period of payments, a payment amount, or a finance-charge amount — and the ad must then clearly and conspicuously disclose the full picture: the down payment, the actual repayment terms over the whole loan (including any balloon), and the annual percentage rate, using that term. A tempting figure can't travel alone."
+              "html": "MAPs also carries the same <b>triggering-term</b> logic you met in TILA. State a specific number in a mortgage ad — a down-payment amount or percent, the number or period of payments, a payment amount, or a finance-charge amount — and the ad must then clearly and conspicuously disclose the full picture: the down payment, the actual repayment terms over the whole loan (including any <span class=\"cloze\" data-accept='[\"balloon\",\"balloon payment\",\"any balloon\"]' data-reveal=\"balloon\">?</span>), and the annual percentage rate, using that term. A tempting figure can't travel alone."
             }
           ]
         },
@@ -3524,7 +3524,7 @@ const section3: SectionContent = {
           "heading": "what they're told before consenting",
           "paras": [
             {
-              "html": "Before that consent, the lender must give a clear statement covering the consumer's options: their right to get the record on <b>paper</b> instead, their right to <b>withdraw</b> consent and any conditions or fees for doing so, whether the consent covers just this transaction or a whole category of records, how to withdraw consent or update contact information, and how to request a paper copy and any fee for it. The consumer must also receive a statement of the <b>hardware and software</b> needed to access and keep the records."
+              "html": "Before that consent, the lender must give a clear statement covering the consumer's options: their right to get the record on <b>paper</b> instead, their right to <b>withdraw</b> consent and any conditions or fees for doing so, whether the consent covers just this transaction or a whole category of records, how to withdraw consent or update contact information, and how to request a paper copy and any fee for it. The consumer must also receive a statement of the <span class=\"cloze\" data-accept='[\"hardware and software\",\"the hardware and software\"]' data-reveal=\"hardware and software\">?</span> needed to access and keep the records."
             }
           ]
         },
@@ -3532,7 +3532,7 @@ const section3: SectionContent = {
           "heading": "when the tech changes, and keeping the records",
           "paras": [
             {
-              "html": "If the hardware or software requirements later change enough to risk the consumer no longer being able to open their records, the lender must send a revised statement and give the consumer the right to <b>withdraw consent free</b> of any fee or penalty. And the records themselves have to be kept in a form that stays accurate, accessible to anyone legally entitled to them, and reproducible for later reference. One carve-out: agreements made before the Act took effect, on <span class=\"cloze\" data-accept='[\"October 1, 2000\",\"october 1 2000\",\"oct 1 2000\",\"10/1/2000\",\"2000\"]' data-reveal=\"October 1, 2000\">?</span>, are exempt."
+              "html": "If the hardware or software requirements later change enough to risk the consumer no longer being able to open their records, the lender must send a <span class=\"cloze\" data-accept='[\"revised statement\",\"a revised statement\",\"revised disclosure statement\",\"new statement\"]' data-reveal=\"revised statement\">?</span> and give the consumer the right to <b>withdraw consent free</b> of any fee or penalty. And the records themselves have to be kept in a form that stays accurate, accessible to anyone legally entitled to them, and reproducible for later reference. One carve-out: agreements made before the Act took effect, on <span class=\"cloze\" data-accept='[\"October 1, 2000\",\"october 1 2000\",\"oct 1 2000\",\"10/1/2000\",\"2000\"]' data-reveal=\"October 1, 2000\">?</span>, are exempt."
             }
           ]
         }
@@ -3642,7 +3642,7 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "The attacks of September 11, 2001 were funded through ordinary bank accounts, so part of the response was to tighten the financial system itself. Weeks later Congress passed the <b>USA PATRIOT Act</b>, which — among far broader counterterrorism powers — strengthened the Bank Secrecy Act's grip on money laundering and pushed identity checks deeper into every financial institution, mortgage companies included. Where BSA/AML set up the reporting, the PATRIOT Act sharpened the question underneath it: are you certain who you're dealing with?"
+              "html": "The attacks of <span class=\"cloze\" data-accept='[\"September 11, 2001\",\"September 11 2001\",\"9/11/2001\",\"9/11\",\"2001\"]' data-reveal=\"September 11, 2001\">?</span> were funded through ordinary bank accounts, so part of the response was to tighten the financial system itself. Weeks later Congress passed the <b>USA PATRIOT Act</b>, which — among far broader counterterrorism powers — strengthened the Bank Secrecy Act's grip on money laundering and pushed identity checks deeper into every financial institution, mortgage companies included. Where BSA/AML set up the reporting, the PATRIOT Act sharpened the question underneath it: are you certain who you're dealing with?"
             }
           ]
         },
@@ -3670,7 +3670,7 @@ const section3: SectionContent = {
           "heading": "the watch lists",
           "paras": [
             {
-              "html": "Verifying identity is only half the check; the other half is <em>who</em> that verified person is. The CIP requires screening applicants against government lists of terrorists and barred parties — the same duty as OFAC's Specially Designated Nationals list from BSA/AML. A match is a hard stop: no financial institution may open an account or make a loan for anyone on such a list."
+              "html": "Verifying identity is only half the check; the other half is <em>who</em> that verified person is. The CIP requires screening applicants against government lists of terrorists and barred parties — the same duty as OFAC's <span class=\"cloze\" data-accept='[\"Specially Designated Nationals\",\"SDN\",\"Specially Designated Nationals list\",\"SDN list\"]' data-reveal=\"Specially Designated Nationals\">?</span> list from BSA/AML. A match is a hard stop: no financial institution may open an account or make a loan for anyone on such a list."
             }
           ]
         },
@@ -3678,7 +3678,7 @@ const section3: SectionContent = {
           "heading": "credit files and terror investigations",
           "paras": [
             {
-              "html": "The Act also reaches into credit files. A credit bureau must hand a consumer's report and file to a government agency conducting an authorized international-terrorism investigation when the agency certifies in writing that it needs it. And the bureau must stay silent about it: it may <b>not</b> tell the consumer — or note in the report — that a government agency requested or obtained access to the file."
+              "html": "The Act also reaches into credit files. A credit bureau must hand a consumer's report and file to a government agency conducting an authorized international-terrorism investigation when the agency certifies <span class=\"cloze\" data-accept='[\"in writing\",\"writing\",\"written\",\"written certification\"]' data-reveal=\"in writing\">?</span> that it needs it. And the bureau must stay silent about it: it may <b>not</b> tell the consumer — or note in the report — that a government agency requested or obtained access to the file."
             }
           ]
         }
@@ -3805,7 +3805,7 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "Put less than 20% down on a house and the lender is carrying more risk — borrowers with little equity default more often. To cover that gap, the lender makes you buy <b>private mortgage insurance (PMI)</b>: insurance that pays the <em>lender</em>, not you, if you default. PMI does nothing for the borrower except make a low-down-payment loan possible — and it's an extra monthly cost you'd want gone as soon as you're allowed. The <b>Homeowners Protection Act (HPA)</b>, passed in 1998, is the law that makes sure PMI actually comes off."
+              "html": "Put less than 20% down on a house and the lender is carrying more risk — borrowers with little equity default more often. To cover that gap, the lender makes you buy <b>private mortgage insurance (PMI)</b>: insurance that pays the <em>lender</em>, not you, if you default. PMI does nothing for the borrower except make a low-down-payment loan possible — and it's an extra monthly cost you'd want gone as soon as you're allowed. The <b>Homeowners Protection Act (HPA)</b>, passed in <span class=\"cloze\" data-accept='[\"1998\",\"nineteen ninety-eight\"]' data-reveal=\"1998\">?</span>, is the law that makes sure PMI actually comes off."
             }
           ]
         },
@@ -3825,7 +3825,7 @@ const section3: SectionContent = {
           "heading": "why you pay PMI, and who it protects",
           "paras": [
             {
-              "html": "Conventional lenders draw the risk line at <span class=\"cloze\" data-accept='[\"80%\",\"80\",\"eighty percent\",\"eighty\"]' data-reveal=\"80%\">?</span> LTV. Above that line — less than 20% down — PMI is required, insuring the lender against the slice of the loan above the 80% line, not the whole balance. The borrower pays the premium, but the coverage protects the lender and the investor. HPA applies only to conventional loans with PMI; FHA, VA, and USDA government loans use their own insurance and fall outside it."
+              "html": "Conventional lenders draw the risk line at <span class=\"cloze\" data-accept='[\"80%\",\"80\",\"eighty percent\",\"eighty\"]' data-reveal=\"80%\">?</span> LTV. Above that line — less than 20% down — PMI is required, insuring the lender against the slice of the loan above the 80% line, not the whole balance. The borrower pays the premium, but the coverage protects the lender and the investor. HPA applies only to conventional loans with PMI; it doesn't apply to FHA, VA, and USDA government loans, which carry their own insurance."
             }
           ]
         },
@@ -3841,7 +3841,7 @@ const section3: SectionContent = {
           "heading": "cancellation by request",
           "paras": [
             {
-              "html": "The first exit is the borrower's to take. Once the loan reaches 80% LTV, you can <b>request</b> that the servicer cancel PMI — but you have to earn it. You need a <b>good payment history</b>, no subordinate liens on the property (a second mortgage disqualifies you), and usually an appraisal you pay for to prove the value supports the 80%. Meet all three and the servicer removes the PMI."
+              "html": "The first exit is the borrower's to take. Once the loan reaches 80% LTV, you can <b>request</b> that the servicer cancel PMI — but you have to earn it. You need a <b>good payment history</b>, no subordinate liens on the property (a second mortgage disqualifies you), and usually <span class=\"cloze\" data-accept='[\"appraisal\",\"an appraisal\",\"new appraisal\",\"current appraisal\"]' data-reveal=\"an appraisal\">?</span> you pay for to prove the value supports the 80%. Meet all three and the servicer removes the PMI."
             }
           ]
         },
@@ -3849,7 +3849,7 @@ const section3: SectionContent = {
           "heading": "what counts as good payment history",
           "paras": [
             {
-              "html": "\"Good payment history\" has a precise meaning here: no payment <span class=\"cloze\" data-accept='[\"60 days\",\"60\",\"sixty\",\"sixty days\"]' data-reveal=\"60 days\">?</span> or more past due in the last 24 months, and none 30 days or more past due in the last 12 months. Because it looks back two years, a loan essentially has to be at least two years old to clear the bar. Until the loan clears those marks, the request waits."
+              "html": "\"Good payment history\" has a precise meaning here: no payment <span class=\"cloze\" data-accept='[\"60 days\",\"60\",\"sixty\",\"sixty days\"]' data-reveal=\"60 days\">?</span> or more past due in the last 24 months, and none 30 days or more past due in the last <span class=\"cloze\" data-accept='[\"12 months\",\"12\",\"twelve\",\"twelve months\",\"one year\"]' data-reveal=\"12 months\">?</span>. Because it looks back two years, a loan essentially has to be at least two years old to clear the bar. Until the loan clears those marks, the request waits."
             }
           ]
         },
@@ -3873,7 +3873,7 @@ const section3: SectionContent = {
           "heading": "after PMI comes off",
           "paras": [
             {
-              "html": "Once PMI is cancelled or terminated, the servicer can't keep collecting for it — no premium may be charged more than 30 days after it ends — and it must <b>refund any unearned premium</b> within <span class=\"cloze\" data-accept='[\"45 days\",\"45\",\"forty-five\",\"forty-five days\"]' data-reveal=\"45 days\">?</span>. The servicer also has to send an annual reminder of the borrower's cancellation rights. A servicer that violates the HPA can owe statutory damages of up to $2,000 to the borrower, on top of actual damages."
+              "html": "Once PMI is cancelled or terminated, the servicer can't keep collecting for it — no premium may be charged more than 30 days after it ends — and it must <b>refund any unearned premium</b> within <span class=\"cloze\" data-accept='[\"45 days\",\"45\",\"forty-five\",\"forty-five days\"]' data-reveal=\"45 days\">?</span>. The servicer also has to send an annual reminder of the borrower's cancellation rights. A servicer that violates the HPA can owe statutory damages of up to <span class=\"cloze\" data-accept='[\"$2,000\",\"2000\",\"2,000\",\"$2000\",\"two thousand\"]' data-reveal=\"$2,000\">?</span> to the borrower, on top of actual damages."
             }
           ]
         }
@@ -4067,7 +4067,7 @@ const section3: SectionContent = {
           "heading": "the ARM reset warning",
           "paras": [
             {
-              "html": "Because a payment shock was central to the crisis, Dodd-Frank makes the reset visible in advance. For a hybrid ARM — one with a fixed intro period longer than a year before it starts adjusting — the creditor or servicer must send a written notice roughly <span class=\"cloze\" data-accept='[\"6 months\",\"6\",\"six\",\"six months\"]' data-reveal=\"6 months\">?</span> before the first rate adjustment. The notice estimates the new payment, explains the index and margin behind it, and lists the borrower's options — refinance, renegotiate, forbearance — along with HUD-approved counseling contacts."
+              "html": "Because a payment shock was central to the crisis, Dodd-Frank makes the reset visible in advance. For a hybrid ARM — one with a fixed intro period longer than <span class=\"cloze\" data-accept='[\"one year\",\"1 year\",\"a year\",\"12 months\",\"one-year\"]' data-reveal=\"one year\">?</span> before it starts adjusting — the creditor or servicer must send a written notice roughly <span class=\"cloze\" data-accept='[\"6 months\",\"6\",\"six\",\"six months\"]' data-reveal=\"6 months\">?</span> before the first rate adjustment. The notice estimates the new payment, explains the index and margin behind it, and lists the borrower's options — refinance, renegotiate, forbearance — along with HUD-approved counseling contacts."
             }
           ]
         },
@@ -4075,7 +4075,7 @@ const section3: SectionContent = {
           "heading": "where TILA's originator rules came from",
           "paras": [
             {
-              "html": "Two rules you already met under TILA are Dodd-Frank's doing. Its <b>loan-originator compensation</b> limits — pay can't be based on a loan's terms, only on the loan amount — and its <b>anti-steering</b> rule — you can't push a borrower into a costlier loan, one they can't repay, or away from a Qualified Mortgage they qualify for — both originate here, in the Mortgage Reform and Anti-Predatory Lending Act. Dodd-Frank also locked in <b>appraiser independence</b>, walling originators off from the people who value the collateral. TILA is where you drill them; Dodd-Frank is where they were born."
+              "html": "Two rules you already met under TILA are Dodd-Frank's doing. Its <b>loan-originator compensation</b> limits — pay can't be based on a loan's terms, only on the loan amount — and its <b>anti-steering</b> rule — you can't push a borrower into a costlier loan, one they can't repay, or away from a Qualified Mortgage they qualify for — both originate here, in the Mortgage Reform and Anti-Predatory Lending Act. Dodd-Frank also locked in <span class=\"cloze\" data-accept='[\"appraiser independence\",\"appraiser independence rules\"]' data-reveal=\"appraiser independence\">?</span>, walling originators off from the people who value the collateral. TILA is where you drill them; Dodd-Frank is where they were born."
             }
           ]
         }
