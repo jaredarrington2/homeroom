@@ -126,7 +126,7 @@ const section5: SectionContent = {
           heading: "how the VA underwrites — back-end DTI and residual income",
           paras: [
             {
-              html: `Unlike every other program, the VA doesn't look at the borrower's front-end (housing) debt-to-income ratio at all. It considers only a <b>back-end DTI</b>, generally up to 41%, and that ceiling can stretch higher when residual income is strong. <b>Residual income</b> is what's left each month after all mandatory expenses are paid; the VA sets a minimum that varies by loan amount, family size, and geographic region. The idea is simple: measure whether a household actually has money left to live on, not just whether a ratio clears a line.`,
+              html: `Unlike every other program, the VA doesn't look at the borrower's front-end (housing) debt-to-income ratio at all. It considers only a <b>back-end DTI</b>, generally up to <span class="cloze" data-accept='["41%","41","41 percent","forty-one percent"]' data-reveal="41%">?</span>, and that ceiling can stretch higher when residual income is strong. <b>Residual income</b> is what's left each month after all mandatory expenses are paid; the VA sets a minimum that varies by loan amount, family size, and geographic region. The idea is simple: measure whether a household actually has money left to live on, not just whether a ratio clears a line.`,
             },
           ],
         },
@@ -163,7 +163,7 @@ const section5: SectionContent = {
           heading: "no PMI — a guarantee fee, and two loan types",
           paras: [
             {
-              html: `USDA loans require <b>zero down (100% LTV)</b> and, like VA loans, prohibit mortgage insurance — but they may carry a <b>guarantee fee</b> instead. The standard USDA loan, the <b>Guaranteed Rural Housing (GRH)</b> loan, charges a 1% up-front guarantee financed into the loan plus a small monthly fee of <span class="cloze" data-accept='["0.35%","0.35","0.35 percent","35 basis points","35 bps"]' data-reveal="0.35%">?</span> per year (35 basis points), and amortizes over 30 years with no prepayment penalty. The second type, the <b>Homeownership Direct (HD)</b> loan, serves very-low-income borrowers (50%–80% of adjusted AMI), can run 33–38 years, may offer payment subsidies, and carries no guarantee fee at all.`,
+              html: `USDA loans require <b>zero down (100% LTV)</b> and, like VA loans, prohibit mortgage insurance — but they may carry a <b>guarantee fee</b> instead. The standard USDA loan, the <b>Guaranteed Rural Housing (GRH)</b> loan, charges a <span class="cloze" data-accept='["1%","1","1 percent","one percent"]' data-reveal="1%">?</span> up-front guarantee financed into the loan plus a small monthly fee of <span class="cloze" data-accept='["0.35%","0.35","0.35 percent","35 basis points","35 bps"]' data-reveal="0.35%">?</span> per year (35 basis points), and amortizes over 30 years with no prepayment penalty. The second type, the <b>Homeownership Direct (HD)</b> loan, serves very-low-income borrowers (50%–80% of adjusted AMI), can run 33–38 years, may offer payment subsidies, and carries no guarantee fee at all.`,
             },
           ],
         },
@@ -252,7 +252,7 @@ const section5: SectionContent = {
           heading: "structuring an FHA loan",
           paras: [
             {
-              html: `An FHA loan is insured by HUD, so a borrower can qualify with a smaller down payment and a lower credit score than a conventional loan requires. In exchange, it carries mortgage insurance in two parts — an up-front premium financed into the loan, and an annual premium collected monthly with the payment.`,
+              html: `An FHA loan is insured by HUD, so a borrower can qualify with a smaller down payment and a lower credit score than a conventional loan requires — as little as <span class="cloze" data-accept='["3.5%","3.5","3.5 percent","three and a half percent"]' data-reveal="3.5%">?</span> down, a 96.5% LTV. In exchange, it carries mortgage insurance in two parts — an up-front premium financed into the loan, and an annual premium collected monthly with the payment.`,
             },
           ],
           worksheet: "fha-structure",
@@ -493,7 +493,7 @@ const section5: SectionContent = {
           anchor: { file: "house-of-cards-made-of-credit-cards-transparent.png", caption: "revolving", kind: "char" },
           paras: [
             {
-              html: `A home-equity line — a <b>HELOC</b> — is open for about <span class="cloze" data-accept='["10 years","10","ten","ten years","10 yrs"]' data-reveal="10 years">?</span> — the <b>draw period</b> — during which the borrower draws and repays freely and is usually billed interest-only on whatever is outstanding, at a rate that tracks the <b>Prime rate</b>. When the draw period closes, the line freezes and the remaining balance amortizes over the years left.`,
+              html: `A home-equity line — a <b>HELOC</b> — is open for about <span class="cloze" data-accept='["10 years","10","ten","ten years","10 yrs"]' data-reveal="10 years">?</span> — the <b>draw period</b> — during which the borrower draws and repays freely and is usually billed interest-only on whatever is outstanding, at a rate that tracks the <span class="cloze" data-accept='["Prime","the Prime rate","prime","Prime rate"]' data-reveal="Prime">?</span> rate. When the draw period closes, the line freezes and the remaining balance amortizes over the years left.`,
               spoken: `A home-equity line — a hee-lock — is open for about ten years, the draw period, during which the borrower draws and repays freely and is usually billed interest-only on whatever is outstanding, at a rate that tracks the Prime rate. When the draw period closes, the line freezes and the remaining balance amortizes over the years left.`,
             },
           ],
@@ -571,7 +571,7 @@ const section5: SectionContent = {
           heading: "how much, and how it comes out",
           paras: [
             {
-              html: `The <b>youngest</b> borrower's age sets how much of the home's value the loan will lend — the <b>principal limit</b>. Older borrowers can draw more, since the balance has less time to grow against the home's value. However the money is taken, a first-year cap lets the borrower access no more than <span class="cloze" data-accept='["60%","60","60 percent","sixty percent"]' data-reveal="60%">?</span> of the principal limit up front.`,
+              html: `The <span class="cloze" data-accept='["youngest"]' data-reveal="youngest">?</span> borrower's age sets how much of the home's value the loan will lend — the <b>principal limit</b>. Older borrowers can draw more, since the balance has less time to grow against the home's value. However the money is taken, a first-year cap lets the borrower access no more than <span class="cloze" data-accept='["60%","60","60 percent","sixty percent"]' data-reveal="60%">?</span> of the principal limit up front.`,
             },
             {
               html: `The proceeds can arrive several ways: a <b>lump sum</b>, a <b>line of credit</b> the borrower draws on over time, or a monthly annuity — <b>tenure</b>, which pays for as long as the borrower lives in the home, or <b>term</b>, which pays a larger amount for a set number of years.`,
