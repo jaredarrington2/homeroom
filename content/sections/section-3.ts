@@ -387,6 +387,24 @@ const section3: SectionContent = {
           }
         },
         {
+          "heading": "loss mitigation and the 120-day rule",
+          "paras": [
+            {
+              "html": "When a borrower falls behind, RESPA's servicing rules make the servicer reach out before it can foreclose. The servicer must make a good-faith effort to reach the delinquent borrower by the <b>36th day</b> of delinquency, and send written notice of the available <b>loss-mitigation options</b> — a repayment plan, a modification, and the like — by the <span class=\"cloze\" data-accept='[\"45th day\",\"45\",\"45 days\",\"day 45\"]' data-reveal=\"45th day\">?</span>. It must also assign staff to work the borrower's file, so the borrower isn't passed from one person to the next."
+            },
+            {
+              "html": "The hard stop is the <b>120-day rule</b>: the servicer cannot make the first foreclosure filing until the borrower is more than <span class=\"cloze\" data-accept='[\"120 days\",\"120\",\"120 calendar days\"]' data-reveal=\"120 days\">?</span> delinquent. The wait exists to give loss mitigation a real chance before the home is on the line."
+            },
+            {
+              "html": "Once the borrower submits a <b>complete loss-mitigation application</b>, more clocks start. The servicer must acknowledge receipt within <b>5 days</b>. If the application arrives more than <b>37 days</b> before a scheduled foreclosure sale, the servicer must evaluate it within <b>30 days</b>. And if it arrives <b>90 or more days</b> before the sale, a borrower who is denied has the right to <b>appeal</b> that decision."
+            }
+          ],
+          "synth": {
+            "q": "A servicer wants to begin foreclosure on a delinquent borrower. What must it do first, and how long must it wait?",
+            "a": "It must make a good-faith effort to reach the borrower by the 36th day of delinquency, send written loss-mitigation options by the 45th day, and assign staff to the borrower's file. It cannot make the first foreclosure filing until the borrower is more than 120 days delinquent — the delay gives loss mitigation a chance to work."
+          }
+        },
+        {
           "heading": "bona fide discount points",
           "paras": [
             {
@@ -510,6 +528,12 @@ const section3: SectionContent = {
             "topic": "Error resolution",
             "q": "Can a servicer extend the 30-day error resolution deadline, and by how much?",
             "a": "Yes — by <span class='hl'>15 additional days</span>, as long as the servicer notifies the borrower in writing before the original 30-day period expires."
+          },
+          {
+            "peg": "120 days",
+            "topic": "Loss mitigation",
+            "q": "How delinquent must a borrower be before a servicer can make its first foreclosure filing?",
+            "a": "more than <span class='hl'>120 days</span> delinquent"
           }
         ],
         "mcq": [
@@ -622,7 +646,8 @@ const section3: SectionContent = {
           "Section 8 bans <span class=\"hl\">kickbacks, referral fees, and unearned fee splitting</span> for settlement services.",
           "Section 8 penalties: up to <span class=\"hl\">1 year in prison</span> and a <span class=\"hl\">$10,000 fine</span> per violation. Section 9 (title-company steering) allows a private suit for <span class=\"hl\">treble damages</span>.",
           "Borrowers get a <span class=\"hl\">Loan Estimate</span> within 3 business days of application and a <span class=\"hl\">Closing Disclosure</span> at least 3 business days before closing.",
-          "Servicers must acknowledge a Notice of Error within 5 business days and resolve it within <span class=\"hl\">30–45 business days</span>, depending on the error type."
+          "Servicers must acknowledge a Notice of Error within 5 business days and resolve it within <span class=\"hl\">30–45 business days</span>, depending on the error type.",
+          "Before foreclosing, a servicer must try to reach the borrower by <span class=\"hl\">day 36</span> and send loss-mitigation options by <span class=\"hl\">day 45</span>, and it can't make a first foreclosure filing until the borrower is over <span class=\"hl\">120 days</span> delinquent."
         ]
       }
     },
@@ -799,6 +824,12 @@ const section3: SectionContent = {
             "topic": "Adverse action",
             "q": "After a counteroffer on an Adverse Action Notice, the applicant has —",
             "a": "<span class='hl'>90 calendar days</span> to accept"
+          },
+          {
+            "peg": "30-60-30",
+            "topic": "Adverse action",
+            "q": "After a denial, what's ECOA's reasons timeline — notify / request / respond?",
+            "a": "<span class='hl'>30</span> days to send the notice, the applicant has <span class='hl'>60</span> days to request the specific reasons, the creditor has <span class='hl'>30</span> days to answer — remember <span class='hl'>30-60-30</span>"
           }
         ],
         "mcq": [
@@ -892,7 +923,8 @@ const section3: SectionContent = {
           "<span class=\"hl\">Discouraging</span> a reasonable person from applying on a prohibited basis is a violation, even with no application on file.",
           "A creditor may offer a co-applicant but can <span class=\"hl\">never require one</span>.",
           "\"Elderly\" means <span class=\"hl\">age 62 or older</span>.",
-          "After a counteroffer on an Adverse Action Notice, the applicant has <span class=\"hl\">90 calendar days</span> to accept."
+          "After a counteroffer on an Adverse Action Notice, the applicant has <span class=\"hl\">90 calendar days</span> to accept.",
+          "After a denial, the reasons timeline is <span class=\"hl\">30-60-30</span> — the creditor's notice within 30 days, the applicant's written request for reasons within 60, and the creditor's answer within 30."
         ]
       }
     },
