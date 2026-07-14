@@ -64,7 +64,7 @@ const section3: SectionContent = {
           },
           "paras": [
             {
-              "html": "RESPA only reaches <b>consumer mortgages</b>. Borrow to buy a laundromat, an office, or a stretch of raw land and you're outside it — those are business deals, and the law assumes that borrower can look after themselves. Two edges trip people up: a temporary bridge loan keeps its exemption only while its term stays short — a year or less — and vacant land is exempt unless construction starts within two years. So a bridge loan crosses back under RESPA the moment its term runs longer than <span class=\"cloze\" data-accept='[\"12 months\",\"12 month\",\"12\",\"twelve\",\"twelve months\",\"a year\",\"one year\"]' data-reveal=\"12 months\">?</span>."
+              "html": "RESPA only reaches <b>consumer mortgages</b>. A loan to buy a laundromat, an office building, or a stretch of raw land falls outside it — those are business deals, and the law assumes a commercial borrower can look after itself. Two edges trip people up: a temporary bridge loan keeps its exemption only while its term stays short — a year or less — and vacant land is exempt unless construction starts within two years. So a bridge loan crosses back under RESPA the moment its term runs longer than <span class=\"cloze\" data-accept='[\"12 months\",\"12 month\",\"12\",\"twelve\",\"twelve months\",\"a year\",\"one year\"]' data-reveal=\"12 months\">?</span>."
             }
           ]
         },
@@ -970,7 +970,7 @@ const section3: SectionContent = {
           "heading": "what a rate actually is",
           "paras": [
             {
-              "html": "Borrowing money has a price, and that price is the <b>interest rate</b> — also called the <b>note rate</b>, because it's written into the promissory note you sign. It's a yearly percentage charged on the money you still owe. Borrow $250,000 at a 6% note rate and the first year's interest runs about $15,000, folded into twelve monthly payments. The rate is what sets that payment: a higher rate means a bigger payment for the same loan amount. Every other figure TILA discloses is built on top of this one number."
+              "html": "Borrowing money has a price, and that price is the <b>interest rate</b> — also called the <b>note rate</b>, because it's written into the promissory note you sign. It's a yearly percentage charged on the money you still owe. On a $250,000 loan at a 6% note rate, the first year's interest runs about $15,000, folded into twelve monthly payments. The rate is what sets that payment: a higher rate means a bigger payment for the same loan amount. Every other figure TILA discloses is built on top of this one number."
             }
           ]
         },
@@ -986,7 +986,7 @@ const section3: SectionContent = {
           "heading": "the finance charge",
           "paras": [
             {
-              "html": "Add up everything the credit costs you in dollars — the interest over the whole loan, plus the fees the lender charges as a condition of lending — and you have the <b>finance charge</b>: the cost of credit stated as one dollar figure. The test: if you'd pay the charge even when buying the house with cash, it isn't a finance charge; if it exists only because you're borrowing, it is. So interest, points, and the lender's own fees are in; the home's price and the property taxes are out. The whole point of the figure is to gather every borrowing cost into one place, in dollars."
+              "html": "Add up everything the credit costs you in dollars — the interest over the whole loan, plus the fees the lender charges as a condition of lending — and the total is the <b>finance charge</b>: the cost of credit stated as one dollar figure. The test: if you'd pay the charge even when buying the house with cash, it isn't a finance charge; if it exists only because you're borrowing, it is. So interest, points, and the lender's own fees are in; the home's price and the property taxes are out. The whole point of the figure is to gather every borrowing cost into one place, in dollars."
             }
           ],
           "synth": {
@@ -1020,7 +1020,7 @@ const section3: SectionContent = {
           "heading": "what TILA covers",
           "paras": [
             {
-              "html": "TILA does three jobs:<ul><li><b>Disclosure</b> — lenders must put the loan's terms and total cost in writing, so you can compare offers.</li><li><b>Right to cancel</b> — for certain home loans, you can back out within three days of signing.</li><li><b>Advertising rules</b> — it polices how credit gets pitched.</li></ul>It reaches a lender only when four things are all true — the credit goes to a <b>consumer</b>, the lender extends credit <b>regularly</b>, the credit carries a finance charge or is repaid in more than <span class=\"cloze\" data-accept='[\"4\",\"four\"]' data-reveal=\"four\">?</span> installments, and it's for personal, family, or household use. Borrow for a business, a farm, or an organization and you're outside TILA — the same logic as RESPA, that a business borrower can look after itself. A handful of other deals are exempt too: credit above an inflation-adjusted dollar threshold (about $72,000 in 2025) that isn't secured by real estate, public-utility credit, student loans, and employer retirement-plan loans."
+              "html": "TILA does three jobs:<ul><li><b>Disclosure</b> — lenders must put the loan's terms and total cost in writing, so you can compare offers.</li><li><b>Right to cancel</b> — for certain home loans, you can back out within three days of signing.</li><li><b>Advertising rules</b> — it polices how credit gets pitched.</li></ul>It reaches a lender only when four things are all true — the credit goes to a <b>consumer</b>, the lender extends credit <b>regularly</b>, the credit carries a finance charge or is repaid in more than <span class=\"cloze\" data-accept='[\"4\",\"four\"]' data-reveal=\"four\">?</span> installments, and it's for personal, family, or household use. A loan for a business, a farm, or an organization falls outside TILA — the same logic as RESPA: a business borrower can look after itself. A handful of other deals are exempt too: credit above an inflation-adjusted dollar threshold (about $72,000 in 2025) that isn't secured by real estate, public-utility credit, student loans, and employer retirement-plan loans."
             }
           ]
         },
@@ -1143,7 +1143,7 @@ const section3: SectionContent = {
           "heading": "the steering safe harbor",
           "paras": [
             {
-              "html": "Closely related to pay is <b>steering</b> — directing a borrower into a particular loan because it earns the originator more, when a better loan was available. TILA gives originators a <b>safe harbor</b>: present the borrower a real set of options and you're clear. The set has to include three loans — the one with the <b>lowest interest rate</b>; the one with the lowest rate that carries <b>none of the risky features</b> (no negative amortization, no prepayment penalty, no interest-only period, no balloon in the first <span class=\"cloze\" data-accept='[\"7 years\",\"7\",\"seven\",\"seven years\"]' data-reveal=\"7 years\">?</span>, no demand feature, no shared equity or appreciation); and the one with the <b>lowest total points and origination fees</b>. Show those three, and the choice is genuinely the borrower's."
+              "html": "Closely related to pay is <b>steering</b> — directing a borrower into a particular loan because it earns the originator more, when a better loan was available. TILA gives originators a <b>safe harbor</b>: an originator who presents the borrower a real set of options is in the clear. The set has to include three loans — the one with the <b>lowest interest rate</b>; the one with the lowest rate that carries <b>none of the risky features</b> (no negative amortization, no prepayment penalty, no interest-only period, no balloon in the first <span class=\"cloze\" data-accept='[\"7 years\",\"7\",\"seven\",\"seven years\"]' data-reveal=\"7 years\">?</span>, no demand feature, no shared equity or appreciation); and the one with the <b>lowest total points and origination fees</b>. Show those three, and the choice is genuinely the borrower's."
             }
           ]
         },
@@ -1377,7 +1377,7 @@ const section3: SectionContent = {
           "anchor": { "file": "cow-military-gear-transparent.png", "caption": "on guard", "kind": "char" },
           "paras": [
             {
-              "html": "The thing HOEPA is really protecting is your <b>equity</b> — the slice of the home you actually own, the difference between what it's worth and what you still owe on it. Pay a mortgage down for thirty years and your equity grows until, paid off, you own the whole thing outright. That stored-up wealth is exactly what makes a longtime or elderly homeowner a target: a house with lots of equity and an owner who may not read the fine print is, to the wrong kind of lender, a prize sitting behind an easy loan."
+              "html": "The thing HOEPA is really protecting is your <b>equity</b> — the slice of the home you actually own, the difference between what it's worth and what you still owe on it. As the mortgage is paid down over thirty years, that equity grows until, once the loan is paid off, the owner holds the home free and clear. That stored-up wealth is exactly what makes a longtime or elderly homeowner a target: a house with lots of equity and an owner who may not read the fine print is, to the wrong kind of lender, a prize sitting behind an easy loan."
             }
           ]
         },
@@ -1715,7 +1715,7 @@ const section3: SectionContent = {
           "heading": "the cure",
           "paras": [
             {
-              "html": "When the final numbers breach a tolerance and no valid change of circumstance excuses it, the lender has to make the borrower whole — the <b>cure</b>. It refunds the excess the borrower overpaid, and the deadline is no later than <span class=\"cloze\" data-accept='[\"60 days\",\"60\",\"sixty\",\"sixty days\"]' data-reveal=\"60 days after consummation\">?</span> after consummation. The cure is the enforcement behind the tolerance rules: exceed the limit without a valid reason and you simply owe the money back."
+              "html": "When the final numbers breach a tolerance and no valid change of circumstance excuses it, the lender has to make the borrower whole — the <b>cure</b>. It refunds the excess the borrower overpaid, and the deadline is no later than <span class=\"cloze\" data-accept='[\"60 days\",\"60\",\"sixty\",\"sixty days\"]' data-reveal=\"60 days after consummation\">?</span> after consummation. The cure is the enforcement behind the tolerance rules: a lender that exceeds a tolerance without a valid reason owes the money back."
             }
           ]
         },
@@ -2024,7 +2024,7 @@ const section3: SectionContent = {
           "heading": "who has to report",
           "paras": [
             {
-              "html": "Not every lender reports — the rules aim at institutions doing real volume. A lender is covered if it has an office in a metropolitan area, meets an annually-set asset threshold, and crosses a loan-count line: it originated at least <span class=\"cloze\" data-accept='[\"25\",\"twenty-five\"]' data-reveal=\"25\">?</span> closed-end mortgage loans in each of the two prior years, or at least 200 open-end lines of credit in each of those years. Fall below both counts and you're exempt from that category of reporting."
+              "html": "Not every lender reports — the rules aim at institutions doing real volume. A lender is covered if it has an office in a metropolitan area, meets an annually-set asset threshold, and crosses a loan-count line: it originated at least <span class=\"cloze\" data-accept='[\"25\",\"twenty-five\"]' data-reveal=\"25\">?</span> closed-end mortgage loans in each of the two prior years, or at least 200 open-end lines of credit in each of those years. A lender below both counts is exempt from that category of reporting."
             }
           ]
         },
@@ -2771,7 +2771,7 @@ const section3: SectionContent = {
           "heading": "why real estate",
           "paras": [
             {
-              "html": "A mortgage is a launderer's dream, which is why this law reaches you. Real estate is a big, respectable purchase that soaks up a lot of money at once and turns it into an asset nobody blinks at — perfect for the integration stage. Buy a house with laundered funds, or take a loan to move dirty money through a closing, and the crime hides behind an ordinary transaction. Mortgage professionals sit at that exact chokepoint, in direct contact with the buyer, which is why the law leans on them so hard."
+              "html": "A mortgage is a launderer's dream, which is why this law reaches you. Real estate is a big, respectable purchase that soaks up a lot of money at once and turns it into an asset nobody blinks at — perfect for the integration stage. A house bought with laundered funds, or a loan taken out to move dirty money through a closing, hides the crime behind an ordinary transaction. Mortgage professionals sit at that exact chokepoint, in direct contact with the buyer, which is why the law leans on them so hard."
             }
           ]
         },
@@ -3813,7 +3813,7 @@ const section3: SectionContent = {
           "heading": "what loan-to-value means",
           "paras": [
             {
-              "html": "Everything in this law runs on one ratio: <b>loan-to-value (LTV)</b> — the loan balance divided by the home's value, the lender's share of the property expressed as a percent. Buy a $100,000 home with $10,000 down and you borrow $90,000; that's a 90% LTV, and the other 10% is your <b>equity</b>. With a single loan, LTV and equity always add to 100%, and every payment you make shifts the balance — LTV down, equity up. (For a purchase, LTV uses the <em>lesser</em> of the price or the appraised value.)"
+              "html": "Everything in this law runs on one ratio: <b>loan-to-value (LTV)</b> — the loan balance divided by the home's value, the lender's share of the property expressed as a percent. On a $100,000 home with a $10,000 down payment, the loan is $90,000 — a 90% LTV, and the other 10% is your <b>equity</b>. With a single loan, LTV and equity always add to 100%, and every payment you make shifts the balance — LTV down, equity up. (For a purchase, LTV uses the <em>lesser</em> of the price or the appraised value.)"
             }
           ],
           "synth": {
@@ -3825,7 +3825,7 @@ const section3: SectionContent = {
           "heading": "why you pay PMI, and who it protects",
           "paras": [
             {
-              "html": "Conventional lenders draw the risk line at <span class=\"cloze\" data-accept='[\"80%\",\"80\",\"eighty percent\",\"eighty\"]' data-reveal=\"80%\">?</span> LTV. Borrow more than that — less than 20% down — and PMI is required, insuring the lender against the slice of the loan above the 80% line, not the whole balance. The borrower pays the premium, but the coverage protects the lender and the investor. HPA applies only to conventional loans with PMI; FHA, VA, and USDA government loans use their own insurance and fall outside it."
+              "html": "Conventional lenders draw the risk line at <span class=\"cloze\" data-accept='[\"80%\",\"80\",\"eighty percent\",\"eighty\"]' data-reveal=\"80%\">?</span> LTV. Above that line — less than 20% down — PMI is required, insuring the lender against the slice of the loan above the 80% line, not the whole balance. The borrower pays the premium, but the coverage protects the lender and the investor. HPA applies only to conventional loans with PMI; FHA, VA, and USDA government loans use their own insurance and fall outside it."
             }
           ]
         },
@@ -3849,7 +3849,7 @@ const section3: SectionContent = {
           "heading": "what counts as good payment history",
           "paras": [
             {
-              "html": "\"Good payment history\" has a precise meaning here: no payment <span class=\"cloze\" data-accept='[\"60 days\",\"60\",\"sixty\",\"sixty days\"]' data-reveal=\"60 days\">?</span> or more past due in the last 24 months, and none 30 days or more past due in the last 12 months. Because it looks back two years, a loan essentially has to be at least two years old to clear the bar. Miss those marks and the request waits."
+              "html": "\"Good payment history\" has a precise meaning here: no payment <span class=\"cloze\" data-accept='[\"60 days\",\"60\",\"sixty\",\"sixty days\"]' data-reveal=\"60 days\">?</span> or more past due in the last 24 months, and none 30 days or more past due in the last 12 months. Because it looks back two years, a loan essentially has to be at least two years old to clear the bar. Until the loan clears those marks, the request waits."
             }
           ]
         },
@@ -4059,7 +4059,7 @@ const section3: SectionContent = {
           "heading": "the safe loan: the Qualified Mortgage",
           "paras": [
             {
-              "html": "To give lenders a clear lane, Dodd-Frank defined the <b>Qualified Mortgage (QM)</b> — a loan built to meet the ability-to-repay standard by design, without the riskiest features. Make a QM and you're <b>presumed</b> to have satisfied ATR; the loan is treated as having considered the borrower's ability to repay. It's the safe harbor that rewards writing the sound loan instead of the exotic one."
+              "html": "To give lenders a clear lane, Dodd-Frank defined the <b>Qualified Mortgage (QM)</b> — a loan built to meet the ability-to-repay standard by design, without the riskiest features. A QM is <b>presumed</b> to satisfy ATR; the loan is treated as having considered the borrower's ability to repay. It's the safe harbor that rewards writing the sound loan instead of the exotic one."
             }
           ]
         },
