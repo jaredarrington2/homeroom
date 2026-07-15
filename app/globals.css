@@ -420,6 +420,13 @@
 .cd-chapter-count { font-family: var(--font-mono); font-size: 12px; color: #A8A8A8; }
 .cd-chapter.cd-current-chapter .cd-chapter-name { color: #1E3A8A; }
 
+/* expanded header: chevron toggle + title link */
+.cd-chapter-toggle { flex: 0 0 auto; display: inline-flex; align-items: center;
+  background: none; border: 0; padding: 0; margin: 0; cursor: pointer; color: inherit; }
+a.cd-chapter-name { text-decoration: none; color: inherit; }
+a.cd-chapter-name:hover { color: #1E3A8A; }
+.cd-chapter.cd-current-chapter a.cd-chapter-name { color: #1E3A8A; }
+
 .cd-sections { padding-bottom: 6px; }
 .cd-section { position: relative; width: 100%; display: flex; align-items: center; gap: 10px;
   padding: 9px 18px 9px 44px; background: none; border: 0; cursor: pointer; text-align: left; text-decoration: none;

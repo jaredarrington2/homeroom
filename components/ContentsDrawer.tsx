@@ -97,7 +97,9 @@ export default function ContentsDrawer() {
         if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
         else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
       } else if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
-        const items = Array.from(panel.querySelectorAll<HTMLElement>('.cd-chapter-head, .cd-section'));
+        const items = Array.from(
+          panel.querySelectorAll<HTMLElement>('.cd-chapter-head, .cd-chapter-toggle, .cd-section')
+        );
         const i = items.indexOf(document.activeElement as HTMLElement);
         if (i === -1) return;
         e.preventDefault();
@@ -156,21 +158,51 @@ export default function ContentsDrawer() {
                 key={ch.id}
                 className={'cd-chapter' + (isExpanded ? ' cd-expanded' : '') + (isCurChapter ? ' cd-current-chapter' : '')}
               >
-                <button
-                  className="cd-chapter-head"
-                  aria-expanded={isExpanded}
-                  onClick={() =>
-                    setExpanded((prev) => {
-                      const next = new Set(prev);
-                      next.has(ch.id) ? next.delete(ch.id) : next.add(ch.id);
-                      return next;
-                    })
-                  }
-                >
-                  <IconChevron />
-                  <span className="cd-chapter-name">{ch.title}</span>
-                  <span className="cd-chapter-count">{doneCount} / {ch.sections.length}</span>
-                </button>
+                {isExpanded ? (
+                  <div className="cd-chapter-head cd-chapter-head-open">
+                    <button
+                      className="cd-chapter-toggle"
+                      aria-expanded={true}
+                      aria-label={`Collapse ${ch.title}`}
+                      onClick={() =>
+                        setExpanded((prev) => {
+                          const next = new Set(prev);
+                          next.delete(ch.id);
+                          return next;
+                        })
+                      }
+                    >
+                      <IconChevron />
+                    </button>
+                    <Link
+                      href={`/learn/${ch.id}`}
+                      className="cd-chapter-name cd-chapter-link"
+                      onClick={() => {
+                        closeDrawer();
+                        requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: 'smooth' }));
+                      }}
+                    >
+                      {ch.title}
+                    </Link>
+                    <span className="cd-chapter-count">{doneCount} / {ch.sections.length}</span>
+                  </div>
+                ) : (
+                  <button
+                    className="cd-chapter-head"
+                    aria-expanded={false}
+                    onClick={() =>
+                      setExpanded((prev) => {
+                        const next = new Set(prev);
+                        next.add(ch.id);
+                        return next;
+                      })
+                    }
+                  >
+                    <IconChevron />
+                    <span className="cd-chapter-name">{ch.title}</span>
+                    <span className="cd-chapter-count">{doneCount} / {ch.sections.length}</span>
+                  </button>
+                )}
                 {isExpanded && (
                   <div className="cd-sections">
                     {ch.sections.map((s, i) => {
