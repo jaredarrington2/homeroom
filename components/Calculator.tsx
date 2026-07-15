@@ -80,8 +80,10 @@ export default function Calculator() {
       (document.querySelector('main') as HTMLElement | null);
     const rect = col?.getBoundingClientRect();
     const gutter = rect ? window.innerWidth - rect.right : 0;
-    if (!COARSE() && gutter >= 300 && rect) {
-      setPlace({ mode: 'margin', left: rect.right + 24, width: Math.min(288, gutter - 40) });
+    // Prefer the margin panel wherever it fits — it never covers the page. A compact keypad fits a
+    // ~210px gutter, so the threshold is low; the bottom sheet is only for genuinely narrow screens.
+    if (!COARSE() && gutter >= 206 && rect) {
+      setPlace({ mode: 'margin', left: rect.right + 12, width: Math.min(248, gutter - 14) });
     } else {
       setPlace({ mode: 'sheet', left: 0, width: 0 });
     }
