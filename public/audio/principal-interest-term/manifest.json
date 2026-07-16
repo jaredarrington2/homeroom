@@ -1,0 +1,57 @@
+{
+  "unitId": "principal-interest-term",
+  "name": "Principal, interest, and the term",
+  "reg": "What the borrower repays",
+  "groupCount": 4,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-principal-interest-term-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "A monthly mortgage payment bundles several charges, and they don't all go to the same place. Part of it is the loan itself, paid to the lender. The rest is money the borrower owes to others — it only passes through the lender on its way out."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-principal-interest-term-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "The loan itself comes down to a simple deal: the borrower took a large sum to buy the home, and now pays it back over the years — plus a charge for the use of the money. Those two pieces are the principal and the interest. The principal is the amount actually borrowed, the balance still owed. Interest is the cost of borrowing it: the lender's charge for letting you use the money, quoted as an annual percentage. Only part of each payment reduces the principal; the rest is interest, and none of the interest ever comes back to you. Interest is charged on the balance still outstanding, and that one fact shapes how the whole loan behaves."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-principal-interest-term-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "A standard mortgage is amortizing: you make level payments, and by the end the balance reaches zero. But the split inside those level payments shifts over time. Because interest is charged on the balance, and the balance starts high, the early payments are mostly interest, with only a sliver going to principal. As the balance shrinks, the mix tips the other way, until late payments are mostly principal. The term is how long the loan is scheduled to run: a 30-year and a 15-year loan of the same amount are the same debt stretched over different lengths. A shorter term means a higher monthly payment but far less total interest."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-principal-interest-term-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "Principal and interest are the loan, but most borrowers' monthly checks cover more. The shorthand is PITI — principal, interest, taxes, and insurance. The taxes are the property taxes owed to the local government; the insurance is the homeowners policy. Rather than leave a borrower to save up for a big once-a-year tax or insurance bill, the servicer collects a twelfth of those costs with each payment and holds the money in an escrow account, then pays the tax authority and the insurer directly when the bills come due. Two of PITI's four letters never belong to the lender — taxes and insurance only pass through."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-principal-interest-term-g3-gate-synth",
+      "gi": 3
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-principal-interest-term-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-principal-interest-term-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-principal-interest-term-gate-mcq"
+    }
+  ]
+}

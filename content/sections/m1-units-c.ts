@@ -24,7 +24,7 @@ const unitsC: SectionUnit[] = [
       {
         "paras": [
           {
-            "html": "Every mortgage looks unique, but the differences fall along a handful of axes. Learn the axes and any loan becomes readable: you can place it, describe it, and tell it apart from its neighbors. This unit is the map, not the territory — the products themselves get taught in depth in Module 5. Here we just learn the names and the questions each axis answers."
+            "html": "Every mortgage looks unique, but the differences come down to a handful of axes. Once you know the axes, any loan is easy to place. (The products themselves are taught in Module 5.)"
           }
         ]
       },
@@ -32,7 +32,7 @@ const unitsC: SectionUnit[] = [
         "heading": "how the rate behaves",
         "paras": [
           {
-            "html": "The first axis is how the interest rate behaves over time. A <b>fixed-rate mortgage</b> locks the rate for the whole term, so the principal-and-interest payment is the same in year one and year thirty. An <b>adjustable-rate mortgage</b> (<b>ARM</b>) ties the rate to a market index, so it can move — and the payment moves with it. Put the vocabulary in one sentence: a loan whose rate never changes is <span class=\"cloze\" data-accept='[\"fixed\",\"fixed-rate\",\"fixed rate\"]' data-reveal=\"fixed\">?</span>, and a loan whose rate can move over time is adjustable."
+            "html": "The first axis is how the interest rate behaves. A <b>fixed-rate mortgage</b> locks the rate for the whole term — the principal-and-interest payment is the same in year one and year thirty. An <b>adjustable-rate mortgage</b> (<b>ARM</b>) ties the rate to a market index, so it can move, and the payment moves with it. A loan whose rate never changes is <span class=\"cloze\" data-accept='[\"fixed\",\"fixed-rate\",\"fixed rate\"]' data-reveal=\"fixed\">?</span>; one whose rate can move is adjustable."
           }
         ]
       },
@@ -40,7 +40,7 @@ const unitsC: SectionUnit[] = [
         "heading": "who stands behind it, and how big",
         "paras": [
           {
-            "html": "The next axis is who backs the loan. A <b>conventional loan</b> is not insured or guaranteed by any government agency — the lender and the secondary market carry the risk. A <b>government loan</b> is insured or guaranteed by a federal agency: the <b>FHA</b>, the <b>VA</b>, or the <b>USDA</b>. A separate axis is size. A <b>conforming loan</b> meets Fannie Mae and Freddie Mac standards, including a maximum dollar amount called the conforming loan limit; a <b>jumbo loan</b> exceeds that limit, so those two buyers won't purchase it. Conforming-versus-jumbo is about the loan amount; conventional-versus-government is about who insures it — don't confuse the two."
+            "html": "The next axis is whether a government agency insures or guarantees the loan. A <b>conventional loan</b> is not insured or guaranteed by any government agency — the lender and the secondary market carry the risk. A <b>government loan</b> is insured or guaranteed by a federal agency: the <b>FHA</b>, the <b>VA</b>, or the <b>USDA</b>. A separate axis is size. A <b>conforming loan</b> meets Fannie Mae and Freddie Mac standards, including a maximum dollar amount called the conforming loan limit; a <b>jumbo loan</b> exceeds that limit, so those two buyers won't purchase it. Two different questions, easy to conflate: conforming-versus-jumbo is about the loan amount, conventional-versus-government is about who insures or guarantees it."
           }
         ],
         "synth": {
@@ -52,7 +52,7 @@ const unitsC: SectionUnit[] = [
         "heading": "lien position and purpose",
         "paras": [
           {
-            "html": "Two more axes finish the map. <b>Lien position</b> is the order of repayment if the property is sold or foreclosed: a <b>first lien</b> gets paid before anything else, and a <b>second lien</b> — like a home-equity loan — sits behind it and is riskier for the lender. The last axis is why the loan exists. A <b>purchase</b> loan buys a home the borrower doesn't yet own; a <b>refinance</b> replaces a mortgage on a home they already own. Name the purpose axis and you've named the loan's job: <span class=\"cloze\" data-accept='[\"purchase\",\"a purchase\",\"purchase or refinance\"]' data-reveal=\"purchase\">?</span> versus refinance."
+            "html": "Two axes remain. <b>Lien position</b> is the order of repayment if the property is sold or foreclosed: a <b>first lien</b> gets paid before anything else; a <b>second lien</b> — like a home-equity loan — sits behind it and is riskier for the lender. The last axis is purpose. A <b>purchase</b> loan buys a home the borrower doesn't yet own; a <b>refinance</b> replaces a mortgage on a home they already have — <span class=\"cloze\" data-accept='[\"purchase\",\"a purchase\",\"purchase or refinance\"]' data-reveal=\"purchase\">?</span> versus refinance."
           }
         ]
       }
@@ -154,9 +154,10 @@ const unitsC: SectionUnit[] = [
     ],
     "groups": [
       {
+        "anchor": { "file": "mime-long-receipt-transparent.png", "caption": "the price", "kind": "char" },
         "paras": [
           {
-            "html": "A borrower doesn't qualify for a loan in the abstract — they qualify at a price, and the price is set by a small set of numbers. Learn these numbers and a loan file stops being a mystery: you can see why a rate is what it is, why insurance is required, and whether the borrower fits. Each term below is a lever on cost or approval."
+            "html": "A borrower doesn't qualify for a loan in the abstract — they qualify at a price, set by a small set of numbers, each one a lever on what the loan costs or whether it's approved."
           }
         ]
       },
@@ -164,7 +165,7 @@ const unitsC: SectionUnit[] = [
         "heading": "rate versus APR",
         "paras": [
           {
-            "html": "Two percentages describe the cost of a loan and they are not the same. The <b>interest rate</b> (the note rate) is the yearly cost of borrowing the principal by itself. The <b>annual percentage rate</b> (<b>APR</b>) folds certain lender fees and financing costs in on top of that rate, so it shows the fuller cost of the loan. Because the APR includes those fees, it is always <b>equal to or higher than</b> the note rate — never lower. If a borrower is comparing two offers, the note rate tells the monthly payment, but the fee-inclusive figure that runs at least as high is the <span class=\"cloze\" data-accept='[\"APR\",\"annual percentage rate\"]' data-reveal=\"APR\">?</span>."
+            "html": "Two percentages describe a loan's cost, and they're not the same. The <b>interest rate</b> (or note rate) is the yearly cost of borrowing the principal by itself. The <b>annual percentage rate</b> (<b>APR</b>) folds certain lender fees and financing costs on top of that rate, so it shows the fuller cost. Because it includes those fees, the APR is always <b>equal to or higher than</b> the note rate — never lower. The note rate sets the monthly payment; the <span class=\"cloze\" data-accept='[\"APR\",\"annual percentage rate\"]' data-reveal=\"APR\">?</span>, running at least as high, is the number for comparing offers."
           }
         ],
         "synth": {
@@ -176,7 +177,7 @@ const unitsC: SectionUnit[] = [
         "heading": "points",
         "paras": [
           {
-            "html": "Price can also be paid up front. <b>Points</b> are fees paid to the lender at closing, and one point equals <b>1% of the loan amount</b> — so on a $300,000 loan, one point is $3,000. Discount points are the useful kind: paying them <b>buys down the interest rate</b>, trading cash today for a lower rate (and lower payment) over the life of the loan. More points paid up front, lower rate; that's the trade."
+            "html": "Price can also be paid up front. <b>Points</b> are fees paid to the lender at closing; one point equals <b>1% of the loan amount</b> — on a $300,000 loan, one point is $3,000. Discount points <b>buy down the interest rate</b>, trading cash today for a lower rate, and a lower payment, over the life of the loan."
           }
         ]
       },
@@ -184,7 +185,7 @@ const unitsC: SectionUnit[] = [
         "heading": "the qualifying ratios",
         "paras": [
           {
-            "html": "Two ratios decide how much risk a loan carries. <b>Loan-to-value</b> (<b>LTV</b>) is the loan amount divided by the property's value: borrow $180,000 on a $200,000 home and the LTV is 90%. A higher LTV means less borrower equity and more lender risk. <b>Debt-to-income</b> (<b>DTI</b>) is the borrower's total monthly debt payments divided by their gross monthly income; a lower DTI means more room to absorb the new payment. State the formula plainly: divide the loan amount by the property value and you get the <span class=\"cloze\" data-accept='[\"LTV\",\"loan-to-value\",\"loan to value\"]' data-reveal=\"LTV\">?</span>. Alongside these sits the <b>credit score</b>, a single number summarizing the borrower's credit history that lenders read as a measure of risk."
+            "html": "Much of a loan's risk comes down to two ratios. <b>Loan-to-value</b> is the loan amount divided by the property's value — a $180,000 loan on a $200,000 home is a 90% <span class=\"cloze\" data-accept='[\"LTV\",\"loan-to-value\",\"loan to value\"]' data-reveal=\"LTV\">?</span>; a higher ratio means less borrower equity and more lender risk. <b>Debt-to-income</b> (<b>DTI</b>) is total monthly debt payments divided by gross monthly income; a lower DTI means more room to absorb the new payment. Alongside them, the <b>credit score</b> is a single number summarizing credit history that lenders read as a measure of risk."
           }
         ],
         "synth": {
@@ -196,7 +197,7 @@ const unitsC: SectionUnit[] = [
         "heading": "mortgage insurance: PMI vs. MIP",
         "paras": [
           {
-            "html": "When a borrower puts little down, the lender protects itself with mortgage insurance — but its name depends on the loan type. On a <b>conventional</b> loan, it's <b>private mortgage insurance</b> (<b>PMI</b>), and it's typically required when the down payment is below <b>20%</b> (an LTV above 80%). On an <b>FHA</b> loan, the equivalent charge is the <b>mortgage insurance premium</b> (<b>MIP</b>). Same idea, two names: PMI rides on conventional loans, MIP on FHA loans. Keep them straight — the loan type tells you which one applies."
+            "html": "When a borrower puts little down, the lender protects itself with mortgage insurance — and the name depends on the loan type. On a <b>conventional</b> loan it's <b>private mortgage insurance</b> (<b>PMI</b>), typically required when the down payment is below <b>20%</b> (an LTV above 80%). On an <b>FHA</b> loan the equivalent charge is the <b>mortgage insurance premium</b> (<b>MIP</b>). PMI applies to conventional loans, MIP to FHA loans."
           }
         ]
       }
@@ -298,7 +299,7 @@ const unitsC: SectionUnit[] = [
       {
         "paras": [
           {
-            "html": "The mortgage rulebook wasn't written in the abstract — it was written in response to a disaster. Almost every major consumer-protection rule you'll study traces back to what went wrong in the years leading up to 2008. Understanding that arc makes the rules make sense: each one is a patch over a specific failure."
+            "html": "The mortgage rulebook wasn't written in the abstract; it was written in response to a disaster. Almost every major consumer-protection rule traces back to what went wrong in the years before 2008 — each one a patch over a specific failure."
           }
         ]
       },
@@ -306,7 +307,7 @@ const unitsC: SectionUnit[] = [
         "heading": "the setup: loose lending",
         "paras": [
           {
-            "html": "In the years before the crash, credit was easy and standards were thin. Lenders wrote <b>no-doc loans</b> — mortgages made with little or no verification of income, assets, or employment — because risky loans were profitable and could be sold off to investors. Worse, lenders practiced <b>risk layering</b>: stacking several risky features on one loan at once, so a borrower might get a no-doc loan <em>and</em> an adjustable rate <em>and</em> a tiny down payment, each danger compounding the next. The core failure had a simple shape: loans were made without checking whether the borrower could actually <span class=\"cloze\" data-accept='[\"repay\",\"repay the loan\",\"pay it back\",\"pay\"]' data-reveal=\"repay\">?</span> them."
+            "html": "In the years before the crash, credit was easy and standards were thin. Lenders wrote <b>no-doc loans</b> — mortgages made with little or no verification of income, assets, or employment — because risky loans were profitable and could be sold off to investors. Worse, lenders practiced <b>risk layering</b>: stacking several risky features on one loan at once, so a borrower might get a no-doc loan <em>and</em> an adjustable rate <em>and</em> a tiny down payment, each danger compounding the next. Underneath it all, one thing was missing: no one checked whether the borrower could actually <span class=\"cloze\" data-accept='[\"repay\",\"repay the loan\",\"pay it back\",\"pay\"]' data-reveal=\"repay\">?</span>."
           }
         ],
         "synth": {
@@ -316,9 +317,16 @@ const unitsC: SectionUnit[] = [
       },
       {
         "heading": "the crash",
+        "anchor": { "file": "burning-stack-of-cash-transparent.png", "caption": "the crash", "kind": "char" },
         "paras": [
           {
-            "html": "When home prices stopped rising and adjustable payments reset upward, borrowers who never should have qualified began to default in large numbers. Because those loans had been bundled and sold to investors worldwide, the losses spread far beyond the original lenders and helped trigger a broad financial crisis in <span class=\"cloze\" data-accept='[\"2008\",\"two thousand eight\"]' data-reveal=\"2008\">?</span>. The lesson lawmakers drew was blunt: unverified, unaccountable lending is a systemic hazard, not just a private risk."
+            "html": "When home prices stopped rising and adjustable payments reset upward, borrowers who never should have qualified began to default in the millions. Their loans had been bundled and sold to investors around the world, so the losses didn't stay local — they spread through the entire financial system. In September <span class=\"cloze\" data-accept='[\"2008\",\"two thousand eight\"]' data-reveal=\"2008\">?</span>, Lehman Brothers collapsed, lending froze, and the crisis reached every front page."
+          },
+          {
+            "html": "Over the next several years, roughly ten million American families lost their homes to foreclosure. Household net worth fell about $11 trillion in 2008 alone — the steepest one-year drop on record — and the national homeownership rate sank to a fifty-year low. Millions of children changed schools or moved in with relatives; whole blocks stood empty. The damage outlasted the headlines by a decade."
+          },
+          {
+            "html": "Every one of those foreclosures began as a loan someone originated — often one that should never have been written. That is why the rules in this course exist: the licensing, the disclosures, and the verification steps that follow are all answers to one hard lesson — when the industry stops checking whether borrowers can repay, real families lose their homes."
           }
         ]
       },
@@ -326,7 +334,7 @@ const unitsC: SectionUnit[] = [
         "heading": "the response: the new rulebook",
         "paras": [
           {
-            "html": "Congress answered with a wave of law. The <b>SAFE Act</b> (2008) created a national system to license, register, and track every loan originator, so bad actors could no longer resign and start over untracked. Two years later, the <b>Dodd-Frank Act</b> (2010) overhauled financial regulation and created the <b>Consumer Financial Protection Bureau</b> (<b>CFPB</b>), a single federal agency charged with enforcing consumer financial protection law. Name the agency Dodd-Frank stood up in 2010 to protect borrowers: the <span class=\"cloze\" data-accept='[\"CFPB\",\"Consumer Financial Protection Bureau\",\"the CFPB\"]' data-reveal=\"CFPB\">?</span>."
+            "html": "Congress answered with a wave of law. The <b>SAFE Act</b> (2008) created a national system to license, register, and track every loan originator, so bad actors could no longer resign and start over untracked. Two years later, the <b>Dodd-Frank Act</b> (2010) overhauled financial regulation and created the <b>Consumer Financial Protection Bureau</b> — the <span class=\"cloze\" data-accept='[\"CFPB\",\"Consumer Financial Protection Bureau\",\"the CFPB\"]' data-reveal=\"CFPB\">?</span> — to enforce consumer financial protection law."
           }
         ]
       },
@@ -334,7 +342,7 @@ const unitsC: SectionUnit[] = [
         "heading": "the fix at the core: ability-to-repay",
         "paras": [
           {
-            "html": "The single most direct fix targeted the original failure. Under the <b>ability-to-repay</b> (<b>ATR</b>) rule, a lender must verify that a borrower can actually repay a mortgage — checking income, assets, debts, and employment — <em>before</em> making the loan. It's the legal opposite of the no-doc loan: the very practice that fueled the crisis is now what the law forbids. Every piece of the framework — the SAFE Act's licensing, the CFPB's enforcement, Dodd-Frank's rules, ATR's verification — exists because the old, unchecked way of lending broke the system."
+            "html": "The most direct fix targeted the original failure. Under the <b>ability-to-repay</b> (<b>ATR</b>) rule, a lender must verify that a borrower can actually repay — checking income, assets, debts, and employment — <em>before</em> making the loan. It's the legal inverse of the no-doc loan: the practice that fueled the crisis is now the one the law forbids. Every piece of the framework — the SAFE Act's licensing, the CFPB's enforcement, Dodd-Frank's rules, ATR's verification — exists because the old, unchecked way of lending broke the system."
           }
         ]
       }

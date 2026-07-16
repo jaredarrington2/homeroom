@@ -1,0 +1,78 @@
+{
+  "unitId": "why-rules-exist",
+  "name": "Why the rules exist",
+  "reg": "How the 2008 crash built the modern rulebook",
+  "groupCount": 5,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-why-rules-exist-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "The mortgage rulebook wasn't written in the abstract; it was written in response to a disaster. Almost every major consumer-protection rule traces back to what went wrong in the years before 2008 — each one a patch over a specific failure."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-why-rules-exist-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "In the years before the crash, credit was easy and standards were thin. Lenders wrote no-doc loans — mortgages made with little or no verification of income, assets, or employment — because risky loans were profitable and could be sold off to investors. Worse, lenders practiced risk layering: stacking several risky features on one loan at once, so a borrower might get a no-doc loan and an adjustable rate and a tiny down payment, each danger compounding the next. Underneath it all, one thing was missing: no one checked whether the borrower could actually repay."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-why-rules-exist-g1-gate-synth",
+      "gi": 1
+    },
+    {
+      "kind": "prose",
+      "id": "audio-why-rules-exist-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "When home prices stopped rising and adjustable payments reset upward, borrowers who never should have qualified began to default in the millions. Their loans had been bundled and sold to investors around the world, so the losses didn't stay local — they spread through the entire financial system. In September 2008, Lehman Brothers collapsed, lending froze, and the crisis reached every front page."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-why-rules-exist-g2-p1",
+      "gi": 2,
+      "pi": 1,
+      "text": "Over the next several years, roughly ten million American families lost their homes to foreclosure. Household net worth fell about $11 trillion in 2008 alone — the steepest one-year drop on record — and the national homeownership rate sank to a fifty-year low. Millions of children changed schools or moved in with relatives; whole blocks stood empty. The damage outlasted the headlines by a decade."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-why-rules-exist-g2-p2",
+      "gi": 2,
+      "pi": 2,
+      "text": "Every one of those foreclosures began as a loan someone originated — often one that should never have been written. That is why the rules in this course exist: the licensing, the disclosures, and the verification steps that follow are all answers to one hard lesson — when the industry stops checking whether borrowers can repay, real families lose their homes."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-why-rules-exist-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "Congress answered with a wave of law. The SAFE Act (2008) created a national system to license, register, and track every loan originator, so bad actors could no longer resign and start over untracked. Two years later, the Dodd-Frank Act (2010) overhauled financial regulation and created the Consumer Financial Protection Bureau — the CFPB — to enforce consumer financial protection law."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-why-rules-exist-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "The most direct fix targeted the original failure. Under the ability-to-repay (ATR) rule, a lender must verify that a borrower can actually repay — checking income, assets, debts, and employment — before making the loan. It's the legal inverse of the no-doc loan: the practice that fueled the crisis is now the one the law forbids. Every piece of the framework — the SAFE Act's licensing, the CFPB's enforcement, Dodd-Frank's rules, ATR's verification — exists because the old, unchecked way of lending broke the system."
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-why-rules-exist-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-why-rules-exist-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-why-rules-exist-gate-mcq"
+    }
+  ]
+}

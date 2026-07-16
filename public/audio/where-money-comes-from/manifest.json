@@ -1,0 +1,69 @@
+{
+  "unitId": "where-money-comes-from",
+  "name": "Where the money comes from",
+  "reg": "Primary vs. secondary market · the GSEs",
+  "groupCount": 4,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-where-money-comes-from-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "When a bank hands over a few hundred thousand dollars, that money doesn't sit in a vault waiting. A larger machine behind the loan decides who gets funded and on what terms. It has two halves: the primary market is where loans are made — the lenders and brokers who take the application and write the mortgage — and the secondary market is where those finished loans are bought and sold afterward as investments."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-where-money-comes-from-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "A lender only has so much cash, and a 30-year loan ties up $300,000 of it for decades — unless the lender can sell the loan and get the money back now. So it does: a lender originates the loan, sells it into the secondary market, takes the fresh cash, and lends again to the next borrower. The loan you signed may change hands within weeks of closing, and none of your terms change when it does."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-where-money-comes-from-g1-gate-synth",
+      "gi": 1
+    },
+    {
+      "kind": "prose",
+      "id": "audio-where-money-comes-from-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "The biggest buyers are two government-sponsored enterprises — private companies with a federal charter. Fannie Mae (the Federal National Mortgage Association) and Freddie Mac (the Federal Home Loan Mortgage Corporation) both buy conventional loans from lenders. Once they own a pile of loans, they bundle them into a mortgage-backed security — an investment that pools many mortgages and sells shares of the monthly payments to investors worldwide. A third player, Ginnie Mae (the Government National Mortgage Association), is different: it's an actual government agency, and it doesn't buy loans. Instead it guarantees the MBS built from FHA, VA, and USDA loans."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-where-money-comes-from-g2-gate-synth",
+      "gi": 2
+    },
+    {
+      "kind": "prose",
+      "id": "audio-where-money-comes-from-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "A lender will only write a loan it can sell, and Fannie Mae or Freddie Mac will only buy a loan that meets their rules. A loan that fits those rules — including a maximum amount the GSEs will purchase — is a conforming loan. This is why underwriting guidelines exist: someone downstream has to be willing to buy the loan, so it has to be built to their standard from the start. Selling the loan doesn't mean the lender walks away, though — lenders usually keep the servicing, collecting the payment and managing escrow, earning a steady fee even after the loan itself belongs to someone else."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-where-money-comes-from-g3-gate-synth",
+      "gi": 3
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-where-money-comes-from-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-where-money-comes-from-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-where-money-comes-from-gate-mcq"
+    }
+  ]
+}

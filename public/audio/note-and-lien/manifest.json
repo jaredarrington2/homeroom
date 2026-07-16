@@ -1,0 +1,78 @@
+{
+  "unitId": "note-and-lien",
+  "name": "What a mortgage is",
+  "reg": "The note and the lien",
+  "groupCount": 4,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-note-and-lien-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "The typical American homeowner has a net worth of around $400,000. The typical renter: about $10,000. For a middle-class family, the house is usually the largest thing they'll ever own — and a mortgage is how most people come to own one without the cash to buy outright. It turns a monthly payment into equity instead of a receipt."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-note-and-lien-g0-p1",
+      "gi": 0,
+      "pi": 1,
+      "text": "A mortgage is also the largest debt most people ever take on, and the largest in the country: nearly $13 trillion, about three of every four dollars American households owe. Millions more are written every year, for more than $2 trillion. That much money riding on a single loan — secured by the roof over the borrower's head — is why so much care goes into how each one is built. When that care broke down in the 2000s, loose lending and a cascade of foreclosures nearly took the financial system down with it. It's why mortgage originators have to be licensed today, and part of why this course exists."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-note-and-lien-g0-p2",
+      "gi": 0,
+      "pi": 2,
+      "text": "A loan this large only works if the money reliably comes back. A lender handing over hundreds of thousands of dollars needs more than a borrower's promise — it needs a way to enforce repayment, and to recover its money if the borrower stops paying. The word for the loan comes from the Old French for \"death pledge\": the pledge dies one of two ways — when the borrower pays it off, or falls behind and loses the house that secures it. A home loan is a promise to repay, secured by the house itself. The promise and the claim on the house are two separate documents."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-note-and-lien-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "The first document is the promissory note — the borrower's personal, written promise to repay. It spells out the amount borrowed, the interest rate, the monthly payment, and the term. The note is the debt — once you sign, you owe the money. A note by itself is only a promise, like an IOU. If that were all the lender had, a borrower who stopped paying could only be chased like any other unpaid debt — the lender would have no special claim on the house."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-note-and-lien-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "The second document fixes that. The mortgage — or, in many states, the deed of trust — is the security instrument. It pledges the property as collateral and creates a lien in the lender's favor: a legal claim attached to the home. That claim makes the loan \"secured.\""
+    },
+    {
+      "kind": "prose",
+      "id": "audio-note-and-lien-g2-p1",
+      "gi": 2,
+      "pi": 1,
+      "text": "A mortgage is a two-party document, borrower and lender. A deed of trust does the same job but adds a neutral third party, the trustee, who holds title and can sell the property on default — three parties instead of two."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-note-and-lien-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "Because the lien exists, the lender has a remedy the note alone can't give: foreclosure, the legal process of enforcing the lien by forcing a sale to recover the unpaid debt. When more than one lien sits on the same property, lien position decides who gets paid from that sale, and priority generally follows recording order — whoever recorded first gets paid first. The main home loan is usually the first lien; a second mortgage or home-equity line sits behind it. One exception: unpaid property-tax liens typically jump ahead of even a first mortgage."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-note-and-lien-g3-gate-synth",
+      "gi": 3
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-note-and-lien-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-note-and-lien-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-note-and-lien-gate-mcq"
+    }
+  ]
+}

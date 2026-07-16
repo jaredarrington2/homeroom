@@ -21,9 +21,16 @@ const unitsA: SectionUnit[] = [
     ],
     "groups": [
       {
+        "anchor": { "file": "cozy-cottage-transparent.webp", "caption": "the home", "kind": "char" },
         "paras": [
           {
-            "html": "People say \"I got a mortgage,\" but a home loan is really <b>two documents</b>, not one, and keeping them straight is the foundation for everything else. One is a promise to pay the money back. The other is what lets the lender take the house if you don't. They do different jobs, and every later topic assumes you know which is which."
+            "html": "The typical American homeowner has a net worth of around $400,000. The typical renter: about $10,000. For a middle-class family, the house is usually the largest thing they'll ever own — and a mortgage is how most people come to own one without the cash to buy outright. It turns a monthly payment into equity instead of a receipt."
+          },
+          {
+            "html": "A mortgage is also the largest debt most people ever take on, and the largest in the country: nearly $13 trillion, about three of every four dollars American households owe. Millions more are written every year, for more than $2 trillion. That much money riding on a single loan — secured by the roof over the borrower's head — is why so much care goes into how each one is built. When that care broke down in the 2000s, loose lending and a cascade of foreclosures nearly took the financial system down with it. It's why mortgage originators have to be licensed today, and part of why this course exists."
+          },
+          {
+            "html": "A loan this large only works if the money reliably comes back. A lender handing over hundreds of thousands of dollars needs more than a borrower's promise — it needs a way to enforce repayment, and to recover its money if the borrower stops paying. The word for the loan comes from the Old French for \"death pledge\": the pledge dies one of two ways — when the borrower pays it off, or falls behind and loses the house that secures it. A home loan is a promise to repay, secured by the house itself. The promise and the claim on the house are <b>two separate documents</b>."
           }
         ]
       },
@@ -31,7 +38,7 @@ const unitsA: SectionUnit[] = [
         "heading": "the note",
         "paras": [
           {
-            "html": "The first document is the <b>promissory note</b> — the borrower's personal, written promise to repay. It spells out the amount borrowed, the interest rate, the monthly payment, and the term. The note <em>is</em> the debt: sign it and you owe the money. But a note by itself is just a promise, like an IOU. If that were all the lender had, a borrower who stopped paying could only be chased like any other unpaid debt — the lender would have no special claim on the house."
+            "html": "The first document is the <b>promissory note</b> — the borrower's personal, written promise to repay. It spells out the amount borrowed, the interest rate, the monthly payment, and the term. The note <em>is</em> the debt — once you sign, you owe the money. A note by itself is only a promise, like an IOU. If that were all the lender had, a borrower who stopped paying could only be chased like any other unpaid debt — the lender would have no special claim on the house."
           }
         ]
       },
@@ -39,7 +46,10 @@ const unitsA: SectionUnit[] = [
         "heading": "the mortgage and the deed of trust",
         "paras": [
           {
-            "html": "The second document fixes that. The <b>mortgage</b> — or, in many states, the <b>deed of trust</b> — is the security instrument. It pledges the property as <b>collateral</b> and creates a <span class=\"cloze\" data-accept='[\"lien\",\"the lien\",\"a lien\"]' data-reveal=\"lien\">?</span> in the lender's favor: a legal claim attached to the home. That claim is what makes the loan \"secured.\" A mortgage is a two-party document, borrower and lender. A deed of trust does the same job but adds a neutral third party, the <b>trustee</b>, who holds title and can sell the property on default — three parties instead of two. Same purpose, different plumbing."
+            "html": "The second document fixes that. The <b>mortgage</b> — or, in many states, the <b>deed of trust</b> — is the security instrument. It pledges the property as <b>collateral</b> and creates a <span class=\"cloze\" data-accept='[\"lien\",\"the lien\",\"a lien\"]' data-reveal=\"lien\">?</span> in the lender's favor: a legal claim attached to the home. That claim makes the loan \"secured.\""
+          },
+          {
+            "html": "A mortgage is a two-party document, borrower and lender. A deed of trust does the same job but adds a neutral third party, the <b>trustee</b>, who holds title and can sell the property on default — three parties instead of two."
           }
         ]
       },
@@ -47,7 +57,7 @@ const unitsA: SectionUnit[] = [
         "heading": "foreclosure and priority",
         "paras": [
           {
-            "html": "Because the lien exists, the lender has a remedy the note alone can't give: <b>foreclosure</b>, the legal process of enforcing the lien by forcing a sale to recover the unpaid debt. When more than one lien sits on the same property, <b>lien position</b> decides who gets paid from that sale, and priority generally follows recording order — the lien recorded <span class=\"cloze\" data-accept='[\"first\",\"1st\",\"first position\"]' data-reveal=\"first\">?</span> is paid first. The main home loan is usually the first lien; a second mortgage or home-equity line sits behind it. One notable exception: unpaid property-tax liens typically jump ahead of even a first mortgage."
+            "html": "Because the lien exists, the lender has a remedy the note alone can't give: <b>foreclosure</b>, the legal process of enforcing the lien by forcing a sale to recover the unpaid debt. When more than one lien sits on the same property, <b>lien position</b> decides who gets paid from that sale, and priority generally follows recording order — whoever recorded <span class=\"cloze\" data-accept='[\"first\",\"1st\",\"first position\"]' data-reveal=\"first\">?</span> gets paid first. The main home loan is usually the first lien; a second mortgage or home-equity line sits behind it. One exception: unpaid property-tax liens typically jump ahead of even a first mortgage."
           }
         ],
         "synth": {
@@ -136,9 +146,10 @@ const unitsA: SectionUnit[] = [
     ],
     "groups": [
       {
+        "anchor": { "file": "bouncy-castle-bank-transparent.webp", "caption": "the payment", "kind": "char" },
         "paras": [
           {
-            "html": "Every mortgage payment answers one question: where does the money go? Two pieces are the loan itself, and the rest is money the borrower owes to others that just flows through the lender. Get these apart and a payment stops being a mystery number."
+            "html": "A monthly mortgage payment bundles several charges, and they don't all go to the same place. Part of it is the loan itself, paid to the lender. The rest is money the borrower owes to others — it only passes through the lender on its way out."
           }
         ]
       },
@@ -146,7 +157,7 @@ const unitsA: SectionUnit[] = [
         "heading": "principal versus interest",
         "paras": [
           {
-            "html": "The <b>principal</b> is the amount you actually borrowed — the balance you still owe. <b>Interest</b> is the cost of borrowing it, the lender's charge for letting you use the money, quoted as an annual percentage. Only part of each payment reduces the principal; the rest is interest, and none of the interest ever comes back to you. Interest is charged on the balance that is still outstanding, which turns out to shape how the whole loan behaves."
+            "html": "The loan itself comes down to a simple deal: the borrower took a large sum to buy the home, and now pays it back over the years — plus a charge for the use of the money. Those two pieces are the <b>principal</b> and the <b>interest</b>. The principal is the amount actually borrowed, the balance still owed. Interest is the cost of borrowing it: the lender's charge for letting you use the money, quoted as an annual percentage. Only part of each payment reduces the principal; the rest is interest, and none of the interest ever comes back to you. Interest is charged on the balance still outstanding, and that one fact shapes how the whole loan behaves."
           }
         ]
       },
@@ -154,7 +165,7 @@ const unitsA: SectionUnit[] = [
         "heading": "amortization and the term",
         "paras": [
           {
-            "html": "A standard mortgage is <b>amortizing</b>: you make level payments, and by the end the balance reaches zero. But the split inside those level payments shifts over time. Because interest is charged on the balance, and the balance starts high, the early payments are mostly <span class=\"cloze\" data-accept='[\"interest\",\"mostly interest\"]' data-reveal=\"interest\">?</span> with only a sliver going to principal. As the balance shrinks, the mix tips the other way, until late payments are mostly principal. The <b>term</b> is how long the loan is scheduled to run — a 30-year and a 15-year loan of the same amount are the same debt stretched over different lengths. A shorter term means a higher monthly payment but far less total interest paid."
+            "html": "A standard mortgage is <b>amortizing</b>: you make level payments, and by the end the balance reaches zero. But the split inside those level payments shifts over time. Because interest is charged on the balance, and the balance starts high, the early payments are mostly <span class=\"cloze\" data-accept='[\"interest\",\"mostly interest\"]' data-reveal=\"interest\">?</span>, with only a sliver going to principal. As the balance shrinks, the mix tips the other way, until late payments are mostly principal. The <b>term</b> is how long the loan is scheduled to run: a 30-year and a 15-year loan of the same amount are the same debt stretched over different lengths. A shorter term means a higher monthly payment but far less total interest."
           }
         ]
       },
@@ -162,7 +173,7 @@ const unitsA: SectionUnit[] = [
         "heading": "PITI and escrow",
         "paras": [
           {
-            "html": "The principal and interest are the loan, but most borrowers' monthly checks cover more. The industry shorthand is <b>PITI</b>: Principal, Interest, Taxes, and Insurance. The taxes are the property taxes owed to the local government; the insurance is the homeowners policy. Rather than let a borrower save up for a big once-a-year tax or insurance bill, the <b>servicer</b> collects a twelfth of those costs with each payment and holds the money in an <span class=\"cloze\" data-accept='[\"escrow\",\"escrow account\",\"an escrow account\"]' data-reveal=\"escrow\">?</span> account, then pays the tax authority and the insurer directly when the bills come due. So two of PITI's four letters never belong to the lender at all — they just pass through."
+            "html": "Principal and interest are the loan, but most borrowers' monthly checks cover more. The shorthand is <b>PITI</b> — principal, interest, taxes, and insurance. The taxes are the property taxes owed to the local government; the insurance is the homeowners policy. Rather than leave a borrower to save up for a big once-a-year tax or insurance bill, the <b>servicer</b> collects a twelfth of those costs with each payment and holds the money in an <span class=\"cloze\" data-accept='[\"escrow\",\"escrow account\",\"an escrow account\"]' data-reveal=\"escrow\">?</span> account, then pays the tax authority and the insurer directly when the bills come due. Two of PITI's four letters never belong to the lender — taxes and insurance only pass through."
           }
         ],
         "synth": {
@@ -254,7 +265,7 @@ const unitsA: SectionUnit[] = [
       {
         "paras": [
           {
-            "html": "One mortgage passes through a lot of hands, and each hand has a narrow job. Most of the confusion beginners feel comes from blurring roles that sound alike, so it is worth naming everyone in the room and what, exactly, they do."
+            "html": "One mortgage passes through many hands, each with a narrow job. The roles sound alike — broker, lender, servicer — which is where most of the early confusion comes from."
           }
         ]
       },
@@ -262,7 +273,7 @@ const unitsA: SectionUnit[] = [
         "heading": "the borrower and the MLO",
         "paras": [
           {
-            "html": "At the center are two people. The <b>borrower</b> is the one taking the loan and pledging the home. The <b>mortgage loan originator (MLO)</b> is the licensed professional who takes the application and offers or negotiates the loan's terms — the borrower's main point of contact through the process. The MLO works for a broker or a lender, and that employer is where the next distinction begins."
+            "html": "The <b>borrower</b> takes the loan and pledges the home. The <b>mortgage loan originator (MLO)</b> is the licensed professional who takes the application and offers or negotiates the loan's terms — the borrower's main point of contact through the process. The MLO works for a broker or a lender, and that employer is where the next distinction begins."
           }
         ]
       },
@@ -270,7 +281,7 @@ const unitsA: SectionUnit[] = [
         "heading": "broker vs. lender vs. servicer",
         "paras": [
           {
-            "html": "This is the trio people mix up. A <b>mortgage broker</b> arranges the loan — shopping your application among several lenders to find a fit — but never puts up the money itself. The <b>lender</b> (also called the creditor) is the party that actually funds the loan; the money going to close is <span class=\"cloze\" data-accept='[\"the lender\",\"lender\",\"the lender's\",\"the creditor\"]' data-reveal=\"the lender\">?</span>'s. And the <b>servicer</b> is whoever manages the loan <em>after</em> closing — collecting the monthly payment, running escrow, sending statements. The servicer is often a different company than the lender, and the servicing rights can be sold, which is why your payment address can change even though your loan hasn't."
+            "html": "A <b>mortgage broker</b> arranges the loan — shopping the application among several lenders to find a fit — but never puts up the money. The <b>lender</b> (or creditor) is the party that actually funds the loan; the money going to close is <span class=\"cloze\" data-accept='[\"the lender\",\"lender\",\"the lender's\",\"the creditor\"]' data-reveal=\"the lender\">?</span>'s. The <b>servicer</b> manages the loan after closing — collecting the monthly payment, running escrow, sending statements. The servicer is often a different company than the lender, and servicing rights can be sold, which is why a payment address can change even though the loan hasn't."
           }
         ],
         "synth": {
@@ -282,7 +293,7 @@ const unitsA: SectionUnit[] = [
         "heading": "the supporting cast",
         "paras": [
           {
-            "html": "Behind the origination sits a crew. The <b>loan processor</b> assembles and organizes the file — documents, verifications — but makes no decisions. The <b>underwriter</b> then measures the file against the program's guidelines and <span class=\"cloze\" data-accept='[\"underwriter\",\"the underwriter\"]' data-reveal=\"underwriter\">?</span> is the one who actually approves or denies the loan. The <b>appraiser</b> gives an independent opinion of the home's value, and that independence is protected — no one on the deal may lean on it. The <b>title company</b> searches the title and issues title insurance, and the <b>settlement agent</b> (often the title company or an attorney) conducts the closing and disburses the funds. The <b>real estate agent</b> represents the buyer or seller in the purchase itself. As for who pays whom: the appraiser is paid for the appraisal but stays independent of the outcome, the real estate agents are customarily paid by commission out of the sale, and the servicer earns a fee for managing the loan — not the borrower's monthly interest."
+            "html": "The rest of the work falls to a handful of specialists, each with a single job. The <b>loan processor</b> assembles and organizes the file — documents, verifications — but decides nothing. The <span class=\"cloze\" data-accept='[\"underwriter\",\"the underwriter\"]' data-reveal=\"underwriter\">?</span> measures that file against the program's guidelines and makes the approve-or-deny call. The <b>appraiser</b> gives an independent opinion of the home's value, and that independence is protected — no one on the deal may lean on it. The <b>title company</b> searches the title and issues title insurance; at the table, the <b>settlement agent</b> — often the title company or an attorney — runs the closing and disburses the funds. Separately, the <b>real estate agent</b> represents the buyer or seller in the purchase itself. The money runs sideways to the borrower's payment: the appraiser is paid for the appraisal but stays independent of the result, the agents earn commission out of the sale, and the servicer collects a fee for managing the loan."
           }
         ]
       }

@@ -1,0 +1,63 @@
+{
+  "unitId": "who-makes-the-rules",
+  "name": "Who makes the rules",
+  "reg": "The regulators, at a glance",
+  "groupCount": 4,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-who-makes-the-rules-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "No single office runs the mortgage industry. A handful of federal bodies, plus every state, each own a slice: some protect the consumer, some insure or guarantee specific loan programs, one oversees the secondary market, and the states handle licensing on the ground. A later module covers each in depth."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-who-makes-the-rules-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "The main consumer regulator is the Consumer Financial Protection Bureau. Created after the 2008 crisis, the CFPB writes and enforces most of the consumer-protection laws an MLO deals with — the disclosure and fair-dealing rules that govern how a loan is quoted, priced, and closed. It's the agency that polices how borrowers are treated."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-who-makes-the-rules-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "A second cluster insures or guarantees specific kinds of loans. HUD — the Department of Housing and Urban Development — oversees housing and fair-lending programs, and the FHA (Federal Housing Administration) operates inside HUD, insuring loans for lower-down-payment borrowers. The VA (Department of Veterans Affairs) guarantees loans for veterans and service members, and the USDA guarantees loans for buyers in qualifying rural areas. These bodies don't police disclosures the way the CFPB does; they make their loan programs possible by insuring or guaranteeing them."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-who-makes-the-rules-g2-gate-synth",
+      "gi": 2
+    },
+    {
+      "kind": "prose",
+      "id": "audio-who-makes-the-rules-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "The FHFA — the Federal Housing Finance Agency — oversees Fannie Mae and Freddie Mac. Licensing, finally, happens at the state level: a state regulator issues and supervises the license through the NMLS, the national system that tracks every originator across states and employers. The FHFA oversees the GSEs; the states license the people."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-who-makes-the-rules-g3-gate-synth",
+      "gi": 3
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-who-makes-the-rules-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-who-makes-the-rules-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-who-makes-the-rules-gate-mcq"
+    }
+  ]
+}

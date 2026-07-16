@@ -25,7 +25,7 @@ const unitsB: SectionUnit[] = [
       {
         "paras": [
           {
-            "html": "When a bank hands you a few hundred thousand dollars to buy a house, that money doesn't just sit in a vault waiting. There's a whole machine behind the loan that decides who gets funded and on what terms — and understanding it explains almost everything else about how lending works. The machine has two halves. The <b>primary market</b> is where loans are made: the lenders and brokers who take your application and write the mortgage. The <b>secondary market</b> is where those finished loans are bought and sold afterward as investments."
+            "html": "When a bank hands over a few hundred thousand dollars, that money doesn't sit in a vault waiting. A larger machine behind the loan decides who gets funded and on what terms. It has two halves: the <b>primary market</b> is where loans are made — the lenders and brokers who take the application and write the mortgage — and the <b>secondary market</b> is where those finished loans are bought and sold afterward as investments."
           }
         ]
       },
@@ -33,7 +33,7 @@ const unitsB: SectionUnit[] = [
         "heading": "why a lender sells your loan",
         "paras": [
           {
-            "html": "A lender only has so much cash. If it lends you $300,000 for 30 years, that money is tied up for decades — unless the lender can sell the loan and get its cash back now. That's exactly what the secondary market is for. A lender originates your loan, then sells it into the <span class=\"cloze\" data-accept='[\"secondary market\",\"secondary\"]' data-reveal=\"secondary market\">?</span>, gets fresh cash, and lends again to the next borrower. The loan you signed may change hands within weeks of closing — and none of your terms change when it does."
+            "html": "A lender only has so much cash, and a 30-year loan ties up $300,000 of it for decades — unless the lender can sell the loan and get the money back now. So it does: a lender originates the loan, sells it into the <span class=\"cloze\" data-accept='[\"secondary market\",\"secondary\"]' data-reveal=\"secondary market\">?</span>, takes the fresh cash, and lends again to the next borrower. The loan you signed may change hands within weeks of closing, and none of your terms change when it does."
           }
         ],
         "synth": {
@@ -46,7 +46,7 @@ const unitsB: SectionUnit[] = [
         "anchor": { "file": "astronaut-saxophone.PNG", "caption": "the buyers", "kind": "char" },
         "paras": [
           {
-            "html": "The biggest buyers are two <b>government-sponsored enterprises</b> — private companies with a federal charter. <b>Fannie Mae</b> (the Federal National Mortgage Association) and <b>Freddie Mac</b> (the Federal Home Loan Mortgage Corporation) both buy <b>conventional</b> loans from lenders. Once they own a pile of loans, they bundle them into a <b>mortgage-backed security</b> — an investment that pools many mortgages and sells shares of the monthly payments to investors worldwide. A third player, <b>Ginnie Mae</b> (the Government National Mortgage Association), is different: it's an actual government agency, and it doesn't buy loans. Instead it <b>guarantees</b> the MBS built from government-backed loans — FHA, VA, and USDA."
+            "html": "The biggest buyers are two <b>government-sponsored enterprises</b> — private companies with a federal charter. <b>Fannie Mae</b> (the Federal National Mortgage Association) and <b>Freddie Mac</b> (the Federal Home Loan Mortgage Corporation) both buy <b>conventional</b> loans from lenders. Once they own a pile of loans, they bundle them into a <b>mortgage-backed security</b> — an investment that pools many mortgages and sells shares of the monthly payments to investors worldwide. A third player, <b>Ginnie Mae</b> (the Government National Mortgage Association), is different: it's an actual government agency, and it doesn't buy loans. Instead it <b>guarantees</b> the MBS built from FHA, VA, and USDA loans."
           }
         ],
         "synth": {
@@ -58,7 +58,7 @@ const unitsB: SectionUnit[] = [
         "heading": "why guidelines exist at all",
         "paras": [
           {
-            "html": "Here's the payoff. A lender will only write a loan it can sell, and Fannie Mae or Freddie Mac will only buy a loan that meets their rules. A loan that fits those rules — including a maximum loan amount the GSEs will purchase — is called a <b>conforming loan</b>. That single fact is why <b>underwriting guidelines</b> exist: someone downstream has to be willing to buy the loan, so the loan has to be built to their standard from the start. The other surprise is that selling the loan doesn't mean the lender walks away. Lenders usually keep the <b>servicing</b> — collecting your payment and managing escrow — earning a steady fee even after the loan itself belongs to someone else."
+            "html": "A lender will only write a loan it can sell, and Fannie Mae or Freddie Mac will only buy a loan that meets their rules. A loan that fits those rules — including a maximum amount the GSEs will purchase — is a <b>conforming loan</b>. This is why <b>underwriting guidelines</b> exist: someone downstream has to be willing to buy the loan, so it has to be built to their standard from the start. Selling the loan doesn't mean the lender walks away, though — lenders usually keep the <b>servicing</b>, collecting the payment and managing escrow, earning a steady fee even after the loan itself belongs to someone else."
           }
         ],
         "synth": {
@@ -166,7 +166,7 @@ const unitsB: SectionUnit[] = [
       {
         "paras": [
           {
-            "html": "No single office runs the mortgage industry. Instead a handful of federal bodies, plus every state, each own a slice — and knowing who owns which slice keeps the whole picture straight. This is the map at a glance; a later module walks through each regulator in depth. The rule of thumb: some bodies <b>protect the consumer</b>, some <b>back specific loan programs</b>, some <b>oversee the money machine</b>, and the states handle <b>licensing on the ground</b>."
+            "html": "No single office runs the mortgage industry. A handful of federal bodies, plus every state, each own a slice: some protect the consumer, some insure or guarantee specific loan programs, one oversees the secondary market, and the states handle licensing on the ground. A later module covers each in depth."
           }
         ]
       },
@@ -174,7 +174,7 @@ const unitsB: SectionUnit[] = [
         "heading": "the consumer's regulator",
         "paras": [
           {
-            "html": "The heavyweight for borrowers is the <b>Consumer Financial Protection Bureau</b>. Created after the 2008 crisis, the <span class=\"cloze\" data-accept='[\"CFPB\",\"Consumer Financial Protection Bureau\"]' data-reveal=\"CFPB\">?</span> writes and enforces most of the consumer-protection laws you'll deal with — the disclosure and fair-dealing rules that govern how a loan is quoted, priced, and closed. When you think 'the agency that polices how borrowers are treated,' think CFPB."
+            "html": "The main consumer regulator is the <b>Consumer Financial Protection Bureau</b>. Created after the 2008 crisis, the <span class=\"cloze\" data-accept='[\"CFPB\",\"Consumer Financial Protection Bureau\"]' data-reveal=\"CFPB\">?</span> writes and enforces most of the consumer-protection laws an MLO deals with — the disclosure and fair-dealing rules that govern how a loan is quoted, priced, and closed. It's the agency that polices how borrowers are treated."
           }
         ]
       },
@@ -183,7 +183,7 @@ const unitsB: SectionUnit[] = [
         "anchor": { "file": "pirate-stack-of-books-transparent.png", "caption": "the programs", "kind": "char" },
         "paras": [
           {
-            "html": "A second cluster stands behind specific kinds of loans. <b>HUD</b> — the Department of Housing and Urban Development — oversees housing and fair-lending programs, and the <b>FHA</b> (Federal Housing Administration) operates <em>inside</em> HUD, insuring loans for lower-down-payment borrowers. The <b>VA</b> (Department of Veterans Affairs) guarantees loans for veterans and service members, and the <b>USDA</b> guarantees loans for buyers in qualifying rural areas. These bodies don't police disclosures the way the CFPB does; they make their loan programs possible by insuring or guaranteeing them."
+            "html": "A second cluster insures or guarantees specific kinds of loans. <b>HUD</b> — the Department of Housing and Urban Development — oversees housing and fair-lending programs, and the <b>FHA</b> (Federal Housing Administration) operates <em>inside</em> HUD, insuring loans for lower-down-payment borrowers. The <b>VA</b> (Department of Veterans Affairs) guarantees loans for veterans and service members, and the <b>USDA</b> guarantees loans for buyers in qualifying rural areas. These bodies don't police disclosures the way the CFPB does; they make their loan programs possible by insuring or guaranteeing them."
           }
         ],
         "synth": {
@@ -195,7 +195,7 @@ const unitsB: SectionUnit[] = [
         "heading": "the money's overseer, and the states",
         "paras": [
           {
-            "html": "Then there's the body that watches the secondary market. The <b>FHFA</b> — the Federal Housing Finance Agency — is the regulator that oversees Fannie Mae and Freddie Mac. Finally, licensing happens at the state level: your <b>state regulator</b> issues and supervises your license, and it does so through the <b>NMLS</b>, the single national system that tracks every originator across states and employers. So the FHFA oversees the <span class=\"cloze\" data-accept='[\"GSEs\",\"government-sponsored enterprises\",\"Fannie Mae and Freddie Mac\",\"Fannie and Freddie\"]' data-reveal=\"GSEs\">?</span>, while the states — working through the NMLS — license the people."
+            "html": "The <b>FHFA</b> — the Federal Housing Finance Agency — oversees Fannie Mae and Freddie Mac. Licensing, finally, happens at the state level: a <b>state regulator</b> issues and supervises the license through the <b>NMLS</b>, the national system that tracks every originator across states and employers. The FHFA oversees the <span class=\"cloze\" data-accept='[\"GSEs\",\"government-sponsored enterprises\",\"Fannie Mae and Freddie Mac\",\"Fannie and Freddie\"]' data-reveal=\"GSEs\">?</span>; the states license the people."
           }
         ],
         "synth": {
@@ -302,7 +302,7 @@ const unitsB: SectionUnit[] = [
       {
         "paras": [
           {
-            "html": "Every loan travels the same road, and it helps to see the whole road before you learn any one stretch of it. From the borrower's first form to the last payment years later, a mortgage moves through a fixed sequence of stages. Here's the map end to end; a later module zooms into each stage. The order is: <b>application → processing → underwriting → appraisal/title → closing → servicing</b>."
+            "html": "Every loan moves through the same stages in the same order, from the borrower's first form to the last payment years later, through a fixed sequence: <b>application → processing → underwriting → appraisal/title → closing → servicing</b>. A later module walks each stage in depth."
           }
         ]
       },
@@ -310,7 +310,7 @@ const unitsB: SectionUnit[] = [
         "heading": "from application to a complete file",
         "paras": [
           {
-            "html": "It begins with <b>application</b>: the borrower hands over their information, and the loan officially exists. A completed application also starts the clock on required disclosures. Next comes <b>processing</b>, where a processor collects and organizes the supporting documents — income, assets, and credit — into one complete file. Processing doesn't decide anything; its job is to make sure the file is whole and accurate before anyone judges it. The first stage, when the borrower provides their information and the loan begins, is <span class=\"cloze\" data-accept='[\"application\",\"the application\"]' data-reveal=\"application\">?</span>."
+            "html": "It begins with <span class=\"cloze\" data-accept='[\"application\",\"the application\"]' data-reveal=\"application\">?</span>: the borrower hands over their information and the loan officially exists — which also starts the clock on required disclosures. Next comes <b>processing</b>: a processor collects and organizes the supporting documents — income, assets, credit — into one complete file. Processing decides nothing; its job is to make the file whole and accurate before anyone judges it."
           }
         ]
       },
@@ -319,7 +319,7 @@ const unitsB: SectionUnit[] = [
         "anchor": { "file": "cowboy-riding-dinosaur-transparent.png", "caption": "the verdict", "kind": "char" },
         "paras": [
           {
-            "html": "With a complete file in hand, <b>underwriting</b> makes the call. The underwriter measures the file against the guidelines and decides: approve, deny, or — most often — approve <b>with conditions</b> the borrower must still satisfy. Alongside the borrower, the lender also checks the <b>property</b>. An <b>appraisal</b> gives an independent opinion of what the home is worth, so the lender knows the collateral backs the loan, and a <b>title search</b> confirms the seller really owns it free of surprise liens or claims. The stage that reviews the file and decides approve, deny, or approve-with-conditions is <span class=\"cloze\" data-accept='[\"underwriting\"]' data-reveal=\"underwriting\">?</span>."
+            "html": "With a complete file in hand, <span class=\"cloze\" data-accept='[\"underwriting\"]' data-reveal=\"underwriting\">?</span> makes the call: measuring the file against the guidelines and deciding approve, deny, or — most often — approve <b>with conditions</b> the borrower must still satisfy. Alongside that, the lender checks the <b>property</b>. An <b>appraisal</b> gives an independent opinion of what the home is worth, so the lender knows the home is worth enough to secure the debt; a <b>title search</b> confirms the seller really owns it, free of surprise liens or claims."
           }
         ],
         "synth": {
@@ -331,7 +331,7 @@ const unitsB: SectionUnit[] = [
         "heading": "closing, then the long tail",
         "paras": [
           {
-            "html": "Once the loan is approved and the property checks out, the deal reaches <b>closing</b>: the borrower signs the final documents, money changes hands, and ownership transfers. But the loan's life is really just beginning. After closing comes <b>servicing</b>, the longest stage by far — a servicer collects the monthly payment, manages the escrow account, and handles the account for years, often for the entire term of the loan. Application starts it; servicing carries it to the end."
+            "html": "Once the loan is approved and the property checks out, the deal reaches <b>closing</b>: the borrower signs the final documents, money changes hands, and ownership transfers. The loan's life is only beginning, though. After closing comes <b>servicing</b> — the longest stage by far — where a servicer collects the monthly payment, manages escrow, and handles the account for years, often for the loan's entire term."
           }
         ],
         "synth": {

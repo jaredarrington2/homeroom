@@ -1,0 +1,57 @@
+{
+  "unitId": "what-makes-loans-differ",
+  "name": "What makes loans differ",
+  "reg": "The five axes that tell one mortgage from another",
+  "groupCount": 4,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-what-makes-loans-differ-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "Every mortgage looks unique, but the differences come down to a handful of axes. Once you know the axes, any loan is easy to place. (The products themselves are taught in Module 5.)"
+    },
+    {
+      "kind": "prose",
+      "id": "audio-what-makes-loans-differ-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "The first axis is how the interest rate behaves. A fixed-rate mortgage locks the rate for the whole term — the principal-and-interest payment is the same in year one and year thirty. An adjustable-rate mortgage (ARM) ties the rate to a market index, so it can move, and the payment moves with it. A loan whose rate never changes is fixed; one whose rate can move is adjustable."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-what-makes-loans-differ-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "The next axis is whether a government agency insures or guarantees the loan. A conventional loan is not insured or guaranteed by any government agency — the lender and the secondary market carry the risk. A government loan is insured or guaranteed by a federal agency: the FHA, the VA, or the USDA. A separate axis is size. A conforming loan meets Fannie Mae and Freddie Mac standards, including a maximum dollar amount called the conforming loan limit; a jumbo loan exceeds that limit, so those two buyers won't purchase it. Two different questions, easy to conflate: conforming-versus-jumbo is about the loan amount, conventional-versus-government is about who insures or guarantees it."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-what-makes-loans-differ-g2-gate-synth",
+      "gi": 2
+    },
+    {
+      "kind": "prose",
+      "id": "audio-what-makes-loans-differ-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "Two axes remain. Lien position is the order of repayment if the property is sold or foreclosed: a first lien gets paid before anything else; a second lien — like a home-equity loan — sits behind it and is riskier for the lender. The last axis is purpose. A purchase loan buys a home the borrower doesn't yet own; a refinance replaces a mortgage on a home they already have — purchase versus refinance."
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-what-makes-loans-differ-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-what-makes-loans-differ-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-what-makes-loans-differ-gate-mcq"
+    }
+  ]
+}

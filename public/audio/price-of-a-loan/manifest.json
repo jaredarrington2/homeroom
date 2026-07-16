@@ -1,0 +1,70 @@
+{
+  "unitId": "price-of-a-loan",
+  "name": "The price of a loan",
+  "reg": "The numbers that decide what a mortgage costs",
+  "groupCount": 5,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-price-of-a-loan-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "A borrower doesn't qualify for a loan in the abstract — they qualify at a price, set by a small set of numbers, each one a lever on what the loan costs or whether it's approved."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-price-of-a-loan-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "Two percentages describe a loan's cost, and they're not the same. The interest rate (or note rate) is the yearly cost of borrowing the principal by itself. The annual percentage rate (APR) folds certain lender fees and financing costs on top of that rate, so it shows the fuller cost. Because it includes those fees, the APR is always equal to or higher than the note rate — never lower. The note rate sets the monthly payment; the APR, running at least as high, is the number for comparing offers."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-price-of-a-loan-g1-gate-synth",
+      "gi": 1
+    },
+    {
+      "kind": "prose",
+      "id": "audio-price-of-a-loan-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "Price can also be paid up front. Points are fees paid to the lender at closing; one point equals 1% of the loan amount — on a $300,000 loan, one point is $3,000. Discount points buy down the interest rate, trading cash today for a lower rate, and a lower payment, over the life of the loan."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-price-of-a-loan-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "Much of a loan's risk comes down to two ratios. Loan-to-value is the loan amount divided by the property's value — a $180,000 loan on a $200,000 home is a 90% LTV; a higher ratio means less borrower equity and more lender risk. Debt-to-income (DTI) is total monthly debt payments divided by gross monthly income; a lower DTI means more room to absorb the new payment. Alongside them, the credit score is a single number summarizing credit history that lenders read as a measure of risk."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-price-of-a-loan-g3-gate-synth",
+      "gi": 3
+    },
+    {
+      "kind": "prose",
+      "id": "audio-price-of-a-loan-g4-p0",
+      "gi": 4,
+      "pi": 0,
+      "text": "When a borrower puts little down, the lender protects itself with mortgage insurance — and the name depends on the loan type. On a conventional loan it's private mortgage insurance (PMI), typically required when the down payment is below 20% (an LTV above 80%). On an FHA loan the equivalent charge is the mortgage insurance premium (MIP). PMI applies to conventional loans, MIP to FHA loans."
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-price-of-a-loan-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-price-of-a-loan-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-price-of-a-loan-gate-mcq"
+    }
+  ]
+}

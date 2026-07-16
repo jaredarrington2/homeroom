@@ -1,0 +1,63 @@
+{
+  "unitId": "life-of-a-loan",
+  "name": "The life of a loan",
+  "reg": "Application to servicing, one map",
+  "groupCount": 4,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-life-of-a-loan-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "Every loan moves through the same stages in the same order, from the borrower's first form to the last payment years later, through a fixed sequence: application → processing → underwriting → appraisal/title → closing → servicing. A later module walks each stage in depth."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-life-of-a-loan-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "It begins with application: the borrower hands over their information and the loan officially exists — which also starts the clock on required disclosures. Next comes processing: a processor collects and organizes the supporting documents — income, assets, credit — into one complete file. Processing decides nothing; its job is to make the file whole and accurate before anyone judges it."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-life-of-a-loan-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "With a complete file in hand, underwriting makes the call: measuring the file against the guidelines and deciding approve, deny, or — most often — approve with conditions the borrower must still satisfy. Alongside that, the lender checks the property. An appraisal gives an independent opinion of what the home is worth, so the lender knows the home is worth enough to secure the debt; a title search confirms the seller really owns it, free of surprise liens or claims."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-life-of-a-loan-g2-gate-synth",
+      "gi": 2
+    },
+    {
+      "kind": "prose",
+      "id": "audio-life-of-a-loan-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "Once the loan is approved and the property checks out, the deal reaches closing: the borrower signs the final documents, money changes hands, and ownership transfers. The loan's life is only beginning, though. After closing comes servicing — the longest stage by far — where a servicer collects the monthly payment, manages escrow, and handles the account for years, often for the loan's entire term."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-life-of-a-loan-g3-gate-synth",
+      "gi": 3
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-life-of-a-loan-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-life-of-a-loan-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-life-of-a-loan-gate-mcq"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "unitId": "whos-in-the-room",
+  "name": "Who's in the room",
+  "reg": "The parties to a loan",
+  "groupCount": 4,
+  "items": [
+    {
+      "kind": "prose",
+      "id": "audio-whos-in-the-room-g0-p0",
+      "gi": 0,
+      "pi": 0,
+      "text": "One mortgage passes through many hands, each with a narrow job. The roles sound alike — broker, lender, servicer — which is where most of the early confusion comes from."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-whos-in-the-room-g1-p0",
+      "gi": 1,
+      "pi": 0,
+      "text": "The borrower takes the loan and pledges the home. The mortgage loan originator (MLO) is the licensed professional who takes the application and offers or negotiates the loan's terms — the borrower's main point of contact through the process. The MLO works for a broker or a lender, and that employer is where the next distinction begins."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-whos-in-the-room-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "A mortgage broker arranges the loan — shopping the application among several lenders to find a fit — but never puts up the money. The lender (or creditor) is the party that actually funds the loan; the money going to close is the lender's. The servicer manages the loan after closing — collecting the monthly payment, running escrow, sending statements. The servicer is often a different company than the lender, and servicing rights can be sold, which is why a payment address can change even though the loan hasn't."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-whos-in-the-room-g2-gate-synth",
+      "gi": 2
+    },
+    {
+      "kind": "prose",
+      "id": "audio-whos-in-the-room-g3-p0",
+      "gi": 3,
+      "pi": 0,
+      "text": "The rest of the work falls to a handful of specialists, each with a single job. The loan processor assembles and organizes the file — documents, verifications — but decides nothing. The underwriter measures that file against the program's guidelines and makes the approve-or-deny call. The appraiser gives an independent opinion of the home's value, and that independence is protected — no one on the deal may lean on it. The title company searches the title and issues title insurance; at the table, the settlement agent — often the title company or an attorney — runs the closing and disburses the funds. Separately, the real estate agent represents the buyer or seller in the purchase itself. The money runs sideways to the borrower's payment: the appraiser is paid for the appraisal but stays independent of the result, the agents earn commission out of the sale, and the servicer collects a fee for managing the loan."
+    },
+    {
+      "kind": "gate",
+      "gateType": "definitions",
+      "id": "audio-whos-in-the-room-gate-definitions"
+    },
+    {
+      "kind": "gate",
+      "gateType": "flashcards",
+      "id": "audio-whos-in-the-room-gate-flashcards"
+    },
+    {
+      "kind": "gate",
+      "gateType": "mcq",
+      "id": "audio-whos-in-the-room-gate-mcq"
+    }
+  ]
+}
