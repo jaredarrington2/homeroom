@@ -32,7 +32,7 @@ const section5: SectionContent = {
           heading: "what a mortgage is",
           paras: [
             {
-              html: `Almost nobody buys a house outright; the price is far more than most people keep in the bank. So a lender fronts the money and the buyer pays it back over many years, often thirty. What makes a lender willing to hand over that much is the house itself — it secures the loan. If the payments stop, the lender can take the property and sell it to recover what it's owed. That claim on the house is the <b>lien</b>, and it's why a lender will lend so much, for so long, at the rates it does.`,
+              html: `Almost nobody buys a house outright; the price is far more than most people keep in the bank. So a lender fronts the money and the buyer pays it back over many years, often <span class="cloze" data-accept='["thirty","30","thirty years","30 years"]' data-reveal="thirty">?</span>. What makes a lender willing to hand over that much is the house itself — it secures the loan. If the payments stop, the lender can take the property and sell it to recover what it's owed. That claim on the house is the <span class="cloze" data-accept='["lien","a lien","the lien"]' data-reveal="lien">?</span>, and it's why a lender will lend so much, for so long, at the rates it does.`,
             },
           ],
         },
@@ -40,7 +40,7 @@ const section5: SectionContent = {
           heading: "principal and interest",
           paras: [
             {
-              html: `Each monthly payment does two things at once. Part of it pays down the <b>principal</b> — the amount borrowed — and part is <b>interest</b>, the lender's charge for the use of the money. Early on a payment is mostly interest and the balance barely moves; over the years the mix tips toward principal, and the balance falls. If the same loan is spread over more years, each payment is smaller, but the borrower pays more interest over the life of the loan. Over fewer years, the payments are larger and the total interest is less.`,
+              html: `Each monthly payment does two things at once. Part of it pays down the <span class="cloze" data-accept='["principal"]' data-reveal="principal">?</span> — the amount borrowed — and part is <span class="cloze" data-accept='["interest"]' data-reveal="interest">?</span>, the lender's charge for the use of the money. Early on a payment is mostly interest and the balance barely moves; over the years the mix tips toward principal, and the balance falls. If the same loan is spread over more years, each payment is smaller, but the borrower pays more interest over the life of the loan. Over fewer years, the payments are larger and the total interest is less.`,
             },
           ],
         },
@@ -252,7 +252,7 @@ const section5: SectionContent = {
           heading: "structuring an FHA loan",
           paras: [
             {
-              html: `An FHA loan is insured by HUD, so a borrower can qualify with a smaller down payment and a lower credit score than a conventional loan requires — as little as <span class="cloze" data-accept='["3.5%","3.5","3.5 percent","three and a half percent"]' data-reveal="3.5%">?</span> down, a 96.5% LTV. In exchange, it carries mortgage insurance in two parts — an up-front premium financed into the loan, and an annual premium collected monthly with the payment.`,
+              html: `An FHA loan is insured by HUD, so a borrower can qualify with a smaller down payment and a lower credit score than a conventional loan requires — as little as <span class="cloze" data-accept='["3.5%","3.5","3.5 percent","three and a half percent"]' data-reveal="3.5%">?</span> down, a 96.5% LTV. In exchange, it carries mortgage insurance in two parts — an up-front premium of <span class="cloze" data-accept='["1.75%","1.75","1.75 percent"]' data-reveal="1.75%">?</span> of the base loan, usually financed into the loan, and an annual premium collected monthly with the payment.`,
             },
           ],
           worksheet: "fha-structure",
@@ -272,6 +272,18 @@ const section5: SectionContent = {
           synth: {
             q: "A borrower with a 540 credit score is set on an FHA loan. Can they get one, and how does it differ from a borrower with a 620 score?",
             a: "Yes — a 540 sits in the 500–579 tier, so FHA financing is still open, but the down payment climbs to 10% (a 90% LTV) instead of the 3.5% a 580-or-higher borrower like the 620 puts down. Below 500, neither could use an FHA loan at all.",
+          },
+        },
+        {
+          heading: "how long the mortgage insurance lasts",
+          paras: [
+            {
+              html: `The annual MIP doesn't always run for the full term — how long it lasts turns on the down payment. Put at least <b>10% down</b> and it falls off after <span class="cloze" data-accept='["11 years","11","eleven","eleven years"]' data-reveal="11 years">?</span>; put less than that, and the borrower pays it for the <b>life of the loan</b>. Since most FHA borrowers put the minimum 3.5% down, the insurance usually runs for the life of the loan — a standing cost that makes refinancing out of FHA a common goal once the borrower has built enough equity.`,
+            },
+          ],
+          synth: {
+            q: "Two FHA borrowers both take a 30-year loan; one puts 5% down, the other 15%. Whose annual MIP ends first, and when?",
+            a: "The 15%-down borrower's. Because they put at least 10% down, their annual MIP drops off after 11 years. The 5%-down borrower is under the 10% line, so their MIP runs for the life of the loan.",
           },
         },
       ],
@@ -341,7 +353,7 @@ const section5: SectionContent = {
           anchor: { file: "three-women-in-poodle-skirts-transparent.png", caption: "three caps", kind: "char" },
           paras: [
             {
-              html: `Each cap applies to a different move: the initial cap to the first adjustment, the periodic cap to every one after, and the life cap sets the ceiling the rate can never pass. FHA and VA ARMs have no initial cap — there, the periodic cap applies to the first adjustment too.`,
+              html: `Each cap applies to a different move: the <span class="cloze" data-accept='["initial","initial cap","initial adjustment cap"]' data-reveal="initial">?</span> cap to the first adjustment, the <span class="cloze" data-accept='["periodic","periodic cap","periodic adjustment cap"]' data-reveal="periodic">?</span> cap to every one after, and the <span class="cloze" data-accept='["life","life cap","lifetime","life-of-loan","life of loan"]' data-reveal="life">?</span> cap sets the ceiling the rate can never pass. FHA and VA ARMs have no initial cap — there, the periodic cap applies to the first adjustment too.`,
             },
           ],
           vizWidget: "arm-cap-ladder",
@@ -406,7 +418,7 @@ const section5: SectionContent = {
           heading: "the amortization curve",
           paras: [
             {
-              html: `On a 30-year loan the <b>crossover</b> — the month principal finally overtakes interest inside each payment — sits more than halfway in. A $200,000 loan at 6% pays <span class="cloze" data-accept='["$231,676","231676","231,676"]' data-reveal="$231,676">?</span> in interest across the full schedule. Paying extra against principal each month moves the crossover earlier and drops that total sharply.`,
+              html: `On a 30-year loan the <b>crossover</b> — the month principal finally overtakes interest inside each payment — sits more than <span class="cloze" data-accept='["halfway","half","the halfway point","halfway in","the midpoint"]' data-reveal="halfway">?</span> in. A $200,000 loan at 6% pays <b>$231,676</b> in interest across the full schedule. Paying extra against principal each month moves the crossover earlier and drops that total sharply.`,
             },
           ],
           vizWidget: "amortization",
@@ -492,7 +504,7 @@ const section5: SectionContent = {
         {
           paras: [
             {
-              html: `Every mortgage payment buys back a little more of your house. That's what equity is: the part you've already bought — what the home is worth, minus what you still owe on it. Put $80,000 down on a $400,000 house and you own $80,000 of it the day you move in; keep paying, or watch prices in the neighborhood climb, and that share keeps widening. Give it a few years and it can be a serious sum — real money, just locked up in the house.`,
+              html: `Every mortgage payment buys back a little more of your house. That's what <span class="cloze" data-accept='["equity","home equity"]' data-reveal="equity">?</span> is: the part you've already bought — what the home is worth, minus what you still owe on it. Put $80,000 down on a $400,000 house and you own $80,000 of it the day you move in; keep paying, or watch prices in the neighborhood climb, and that share keeps widening. Give it a few years and it can be a serious sum — real money, just locked up in the house.`,
             },
             {
               html: `You can borrow against that share without disturbing the mortgage you already have. The first mortgage stays exactly where it is; the new loan takes second place behind it — which is what makes it a <b>second lien</b>. If the house were ever sold to clear its debts, the first mortgage would be paid off first and the second would wait for whatever's left. Standing at the back of that line is riskier for the lender, so a second lien usually costs a little more.`,
@@ -506,7 +518,7 @@ const section5: SectionContent = {
           heading: "the fixed lump sum",
           paras: [
             {
-              html: `With a <b>home-equity loan</b>, the lender pays out the whole amount at once, and the terms are fixed: one lump sum, a set interest rate, and a level monthly payment the borrower makes over a set term — as steady and predictable as a first mortgage, only behind it. It's <b>closed-end</b>: once the money is paid out, that's the loan; paying it down doesn't reopen anything to draw from again. So it fits a known, one-time cost — a specific renovation, or rolling a few fixed debts into a single payment — where the borrower knows up front exactly how much they need. When the need is open-ended instead, the line fits better.`,
+              html: `With a <b>home-equity loan</b>, the lender pays out the whole amount at once, and the terms are fixed: one lump sum, a set interest rate, and a level monthly payment the borrower makes over a set term — as steady and predictable as a first mortgage, only behind it. It's <span class="cloze" data-accept='["closed-end","closed end","closed"]' data-reveal="closed-end">?</span>: once the money is paid out, that's the loan; paying it down doesn't reopen anything to draw from again. So it fits a known, one-time cost — a specific renovation, or rolling a few fixed debts into a single payment — where the borrower knows up front exactly how much they need. When the need is open-ended instead, the line fits better.`,
             },
           ],
         },
@@ -606,7 +618,7 @@ const section5: SectionContent = {
           heading: "the money doesn't have to be paid back — until it does",
           paras: [
             {
-              html: `Nothing is owed until a triggering event: the last borrower dies with no surviving spouse, the home is sold, the borrower is out of the home for more than <span class="cloze" data-accept='["12","12 months","twelve","twelve months"]' data-reveal="12 months">?</span> straight, or the property taxes and insurance lapse. Because the loan is <b>non-recourse</b>, if the balance ever climbs above the home's value, the FHA insurance covers the gap — never the borrower or the heirs.`,
+              html: `Nothing is owed until a triggering event: the last borrower dies with no surviving spouse, the home is sold, the borrower is out of the home for more than <span class="cloze" data-accept='["12","12 months","twelve","twelve months"]' data-reveal="12 months">?</span> straight, or the property taxes and insurance lapse. Because the loan is <span class="cloze" data-accept='["non-recourse","nonrecourse","non recourse"]' data-reveal="non-recourse">?</span>, if the balance ever climbs above the home's value, the FHA insurance covers the gap — never the borrower or the heirs.`,
               spoken: `Nothing is owed until a triggering event. First, the last borrower dies with no surviving spouse. Second, the home is sold. Third, the borrower is out of the home for more than twelve straight months. Fourth, the property taxes and insurance lapse. Because the loan is non-recourse, if the balance ever climbs above the home's value, the F H A insurance covers the gap — never the borrower or the heirs.`,
             },
           ],
@@ -619,7 +631,7 @@ const section5: SectionContent = {
           heading: "the pieces that keep the loan safe",
           paras: [
             {
-              html: `Before closing, every borrower completes independent <b>HUD-approved counseling</b>; without that certificate the lender has no enforceable lien. A <b>LESA</b> — a life expectancy set-aside — can be carved out of the proceeds to pay the taxes and insurance on the borrower's behalf, so a lapse never triggers the loan. A spouse under 62 can stay on the title as a <b>non-borrowing spouse</b> and remain in the home for life, as long as the borrowing spouse qualified.`,
+              html: `Before closing, every borrower completes independent <span class="cloze" data-accept='["HUD-approved","HUD approved","HUD"]' data-reveal="HUD-approved">?</span> counseling; without that certificate the lender has no enforceable lien. A <b>LESA</b> — a life expectancy set-aside — can be carved out of the proceeds to pay the taxes and insurance on the borrower's behalf, so a lapse never triggers the loan. A spouse under 62 can stay on the title as a <b>non-borrowing spouse</b> and remain in the home for life, as long as the borrowing spouse qualified.`,
             },
           ],
         },
@@ -774,7 +786,7 @@ const section5: SectionContent = {
           anchor: { file: "forest-rangers-pizza-boxes-transparent.png", caption: "one package", kind: "char" },
           paras: [
             {
-              html: `Under a <b>land contract</b>, the buyer takes possession but not the deed — they pay the seller directly and take title only once the agreed sum is paid; walk away early and the payments are forfeit. A <b>package mortgage</b> collateralizes the land, the dwelling, and the personal property inside it — furniture and appliances — as one appraised bundle. A <b>reduction option mortgage</b> is a fixed-rate loan with a one-time chance to drop the rate without refinancing, for a fee.`,
+              html: `Under a <b>land contract</b>, the buyer takes <span class="cloze" data-accept='["possession"]' data-reveal="possession">?</span> but not the deed — they pay the seller directly and take title only once the agreed sum is paid; walk away early and the payments are forfeit. A <b>package mortgage</b> collateralizes the land, the dwelling, and the personal property inside it — furniture and appliances — as one appraised bundle. A <b>reduction option mortgage</b> is a fixed-rate loan with a one-time chance to drop the rate without refinancing, for a fee.`,
             },
           ],
           synth: {

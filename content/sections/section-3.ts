@@ -77,7 +77,7 @@ const section3: SectionContent = {
           },
           "paras": [
             {
-              "html": "Section 8 of RESPA is the anti-kickback rule. It prohibits the exchange of <em>anything of value</em> between actual or potential referral sources in connection with a federally related mortgage loan. If real estate professionals can earn rewards for steering borrowers to specific service providers, the borrower's interests stop driving the referral — the reward does."
+              "html": "<span class=\"cloze\" data-accept='[\"Section 8\",\"section 8\",\"8\"]' data-reveal=\"Section 8\">?</span> of RESPA is the anti-kickback rule. It prohibits the exchange of <em>anything of value</em> between actual or potential referral sources in connection with a federally related mortgage loan. If real estate professionals can earn rewards for steering borrowers to specific service providers, the borrower's interests stop driving the referral — the reward does."
             },
             {
               "html": "The prohibition runs in both directions: no person may <em>give</em> and no person may <em>accept</em> any fee, kickback, or other thing of value tied to the referral of settlement service business. A referral itself is not a compensable service — a company cannot pay another company, or another company's employees, simply for sending business its way."
@@ -97,10 +97,10 @@ const section3: SectionContent = {
           "heading": "what counts as a referral",
           "paras": [
             {
-              "html": "Under RESPA, a \"referral\" is any oral or written action that has the effect of <em>affirmatively influencing</em> someone's selection of a settlement service provider — when that person will pay for the service. It also covers situations where a borrower is <em>required</em> to use a particular provider."
+              "html": "Under RESPA, a \"referral\" is any oral or written action that has the effect of <em><span class=\"cloze\" data-accept='[\"affirmatively influencing\",\"affirmatively influence\",\"affirmatively\"]' data-reveal=\"affirmatively influencing\">?</span></em> someone's selection of a settlement service provider — when that person will pay for the service. It also covers situations where a borrower is <em>required</em> to use a particular provider."
             },
             {
-              "html": "Seven categories of payments are allowed despite the referral prohibition. The common thread: each involves compensation for <em>work actually done</em>, not for steering business."
+              "html": "<span class=\"cloze\" data-accept='[\"Seven\",\"seven\",\"7\"]' data-reveal=\"Seven\">?</span> categories of payments are allowed despite the referral prohibition. The common thread: each involves compensation for <em>work actually done</em>, not for steering business."
             },
             {
               "html": "Payments to an attorney for services actually rendered. Payments by a title company to its appointed agent for work actually performed in issuing a title policy. Payments by a lender to its agent or contractor for work actually performed in originating, processing, or funding a loan. Bona fide salary or compensation for goods or facilities actually furnished or services actually performed. Cooperative brokerage and referral arrangements <em>solely between real estate agents and brokers</em>. Normal promotional and educational activities that are not conditioned on referrals and don't defray expenses for people in a position to refer. An employer's payment to its own employees for referral activities."
@@ -123,7 +123,7 @@ const section3: SectionContent = {
           "heading": "title companies",
           "paras": [
             {
-              "html": "With limited exceptions, borrowers have the right to choose their own settlement service providers. Section 9 of RESPA targets one specific abuse: a seller forcing the buyer to use a particular title insurance company as a condition of the sale."
+              "html": "With limited exceptions, borrowers have the right to choose their own settlement service providers. <span class=\"cloze\" data-accept='[\"Section 9\",\"section 9\",\"9\"]' data-reveal=\"Section 9\">?</span> of RESPA targets one specific abuse: a seller forcing the buyer to use a particular title insurance company as a condition of the sale."
             },
             {
               "html": "No seller of property purchased with a federally related mortgage loan may require — directly or indirectly — that the buyer purchase title insurance from a specific title company. If a seller violates this rule, the penalty is <span class=\"cloze\" data-accept='[\"treble damages\",\"triple damages\",\"3 times\",\"three times\"]' data-reveal=\"treble damages\">?</span> — the seller is liable to the buyer for three times all charges made for the title insurance."
@@ -361,7 +361,7 @@ const section3: SectionContent = {
               "html": "When a borrower believes the servicer has made an error, RESPA provides a structured resolution process. A valid notice of error must be in writing and include three things: the borrower's name, information sufficient to identify the mortgage account, and a description of the alleged error. A note scribbled on a payment coupon does not count — but a qualified written request that asserts a servicing error does, and the servicer must treat it as a notice of error."
             },
             {
-              "html": "RESPA defines eleven categories of covered errors. They include failing to accept a conforming payment, failing to apply a payment correctly to principal, interest, or escrow, failing to credit a payment as of the date received, failing to pay taxes or insurance from escrow on time, imposing a fee without reasonable basis, providing an inaccurate payoff balance, providing inaccurate loss mitigation or foreclosure information, failing to transfer servicing information accurately, and inappropriately initiating or advancing a foreclosure. The eleventh is a catch-all: any other error relating to the servicing of a mortgage loan."
+              "html": "RESPA defines <span class=\"cloze\" data-accept='[\"eleven\",\"11\"]' data-reveal=\"eleven\">?</span> categories of covered errors. They include failing to accept a conforming payment, failing to apply a payment correctly to principal, interest, or escrow, failing to credit a payment as of the date received, failing to pay taxes or insurance from escrow on time, imposing a fee without reasonable basis, providing an inaccurate payoff balance, providing inaccurate loss mitigation or foreclosure information, failing to transfer servicing information accurately, and inappropriately initiating or advancing a foreclosure. The eleventh is a catch-all: any other error relating to the servicing of a mortgage loan."
             }
           ]
         },
@@ -773,10 +773,10 @@ const section3: SectionContent = {
           "anchor": { "file": "trackstars-tied-for-first-transparent.png", "caption": "looks equal", "kind": "char" },
           "paras": [
             {
-              "html": "<b>Disparate treatment</b> is intentional discrimination: an applicant is treated differently because of a protected characteristic. A lender charging higher rates to borrowers of one ethnicity while offering lower rates to equally qualified borrowers of another ethnicity is disparate treatment — the intent to discriminate is the defining element."
+              "html": "<b>Disparate treatment</b> is <span class=\"cloze\" data-accept='[\"intentional\",\"intent\",\"intentionally\"]' data-reveal=\"intentional\">?</span> discrimination: an applicant is treated differently because of a protected characteristic. A lender charging higher rates to borrowers of one ethnicity while offering lower rates to equally qualified borrowers of another ethnicity is disparate treatment — the intent to discriminate is the defining element."
             },
             {
-              "html": "<b>Disparate impact</b> is harder to spot because the policy itself looks neutral. Centier Bank, an Indiana-chartered bank, decided on purely cost grounds to open only <b>partial-service branches</b> throughout the Gary Primary Metropolitan Statistical Area — the most segregated metro area in the nation for African Americans. Centier's rationale had nothing to do with race: the MSA's socioeconomic profile meant few residents could qualify for full-service products, so full branches would lose money. But the result was that the predominantly African-American population was denied access to the full range of financial services. The court found disparate impact: a facially neutral business decision that disproportionately harmed a protected class. Centier was required to open full-service centers in the Gary MSA, absorbing the losses as a cost of doing business."
+              "html": "<b>Disparate impact</b> is harder to spot because the policy itself looks neutral. Centier Bank, an Indiana-chartered bank, decided on purely cost grounds to open only <b>partial-service branches</b> throughout the Gary Primary Metropolitan Statistical Area — the most segregated metro area in the nation for African Americans. Centier's rationale had nothing to do with race: the MSA's socioeconomic profile meant few residents could qualify for full-service products, so full branches would lose money. But the result was that the predominantly African-American population was denied access to the full range of financial services. The court found disparate impact: a <span class=\"cloze\" data-accept='[\"facially neutral\",\"facially-neutral\",\"neutral\"]' data-reveal=\"facially neutral\">?</span> business decision that disproportionately harmed a protected class. Centier was required to open full-service centers in the Gary MSA, absorbing the losses as a cost of doing business."
             }
           ],
           "synth": {
@@ -986,7 +986,7 @@ const section3: SectionContent = {
           "heading": "the finance charge",
           "paras": [
             {
-              "html": "Add up everything the credit costs you in dollars — the interest over the whole loan, plus the fees the lender charges as a condition of lending — and the total is the <b>finance charge</b>: the cost of credit stated as one dollar figure. The test: if you'd pay the charge even when buying the house with cash, it isn't a finance charge; if it exists only because you're borrowing, it is. So interest, points, and the lender's own fees are in; the home's price and the property taxes are out. The whole point of the figure is to gather every borrowing cost into one place, in dollars."
+              "html": "Add up everything the credit costs you in dollars — the interest over the whole loan, plus the fees the lender charges as a condition of lending — and the total is the <span class=\"cloze\" data-accept='[\"finance charge\",\"the finance charge\"]' data-reveal=\"finance charge\">?</span>: the cost of credit stated as one dollar figure. The test: if you'd pay the charge even when buying the house with cash, it isn't a finance charge; if it exists only because you're borrowing, it is. So interest, points, and the lender's own fees are in; the home's price and the property taxes are out. The whole point of the figure is to gather every borrowing cost into one place, in dollars."
             }
           ],
           "synth": {
@@ -1000,7 +1000,7 @@ const section3: SectionContent = {
           "visual": "apr-stack",
           "paras": [
             {
-              "html": "The note rate lets you compare two loans only if their fees are identical — and they never are. So TILA requires a second figure that folds the fees back in: the <b>annual percentage rate (APR)</b>, the cost of credit expressed as a yearly rate. It takes the finance charge — interest plus the up-front points and lender fees — and spreads it back across the loan as one percentage you can line up against another lender's. Two loans can quote the same 6% note rate, yet one comes in at 6.50% APR and the other at 6.625%. Same price of money; the higher APR is carrying higher fees. That gap is the reason APR exists — it's built for comparison shopping, and a lender can't advertise a rate without stating it."
+              "html": "The note rate lets you compare two loans only if their fees are identical — and they never are. So TILA requires a second figure that folds the fees back in: the <span class=\"cloze\" data-accept='[\"annual percentage rate\",\"APR\",\"annual percentage rate (APR)\"]' data-reveal=\"annual percentage rate (APR)\">?</span>, the cost of credit expressed as a yearly rate. It takes the finance charge — interest plus the up-front points and lender fees — and spreads it back across the loan as one percentage you can line up against another lender's. Two loans can quote the same 6% note rate, yet one comes in at 6.50% APR and the other at 6.625%. Same price of money; the higher APR is carrying higher fees. That gap is the reason APR exists — it's built for comparison shopping, and a lender can't advertise a rate without stating it."
             }
           ],
           "synth": {
@@ -1028,7 +1028,7 @@ const section3: SectionContent = {
           "heading": "how exact the apr must be",
           "paras": [
             {
-              "html": "A disclosed APR gets a little slack, because a hand calculation and the lender's software rarely agree to the last decimal. How much slack depends on how regular the loan is. A <b>regular transaction</b> — level payments on a steady schedule — gets the tighter band: the stated APR must land within <span class=\"cloze\" data-accept='[\"1/8\",\"one-eighth\",\"one eighth\",\"an eighth\",\".125\",\"0.125\"]' data-reveal=\"1/8 of 1 percentage point\">?</span> of 1 percentage point of the true figure, above or below. An <b>irregular transaction</b> — one with multiple advances, uneven payment periods, or uneven payment amounts — is harder to compute exactly, so it's allowed the wider band of 1/4 of 1 percentage point."
+              "html": "A disclosed APR gets a little slack, because a hand calculation and the lender's software rarely agree to the last decimal. How much slack depends on how regular the loan is. A <b>regular transaction</b> — level payments on a steady schedule — gets the tighter band: the stated APR must land within <span class=\"cloze\" data-accept='[\"1/8\",\"one-eighth\",\"one eighth\",\"an eighth\",\".125\",\"0.125\"]' data-reveal=\"1/8 of 1 percentage point\">?</span> of 1 percentage point of the true figure, above or below. An <b>irregular transaction</b> — one with multiple advances, uneven payment periods, or uneven payment amounts — is harder to compute exactly, so it's allowed the wider band of <span class=\"cloze\" data-accept='[\"1/4\",\"one-quarter\",\"one quarter\",\"a quarter\",\".25\",\"0.25\"]' data-reveal=\"1/4\">?</span> of 1 percentage point."
             }
           ],
           "synth": {
@@ -1090,7 +1090,7 @@ const section3: SectionContent = {
           "heading": "triggering terms in advertising",
           "paras": [
             {
-              "html": "TILA's third job is advertising, and its signature rule is about <b>triggering terms</b>. Vague copy — 'low monthly payments,' 'great rates' — triggers nothing. But the moment an ad states one specific number — the amount or percent of the <b>down payment</b>, the number of payments or the repayment period, the amount of a payment, or the dollar amount of the finance charge — it 'triggers' a set of disclosures the ad must then spell out clearly and conspicuously: the down payment, the full repayment terms including any <b>balloon payment</b>, and the <b>annual percentage rate</b>, named as such, plus whether it can rise after closing. A tempting number can't stand alone — it has to arrive with the context that makes it honest."
+              "html": "TILA's third job is advertising, and its signature rule is about <span class=\"cloze\" data-accept='[\"triggering terms\",\"triggering term\",\"trigger terms\"]' data-reveal=\"triggering terms\">?</span>. Vague copy — 'low monthly payments,' 'great rates' — triggers nothing. But the moment an ad states one specific number — the amount or percent of the <b>down payment</b>, the number of payments or the repayment period, the amount of a payment, or the dollar amount of the finance charge — it 'triggers' a set of disclosures the ad must then spell out clearly and conspicuously: the down payment, the full repayment terms including any <b>balloon payment</b>, and the <b>annual percentage rate</b>, named as such, plus whether it can rise after closing. A tempting number can't stand alone — it has to arrive with the context that makes it honest."
             }
           ],
           "synth": {
@@ -1386,7 +1386,7 @@ const section3: SectionContent = {
           "anchor": { "file": "lion-mascot-fingers-crossed-transparent.png", "caption": "fingers crossed", "kind": "char" },
           "paras": [
             {
-              "html": "Normally a lender wants the loan repaid. A predatory lender wants the opposite. <b>Equity stripping</b> is the abuse HOEPA is named against: a lender writes a loan it expects the borrower <em>can't</em> afford — stuffed with fees, carrying a payment that will eventually balloon — not despite the likelihood of default but because of it. When the borrower falls behind, the lender forecloses and walks away with a house that had real equity in it. The loan was never meant to be paid; it was a way to take the home."
+              "html": "Normally a lender wants the loan repaid. A predatory lender wants the opposite. <span class=\"cloze\" data-accept='[\"equity stripping\",\"Equity stripping\"]' data-reveal=\"Equity stripping\">?</span> is the abuse HOEPA is named against: a lender writes a loan it expects the borrower <em>can't</em> afford — stuffed with fees, carrying a payment that will eventually balloon — not despite the likelihood of default but because of it. When the borrower falls behind, the lender forecloses and walks away with a house that had real equity in it. The loan was never meant to be paid; it was a way to take the home."
             }
           ],
           "synth": {
@@ -1407,7 +1407,7 @@ const section3: SectionContent = {
           "heading": "the rate trigger",
           "paras": [
             {
-              "html": "The first line watches the APR against the <b>average prime offer rate (APOR)</b>, the low-risk benchmark from TILA. A <b>first-lien</b> loan goes high-cost when its APR beats APOR by <span class=\"cloze\" data-accept='[\"6.5\",\"6.5 percentage points\",\"6.5 points\",\"six and a half\"]' data-reveal=\"6.5 percentage points\">?</span> percentage points or more. The bar sits higher for riskier, smaller loans: a <b>subordinate lien</b>, or a personal-property loan under $50,000, crosses at 8.5 percentage points over APOR."
+              "html": "The first line watches the APR against the <b>average prime offer rate (APOR)</b>, the low-risk benchmark from TILA. A <b>first-lien</b> loan goes high-cost when its APR beats APOR by <span class=\"cloze\" data-accept='[\"6.5\",\"6.5 percentage points\",\"6.5 points\",\"six and a half\"]' data-reveal=\"6.5 percentage points\">?</span> percentage points or more. The bar sits higher for riskier, smaller loans: a <b>subordinate lien</b>, or a personal-property loan under $50,000, crosses at <span class=\"cloze\" data-accept='[\"8.5\",\"8.5 percentage points\",\"8.5 points\",\"eight and a half\"]' data-reveal=\"8.5 percentage points\">?</span> over APOR."
             }
           ],
           "synth": {
@@ -1665,7 +1665,7 @@ const section3: SectionContent = {
           "heading": "before the lender can charge you",
           "paras": [
             {
-              "html": "The LE is meant to be free to receive and easy to walk away from, so TRID guards the moment money first changes hands. After it issues the LE, the lender may not charge you <b>any</b> fee — beyond the actual cost of pulling your credit report — until you tell it, in writing or out loud, that you <b>intend to proceed</b>. Every fee on the LE has to be quoted in good faith, and if one later changes the lender must be able to justify why. A blank line item is left blank, never marked \"N/A.\" And a lender that gives an informal cost sheet instead of the official LE has to print, in at least 12-point type, that the real rate and costs could be higher and the borrower should get an official Loan Estimate."
+              "html": "The LE is meant to be free to receive and easy to walk away from, so TRID guards the moment money first changes hands. After it issues the LE, the lender may not charge you <b>any</b> fee — beyond the actual cost of pulling your credit report — until you tell it, in writing or out loud, that you <span class=\"cloze\" data-accept='[\"intend to proceed\",\"intent to proceed\"]' data-reveal=\"intend to proceed\">?</span>. Every fee on the LE has to be quoted in good faith, and if one later changes the lender must be able to justify why. A blank line item is left blank, never marked \"N/A.\" And a lender that gives an informal cost sheet instead of the official LE has to print, in at least 12-point type, that the real rate and costs could be higher and the borrower should get an official Loan Estimate."
             }
           ]
         },
@@ -1695,7 +1695,7 @@ const section3: SectionContent = {
           "studyCard": "trid-tolerances",
           "paras": [
             {
-              "html": "How far a quoted fee may drift from the LE to the CD depends on who controls it. TRID sorts every fee into three <b>tolerance</b> buckets. <b>Zero tolerance</b>: fees the lender controls — its own charges, a provider it required you to use, transfer taxes — can't rise a dollar; the lender eats any increase. <b>10% tolerance</b>: fees you could shop but only from the lender's list, plus recording fees — the whole group's total may rise up to <span class=\"cloze\" data-accept='[\"10%\",\"10\",\"ten percent\",\"ten\"]' data-reveal=\"10%\">?</span>, and the lender pays anything beyond that. <b>No tolerance</b>: fees the lender doesn't control — prepaid interest, property taxes, insurance, or a provider you picked entirely on your own — can rise to their true cost as long as the estimate was made in good faith. The more control the lender had over a fee, the less it's allowed to move."
+              "html": "How far a quoted fee may drift from the LE to the CD depends on who controls it. TRID sorts every fee into three <b>tolerance</b> buckets. <span class=\"cloze\" data-accept='[\"zero tolerance\",\"zero\",\"0%\",\"0\"]' data-reveal=\"Zero tolerance\">?</span>: fees the lender controls — its own charges, a provider it required you to use, transfer taxes — can't rise a dollar; the lender eats any increase. <b>10% tolerance</b>: fees you could shop but only from the lender's list, plus recording fees — the whole group's total may rise up to <span class=\"cloze\" data-accept='[\"10%\",\"10\",\"ten percent\",\"ten\"]' data-reveal=\"10%\">?</span>, and the lender pays anything beyond that. <b>No tolerance</b>: fees the lender doesn't control — prepaid interest, property taxes, insurance, or a provider you picked entirely on your own — can rise to their true cost as long as the estimate was made in good faith. The more control the lender had over a fee, the less it's allowed to move."
             }
           ],
           "synth": {
@@ -1707,7 +1707,7 @@ const section3: SectionContent = {
           "heading": "how the 10% test works",
           "paras": [
             {
-              "html": "The 10% bucket isn't checked fee by fee — it's checked in <b>total</b>. Add up that bucket's fees on the Loan Estimate, add up the same fees on the Closing Disclosure, and compare the two sums. The borrower can be charged up to 110% of the disclosed total; anything above that is the lender's to absorb. So one fee can overshoot as long as another in the bucket came in low enough to keep the group under 110%. It's the aggregate that has to stay in bounds."
+              "html": "The 10% bucket isn't checked fee by fee — it's checked in <b>total</b>. Add up that bucket's fees on the Loan Estimate, add up the same fees on the Closing Disclosure, and compare the two sums. The borrower can be charged up to <span class=\"cloze\" data-accept='[\"110%\",\"110\",\"one hundred ten percent\"]' data-reveal=\"110%\">?</span> of the disclosed total; anything above that is the lender's to absorb. So one fee can overshoot as long as another in the bucket came in low enough to keep the group under 110%. It's the aggregate that has to stay in bounds."
             }
           ]
         },
@@ -2237,7 +2237,7 @@ const section3: SectionContent = {
           "heading": "who's allowed to look",
           "paras": [
             {
-              "html": "Your file isn't public. A user may pull it only with both <b>permission</b> from you and a <b>permissible purpose</b> — a legitimate reason like reviewing your loan application. A lender can't just check the credit of anyone it's curious about. In a mortgage, completing the <b>Uniform Residential Loan Application (URLA)</b> gives the lender both at once; short of that, you sign a Credit Report Authorization and Release. And though a lender can go over your report with you, it can't hand you a copy — only a bureau or credit repository can give you that."
+              "html": "Your file isn't public. A user may pull it only with both <b>permission</b> from you and a <span class=\"cloze\" data-accept='[\"permissible purpose\",\"a permissible purpose\"]' data-reveal=\"permissible purpose\">?</span> — a legitimate reason like reviewing your loan application. A lender can't just check the credit of anyone it's curious about. In a mortgage, completing the <b>Uniform Residential Loan Application (URLA)</b> gives the lender both at once; short of that, you sign a Credit Report Authorization and Release. And though a lender can go over your report with you, it can't hand you a copy — only a bureau or credit repository can give you that."
             }
           ],
           "synth": {
@@ -2439,7 +2439,7 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "<b>Identity theft</b> is someone using your name, Social Security number, or other details to open credit as if they were you — and your credit file is where the damage lands, filling with accounts you never opened. In 2003 Congress bolted a set of identity-theft defenses onto FCRA: the <b>Fair and Accurate Credit Transactions Act (FACTA)</b>. It adds alerts you can flag on your file, a free look at your own report, rules for shredding sensitive paper, and duties when a lender spots a mismatched address."
+              "html": "<b>Identity theft</b> is someone using your name, Social Security number, or other details to open credit as if they were you — and your credit file is where the damage lands, filling with accounts you never opened. In <span class=\"cloze\" data-accept='[\"2003\",\"two thousand three\"]' data-reveal=\"2003\">?</span> Congress bolted a set of identity-theft defenses onto FCRA: the <b>Fair and Accurate Credit Transactions Act (FACTA)</b>. It adds alerts you can flag on your file, a free look at your own report, rules for shredding sensitive paper, and duties when a lender spots a mismatched address."
             }
           ]
         },
@@ -2779,7 +2779,7 @@ const section3: SectionContent = {
           "heading": "the agencies, by job",
           "paras": [
             {
-              "html": "Three Treasury bodies run this world, each with one job. The financial-intelligence unit that collects the reports and hunts for patterns — that's <b>FinCEN</b>, the Financial Crimes Enforcement Network, the BSA's administrator. The supervisor that examines national banks to keep them sound and compliant is the <b>OCC</b>, the Office of the Comptroller of the Currency. And the sanctions enforcer that maintains the list of people the U.S. forbids doing business with is <b>OFAC</b>, the Office of Foreign Assets Control. Report to FinCEN; answer to the OCC; screen against OFAC."
+              "html": "Three Treasury bodies run this world, each with one job. The financial-intelligence unit that collects the reports and hunts for patterns — that's <span class=\"cloze\" data-accept='[\"FinCEN\",\"Financial Crimes Enforcement Network\"]' data-reveal=\"FinCEN\">?</span>, the Financial Crimes Enforcement Network, the BSA's administrator. The supervisor that examines national banks to keep them sound and compliant is the <b>OCC</b>, the Office of the Comptroller of the Currency. And the sanctions enforcer that maintains the list of people the U.S. forbids doing business with is <b>OFAC</b>, the Office of Foreign Assets Control. Report to FinCEN; answer to the OCC; screen against OFAC."
             }
           ],
           "synth": {
@@ -2819,7 +2819,7 @@ const section3: SectionContent = {
           "heading": "the dollar thresholds — and why they don't apply to you",
           "paras": [
             {
-              "html": "For banks, SARs kick in at dollar lines: insider abuse in <b>any</b> amount, criminal violations of $5,000 or more when a suspect is known, and $25,000 or more even when no suspect is. But for <b>mortgage</b> lenders and brokers, there is no dollar floor at all — a mortgage professional must file a SAR for <b>any</b> suspicious activity, regardless of the amount. The one carve-out: a person selling their own property and arranging its financing is exempt from filing."
+              "html": "For banks, SARs kick in at dollar lines: insider abuse in <b>any</b> amount, criminal violations of <span class=\"cloze\" data-accept='[\"$5,000\",\"5000\",\"5,000\",\"five thousand\"]' data-reveal=\"$5,000\">?</span> or more when a suspect is known, and $25,000 or more even when no suspect is. But for <b>mortgage</b> lenders and brokers, there is no dollar floor at all — a mortgage professional must file a SAR for <b>any</b> suspicious activity, regardless of the amount. The one carve-out: a person selling their own property and arranging its financing is exempt from filing."
             }
           ],
           "synth": {
@@ -3032,7 +3032,7 @@ const section3: SectionContent = {
           "heading": "the deal: notice and opt-out",
           "paras": [
             {
-              "html": "Before a financial institution shares your NPI with a <b>nonaffiliated third party</b> — an outside company it doesn't own or control — it must first tell you clearly that it may, and give you a real chance to <b>opt out</b> and stop it. There are practical exceptions: it can share NPI to get the deal done (ordering your title report) or under a joint marketing agreement without an opt-out. But it can <b>never</b> hand your account number to an outside company for that company's telemarketing or mail marketing."
+              "html": "Before a financial institution shares your NPI with a <span class=\"cloze\" data-accept='[\"nonaffiliated third party\",\"non-affiliated third party\",\"nonaffiliated third-party\"]' data-reveal=\"nonaffiliated third party\">?</span> — an outside company it doesn't own or control — it must first tell you clearly that it may, and give you a real chance to <b>opt out</b> and stop it. There are practical exceptions: it can share NPI to get the deal done (ordering your title report) or under a joint marketing agreement without an opt-out. But it can <b>never</b> hand your account number to an outside company for that company's telemarketing or mail marketing."
             }
           ],
           "synth": {
@@ -3650,7 +3650,7 @@ const section3: SectionContent = {
           "heading": "knowing exactly who you're lending to",
           "paras": [
             {
-              "html": "The PATRIOT Act's centerpiece for lenders is the <b>Customer Identification Program (CIP)</b> — the formal routine for proving an applicant is who they claim to be. Every institution must verify and record the identity of anyone opening an account or applying for a loan, post a notice in its lobby that it will ask for identification, and check applicants against government <b>watch lists</b> of known or suspected terrorists. Someone already verified as an existing customer doesn't have to prove their identity again."
+              "html": "The PATRIOT Act's centerpiece for lenders is the <span class=\"cloze\" data-accept='[\"Customer Identification Program\",\"CIP\",\"Customer Identification Program (CIP)\"]' data-reveal=\"Customer Identification Program (CIP)\">?</span> — the formal routine for proving an applicant is who they claim to be. Every institution must verify and record the identity of anyone opening an account or applying for a loan, post a notice in its lobby that it will ask for identification, and check applicants against government <b>watch lists</b> of known or suspected terrorists. Someone already verified as an existing customer doesn't have to prove their identity again."
             }
           ],
           "synth": {
@@ -3865,7 +3865,7 @@ const section3: SectionContent = {
           "heading": "final termination",
           "paras": [
             {
-              "html": "The third exit is a backstop for a loan that never reaches the LTV triggers — say the borrower fell behind. At the <b>midpoint</b> of the loan's amortization period (halfway through the scheduled term), PMI must come off <b>regardless of payment status</b>. It's the guarantee that PMI can't run the entire life of the loan. Final termination is the one exit that doesn't apply to high-risk loans."
+              "html": "The third exit is a backstop for a loan that never reaches the LTV triggers — say the borrower fell behind. At the <span class=\"cloze\" data-accept='[\"midpoint\",\"mid-point\",\"halfway point\",\"halfway\"]' data-reveal=\"midpoint\">?</span> of the loan's amortization period (halfway through the scheduled term), PMI must come off <b>regardless of payment status</b>. It's the guarantee that PMI can't run the entire life of the loan. Final termination is the one exit that doesn't apply to high-risk loans."
             }
           ]
         },
@@ -4007,7 +4007,7 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "In the mid-2000s, lenders handed out mortgages to people who plainly couldn't afford them — low teaser rates that would jump, almost no check on whether the borrower could pay the higher payment — then bundled those loans and sold them off. When the rates reset and home values fell, borrowers couldn't pay and couldn't refinance, and foreclosures hit at a scale the country had never seen. <b>Dodd-Frank</b>, the Wall Street Reform and Consumer Protection Act, is the 2010 response to that collapse. Nearly every mortgage rule in it is a fix for a specific thing that broke."
+              "html": "In the mid-2000s, lenders handed out mortgages to people who plainly couldn't afford them — low teaser rates that would jump, almost no check on whether the borrower could pay the higher payment — then bundled those loans and sold them off. When the rates reset and home values fell, borrowers couldn't pay and couldn't refinance, and foreclosures hit at a scale the country had never seen. <b>Dodd-Frank</b>, the Wall Street Reform and Consumer Protection Act, is the <span class=\"cloze\" data-accept='[\"2010\",\"twenty ten\",\"two thousand ten\"]' data-reveal=\"2010\">?</span> response to that collapse. Nearly every mortgage rule in it is a fix for a specific thing that broke."
             }
           ]
         },
@@ -4047,7 +4047,7 @@ const section3: SectionContent = {
           "heading": "what ability-to-repay weighs",
           "paras": [
             {
-              "html": "ATR isn't a gut call; it's a checklist of verified facts. The creditor must consider the borrower's income, employment status, credit history, current debts and obligations, and either the <b>debt-to-income ratio</b> or the residual income left after paying the bills — plus assets other than the home itself. Crucially, the payment used in the math has to be a <b>fully amortizing</b> one: for a teaser-rate ARM, interest-only, or negative-amortization loan, the lender must qualify the borrower on the real, higher payment, not the low introductory one. That single requirement is what would have stopped the crisis loans."
+              "html": "ATR isn't a gut call; it's a checklist of verified facts. The creditor must consider the borrower's income, employment status, credit history, current debts and obligations, and either the <b>debt-to-income ratio</b> or the residual income left after paying the bills — plus assets other than the home itself. Crucially, the payment used in the math has to be a <span class=\"cloze\" data-accept='[\"fully amortizing\",\"fully-amortizing\",\"fully amortized\"]' data-reveal=\"fully amortizing\">?</span> one: for a teaser-rate ARM, interest-only, or negative-amortization loan, the lender must qualify the borrower on the real, higher payment, not the low introductory one. That single requirement is what would have stopped the crisis loans."
             }
           ],
           "synth": {
@@ -4059,7 +4059,7 @@ const section3: SectionContent = {
           "heading": "the safe loan: the Qualified Mortgage",
           "paras": [
             {
-              "html": "To give lenders a clear lane, Dodd-Frank defined the <b>Qualified Mortgage (QM)</b> — a loan built to meet the ability-to-repay standard by design, without the riskiest features. A QM is <b>presumed</b> to satisfy ATR; the loan is treated as having considered the borrower's ability to repay. It's the safe harbor that rewards writing the sound loan instead of the exotic one."
+              "html": "To give lenders a clear lane, Dodd-Frank defined the <b>Qualified Mortgage (QM)</b> — a loan built to meet the ability-to-repay standard by design, without the riskiest features. To qualify, a QM caps the borrower's back-end debt-to-income ratio at <span class=\"cloze\" data-accept='[\"43%\",\"43\",\"forty-three percent\",\"forty-three\"]' data-reveal=\"43%\">?</span> and its points and fees at <span class=\"cloze\" data-accept='[\"3%\",\"3\",\"three percent\"]' data-reveal=\"3%\">?</span> of the loan amount, and bars the toxic features that fueled the crisis — negative amortization, interest-only payments, and balloon payments — with a term no longer than 30 years. A QM is <b>presumed</b> to satisfy ATR; the loan is treated as having considered the borrower's ability to repay. It's the safe harbor that rewards writing the sound loan instead of the exotic one."
             }
           ]
         },
