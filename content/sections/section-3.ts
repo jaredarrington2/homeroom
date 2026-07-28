@@ -64,7 +64,7 @@ const section3: SectionContent = {
           },
           "paras": [
             {
-              "html": "RESPA applies only to <b>consumer mortgages</b>. It doesn't apply to a loan for a laundromat, an office building, or a stretch of raw land — those are business deals, and the law assumes a commercial borrower can look after itself. Two edges trip people up: a temporary bridge loan keeps its exemption only while its term stays short — a year or less — and vacant land is exempt unless construction starts within <span class=\"cloze\" data-accept='[\"two years\",\"2 years\",\"2\",\"two\"]' data-reveal=\"two years\">?</span>. So a bridge loan crosses back under RESPA the moment its term runs longer than <span class=\"cloze\" data-accept='[\"12 months\",\"12 month\",\"12\",\"twelve\",\"twelve months\",\"a year\",\"one year\"]' data-reveal=\"12 months\">?</span>."
+              "html": "RESPA applies only to <b>consumer mortgages</b>. It doesn't apply to a loan for a laundromat, an office building, or a stretch of raw land — those are business deals, and the law assumes a commercial borrower can look after itself. Two edges carry exceptions: a temporary bridge loan keeps its exemption only while its term stays short — a year or less — and vacant land is exempt unless construction starts within <span class=\"cloze\" data-accept='[\"two years\",\"2 years\",\"2\",\"two\"]' data-reveal=\"two years\">?</span>. So a bridge loan crosses back under RESPA the moment its term runs longer than <span class=\"cloze\" data-accept='[\"12 months\",\"12 month\",\"12\",\"twelve\",\"twelve months\",\"a year\",\"one year\"]' data-reveal=\"12 months\">?</span>."
             }
           ]
         },
@@ -135,7 +135,7 @@ const section3: SectionContent = {
           "visual": "lifecycle-timeline",
           "paras": [
             {
-              "html": "RESPA's disclosure deadlines use three different definitions of \"day,\" and the exam tests whether you can tell them apart."
+              "html": "RESPA's disclosure deadlines use three different definitions of \"day.\""
             },
             {
               "html": "A <b>calendar day</b> is every day — weekends, holidays, all of them. When a rule says \"60 calendar days,\" count every square on the calendar."
@@ -337,7 +337,7 @@ const section3: SectionContent = {
           "heading": "escrow shortage, surplus, and deficiency",
           "paras": [
             {
-              "html": "These three terms describe different problems, and the exam tests each one separately. A <strong>shortage</strong> means the account has less money than it needs to cover upcoming disbursements. A <strong>surplus</strong> (overage) means the account has more than it needs. A <strong>deficiency</strong> means the account balance is negative — the servicer has already paid out more than the account held. A deficiency is independent of a shortage or surplus."
+              "html": "These three terms describe different problems. A <strong>shortage</strong> means the account has less money than it needs to cover upcoming disbursements. A <strong>surplus</strong> (overage) means the account has more than it needs. A <strong>deficiency</strong> means the account balance is negative — the servicer has already paid out more than the account held. A deficiency is independent of a shortage or surplus."
             },
             {
               "html": "<strong>Shortage.</strong> If the shortage is less than one monthly escrow payment, the servicer has three options: allow it to exist and do nothing, require the borrower to repay it within <span class=\"cloze\" data-accept='[\"30 days\",\"30\",\"thirty\",\"thirty days\"]' data-reveal=\"30 days\">?</span>, or spread repayment over at least 12 months interest-free. If the shortage is equal to or greater than one monthly escrow payment, only two options remain: do nothing, or spread repayment over at least <span class=\"cloze\" data-accept='[\"12 months\",\"12\",\"twelve months\"]' data-reveal=\"12 months\">?</span> interest-free. The 30-day lump-sum demand is not available for larger shortages."
@@ -687,7 +687,7 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "A lender can turn you down — what it can't do is turn you down for who you are. <b>ECOA</b>, enacted in <span class=\"cloze\" data-accept='[\"1974\",\"nineteen seventy-four\"]' data-reveal=\"1974\">?</span> and implemented through <b>Regulation B</b>, makes it illegal to base any credit decision on a prohibited basis. Unlike the Fair Housing Act, ECOA isn't limited to real estate — it covers <b>all forms of lending</b>. The full list of prohibited bases under § 1002.4(a) runs to <span class=\"cloze\" data-accept='[\"11\",\"eleven\",\"11 items\",\"eleven items\"]' data-reveal=\"11 items\">?</span>: race, color, nationality, sex (including gender, sexual orientation, and sexual identity), religion, marital status, age (with an exception for capacity to contract), participation in a credit counseling program, income earned through public assistance, prior exercise of rights under consumer credit protection laws, and <span class=\"cloze\" data-accept='[\"intent to bear offspring\",\"intention to bear offspring\",\"childbearing\",\"intent to have children\"]' data-reveal=\"intent to bear offspring\">?</span>. The protection reaches further than the moment of denial: it's also a violation to <b>discourage</b> a reasonable person from even applying on one of those grounds, which means a lender can break the law before any application exists."
+              "html": "A lender can turn you down for plenty of reasons, but not for who you are. <b>ECOA</b>, enacted in <span class=\"cloze\" data-accept='[\"1974\",\"nineteen seventy-four\"]' data-reveal=\"1974\">?</span> and implemented through <b>Regulation B</b>, makes it illegal to base any credit decision on a prohibited basis. Unlike the Fair Housing Act, ECOA isn't limited to real estate — it covers <b>all forms of lending</b>. The full list of prohibited bases under § 1002.4(a) runs to <span class=\"cloze\" data-accept='[\"11\",\"eleven\",\"11 items\",\"eleven items\"]' data-reveal=\"11 items\">?</span>: race, color, nationality, sex (including gender, sexual orientation, and sexual identity), religion, marital status, age (with an exception for capacity to contract), participation in a credit counseling program, income earned through public assistance, prior exercise of rights under consumer credit protection laws, and <span class=\"cloze\" data-accept='[\"intent to bear offspring\",\"intention to bear offspring\",\"childbearing\",\"intent to have children\"]' data-reveal=\"intent to bear offspring\">?</span>. The protection reaches further than the moment of denial: it's also a violation to <b>discourage</b> a reasonable person from even applying on one of those grounds, which means a lender can break the law before any application exists."
             }
           ]
         },
@@ -764,7 +764,7 @@ const section3: SectionContent = {
           "heading": "testing and self-testing",
           "paras": [
             {
-              "html": "A state or federal examiner may approach an MLO posing as a customer or referral source to test compliance — fail, and legal consequences follow. A <b>self-test</b> is the company's own version: a program or study designed to measure the extent of its compliance with ECOA. If a self-test turns up a likely violation — the standard is <b>more likely than not</b>, even without formal adjudication — the company must report the failure to the relevant regulator and take <b>corrective action</b> that is reasonably likely to remedy both the cause and the effect. Corrective action means identifying the policies behind the violation, determining its scope, and assessing its extent. It may include both prospective and remedial relief. Taking corrective action is <span class=\"cloze\" data-accept='[\"not an admission\",\"not an admission that a violation occurred\",\"not an admission of violation\"]' data-reveal=\"not an admission that a violation occurred\">?</span>."
+              "html": "A state or federal examiner may approach an MLO posing as a customer or referral source to test compliance, and failing the test carries legal consequences. A <b>self-test</b> is the company's own version: a program or study designed to measure the extent of its compliance with ECOA. If a self-test turns up a likely violation — the standard is <b>more likely than not</b>, even without formal adjudication — the company must report the failure to the relevant regulator and take <b>corrective action</b> that is reasonably likely to remedy both the cause and the effect. Corrective action means identifying the policies behind the violation, determining its scope, and assessing its extent. It may include both prospective and remedial relief. Taking corrective action is <span class=\"cloze\" data-accept='[\"not an admission\",\"not an admission that a violation occurred\",\"not an admission of violation\"]' data-reveal=\"not an admission that a violation occurred\">?</span>."
             }
           ]
         },
@@ -1654,7 +1654,7 @@ const section3: SectionContent = {
           "heading": "who TRID covers",
           "paras": [
             {
-              "html": "TRID reaches most <b>closed-end consumer loans secured by real property</b> — an ordinary purchase or refinance mortgage. It leaves out a familiar handful: <b>home-equity lines of credit</b> (HELOCs), <b>reverse mortgages</b>, loans on a <b>mobile home not attached to real property</b>, and certain no-interest second mortgages used for down-payment assistance or rehab. A loan outside TRID falls back to the older disclosure forms. This is roughly the same consumer-versus-business line the other federal laws draw — TRID is built for the individual home borrower drowning in paperwork, not the sophisticated commercial one."
+              "html": "TRID reaches most <b>closed-end consumer loans secured by real property</b> — an ordinary purchase or refinance mortgage. It leaves out a familiar handful: <b>home-equity lines of credit</b> (HELOCs), <b>reverse mortgages</b>, loans on a <b>mobile home not attached to real property</b>, and certain no-interest second mortgages used for down-payment assistance or rehab. A loan outside TRID falls back to the older disclosure forms. This is roughly the same consumer-versus-business line the other federal laws draw — TRID is built for the individual home borrower, not the sophisticated commercial one."
             }
           ]
         },
@@ -1992,7 +1992,7 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "Most federal laws tell a lender how to make a loan. <b>HMDA</b> — the Home Mortgage Disclosure Act — tells lenders to <b>report</b> the loans they make, so regulators can see the whole pattern from above. It makes most mortgage lenders hand over data on every application and loan, sorted by geography and by the borrower's race, sex, and national origin. It sounds invasive until you know what it's watching for. HMDA passed in 1975 and runs through Regulation C, with the <span class=\"cloze\" data-accept='[\"CFPB\",\"Consumer Financial Protection Bureau\",\"the CFPB\",\"Bureau\"]' data-reveal=\"CFPB\">?</span> as its main enforcer."
+              "html": "<b>HMDA</b> — the Home Mortgage Disclosure Act — makes lenders <b>report</b> the loans they make rather than governing how they make them, so regulators can see the whole pattern from above. It makes most mortgage lenders hand over data on every application and loan, sorted by geography and by the borrower's race, sex, and national origin. It sounds invasive until you know what it's watching for. HMDA passed in 1975 and runs through Regulation C, with the <span class=\"cloze\" data-accept='[\"CFPB\",\"Consumer Financial Protection Bureau\",\"the CFPB\",\"Bureau\"]' data-reveal=\"CFPB\">?</span> as its main enforcer."
             }
           ]
         },
@@ -2623,7 +2623,7 @@ const section3: SectionContent = {
           "heading": "what a red flag looks like",
           "paras": [
             {
-              "html": "A <b>red flag</b> is a pattern that signals possible impersonation. The Guidelines give examples, and each makes sense once you picture the fraud behind it: an <b>alert from a credit bureau</b> or fraud-detection service; <b>suspicious documents</b> that look altered; <b>suspicious personal information</b>, like an address that doesn't match the file or a Social Security number that belongs to someone else; <b>unusual activity</b> on an existing account; or a <b>notice</b> from a customer, a victim, or law enforcement that theft may be underway. The rule expects staff to recognize these and act."
+              "html": "A <b>red flag</b> is a pattern that signals possible impersonation. The Guidelines give examples: an <b>alert from a credit bureau</b> or fraud-detection service; <b>suspicious documents</b> that look altered; <b>suspicious personal information</b>, like an address that doesn't match the file or a Social Security number that belongs to someone else; <b>unusual activity</b> on an existing account; or a <b>notice</b> from a customer, a victim, or law enforcement that theft may be underway. The rule expects staff to recognize these and act."
             }
           ],
           "synth": {
@@ -2852,7 +2852,7 @@ const section3: SectionContent = {
           "heading": "what a red flag looks like",
           "paras": [
             {
-              "html": "A <b>red flag</b> is anything that warrants a second look — not proof of a crime, just a reason to pay attention (everyone stays innocent until proven otherwise). In a loan file, common ones include cash deposits structured just under $10,000, documents with deletions or correction fluid, a Social Security number or address that doesn't match across the file, a cash-out refinance of a property the seller only just bought, or a buyer who already lives in the home they're supposedly purchasing. The rule isn't to accuse — it's to not ignore."
+              "html": "A <b>red flag</b> is anything that warrants a second look — not proof of a crime, just a reason to pay attention (everyone stays innocent until proven otherwise). In a loan file, common ones include cash deposits structured just under $10,000, documents with deletions or correction fluid, a Social Security number or address that doesn't match across the file, a cash-out refinance of a property the seller only just bought, or a buyer who already lives in the home they're supposedly purchasing. The job is to notice these, not to look past them."
             }
           ]
         }
@@ -3069,7 +3069,7 @@ const section3: SectionContent = {
           "heading": "what non-compliance costs",
           "paras": [
             {
-              "html": "GLBA's penalties are steep enough to take seriously. An institution can be fined up to <span class=\"cloze\" data-accept='[\"$100,000\",\"100000\",\"100,000\",\"one hundred thousand\"]' data-reveal=\"$100,000\">?</span> per violation, its officers and directors up to $10,000 each, and violations can carry imprisonment of up to five years, plus license revocation and the reputational hit that follows."
+              "html": "GLBA's penalties are steep. An institution can be fined up to <span class=\"cloze\" data-accept='[\"$100,000\",\"100000\",\"100,000\",\"one hundred thousand\"]' data-reveal=\"$100,000\">?</span> per violation, its officers and directors up to $10,000 each, and violations can carry imprisonment of up to five years, plus license revocation and the reputational hit that follows."
             }
           ]
         }
@@ -3247,7 +3247,7 @@ const section3: SectionContent = {
           "heading": "records and the price of breaking it",
           "paras": [
             {
-              "html": "Telemarketers must keep their scripts, ads, and sales records for at least 24 months. And the rule has teeth: as of 2024, a TSR violation carries a fine of up to <span class=\"cloze\" data-accept='[\"$51,744\",\"51744\",\"51,744\"]' data-reveal=\"$51,744\">?</span> per violation — a number that ratchets up with inflation — it's the per-call scale that matters, not the exact figure."
+              "html": "Telemarketers must keep their scripts, ads, and sales records for at least 24 months. And the rule has teeth: as of 2024, a TSR violation carries a fine of up to <span class=\"cloze\" data-accept='[\"$51,744\",\"51744\",\"51,744\"]' data-reveal=\"$51,744\">?</span> per violation — a number that ratchets up with inflation each year."
             }
           ]
         }
@@ -3501,7 +3501,7 @@ const section3: SectionContent = {
           "heading": "what counts as a signature now",
           "paras": [
             {
-              "html": "E-Sign defines an <b>electronic signature</b> broadly: any electronic sound, symbol, or process attached to a record and adopted <b>with the intent to sign</b>. A typed name, a clicked \"I agree,\" a drawn signature on a pad — any of them can bind, as long as the person meant it as their signature. The Act's key promise is that a contract or signature <b>can't be denied legal effect</b> just because it's electronic. Intent is what makes it a signature, not paper."
+              "html": "E-Sign defines an <b>electronic signature</b> broadly: any electronic sound, symbol, or process attached to a record and adopted <b>with the intent to sign</b>. A typed name, a clicked \"I agree,\" a drawn signature on a pad — any of them can bind, as long as the person meant it as their signature. The Act's key promise is that a contract or signature <b>can't be denied legal effect</b> just because it's electronic. Intent is what makes it a signature."
             }
           ]
         },
@@ -3667,7 +3667,7 @@ const section3: SectionContent = {
           "heading": "the mortgage identity steps",
           "paras": [
             {
-              "html": "For a mortgage, the CIP has a concrete sequence. At application, the lender gives every applicant the <b>Patriot Act Information Disclosure</b>, explaining that identification is required. Then, for anyone not already a customer, the loan originator must collect a valid, <b>government-issued photo ID</b> whose picture clearly resembles the person presenting it — and attest, <b>under penalty of law</b>, that identity was verified as the Act requires. Getting this wrong isn't a paperwork slip; the attestation carries legal weight."
+              "html": "For a mortgage, the CIP has a concrete sequence. At application, the lender gives every applicant the <b>Patriot Act Information Disclosure</b>, explaining that identification is required. Then, for anyone not already a customer, the loan originator must collect a valid, <b>government-issued photo ID</b> whose picture clearly resembles the person presenting it — and attest, <b>under penalty of law</b>, that identity was verified as the Act requires. The attestation carries legal weight."
             }
           ]
         },
@@ -3846,7 +3846,7 @@ const section3: SectionContent = {
           "heading": "cancellation by request",
           "paras": [
             {
-              "html": "The first exit is the borrower's to take. Once the loan reaches 80% LTV, you can <b>request</b> that the servicer cancel PMI — but you have to earn it. You need a <b>good payment history</b>, no subordinate liens on the property (a second mortgage disqualifies you), and usually <span class=\"cloze\" data-accept='[\"appraisal\",\"an appraisal\",\"new appraisal\",\"current appraisal\"]' data-reveal=\"an appraisal\">?</span> you pay for to prove the value supports the 80%. Meet all three and the servicer removes the PMI."
+              "html": "The first exit is the borrower's to take. Once the loan reaches 80% LTV, you can <b>request</b> that the servicer cancel PMI — but you have to earn it. You need a <b>good payment history</b>, no subordinate liens on the property (a second mortgage disqualifies you), and usually <span class=\"cloze\" data-accept='[\"appraisal\",\"an appraisal\",\"new appraisal\",\"current appraisal\"]' data-reveal=\"an appraisal\">?</span> you pay for to prove the value supports the 80%. When all three are met, the servicer removes the PMI."
             }
           ]
         },
@@ -4052,7 +4052,7 @@ const section3: SectionContent = {
           "heading": "what ability-to-repay weighs",
           "paras": [
             {
-              "html": "ATR isn't a gut call; it's a checklist of verified facts. The creditor must consider the borrower's income, employment status, credit history, current debts and obligations, and either the <b>debt-to-income ratio</b> or the residual income left after paying the bills — plus assets other than the home itself. Crucially, the payment used in the math has to be a <span class=\"cloze\" data-accept='[\"fully amortizing\",\"fully-amortizing\",\"fully amortized\"]' data-reveal=\"fully amortizing\">?</span> one: for a teaser-rate ARM, interest-only, or negative-amortization loan, the lender must qualify the borrower on the real, higher payment, not the low introductory one. That single requirement is what would have stopped the crisis loans."
+              "html": "ATR is a checklist of verified facts. The creditor must consider the borrower's income, employment status, credit history, current debts and obligations, and either the <b>debt-to-income ratio</b> or the residual income left after paying the bills — plus assets other than the home itself. Crucially, the payment used in the math has to be a <span class=\"cloze\" data-accept='[\"fully amortizing\",\"fully-amortizing\",\"fully amortized\"]' data-reveal=\"fully amortizing\">?</span> one: for a teaser-rate ARM, interest-only, or negative-amortization loan, the lender must qualify the borrower on the real, higher payment, not the low introductory one. That single requirement is what would have stopped the crisis loans."
             }
           ],
           "synth": {
