@@ -80,16 +80,16 @@ const section3: SectionContent = {
               "html": "<span class=\"cloze\" data-accept='[\"Section 8\",\"section 8\",\"8\"]' data-reveal=\"Section 8\">?</span> of RESPA is the anti-kickback rule. It prohibits the exchange of <em>anything of value</em> between actual or potential referral sources in connection with a federally related mortgage loan. If real estate professionals can earn rewards for steering borrowers to specific service providers, the borrower's interests stop driving the referral — the reward does."
             },
             {
-              "html": "The prohibition runs in both directions: no person may <em>give</em> and no person may <em>accept</em> any fee, kickback, or other thing of value tied to the referral of settlement service business. A referral itself is not a compensable service — a company cannot pay another company, or another company's employees, simply for sending business its way."
+              "html": "The prohibition runs in both directions: no person may <em>give</em> and no person may <span class=\"cloze\" data-accept='[\"accept\",\"receive\"]' data-reveal=\"accept\">?</span> any fee, kickback, or other thing of value tied to the referral of settlement service business. A referral itself is not a compensable service — a company cannot pay another company, or another company's employees, simply for sending business its way."
             },
             {
-              "html": "The same principle blocks fee-splitting for work not performed. No one may give or accept any portion, split, or percentage of a charge for rendering a settlement service unless it's for services <em>actually performed</em>. A charge for which no real work — or only nominal work — is done is an unearned fee and a violation. Duplicative charges for the same service are also unearned fees."
+              "html": "The same principle blocks fee-splitting for work not performed. No one may give or accept any portion, split, or percentage of a charge for rendering a settlement service unless it's for services <span class=\"cloze\" data-accept='[\"actually performed\",\"performed\",\"actually\"]' data-reveal=\"actually performed\">?</span>. A charge for which no real work — or only nominal work — is done is an unearned fee and a violation. Duplicative charges for the same service are also unearned fees."
             },
             {
               "html": "RESPA defines \"thing of value\" broadly: money, discounts, commissions, stock, dividends, partnership distributions, franchise royalties, future credits, the opportunity to participate in a money-making program, trips, payment of another person's expenses, services at special or free rates, sales or rentals at special prices, and lease payments tied to referral volume. The term \"payment\" is synonymous with giving or receiving any thing of value — it does not require the transfer of money."
             },
             {
-              "html": "An agreement to refer business doesn't have to be written or even spoken. A practice, pattern, or course of conduct can establish it. When something of value is received repeatedly and is connected in any way to the volume or value of the business referred, that pattern is evidence of an agreement."
+              "html": "An agreement to refer business doesn't have to be <span class=\"cloze\" data-accept='[\"written\",\"in writing\"]' data-reveal=\"written\">?</span> or even spoken. A practice, pattern, or course of conduct can establish it. When something of value is received repeatedly and is connected in any way to the volume or value of the business referred, that pattern is evidence of an agreement."
             }
           ]
         },
@@ -184,10 +184,10 @@ const section3: SectionContent = {
               "html": "An <em>affiliated business arrangement</em> exists when someone in a position to refer settlement-related business has a direct ownership interest of more than <span class=\"cloze\" data-accept='[\"1%\",\"one percent\",\"1 percent\"]' data-reveal=\"1%\">?</span> in a settlement service provider and either refers business to that provider or influences its selection."
             },
             {
-              "html": "The term <em>associate</em> covers a spouse, parent, or child of the referring person; a corporation or business that controls, is controlled by, or shares common control with them; an employer, officer, director, partner, franchisor, or franchisee; or anyone with an agreement whose purpose or practical effect is to let the referring person benefit financially from the referrals."
+              "html": "The term <span class=\"cloze\" data-accept='[\"associate\",\"an associate\"]' data-reveal=\"associate\">?</span> covers a spouse, parent, or child of the referring person; a corporation or business that controls, is controlled by, or shares common control with them; an employer, officer, director, partner, franchisor, or franchisee; or anyone with an agreement whose purpose or practical effect is to let the referring person benefit financially from the referrals."
             },
             {
-              "html": "When a borrower is referred to a third-party settlement service provider and an affiliate or associate relationship exists, the referrer must issue an Affiliated Business Arrangement Disclosure (ABAD) — either at the moment of referral or, if a mortgage application is involved, within three business days. The ABAD must disclose the nature of the relationship and ownership interest, the estimated range of costs the borrower can expect, and the borrower's right to use a different provider unless the service falls into an exempt category (appraiser, credit repository, lender attorney, mortgage insurance company, flood search, or tax search)."
+              "html": "When a borrower is referred to a third-party settlement service provider and an affiliate or associate relationship exists, the referrer must issue an Affiliated Business Arrangement Disclosure (<span class=\"cloze\" data-accept='[\"abad\"]' data-reveal=\"ABAD\">?</span>) — either at the moment of referral or, if a mortgage application is involved, within three business days. The ABAD must disclose the nature of the relationship and ownership interest, the estimated range of costs the borrower can expect, and the borrower's right to use a different provider unless the service falls into an exempt category (appraiser, credit repository, lender attorney, mortgage insurance company, flood search, or tax search)."
             },
             {
               "html": "Lenders must retain copies of all ABADs and supporting documentation for at least five years from execution."
@@ -203,13 +203,13 @@ const section3: SectionContent = {
           "anchor": { "file": "mannequin-briefcase-money-transparent.png", "caption": "empty suit", "kind": "char" },
           "paras": [
             {
-              "html": "An affiliated business arrangement is legal — RESPA allows it as long as the disclosure happens. The risk is when someone sets up a shell company that <em>looks</em> like an affiliated business but exists only to funnel referral fees. That's a sham arrangement, and it violates RESPA's anti-kickback provisions."
+              "html": "An affiliated business arrangement is legal — RESPA allows it as long as the disclosure happens. The risk is when someone sets up a shell company that <em>looks</em> like an affiliated business but exists only to funnel referral fees. That's a <span class=\"cloze\" data-accept='[\"sham\",\"a sham\",\"sham arrangement\"]' data-reveal=\"sham\">?</span> arrangement, and it violates RESPA's anti-kickback provisions."
             },
             {
               "html": "The scheme works like this: a loan officer or real estate agent creates a title company, appraisal firm, or other settlement service provider. On paper, it's a separate business. In practice, it has no real employees, no real office, and no real operations — it exists to receive referrals from its owner and pass the actual work to a third party while skimming a fee."
             },
             {
-              "html": "In 1996, HUD published a ten-factor test for identifying sham arrangements. A federal court later ruled the test doesn't carry the force of law, but the factors remain useful as red flags. They all ask variations of one question: is this entity a real, functioning business?"
+              "html": "In <span class=\"cloze\" data-accept='[\"1996\"]' data-reveal=\"1996\">?</span>, HUD published a ten-factor test for identifying sham arrangements. A federal court later ruled the test doesn't carry the force of law, but the factors remain useful as red flags. They all ask variations of one question: is this entity a real, functioning business?"
             },
             {
               "html": "The ten factors fall into three clusters. <strong>Does it operate independently?</strong> A real business has its own capital, its own employees, its own office, and controls its own affairs. <strong>Does it do real work?</strong> A real business performs the services it advertises rather than contracting them out and charging a markup for routing the paperwork. <strong>Does it compete for business?</strong> A real business serves multiple clients and competes in the open market — not just one referral source."
@@ -224,7 +224,7 @@ const section3: SectionContent = {
           "heading": "homeownership counseling disclosure",
           "paras": [
             {
-              "html": "Within three precise business days of a mortgage application, the lender or mortgage broker must issue a Homeownership Counseling Disclosure describing the benefits of independent, third-party homeownership counseling. Two loan types are exempt: reverse mortgages (which have their own separate counseling notice) and timeshare plans."
+              "html": "Within three precise business days of a mortgage application, the lender or mortgage broker must issue a <span class=\"cloze\" data-accept='[\"homeownership counseling disclosure\",\"homeownership counseling\",\"counseling disclosure\"]' data-reveal=\"Homeownership Counseling Disclosure\">?</span> describing the benefits of independent, third-party homeownership counseling. Two loan types are exempt: reverse mortgages (which have their own separate counseling notice) and <span class=\"cloze\" data-accept='[\"timeshare plans\",\"timeshare\",\"timeshares\",\"timeshare plan\"]' data-reveal=\"timeshare plans\">?</span>."
             },
             {
               "html": "The disclosure must be issued regardless of whether the loan requires the borrower to complete counseling — the point is to make sure every applicant knows the option exists. It must list at least <span class=\"cloze\" data-accept='[\"10\",\"ten\"]' data-reveal=\"10\">?</span> HUD-approved counseling agencies located as close as possible to the borrower's current zip code."
@@ -272,10 +272,10 @@ const section3: SectionContent = {
               "html": "The analysis checks two things: that the account holds enough to cover each anticipated disbursement on the date it falls due, and that the monthly escrow contribution collects exactly <span class=\"cloze\" data-accept='[\"1/12\",\"one twelfth\",\"one-twelfth\"]' data-reveal=\"1/12\">?</span> of the projected annual total."
             },
             {
-              "html": "The resulting annual statement looks in both directions. Looking back: the prior year's monthly payment and escrow portion, the total paid into the account, the total paid out by category (taxes itemized separately from insurance), and the ending balance. Looking forward: the servicer's projected disbursements for the coming year."
+              "html": "The resulting annual statement looks in both directions. Looking back: the prior year's monthly payment and escrow portion, the total paid into the account, the total paid out by category (taxes itemized separately from insurance), and the ending balance. Looking forward: the servicer's <span class=\"cloze\" data-accept='[\"projected disbursements\",\"disbursements\",\"projected\"]' data-reveal=\"projected disbursements\">?</span> for the coming year."
             },
             {
-              "html": "The statement must also account for gaps between plan and reality. A surplus — money left over — gets explained: how the servicer is handling it, typically a refund or credit toward future payments. A shortage or deficiency gets explained: how the borrower is expected to make it up. If the account's actual low balance differed from the prior year's projection, the statement must say why."
+              "html": "The statement must also account for gaps between plan and reality. A <span class=\"cloze\" data-accept='[\"surplus\"]' data-reveal=\"surplus\">?</span> — money left over — gets explained: how the servicer is handling it, typically a refund or credit toward future payments. A shortage or deficiency gets explained: how the borrower is expected to make it up. If the account's actual low balance differed from the prior year's projection, the statement must say why."
             }
           ],
           "synth": {
@@ -294,10 +294,10 @@ const section3: SectionContent = {
               "html": "The releasing servicer must send a \"goodbye letter\" no later than <span class=\"cloze\" data-accept='[\"15 calendar days\",\"15 days\",\"15\"]' data-reveal=\"15 calendar days\">?</span> <em>before</em> the transfer date. It must state when the transfer takes effect, provide the new servicer's name, address, and contact information, and confirm that the transfer does not change any term or condition of the loan."
             },
             {
-              "html": "The receiving servicer must send a \"welcome letter\" no later than 15 calendar days <em>after</em> the transfer date, repeating the same information: effective date, contact details, and the assurance that no loan terms have changed."
+              "html": "The receiving servicer must send a \"<span class=\"cloze\" data-accept='[\"welcome letter\",\"welcome\"]' data-reveal=\"welcome letter\">?</span>\" no later than 15 calendar days <em>after</em> the transfer date, repeating the same information: effective date, contact details, and the assurance that no loan terms have changed."
             },
             {
-              "html": "During the 60-calendar-day period beginning on the transfer date, the new servicer cannot charge late fees or report late payments to credit bureaus if the borrower accidentally sends payment to the old servicer. Once the 60 days pass, any remaining delinquency is treated normally."
+              "html": "During the 60-calendar-day period beginning on the transfer date, the new servicer cannot charge <span class=\"cloze\" data-accept='[\"late fees\",\"late fee\",\"a late fee\"]' data-reveal=\"late fees\">?</span> or report late payments to credit bureaus if the borrower accidentally sends payment to the old servicer. Once the 60 days pass, any remaining delinquency is treated normally."
             }
           ],
           "synth": {
@@ -309,13 +309,13 @@ const section3: SectionContent = {
           "heading": "escrow accounts",
           "paras": [
             {
-              "html": "An escrow account — also called an impound account — is a holding account built into the mortgage through which the servicer pays certain obligations on the borrower's behalf. Servicers prefer escrow accounts because they guarantee that homeowner's insurance and property taxes stay current. If either lapses, the servicer is exposed: an uninsured loss destroys its collateral, and a delinquent tax bill can trigger a tax sale that wipes out the mortgage lien entirely."
+              "html": "An escrow account — also called an <span class=\"cloze\" data-accept='[\"impound\",\"impound account\"]' data-reveal=\"impound\">?</span> account — is a holding account built into the mortgage through which the servicer pays certain obligations on the borrower's behalf. Servicers prefer escrow accounts because they guarantee that homeowner's insurance and property taxes stay current. If either lapses, the servicer is exposed: an uninsured loss destroys its collateral, and a delinquent tax bill can trigger a tax sale that wipes out the mortgage lien entirely."
             },
             {
               "html": "Escrow is mandatory in several situations. If a conventional loan requires private mortgage insurance (PMI), escrow for homeowner's insurance and property taxes is required. If the property sits in a flood zone requiring flood insurance, escrow for at least flood insurance and taxes is required. If the loan is a Higher-Priced Mortgage Loan (HPML), escrow for taxes and insurance is mandatory for no less than the loan's first <span class=\"cloze\" data-accept='[\"5 years\",\"five years\",\"5\"]' data-reveal=\"5 years\">?</span>. All government loans — FHA, VA, and USDA — mandate escrow for homeowner's insurance and taxes with no exception."
             },
             {
-              "html": "A borrower on a conventional loan can petition to eliminate escrow once PMI is no longer required. On an HPML, the borrower can petition at the later of five years or when PMI drops off."
+              "html": "A borrower on a conventional loan can petition to eliminate escrow once <span class=\"cloze\" data-accept='[\"pmi\",\"private mortgage insurance\"]' data-reveal=\"PMI\">?</span> is no longer required. On an HPML, the borrower can petition at the later of five years or when PMI drops off."
             }
           ]
         },
@@ -323,10 +323,10 @@ const section3: SectionContent = {
           "heading": "how escrow accounts work",
           "paras": [
             {
-              "html": "Each month, the servicer collects 1/12 of the anticipated annual disbursements along with the loan's principal and interest payment. The insurance company and tax authority bill the servicer directly, and the servicer disburses on the borrower's behalf. In states that require it, servicers must also pay interest to borrowers on the escrow balance."
+              "html": "Each month, the servicer collects 1/12 of the anticipated annual disbursements along with the loan's principal and interest payment. The insurance company and tax authority bill the servicer directly, and the servicer disburses on the borrower's behalf. In states that require it, servicers must also pay <span class=\"cloze\" data-accept='[\"interest\"]' data-reveal=\"interest\">?</span> to borrowers on the escrow balance."
             },
             {
-              "html": "At the end of each computation year, the servicer runs an escrow analysis to recalculate the monthly escrow payment for the next year. The servicer estimates upcoming disbursements based on the most recent previous payment of each type. The analysis also determines whether the account has a surplus, shortage, or deficiency, and the servicer adjusts accordingly."
+              "html": "At the end of each computation year, the servicer runs an <span class=\"cloze\" data-accept='[\"escrow analysis\",\"analysis\"]' data-reveal=\"escrow analysis\">?</span> to recalculate the monthly escrow payment for the next year. The servicer estimates upcoming disbursements based on the most recent previous payment of each type. The analysis also determines whether the account has a surplus, shortage, or deficiency, and the servicer adjusts accordingly."
             },
             {
               "html": "After the analysis sets the correct balance, the servicer is permitted to add a cushion — a buffer against unexpected increases — amounting to no more than <span class=\"cloze\" data-accept='[\"1/6\",\"one sixth\",\"one-sixth\"]' data-reveal=\"1/6\">?</span> of the anticipated annual disbursements."
@@ -411,13 +411,13 @@ const section3: SectionContent = {
               "html": "Discount points are upfront interest that a borrower pays at settlement to buy a lower interest rate than the market's current \"par\" rate. One discount point costs <span class=\"cloze\" data-accept='[\"1%\",\"one percent\",\"1 percent\"]' data-reveal=\"1%\">?</span> of the loan amount. Points can be purchased in increments as small as <span class=\"cloze\" data-accept='[\"1/8\",\"one eighth\",\"one-eighth\",\"0.125\",\"an eighth\"]' data-reveal=\"1/8\">?</span> of a percent."
             },
             {
-              "html": "On a $375,000 loan, one full point costs $3,750. Five-eighths of a point costs $2,343.75. One and three-quarter points costs $6,562.50. The math is always the loan amount multiplied by the point percentage."
+              "html": "On a $375,000 loan, one full point costs <span class=\"cloze\" data-accept='[\"3750\",\"3,750\",\"$3750\",\"$3,750\"]' data-reveal=\"$3,750\">?</span>. Five-eighths of a point costs $2,343.75. One and three-quarter points costs $6,562.50. The math is always the loan amount multiplied by the point percentage."
             },
             {
-              "html": "The number of points purchased does not correspond directly to the rate reduction — buying 1.5 points on a 6% par rate does not guarantee a 4.5% rate. Point pricing fluctuates just like interest rates. The loan originator accesses a pricing matrix that shows the specific rate reduction each point amount buys across available products."
+              "html": "The number of points purchased does not correspond directly to the rate reduction — buying 1.5 points on a 6% par rate does not guarantee a 4.5% rate. Point pricing fluctuates just like interest rates. The loan originator accesses a <span class=\"cloze\" data-accept='[\"pricing matrix\",\"matrix\"]' data-reveal=\"pricing matrix\">?</span> that shows the specific rate reduction each point amount buys across available products."
             },
             {
-              "html": "To help a borrower decide whether points make sense, calculate the break-even period: divide the cost of the points by the monthly payment reduction. If a borrower spends $2,000 on points and saves $40 per month, the break-even is 50 months — about four years and two months. If the borrower plans to stay in the home longer than that, the points may be worthwhile. If not, they may not be."
+              "html": "To help a borrower decide whether points make sense, calculate the break-even period: divide the cost of the points by the monthly payment reduction. If a borrower spends $2,000 on points and saves $40 per month, the break-even is <span class=\"cloze\" data-accept='[\"50 months\",\"50\",\"fifty months\"]' data-reveal=\"50 months\">?</span> — about four years and two months. If the borrower plans to stay in the home longer than that, the points may be worthwhile. If not, they may not be."
             },
             {
               "html": "Discount point costs may be tax-deductible, but a mortgage loan originator who is not a credentialed tax advisor should never give definitive tax advice. The compliant MLO refers tax questions to a qualified tax professional or the IRS."
@@ -432,7 +432,7 @@ const section3: SectionContent = {
           "heading": "the security instruments",
           "paras": [
             {
-              "html": "When a borrower finances a home, two documents create the obligation. The <strong>Promissory Note</strong> is the debt instrument — the borrower's promise to repay the loan under its stated terms. The <strong>Security Instrument</strong> creates a lien against the property, giving the lender the right to take ownership of the collateral if the borrower defaults. The type of security instrument determines the type of foreclosure."
+              "html": "When a borrower finances a home, two documents create the obligation. The <strong><span class=\"cloze\" data-accept='[\"promissory note\",\"note\",\"the note\"]' data-reveal=\"Promissory Note\">?</span></strong> is the debt instrument — the borrower's promise to repay the loan under its stated terms. The <strong>Security Instrument</strong> creates a <span class=\"cloze\" data-accept='[\"lien\"]' data-reveal=\"lien\">?</span> against the property, giving the lender the right to take ownership of the collateral if the borrower defaults. The type of security instrument determines the type of foreclosure."
             },
             {
               "html": "A <strong>Mortgage</strong> is one type of security instrument. A <strong>Deed of Trust</strong> (also called a Trust Deed) is the other. Which one is used depends on state law. The distinction matters because a Mortgage leads to judicial foreclosure and a Deed of Trust leads to <span class=\"cloze\" data-accept='[\"non-judicial foreclosure\",\"nonjudicial foreclosure\",\"non judicial foreclosure\"]' data-reveal=\"non-judicial foreclosure\">?</span>."
@@ -1398,13 +1398,13 @@ const section3: SectionContent = {
           "heading": "the three triggers",
           "paras": [
             {
-              "html": "Predatory lenders have three angles to take advantage of borrowers, so HOEPA puts a line of defense up for each. A loan that crosses the threshold on any of them becomes <b>high-cost</b> and automatically activates a set of non-negotiable protections."
+              "html": "Predatory lenders have three angles to take advantage of borrowers, so HOEPA puts a line of defense up for each. A loan that crosses the threshold on any of them becomes <b><span class=\"cloze\" data-accept='[\"high-cost\",\"high cost\",\"highcost\"]' data-reveal=\"high-cost\">?</span></b> and automatically activates a set of non-negotiable protections."
             },
             {
               "html": "<ul class='htrig'><li>The <b>rate</b> — charging far more interest than the loan is worth. <span class='measure'>Measured against what comparable loans are going for.</span><svg class='yard' viewBox='0 0 430 148' aria-hidden='true'><line x1='0' y1='120' x2='300' y2='120' stroke='#6B6B66' stroke-width='1'/><rect x='30' y='74' width='52' height='46' fill='#D9E0F2'/><rect x='30' y='58' width='52' height='16' fill='#1E3A8A'/><rect x='170' y='74' width='52' height='46' fill='#D9E0F2'/><rect x='170' y='18' width='52' height='56' fill='#B3261E'/><text x='230' y='48' fill='#B3261E'>interest</text><text x='230' y='100'>loan</text><text x='30' y='140'>average</text><text x='170' y='140'>this loan</text></svg></li><li>The <b>points and fees</b> — burying the cost in up-front charges so the rate looks reasonable. <span class='measure'>Measured against the size of the loan.</span><svg class='yard' viewBox='0 0 430 148' aria-hidden='true'><circle cx='85' cy='62' r='46' fill='#D9E0F2'/><path d='M85,62 L85.0,16.0 A46,46 0 0 1 96.4,17.4 Z' fill='#B3261E'/><circle cx='255' cy='62' r='46' fill='#D9E0F2'/><path d='M255,62 L255.0,16.0 A46,46 0 0 1 298.7,76.2 Z' fill='#B3261E'/><text x='312' y='40' fill='#B3261E'>up-front charges</text><text x='60' y='132'>average</text><text x='228' y='132'>this loan</text></svg></li><li>The <b>prepayment penalty</b> — charging the borrower to get out, so they can't refinance away from a bad loan. <span class='measure'>Measured by how much it takes, and how long after closing it can still be charged.</span></li></ul>"
             },
             {
-              "html": "HOEPA reaches consumer loans on a borrower's principal dwelling; it leaves out reverse mortgages, loans for a home's initial construction, loans where a state Housing Finance Agency is the creditor, and USDA Section 502 Direct loans."
+              "html": "HOEPA reaches consumer loans on a borrower's <span class=\"cloze\" data-accept='[\"principal dwelling\",\"primary residence\",\"principal residence\"]' data-reveal=\"principal dwelling\">?</span>; it leaves out <span class=\"cloze\" data-accept='[\"reverse mortgages\",\"reverse mortgage\",\"reverse\"]' data-reveal=\"reverse mortgages\">?</span>, loans for a home's initial construction, loans where a state Housing Finance Agency is the creditor, and USDA Section 502 Direct loans."
             }
           ]
         },
@@ -1634,7 +1634,7 @@ const section3: SectionContent = {
           "heading": "two forms, front and back",
           "paras": [
             {
-              "html": "The <b>Loan Estimate (LE)</b> comes first — the lender's early, good-faith quote of your rate, your monthly payment, and every closing cost, laid out so you can set two lenders' offers side by side and shop. The <b>Closing Disclosure (CD)</b> comes last — the final, binding accounting of the same items, the numbers you'll actually pay. The point of having both is that you can hold the CD up against the LE and see what moved. Everything else in TRID is about that gap: how fast each form has to reach you, and how far a fee is allowed to drift from the estimate to the final bill."
+              "html": "The <b><span class=\"cloze\" data-accept='[\"loan estimate\",\"le\",\"loan estimate (le)\"]' data-reveal=\"Loan Estimate (LE)\">?</span></b> comes first — the lender's early, good-faith quote of your rate, your monthly payment, and every closing cost, laid out so you can set two lenders' offers side by side and shop. The <b><span class=\"cloze\" data-accept='[\"closing disclosure\",\"cd\",\"closing disclosure (cd)\"]' data-reveal=\"Closing Disclosure (CD)\">?</span></b> comes last — the final, binding accounting of the same items, the numbers you'll actually pay. The point of having both is that you can hold the CD up against the LE and see what moved. Everything else in TRID is about that gap: how fast each form has to reach you, and how far a fee is allowed to drift from the estimate to the final bill."
             }
           ],
           "synth": {
@@ -1646,7 +1646,7 @@ const section3: SectionContent = {
           "heading": "the four forms it replaced",
           "paras": [
             {
-              "html": "Before TRID, four documents did this job: a <b>Good Faith Estimate</b> and an initial <b>Truth-in-Lending</b> statement up front, then a <b>HUD-1</b> settlement statement and a final Truth-in-Lending statement at the end. They overlapped, used inconsistent language, and were hard to line up — so an unscrupulous originator could hand out a Good Faith Estimate with intentionally lowballed fees to look cheaper than the competition, then reveal the real total on the HUD-1 as late as the morning of closing. Cornered at the table, the borrower usually just signed and paid. TRID collapsed those four into the LE and CD to end exactly that surprise."
+              "html": "Before TRID, four documents did this job: a <b><span class=\"cloze\" data-accept='[\"good faith estimate\",\"gfe\"]' data-reveal=\"Good Faith Estimate\">?</span></b> and an initial <b>Truth-in-Lending</b> statement up front, then a <b><span class=\"cloze\" data-accept='[\"hud-1\",\"hud 1\",\"hud1\"]' data-reveal=\"HUD-1\">?</span></b> settlement statement and a final Truth-in-Lending statement at the end. They overlapped, used inconsistent language, and were hard to line up — so an unscrupulous originator could hand out a Good Faith Estimate with intentionally lowballed fees to look cheaper than the competition, then reveal the real total on the HUD-1 as late as the morning of closing. Cornered at the table, the borrower usually just signed and paid. TRID collapsed those four into the LE and CD to end exactly that surprise."
             }
           ]
         },
@@ -1654,7 +1654,7 @@ const section3: SectionContent = {
           "heading": "who TRID covers",
           "paras": [
             {
-              "html": "TRID reaches most <b>closed-end consumer loans secured by real property</b> — an ordinary purchase or refinance mortgage. It leaves out a familiar handful: <b>home-equity lines of credit</b> (HELOCs), <b>reverse mortgages</b>, loans on a <b>mobile home not attached to real property</b>, and certain no-interest second mortgages used for down-payment assistance or rehab. A loan outside TRID falls back to the older disclosure forms. This is roughly the same consumer-versus-business line the other federal laws draw — TRID is built for the individual home borrower, not the sophisticated commercial one."
+              "html": "TRID reaches most <b>closed-end consumer loans secured by real property</b> — an ordinary purchase or refinance mortgage. It leaves out a familiar handful: <b>home-equity lines of credit</b> (<span class=\"cloze\" data-accept='[\"helocs\",\"heloc\",\"home equity lines of credit\",\"home-equity lines of credit\"]' data-reveal=\"HELOCs\">?</span>), <b><span class=\"cloze\" data-accept='[\"reverse mortgages\",\"reverse mortgage\",\"reverse\"]' data-reveal=\"reverse mortgages\">?</span></b>, loans on a <b>mobile home not attached to real property</b>, and certain no-interest second mortgages used for down-payment assistance or rehab. A loan outside TRID falls back to the older disclosure forms. This is roughly the same consumer-versus-business line the other federal laws draw — TRID is built for the individual home borrower, not the sophisticated commercial one."
             }
           ]
         },
@@ -2001,7 +2001,7 @@ const section3: SectionContent = {
           "illustration": { "file": "redlining-holc-map.jpg", "caption": "how neighborhoods got graded", "kind": "illus" },
           "paras": [
             {
-              "html": "For decades, lenders drew literal lines on maps — often red — around poor and majority-minority neighborhoods and refused to lend inside them, no matter how qualified the individual applicant. That practice is <b>redlining</b>: an institution avoiding whole areas, starving them of the mortgages that build wealth. One loan officer's decision looks innocent; the pattern across thousands of loans is where the discrimination shows. HMDA forces that pattern into the open — which is the honest answer to \"why does the government need the race of everyone I lend to.\" Not to police one loan, but to catch the map."
+              "html": "For decades, lenders drew literal lines on maps — often red — around poor and majority-minority neighborhoods and refused to lend inside them, no matter how qualified the individual applicant. That practice is <b><span class=\"cloze\" data-accept='[\"redlining\"]' data-reveal=\"redlining\">?</span></b>: an institution avoiding whole areas, starving them of the mortgages that build wealth. One loan officer's decision looks innocent; the pattern across thousands of loans is where the discrimination shows. HMDA forces that pattern into the open — which is the honest answer to \"why does the government need the race of everyone I lend to.\" Not to police one loan, but to catch the map."
             }
           ],
           "synth": {
@@ -2013,7 +2013,7 @@ const section3: SectionContent = {
           "heading": "what HMDA is for",
           "paras": [
             {
-              "html": "The reporting serves three purposes. It shows whether lenders are meeting the <b>housing needs of their communities</b>; it helps <b>public officials steer investment</b> toward areas that need it; and it helps <b>identify discriminatory lending</b> and enforce the laws against it. Everyone is entitled to <em>pursue</em> a mortgage on equal footing — HMDA isn't a promise that everyone qualifies, only that the door is open to everyone equally, and the data is how that's checked."
+              "html": "The reporting serves three purposes. It shows whether lenders are meeting the <b>housing needs of their communities</b>; it helps <b>public officials steer investment</b> toward areas that need it; and it helps <b>identify <span class=\"cloze\" data-accept='[\"discriminatory lending\",\"discrimination\",\"discriminatory\"]' data-reveal=\"discriminatory lending\">?</span></b> and enforce the laws against it. Everyone is entitled to <em>pursue</em> a mortgage on equal footing — HMDA isn't a promise that everyone qualifies, only that the door is open to everyone equally, and the data is how that's checked."
             }
           ]
         },
@@ -2021,7 +2021,7 @@ const section3: SectionContent = {
           "heading": "the register",
           "paras": [
             {
-              "html": "The data lands in one document: the <b>Loan/Application Register (LAR)</b>. Every covered application and loan becomes a row, filled with data points — the loan's purpose and amount, the outcome, the property's location, and the applicant's demographics. Bundled together and reported, the LAR is the raw material regulators sift for unfair patterns. Of everything on it, the <b>loan originator</b> is personally responsible for collecting one piece: the applicant's <b>race, national origin, and sex</b>."
+              "html": "The data lands in one document: the <b>Loan/Application Register (<span class=\"cloze\" data-accept='[\"lar\"]' data-reveal=\"LAR\">?</span>)</b>. Every covered application and loan becomes a row, filled with data points — the loan's purpose and amount, the outcome, the property's location, and the applicant's demographics. Bundled together and reported, the LAR is the raw material regulators sift for unfair patterns. Of everything on it, the <b>loan originator</b> is personally responsible for collecting one piece: the applicant's <b><span class=\"cloze\" data-accept='[\"race, national origin, and sex\",\"race national origin and sex\",\"race national origin sex\"]' data-reveal=\"race, national origin, and sex\">?</span></b>."
             }
           ]
         },
@@ -3493,7 +3493,7 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "For centuries the enforceable thing was ink on paper — a signature you could hold. When lending moved online, that raised a real question: is a click, or a typed name, actually binding? The <b>Electronic Signatures in Global and National Commerce Act (E-Sign Act)</b>, passed in 2000, answered yes. It gives electronic records and electronic signatures the same legal force as paper ones, so a mortgage can be signed and delivered entirely on a screen."
+              "html": "For centuries the enforceable thing was ink on paper — a signature you could hold. When lending moved online, that raised a real question: is a click, or a typed name, actually binding? The <b>Electronic Signatures in Global and National Commerce Act (E-Sign Act)</b>, passed in 2000, answered yes. It gives electronic records and electronic signatures the <span class=\"cloze\" data-accept='[\"same legal force\",\"legal force\",\"same force\",\"same legal effect\",\"equal legal force\"]' data-reveal=\"same legal force\">?</span> as paper ones, so a mortgage can be signed and delivered entirely on a screen."
             }
           ]
         },
@@ -3501,7 +3501,7 @@ const section3: SectionContent = {
           "heading": "what counts as a signature now",
           "paras": [
             {
-              "html": "E-Sign defines an <b>electronic signature</b> broadly: any electronic sound, symbol, or process attached to a record and adopted <b>with the intent to sign</b>. A typed name, a clicked \"I agree,\" a drawn signature on a pad — any of them can bind, as long as the person meant it as their signature. The Act's key promise is that a contract or signature <b>can't be denied legal effect</b> just because it's electronic. Intent is what makes it a signature."
+              "html": "E-Sign defines an <b>electronic signature</b> broadly: any electronic sound, symbol, or process attached to a record and adopted <b>with the <span class=\"cloze\" data-accept='[\"intent to sign\",\"intent\",\"intent to sign it\"]' data-reveal=\"intent to sign\">?</span></b>. A typed name, a clicked \"I agree,\" a drawn signature on a pad — any of them can bind, as long as the person meant it as their signature. The Act's key promise is that a contract or signature <b>can't be denied legal effect</b> just because it's electronic. Intent is what makes it a signature."
             }
           ]
         },
@@ -3509,7 +3509,7 @@ const section3: SectionContent = {
           "heading": "the consumer has to agree first",
           "paras": [
             {
-              "html": "Electronic delivery isn't something a lender can simply impose. If a law requires that information reach the consumer <em>in writing</em>, the lender may deliver it electronically only if the consumer has <b>affirmatively consented</b> to receive it that way and hasn't withdrawn that consent. Nobody can be forced to accept electronic records; the choice stays with the consumer."
+              "html": "Electronic delivery isn't something a lender can simply impose. If a law requires that information reach the consumer <em>in writing</em>, the lender may deliver it electronically only if the consumer has <b><span class=\"cloze\" data-accept='[\"affirmatively consented\",\"consented\",\"consent\",\"affirmative consent\",\"affirmatively consent\"]' data-reveal=\"affirmatively consented\">?</span></b> to receive it that way and hasn't withdrawn that consent. Nobody can be forced to accept electronic records; the choice stays with the consumer."
             }
           ]
         },
@@ -3517,7 +3517,7 @@ const section3: SectionContent = {
           "heading": "prove they can actually open it",
           "paras": [
             {
-              "html": "The heart of E-Sign is a step that's easy to miss: the consumer's consent has to <b>reasonably demonstrate that they can actually access</b> the electronic records in the format you'll use. In practice, the consumer consents (or confirms consent) electronically, in that same format — proving they can open the PDF you're about to bind them with before you rely on it. Consent given in a form the borrower can't actually read wouldn't count."
+              "html": "The heart of E-Sign is a step that's easy to miss: the consumer's consent has to <b><span class=\"cloze\" data-accept='[\"reasonably demonstrate\",\"demonstrate\",\"reasonably demonstrates\"]' data-reveal=\"reasonably demonstrate\">?</span> that they can actually access</b> the electronic records in the format you'll use. In practice, the consumer consents (or confirms consent) electronically, in that same format — proving they can open the PDF you're about to bind them with before you rely on it. Consent given in a form the borrower can't actually read wouldn't count."
             }
           ],
           "synth": {
