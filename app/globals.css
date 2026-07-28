@@ -2229,3 +2229,13 @@ a.cd-chapter-name:hover { color: #1E3A8A; }
 .hcalc-tab:hover { background: #FAF7EE; }
 .hcalc-tab-margin { top: 50%; transform: translateY(-50%); }
 .hcalc-tab-sheet { right: 16px; bottom: 16px; }
+
+/* HOEPA — "the three triggers" (design handoff): accessible content list with inline,
+   aria-hidden diagrams (interest bar + up-front-charges pie). Scoped under .htrig. */
+.htrig { list-style: none; margin: 0; padding: 0; }
+.htrig > li { position: relative; padding-left: 1.35rem; margin-bottom: 1.9rem; }
+.htrig > li:last-child { margin-bottom: 0; }
+.htrig > li::before { content: ""; position: absolute; left: 0; top: 0.62em; width: 7px; height: 7px; background: #1E3A8A; }
+.htrig .measure { color: #6B6B66; }
+.htrig .yard { display: block; width: 100%; max-width: 430px; margin: 0.7rem 0 0; height: auto; }
+.htrig .yard text { font-family: ui-monospace, monospace; font-size: 10.5px; fill: #6B6B66; }

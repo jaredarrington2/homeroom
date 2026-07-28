@@ -1368,7 +1368,7 @@ const section3: SectionContent = {
         {
           "paras": [
             {
-              "html": "Most of TILA sets the rules every mortgage follows. <b>HOEPA is a trap-door inside it.</b> When a loan's cost climbs past certain lines, the loan trips into a category called a <b>\"high-cost\" mortgage</b> and a wall of extra restrictions drops down on it. The point isn't to ban these loans — it's to make sure a borrower taking on an expensive, risky one was warned and advised first. HOEPA lives in TILA as <b>Section 32</b>, which is why you'll hear a high-cost loan called a \"Section 32 loan.\""
+              "html": "<b>HOEPA is a trap-door built into TILA.</b> When a loan's cost climbs past certain lines, it drops into a category called a <b>\"high-cost\" mortgage</b>, and a wall of extra restrictions comes down with it. HOEPA's job is to make sure anyone taking on one of these expensive, risky loans is warned and advised before they sign. It lives in TILA as <b>Section 32</b>, which is why you'll hear a high-cost loan called a \"Section 32 loan.\""
             }
           ]
         },
@@ -1395,11 +1395,16 @@ const section3: SectionContent = {
           }
         },
         {
-          "heading": "the three lines that make a loan high-cost",
-          "anchor": { "file": "house-of-cards-made-of-credit-cards-transparent.png", "caption": "cost stack", "kind": "char" },
+          "heading": "the three triggers",
           "paras": [
             {
-              "html": "A loan becomes high-cost the moment it crosses <b>any one</b> of three lines — you don't need all three, just one. The three watch the three places excess cost hides: the loan's <b>rate</b>, its <b>points and fees</b>, and its <b>prepayment penalty</b>. HOEPA reaches consumer loans on a borrower's principal dwelling; it leaves out reverse mortgages, loans for a home's initial construction, loans where a state Housing Finance Agency is the creditor, and USDA Section 502 Direct loans."
+              "html": "Predatory lenders have three angles to take advantage of borrowers, so HOEPA puts a line of defense up for each. A loan that crosses the threshold on any of them becomes <b>high-cost</b> and automatically activates a set of non-negotiable protections."
+            },
+            {
+              "html": "<ul class='htrig'><li>The <b>rate</b> — charging far more interest than the loan is worth. <span class='measure'>Measured against what comparable loans are going for.</span><svg class='yard' viewBox='0 0 430 148' aria-hidden='true'><line x1='0' y1='120' x2='300' y2='120' stroke='#6B6B66' stroke-width='1'/><rect x='30' y='74' width='52' height='46' fill='#D9E0F2'/><rect x='30' y='58' width='52' height='16' fill='#1E3A8A'/><rect x='170' y='74' width='52' height='46' fill='#D9E0F2'/><rect x='170' y='18' width='52' height='56' fill='#B3261E'/><text x='230' y='48' fill='#B3261E'>interest</text><text x='230' y='100'>loan</text><text x='30' y='140'>average</text><text x='170' y='140'>this loan</text></svg></li><li>The <b>points and fees</b> — burying the cost in up-front charges so the rate looks reasonable. <span class='measure'>Measured against the size of the loan.</span><svg class='yard' viewBox='0 0 430 148' aria-hidden='true'><circle cx='85' cy='62' r='46' fill='#D9E0F2'/><path d='M85,62 L85.0,16.0 A46,46 0 0 1 96.4,17.4 Z' fill='#B3261E'/><circle cx='255' cy='62' r='46' fill='#D9E0F2'/><path d='M255,62 L255.0,16.0 A46,46 0 0 1 298.7,76.2 Z' fill='#B3261E'/><text x='312' y='40' fill='#B3261E'>up-front charges</text><text x='60' y='132'>average</text><text x='228' y='132'>this loan</text></svg></li><li>The <b>prepayment penalty</b> — charging the borrower to get out, so they can't refinance away from a bad loan. <span class='measure'>Measured by how much it takes, and how long after closing it can still be charged.</span></li></ul>"
+            },
+            {
+              "html": "HOEPA reaches consumer loans on a borrower's principal dwelling; it leaves out reverse mortgages, loans for a home's initial construction, loans where a state Housing Finance Agency is the creditor, and USDA Section 502 Direct loans."
             }
           ]
         },
