@@ -31,13 +31,13 @@ const ALL_UNITS = section3.units;
 // Phonetic spellings for the ear only — the on-screen text stays the real acronym. Applied to
 // the spoken string right before TTS. RESPA="Ress-puh" is user-confirmed on Bryce/v2.
 const PRONUNCIATION: Array<[RegExp, string]> = [
-  [/\bRESPA\b/g, "Ress-puh"],
+  [/\bRESPA\b/g, "RESpa"],
   [/\bTILA\b/g, "Teela"],
   [/\bHOEPA\b/g, "Hoepa"],
   [/\bTRID\b/g, "Tridd"],
   [/\bHMDA\b/g, "Humda"],
   [/\bFACTA\b/g, "Facta"],
-  [/\bCFPB\b/g, "Seeyeff Pee Bee"],
+  [/\bCFPB\b/g, "C-F-P-B"],
   [/\bECOA\b/g, "E-C-O-A"],
   [/\bFCRA\b/g, "F-C-R-A"],
   [/\bGLBA\b/g, "G-L-B-A"],
