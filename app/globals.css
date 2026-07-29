@@ -2315,3 +2315,21 @@ a.cd-chapter-name:hover { color: #1E3A8A; }
 .htrig .measure { color: #6B6B66; }
 .htrig .yard { display: block; width: 100%; max-width: 430px; margin: 0.7rem 0 0; height: auto; }
 .htrig .yard text { font-family: ui-monospace, monospace; font-size: 10.5px; fill: #6B6B66; }
+
+/* ═══ Module 6 — embedded practice surfaces ═══════════════════════════════════
+   Maya's application and the nine-form trainer mount inside the reader scroll
+   (a UnitReader group slot). The surfaces keep their own scoped styling; these
+   modifiers only strip the route-era page padding so they sit in the column
+   like any other practice surface. */
+.application.embedded .wrap{max-width:none; padding:0 0 48px;}
+.application.embedded .masthead{padding:10px 0 8px;}
+.learn-forms.embedded .wrap{max-width:none; padding:0 0 40px;}
+
+/* ═══ Module 6 — embedded practice surfaces ═══════════════════════════════════
+   Maya's application and the nine-form trainer mount inside the reader scroll
+   (a UnitReader group slot). The surfaces keep their own scoped styling; these
+   modifiers only strip the route-era page padding so they sit in the column
+   like any other practice surface. */
+.application.embedded .wrap{max-width:none; padding:0 0 48px;}
+.application.embedded .masthead{padding:10px 0 8px;}
+.learn-forms.embedded .wrap{max-width:none; padding:0 0 40px;}
