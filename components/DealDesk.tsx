@@ -380,10 +380,12 @@ export default function DealDesk() {
             <div className="dd-le-fine">Out within 3 business days of application — this one reflects the accepted lock.</div>
           </div>
 
-          <DollarCheck
-            target={lockedDollars}
-            label={lockRung.price < 100 ? `${px(100 - lockRung.price)} points on ${money0(SCENARIO.loan)} costs` : `A price of ${px(lockRung.price)} credits`}
-          />
+          {lockRung.price !== 100 && (
+            <DollarCheck
+              target={lockedDollars}
+              label={lockRung.price < 100 ? `${px(100 - lockRung.price)} points on ${money0(SCENARIO.loan)} costs` : `A price of ${px(lockRung.price)} credits`}
+            />
+          )}
 
           {!ext ? (
             <div className="dd-extend">
