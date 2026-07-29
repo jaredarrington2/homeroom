@@ -30,7 +30,7 @@ const cues = [
   { text: "Because the government stands behind V-A and U-S-D-A, those lenders can ask for zero down — nothing out of pocket.", targets: ['[data-pc="down:va"]', '[data-pc="down:usda"]'] },
   { text: "F-H-A sits in the middle: just three-and-a-half percent down.", targets: ['[data-pc="down:fha"]'] },
   { text: "And a conventional loan usually wants five percent — with no government backing, the lender is carrying more of the risk.", targets: ['[data-pc="down:conv"]'] },
-  { text: "Same pattern runs through the rest of the table: the more the government is involved, the easier the terms.", targets: [] },
+  { text: "And that same backing quietly shapes the rest of the table — the mortgage insurance, and every row beneath it. The more the government is involved, the easier the terms tend to be.", targets: [] },
 ];
 
 // Build the full script + record each cue's [startChar, endChar) in it.
@@ -49,7 +49,8 @@ const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${VOICE}/wi
   body: JSON.stringify({
     text: script,
     model_id: "eleven_multilingual_v2",
-    voice_settings: { stability: 0.4, similarity_boost: 0.9, style: 0.5, use_speaker_boost: true },
+    // speed < 1 slows the delivery for a more measured, lecture pace (the highlights follow it).
+    voice_settings: { stability: 0.4, similarity_boost: 0.9, style: 0.5, use_speaker_boost: true, speed: 0.88 },
   }),
 });
 if (!res.ok) { console.error(res.status, (await res.text()).slice(0, 400)); process.exit(1); }

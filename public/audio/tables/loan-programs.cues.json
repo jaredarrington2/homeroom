@@ -1,74 +1,74 @@
 {
   "audio": "/audio/tables/loan-programs.mp3",
-  "duration": 62.926,
+  "duration": 75.975,
   "cues": [
     {
       "tStart": 0,
-      "tEnd": 6.908,
+      "tEnd": 7.999,
       "targets": [
         "[data-pc-row=\"backed\"]"
       ]
     },
     {
-      "tStart": 7.059,
-      "tEnd": 13.05,
+      "tStart": 8.371,
+      "tEnd": 15.116,
       "targets": [
         "[data-pc=\"backed:conv\"]"
       ]
     },
     {
-      "tStart": 13.375,
-      "tEnd": 20.503,
+      "tStart": 15.697,
+      "tEnd": 23.441,
       "targets": [
         "[data-pc=\"backed:fha\"]"
       ]
     },
     {
-      "tStart": 20.886,
-      "tEnd": 25.019,
+      "tStart": 24.021,
+      "tEnd": 28.561,
       "targets": [
         "[data-pc=\"backed:va\"]"
       ]
     },
     {
-      "tStart": 25.461,
-      "tEnd": 32.694,
+      "tStart": 28.932,
+      "tEnd": 36.931,
       "targets": [
         "[data-pc=\"backed:usda\"]"
       ]
     },
     {
-      "tStart": 33.297,
-      "tEnd": 35.84,
+      "tStart": 37.616,
+      "tEnd": 41.041,
       "targets": [
         "[data-pc-row=\"down\"]"
       ]
     },
     {
-      "tStart": 36.223,
-      "tEnd": 43.816,
+      "tStart": 41.413,
+      "tEnd": 49.993,
       "targets": [
         "[data-pc=\"down:va\"]",
         "[data-pc=\"down:usda\"]"
       ]
     },
     {
-      "tStart": 44.513,
-      "tEnd": 48.611,
+      "tStart": 51.072,
+      "tEnd": 55.228,
       "targets": [
         "[data-pc=\"down:fha\"]"
       ]
     },
     {
-      "tStart": 48.936,
-      "tEnd": 55.914,
+      "tStart": 55.461,
+      "tEnd": 63.611,
       "targets": [
         "[data-pc=\"down:conv\"]"
       ]
     },
     {
-      "tStart": 56.727,
-      "tEnd": 62.926,
+      "tStart": 63.982,
+      "tEnd": 75.975,
       "targets": []
     }
   ]

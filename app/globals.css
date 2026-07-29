@@ -674,7 +674,7 @@ a.cd-chapter-name:hover { color: #1E3A8A; }
 .section-reader .dv-pc-grid .dv-pc-cell,
 .section-reader .dv-pc-grid .dv-pc-rowlabel,
 .section-reader .dv-pc-grid .dv-pc-head {
-  transition: opacity .28s ease, transform .28s ease, box-shadow .28s ease, background .28s ease;
+  transition: opacity .4s ease, transform .4s ease, box-shadow .4s ease, background .4s ease;
 }
 .section-reader .dv-pc-grid.pc-narrating .dv-pc-cell,
 .section-reader .dv-pc-grid.pc-narrating .dv-pc-rowlabel,
@@ -685,17 +685,18 @@ a.cd-chapter-name:hover { color: #1E3A8A; }
   transform: scale(1.05);
 }
 .section-reader .dv-pc-grid.pc-narrating .dv-pc-rowlabel.pc-lit { color: var(--dv-royal); font-weight: 700; }
-/* the play control + progress */
-.section-reader .pc-narr { display: flex; align-items: center; gap: 12px; margin: 12px 2px 26px; }
+/* the play control + progress — a discreet play symbol, not a labeled pill */
+.section-reader .pc-narr { display: flex; align-items: center; gap: 11px; margin: 10px 2px 26px; }
 .section-reader .pc-narr-btn {
-  display: inline-flex; align-items: center; gap: 7px; cursor: pointer; flex: none;
-  font-family: var(--font-type); font-size: 12px; letter-spacing: .02em; color: #fff;
-  background: var(--royal); border: none; border-radius: 999px; padding: 7px 15px 7px 12px; transition: background .15s;
+  display: inline-flex; align-items: center; justify-content: center; cursor: pointer; flex: none;
+  width: 30px; height: 30px; padding: 0; color: var(--royal);
+  background: transparent; border: 1px solid var(--hair-strong); border-radius: 999px;
+  transition: color .15s, border-color .15s, background .15s;
 }
-.section-reader .pc-narr-btn:hover { background: #16307a; }
+.section-reader .pc-narr-btn:hover { color: #fff; background: var(--royal); border-color: var(--royal); }
 .section-reader .pc-narr-btn svg { display: block; }
-.section-reader .pc-narr-track { flex: 1; max-width: 260px; height: 3px; background: var(--hair); border-radius: 2px; overflow: hidden; }
-.section-reader .pc-narr-fill { height: 100%; background: var(--royal); width: 0; transition: width .1s linear; }
+.section-reader .pc-narr-track { flex: 1; max-width: 200px; height: 2px; background: var(--hair); border-radius: 2px; overflow: hidden; }
+.section-reader .pc-narr-fill { height: 100%; background: var(--royal); width: 0; transition: width .12s linear; }
 
 /* mobile per-program cards — hidden on desktop */
 .section-reader .dv-pc-cards { display: none; }

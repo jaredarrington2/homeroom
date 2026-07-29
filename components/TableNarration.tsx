@@ -98,11 +98,10 @@ export default function TableNarration({ src }: { src: string }) {
         onClick={status === "playing" ? pause : play}
       >
         {status === "playing" ? (
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1" /><rect x="14" y="5" width="4" height="14" rx="1" /></svg>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1" /><rect x="14" y="5" width="4" height="14" rx="1" /></svg>
         ) : (
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5l12 7-12 7z" /></svg>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5l11 7-11 7z" /></svg>
         )}
-        <span>{status === "idle" ? "Play walkthrough" : status === "playing" ? "Pause" : "Resume"}</span>
       </button>
       <div className="pc-narr-track" aria-hidden="true"><div className="pc-narr-fill" style={{ width: `${progress * 100}%` }} /></div>
     </div>
