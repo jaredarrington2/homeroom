@@ -533,7 +533,7 @@ const section5: SectionContent = {
               html: `Every mortgage payment buys back a little more of your house. That's what <span class="cloze" data-accept='["equity","home equity"]' data-reveal="equity">?</span> is: the part you've already bought — what the home is worth, minus what you still owe on it. Put $80,000 down on a $400,000 house and you own $80,000 of it the day you move in; keep paying, or watch prices in the neighborhood climb, and that share keeps widening. Give it a few years and it can be a serious sum — real money, just locked up in the house.`,
             },
             {
-              html: `You can borrow against that share without disturbing the mortgage you already have. The first mortgage stays exactly where it is; the new loan takes second place behind it — which is what makes it a <b>second lien</b>. If the house were ever sold to clear its debts, the first mortgage would be paid off first and the second would wait for whatever's left. Standing at the back of that line is riskier for the lender, so a second lien usually costs a little more.`,
+              html: `You can borrow against that share without disturbing the mortgage you already have. The first mortgage stays exactly where it is; the new loan takes second place behind it — which is what makes it a <span class="cloze" data-accept='["second lien","a second lien","second mortgage"]' data-reveal="second lien">?</span>. If the house were ever sold to clear its debts, the first mortgage would be paid off first and the second would wait for whatever's left. Standing at the back of that line is riskier for the lender, so a second lien usually costs a little more.`,
             },
             {
               html: `Two kinds cover most of it. You can take the money in a single piece — a fixed loan you pay back on a set schedule — which is a <b>home-equity loan</b>. Or you can open a line and draw from it as you go, paying down and borrowing again the way you would with a credit card, except the house is what backs it: a <b>home-equity line</b>. A buyer short on the down payment can even set up a second lien the day they close — and use it to skip mortgage insurance.`,
@@ -553,7 +553,7 @@ const section5: SectionContent = {
           anchor: { file: "house-of-cards-made-of-credit-cards-transparent.png", caption: "revolving", kind: "char" },
           paras: [
             {
-              html: `A home-equity line — a <b>HELOC</b> — is open for about <span class="cloze" data-accept='["10 years","10","ten","ten years","10 yrs"]' data-reveal="10 years">?</span> — the <b>draw period</b> — during which the borrower draws and repays freely and is usually billed interest-only on whatever is outstanding, at a rate that tracks the <span class="cloze" data-accept='["Prime","the Prime rate","prime","Prime rate"]' data-reveal="Prime">?</span> rate. When the draw period closes, the line freezes and the remaining balance amortizes over the years left.`,
+              html: `A home-equity line — a <span class="cloze" data-accept='["HELOC","home equity line of credit","home-equity line of credit"]' data-reveal="HELOC">?</span> — is open for about <span class="cloze" data-accept='["10 years","10","ten","ten years","10 yrs"]' data-reveal="10 years">?</span> — the <b>draw period</b> — during which the borrower draws and repays freely and is usually billed interest-only on whatever is outstanding, at a rate that tracks the <span class="cloze" data-accept='["Prime","the Prime rate","prime","Prime rate"]' data-reveal="Prime">?</span> rate. When the draw period closes, the line freezes and the remaining balance amortizes over the years left.`,
               spoken: `A home-equity line — a hee-lock — is open for about ten years, the draw period, during which the borrower draws and repays freely and is usually billed interest-only on whatever is outstanding, at a rate that tracks the Prime rate. When the draw period closes, the line freezes and the remaining balance amortizes over the years left.`,
             },
           ],
@@ -563,7 +563,7 @@ const section5: SectionContent = {
           anchor: { file: "couple-football-fans-tandem-bicycle-transparent.png", caption: "riding double", kind: "char" },
           paras: [
             {
-              html: `If a borrower puts less than 20% down on a conventional loan, the lender adds <b>private mortgage insurance (PMI)</b> — a monthly charge on top of the payment that protects the lender if the borrower defaults, and buys the borrower nothing. A buyer short on the down payment can avoid it by borrowing in two pieces instead of one. PMI only kicks in when the <b>first</b> mortgage is above 80% of the home's value, so the buyer keeps that first loan at <span class="cloze" data-accept='["80%","80","80 percent","eighty percent"]' data-reveal="80%">?</span> and a second lien covers the rest of the price. Neither loan on its own is large enough to trigger PMI. Lenders call this pairing a <b>piggyback</b>.`,
+              html: `If a borrower puts less than 20% down on a conventional loan, the lender adds <b>private mortgage insurance (PMI)</b> — a monthly charge on top of the payment that protects the lender if the borrower defaults, and buys the borrower nothing. A buyer short on the down payment can avoid it by borrowing in two pieces instead of one. PMI only kicks in when the <b>first</b> mortgage is above 80% of the home's value, so the buyer keeps that first loan at <span class="cloze" data-accept='["80%","80","80 percent","eighty percent"]' data-reveal="80%">?</span> and a second lien covers the rest of the price. Neither loan on its own is large enough to trigger PMI. Lenders call this pairing a <span class="cloze" data-accept='["piggyback","a piggyback","piggyback financing"]' data-reveal="piggyback">?</span>.`,
             },
           ],
           vizWidget: "piggyback",
@@ -631,7 +631,7 @@ const section5: SectionContent = {
           heading: "how much, and how it comes out",
           paras: [
             {
-              html: `The <span class="cloze" data-accept='["youngest"]' data-reveal="youngest">?</span> borrower's age sets how much of the home's value the loan will lend — the <b>principal limit</b>. Older borrowers can draw more, since the balance has less time to grow against the home's value. However the money is taken, a first-year cap lets the borrower access no more than <span class="cloze" data-accept='["60%","60","60 percent","sixty percent"]' data-reveal="60%">?</span> of the principal limit up front.`,
+              html: `The <span class="cloze" data-accept='["youngest"]' data-reveal="youngest">?</span> borrower's age sets how much of the home's value the loan will lend — the <span class="cloze" data-accept='["principal limit","the principal limit"]' data-reveal="principal limit">?</span>. Older borrowers can draw more, since the balance has less time to grow against the home's value. However the money is taken, a first-year cap lets the borrower access no more than <span class="cloze" data-accept='["60%","60","60 percent","sixty percent"]' data-reveal="60%">?</span> of the principal limit up front.`,
             },
             {
               html: `The proceeds can arrive several ways: a <b>lump sum</b>, a <b>line of credit</b> the borrower draws on over time, or a monthly annuity — <b>tenure</b>, which pays for as long as the borrower lives in the home, or <b>term</b>, which pays a larger amount for a set number of years.`,
@@ -657,7 +657,7 @@ const section5: SectionContent = {
           heading: "the pieces that keep the loan safe",
           paras: [
             {
-              html: `Before closing, every borrower completes independent <span class="cloze" data-accept='["HUD-approved","HUD approved","HUD"]' data-reveal="HUD-approved">?</span> counseling; without that certificate the lender has no enforceable lien. A <b>LESA</b> — a life expectancy set-aside — can be carved out of the proceeds to pay the taxes and insurance on the borrower's behalf, so a lapse never triggers the loan. A spouse under 62 can stay on the title as a <b>non-borrowing spouse</b> and remain in the home for life, as long as the borrowing spouse qualified.`,
+              html: `Before closing, every borrower completes independent <span class="cloze" data-accept='["HUD-approved","HUD approved","HUD"]' data-reveal="HUD-approved">?</span> counseling; without that certificate the lender has no enforceable lien. A <b>LESA</b> — a <span class="cloze" data-accept='["life expectancy set-aside","life expectancy set aside","life-expectancy set-aside"]' data-reveal="life expectancy set-aside">?</span> — can be carved out of the proceeds to pay the taxes and insurance on the borrower's behalf, so a lapse never triggers the loan. A spouse under 62 can stay on the title as a <span class="cloze" data-accept='["non-borrowing spouse","nonborrowing spouse","non borrowing spouse"]' data-reveal="non-borrowing spouse">?</span> and remain in the home for life, as long as the borrowing spouse qualified.`,
             },
           ],
         },
@@ -665,7 +665,7 @@ const section5: SectionContent = {
           heading: "three kinds, and how they're sold",
           paras: [
             {
-              html: `The <b>HECM</b> — home equity conversion mortgage — is the common one: FHA-insured, and flexible in how the money reaches the borrower. A <b>single-purpose</b> reverse mortgage comes from a state or local program for one named use, like repairs or property taxes; a <b>proprietary</b> one is a private, uninsured loan for higher-value homes. Because the audience is elderly, the advertising is policed hard: the <b>MAP Rule</b> (Regulation N) makes it a violation to misrepresent the costs, the payments, or the borrower's right to stay in the home.`,
+              html: `The <b>HECM</b> — <span class="cloze" data-accept='["home equity conversion mortgage","home-equity conversion mortgage"]' data-reveal="home equity conversion mortgage">?</span> — is the common one: FHA-insured, and flexible in how the money reaches the borrower. A <b>single-purpose</b> reverse mortgage comes from a state or local program for one named use, like repairs or property taxes; a <b>proprietary</b> one is a private, uninsured loan for higher-value homes. Because the audience is elderly, the advertising is policed hard: the <b>MAP Rule</b> (Regulation N) makes it a violation to misrepresent the costs, the payments, or the borrower's right to stay in the home.`,
             },
           ],
         },
@@ -732,7 +732,7 @@ const section5: SectionContent = {
           anchor: { file: "triathlete-snow-ski-transparent.png", caption: "in stages", kind: "char" },
           paras: [
             {
-              html: `At closing the lender advances the land cost and an agreed share of the build. As each phase finishes, the builder requests the next <b>draw</b>; the lender inspects the work before releasing it, and repeats until the home is complete and fully funded. During the build the borrower is billed <span class="cloze" data-accept='["interest-only","interest only","interest"]' data-reveal="interest-only">?</span>, and only on the funds drawn so far.`,
+              html: `At closing the lender advances the land cost and an agreed share of the build. As each phase finishes, the builder requests the next <span class="cloze" data-accept='["draw","a draw"]' data-reveal="draw">?</span>; the lender inspects the work before releasing it, and repeats until the home is complete and fully funded. During the build the borrower is billed <span class="cloze" data-accept='["interest-only","interest only","interest"]' data-reveal="interest-only">?</span>, and only on the funds drawn so far.`,
             },
           ],
           visual: "draw-schedule",
@@ -742,7 +742,7 @@ const section5: SectionContent = {
           anchor: { file: "samurai-three-legged-race-transparent.png", caption: "two, bound", kind: "char" },
           paras: [
             {
-              html: `A <b>construction-to-permanent</b> loan settles the build into an <b>end loan</b> the borrower chooses while construction is still underway. <b>One-close</b> does it in a single settlement; <b>two-close</b> closes the permanent loan separately, in a second settlement. Long rate locks are available, but they get expensive past <span class="cloze" data-accept='["90 days","90","ninety","ninety days"]' data-reveal="90 days">?</span>, so timing the lock against the build schedule matters.`,
+              html: `A <span class="cloze" data-accept='["construction-to-permanent","construction to permanent","construction to perm"]' data-reveal="construction-to-permanent">?</span> loan settles the build into an <span class="cloze" data-accept='["end loan","the end loan","permanent loan"]' data-reveal="end loan">?</span> the borrower chooses while construction is still underway. <b>One-close</b> does it in a single settlement; <b>two-close</b> closes the permanent loan separately, in a second settlement. Long rate locks are available, but they get expensive past <span class="cloze" data-accept='["90 days","90","ninety","ninety days"]' data-reveal="90 days">?</span>, so timing the lock against the build schedule matters.`,
             },
           ],
         },
@@ -803,7 +803,7 @@ const section5: SectionContent = {
         {
           paras: [
             {
-              html: `Two fixed-rate programs deliberately break the level payment. On a <b>graduated payment mortgage</b> the payments start below the true cost — the shortfall is added to the balance, so it <span class="cloze" data-accept='["negative amortization","negatively amortizes","negative","neg am"]' data-reveal="negative amortization">?</span> — then step up on a set schedule. A <b>growth equity mortgage</b> does the reverse: the payments run higher than required, the extra goes straight to principal, and the loan is paid off early.`,
+              html: `Two fixed-rate programs deliberately break the level payment. On a <span class="cloze" data-accept='["graduated payment mortgage","GPM","graduated payment"]' data-reveal="graduated payment mortgage">?</span> the payments start below the true cost — the shortfall is added to the balance, so it <span class="cloze" data-accept='["negative amortization","negatively amortizes","negative","neg am"]' data-reveal="negative amortization">?</span> — then step up on a set schedule. A <span class="cloze" data-accept='["growth equity mortgage","GEM","growth equity"]' data-reveal="growth equity mortgage">?</span> does the reverse: the payments run higher than required, the extra goes straight to principal, and the loan is paid off early.`,
             },
           ],
         },
@@ -812,7 +812,7 @@ const section5: SectionContent = {
           anchor: { file: "forest-rangers-pizza-boxes-transparent.png", caption: "one package", kind: "char" },
           paras: [
             {
-              html: `Under a <b>land contract</b>, the buyer takes <span class="cloze" data-accept='["possession"]' data-reveal="possession">?</span> but not the deed — they pay the seller directly and take title only once the agreed sum is paid; walk away early and the payments are forfeit. A <b>package mortgage</b> collateralizes the land, the dwelling, and the personal property inside it — furniture and appliances — as one appraised bundle. A <b>reduction option mortgage</b> is a fixed-rate loan with a one-time chance to drop the rate without refinancing, for a fee.`,
+              html: `Under a <span class="cloze" data-accept='["land contract","contract for deed","installment land contract"]' data-reveal="land contract">?</span>, the buyer takes <span class="cloze" data-accept='["possession"]' data-reveal="possession">?</span> but not the deed — they pay the seller directly and take title only once the agreed sum is paid; walk away early and the payments are forfeit. A <span class="cloze" data-accept='["package mortgage","package"]' data-reveal="package mortgage">?</span> collateralizes the land, the dwelling, and the personal property inside it — furniture and appliances — as one appraised bundle. A <span class="cloze" data-accept='["reduction option mortgage","ROM"]' data-reveal="reduction option mortgage">?</span> is a fixed-rate loan with a one-time chance to drop the rate without refinancing, for a fee.`,
             },
           ],
           synth: {
