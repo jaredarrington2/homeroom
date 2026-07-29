@@ -315,11 +315,11 @@ export default function DealDesk() {
                       )}
                       <div className="dd-stack">
                         <div className="dd-stack-h">Where the price comes from</div>
-                        <div className="dd-srow"><span>Base price · {lockPeriod}-day lock</span><b>{px(p.ladder![0].base)} at {p.ladder![0].rate.toFixed(3)}% {(PERIOD_ADJ_LABEL(lockPeriod))}</b></div>
+                        <div className="dd-srow"><span>Lock period · {lockPeriod} days</span><b>{PERIOD_ADJ_LABEL(lockPeriod)}</b></div>
                         {stack.map((a) => (
                           <div className="dd-srow" key={a.label}><span>{a.label}</span><b>{a.amount === 0 ? 'none' : (a.amount > 0 ? '+' : '−') + Math.abs(a.amount).toFixed(3)}</b></div>
                         ))}
-                        <div className="dd-srow tot"><span>Final price</span><b>base {a11(stack)} per rung above</b></div>
+                        <div className="dd-srow tot"><span>Stack total — applied to every rung’s base</span><b>{a11(stack)}</b></div>
                       </div>
                     </div>
                   )}
@@ -409,8 +409,7 @@ export default function DealDesk() {
 
 // tiny label helpers kept below the component for readability
 function PERIOD_ADJ_LABEL(period: number): string {
-  const adj = { 15: '+0.250', 30: '+0.125', 45: '±0', 60: '−0.250' }[period as 15 | 30 | 45 | 60];
-  return adj ? `(${adj} for the period)` : '';
+  return { 15: '+0.250', 30: '+0.125', 45: '± 0', 60: '−0.250' }[period as 15 | 30 | 45 | 60] ?? '';
 }
 function a11(stack: { amount: number }[]): string {
   const s = stack.reduce((n, a) => n + a.amount, 0);
