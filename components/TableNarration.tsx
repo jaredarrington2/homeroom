@@ -2,10 +2,12 @@
 // components/TableNarration.tsx — plays a timed narration track and spotlights the matching
 // table element as each beat is spoken. The cue doc (audio + per-cue time windows + target
 // selectors) is produced by scripts/gen-table-narration.mjs from ElevenLabs timestamps, so
-// the highlight stays in sync with the voice. Drives the sibling .dv-pc-grid in the same
-// group. Cue detection runs off the <audio> element's timeupdate event (fires during
-// playback regardless of tab visibility), not requestAnimationFrame.
+// the highlight stays in sync with the voice. Cue detection runs off the <audio> element's
+// timeupdate event. The control is deliberately minimal: a bare play triangle in the card's
+// bottom-right corner, and the card's bottom border doubles as a subtle progress bar — both
+// portaled into the .dv-pc card so they anchor to it.
 import { useCallback, useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 
 interface Cue { tStart: number; tEnd: number; targets: string[] }
 interface CueDoc { audio: string; duration: number; cues: Cue[] }
@@ -16,6 +18,7 @@ export default function TableNarration({ src }: { src: string }) {
   const gridRef = useRef<HTMLElement | null>(null);
   const lastCue = useRef<number>(-2);
   const [doc, setDoc] = useState<CueDoc | null>(null);
+  const [card, setCard] = useState<HTMLElement | null>(null);
   const [status, setStatus] = useState<"idle" | "playing" | "paused">("idle");
   const [progress, setProgress] = useState(0);
 
@@ -26,19 +29,21 @@ export default function TableNarration({ src }: { src: string }) {
       .catch(() => {});
   }, [src]);
 
-  const grid = useCallback((): HTMLElement | null => {
-    if (!gridRef.current) {
-      gridRef.current = rootRef.current?.closest(".group-block")?.querySelector<HTMLElement>(".dv-pc-grid") ?? null;
-    }
-    return gridRef.current;
-  }, []);
+  // Locate the table card (portal target for the control) and the grid (highlight target).
+  useEffect(() => {
+    const gb = rootRef.current?.closest(".group-block");
+    setCard(gb?.querySelector<HTMLElement>(".dv-pc") ?? null);
+    gridRef.current = gb?.querySelector<HTMLElement>(".dv-pc-grid") ?? null;
+  }, [doc]);
+
+  const grid = () => gridRef.current;
 
   const clearLit = useCallback(() => {
     const g = grid();
     if (!g) return;
     g.classList.remove("pc-narrating");
     g.querySelectorAll(".pc-lit").forEach((el) => el.classList.remove("pc-lit"));
-  }, [grid]);
+  }, []);
 
   const applyCue = useCallback((cue: Cue | null) => {
     const g = grid();
@@ -55,7 +60,7 @@ export default function TableNarration({ src }: { src: string }) {
       });
     });
     cols.forEach((col) => g.querySelector<HTMLElement>(`[data-pc-col="${col}"]`)?.classList.add("pc-lit"));
-  }, [grid]);
+  }, []);
 
   const onTime = useCallback(() => {
     const a = audioRef.current;
@@ -75,7 +80,7 @@ export default function TableNarration({ src }: { src: string }) {
     void a.play().catch(() => {});
     setStatus("playing");
     grid()?.scrollIntoView({ behavior: "smooth", block: "center" });
-  }, [grid]);
+  }, []);
 
   const pause = useCallback(() => {
     audioRef.current?.pause();
@@ -89,21 +94,26 @@ export default function TableNarration({ src }: { src: string }) {
   useEffect(() => () => clearLit(), [clearLit]);
 
   return (
-    <div className="pc-narr" ref={rootRef}>
+    <div className="pc-narr-host" ref={rootRef}>
       {doc && <audio ref={audioRef} src={doc.audio} preload="none" onTimeUpdate={onTime} onEnded={onEnded} />}
-      <button
-        type="button"
-        className="pc-narr-btn"
-        aria-label={status === "playing" ? "Pause narration" : "Play the table narration"}
-        onClick={status === "playing" ? pause : play}
-      >
-        {status === "playing" ? (
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1" /><rect x="14" y="5" width="4" height="14" rx="1" /></svg>
-        ) : (
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5l11 7-11 7z" /></svg>
-        )}
-      </button>
-      <div className="pc-narr-track" aria-hidden="true"><div className="pc-narr-fill" style={{ width: `${progress * 100}%` }} /></div>
+      {card && createPortal(
+        <>
+          <div className="pc-narr-bar" aria-hidden="true" style={{ width: `${progress * 100}%`, opacity: status === "idle" ? 0 : 1 }} />
+          <button
+            type="button"
+            className={"pc-narr-tri" + (status === "playing" ? " on" : "")}
+            aria-label={status === "playing" ? "Pause narration" : "Play the table narration"}
+            onClick={status === "playing" ? pause : play}
+          >
+            {status === "playing" ? (
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1" /><rect x="14" y="5" width="4" height="14" rx="1" /></svg>
+            ) : (
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5l11 7-11 7z" /></svg>
+            )}
+          </button>
+        </>,
+        card,
+      )}
     </div>
   );
 }
