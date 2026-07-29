@@ -1,74 +1,84 @@
 {
   "audio": "/audio/tables/loan-programs.mp3",
-  "duration": 75.975,
+  "duration": 81.177,
   "cues": [
     {
       "tStart": 0,
-      "tEnd": 7.999,
+      "tEnd": 8.661,
+      "targets": [
+        "[data-pc-col=\"conv\"]",
+        "[data-pc-col=\"fha\"]",
+        "[data-pc-col=\"va\"]",
+        "[data-pc-col=\"usda\"]"
+      ]
+    },
+    {
+      "tStart": 8.975,
+      "tEnd": 13.201,
       "targets": [
         "[data-pc-row=\"backed\"]"
       ]
     },
     {
-      "tStart": 8.371,
-      "tEnd": 15.116,
+      "tStart": 13.99,
+      "tEnd": 20.224,
       "targets": [
         "[data-pc=\"backed:conv\"]"
       ]
     },
     {
-      "tStart": 15.697,
-      "tEnd": 23.441,
+      "tStart": 21.153,
+      "tEnd": 28.804,
       "targets": [
         "[data-pc=\"backed:fha\"]"
       ]
     },
     {
-      "tStart": 24.021,
-      "tEnd": 28.561,
+      "tStart": 29.303,
+      "tEnd": 33.459,
       "targets": [
         "[data-pc=\"backed:va\"]"
       ]
     },
     {
-      "tStart": 28.932,
-      "tEnd": 36.931,
+      "tStart": 34.04,
+      "tEnd": 41.807,
       "targets": [
         "[data-pc=\"backed:usda\"]"
       ]
     },
     {
-      "tStart": 37.616,
-      "tEnd": 41.041,
+      "tStart": 42.306,
+      "tEnd": 45.487,
       "targets": [
         "[data-pc-row=\"down\"]"
       ]
     },
     {
-      "tStart": 41.413,
-      "tEnd": 49.993,
+      "tStart": 46.172,
+      "tEnd": 54.799,
       "targets": [
         "[data-pc=\"down:va\"]",
         "[data-pc=\"down:usda\"]"
       ]
     },
     {
-      "tStart": 51.072,
-      "tEnd": 55.228,
+      "tStart": 55.24,
+      "tEnd": 59.628,
       "targets": [
         "[data-pc=\"down:fha\"]"
       ]
     },
     {
-      "tStart": 55.461,
-      "tEnd": 63.611,
+      "tStart": 59.907,
+      "tEnd": 67.651,
       "targets": [
         "[data-pc=\"down:conv\"]"
       ]
     },
     {
-      "tStart": 63.982,
-      "tEnd": 75.975,
+      "tStart": 68.58,
+      "tEnd": 81.177,
       "targets": []
     }
   ]

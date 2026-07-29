@@ -21,7 +21,8 @@ if (!KEY || !VOICE) { console.error("missing key/voice"); process.exit(1); }
 // POC = the table's spine (backing) → its first consequence (down payment). Conversational,
 // but each beat points at one thing on the "slide". Acronyms spelled for the ear.
 const cues = [
-  { text: "Okay — four loan programs, and the whole table really comes down to one question: who is standing behind the loan?", targets: ['[data-pc-row="backed"]'] },
+  { text: "These are the four loan programs a borrower chooses between — conventional, F-H-A, V-A, and U-S-D-A.", targets: ['[data-pc-col="conv"]', '[data-pc-col="fha"]', '[data-pc-col="va"]', '[data-pc-col="usda"]'] },
+  { text: "And who stands behind each loan shapes nearly everything else.", targets: ['[data-pc-row="backed"]'] },
   { text: "A conventional loan? No government at all — Fannie Mae and Freddie Mac just buy it from the lender.", targets: ['[data-pc="backed:conv"]'] },
   { text: "An F-H-A loan is insured by the government: if the borrower stops paying, the F-H-A pays the lender back.", targets: ['[data-pc="backed:fha"]'] },
   { text: "A V-A loan is guaranteed by the Department of Veterans Affairs.", targets: ['[data-pc="backed:va"]'] },
