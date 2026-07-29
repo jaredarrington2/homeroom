@@ -404,12 +404,20 @@ const section5: SectionContent = {
         { term: "Balloon payment", def: "A single large payment of the entire remaining balance, due on a date well before the loan would amortize — the defining feature of a balloon loan." },
         { term: "Conditional right to modify (CRTM)", def: "A borrower's right, written into some balloon loans, to convert the loan to a fixed rate at the call date instead of paying the balloon — conditioned on meeting the loan's terms and giving timely written notice." },
         { term: "Interest-only period", def: "A set span at the start of a loan during which the borrower pays only interest, so the balance holds flat; when it ends, the loan re-casts to a fully-amortizing payment over the remaining term." },
+        { term: "Qualified mortgage (QM)", def: "The federal standard for a home loan structured so the borrower can clearly afford it — without risky features like interest-only periods or balloon payments. A loan that falls outside it is non-QM." },
+        { term: "Servicer", def: "The company that collects a borrower's monthly payments and manages the loan day to day — often not the lender that originally made it." },
       ],
       groups: [
         {
           paras: [
             {
-              html: `A <b>fixed-rate loan</b> locks one interest rate for the whole term, so the principal-and-interest payment never changes. Early on, most of each payment is interest; as the balance falls, more of it goes to principal, until the loan is paid off on schedule. Every other product in this unit is a change to that one arrangement — the payment, the payoff date, or both.`,
+              html: `When you borrow money to buy a home, you owe two things back: the amount you borrowed — the <b>principal</b> — and a fee charged for borrowing it — the <b>interest</b>. You pay them down together, a little at a time, in a bill that comes due every month.`,
+            },
+            {
+              html: `A <b>fixed-rate loan</b> is the one most buyers picture, and the one most buyers choose. The interest rate is set the day you sign and never moves, so the monthly payment is the same in year one as in year thirty — whatever happens to the wider economy. That steadiness is why it's the default: you can build a budget around a number that won't change on you.`,
+            },
+            {
+              html: `Every other loan in this unit is a variation on that one arrangement — a change to the payment, the payoff date, or both.`,
             },
           ],
           diagram: "repayment-shapes",
@@ -418,7 +426,10 @@ const section5: SectionContent = {
           heading: "the amortization curve",
           paras: [
             {
-              html: `On a 30-year loan the <b>crossover</b> — the month principal finally overtakes interest inside each payment — sits more than <span class="cloze" data-accept='["halfway","half","the halfway point","halfway in","the midpoint"]' data-reveal="halfway">?</span> in. A $200,000 loan at 6% pays <b>$231,676</b> in interest across the full schedule. Paying extra against principal each month moves the crossover earlier and drops that total sharply.`,
+              html: `In the early years, a monthly payment barely dents what you borrowed — and there's a reason. Interest is charged on the balance you still owe, and at the start that balance is at its largest, so most of each early payment goes to the interest fee and only a little reaches the principal. As the balance shrinks, the interest share shrinks with it, and more of every payment starts paying down what you actually borrowed. That gradual shift is called <b>amortization</b>.`,
+            },
+            {
+              html: `The turning point — the <b>crossover</b>, the month principal finally overtakes interest inside a single payment — sits more than <span class="cloze" data-accept='["halfway","half","the halfway point","halfway in","the midpoint"]' data-reveal="halfway">?</span> through a 30-year loan. And the interest adds up: a $200,000 loan at 6% pays <b>$231,676</b> in interest across the full schedule — more than the amount borrowed. Putting even a little extra toward principal early pulls that crossover forward and cuts the total sharply, because a dollar of principal cleared now is a dollar you stop paying interest on for years.`,
             },
           ],
           vizWidget: "amortization",
@@ -428,7 +439,13 @@ const section5: SectionContent = {
           heading: "when the payment only covers interest",
           paras: [
             {
-              html: `On an <b>interest-only loan</b> the borrower pays only the interest for a set period, so the balance holds flat — nothing is going to principal. It exists only as a feature of a <span class="cloze" data-accept='["non-qm","non-qualified","nonqualified","non qualified","non-qualified mortgage"]' data-reveal="non-QM">?</span> mortgage: a lender either keeps it in portfolio or sells it to a private investor. When the interest-only period ends, the loan <b>re-casts</b> to a payment that repays the full balance over the years left, and that payment jumps.`,
+              html: `An <b>interest-only loan</b> lets the borrower pay just the interest fee for a set stretch at the start — often several years — with nothing going toward the principal. The payment is smaller during that window, but the balance doesn't move: none of that money is buying a share of the home.`,
+            },
+            {
+              html: `It fits a narrow kind of borrower — someone whose income arrives in large, irregular chunks, someone who expects to earn much more before long, or an investor who plans to sell before the window closes. And it carries a catch on the far side: when the interest-only stretch ends, the loan <b>re-casts</b>, meaning the lender recalculates the payment to clear the whole balance over the years that remain. Because nothing has been paid down, that new payment jumps.`,
+            },
+            {
+              html: `Since a regular payment isn't chipping away at the debt, an interest-only loan sits outside the safest category of home loan — the <b>qualified mortgage</b>, or QM, the federal standard for a loan the borrower can clearly afford. Interest-only is a <span class="cloze" data-accept='["non-qm","non-qualified","nonqualified","non qualified","non-qualified mortgage"]' data-reveal="non-QM">?</span> feature, so a lender either keeps the loan on its own books or sells it to a private investor instead of the usual channels.`,
             },
           ],
           inkCard: "interest-only",
@@ -442,7 +459,13 @@ const section5: SectionContent = {
           anchor: { file: "detective-medicine-ball-transparent.png", caption: "the call", kind: "char" },
           paras: [
             {
-              html: `A <b>balloon loan</b>'s payment is set on a 30- or 15-year amortization, but the lender calls the entire remaining balance due years earlier. Lenders write it as two numbers — years to the call, then the amortization behind the payment — so a <b>3/27</b> is paid like a 30-year loan but comes due at year three. The low rate is the trade for the risk that the borrower can't cover the call. To exercise a <b>conditional right to modify (CRTM)</b> — converting the balloon to a fixed rate instead of paying it — the borrower must give written notice no later than <span class="cloze" data-accept='["45","45 days","forty-five","forty-five days"]' data-reveal="45 days">?</span> before the call.`,
+              html: `A <b>balloon loan</b> keeps the monthly payment low by setting it as if the loan were a long 30- or 15-year mortgage — but it isn't one. After only a few years, the lender demands the entire remaining balance in a single lump, the <b>balloon payment</b>. When that day comes, the borrower has to handle it one of three ways: sell the home, refinance into a new loan, or pay the lump in full.`,
+            },
+            {
+              html: `Lenders name it with two numbers — the years until the lump is due, then the long schedule the payment is based on — so a <b>3/27</b> is paid like a 30-year loan but comes due at year three. The low payment is the trade for a real risk: a borrower who can't sell or refinance in time is suddenly owing the whole balance at once. It suits someone confident they'll move or refinance before the deadline, and it's a hazard for someone who isn't.`,
+            },
+            {
+              html: `Some balloon loans build in a safety valve — a <b>conditional right to modify (CRTM)</b> — that lets the borrower convert to a fixed-rate loan instead of paying the lump, as long as they meet the loan's conditions and give written notice no later than <span class="cloze" data-accept='["45","45 days","forty-five","forty-five days"]' data-reveal="45 days">?</span> before the call.`,
             },
           ],
           inkCard: "balloon",
@@ -451,7 +474,10 @@ const section5: SectionContent = {
           heading: "re-cast — same rate, smaller payment",
           paras: [
             {
-              html: `When a borrower pays a lump sum against principal, a fixed-rate loan normally keeps the payment the same and shortens the term. A <b>re-cast</b> does the opposite: the servicer recomputes a lower payment against the new, smaller balance over the remaining term. It's discretionary and often carries a fee — and the interest rate never changes.`,
+              html: `Say a borrower comes into a lump of money — a bonus, an inheritance — and puts it toward the loan. Normally the balance drops but the monthly payment holds steady, and the loan simply finishes sooner. A <b>re-cast</b> does the opposite: the company that collects the payments — the <b>servicer</b> — recomputes a new, lower monthly payment against the reduced balance, spread across the same remaining years. The rate doesn't change and the payoff date doesn't move; only the monthly bill gets smaller.`,
+            },
+            {
+              html: `It's the right tool for a borrower who wants more room in the monthly budget rather than an earlier payoff. The servicer decides whether to allow it, and it usually carries a fee.`,
             },
           ],
           inkCard: "re-cast",
