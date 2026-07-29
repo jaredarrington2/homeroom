@@ -13,11 +13,13 @@ import { useMemo, useState } from "react";
 import type { WorksheetKind, WorksheetScenario, WorksheetStep } from "@/lib/section";
 import { checkAnswer } from "@/lib/answer";
 import { fhaScenario, derive as fhaDerive, type FhaInputs } from "@/content/worksheets/fha";
+import { ratiosScenario, derive as ratiosDerive } from "@/content/worksheets/ratios";
 
 type Derive = (i: Record<string, number>) => Record<string, number>;
 
 const DATA: Partial<Record<WorksheetKind, { scenario: WorksheetScenario; derive: Derive }>> = {
   "fha-structure": { scenario: fhaScenario, derive: fhaDerive as unknown as Derive },
+  ratios: { scenario: ratiosScenario, derive: ratiosDerive },
 };
 
 const fmt = (n: number) => n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
@@ -71,7 +73,7 @@ function AskRow({
   const [status, setStatus] = useState<"empty" | "wrong" | "tried" | "filled">(answered ? "filled" : "empty");
 
   const lock = () => {
-    setValue(fmt(target));
+    setValue(step.pct ? target.toFixed(1) + "%" : fmt(target));
     setStatus("filled");
     onLock(step.key);
   };
@@ -260,7 +262,7 @@ export default function Worksheet({ kind }: { kind: WorksheetKind }) {
                     <span dangerouslySetInnerHTML={{ __html: step.label }} />
                   </div>
                   {printed ? (
-                    <div className="ws-amt ws-cell">{money(v)}</div>
+                    <div className="ws-amt ws-cell">{step.pct ? v.toFixed(1) + "%" : money(v)}</div>
                   ) : (
                     <AskRow step={step} target={v} answered={answered.has(step.key)} onLock={onLock} />
                   )}

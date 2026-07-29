@@ -51,7 +51,7 @@ export type DisclosureVisualKind =
 /** A chained computational cloze rendered as a lender's loan worksheet (Worksheet.tsx,
  *  a client component). The learner fills the blank amount lines; each feeds the next.
  *  Steps + scenario + derive() live in content/worksheets/<kind>.ts. */
-export type WorksheetKind = "fha-structure" | "purchase" | "va-structure";
+export type WorksheetKind = "fha-structure" | "purchase" | "va-structure" | "ratios";
 
 /** A hand-rolled SVG viz widget (CapLadder.tsx, a client component) — a flat white chart card,
  *  not a skeuomorphic document (charts aren't documents). arm-cap-ladder drills the ARM
@@ -137,6 +137,8 @@ export interface WorksheetStep {
   scrawl?: string;
   /** Extra accepted strings beyond the numeric ±0.01 match. */
   accept?: string[];
+  /** Render the value as a percentage (28.0%) instead of dollars. */
+  pct?: boolean;
   /** Plain-language hover guidance: what this line is and how it's figured. */
   hint?: string;
 }
