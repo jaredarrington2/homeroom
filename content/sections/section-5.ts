@@ -426,7 +426,7 @@ const section5: SectionContent = {
           heading: "the amortization curve",
           paras: [
             {
-              html: `In the early years, a monthly payment barely dents what you borrowed — and there's a reason. Interest is charged on the balance you still owe, and at the start that balance is at its largest, so most of each early payment goes to the interest fee and only a little reaches the principal. As the balance shrinks, the interest share shrinks with it, and more of every payment starts paying down what you actually borrowed. That gradual shift is called <b>amortization</b>.`,
+              html: `In the early years, a monthly payment barely dents what you borrowed — and there's a reason. Interest is charged on the balance you still owe, and at the start that balance is at its largest, so most of each early payment goes to the interest fee and only a little reaches the principal. As the balance shrinks, the interest share shrinks with it, and more of every payment starts paying down what you actually borrowed. That gradual shift is called <span class="cloze" data-accept='["amortization","amortisation"]' data-reveal="amortization">?</span>.`,
             },
             {
               html: `The turning point — the <b>crossover</b>, the month principal finally overtakes interest inside a single payment — sits more than <span class="cloze" data-accept='["halfway","half","the halfway point","halfway in","the midpoint"]' data-reveal="halfway">?</span> through a 30-year loan. And the interest adds up: a $200,000 loan at 6% pays <b>$231,676</b> in interest across the full schedule — more than the amount borrowed. Putting even a little extra toward principal early pulls that crossover forward and cuts the total sharply, because a dollar of principal cleared now is a dollar you stop paying interest on for years.`,
@@ -459,7 +459,7 @@ const section5: SectionContent = {
           anchor: { file: "detective-medicine-ball-transparent.png", caption: "the call", kind: "char" },
           paras: [
             {
-              html: `A <b>balloon loan</b> keeps the monthly payment low by setting it as if the loan were a long 30- or 15-year mortgage — but it isn't one. After only a few years, the lender demands the entire remaining balance in a single lump, the <b>balloon payment</b>. When that day comes, the borrower has to handle it one of three ways: sell the home, refinance into a new loan, or pay the lump in full.`,
+              html: `A <b>balloon loan</b> keeps the monthly payment low by setting it as if the loan were a long 30- or 15-year mortgage — but it isn't one. After only a few years, the lender demands the entire remaining balance in a single lump, the <span class="cloze" data-accept='["balloon payment","balloon"]' data-reveal="balloon payment">?</span>. When that day comes, the borrower has to handle it one of three ways: sell the home, refinance into a new loan, or pay the lump in full.`,
             },
             {
               html: `Lenders name it with two numbers — the years until the lump is due, then the long schedule the payment is based on — so a <b>3/27</b> is paid like a 30-year loan but comes due at year three. The low payment is the trade for a real risk: a borrower who can't sell or refinance in time is suddenly owing the whole balance at once. It suits someone confident they'll move or refinance before the deadline, and it's a hazard for someone who isn't.`,
@@ -474,7 +474,7 @@ const section5: SectionContent = {
           heading: "re-cast — same rate, smaller payment",
           paras: [
             {
-              html: `Say a borrower comes into a lump of money — a bonus, an inheritance — and puts it toward the loan. Normally the balance drops but the monthly payment holds steady, and the loan simply finishes sooner. A <b>re-cast</b> does the opposite: the company that collects the payments — the <b>servicer</b> — recomputes a new, lower monthly payment against the reduced balance, spread across the same remaining years. The rate doesn't change and the payoff date doesn't move; only the monthly bill gets smaller.`,
+              html: `Say a borrower comes into a lump of money — a bonus, an inheritance — and puts it toward the loan. Normally the balance drops but the monthly payment holds steady, and the loan simply finishes sooner. A <b>re-cast</b> does the opposite: the company that collects the payments — the <span class="cloze" data-accept='["servicer","the servicer","loan servicer"]' data-reveal="servicer">?</span> — recomputes a new, lower monthly payment against the reduced balance, spread across the same remaining years. The rate doesn't change and the payoff date doesn't move; only the monthly bill gets smaller.`,
             },
             {
               html: `It's the right tool for a borrower who wants more room in the monthly budget rather than an earlier payoff. The servicer decides whether to allow it, and it usually carries a fee.`,

@@ -32,19 +32,82 @@ export default function DisclosureVisual({ kind }: { kind: DisclosureVisualKind 
 // per-program card stack — CSS shows one at a time (a 5-col grid can't reflow to
 // column-major cards, so both are authored from the same rows).
 const PC_PROGRAMS = ["Conventional", "FHA", "VA", "USDA"] as const;
-type PcCell = string | { t: string; hl: true };
-const PC_ROWS: { label: string; cells: [PcCell, PcCell, PcCell, PcCell] }[] = [
-  { label: "min. down payment", cells: ["5% (3% community)", "3.5% (10% if score < 580)", { t: "0%", hl: true }, { t: "0%", hl: true }] },
-  { label: "mortgage insurance", cells: ["PMI if < 20% down", "MIP — 1.75% up-front + annual", { t: "none — funding fee instead", hl: true }, { t: "none — guarantee fee (1% + 0.35%/yr)", hl: true }] },
-  { label: "DTI guideline", cells: ["28 / 36", "31 / 43", "41 back-end only", "29 / 41"] },
-  { label: "occupancy", cells: ["primary · second · investment", "primary (occupy ≤ 60 days, 1 yr)", "primary only", "primary only"] },
-  { label: "seller concessions", cells: ["3 / 6 / 9% (2% investment)", "6%", "4%", "6%"] },
-  { label: "loan limits (2026)", cells: ["FHFA conforming", "FHA floor → ceiling", "none, with full entitlement", "none — income-capped (115% AMI)"] },
-  { label: "assumable", cells: [{ t: "no (due-on-sale)", hl: true }, "yes", "yes", "yes"] },
-  { label: "backed by", cells: ["Fannie / Freddie", "FHA (HUD-insured)", "VA-guaranteed", "USDA-guaranteed"] },
+// A cell is plain text, or an object that can highlight (hl) and/or carry a hover
+// explanation (tip). Row labels carry a hover definition (labelTip). Tips show on the
+// desktop grid via a CSS hover card; the mobile card stack shows plain text.
+type PcCell = string | { t: string; hl?: true; tip?: string };
+interface PcRow { label: string; labelTip?: string; cells: [PcCell, PcCell, PcCell, PcCell] }
+const PC_ROWS: PcRow[] = [
+  {
+    label: "min. down payment",
+    labelTip: "The share of the price you pay up front, out of your own pocket. The loan covers the rest.",
+    cells: ["5% (3% community)", "3.5% (10% if score < 580)", { t: "0%", hl: true }, { t: "0%", hl: true }],
+  },
+  {
+    label: "mortgage insurance",
+    labelTip: "An extra charge that pays the lender back if you stop making payments. It's required when the down payment is small — and it protects the lender, not you.",
+    cells: [
+      "PMI if < 20% down",
+      "MIP — 1.75% up-front + annual",
+      { t: "none — funding fee instead", hl: true, tip: "No monthly insurance. Instead a one-time funding fee — a set % of the loan — is paid at closing or rolled into the balance." },
+      { t: "none — guarantee fee (1% + 0.35%/yr)", hl: true, tip: "No PMI. A 1% fee up front plus 0.35% of the balance each year funds the USDA guarantee." },
+    ],
+  },
+  {
+    label: "DTI guideline",
+    labelTip: "Debt-to-income ratio — your monthly debt payments as a share of gross monthly income. Written front / back: housing costs alone, then all debts. Example: $1,800 housing ÷ $6,000 income = 30% front-end.",
+    cells: [
+      { t: "28 / 36", tip: "Housing costs stay under 28% of gross monthly income; all debts under 36%." },
+      { t: "31 / 43", tip: "Housing under 31%, all debts under 43% — FHA allows a bit more room." },
+      { t: "41 back-end only", tip: "VA looks only at total debts — under 41% of income — alongside a residual-income test." },
+      { t: "29 / 41", tip: "Housing under 29%, all debts under 41%." },
+    ],
+  },
+  {
+    label: "occupancy",
+    labelTip: "Whether you have to live in the home, and how soon — versus renting it out or keeping it as a second home.",
+    cells: ["primary · second · investment", "primary (occupy ≤ 60 days, 1 yr)", "primary only", "primary only"],
+  },
+  {
+    label: "seller concessions",
+    labelTip: "Money the seller is allowed to put toward your closing costs, capped as a share of the price. It lowers the cash you need at closing.",
+    cells: [
+      { t: "3 / 6 / 9% (2% investment)", tip: "The cap rises with your down payment — 3% under 10% down, 6% up to 25%, 9% above; 2% on investment property." },
+      "6%",
+      "4%",
+      "6%",
+    ],
+  },
+  {
+    label: "loan limits (2026)",
+    labelTip: "The most you can borrow under the program. Some are capped to a regional figure; others aren't.",
+    cells: ["FHFA conforming", "FHA floor → ceiling", "none, with full entitlement", "none — income-capped (115% AMI)"],
+  },
+  {
+    label: "assumable",
+    labelTip: "Whether a future buyer can take over your existing loan — and its interest rate — instead of getting a new one.",
+    cells: [{ t: "no (due-on-sale)", hl: true, tip: "A due-on-sale clause makes the whole balance come due when you sell, so a buyer can't keep your loan or its rate." }, "yes", "yes", "yes"],
+  },
+  {
+    label: "backed by",
+    labelTip: "Who stands behind the loan if the borrower stops paying — the reason each program can set the rules it does.",
+    cells: [
+      { t: "Fannie / Freddie", tip: "No government backing. Fannie Mae and Freddie Mac buy the loan from the lender, freeing the lender to lend again." },
+      { t: "FHA (HUD-insured)", tip: "The government insures it: if the borrower defaults, the FHA repays the lender. That's why the down payment can be so low." },
+      { t: "VA-guaranteed", tip: "The Dept. of Veterans Affairs guarantees part of the loan, so the lender risks less and can ask for zero down." },
+      { t: "USDA-guaranteed", tip: "The Dept. of Agriculture promises to cover the lender's loss on a rural loan, so the lender needs no down payment." },
+    ],
+  },
 ];
 function pcText(c: PcCell) {
-  return typeof c === "string" ? c : <span className="dv-pc-hl">{c.t}</span>;
+  if (typeof c === "string") return c;
+  return c.hl ? <span className="dv-pc-hl">{c.t}</span> : c.t;
+}
+// grid cell with an optional hover explanation (desktop only)
+function PcGridCell({ c }: { c: PcCell }) {
+  if (typeof c === "string") return <>{c}</>;
+  const inner = c.hl ? <span className="dv-pc-hl">{c.t}</span> : <>{c.t}</>;
+  return c.tip ? <span className="dv-tip" data-tip={c.tip}>{inner}</span> : inner;
 }
 function ProgramComparison() {
   return (
@@ -61,9 +124,13 @@ function ProgramComparison() {
         ))}
         {PC_ROWS.map((row) => (
           <div key={row.label} className="dv-pc-line" role="presentation">
-            <div className="dv-pc-rowlabel">{row.label}</div>
+            {row.labelTip ? (
+              <div className="dv-pc-rowlabel dv-tip" data-tip={row.labelTip}>{row.label}</div>
+            ) : (
+              <div className="dv-pc-rowlabel">{row.label}</div>
+            )}
             {row.cells.map((c, i) => (
-              <div key={PC_PROGRAMS[i]} className="dv-pc-cell">{pcText(c)}</div>
+              <div key={PC_PROGRAMS[i]} className="dv-pc-cell"><PcGridCell c={c} /></div>
             ))}
           </div>
         ))}

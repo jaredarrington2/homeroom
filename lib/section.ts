@@ -137,6 +137,8 @@ export interface WorksheetStep {
   scrawl?: string;
   /** Extra accepted strings beyond the numeric ±0.01 match. */
   accept?: string[];
+  /** Plain-language hover guidance: what this line is and how it's figured. */
+  hint?: string;
 }
 
 /** One assumption the explorer (pencil-icon mode) exposes as an editable input. */

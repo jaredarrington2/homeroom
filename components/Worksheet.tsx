@@ -45,6 +45,15 @@ function PencilIcon() {
   );
 }
 
+function RefreshIcon() {
+  return (
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M23 4v6h-6" />
+      <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10" />
+    </svg>
+  );
+}
+
 // one asked (checked) line. Local state for the transient typed value / wrong / tried;
 // lifts to the parent only when it locks correct (progress tally).
 function AskRow({
@@ -110,7 +119,10 @@ export default function Worksheet({ kind }: { kind: WorksheetKind }) {
   const entry = DATA[kind];
   const [editing, setEditing] = useState(false);
   const [answered, setAnswered] = useState<Set<string>>(new Set());
-  // explorer input strings, seeded from the scenario defaults (currency pre-formatted)
+  const [round, setRound] = useState(0); // bumps on "new example" so the asked lines remount blank
+  // drill inputs — start at the scenario defaults; "new example" swaps in a fresh price
+  const [base, setBase] = useState<Record<string, number>>(() => (entry ? { ...entry.scenario.inputs } : {}));
+  // explorer input strings, seeded from the drill inputs (currency pre-formatted)
   const [vals, setVals] = useState<Record<string, string>>(() => {
     const seed: Record<string, string> = {};
     if (entry) {
@@ -130,10 +142,19 @@ export default function Worksheet({ kind }: { kind: WorksheetKind }) {
   if (!entry) return null;
   const { scenario, derive } = entry;
 
-  // drill uses the fixed scenario defaults; explorer uses the live edited values
+  const seedVals = (from: Record<string, number>) => {
+    const seed: Record<string, string> = {};
+    for (const f of scenario.explorer) {
+      const n = from[f.key];
+      seed[f.key] = f.kind === "currency" ? money(n) : String(n);
+    }
+    return seed;
+  };
+
+  // drill uses the current example (base); explorer uses the live edited values
   const activeInputs: Record<string, number> = editing
     ? Object.fromEntries(scenario.explorer.map((f) => [f.key, parseNum(vals[f.key] ?? "")]))
-    : scenario.inputs;
+    : base;
   const d = derive(activeInputs);
 
   const onLock = (key: string) =>
@@ -147,17 +168,21 @@ export default function Worksheet({ kind }: { kind: WorksheetKind }) {
   const toggleEdit = () => {
     setEditing((was) => {
       const now = !was;
-      if (!now) {
-        // reset the assumptions back to defaults on the way out
-        const seed: Record<string, string> = {};
-        for (const f of scenario.explorer) {
-          const n = scenario.inputs[f.key];
-          seed[f.key] = f.kind === "currency" ? money(n) : String(n);
-        }
-        setVals(seed);
-      }
+      if (!now) setVals(seedVals(base)); // exit explorer → back to the current example
       return now;
     });
+  };
+
+  // "New example" — keep the FHA method, swap in a fresh, realistic purchase price and reset
+  // the blanks so the learner can work a different set of numbers the same way.
+  const refresh = () => {
+    const price = (200 + Math.floor(Math.random() * 400)) * 1000 + (Math.random() < 0.5 ? 0 : 500);
+    const next = { ...base, price };
+    setBase(next);
+    setAnswered(new Set());
+    setEditing(false);
+    setVals(seedVals(next));
+    setRound((r) => r + 1);
   };
 
   const initials = scenario.lender.charAt(0).toUpperCase();
@@ -172,16 +197,27 @@ export default function Worksheet({ kind }: { kind: WorksheetKind }) {
             <div className="ws-doc">Loan structuring worksheet</div>
           </div>
         </div>
-        <button
-          type="button"
-          className={"ws-edit" + (editing ? " on" : "")}
-          aria-pressed={editing}
-          title={editing ? "Back to the worksheet" : "Edit the assumptions"}
-          aria-label={editing ? "Back to the worksheet" : "Edit the assumptions"}
-          onClick={toggleEdit}
-        >
-          <PencilIcon />
-        </button>
+        <div className="ws-actions">
+          <button
+            type="button"
+            className="ws-edit"
+            title="New example"
+            aria-label="Generate a new example"
+            onClick={refresh}
+          >
+            <RefreshIcon />
+          </button>
+          <button
+            type="button"
+            className={"ws-edit" + (editing ? " on" : "")}
+            aria-pressed={editing}
+            title={editing ? "Back to the worksheet" : "Edit the assumptions"}
+            aria-label={editing ? "Back to the worksheet" : "Edit the assumptions"}
+            onClick={toggleEdit}
+          >
+            <PencilIcon />
+          </button>
+        </div>
       </div>
 
       <div className="ws-meta">
@@ -218,8 +254,8 @@ export default function Worksheet({ kind }: { kind: WorksheetKind }) {
               const v = d[step.key];
               const printed = step.given || editing;
               return (
-                <div className={"ws-row" + (step.total ? " tot" : "")} key={step.key}>
-                  <div className="ws-lab">
+                <div className={"ws-row" + (step.total ? " tot" : "")} key={`${round}-${step.key}`}>
+                  <div className={"ws-lab" + (step.hint ? " ws-tip" : "")} data-tip={step.hint}>
                     <span className="ws-op">{step.op || ""}</span>
                     <span dangerouslySetInnerHTML={{ __html: step.label }} />
                   </div>

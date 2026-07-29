@@ -40,11 +40,11 @@ export function derive(i: FhaInputs): Record<string, number> {
 }
 
 const loanAmount: WorksheetStep[] = [
-  { op: "", label: "purchase price", key: "price", given: true },
-  { op: "−", label: "down payment (3.5%)", key: "dn", ask: true },
-  { op: "=", label: "base loan amount", key: "base", ask: true, total: true },
-  { op: "×", label: "up-front MIP (1.75%)", key: "uf", ask: true },
-  { op: "=", label: "total loan amount", key: "total", ask: true },
+  { op: "", label: "purchase price", key: "price", given: true, hint: "The home's contract price. Every line below is built from it." },
+  { op: "−", label: "down payment (3.5%)", key: "dn", ask: true, hint: "Purchase price × 3.5% — FHA's minimum down payment." },
+  { op: "=", label: "base loan amount", key: "base", ask: true, total: true, hint: "Purchase price − down payment. This is what you borrow before insurance is added in." },
+  { op: "×", label: "up-front MIP (1.75%)", key: "uf", ask: true, hint: "Base loan × 1.75% — the one-time up-front mortgage insurance FHA charges." },
+  { op: "=", label: "total loan amount", key: "total", ask: true, hint: "Base loan + up-front MIP. FHA lets you roll the insurance into the loan." },
   {
     op: "",
     label: 'rounded <span class="hl">down to the nearest $50</span>',
@@ -52,15 +52,16 @@ const loanAmount: WorksheetStep[] = [
     ask: true,
     total: true,
     scrawl: "round down",
+    hint: "Drop the total to the nearest $50 — FHA always rounds down, never up. This is the step people miss.",
   },
 ];
 
 const monthly: WorksheetStep[] = [
-  { op: "", label: "principal & interest", key: "pi", given: true },
-  { op: "+", label: "monthly MIP", key: "mip", ask: true },
-  { op: "+", label: "monthly taxes", key: "taxM", ask: true },
-  { op: "+", label: "monthly insurance", key: "insM", ask: true },
-  { op: "=", label: "total monthly payment", key: "piti", ask: true, total: true },
+  { op: "", label: "principal & interest", key: "pi", given: true, hint: "The core loan payment, given here. It's the rounded loan amount amortized at the note rate over 30 years." },
+  { op: "+", label: "monthly MIP", key: "mip", ask: true, hint: "Annual MIP is the base loan × 0.55%. Divide that by 12 for the monthly amount." },
+  { op: "+", label: "monthly taxes", key: "taxM", ask: true, hint: "The yearly property-tax figure ÷ 12." },
+  { op: "+", label: "monthly insurance", key: "insM", ask: true, hint: "The yearly homeowner's-insurance figure ÷ 12." },
+  { op: "=", label: "total monthly payment", key: "piti", ask: true, total: true, hint: "Add the four lines above — principal & interest + MIP + taxes + insurance. That total is PITI." },
 ];
 
 export const fhaScenario: WorksheetScenario = {

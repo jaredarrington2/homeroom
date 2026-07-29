@@ -652,6 +652,24 @@ a.cd-chapter-name:hover { color: #1E3A8A; }
 .section-reader .dv-pc-cell + .dv-pc-cell { border-left: 1px solid #EFEADB; }
 .section-reader .dv-pc-hl { color: var(--dv-royal); font-weight: 600;
   background: rgba(30,58,138,.09); box-shadow: inset 0 -2px 0 rgba(30,58,138,.28); padding: 1px 3px; }
+/* hover explanations on the comparison table — row-label definitions + per-cell plain-language.
+   Dotted underline signals hoverability; the card matches the app's ExplainPopover register. */
+.section-reader .dv-pc .dv-tip { position: relative; cursor: help; }
+.section-reader .dv-pc-cell .dv-tip { border-bottom: 1px dotted #B4AB94; }
+.section-reader .dv-pc-rowlabel.dv-tip { text-decoration: underline dotted #C3BAA4; text-underline-offset: 3px; }
+.section-reader .dv-pc .dv-tip::after {
+  content: attr(data-tip);
+  position: absolute; left: 50%; bottom: calc(100% + 9px); transform: translateX(-50%) translateY(4px);
+  width: 222px; background: var(--paper, #FDFCF8); color: var(--ink, #171717);
+  border: 1px solid var(--hair, #E5E1D8); border-top: 2px solid var(--dv-royal);
+  font-family: var(--font-sans, 'Inter', sans-serif); font-size: 11.5px; font-weight: 400; line-height: 1.5;
+  text-align: left; letter-spacing: 0; white-space: normal; padding: 9px 11px; border-radius: 7px;
+  opacity: 0; visibility: hidden; transition: opacity .14s, transform .14s; pointer-events: none; z-index: 30;
+  box-shadow: 0 12px 30px -12px rgba(20,16,8,.4);
+}
+.section-reader .dv-pc-rowlabel.dv-tip::after { left: 0; transform: translateX(0) translateY(4px); }
+.section-reader .dv-pc .dv-tip:hover::after { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(0); }
+.section-reader .dv-pc-rowlabel.dv-tip:hover::after { transform: translateX(0) translateY(0); }
 /* mobile per-program cards — hidden on desktop */
 .section-reader .dv-pc-cards { display: none; }
 .section-reader .dv-pc-card { border: 1px solid var(--dv-edge); background: #FCFAF4; margin-top: 14px; }
@@ -1235,6 +1253,19 @@ a.cd-chapter-name:hover { color: #1E3A8A; }
 }
 .section-reader .ws-edit:hover { border-color: var(--royal); color: var(--royal); }
 .section-reader .ws-edit.on { background: var(--royal); border-color: var(--royal); color: #fff; }
+.section-reader .ws-actions { display: flex; gap: 7px; align-items: center; }
+/* per-line hover guidance — dotted-underlined label opens a plain-language explanation */
+.section-reader .ws-lab.ws-tip { position: relative; }
+.section-reader .ws-lab.ws-tip > span:last-child { cursor: help; text-decoration: underline dotted var(--hair-strong); text-underline-offset: 3px; }
+.section-reader .ws-lab.ws-tip::after {
+  content: attr(data-tip); position: absolute; left: 0; bottom: calc(100% + 9px); width: 224px;
+  background: var(--paper); color: var(--ink); border: 1px solid var(--hair); border-top: 2px solid var(--royal);
+  font-family: var(--fs); font-size: 11.5px; line-height: 1.5; text-transform: none; letter-spacing: 0; font-weight: 400;
+  padding: 9px 11px; border-radius: 7px; opacity: 0; visibility: hidden; transform: translateY(4px);
+  transition: opacity .14s, transform .14s; pointer-events: none; z-index: 20;
+  box-shadow: 0 12px 30px -12px rgba(20,16,8,.4);
+}
+.section-reader .ws-lab.ws-tip:hover::after { opacity: 1; visibility: visible; transform: translateY(0); }
 
 /* meta line */
 .section-reader .ws-meta {
@@ -2097,6 +2128,20 @@ a.cd-chapter-name:hover { color: #1E3A8A; }
 .section-reader .rs-ptitle { font-family: var(--font-type); font-size: 11.5px; font-weight: 700; color: var(--royal); }
 .section-reader .rs-pnote { font-family: var(--font-type); font-size: 10px; color: var(--ink-muted); }
 @media (max-width: 40rem) { .section-reader .rs-grid { grid-template-columns: repeat(2, 1fr); } }
+/* legend — assigns meaning to each line + color under the small-multiples */
+.section-reader .rs-legend {
+  display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 14px 2px 0; padding: 0; list-style: none;
+}
+.section-reader .rs-legend li {
+  display: flex; align-items: center; gap: 7px;
+  font-family: var(--font-type); font-size: 10.5px; color: var(--ink-muted);
+}
+.section-reader .rs-sw { flex: none; width: 16px; height: 0; border-top-width: 2.2px; border-top-style: solid; }
+.section-reader .rs-sw-royal { border-top-color: #1E3A8A; }
+.section-reader .rs-sw-red { border-top-color: #C8534F; }
+.section-reader .rs-sw-warn { border-top-color: #B45309; }
+.section-reader .rs-sw-dash { border-top-color: #CFCFCF; border-top-style: dashed; }
+.section-reader .rs-sw-base { border-top-color: #CFCFCF; }
 
 /* ===== InkCard (.ic-*) — the repayment unit's hand-drawn "study card" family (a cream card
    whose blue-ink SVG diagram is the card). Skeuomorphic, consistent with the StudyCard/RecapCard

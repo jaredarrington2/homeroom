@@ -29,7 +29,7 @@ export const armNoteWalk: FormWalkthroughData = {
     },
     {
       page: 1, region: 3, title: "Index",
-      body: "The index is the moving part — a public rate the loan tracks. When the loan adjusts, its rate is built from wherever the index sits that day.",
+      body: "The index is a published interest rate the lender doesn't set and can't control — like the prime rate or SOFR — that rises and falls with the wider economy. Each time the loan adjusts, the lender looks up where the index sits that day and builds the new rate from there.",
     },
     {
       page: 1, region: 4, title: "Margin",
