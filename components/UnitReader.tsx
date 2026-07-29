@@ -25,6 +25,8 @@ import CapLadder from "./CapLadder";
 import PiggybackStack from "./PiggybackStack";
 import RepaymentShapes from "./RepaymentShapes";
 import InkCard from "./InkCard";
+import Application from "./Application";
+import LearnForms from "./LearnForms";
 import { figureSrc, type SectionUnit } from "@/lib/section";
 import { getStudyCard } from "@/content/study-cards";
 
@@ -99,6 +101,8 @@ export default function UnitReader({
             {g.vizWidget && g.vizWidget !== "piggyback" && <CapLadder kind={g.vizWidget} />}
             {g.diagram === "repayment-shapes" && <RepaymentShapes />}
             {g.inkCard && <InkCard kind={g.inkCard} />}
+            {g.embed === "maya-application" && <Application embedded />}
+            {g.embed === "learn-forms" && <LearnForms embedded />}
             {g.studyCard && getStudyCard(g.studyCard) && <StudyCard card={getStudyCard(g.studyCard)!} />}
             {g.synth && <Synth q={g.synth.q} a={g.synth.a} unitId={unit.id} groupIndex={gi} synthId={`${unit.id}-synth-${gi}`} />}
           </div>

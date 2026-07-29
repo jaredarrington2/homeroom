@@ -400,18 +400,25 @@ function Chapter({ index }: { index: number }) {
   );
 }
 
-export default function Application() {
+// `embedded` mounts the surface inside the Module 6 reader scroll (a UnitReader group slot):
+// the unit head + prose already introduce it, so the route-era masthead and the footer
+// cross-link are dropped. The borrower card and everything below are identical.
+export default function Application({ embedded = false }: { embedded?: boolean }) {
   const [following, setFollowing] = useState(true);
   return (
-    <div className={`application${following ? ' following' : ''}`}>
+    <div className={`application${following ? ' following' : ''}${embedded ? ' embedded' : ''}`}>
       <div className="wrap">
         <header className="masthead">
-          <p className="kicker">Stage 1 · Application</p>
-          <h1>Maya’s application</h1>
-          <p className="dek">
-            A first-time buyer, one application, filled out end to end. Her answers are written in; switch her
-            off to read the blank form.
-          </p>
+          {!embedded && (
+            <>
+              <p className="kicker">Stage 1 · Application</p>
+              <h1>Maya’s application</h1>
+              <p className="dek">
+                A first-time buyer, one application, filled out end to end. Her answers are written in; switch her
+                off to read the blank form.
+              </p>
+            </>
+          )}
           <div className="mayacard">
             <Hero hero={HEROES.hero_form} />
             <p className="mc-label">The borrower</p>
@@ -477,12 +484,14 @@ export default function Application() {
           <Chapter key={i} index={i} />
         ))}
 
-        <footer className="app-foot">
-          <p>
-            Study cards and recap cards will feed the review deck; nothing here is saved between visits.{' '}
-            <a href="/learn/mlo-activities">Back to Learn the forms →</a>
-          </p>
-        </footer>
+        {!embedded && (
+          <footer className="app-foot">
+            <p>
+              Study cards and recap cards will feed the review deck; nothing here is saved between visits.{' '}
+              <a href="/learn/mlo-activities">Back to Learn the forms →</a>
+            </p>
+          </footer>
+        )}
       </div>
     </div>
   );

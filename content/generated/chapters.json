@@ -365,59 +365,139 @@
           "title": "MLO Activities",
           "sections": [
             {
-              "id": "application",
-              "title": "Application",
+              "id": "first-conversation",
+              "title": "The first conversation",
               "pageRange": [
-                391,
-                415
+                374,
+                382
+              ]
+            },
+            {
+              "id": "application",
+              "title": "Taking the application",
+              "pageRange": [
+                383,
+                395
+              ]
+            },
+            {
+              "id": "forms-package",
+              "title": "The forms package",
+              "pageRange": [
+                396,
+                405
+              ]
+            },
+            {
+              "id": "pricing-locking",
+              "title": "Pricing and locking",
+              "pageRange": [
+                406,
+                412
+              ]
+            },
+            {
+              "id": "disclosures",
+              "title": "Disclosures on the clock",
+              "pageRange": [
+                413,
+                424
               ]
             },
             {
               "id": "qualification",
-              "title": "Qualification",
+              "title": "Proving income, assets, and credit",
               "pageRange": [
-                416,
-                440
+                425,
+                449
               ]
             },
             {
-              "id": "processing-underwriting",
-              "title": "Processing and Underwriting",
+              "id": "ratios-atr",
+              "title": "The ratios and ability to repay",
               "pageRange": [
-                441,
-                470
+                450,
+                462
               ]
             },
             {
               "id": "appraisals",
-              "title": "Appraisals",
+              "title": "The property",
               "pageRange": [
-                471,
-                490
+                463,
+                481
               ]
             },
             {
-              "id": "title",
-              "title": "Title",
+              "id": "processing-underwriting",
+              "title": "Underwriting and conditions",
               "pageRange": [
-                491,
-                505
+                482,
+                489
               ]
             },
             {
               "id": "closing",
-              "title": "Closing",
+              "title": "Closing and funding",
               "pageRange": [
-                506,
-                520
+                490,
+                510
               ]
             },
             {
               "id": "mortgage-math",
-              "title": "Mortgage Math",
+              "title": "Running the numbers",
               "pageRange": [
-                521,
-                540
+                511,
+                526
+              ]
+            },
+            {
+              "id": "refi-basics",
+              "title": "What a refinance is",
+              "pageRange": [
+                541,
+                545
+              ]
+            },
+            {
+              "id": "refi-cash-out",
+              "title": "Rate-and-term vs. cash-out",
+              "pageRange": [
+                546,
+                550
+              ]
+            },
+            {
+              "id": "refi-streamline",
+              "title": "Streamline refinances",
+              "pageRange": [
+                551,
+                555
+              ]
+            },
+            {
+              "id": "refi-rescission",
+              "title": "The right to cancel",
+              "pageRange": [
+                556,
+                560
+              ]
+            },
+            {
+              "id": "refi-predatory",
+              "title": "Predatory refinancing",
+              "pageRange": [
+                561,
+                565
+              ]
+            },
+            {
+              "id": "refi-process",
+              "title": "The refinance process",
+              "pageRange": [
+                566,
+                570
               ]
             }
           ],

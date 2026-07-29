@@ -205,6 +205,11 @@ export interface ConceptGroup {
   /** 0–1 hand-drawn ink "study card" (InkCard.tsx, server-rendered). A cream card whose blue-ink
    *  SVG diagram teaches one repayment concept. */
   inkCard?: "amortization" | "interest-only" | "re-cast" | "balloon";
+  /** 0–1 embedded practice surface (a self-contained client experience mounted in the scroll,
+   *  same slot the worksheet and viz widgets use — never on its own page). Module 6:
+   *  "maya-application" = the worked URLA (Application.tsx), "learn-forms" = the nine-form
+   *  package trainer (LearnForms.tsx), "deal-desk" = pricing + lock simulation (DealDesk.tsx). */
+  embed?: "maya-application" | "learn-forms" | "deal-desk";
 }
 
 export interface Definition {

@@ -7,7 +7,10 @@ import { useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { initLearnForms } from '@/lib/module6/learnForms';
 
-export default function LearnForms() {
+// `embedded` mounts the trainer inside the Module 6 reader scroll (a UnitReader group slot):
+// the unit head + prose already introduce the package, so the route-era masthead and the
+// cross-links to surfaces that now live in the same scroll are dropped.
+export default function LearnForms({ embedded = false }: { embedded?: boolean }) {
   const rootRef = useRef<HTMLDivElement>(null);
   const inited = useRef(false);
 
@@ -18,14 +21,16 @@ export default function LearnForms() {
   }, []);
 
   return (
-    <div className="learn-forms" ref={rootRef}>
+    <div className={`learn-forms${embedded ? ' embedded' : ''}`} ref={rootRef}>
       <div className="wrap">
         <div id="screen-home">
-          <header className="masthead">
-            <h1>Learn the forms</h1>
-            <p className="lede">The URLA is <b>six separate forms</b>, not one: the borrower’s, the
-              co-borrower’s, the unmarried addendum, the lender’s, a continuation sheet, and the SCIF.</p>
-          </header>
+          {!embedded && (
+            <header className="masthead">
+              <h1>Learn the forms</h1>
+              <p className="lede">The URLA is <b>six separate forms</b>, not one: the borrower’s, the
+                co-borrower’s, the unmarried addendum, the lender’s, a continuation sheet, and the SCIF.</p>
+            </header>
+          )}
           <div id="uphere" />
           <div className="trail hide" id="trail" />
           <div className="outline">
@@ -34,12 +39,19 @@ export default function LearnForms() {
           </div>
           <footer>
             <p>Progress isn&apos;t saved. Reloading starts you over.</p>
-            <p className="lf-xlink">
-              Rather follow one borrower through the whole application? <Link href="/learn/mlo-activities/application">Meet Maya →</Link>
-            </p>
-            <p className="lf-xlink">
-              Looking up one field or form? <Link href="/learn/mlo-activities/explorer">Open the form explorer →</Link>
-            </p>
+            {!embedded && (
+              <>
+                <p className="lf-xlink">
+                  Rather follow one borrower through the whole application? <Link href="/learn/mlo-activities/application">Meet Maya →</Link>
+                </p>
+                <p className="lf-xlink">
+                  Looking up one field or form? <Link href="/learn/mlo-activities/explorer">Open the form explorer →</Link>
+                </p>
+                <p className="lf-xlink">
+                  Studying refinances? <Link href="/learn/mlo-activities/refinances">Read the refinances section →</Link>
+                </p>
+              </>
+            )}
           </footer>
         </div>
 
