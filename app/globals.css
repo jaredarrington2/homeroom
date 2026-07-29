@@ -670,6 +670,33 @@ a.cd-chapter-name:hover { color: #1E3A8A; }
 .section-reader .dv-pc-rowlabel.dv-tip::after { left: 0; transform: translateX(0) translateY(4px); }
 .section-reader .dv-pc .dv-tip:hover::after { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(0); }
 .section-reader .dv-pc-rowlabel.dv-tip:hover::after { transform: translateX(0) translateY(0); }
+/* ── narrated-table spotlight — the active cell/row/header lights while the voice names it ── */
+.section-reader .dv-pc-grid .dv-pc-cell,
+.section-reader .dv-pc-grid .dv-pc-rowlabel,
+.section-reader .dv-pc-grid .dv-pc-head {
+  transition: opacity .28s ease, transform .28s ease, box-shadow .28s ease, background .28s ease;
+}
+.section-reader .dv-pc-grid.pc-narrating .dv-pc-cell,
+.section-reader .dv-pc-grid.pc-narrating .dv-pc-rowlabel,
+.section-reader .dv-pc-grid.pc-narrating .dv-pc-head { opacity: .24; }
+.section-reader .dv-pc-grid.pc-narrating .pc-lit {
+  opacity: 1; position: relative; z-index: 3; border-radius: 5px; background: #fff;
+  box-shadow: 0 0 0 2px var(--dv-royal), 0 10px 22px -10px rgba(30, 58, 138, .55);
+  transform: scale(1.05);
+}
+.section-reader .dv-pc-grid.pc-narrating .dv-pc-rowlabel.pc-lit { color: var(--dv-royal); font-weight: 700; }
+/* the play control + progress */
+.section-reader .pc-narr { display: flex; align-items: center; gap: 12px; margin: 12px 2px 26px; }
+.section-reader .pc-narr-btn {
+  display: inline-flex; align-items: center; gap: 7px; cursor: pointer; flex: none;
+  font-family: var(--font-type); font-size: 12px; letter-spacing: .02em; color: #fff;
+  background: var(--royal); border: none; border-radius: 999px; padding: 7px 15px 7px 12px; transition: background .15s;
+}
+.section-reader .pc-narr-btn:hover { background: #16307a; }
+.section-reader .pc-narr-btn svg { display: block; }
+.section-reader .pc-narr-track { flex: 1; max-width: 260px; height: 3px; background: var(--hair); border-radius: 2px; overflow: hidden; }
+.section-reader .pc-narr-fill { height: 100%; background: var(--royal); width: 0; transition: width .1s linear; }
+
 /* mobile per-program cards — hidden on desktop */
 .section-reader .dv-pc-cards { display: none; }
 .section-reader .dv-pc-card { border: 1px solid var(--dv-edge); background: #FCFAF4; margin-top: 14px; }

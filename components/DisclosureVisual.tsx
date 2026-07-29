@@ -32,18 +32,23 @@ export default function DisclosureVisual({ kind }: { kind: DisclosureVisualKind 
 // per-program card stack — CSS shows one at a time (a 5-col grid can't reflow to
 // column-major cards, so both are authored from the same rows).
 const PC_PROGRAMS = ["Conventional", "FHA", "VA", "USDA"] as const;
+// Stable keys for the narration driver — cells carry data-pc="rowKey:colKey",
+// row labels data-pc-row, headers data-pc-col, so a timed cue can light any element.
+const PC_COLKEYS = ["conv", "fha", "va", "usda"] as const;
 // A cell is plain text, or an object that can highlight (hl) and/or carry a hover
 // explanation (tip). Row labels carry a hover definition (labelTip). Tips show on the
 // desktop grid via a CSS hover card; the mobile card stack shows plain text.
 type PcCell = string | { t: string; hl?: true; tip?: string };
-interface PcRow { label: string; labelTip?: string; cells: [PcCell, PcCell, PcCell, PcCell] }
+interface PcRow { key: string; label: string; labelTip?: string; cells: [PcCell, PcCell, PcCell, PcCell] }
 const PC_ROWS: PcRow[] = [
   {
+    key: "down",
     label: "min. down payment",
     labelTip: "The share of the price you pay up front, out of your own pocket. The loan covers the rest.",
     cells: ["5% (3% community)", "3.5% (10% if score < 580)", { t: "0%", hl: true }, { t: "0%", hl: true }],
   },
   {
+    key: "mi",
     label: "mortgage insurance",
     labelTip: "An extra charge that pays the lender back if you stop making payments. It's required when the down payment is small — and it protects the lender, not you.",
     cells: [
@@ -54,6 +59,7 @@ const PC_ROWS: PcRow[] = [
     ],
   },
   {
+    key: "dti",
     label: "DTI guideline",
     labelTip: "Debt-to-income ratio — your monthly debt payments as a share of gross monthly income. Written front / back: housing costs alone, then all debts. Example: $1,800 housing ÷ $6,000 income = 30% front-end.",
     cells: [
@@ -64,11 +70,13 @@ const PC_ROWS: PcRow[] = [
     ],
   },
   {
+    key: "occ",
     label: "occupancy",
     labelTip: "Whether you have to live in the home, and how soon — versus renting it out or keeping it as a second home.",
     cells: ["primary · second · investment", "primary (occupy ≤ 60 days, 1 yr)", "primary only", "primary only"],
   },
   {
+    key: "sc",
     label: "seller concessions",
     labelTip: "Money the seller is allowed to put toward your closing costs, capped as a share of the price. It lowers the cash you need at closing.",
     cells: [
@@ -79,16 +87,19 @@ const PC_ROWS: PcRow[] = [
     ],
   },
   {
+    key: "limits",
     label: "loan limits (2026)",
     labelTip: "The most you can borrow under the program. Some are capped to a regional figure; others aren't.",
     cells: ["FHFA conforming", "FHA floor → ceiling", "none, with full entitlement", "none — income-capped (115% AMI)"],
   },
   {
+    key: "assumable",
     label: "assumable",
     labelTip: "Whether a future buyer can take over your existing loan — and its interest rate — instead of getting a new one.",
     cells: [{ t: "no (due-on-sale)", hl: true, tip: "A due-on-sale clause makes the whole balance come due when you sell, so a buyer can't keep your loan or its rate." }, "yes", "yes", "yes"],
   },
   {
+    key: "backed",
     label: "backed by",
     labelTip: "Who stands behind the loan if the borrower stops paying — the reason each program can set the rules it does.",
     cells: [
@@ -119,18 +130,18 @@ function ProgramComparison() {
       {/* desktop: 8-row × 5-column grid */}
       <div className="dv-pc-grid" role="presentation">
         <div className="dv-pc-corner" />
-        {PC_PROGRAMS.map((p) => (
-          <div key={p} className="dv-pc-head">{p}</div>
+        {PC_PROGRAMS.map((p, i) => (
+          <div key={p} className="dv-pc-head" data-pc-col={PC_COLKEYS[i]}>{p}</div>
         ))}
         {PC_ROWS.map((row) => (
           <div key={row.label} className="dv-pc-line" role="presentation">
             {row.labelTip ? (
-              <div className="dv-pc-rowlabel dv-tip" data-tip={row.labelTip}>{row.label}</div>
+              <div className="dv-pc-rowlabel dv-tip" data-pc-row={row.key} data-tip={row.labelTip}>{row.label}</div>
             ) : (
-              <div className="dv-pc-rowlabel">{row.label}</div>
+              <div className="dv-pc-rowlabel" data-pc-row={row.key}>{row.label}</div>
             )}
             {row.cells.map((c, i) => (
-              <div key={PC_PROGRAMS[i]} className="dv-pc-cell"><PcGridCell c={c} /></div>
+              <div key={PC_PROGRAMS[i]} className="dv-pc-cell" data-pc={`${row.key}:${PC_COLKEYS[i]}`}><PcGridCell c={c} /></div>
             ))}
           </div>
         ))}

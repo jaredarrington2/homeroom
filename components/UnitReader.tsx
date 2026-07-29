@@ -8,6 +8,7 @@ import Synth from "./Synth";
 import ReviewDeck from "./ReviewDeck";
 import DefinitionsDeck from "./DefinitionsDeck";
 import DisclosureVisual from "./DisclosureVisual";
+import TableNarration from "./TableNarration";
 import MarkComplete from "./MarkComplete";
 import ClearSection from "./ClearSection";
 import ExamCheck from "./ExamCheck";
@@ -91,6 +92,7 @@ export default function UnitReader({
               </figure>
             )}
             {g.visual && <DisclosureVisual kind={g.visual} />}
+            {g.visual === "program-comparison" && <TableNarration src="loan-programs" />}
             {g.walkthrough && <FormWalkthrough form={g.walkthrough} />}
             {g.worksheet && <Worksheet kind={g.worksheet} />}
             {g.vizWidget === "piggyback" && <PiggybackStack />}

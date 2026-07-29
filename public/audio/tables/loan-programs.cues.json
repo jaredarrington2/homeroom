@@ -1,0 +1,75 @@
+{
+  "audio": "/audio/tables/loan-programs.mp3",
+  "duration": 62.926,
+  "cues": [
+    {
+      "tStart": 0,
+      "tEnd": 6.908,
+      "targets": [
+        "[data-pc-row=\"backed\"]"
+      ]
+    },
+    {
+      "tStart": 7.059,
+      "tEnd": 13.05,
+      "targets": [
+        "[data-pc=\"backed:conv\"]"
+      ]
+    },
+    {
+      "tStart": 13.375,
+      "tEnd": 20.503,
+      "targets": [
+        "[data-pc=\"backed:fha\"]"
+      ]
+    },
+    {
+      "tStart": 20.886,
+      "tEnd": 25.019,
+      "targets": [
+        "[data-pc=\"backed:va\"]"
+      ]
+    },
+    {
+      "tStart": 25.461,
+      "tEnd": 32.694,
+      "targets": [
+        "[data-pc=\"backed:usda\"]"
+      ]
+    },
+    {
+      "tStart": 33.297,
+      "tEnd": 35.84,
+      "targets": [
+        "[data-pc-row=\"down\"]"
+      ]
+    },
+    {
+      "tStart": 36.223,
+      "tEnd": 43.816,
+      "targets": [
+        "[data-pc=\"down:va\"]",
+        "[data-pc=\"down:usda\"]"
+      ]
+    },
+    {
+      "tStart": 44.513,
+      "tEnd": 48.611,
+      "targets": [
+        "[data-pc=\"down:fha\"]"
+      ]
+    },
+    {
+      "tStart": 48.936,
+      "tEnd": 55.914,
+      "targets": [
+        "[data-pc=\"down:conv\"]"
+      ]
+    },
+    {
+      "tStart": 56.727,
+      "tEnd": 62.926,
+      "targets": []
+    }
+  ]
+}
