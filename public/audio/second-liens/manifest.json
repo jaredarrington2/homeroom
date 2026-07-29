@@ -9,42 +9,49 @@
       "id": "audio-second-liens-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "Every mortgage payment buys back a little more of your house. That's what equity is: the part you've already bought — what the home is worth, minus what you still owe on it. Put $80,000 down on a $400,000 house and you own $80,000 of it the day you move in; keep paying, or watch prices in the neighborhood climb, and that share keeps widening. Give it a few years and it can be a serious sum — real money, just locked up in the house."
+      "text": "It all starts with one word: equity. That's just the slice of the house you actually own — what it's worth, minus what you still owe. Say you put eighty thousand down on a four-hundred-thousand-dollar home; on day one, you own eighty thousand of it outright. Keep paying, or watch prices in the neighborhood climb, and that slice keeps widening. After a few years it can be real money — though it's tied up in the house, not cash in hand."
     },
     {
       "kind": "prose",
       "id": "audio-second-liens-g0-p1",
       "gi": 0,
       "pi": 1,
-      "text": "You can borrow against that share without disturbing the mortgage you already have. The first mortgage stays exactly where it is; the new loan takes second place behind it — which is what makes it a second lien. If the house were ever sold to clear its debts, the first mortgage would be paid off first and the second would wait for whatever's left. Standing at the back of that line is riskier for the lender, so a second lien usually costs a little more."
+      "text": "You get at that money by borrowing against it — you take out a brand-new loan, and the equity you've built sets the ceiling on how big it can be. You can do this whenever you like: years into the mortgage, or the day you buy. And it doesn't disturb the loan you already have. Your first mortgage stays exactly as it is. The new loan differs in just one way — who gets paid back first. If the home ever got sold to cover its debts, the first mortgage is paid in full before this new loan sees a single dollar. Since it only collects what's left over, we call it a second lien. And \"second\" there means second in line to be paid, not second in time. That lower spot in line is riskier for the lender, so a second lien usually costs a little more."
     },
     {
       "kind": "prose",
       "id": "audio-second-liens-g0-p2",
       "gi": 0,
       "pi": 2,
-      "text": "Two kinds cover most of it. You can take the money in a single piece — a fixed loan you pay back on a set schedule — which is a home-equity loan. Or you can open a line and draw from it as you go, paying down and borrowing again the way you would with a credit card, except the house is what backs it: a home-equity line. A buyer short on the down payment can even set up a second lien the day they close — and use it to skip mortgage insurance."
+      "text": "Most second liens come in one of two shapes. Either you take the whole amount in one piece — a fixed loan you pay off on a set schedule, which is a home-equity loan. Or you open a line you can draw from as you go, paying it down and borrowing again, a lot like a credit card, except here the house is what's backing it — that's a home-equity line. And one more thing: a buyer short on the down payment can set one up the very day they close, and use it to skip mortgage insurance. We'll come back to that."
     },
     {
       "kind": "prose",
       "id": "audio-second-liens-g1-p0",
       "gi": 1,
       "pi": 0,
-      "text": "With a home-equity loan, the lender pays out the whole amount at once, and the terms are fixed: one lump sum, a set interest rate, and a level monthly payment the borrower makes over a set term — as steady and predictable as a first mortgage, only behind it. It's closed-end: once the money is paid out, that's the loan; paying it down doesn't reopen anything to draw from again. So it fits a known, one-time cost — a specific renovation, or rolling a few fixed debts into a single payment — where the borrower knows up front exactly how much they need. When the need is open-ended instead, the line fits better."
+      "text": "Take the home-equity loan first. The lender hands over the whole amount at once, and everything is fixed: one lump sum, a set rate, and the same monthly payment for the life of the loan — steady and predictable, just like your first mortgage, only sitting behind it. It's what's called closed-end: once that money is paid out, that's the loan. Paying it down doesn't open anything back up to borrow again. So it is perfect when you know the exact number you need up front — a specific renovation, say, or rolling a few fixed debts into one payment. When the need is more open-ended, the line of credit is the better fit."
     },
     {
       "kind": "prose",
       "id": "audio-second-liens-g2-p0",
       "gi": 2,
       "pi": 0,
-      "text": "A home-equity line — a hee-lock — is open for about ten years, the draw period, during which the borrower draws and repays freely and is usually billed interest-only on whatever is outstanding, at a rate that tracks the Prime rate. When the draw period closes, the line freezes and the remaining balance amortizes over the years left."
+      "text": "A home-equity line — a hee-lock — stays open for about ten years. That stretch is called the draw period, and during it you can pull money out and pay it back as often as you like. Usually you're only billed interest on whatever you're carrying at the moment, at a rate that rides along with the Prime rate — so it moves up and down with the market. Once the draw period ends, the line freezes: no more borrowing, and whatever balance is left gets paid off over the years that remain."
     },
     {
       "kind": "prose",
       "id": "audio-second-liens-g3-p0",
       "gi": 3,
       "pi": 0,
-      "text": "If a borrower puts less than 20% down on a conventional loan, the lender adds private mortgage insurance (PMI) — a monthly charge on top of the payment that protects the lender if the borrower defaults, and buys the borrower nothing. A buyer short on the down payment can avoid it by borrowing in two pieces instead of one. PMI only kicks in when the first mortgage is above 80% of the home's value, so the buyer keeps that first loan at 80% and a second lien covers the rest of the price. Neither loan on its own is large enough to trigger PMI. Lenders call this pairing a piggyback."
+      "text": "Now, second liens tie into a real money-saving move at purchase. On a conventional loan, if you put less than twenty percent down, the lender tacks on private mortgage insurance — P-M-I — a monthly charge that protects the lender if you default, and does absolutely nothing for you. But here's the detail that matters: P-M-I is tied to the first mortgage alone, and it only kicks in once that first mortgage climbs above eighty percent of the home's value."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-second-liens-g3-p1",
+      "gi": 3,
+      "pi": 1,
+      "text": "So a buyer with only ten percent to put down has a clever way around it: split the financing into two loans instead of one big mortgage. Let's use a three-hundred-thousand-dollar home. One single mortgage would be two hundred seventy thousand — that's ninety percent of the value, above the eighty-percent line, so P-M-I kicks in. Instead, the buyer takes a first mortgage for exactly eighty percent of the value — two hundred forty thousand — then adds a second lien for the next thirty thousand, and puts thirty thousand, ten percent, down. Now the first mortgage sits right at eighty percent, so no P-M-I, and that little second lien fills the gap. Lenders call this pairing a piggyback, and they name it by its pieces — this one is an eighty-ten-ten: eighty percent first, ten percent second, ten percent down."
     },
     {
       "kind": "gate",
