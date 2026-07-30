@@ -6,6 +6,7 @@ import ContentsDrawer from './ContentsDrawer';
 import SearchPanel from './SearchPanel';
 import Calculator from './Calculator';
 import AccountMenu from './AccountMenu';
+import MobileAccountLinks from './MobileAccountLinks';
 
 const NAV = [
   { href: '/learn', label: 'Learn' },
@@ -97,13 +98,7 @@ export default function TopBar() {
               </Link>
             );
           })}
-          <Link
-            href="/settings"
-            onClick={() => setMenuOpen(false)}
-            className="block py-2 text-sm text-ink-muted hover:text-ink transition-colors"
-          >
-            Settings
-          </Link>
+          <MobileAccountLinks onNavigate={() => setMenuOpen(false)} />
         </div>
       )}
     </header>

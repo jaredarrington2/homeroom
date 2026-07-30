@@ -2,23 +2,33 @@
 //   { authEnabled: false }                        → sign-in isn't configured yet (show Settings)
 //   { authEnabled: true, signedIn: false }        → configured, not signed in (show "Sign in")
 //   { authEnabled: true, signedIn: true, ... }    → signed in (show avatar + menu)
+// Also reports whether Google is wired up, so /login can hide the button until it is, and
+// whether this account is on the ADMIN_EMAILS allowlist, so the menu can show the dashboard.
 import { NextResponse } from 'next/server';
+import { sessionAccount } from '@/lib/authUser';
+import { isAdminEmail, touchAccount } from '@/lib/accounts';
+import { googleEnabled } from '@/auth';
+
+export const dynamic = 'force-dynamic';
+
+const PRIVATE = { 'Cache-Control': 'private, no-store', Vary: 'Cookie' };
+const json = (body: unknown) => NextResponse.json(body, { headers: PRIVATE });
 
 export async function GET() {
-  if (!process.env.AUTH_SECRET) return NextResponse.json({ authEnabled: false, signedIn: false });
-  try {
-    const { auth } = await import('@/auth');
-    const session = await auth();
-    const user = session?.user as { id?: string; name?: string; image?: string } | undefined;
-    if (!user?.id) return NextResponse.json({ authEnabled: true, signedIn: false });
-    return NextResponse.json({
-      authEnabled: true,
-      signedIn: true,
-      userId: `u:${user.id}`,
-      name: user.name ?? null,
-      image: user.image ?? null,
-    });
-  } catch {
-    return NextResponse.json({ authEnabled: true, signedIn: false });
-  }
+  if (!process.env.AUTH_SECRET) return json({ authEnabled: false, signedIn: false });
+  const account = await sessionAccount();
+  if (!account) return json({ authEnabled: true, googleEnabled, signedIn: false });
+
+  void touchAccount(account.id);
+
+  return json({
+    authEnabled: true,
+    googleEnabled,
+    signedIn: true,
+    userId: `u:${account.id}`,
+    name: account.name,
+    email: account.email,
+    isAdmin: isAdminEmail(account.email),
+    image: account.image,
+  });
 }

@@ -1,13 +1,23 @@
 'use client';
 // components/AccountMenu.tsx — the top-right account control. Reads /api/me once and renders:
-//   auth not configured  → the plain Settings link (byte-identical to before Slice B)
+//   auth not configured  → the plain Settings link (byte-identical to before accounts landed)
 //   configured, signed out → "Sign in"
-//   signed in            → avatar + a small menu (Settings · Sign out)
+//   signed in            → avatar + a small menu (Accounts · Settings · Sign out)
 // Desktop only, mirroring where the Settings link lived.
 import Link from 'next/link';
+import { signOut } from 'next-auth/react';
 import { useEffect, useRef, useState } from 'react';
 
-type Me = { authEnabled: boolean; signedIn: boolean; name?: string | null; image?: string | null };
+type Me = {
+  authEnabled: boolean;
+  signedIn: boolean;
+  name?: string | null;
+  email?: string | null;
+  image?: string | null;
+  isAdmin?: boolean;
+};
+
+const ITEM = 'block w-full text-left px-3 py-2 text-sm text-ink hover:bg-royal-faint';
 
 export default function AccountMenu() {
   const [me, setMe] = useState<Me | null>(null);
@@ -36,10 +46,10 @@ export default function AccountMenu() {
     return <Link href="/settings" className={linkCls}>Settings</Link>;
   }
   if (!me.signedIn) {
-    return <a href="/api/auth/signin" className={linkCls}>Sign in</a>;
+    return <Link href="/login" className={linkCls}>Sign in</Link>;
   }
 
-  const initial = (me.name ?? '?').trim().charAt(0).toUpperCase() || '?';
+  const initial = (me.name ?? me.email ?? '?').trim().charAt(0).toUpperCase() || '?';
   return (
     <div className="relative hidden md:block" ref={ref}>
       <button onClick={() => setOpen((o) => !o)} aria-label="Account menu" className="flex items-center">
@@ -53,13 +63,23 @@ export default function AccountMenu() {
         )}
       </button>
       {open && (
-        <div className="absolute right-0 mt-2 w-40 border border-hairline bg-paper py-1 shadow-sm z-50">
-          <Link href="/settings" onClick={() => setOpen(false)} className="block px-3 py-2 text-sm text-ink hover:bg-royal-faint">
+        <div className="absolute right-0 mt-2 w-48 border border-hairline bg-paper py-1 shadow-sm z-50">
+          {me.email && (
+            <div className="px-3 pb-2 pt-1 text-xs text-ink-faint truncate border-b border-hairline mb-1">
+              {me.email}
+            </div>
+          )}
+          {me.isAdmin && (
+            <Link href="/admin" onClick={() => setOpen(false)} className={ITEM}>
+              Accounts
+            </Link>
+          )}
+          <Link href="/settings" onClick={() => setOpen(false)} className={ITEM}>
             Settings
           </Link>
-          <a href="/api/auth/signout" className="block px-3 py-2 text-sm text-ink hover:bg-royal-faint">
+          <button onClick={() => signOut({ callbackUrl: '/' })} className={ITEM}>
             Sign out
-          </a>
+          </button>
         </div>
       )}
     </div>

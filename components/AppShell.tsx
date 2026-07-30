@@ -5,14 +5,20 @@ import { ProgressProvider, useProgressContext } from '@/lib/ProgressContext';
 import { ListenProvider } from '@/lib/ListenContext';
 import { LoginQuiz } from './LoginQuiz';
 import ListenBar from './ListenBar';
+import { usePathname } from 'next/navigation';
 import { ReactNode } from 'react';
 
 function AppShellInner({ children }: { children: ReactNode }) {
   const { progress, loaded } = useProgressContext();
+  // Never pop the quiz over the sign-in page — a signed-out visitor still loads the
+  // device's anonymous blob, so without this the quiz lands on top of the login form.
+  // /admin is excluded for the same reason: it isn't a study surface.
+  const path = usePathname() || '';
+  const noQuiz = path.startsWith('/login') || path.startsWith('/admin');
   return (
     <>
       {children}
-      {loaded && <LoginQuiz completedUnits={progress.completedUnits} />}
+      {loaded && !noQuiz && <LoginQuiz completedUnits={progress.completedUnits} />}
       <ListenBar />
     </>
   );

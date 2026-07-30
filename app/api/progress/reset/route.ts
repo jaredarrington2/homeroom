@@ -9,6 +9,8 @@ import { getChapterTree } from '@/lib/content';
 import { applyReset, parseScope } from '@/lib/progressReset';
 import { resolveUserId } from '@/lib/authUser';
 
+export const dynamic = 'force-dynamic';
+
 export async function POST(req: NextRequest) {
   const userId = await resolveUserId(req.headers.get('X-User-Id'));
   if (!userId) return NextResponse.json({ ok: false }, { status: 400 });
