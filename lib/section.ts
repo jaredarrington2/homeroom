@@ -160,6 +160,8 @@ export interface WorksheetInput {
 export interface WorksheetScenario {
   /** Letterhead + meta line. */
   lender: string;
+  /** Letterhead document line; defaults to "Loan structuring worksheet". */
+  doc?: string;
   program: string;
   borrower: string;
   /** The rate shown in the meta line, e.g. "5.25%". */

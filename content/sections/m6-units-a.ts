@@ -270,11 +270,7 @@ const unitsA: SectionUnit[] = [
       },
       {
         heading: 'one borrower, end to end',
-        paras: [
-          {
-            html: `The fastest way to learn the form is to watch it be filled in. Maya Okonkwo is a first-time buyer with a condo under contract. Her application is worked end to end below — every section, her answers inked in, the judgment calls flagged where a rule bites. Switch her off to read the form blank.`,
-          },
-        ],
+        paras: [],
         embed: 'maya-application',
       },
     ],
@@ -369,18 +365,14 @@ const unitsA: SectionUnit[] = [
       },
       {
         heading: 'drill the package',
-        paras: [
-          {
-            html: `The trainer below teaches all nine forms the way they're actually used — form by form, section by section, then a filing drill to make the locations stick.`,
-          },
-        ],
+        paras: [],
         embed: 'learn-forms',
       },
       {
         heading: 'looking one thing up',
         paras: [
           {
-            html: `For a single field or form mid-task, skip the lesson and use the <a href="/learn/mlo-activities/explorer">form explorer</a> — it's a reference tool, built for lookup rather than learning.`,
+            html: `The <a href="/learn/mlo-activities/explorer">form explorer</a> looks up any single form or field in the package.`,
           },
         ],
       },
@@ -521,12 +513,7 @@ const unitsA: SectionUnit[] = [
         ],
       },
       {
-        heading: 'the deal desk',
-        paras: [
-          {
-            html: `Below is the desk itself: a borrower's file, a target to set, a search to run, an adjustment stack to read, and a lock to request. Everything this unit taught, done with your own hands.`,
-          },
-        ],
+        paras: [],
         embed: 'deal-desk',
       },
     ],

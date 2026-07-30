@@ -277,14 +277,6 @@ const unitsB: SectionUnit[] = [
             html: `The guidelines, front over back: conventional <span class="cloze" data-accept='["28/36","28 36","28 over 36"]' data-reveal="28/36">?</span>, FHA <span class="cloze" data-accept='["31/43","31 43","31 over 43"]' data-reveal="31/43">?</span>, USDA 29/41 — and VA, which never looks at a front-end, holds the back at <span class="cloze" data-accept='["41","41%"]' data-reveal="41">?</span>. They are guidelines, not walls: an underwriter approves 31/41 on a conventional file when the score is exceptional, the LTV low, or the reserves deep.`,
           },
         ],
-      },
-      {
-        heading: 'the qualifying worksheet',
-        paras: [
-          {
-            html: `The Reyes file below assembles a housing expense line by line, then computes both ratios. The HOA line is the one people miss — mandatory dues count as housing whether or not they ride in the mortgage payment.`,
-          },
-        ],
         worksheet: 'ratios',
       },
       {
@@ -872,7 +864,7 @@ const unitsB: SectionUnit[] = [
       {
         paras: [
           {
-            html: `Every calculation the exam tests has already appeared once, in place — pricing in unit 04, the ratios in unit 07, the fees in unit 10. This unit runs them again, bare, because III.D is a quarter of nothing: it's pure points, and speed here is cheap. Prometric hands you a four-function calculator and nothing more; the dock beside this page is deliberately the same. Work every blank by hand.`,
+            html: `Every calculation the exam tests has already appeared once, in place — pricing in unit 04, the ratios in unit 07, the fees in unit 10. Here they run again, bare. The exam allows a four-function calculator and nothing more.`,
           },
         ],
       },

@@ -6,7 +6,8 @@ import type { WorksheetScenario } from "@/lib/section";
 
 export const ratiosScenario: WorksheetScenario = {
   lender: "Bayline Home Lending",
-  program: "Conventional 30 · qualifying worksheet",
+  doc: "Qualifying worksheet",
+  program: "Conventional 30",
   borrower: "Jordan & Sam Reyes",
   rate: "6.50%",
   inputs: {

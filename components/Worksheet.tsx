@@ -196,7 +196,7 @@ export default function Worksheet({ kind }: { kind: WorksheetKind }) {
           <div className="ws-mark" aria-hidden="true">{initials}</div>
           <div>
             <div className="ws-name">{scenario.lender}</div>
-            <div className="ws-doc">Loan structuring worksheet</div>
+            <div className="ws-doc">{scenario.doc ?? "Loan structuring worksheet"}</div>
           </div>
         </div>
         <div className="ws-actions">
