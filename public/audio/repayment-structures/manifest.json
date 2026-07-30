@@ -9,21 +9,56 @@
       "id": "audio-repayment-structures-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "A fixed-rate loan locks one interest rate for the whole term, so the principal-and-interest payment never changes. Early on, most of each payment is interest; as the balance falls, more of it goes to principal, until the loan is paid off on schedule. Every other product in this unit is a change to that one arrangement — the payment, the payoff date, or both."
+      "text": "When you borrow money to buy a home, you owe two things back: the amount you borrowed — the principal — and a fee charged for borrowing it — the interest. You pay them down together, a little at a time, in a bill that comes due every month."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-repayment-structures-g0-p1",
+      "gi": 0,
+      "pi": 1,
+      "text": "A fixed-rate loan is the one most buyers picture, and the one most buyers choose. The interest rate is set the day you sign and never moves, so the monthly payment is the same in year one as in year thirty — whatever happens to the wider economy. That steadiness is why it's the default: you can build a budget around a number that won't change on you."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-repayment-structures-g0-p2",
+      "gi": 0,
+      "pi": 2,
+      "text": "Every other loan in this unit is a variation on that one arrangement — a change to the payment, the payoff date, or both."
     },
     {
       "kind": "prose",
       "id": "audio-repayment-structures-g1-p0",
       "gi": 1,
       "pi": 0,
-      "text": "On a 30-year loan the crossover — the month principal finally overtakes interest inside each payment — sits more than halfway in. A $200,000 loan at 6% pays $231,676 in interest across the full schedule. Paying extra against principal each month moves the crossover earlier and drops that total sharply."
+      "text": "In the early years, a monthly payment barely dents what you borrowed — and there's a reason. Interest is charged on the balance you still owe, and at the start that balance is at its largest, so most of each early payment goes to the interest fee and only a little reaches the principal. As the balance shrinks, the interest share shrinks with it, and more of every payment starts paying down what you actually borrowed. That gradual shift is called amortization."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-repayment-structures-g1-p1",
+      "gi": 1,
+      "pi": 1,
+      "text": "The turning point — the crossover, the month principal finally overtakes interest inside a single payment — sits more than halfway through a 30-year loan. And the interest adds up: a $200,000 loan at 6% pays $231,676 in interest across the full schedule — more than the amount borrowed. Putting even a little extra toward principal early pulls that crossover forward and cuts the total sharply, because a dollar of principal cleared now is a dollar you stop paying interest on for years."
     },
     {
       "kind": "prose",
       "id": "audio-repayment-structures-g2-p0",
       "gi": 2,
       "pi": 0,
-      "text": "On an interest-only loan the borrower pays only the interest for a set period, so the balance holds flat — nothing is going to principal. It exists only as a feature of a non-QM mortgage: a lender either keeps it in portfolio or sells it to a private investor. When the interest-only period ends, the loan re-casts to a payment that repays the full balance over the years left, and that payment jumps."
+      "text": "An interest-only loan lets the borrower pay just the interest fee for a set stretch at the start — often several years — with nothing going toward the principal. The payment is smaller during that window, but the balance doesn't move: none of that money is buying a share of the home."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-repayment-structures-g2-p1",
+      "gi": 2,
+      "pi": 1,
+      "text": "It fits a narrow kind of borrower — someone whose income arrives in large, irregular chunks, someone who expects to earn much more before long, or an investor who plans to sell before the window closes. And it carries a catch on the far side: when the interest-only stretch ends, the loan re-casts, meaning the lender recalculates the payment to clear the whole balance over the years that remain. Because nothing has been paid down, that new payment jumps."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-repayment-structures-g2-p2",
+      "gi": 2,
+      "pi": 2,
+      "text": "Since a regular payment isn't chipping away at the debt, an interest-only loan sits outside the safest category of home loan — the qualified mortgage, or QM, the federal standard for a loan the borrower can clearly afford. Interest-only is a non-QM feature, so a lender either keeps the loan on its own books or sells it to a private investor instead of the usual channels."
     },
     {
       "kind": "gate",
@@ -36,14 +71,35 @@
       "id": "audio-repayment-structures-g3-p0",
       "gi": 3,
       "pi": 0,
-      "text": "A balloon loan's payment is set on a 30- or 15-year amortization, but the lender calls the entire remaining balance due years earlier. Lenders write it as two numbers — years to the call, then the amortization behind the payment — so a 3/27 is paid like a 30-year loan but comes due at year three. The low rate is the trade for the risk that the borrower can't cover the call. To exercise a conditional right to modify (CRTM) — converting the balloon to a fixed rate instead of paying it — the borrower must give written notice no later than 45 days before the call."
+      "text": "A balloon loan keeps the monthly payment low by setting it as if the loan were a long 30- or 15-year mortgage — but it isn't one. After only a few years, the lender demands the entire remaining balance in a single lump, the balloon payment. When that day comes, the borrower has to handle it one of three ways: sell the home, refinance into a new loan, or pay the lump in full."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-repayment-structures-g3-p1",
+      "gi": 3,
+      "pi": 1,
+      "text": "Lenders name it with two numbers — the years until the lump is due, then the long schedule the payment is based on — so a 3/27 is paid like a 30-year loan but comes due at year three. The low payment is the trade for a real risk: a borrower who can't sell or refinance in time is suddenly owing the whole balance at once. It suits someone confident they'll move or refinance before the deadline, and it's a hazard for someone who isn't."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-repayment-structures-g3-p2",
+      "gi": 3,
+      "pi": 2,
+      "text": "Some balloon loans build in a safety valve — a conditional right to modify (CRTM) — that lets the borrower convert to a fixed-rate loan instead of paying the lump, as long as they meet the loan's conditions and give written notice no later than 45 days before the call."
     },
     {
       "kind": "prose",
       "id": "audio-repayment-structures-g4-p0",
       "gi": 4,
       "pi": 0,
-      "text": "When a borrower pays a lump sum against principal, a fixed-rate loan normally keeps the payment the same and shortens the term. A re-cast does the opposite: the servicer recomputes a lower payment against the new, smaller balance over the remaining term. It's discretionary and often carries a fee — and the interest rate never changes."
+      "text": "Say a borrower comes into a lump of money — a bonus, an inheritance — and puts it toward the loan. Normally the balance drops but the monthly payment holds steady, and the loan simply finishes sooner. A re-cast does the opposite: the company that collects the payments — the servicer — recomputes a new, lower monthly payment against the reduced balance, spread across the same remaining years. The rate doesn't change and the payoff date doesn't move; only the monthly bill gets smaller."
+    },
+    {
+      "kind": "prose",
+      "id": "audio-repayment-structures-g4-p1",
+      "gi": 4,
+      "pi": 1,
+      "text": "It's the right tool for a borrower who wants more room in the monthly budget rather than an earlier payoff. The servicer decides whether to allow it, and it usually carries a fee."
     },
     {
       "kind": "gate",

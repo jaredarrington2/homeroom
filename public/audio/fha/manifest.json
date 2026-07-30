@@ -2,14 +2,14 @@
   "unitId": "fha",
   "name": "FHA loans",
   "reg": "Federal Housing Administration · HUD-insured loans · National Housing Act",
-  "groupCount": 2,
+  "groupCount": 3,
   "items": [
     {
       "kind": "prose",
       "id": "audio-fha-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "An FHA loan is insured by HUD, so a borrower can qualify with a smaller down payment and a lower credit score than a conventional loan requires — as little as 3.5% down, a 96.5% LTV. In exchange, it carries mortgage insurance in two parts — an up-front premium financed into the loan, and an annual premium collected monthly with the payment."
+      "text": "An FHA loan is insured by HUD, so a borrower can qualify with a smaller down payment and a lower credit score than a conventional loan requires — as little as 3.5% down, a 96.5% LTV. In exchange, it carries mortgage insurance in two parts — an up-front premium of 1.75% of the base loan, usually financed into the loan, and an annual premium collected monthly with the payment."
     },
     {
       "kind": "gate",
@@ -29,6 +29,19 @@
       "gateType": "synth",
       "id": "audio-fha-g1-gate-synth",
       "gi": 1
+    },
+    {
+      "kind": "prose",
+      "id": "audio-fha-g2-p0",
+      "gi": 2,
+      "pi": 0,
+      "text": "The annual MIP doesn't always run for the full term — how long it lasts turns on the down payment. Put at least 10% down and it falls off after 11 years; put less than that, and the borrower pays it for the life of the loan. Since most FHA borrowers put the minimum 3.5% down, the insurance usually runs for the life of the loan — a standing cost that makes refinancing out of FHA a common goal once the borrower has built enough equity."
+    },
+    {
+      "kind": "gate",
+      "gateType": "synth",
+      "id": "audio-fha-g2-gate-synth",
+      "gi": 2
     },
     {
       "kind": "gate",

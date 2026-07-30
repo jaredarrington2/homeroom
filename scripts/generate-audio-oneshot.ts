@@ -36,6 +36,12 @@ const PRONUNCIATION: Array<[RegExp, string]> = [
 ];
 const phoneticize = (t: string) => PRONUNCIATION.reduce((o, [re, rep]) => o.replace(re, rep), t);
 
+// Optional per-segment spoken overrides (conversational audio scripts), keyed unitId → segId.
+// Falls back to the paragraph's para.spoken / page-derived text when absent.
+const OV_PATH = path.join(process.cwd(), "content", "audio-overrides.json");
+const OVERRIDES: Record<string, Record<string, string>> =
+  fs.existsSync(OV_PATH) ? JSON.parse(fs.readFileSync(OV_PATH, "utf8")) : {};
+
 function loadEnv(name: string): string {
   for (const line of fs.readFileSync(path.join(process.cwd(), ".env.local"), "utf8").split("\n")) {
     const m = new RegExp(`^\\s*${name}\\s*=\\s*(.+?)\\s*$`).exec(line);
@@ -44,66 +50,95 @@ function loadEnv(name: string): string {
   return "";
 }
 
-async function tts(text: string, key: string, voice: string): Promise<any> {
+const MAX_CHARS = 9000; // safe single-request size for eleven_multilingual_v2
+
+async function tts(text: string, key: string, voice: string, prevText?: string, nextText?: string): Promise<any> {
   const url = `https://api.elevenlabs.io/v1/text-to-speech/${voice}/with-timestamps?output_format=${OUTPUT_FORMAT}`;
+  const body: Record<string, unknown> = { text, model_id: MODEL_ID, voice_settings: VOICE_SETTINGS };
+  if (prevText) body.previous_text = prevText; // prosodic continuity across chunk boundaries
+  if (nextText) body.next_text = nextText;
   for (let attempt = 0; attempt < 3; attempt++) {
     const res = await fetch(url, {
       method: "POST",
       headers: { "xi-api-key": key, "Content-Type": "application/json" },
-      body: JSON.stringify({ text, model_id: MODEL_ID, voice_settings: VOICE_SETTINGS }),
+      body: JSON.stringify(body),
     });
     if (res.ok) return res.json();
-    const body = await res.text();
+    const errBody = await res.text();
     if (attempt < 2 && (res.status === 429 || res.status >= 500)) { await new Promise((r) => setTimeout(r, 3000)); continue; }
-    throw new Error(`ElevenLabs ${res.status}: ${body.slice(0, 300)}`);
+    throw new Error(`ElevenLabs ${res.status}: ${errBody.slice(0, 300)}`);
   }
+}
+
+// Group a unit's segments into contiguous chunks, each ≤ MAX_CHARS (whole segments only).
+function chunkSegments(segs: Array<{ id: string; text: string }>): Array<Array<{ id: string; text: string }>> {
+  const chunks: Array<Array<{ id: string; text: string }>> = [];
+  let cur: Array<{ id: string; text: string }> = [];
+  let len = 0;
+  for (const s of segs) {
+    const add = (cur.length ? 1 : 0) + s.text.length;
+    if (len + add > MAX_CHARS && cur.length) { chunks.push(cur); cur = []; len = 0; }
+    cur.push(s);
+    len += (cur.length > 1 ? 1 : 0) + s.text.length;
+  }
+  if (cur.length) chunks.push(cur);
+  return chunks;
 }
 
 async function genUnit(unitId: string, key: string, voice: string) {
   const unit = ALL_UNITS.find((u) => u.id === unitId);
   if (!unit) { console.error(`  no unit "${unitId}"`); return; }
   const man = unitManifest(unit);
-  const prose = man.items.filter(isSegment) as Array<{ id: string; text: string }>;
-
-  // One script for the whole unit; record each segment's char range so we can find its time.
-  let script = "";
-  const spans: { id: string; start: number; end: number }[] = [];
-  prose.forEach((it, i) => {
-    const start = script.length;
-    script += phoneticize(it.text.trim());
-    spans.push({ id: it.id, start, end: script.length });
-    if (i < prose.length - 1) script += " ";
-  });
-  console.log(`\n  ${unitId}: ${prose.length} segments, ${script.length} chars - one take...`);
-
-  const data = await tts(script, key, voice);
-  const al = data.alignment;
-  const starts: number[] = al.character_start_times_seconds;
-  const ends: number[] = al.character_end_times_seconds;
-  const N = al.characters.length;
-  const idxAt = (p: number) => (N === script.length ? p : Math.round((p / script.length) * N));
-  const clamp = (i: number) => Math.min(Math.max(i, 0), N - 1);
-  const duration = ends[N - 1];
+  const ov = OVERRIDES[unitId] ?? {};
+  const prose = (man.items.filter(isSegment) as Array<{ id: string; text: string }>).map((it) => ({
+    id: it.id, text: phoneticize((ov[it.id] ?? it.text).trim()),
+  }));
+  const chunks = chunkSegments(prose);
 
   const dir = path.join(AUDIO_ROOT, unitId);
   fs.mkdirSync(dir, { recursive: true });
   fs.writeFileSync(path.join(dir, "manifest.json"), JSON.stringify(man, null, 2));
-  const full = path.join(dir, "_full.mp3");
-  fs.writeFileSync(full, Buffer.from(data.audio_base64, "base64"));
+  console.log(`\n  ${unitId}: ${prose.length} segments in ${chunks.length} take(s)...`);
 
-  const segStart = spans.map((s) => starts[clamp(idxAt(s.start))]);
-  spans.forEach((s, i) => {
-    const t0 = i === 0 ? 0 : segStart[i];
-    const t1 = i < spans.length - 1 ? segStart[i + 1] : duration;
-    const dur = Math.max(0.1, t1 - t0);
-    const out = path.join(dir, `${s.id}.mp3`);
-    execSync(`ffmpeg -y -ss ${t0.toFixed(3)} -t ${dur.toFixed(3)} -i "${full}" -c:a libmp3lame -b:a 192k "${out}" -loglevel error`);
-    console.log(`    ${s.id}  ${t0.toFixed(1)}-${t1.toFixed(1)}s`);
-  });
-  fs.unlinkSync(full);
+  for (let ci = 0; ci < chunks.length; ci++) {
+    const chunk = chunks[ci];
+    // Build this chunk's script and record each segment's char range.
+    let script = "";
+    const spans: { id: string; start: number; end: number }[] = [];
+    chunk.forEach((s, i) => {
+      const start = script.length;
+      script += s.text;
+      spans.push({ id: s.id, start, end: script.length });
+      if (i < chunk.length - 1) script += " ";
+    });
+    const prevText = ci > 0 ? chunks[ci - 1].map((s) => s.text).join(" ").slice(-500) : undefined;
+    const nextText = ci < chunks.length - 1 ? chunks[ci + 1].map((s) => s.text).join(" ").slice(0, 500) : undefined;
+
+    const data = await tts(script, key, voice, prevText, nextText);
+    const al = data.alignment;
+    const starts: number[] = al.character_start_times_seconds;
+    const ends: number[] = al.character_end_times_seconds;
+    const N = al.characters.length;
+    const idxAt = (p: number) => (N === script.length ? p : Math.round((p / script.length) * N));
+    const clamp = (i: number) => Math.min(Math.max(i, 0), N - 1);
+    const duration = ends[N - 1];
+
+    const full = path.join(dir, "_chunk.mp3");
+    fs.writeFileSync(full, Buffer.from(data.audio_base64, "base64"));
+    const segStart = spans.map((s) => starts[clamp(idxAt(s.start))]);
+    spans.forEach((s, i) => {
+      const t0 = i === 0 ? 0 : segStart[i];
+      const t1 = i < spans.length - 1 ? segStart[i + 1] : duration;
+      const dur = Math.max(0.1, t1 - t0);
+      const out = path.join(dir, `${s.id}.mp3`);
+      execSync(`ffmpeg -y -ss ${t0.toFixed(3)} -t ${dur.toFixed(3)} -i "${full}" -c:a libmp3lame -b:a 192k "${out}" -loglevel error`);
+    });
+    fs.unlinkSync(full);
+    console.log(`    take ${ci + 1}/${chunks.length}: ${chunk.length} clips, ${duration.toFixed(1)}s`);
+  }
   const stale = path.join(dir, "full.mp3");
   if (fs.existsSync(stale)) fs.unlinkSync(stale);
-  console.log(`  done - ${spans.length} clips split from one ${duration.toFixed(1)}s take.`);
+  console.log(`  done - ${prose.length} clips.`);
 }
 
 async function main() {
