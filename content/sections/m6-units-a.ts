@@ -440,6 +440,7 @@ const unitsA: SectionUnit[] = [
         paras: [
           {
             html: `The borrower's question is always the same: <i>what's my rate?</i> The honest answer is that there isn't one rate — there's a ladder of them, and each rung has a price. Pricing a loan means choosing a rung, and locking means holding it while the file catches up.`,
+            spoken: `Every borrower asks the same first question: what's my rate? And the honest answer is — there isn't one rate. There's a whole ladder of them, and every rung on that ladder has its own price. Pricing a loan really just means choosing your rung. And locking means holding onto that rung while the rest of the file catches up.`,
           },
         ],
       },
@@ -448,9 +449,11 @@ const unitsA: SectionUnit[] = [
         paras: [
           {
             html: `<b>Par</b> is the anchor: the market rate a borrower can have with no points paid and no credit generated. Below par costs money — <b>discount points</b>, up-front interest paid at settlement to permanently buy the rate down. One point equals <span class="cloze" data-accept='["one","1","1%","one percent","1 percent"]' data-reveal="one">?</span> percent of the loan amount.`,
+            spoken: `Start with par. Par is the anchor — the market rate you can have without paying anything extra, and without getting anything back. If you want a rate below par, that costs money. You pay discount points: interest, up front, at the settlement table, and the rate comes down for good. One point costs one percent of the loan amount — so on a three-hundred-thousand-dollar loan, a single point is three thousand dollars.`,
           },
           {
             html: `Above par pays money. <b>Premium pricing</b> charges a higher-than-par rate and, in exchange, generates a <b>lender credit</b> that offsets the borrower's settlement fees. Three conditions attach: the borrower must be <span class="cloze" data-accept='["aware","aware of it","informed"]' data-reveal="aware">?</span> of the trade, consent to it, and qualify at the higher payment. The old name for the money an above-par rate generates is the <b>yield spread premium</b>.`,
+            spoken: `Now go the other way. A rate above par pays money back. That's premium pricing: the borrower takes a higher rate, and in exchange the lender generates a credit that goes toward the closing costs. Three things make that trade legitimate. The borrower is aware of it. The borrower consents to it. And the borrower qualifies at the higher payment. And if you ever hear the old name for the money an above-par rate throws off — that's the yield spread premium.`,
           },
         ],
       },
@@ -459,6 +462,7 @@ const unitsA: SectionUnit[] = [
         paras: [
           {
             html: `Points buy the rate down permanently. The <b>2/1 buydown</b> buys the payment down temporarily, and the seller funds it as a concession. Year one, the borrower pays as if the rate were <span class="cloze" data-accept='["two","2","2%"]' data-reveal="two">?</span> percent below the note rate; year two, <span class="cloze" data-accept='["one","1","1%"]' data-reveal="one">?</span> percent below; the conceded funds top up each payment so the servicer always receives the full note-rate amount. Year three, the borrower pays the true payment — which is why the qualification question with any temporary buydown is whether she can afford year three, not year one.`,
+            spoken: `Points change the rate permanently. The two-one buydown is a different tool — it lowers the payment temporarily, and the seller funds it as a concession. It runs on a schedule. Year one, you pay as if your rate were two percent lower than it really is. Year two, one percent lower. The seller's money quietly tops up each payment behind the scenes, so the servicer always receives the full amount. Then year three arrives, and the borrower pays the true payment from there on. Which is why the qualifying question on any temporary buydown is whether she can afford year three — not year one.`,
           },
         ],
       },
@@ -491,12 +495,15 @@ const unitsA: SectionUnit[] = [
         paras: [
           {
             html: `A lock is not a button that locks. The originator selects a rate and submits a lock <b>request</b>, and the file sits in <span class="cloze" data-accept='["lock pending","pending"]' data-reveal="lock pending">?</span> until the <b>secondary desk</b> accepts it — unless the shop has configured auto-accept. Before the request can even go, the file needs the borrower's <span class="cloze" data-accept='["social security number","ssn"]' data-reveal="SSN">?</span> and an assigned loan officer. Common lock periods run 15, 30, 45, or 60 days, and the accepted lock — rate, price, period, expiration — is written back to the loan file. The borrower signs a <b>rate lock agreement</b> describing all of it.`,
+            spoken: `A lock is not a button that locks. What you actually submit is a request. You pick a rate, you send the request up, and the file sits in a state called lock pending until the secondary desk accepts it — unless your shop has auto-accept turned on. And before that request can even go, the file needs two things on it: the borrower's Social Security number, and an assigned loan officer. Locks come in standard lengths — fifteen, thirty, forty-five, or sixty days. Once the desk accepts, the lock writes back to the loan file: the rate, the price, the period, and the day it expires. And the borrower signs a rate lock agreement that spells all of it out.`,
           },
           {
             html: `Know the lock's real edges. It holds the <span class="cloze" data-accept='["rate and points","rate and the points","the rate and points"]' data-reveal="rate and points">?</span> against market movement — nothing else. It does not cap lender fees, and it is not an approval. And it protects against the market, not against the file: a material change — a low appraisal that moves the LTV, a credit-score drop, a program switch — re-runs the adjustment stack and re-prices the locked loan.`,
+            spoken: `But here's the detail that matters: what the lock actually holds. It holds the rate and points against market movement — and that is all. It does not cap the lender's fees. It is not an approval. And it protects against the market, not against the file itself. If the appraisal comes in low, or the credit score drops, or the program changes, the adjustment stack gets re-run — and even a locked loan gets re-priced.`,
           },
           {
             html: `Locks die on a calendar. If closing slips past expiration, a <b>lock extension</b> buys days at a price; letting it lapse entirely usually means relocking at worst-case pricing. The alternative to all of it is to <b>float</b> — stay unlocked and keep market risk in both directions.`,
+            spoken: `And locks die on a calendar. If the closing slips past expiration, you can buy an extension — a few more days, at a price. Let it lapse completely, and you're usually relocking at worst-case pricing. There's also the other choice: don't lock at all. That's called floating — you keep your exposure to the market, in both directions, until the day you finally lock.`,
           },
         ],
         synth: {

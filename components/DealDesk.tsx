@@ -10,6 +10,7 @@
 // In-session state only — the Worksheet/FormWalkthrough precedent. Microcopy is
 // labels, not briefings.
 import { useEffect, useMemo, useRef, useState } from 'react';
+import MentorChat from './MentorChat';
 import {
   COMP_POINTS,
   EXTENSIONS,
@@ -401,6 +402,10 @@ export default function DealDesk() {
           )}
         </>
       )}
+
+      <MentorChat
+        desk={`occupancy ${occ}; target price ${price}, period ${period ?? 'unset'}; ${searched ? 'searched' : 'not searched yet'}; comp ${comp === 'lp' ? 'lender-paid' : 'borrower-paid'}; lock ${lockState}${lockRung ? ` at ${lockRung.rung.rate.toFixed(3)}% price ${px(lockRung.price)} (${lockRung.product.name})` : ''}`}
+      />
 
       <div className="dd-foot">
         Product changes, relocks, and lock concessions exist on a real desk but aren&apos;t built here. A real engine also spans dozens of investors, more search styles, and the margin and rule configuration behind the secondary desk — outside an originator&apos;s seat.
