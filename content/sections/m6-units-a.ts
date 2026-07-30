@@ -57,8 +57,14 @@ const unitsA: SectionUnit[] = [
         heading: 'the six items that make an application',
         paras: [
           {
-            html: `Six pieces of information turn a conversation into an <b>application</b>. TRID names them, and the list is exact:<ul><li>Her name</li><li>Her income</li><li>Her <span class="cloze" data-accept='["social security number","ssn","social security"]' data-reveal="Social Security number">?</span></li><li>The property's address</li><li>The property's value or purchase price</li><li>The loan amount</li></ul>`,
+            html: `Six pieces of information turn a conversation into an <b>application</b>. A borrower can hand over every one of them on a phone call, without signing anything — name the six that do it.`,
           },
+        ],
+        recall: 'six-items',
+      },
+      {
+        heading: 'once all six arrive',
+        paras: [
           {
             html: `It makes no difference that she never meant to apply, or that no form was signed. Once all six are in your hands, the lender owes her a Loan Estimate within <span class="cloze" data-accept='["three","3","three general business days","3 general business days"]' data-reveal="three">?</span> general business days.`,
           },

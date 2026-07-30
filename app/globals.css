@@ -2441,3 +2441,52 @@ a.cd-chapter-name:hover { color: #1E3A8A; }
 .section-reader .dd-mentor-send { font-family: var(--font-type); font-size: 12px; letter-spacing: .04em; padding: 6px 14px; background: #1E3A8A; color: #fff; border: 0; cursor: pointer; }
 .section-reader .dd-mentor-send:disabled { background: #CFCFCF; cursor: default; }
 .section-reader .dd-mentor-send:not(:disabled):hover { background: #1B3479; }
+
+/* ═══ Module 6 — six-items recall drill (scoped .rb, inside .section-reader) ═══
+   A fillable intake sheet: the learner names each required item in their own
+   words. Skeuomorphic like the worksheet and the disclosure visuals — local warm
+   palette, dashed writing boxes, one Caveat margin scrawl — all scoped to .rb-*. */
+.section-reader .rb { --rb-warm: #FBF6E9; --rb-rule: #C9C4B4; --rb-dash: #9BA9C9;
+  border: 1px solid var(--rb-rule); background: #fff; margin: 26px 0; }
+.section-reader .rb * { box-sizing: border-box; }
+.section-reader .rb-head { display: flex; justify-content: space-between; align-items: baseline; padding: 15px 20px 12px; border-bottom: 2px solid #1E3A8A; }
+.section-reader .rb-mark { font-family: var(--font-display); font-weight: 600; font-size: 15px; color: #1E3A8A; }
+.section-reader .rb-meta { font-family: var(--font-type); font-size: 11px; color: #6B6B6B; letter-spacing: .04em; }
+.section-reader .rb-boxes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; padding: 20px; background: var(--rb-warm); }
+.section-reader .rb-box { background: #fff; border: 1.5px dashed var(--rb-dash); padding: 16px 15px 14px; min-height: 124px; display: flex; flex-direction: column; justify-content: space-between; transition: border-color .18s ease, background .18s ease; }
+.section-reader .rb-box:hover:not(.locked) { border-color: #1E3A8A; cursor: text; }
+.section-reader .rb-box.focus { border: 1.5px solid #1E3A8A; background: #F2F5FB; }
+.section-reader .rb-box input { width: 100%; background: transparent; border: 0; outline: none; font-family: var(--font-type); font-size: 14px; color: #1E3A8A; padding: 0 0 6px; caret-color: #1E3A8A; }
+.section-reader .rb-writeline { border-bottom: 1px dotted #A9B4CD; height: 0; margin-bottom: auto; }
+.section-reader .rb-box.focus .rb-writeline { border-bottom-color: #1E3A8A; }
+.section-reader .rb-box.locked { border: 1.5px solid #B0AA98; cursor: default; }
+.section-reader .rb-answer { font-family: var(--font-sans); font-size: 15px; line-height: 1.34; color: #0A0A0A; margin-bottom: auto; }
+.section-reader .rb-sample { font-family: var(--font-type); font-size: 12.5px; color: #6B6B6B; min-height: 16px; opacity: 0; transform: translateY(-3px); transition: opacity .3s ease, transform .3s ease; }
+.section-reader .rb-box.locked .rb-sample { opacity: 1; transform: none; }
+.section-reader .rb-sample.warn { color: var(--incorrect, #B0504C); opacity: 1; transform: none; }
+.section-reader .rb-box.wrong { border-color: var(--incorrect, #B0504C); animation: rb-shake .34s; }
+.section-reader .rb-box.wrong input { color: var(--incorrect, #B0504C); }
+@keyframes rb-shake { 0%,100% { transform: translateX(0); } 20% { transform: translateX(-4px); } 45% { transform: translateX(4px); } 70% { transform: translateX(-2px); } }
+.section-reader .rb-foot { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 12px 20px; border-top: 2px solid #1E3A8A; background: #FCFBF7; min-height: 46px; }
+.section-reader .rb-count { font-family: var(--font-type); font-size: 12px; letter-spacing: .08em; color: #6B6B6B; }
+.section-reader .rb-foot.done .rb-count { color: #1E3A8A; }
+.section-reader .rb-scrawl { font-family: var(--font-hand); font-size: 20px; color: #C8534F; transform: rotate(-1.5deg); opacity: 0; transition: opacity .4s ease .15s; }
+.section-reader .rb-foot.done .rb-scrawl { opacity: 1; }
+/* the three-business-day clock, revealed on completion */
+.section-reader .rb-clock { border-top: 1px solid var(--hair, #E5E5E5); padding: 16px 20px 18px; }
+.section-reader .rb-clock-h { font-family: var(--font-type); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: #1E3A8A; margin-bottom: 10px; }
+.section-reader .rb-strip { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
+.section-reader .rb-day { border: 1px solid var(--hair, #E5E5E5); padding: 8px 6px; text-align: center; background: #fff; }
+.section-reader .rb-day-lab { display: block; font-family: var(--font-type); font-size: 12.5px; color: #0A0A0A; }
+.section-reader .rb-day-n { display: block; font-family: var(--font-type); font-size: 10px; letter-spacing: .04em; color: #A8A8A8; margin-top: 3px; }
+.section-reader .rb-day.applied { background: var(--royal-faint, #E8EDF7); border-color: #1E3A8A; }
+.section-reader .rb-day.applied .rb-day-n { color: #1E3A8A; }
+.section-reader .rb-day.closed { background: #F4F4F2; border-style: dashed; }
+.section-reader .rb-day.closed .rb-day-lab { color: #A8A8A8; }
+.section-reader .rb-day.due { background: var(--correct-faint, #E8F2EC); border-color: var(--correct, #15803D); }
+.section-reader .rb-day.due .rb-day-lab, .section-reader .rb-day.due .rb-day-n { color: var(--correct, #15803D); }
+.section-reader .rb-clock-note { font-size: 13.5px; line-height: 1.55; color: #2a2a2a; margin: 12px 0 0; }
+@media (prefers-reduced-motion: reduce) { .section-reader .rb *, .section-reader .rb { animation: none !important; transition: none !important; } }
+@media (max-width: 720px) { .section-reader .rb-boxes { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 560px) { .section-reader .rb-strip { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 460px) { .section-reader .rb-boxes { grid-template-columns: 1fr; } .section-reader .rb-box { min-height: 104px; } }

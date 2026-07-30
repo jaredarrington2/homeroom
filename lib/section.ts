@@ -53,6 +53,11 @@ export type DisclosureVisualKind =
  *  Steps + scenario + derive() live in content/worksheets/<kind>.ts. */
 export type WorksheetKind = "fha-structure" | "purchase" | "va-structure" | "ratios";
 
+/** A free-recall drill rendered as a fillable intake sheet (RecallBoxes.tsx, a client
+ *  component). The learner names each required item in their own words, in any order;
+ *  a phrase/keyword matcher resolves the entry. Items live in content/drills/<kind>.ts. */
+export type RecallDrillKind = "six-items";
+
 /** A hand-rolled SVG viz widget (CapLadder.tsx, a client component) — a flat white chart card,
  *  not a skeuomorphic document (charts aren't documents). arm-cap-ladder drills the ARM
  *  worst-case rate climb; amortization is the second instance on the same shell (later).
@@ -209,6 +214,9 @@ export interface ConceptGroup {
   /** 0–1 hand-drawn ink "study card" (InkCard.tsx, server-rendered). A cream card whose blue-ink
    *  SVG diagram teaches one repayment concept. */
   inkCard?: "amortization" | "interest-only" | "re-cast" | "balloon";
+  /** 0–1 free-recall drill (RecallBoxes.tsx) — blank boxes the learner fills in their
+   *  own words. Teaches a required set by making the reader produce it, not read it. */
+  recall?: RecallDrillKind;
   /** 0–1 embedded practice surface (a self-contained client experience mounted in the scroll,
    *  same slot the worksheet and viz widgets use — never on its own page). Module 6:
    *  "maya-application" = the worked URLA (Application.tsx), "learn-forms" = the nine-form

@@ -25,6 +25,7 @@ import CapLadder from "./CapLadder";
 import PiggybackStack from "./PiggybackStack";
 import RepaymentShapes from "./RepaymentShapes";
 import InkCard from "./InkCard";
+import RecallBoxes from "./RecallBoxes";
 import Application from "./Application";
 import LearnForms from "./LearnForms";
 import DealDesk from "./DealDesk";
@@ -102,6 +103,7 @@ export default function UnitReader({
             {g.vizWidget && g.vizWidget !== "piggyback" && <CapLadder kind={g.vizWidget} />}
             {g.diagram === "repayment-shapes" && <RepaymentShapes />}
             {g.inkCard && <InkCard kind={g.inkCard} />}
+            {g.recall && <RecallBoxes kind={g.recall} />}
             {g.embed === "maya-application" && <Application embedded />}
             {g.embed === "learn-forms" && <LearnForms embedded />}
             {g.embed === "deal-desk" && <DealDesk />}
