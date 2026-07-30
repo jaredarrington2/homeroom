@@ -32,24 +32,24 @@ const unitsA: SectionUnit[] = [
       {
         paras: [
           {
-            html: `A renter calls on her lunch break. She has been reading listings for a month, she has a number in her head, and she wants to know what a mortgage would actually cost her. Nothing is signed. No form exists. This conversation — the <b>inquiry</b> — is where every loan file starts.`,
-          },
-          {
-            html: `The conversation has rules: what you may hand her, what you may charge her, and the exact moment it stops being casual. The law defines that moment precisely, and it arrives earlier than most new originators expect.`,
+            html: `A renter calls on her lunch break. She has been reading listings for a month, she has a number in her head, and she wants to know what a mortgage would actually cost her. She hasn't signed anything, and no form exists yet. This is an <b>inquiry</b> — the stage before an application exists.`,
           },
         ],
       },
       {
-        heading: 'earning the file',
+        heading: 'answering an inquiry',
         paras: [
           {
-            html: `The job in an inquiry is to understand the caller — her wants, her needs, and her qualifications — well enough to match her to the right financing. You may never recommend a product because it serves your own interest over hers. What you can do immediately is prepare her: give her the complete list of documents she will eventually need, and tell her to bring a valid government-issued <b>photo ID</b> that actually resembles her when she presents it.`,
+            html: `Your job on this call is to understand her situation well enough to match her to financing that fits. You may never point her toward a product because it pays you better than the alternative.`,
           },
           {
-            html: `You may not demand paperwork as the price of an answer. Supporting documents — pay stubs, bank statements, tax returns — may never be required as a condition of issuing an estimate. You can explain, truthfully, that an application built on real documents makes for a smoother transaction. You cannot withhold numbers until she produces them.`,
+            html: `Two things help her right away: the full list of documents she will eventually need, and a reminder to bring valid government-issued <b>photo ID</b>.`,
           },
           {
-            html: `This stage of the work lives in the <b>CRM</b> — the customer relationship system (Surefire and BNTouch are common). It holds the lead record, the contact history, which referral partner sent her, and any rate alerts set for her — plus her consent to be called or texted at all, which the Telephone Consumer Protection Act requires before marketing calls. When she moves forward, the lead record hands off to the loan origination system.`,
+            html: `What you may not do is require those documents before you answer. Pay stubs, bank statements, and tax returns are never a condition of giving someone an estimate. You can tell her that an application built on real documents runs more smoothly; you cannot hold the numbers until she produces them.`,
+          },
+          {
+            html: `This part of the work lives in the <b>CRM</b> — the customer relationship system, usually Surefire or BNTouch. It holds her lead record, every call and email so far, which referral partner sent her, and any rate alerts set for her. It also holds her consent to be called or texted at all, which the Telephone Consumer Protection Act requires before you market to her. When she moves forward, the lead record hands off to the loan origination system.`,
           },
         ],
       },
@@ -57,10 +57,13 @@ const unitsA: SectionUnit[] = [
         heading: 'the six items that make an application',
         paras: [
           {
-            html: `TRID draws the line with a list. The moment you hold six pieces of information — the consumer's name, her income, her Social Security number, the property's address, the property's value or purchase price, and a loan amount — an <b>application</b> exists. It does not matter whether she meant to apply. It does not matter that no form was filled out. Six items in your hands, and the clock starts.`,
+            html: `Six pieces of information turn a conversation into an <b>application</b>. TRID names them, and the list is exact:<ul><li>Her name</li><li>Her income</li><li>Her <span class="cloze" data-accept='["social security number","ssn","social security"]' data-reveal="Social Security number">?</span></li><li>The property's address</li><li>The property's value or purchase price</li><li>The loan amount</li></ul>`,
           },
           {
-            html: `From that moment the lender owes her a Loan Estimate within <span class="cloze" data-accept='["three","3","three general business days","3 general business days"]' data-reveal="three">?</span> general business days. Five of the six items surface naturally in any serious conversation about a specific home; the one shoppers rarely hand over by accident is the <span class="cloze" data-accept='["social security number","ssn","social security"]' data-reveal="Social Security number">?</span>. An originator who has that almost always has an application.`,
+            html: `It makes no difference that she never meant to apply, or that no form was signed. Once all six are in your hands, the lender owes her a Loan Estimate within <span class="cloze" data-accept='["three","3","three general business days","3 general business days"]' data-reveal="three">?</span> general business days.`,
+          },
+          {
+            html: `Five of the six come up naturally in any serious conversation about a specific house. The Social Security number is the one a shopper rarely volunteers, so an originator who has that is usually holding an application without realizing it.`,
           },
         ],
         synth: {
@@ -72,21 +75,27 @@ const unitsA: SectionUnit[] = [
         heading: 'the two estimates',
         paras: [
           {
-            html: `When an inquirer asks for numbers before an application exists, you answer with one of two documents. The <b>Cost Estimate</b> is the informal one: non-binding, no universal format, and it commits the lender to nothing. It carries one hard rule — the front page must warn, near the top, in <span class="cloze" data-accept='["12","twelve","12-point","12 point"]' data-reveal="12">?</span>-point type or larger: <i>“Your actual rate and costs could be higher. Get an official Loan Estimate before choosing your loan.”</i> And it may never be dressed up to resemble a Loan Estimate, a Closing Disclosure, or the old Good Faith Estimate.`,
+            html: `She wants a number before she commits to anything. Two documents can give her one.`,
           },
           {
-            html: `The <b>Loan Estimate</b> is the formal one, and a lender may choose to issue it even without an application. Issuing it costs the lender something real: every non-interest fee on it must be honored for at least <span class="cloze" data-accept='["ten","10","10 days","ten days"]' data-reveal="ten">?</span> days from issuance.`,
+            html: `The <b>Cost Estimate</b> is the informal option: no standard format, and it commits the lender to nothing. It carries a single requirement — near the top of the front page, in <span class="cloze" data-accept='["12","twelve","12-point","12 point"]' data-reveal="12">?</span>-point type or larger: <i>“Your actual rate and costs could be higher. Get an official Loan Estimate before choosing your loan.”</i> It may never be dressed up to look like a Loan Estimate, a Closing Disclosure, or the old Good Faith Estimate.`,
           },
           {
-            html: `One fee, and only one, may be requested before the Loan Estimate goes out and the consumer expresses intent to proceed: the cost of the <span class="cloze" data-accept='["credit report","the credit report","credit"]' data-reveal="credit report">?</span>.`,
+            html: `The <b>Loan Estimate</b> is the standardized form, and a lender may issue one even before an application exists. Doing so binds the lender to its numbers: every non-interest fee printed on it must be honored for at least <span class="cloze" data-accept='["ten","10","10 days","ten days"]' data-reveal="ten">?</span> days.`,
+          },
+          {
+            html: `Until the Loan Estimate goes out and she says she wants to proceed, there is exactly one fee you may collect from her — the cost of the <span class="cloze" data-accept='["credit report","the credit report","credit"]' data-reveal="credit report">?</span>.`,
           },
         ],
       },
       {
-        heading: 'three options, not one',
+        heading: 'the three options',
         paras: [
           {
-            html: `When it comes time to present solutions, the safe practice — and the safe harbor against steering — is to offer no fewer than <span class="cloze" data-accept='["three","3"]' data-reveal="three">?</span>: one priced at the <b>par</b> rate, one at a higher rate with lower costs, and one at a lower rate with higher costs. Par is the market rate with nothing added and nothing rebated; the other two trade the rate against the cash it takes to get it. Offering all three puts the choice of trade where it belongs — with the borrower.`,
+            html: `If you show a borrower a single product, you invite the suspicion that you picked the one paying you most. The practice that answers it — and the safe harbor against a steering complaint — is to put at least <span class="cloze" data-accept='["three","3"]' data-reveal="three">?</span> in front of her:<ul><li>One at the <b>par</b> rate — the market rate, with nothing paid up front and nothing rebated</li><li>One at a higher rate, with lower costs</li><li>One at a lower rate, with higher costs</li></ul>`,
+          },
+          {
+            html: `All three carry the same trade in different proportions — what she pays up front against what she pays every month. Which proportion suits her is her decision, not yours.`,
           },
         ],
       },
@@ -94,13 +103,13 @@ const unitsA: SectionUnit[] = [
         heading: 'what you may never do',
         paras: [
           {
-            html: `You are not the underwriter, so you may never tell an applicant that her loan will be approved or declined — that decision belongs to <span class="cloze" data-accept='["the underwriter","underwriter","underwriting","an underwriter"]' data-reveal="the underwriter">?</span> alone. You may never discourage anyone from applying, either.`,
+            html: `You are not the underwriter, so you may never tell her the loan will be approved or declined. That decision belongs to <span class="cloze" data-accept='["the underwriter","underwriter","underwriting","an underwriter"]' data-reveal="the underwriter">?</span> alone. You may never discourage anyone from applying, either.`,
           },
           {
-            html: `There are exactly three people you may refuse to work with: someone under age <span class="cloze" data-accept='["18","eighteen"]' data-reveal="18">?</span>, someone committing or who has committed fraud, and someone who is mentally incompetent. Everyone else who wants an application gets one.`,
+            html: `Three situations, and only three, let you refuse to work with someone:<ul><li>She is under <span class="cloze" data-accept='["18","eighteen"]' data-reveal="18">?</span></li><li>She is committing fraud, or has committed it</li><li>She is mentally incompetent</li></ul>Anyone else who wants an application gets one.`,
           },
           {
-            html: `And once an inquirer shares non-public personal information — income figures, account balances, a Social Security number — you are bound to protect it and keep it from anyone who lacks a specific business purpose to see it.`,
+            html: `And the moment she shares non-public personal information — what she earns, what she has in the bank, her Social Security number — you are responsible for keeping it from anyone without a business reason to see it.`,
           },
         ],
       },
@@ -108,13 +117,13 @@ const unitsA: SectionUnit[] = [
         heading: 'matching the product to the person',
         paras: [
           {
-            html: `The first question that shapes everything else is <b>purpose</b>: a purchase, a refinance, a reverse mortgage, a home-equity line, a second loan. Each points at a different shelf of the catalog Module 5 taught.`,
+            html: `Everything else follows from <b>purpose</b>. Is she buying, refinancing, pulling cash out of a home she already owns, opening a home-equity line, or adding a second loan? Each answer sends you to a different part of the catalog Module 5 covered.`,
           },
           {
-            html: `From there, suitability is a short interview: what kind of property and how she will occupy it, her income and existing debt, her credit score, her savings, her employment history, how long she plans to own — which drives the fixed-versus-adjustable call — and when she plans to buy.`,
+            html: `After that, suitability is a short interview: the property type and how she will occupy it, her income against her existing debt, her credit score, her savings, how steady her work has been, how long she plans to stay — which decides fixed against adjustable — and when she wants to buy.`,
           },
           {
-            html: `The duty underneath is fiduciary. If the product that serves her best is one your company doesn't offer, you name it, explain it, and point her toward a lender that has it. If she still chooses to work with you after that conversation, you document it and proceed with what you do offer.`,
+            html: `Underneath all of it you are held to her interest ahead of your own, a <b>fiduciary</b> duty. So when the loan that fits her best is one your company doesn't offer, you tell her it exists, explain it, and point her toward a lender who has it. If she still wants to work with you after that conversation, document it and proceed with what you do offer.`,
           },
         ],
         synth: {
