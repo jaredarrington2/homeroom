@@ -27,9 +27,6 @@ const m5Jumbo: SectionContent = {
             {
               html: `Any loan above the conforming limit is jumbo. The key is: <strong>jumbo leaves the agency path.</strong> Fannie and Freddie won't buy it. A loan officer can't use their DU/LPA underwriting system. A different set of investors (banks, funds, private securitizers) step in.`,
             },
-            {
-              html: `Pylon started with conventional and jumbo. No FHA, VA, USDA. This means Pylon handles the simplest end of the product menu (conforming + high-balance) plus the most premium end (jumbo). Everything in between (government programs) is in the roadmap.`,
-            },
           ],
         },
       ],
@@ -107,9 +104,6 @@ const m5Jumbo: SectionContent = {
             },
             {
               html: `Sometimes jumbo rates are actually <strong>better</strong> than conforming rates (when banks are seeking deposits). Sometimes they're worse by 75bps or more (when capital is tight). The relationship matters — a jumbo lender with a direct pipeline to a portfolio bank can often beat other originators on price.`,
-            },
-            {
-              html: `This is also why Pylon's capital markets infrastructure matters. Direct access to jumbo buyers means per-loan routing to whoever pays most, rather than going through wholesale correspondents who take a margin.`,
             },
           ],
         },

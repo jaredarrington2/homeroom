@@ -112,7 +112,7 @@ const m5FHADepth: SectionContent = {
           heading: "How the limits move",
           paras: [
             {
-              html: `The conforming loan limit is set annually based on a housing-price index. FHA's base limit is usually <span class="cloze" data-accept='["100%","one hundred percent"]' data-reveal="100%">?</span> of the conforming limit (in most areas). In high-cost areas, FHA goes as high as <span class="cloze" data-accept='["150%","one hundred fifty percent"]' data-reveal="150%">?</span> of conforming. This means Pylon can offer FHA financing on larger loans than many people realize — it's not just for first-time homebuyers with 3% down.`,
+              html: `The conforming loan limit is set annually based on a housing-price index. FHA's base limit is usually <span class="cloze" data-accept='["100%","one hundred percent"]' data-reveal="100%">?</span> of the conforming limit (in most areas). In high-cost areas, FHA goes as high as <span class="cloze" data-accept='["150%","one hundred fifty percent"]' data-reveal="150%">?</span> of conforming. FHA financing therefore reaches larger loans than many borrowers realize — it is not only for first-time buyers putting 3.5% down.`,
             },
           ],
         },
