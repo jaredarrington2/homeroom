@@ -9,21 +9,21 @@
       "id": "audio-who-makes-the-rules-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "No single office runs the mortgage industry. A handful of federal bodies, plus every state, each own a slice: some protect the consumer, some insure or guarantee specific loan programs, one oversees the secondary market, and the states handle licensing on the ground. A later module covers each in depth."
+      "text": "No single office runs the mortgage industry. A handful of federal bodies, plus every single state, each own a slice. Some protect the consumer, some insure or guarantee specific loan programs, one oversees the secondary market, and the states handle licensing on the ground. This is the overview — a later module takes each one in depth."
     },
     {
       "kind": "prose",
       "id": "audio-who-makes-the-rules-g1-p0",
       "gi": 1,
       "pi": 0,
-      "text": "The main consumer regulator is the Consumer Financial Protection Bureau. Created after the 2008 crisis, the CFPB writes and enforces most of the consumer-protection laws an MLO deals with — the disclosure and fair-dealing rules that govern how a loan is quoted, priced, and closed. It's the agency that polices how borrowers are treated."
+      "text": "The main consumer regulator is the Consumer Financial Protection Bureau. Created after the two thousand eight crisis, the C-F-P-B writes and enforces most of the consumer-protection laws you'll deal with as an originator — the disclosure and fair-dealing rules that govern how a loan gets quoted, priced, and closed. If a rule is about how the borrower was treated, it's probably theirs."
     },
     {
       "kind": "prose",
       "id": "audio-who-makes-the-rules-g2-p0",
       "gi": 2,
       "pi": 0,
-      "text": "A second cluster insures or guarantees specific kinds of loans. HUD — the Department of Housing and Urban Development — oversees housing and fair-lending programs, and the FHA (Federal Housing Administration) operates inside HUD, insuring loans for lower-down-payment borrowers. The VA (Department of Veterans Affairs) guarantees loans for veterans and service members, and the USDA guarantees loans for buyers in qualifying rural areas. These bodies don't police disclosures the way the CFPB does; they make their loan programs possible by insuring or guaranteeing them."
+      "text": "A second cluster insures or guarantees particular kinds of loans. HUD — the Department of Housing and Urban Development — oversees housing and fair-lending programs, and the F-H-A, the Federal Housing Administration, operates inside HUD, insuring loans for lower-down-payment borrowers. The V-A, the Department of Veterans Affairs, guarantees loans for veterans and service members. The U-S-D-A guarantees loans for buyers in qualifying rural areas. None of these bodies police disclosures the way the C-F-P-B does. They make their loan programs possible by insuring or guaranteeing them. And watch those two verbs — F-H-A insures, V-A and U-S-D-A guarantee. The exam does not treat them as synonyms."
     },
     {
       "kind": "gate",
@@ -36,7 +36,7 @@
       "id": "audio-who-makes-the-rules-g3-p0",
       "gi": 3,
       "pi": 0,
-      "text": "The FHFA — the Federal Housing Finance Agency — oversees Fannie Mae and Freddie Mac. Licensing, finally, happens at the state level: a state regulator issues and supervises the license through the NMLS, the national system that tracks every originator across states and employers. The FHFA oversees the GSEs; the states license the people."
+      "text": "The F-H-F-A — the Federal Housing Finance Agency — oversees Fannie Mae and Freddie Mac. And licensing, finally, happens at the state level. A state regulator issues and supervises your license, and does it through the N-M-L-S, the national system that tracks every originator across states and employers. Here's how much that matters in practice. Around a hundred and fifty-eight thousand people renewed an originator license in a recent year, and between them they held roughly five hundred sixty-eight thousand state licenses. Three and a half licenses each. One person, one exam, and then a separate license for every state they want to lend in. So: the F-H-F-A oversees the G-S-E-s. The states license the people."
     },
     {
       "kind": "gate",

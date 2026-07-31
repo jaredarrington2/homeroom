@@ -9,14 +9,14 @@
       "id": "audio-why-rules-exist-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "The mortgage rulebook wasn't written in the abstract; it was written in response to a disaster. Almost every major consumer-protection rule traces back to what went wrong in the years before 2008 — each one a patch over a specific failure."
+      "text": "The mortgage rulebook wasn't written in the abstract. It was written in response to a disaster. Almost every major consumer-protection rule in this course traces back to something that went wrong in the years before two thousand eight — each rule a patch over a specific failure. Which is good news for studying, actually. These rules are much easier to remember as answers than as lists."
     },
     {
       "kind": "prose",
       "id": "audio-why-rules-exist-g1-p0",
       "gi": 1,
       "pi": 0,
-      "text": "In the years before the crash, credit was easy and standards were thin. Lenders wrote no-doc loans — mortgages made with little or no verification of income, assets, or employment — because risky loans were profitable and could be sold off to investors. Worse, lenders practiced risk layering: stacking several risky features on one loan at once, so a borrower might get a no-doc loan and an adjustable rate and a tiny down payment, each danger compounding the next. Underneath it all, one thing was missing: no one checked whether the borrower could actually repay."
+      "text": "In the years before the crash, credit was easy and standards were thin. Lenders wrote no-doc loans — mortgages made with little or no verification of income, assets, or employment — because risky loans were profitable and could be sold off to investors. Worse, lenders practiced risk layering: stacking several risky features onto one loan at once. So a borrower might get a no-doc loan and an adjustable rate and a tiny down payment, each danger compounding the next. And nobody was checking the simplest question of all — whether the borrower could actually repay."
     },
     {
       "kind": "gate",
@@ -29,35 +29,35 @@
       "id": "audio-why-rules-exist-g2-p0",
       "gi": 2,
       "pi": 0,
-      "text": "When home prices stopped rising and adjustable payments reset upward, borrowers who never should have qualified began to default in the millions. Their loans had been bundled and sold to investors around the world, so the losses didn't stay local — they spread through the entire financial system. In September 2008, Lehman Brothers collapsed, lending froze, and the crisis reached every front page."
+      "text": "When home prices stopped rising and adjustable payments reset upward, borrowers who never should have qualified began to default in the millions. Their loans had been bundled and sold to investors around the world, so the losses didn't stay local. They spread through the entire financial system. In September of two thousand eight, Lehman Brothers collapsed, lending froze, and the crisis reached every front page on earth."
     },
     {
       "kind": "prose",
       "id": "audio-why-rules-exist-g2-p1",
       "gi": 2,
       "pi": 1,
-      "text": "Over the next several years, roughly ten million American families lost their homes to foreclosure. Household net worth fell about $11 trillion in 2008 alone — the steepest one-year drop on record — and the national homeownership rate sank to a fifty-year low. Millions of children changed schools or moved in with relatives; whole blocks stood empty. The damage outlasted the headlines by a decade."
+      "text": "Over the next several years, roughly ten million American families lost their homes to foreclosure. Household net worth fell about eleven trillion dollars in two thousand eight alone — the steepest one-year drop on record — and the national homeownership rate sank to a fifty-year low. Millions of children changed schools or moved in with relatives. Whole blocks stood empty. The damage outlasted the headlines by a decade."
     },
     {
       "kind": "prose",
       "id": "audio-why-rules-exist-g2-p2",
       "gi": 2,
       "pi": 2,
-      "text": "Every one of those foreclosures began as a loan someone originated — often one that should never have been written. That is why the rules in this course exist: the licensing, the disclosures, and the verification steps that follow are all answers to one hard lesson — when the industry stops checking whether borrowers can repay, real families lose their homes."
+      "text": "And every one of those foreclosures began as a loan somebody originated. Often a loan that should never have been written in the first place. That's why the rules in this course exist. The licensing, the disclosures, the verification steps — they're all answers to one hard lesson. When the industry stops checking whether borrowers can repay, real families lose their homes. You're going to be the person doing the checking."
     },
     {
       "kind": "prose",
       "id": "audio-why-rules-exist-g3-p0",
       "gi": 3,
       "pi": 0,
-      "text": "Congress answered with a wave of law. The SAFE Act (2008) created a national system to license, register, and track every loan originator, so bad actors could no longer resign and start over untracked. Two years later, the Dodd-Frank Act (2010) overhauled financial regulation and created the Consumer Financial Protection Bureau — the CFPB — to enforce consumer financial protection law."
+      "text": "Congress answered with a wave of law. The SAFE Act, in two thousand eight, created a national system to license, register, and track every loan originator. Before it, an originator caught doing something illegal in one state could pack up, cross a state line, and start over — no questions asked, no record following them. That's the hole the SAFE Act closed, and it's why your N-M-L-S number stays with you for your entire career. Two years later the Dodd-Frank Act of two thousand ten overhauled financial regulation and created the Consumer Financial Protection Bureau, to enforce consumer financial protection law."
     },
     {
       "kind": "prose",
       "id": "audio-why-rules-exist-g4-p0",
       "gi": 4,
       "pi": 0,
-      "text": "The most direct fix targeted the original failure. Under the ability-to-repay (ATR) rule, a lender must verify that a borrower can actually repay — checking income, assets, debts, and employment — before making the loan. It's the legal inverse of the no-doc loan: the practice that fueled the crisis is now the one the law forbids. Every piece of the framework — the SAFE Act's licensing, the CFPB's enforcement, Dodd-Frank's rules, ATR's verification — exists because the old, unchecked way of lending broke the system."
+      "text": "The most direct fix went straight at the original failure. Under the ability-to-repay rule — A-T-R — a lender has to verify that a borrower can actually repay, checking income, assets, debts, and employment, before making the loan. It's the legal inverse of the no-doc loan: the practice that fueled the crisis is now the practice the law forbids. Every piece of the framework you're about to learn — the SAFE Act's licensing, the C-F-P-B's enforcement, Dodd-Frank's rules, A-T-R's verification — exists because the old, unchecked way of lending broke the system. And that's Module One. You now have the vocabulary the rest of this course assumes: the note and the lien, what a payment is actually made of, who does what, where the money comes from, who writes the rules, how a loan moves, what makes one loan different from another, what sets its price, and why any of the rules exist at all. Everything from here is detail hung on that frame."
     },
     {
       "kind": "gate",

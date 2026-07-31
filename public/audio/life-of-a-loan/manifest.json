@@ -9,21 +9,21 @@
       "id": "audio-life-of-a-loan-g0-p0",
       "gi": 0,
       "pi": 0,
-      "text": "Every loan moves through the same stages in the same order, from the borrower's first form to the last payment years later, through a fixed sequence: application → processing → underwriting → appraisal/title → closing → servicing. A later module walks each stage in depth."
+      "text": "Every loan moves through the same stages, in the same order, from the borrower's first form to the last payment years later. Application, then processing, then underwriting, then appraisal and title, then closing, then servicing. Learn the order now and the rest of the course has somewhere to hang. A later module walks each stage in depth."
     },
     {
       "kind": "prose",
       "id": "audio-life-of-a-loan-g1-p0",
       "gi": 1,
       "pi": 0,
-      "text": "It begins with application: the borrower hands over their information and the loan officially exists — which also starts the clock on required disclosures. Next comes processing: a processor collects and organizes the supporting documents — income, assets, credit — into one complete file. Processing decides nothing; its job is to make the file whole and accurate before anyone judges it."
+      "text": "It begins with the application: the borrower hands over their information and the loan officially exists — which also starts the clock on required disclosures. That clock is real, it's counted in business days, and Module Three is going to hold you to it. Next comes processing. A processor collects and organizes the supporting documents — income, assets, credit — into one complete file. Processing decides nothing. Its whole job is to make the file whole and accurate before anybody judges it."
     },
     {
       "kind": "prose",
       "id": "audio-life-of-a-loan-g2-p0",
       "gi": 2,
       "pi": 0,
-      "text": "With a complete file in hand, underwriting makes the call: measuring the file against the guidelines and deciding approve, deny, or — most often — approve with conditions the borrower must still satisfy. Alongside that, the lender checks the property. An appraisal gives an independent opinion of what the home is worth, so the lender knows the home is worth enough to secure the debt; a title search confirms the seller really owns it, free of surprise liens or claims."
+      "text": "With a complete file in hand, underwriting makes the call: measuring the file against the guidelines and deciding approve, deny, or — most often — approve with conditions the borrower still has to satisfy. That middle outcome is the everyday one. A clean approval on the first pass is the exception, not the rule. Alongside that, the lender checks the property. An appraisal gives an independent opinion of what the home is worth, so the lender knows the collateral is worth enough to secure the debt. A title search confirms the seller really owns it, free of surprise liens or claims."
     },
     {
       "kind": "gate",
@@ -36,7 +36,7 @@
       "id": "audio-life-of-a-loan-g3-p0",
       "gi": 3,
       "pi": 0,
-      "text": "Once the loan is approved and the property checks out, the deal reaches closing: the borrower signs the final documents, money changes hands, and ownership transfers. The loan's life is only beginning, though. After closing comes servicing — the longest stage by far — where a servicer collects the monthly payment, manages escrow, and handles the account for years, often for the loan's entire term."
+      "text": "Once the loan is approved and the property checks out, the deal reaches closing: the borrower signs the final documents, money changes hands, and ownership transfers. But the loan's life is only beginning. After closing comes servicing — the longest stage by far — where a servicer collects the monthly payment, manages escrow, and handles the account for years, often for the loan's entire term. Everything before closing might take forty-five days. Servicing can run thirty years."
     },
     {
       "kind": "gate",
