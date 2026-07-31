@@ -1,5 +1,5 @@
 /**
- * scripts/generate-audio-11.ts — pre-generate Module 3 narration via ElevenLabs (Bryce / v2).
+ * scripts/generate-audio-11.ts — pre-generate reader narration via ElevenLabs (Bryce / v2).
  *
  * Runs LOCALLY ONLY. The deployed app plays the static per-segment mp3s this writes into
  * public/audio/<unitId>/. One mp3 per paragraph, named to match the DOM id from
@@ -16,6 +16,7 @@
  */
 import * as fs from "fs";
 import * as path from "path";
+import section1 from "../content/sections/section-1";
 import section3 from "../content/sections/section-3";
 import section5 from "../content/sections/section-5";
 import { unitManifest, isSegment, type UnitManifest } from "../lib/audioText";
@@ -27,7 +28,7 @@ const REQUEST_GAP_MS = 250;
 const CHARS_PER_SEC = 14.5;
 
 const AUDIO_ROOT = path.join(process.cwd(), "public", "audio");
-const ALL_UNITS = [...section3.units, ...section5.units];
+const ALL_UNITS = [...section1.units, ...section3.units, ...section5.units];
 
 // Phonetic spellings for the ear only — the on-screen text stays the real acronym. Applied to
 // the spoken string right before TTS. RESPA="Ress-puh" is user-confirmed on Bryce/v2.
@@ -54,14 +55,14 @@ const PRONUNCIATION: Array<[RegExp, string]> = [
   [/\bFHA\b/g, "F-H-A"],
   [/\bVA\b/g, "V-A"],
   [/\bUSDA\b/g, "U-S-D-A"],
-  [/\bMIP\b/g, "M-I-P"],
+  [/\bMIP\b/g, "mortgage insurance premium"],
   [/\bUFMIP\b/g, "U-F-M-I-P"],
   [/\bDTI\b/g, "D-T-I"],
   [/\bHECM\b/g, "heck-um"],
   [/\bGSE\b/g, "G-S-E"],
   [/\bGSEs\b/g, "G-S-Es"],
-  [/\bARM\b/g, "A-R-M"],
-  [/\bARMs\b/g, "A-R-Ms"],
+  [/\bARM\b/g, "arm"],
+  [/\bARMs\b/g, "arms"],
   [/\bNMLS\b/g, "N-M-L-S"],
   [/\bTSR\b/g, "T-S-R"],
   [/\bDNC\b/g, "D-N-C"],
@@ -69,6 +70,16 @@ const PRONUNCIATION: Array<[RegExp, string]> = [
   [/\bSARs\b/g, "S-A-Rs"],
   [/\bCTR\b/g, "C-T-R"],
   [/\bOFAC\b/g, "Oh-fack"],
+  // Module 1 additions. HUD and PITI are words, not letters (Jared's ear: PITI = "pity",
+  // ARM = "arm" — both changed above from the letter spellings). MIP is spoken in full;
+  // PMI stays letters.
+  [/\bFHFA\b/g, "F-H-F-A"],
+  [/\bMBS\b/g, "M-B-S"],
+  [/\bATR\b/g, "A-T-R"],
+  [/\bMLO\b/g, "M-L-O"],
+  [/\bMLOs\b/g, "M-L-Os"],
+  [/\bPITI\b/g, "pity"],
+  [/\bHUD\b/g, "hud"],
 ];
 
 function phoneticize(text: string): string {
