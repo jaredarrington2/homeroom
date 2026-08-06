@@ -92,8 +92,15 @@ export async function GET() {
     /* KV without KEYS support — the accounts table is still useful on its own */
   }
 
+  // Filter out orphans that have been claimed or dismissed by the current admin
+  const { getAccount } = await import('@/lib/accounts');
+  const adminAccount = await getAccount(account.id);
+  const claimed = adminAccount?.claimedOrphans ?? [];
+  const dismissed = adminAccount?.dismissedOrphans ?? [];
+  const visibleOrphans = orphans.filter((o) => !claimed.includes(o.anonId) && !dismissed.includes(o.anonId));
+
   return NextResponse.json(
-    { users, orphans, adminEmail: account.email },
+    { users, orphans: visibleOrphans, adminEmail: account.email },
     { headers: { 'Cache-Control': 'private, no-store' } },
   );
 }

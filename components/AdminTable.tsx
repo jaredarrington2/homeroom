@@ -39,6 +39,7 @@ export default function AdminTable({ adminEmail }: { adminEmail: string }) {
   const [orphans, setOrphans] = useState<OrphanRow[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [claiming, setClaiming] = useState<string | null>(null);
+  const [dismissing, setDismissing] = useState<string | null>(null);
   const [note, setNote] = useState<string | null>(null);
 
   const load = useCallback(() => {
@@ -63,7 +64,7 @@ export default function AdminTable({ adminEmail }: { adminEmail: string }) {
       const res = await fetch('/api/admin/claim', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ anonId }),
+        body: JSON.stringify({ anonId, action: 'claim' }),
       });
       const data = await res.json().catch(() => ({}));
       setNote(
@@ -74,6 +75,20 @@ export default function AdminTable({ adminEmail }: { adminEmail: string }) {
       if (res.ok) load();
     } finally {
       setClaiming(null);
+    }
+  }
+
+  async function dismiss(anonId: string) {
+    setDismissing(anonId);
+    try {
+      const res = await fetch('/api/admin/claim', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ anonId, action: 'dismiss' }),
+      });
+      if (res.ok) load();
+    } finally {
+      setDismissing(null);
     }
   }
 
@@ -156,18 +171,17 @@ export default function AdminTable({ adminEmail }: { adminEmail: string }) {
         </div>
       )}
 
-      {orphans.length > 0 && (
+      {orphans.length > 0 && adminEmail === 'jared@stellee.co' && (
         <section className="mt-16">
           <h2 className="font-display text-2xl font-semibold tracking-display text-ink mb-2">
             Progress from before accounts
           </h2>
           <p className="text-sm text-ink-muted max-w-reading mb-6 leading-relaxed">
-            Work saved against a browser rather than an account. Claiming one merges it into{' '}
-            {adminEmail} — nothing already on that account is overwritten.
+            Work saved against a browser rather than an account. Claiming one merges it permanently into your account — nothing already on your account is overwritten. Once claimed, it won't appear here again.
           </p>
           {note && <p className="text-sm text-royal mb-4">{note}</p>}
           <div className="overflow-x-auto">
-            <table className="w-full border-collapse min-w-[34rem]">
+            <table className="w-full border-collapse min-w-[40rem]">
               <thead>
                 <tr className="border-b border-hairline">
                   <th className={TH}>Device record</th>
@@ -182,10 +196,18 @@ export default function AdminTable({ adminEmail }: { adminEmail: string }) {
                     <td className={`${TD} font-mono text-xs text-ink-muted`}>{o.anonId.slice(0, 8)}…</td>
                     <td className={TD}>{o.sectionsRead}</td>
                     <td className={`${TD} text-ink-muted`}>{when(o.updatedAt)}</td>
-                    <td className={`${TD} text-right`}>
+                    <td className={`${TD} text-right flex gap-3 justify-end`}>
+                      <button
+                        onClick={() => dismiss(o.anonId)}
+                        disabled={dismissing === o.anonId || claiming === o.anonId}
+                        className="text-sm text-ink-muted hover:text-ink disabled:opacity-50"
+                        title="Don't ask about this device again"
+                      >
+                        {dismissing === o.anonId ? '…' : '✕'}
+                      </button>
                       <button
                         onClick={() => claim(o.anonId)}
-                        disabled={claiming === o.anonId}
+                        disabled={claiming === o.anonId || dismissing === o.anonId}
                         className="text-sm text-royal hover:underline disabled:opacity-50"
                       >
                         {claiming === o.anonId ? 'Merging…' : 'Claim'}

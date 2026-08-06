@@ -23,10 +23,28 @@ export async function POST(req: NextRequest) {
   if (!isAdminEmail(account.email)) return NextResponse.json({ ok: false, error: 'forbidden' }, { status: 403 });
 
   const body = await req.json().catch(() => null);
-  const anonId = typeof body?.anonId === 'string' ? body.anonId : '';
-  if (!UUID_RE.test(anonId)) return NextResponse.json({ ok: false, error: 'bad id' }, { status: 400 });
+  const { anonId, action } = body ?? {};
+  if (typeof anonId !== 'string' || !UUID_RE.test(anonId)) {
+    return NextResponse.json({ ok: false, error: 'bad id' }, { status: 400 });
+  }
 
   try {
+    const { getAccount } = await import('@/lib/accounts');
+    const acc = await getAccount(account.id);
+    if (!acc) return NextResponse.json({ ok: false, error: 'account not found' }, { status: 404 });
+
+    if (action === 'dismiss') {
+      // Mark orphan as dismissed (don't claim it, just hide it from future lists)
+      const dismissed = acc.dismissedOrphans ?? [];
+      if (!dismissed.includes(anonId)) {
+        dismissed.push(anonId);
+        acc.dismissedOrphans = dismissed;
+        await kv.set(`account:${account.id}`, acc);
+      }
+      return NextResponse.json({ ok: true });
+    }
+
+    // Default action: claim (merge the orphan into the account)
     const anon = await kv.get<Progress>(`progress:${anonId}`);
     if (!anon) return NextResponse.json({ ok: false, error: 'no such blob' }, { status: 404 });
 
@@ -34,6 +52,15 @@ export async function POST(req: NextRequest) {
     const mine = (await kv.get<Progress>(key)) ?? emptyProgress();
     const merged = mergeProgress(mine, anon);
     await kv.set(key, merged);
+
+    // Mark as claimed so it doesn't appear again
+    const claimed = acc.claimedOrphans ?? [];
+    if (!claimed.includes(anonId)) {
+      claimed.push(anonId);
+      acc.claimedOrphans = claimed;
+      await kv.set(`account:${account.id}`, acc);
+    }
+
     return NextResponse.json({ ok: true, sectionsRead: merged.completedUnits.length });
   } catch {
     return NextResponse.json({ ok: false, error: 'kv' }, { status: 500 });

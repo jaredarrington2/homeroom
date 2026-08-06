@@ -47,11 +47,11 @@ const m5FHADepth: SectionContent = {
     {
       id: "fha-streamline",
       name: "FHA streamline refinance (203b)",
-      reg: "Interest Rate Reduction Refinance Loan · net tangible benefit · seasoning",
+      reg: "Streamline refinance · net tangible benefit · seasoning",
       definitions: [
         { term: "Streamline Refinance", def: "An accelerated FHA refinance (203b) whose purpose is lowering the borrower's rate, with reduced documentation and underwriting." },
-        { term: "Net Tangible Benefit", def: "The requirement that an FHA streamline must result in a monthly payment reduction (PITI + MIP) or a meaningful reduction in loan term. The borrower must benefit, not just refinance into a different rate." },
-        { term: "Seasoning", def: "The time a loan must be active before it can be refinanced. FHA streamlines require six months of seasoning (six on-time payments or proof of payment history)." },
+        { term: "Net Tangible Benefit", def: "The requirement that an FHA streamline actually helps the borrower: for fixed-to-fixed, the combined rate (note rate plus annual MIP) must drop by at least 0.5 percentage points; a reduction in loan term can also qualify. The borrower must benefit, not just refinance into a different rate." },
+        { term: "Seasoning", def: "The time a loan must be active before it can be refinanced. FHA streamlines require at least 210 days since the closing of the loan being refinanced and at least 6 monthly payments made, with the loan current." },
         { term: "Non-Credit-Qualifying Streamline", def: "An FHA streamline that does not require a new credit report or employment verification — only proof that the loan was seasoned and payments are current." },
       ],
       groups: [
@@ -59,7 +59,7 @@ const m5FHADepth: SectionContent = {
           heading: "When streamline applies",
           paras: [
             {
-              html: `A borrower with an existing FHA loan can streamline if the loan has been active for at least <span class="cloze" data-accept='["six months","6 months"]' data-reveal="six months">?</span> and payments are current (or show a 12-month history of on-time payments). Streamline is intended for rate reductions, not cash-out refinancing.`,
+              html: `A borrower with an existing FHA loan can streamline once at least <span class="cloze" data-accept='["210","210 days","two hundred ten"]' data-reveal="210">?</span> days have passed since the closing of the loan being refinanced and at least <span class="cloze" data-accept='["6","six","6 monthly payments","six monthly payments"]' data-reveal="6">?</span> monthly payments have been made, with the loan current. Streamline is intended for rate reductions, not cash-out refinancing.`,
             },
           ],
         },
@@ -67,7 +67,7 @@ const m5FHADepth: SectionContent = {
           heading: "The net tangible benefit test",
           paras: [
             {
-              html: `The new payment (including new MIP) must be lower than the old payment, <strong>or</strong> the loan term must drop meaningfully. A borrower who streamlines into a lower rate but keeps the same 30-year term gets a payment reduction. A borrower who extends the term does NOT have a net tangible benefit and cannot streamline.`,
+              html: `For a fixed-to-fixed streamline, the <b>combined rate</b> — note rate plus annual MIP — must drop by at least half a percentage point, <strong>or</strong> the loan term must be reduced. A borrower who streamlines into a meaningfully lower rate and keeps the same 30-year term passes the test. A borrower who refinances into essentially the same combined rate with no term reduction does NOT have a net tangible benefit and cannot streamline.`,
             },
           ],
         },

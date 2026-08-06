@@ -23,6 +23,8 @@ export type Account = {
   image?: string | null;
   createdAt: number;
   lastSeenAt: number;
+  claimedOrphans?: string[]; // v6.5 — orphan device blobs merged into this account
+  dismissedOrphans?: string[]; // v6.5 — orphan blobs the user chose not to claim
 };
 
 /** Public shape — never leaves the server with the hash attached. */
