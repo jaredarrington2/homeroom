@@ -14,7 +14,8 @@ function AppShellInner({ children }: { children: ReactNode }) {
   // device's anonymous blob, so without this the quiz lands on top of the login form.
   // /admin is excluded for the same reason: it isn't a study surface.
   const path = usePathname() || '';
-  const noQuiz = path.startsWith('/login') || path.startsWith('/admin');
+  // The landing page at / is the same case: a marketing surface, not a study one.
+  const noQuiz = path === '/' || path.startsWith('/login') || path.startsWith('/admin');
   return (
     <>
       {children}

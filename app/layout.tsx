@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
-import TopBar from '@/components/TopBar';
-import ReadingProgress from '@/components/ReadingProgress';
+import Chrome from '@/components/Chrome';
 import { AppShell } from '@/components/AppShell';
 
 export const metadata: Metadata = {
@@ -24,11 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="min-h-screen bg-paper text-ink font-sans antialiased">
         <AppShell>
-          <ReadingProgress />
-          <TopBar />
-          <main className="max-w-canvas mx-auto px-4 py-8">
-            {children}
-          </main>
+          <Chrome>{children}</Chrome>
         </AppShell>
       </body>
     </html>
